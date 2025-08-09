@@ -8,8 +8,15 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
+    "structlog",
+    "pydantic",
+    "pandas",
+    "torch",
+    "transformers",
+    "datasets",
+    "peft",
+    "wandb"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
