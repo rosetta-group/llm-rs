@@ -11,7 +11,6 @@ from peft import LoraConfig, get_peft_model, TaskType
 import structlog
 import wandb
 
-from project_secrets import hf_token
 from prepare_voynich_dataset import generate_datasets
 
 logger = structlog.get_logger()
@@ -78,7 +77,7 @@ def run_fine_tuning(config):
     )
 
     logger.info("Downloading tokenizer and model from huggingface hub")
-    tokenizer = LlamaTokenizer.from_pretrained(config.model_path, token=hf_token)
+    tokenizer = LlamaTokenizer.from_pretrained(config.model_path)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     model = LlamaForCausalLM.from_pretrained(
@@ -88,8 +87,7 @@ def run_fine_tuning(config):
         load_in_4bit=True,  # Use 4-bit quantization to save memory
         bnb_4bit_compute_dtype=torch.float16,
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_quant_type="nf4",
-        token=hf_token
+        bnb_4bit_quant_type="nf4"
     )
     logger.info("Tokenizer and model loaded successfully")
 

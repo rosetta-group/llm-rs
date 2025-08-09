@@ -5,8 +5,6 @@ from transformers import LlamaTokenizer
 from datasets import Dataset
 import structlog
 
-from project_secrets import hf_token
-
 WINDOW_SIZE = 256
 STRIDE = 128
 
