@@ -34,7 +34,7 @@ def get_lora_target_modules(trainable_layers):
         ])
     # target_modules.append("model.norm")
     # target_modules.append("lm_head")
-    return []
+    return target_modules
 
 
 def compute_metrics(eval_pred):
