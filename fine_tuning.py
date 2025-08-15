@@ -40,6 +40,10 @@ def get_lora_target_modules(trainable_layers):
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
 
+    # Convert numpy arrays so we can use Pytorch methods
+    predictions = torch.tensor(predictions, dtype=torch.float32)
+    labels = torch.tensor(labels, dtype=torch.long)
+
     # Labels are original window sequences 
     # -> first token has no counterpart in predictions to compare with
     shift_labels = labels[..., 1:].contiguous()
