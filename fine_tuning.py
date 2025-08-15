@@ -139,7 +139,7 @@ def run_fine_tuning(config):
         gradient_checkpointing=True,  # Enable gradient checkpointing to save memory
         fp16=True,  # Use mixed precision training
         dataloader_pin_memory=False,
-        evaluation_strategy="steps",
+        eval_strategy="steps",
         eval_steps=config.eval_steps,
         save_strategy="steps",
         save_steps=config.save_steps,
