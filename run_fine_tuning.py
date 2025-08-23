@@ -1,0 +1,4 @@
+from configs.first_full_config import first_full_config
+from fine_tuning import run_fine_tuning
+
+run_fine_tuning(first_full_config)
