@@ -2,3 +2,4 @@ trial_output/
 wandb/
 *.ipynb
 *.pyc
+project_secrets.py
