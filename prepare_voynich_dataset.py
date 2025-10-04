@@ -70,10 +70,10 @@ def generate_paragraphs(loci):
     page_items = []
     for locus in [l for l in loci if l['locus_type'] in ['P', 'C']]:
         text = locus['text']
-        if text[:3] == '<%>':
+        if text[:3] == '<%>': # Start of new paragraph.
             para_text = text[3:]
             page_items = [locus['in_page_count']]
-        elif text[-3:] == '<$>':
+        elif text[-3:] == '<$>': # End of paragraph.
             para_text += '.' + text[:-3]
             page_items.append(locus['in_page_count'])
             paragraphs.append({
@@ -84,14 +84,14 @@ def generate_paragraphs(loci):
                 'text_len': len(para_text)})
             para_text = ''
             page_items = []
-        elif para_text == '' and len(page_items) == 0:
+        elif para_text == '' and len(page_items) == 0: # Standalone paragraph
             paragraphs.append({
                 'page': locus['page'],
                 'page_items': [locus['in_page_count']],
                 'locus_type': locus['locus_type'],
                 'text': text,
                 'text_len': len(text)})
-        else:
+        else: # Continuation of paragraph
             para_text += '.' + text
             page_items.append(locus['in_page_count'])
     return paragraphs
