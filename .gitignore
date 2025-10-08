@@ -3,3 +3,4 @@ wandb/
 *.ipynb
 *.pyc
 project_secrets.py
+venv_local
