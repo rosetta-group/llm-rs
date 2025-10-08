@@ -17,14 +17,16 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 chmod 644 ~/.ssh/known_hosts
 
 # SSH config to always use this key
-cat <<EOF > ~/.ssh/config
-Host github.com
+if ! grep -q "Host github-runpod" ~/.ssh/config 2>/dev/null; then
+    cat <<EOF >> ~/.ssh/config
+Host github-runpod
   HostName github.com
   User git
   IdentityFile ~/.ssh/my-github-deploy-key
   IdentitiesOnly yes
 EOF
-chmod 600 ~/.ssh/config
+    chmod 600 ~/.ssh/config
+fi
 
 # =========
 # 2. INSTALL POETRY (if missing)
