@@ -136,7 +136,7 @@ def run_fine_tuning(config):
 
     training_args = TrainingArguments(
         run_name=config.run_name,
-        output_dir=config.output_dir,
+        output_dir=f'./training_run_outputs/{config.run_name}',
         num_train_epochs=config.num_train_epochs,
         per_device_train_batch_size=config.train_batch_size,
         per_device_eval_batch_size=config.eval_batch_size,
@@ -180,8 +180,8 @@ def run_fine_tuning(config):
     logger.info("Training complete")
 
     logger.info("Saving model and tokenizer")
-    trainer.save_model(config.output_dir)
-    tokenizer.save_pretrained(config.output_dir)
+    trainer.save_model(f'./training_run_outputs/{config.run_name}')
+    tokenizer.save_pretrained(f'./training_run_outputs/{config.run_name}')
     logger.info("Model and tokenizer saved successfully")
 
     wandb.finish()
