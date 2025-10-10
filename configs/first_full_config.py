@@ -1,7 +1,7 @@
 from .config_model import FineTuningConfig
 
 first_full_config = FineTuningConfig(
-    run_name="trial_run",
+    run_name="first_full_run",
     output_dir="./trial_output",
     logging_dir="./trial_logs",
     trainable_layers=list(range(0,2)) + list(range(24,32)), ##
