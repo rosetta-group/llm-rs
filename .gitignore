@@ -1,4 +1,4 @@
-trial_output/
+training_run_outputs/
 wandb/
 *.ipynb
 *.pyc
