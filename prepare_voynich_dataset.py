@@ -1,3 +1,4 @@
+import random
 import re
 
 import pandas as pd
@@ -171,9 +172,22 @@ def create_sliding_windows(
     return windows
 
 
+def _scramble_text(page_text_df: pd.DataFrame) -> pd.DataFrame:
+    """Helper function to scramble text for control dataset generation."""
+
+    for i, page in page_text_df.iterrows():
+        words = page['text'].split('.')
+        random.shuffle(words)
+        scrambled_text = '.'.join(words)
+        page_text_df.at[i, 'text'] = scrambled_text
+
+    return page_text_df
+
+
 def generate_datasets(
     manuscript_file: str,
-    tokenizer: LlamaTokenizer
+    tokenizer: LlamaTokenizer,
+    scramble: bool = False
 ) -> tuple[Dataset, Dataset]:
     """
     End-to-end generation of HF Datasets from IVTFF file.
@@ -190,6 +204,10 @@ def generate_datasets(
     logger.info("Generating paragraphs and page texts")
     paragraphs = generate_paragraphs(loci)
     page_text_df = generate_page_texts(paragraphs, pages, tokenizer)
+
+    if scramble:
+        logger.info("Scrambling text for control dataset")
+        page_text_df = _scramble_text(page_text_df)
 
     logger.info("Making train/val split")
     groups = page_text_df.groupby(['illustration', 'currier_language'])
