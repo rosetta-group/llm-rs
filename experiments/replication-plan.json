@@ -1,0 +1,87 @@
+{
+  "status": "ready",
+  "primary": "training_run_outputs/qwen-outer-c64-s42-n3000",
+  "layers": [
+    0,
+    1,
+    26,
+    27
+  ],
+  "gain": {
+    "delta_bits_per_character": 0.21663733829390971,
+    "interval_95": [
+      0.16940956300349488,
+      0.3002434057265871
+    ],
+    "group": "folio",
+    "groups": 15,
+    "draws": 2000,
+    "seed": 42
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "layer_subset": "fixed across seeds",
+  "jobs": [
+    {
+      "name": "qwen-replica-gc-s43-n3000",
+      "dataset": "gc",
+      "seed": 43,
+      "config": "experiments/generated/replications/qwen-replica-gc-s43-n3000.json",
+      "output": "training_run_outputs/qwen-replica-gc-s43-n3000",
+      "log": "artifacts/qwen-replica-gc-s43-n3000.log"
+    },
+    {
+      "name": "qwen-replica-gc-s44-n3000",
+      "dataset": "gc",
+      "seed": 44,
+      "config": "experiments/generated/replications/qwen-replica-gc-s44-n3000.json",
+      "output": "training_run_outputs/qwen-replica-gc-s44-n3000",
+      "log": "artifacts/qwen-replica-gc-s44-n3000.log"
+    },
+    {
+      "name": "qwen-replica-gc-s45-n3000",
+      "dataset": "gc",
+      "seed": 45,
+      "config": "experiments/generated/replications/qwen-replica-gc-s45-n3000.json",
+      "output": "training_run_outputs/qwen-replica-gc-s45-n3000",
+      "log": "artifacts/qwen-replica-gc-s45-n3000.log"
+    },
+    {
+      "name": "qwen-replica-gc-s46-n3000",
+      "dataset": "gc",
+      "seed": 46,
+      "config": "experiments/generated/replications/qwen-replica-gc-s46-n3000.json",
+      "output": "training_run_outputs/qwen-replica-gc-s46-n3000",
+      "log": "artifacts/qwen-replica-gc-s46-n3000.log"
+    },
+    {
+      "name": "qwen-replica-gc-shuffle-s42-n3000",
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "config": "experiments/generated/replications/qwen-replica-gc-shuffle-s42-n3000.json",
+      "output": "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000",
+      "log": "artifacts/qwen-replica-gc-shuffle-s42-n3000.log"
+    },
+    {
+      "name": "qwen-replica-timm-s42-n3000",
+      "dataset": "timm",
+      "seed": 42,
+      "config": "experiments/generated/replications/qwen-replica-timm-s42-n3000.json",
+      "output": "training_run_outputs/qwen-replica-timm-s42-n3000",
+      "log": "artifacts/qwen-replica-timm-s42-n3000.log"
+    },
+    {
+      "name": "qwen-replica-naibbe-s42-n3000",
+      "dataset": "naibbe",
+      "seed": 42,
+      "config": "experiments/generated/replications/qwen-replica-naibbe-s42-n3000.json",
+      "output": "training_run_outputs/qwen-replica-naibbe-s42-n3000",
+      "log": "artifacts/qwen-replica-naibbe-s42-n3000.log"
+    }
+  ]
+}

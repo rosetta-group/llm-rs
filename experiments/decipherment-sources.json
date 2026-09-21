@@ -1,0 +1,35 @@
+{
+  "revision": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+  "files": [
+    {
+      "path": "artifacts/decipherment/vendor/LICENSE",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/LICENSE",
+      "sha256": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc"
+    },
+    {
+      "path": "artifacts/decipherment/vendor/README.md",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/README.md",
+      "sha256": "b9e78e849a3478341d1c3167b7c3ae960e18f57b4857a0297d296adfe480ec99"
+    },
+    {
+      "path": "artifacts/decipherment/vendor/naibbe.py",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe.py",
+      "sha256": "3f5e353d2c50f4e6a6b81567ca31cee4f0537a490b6346d054d26661648a6003"
+    },
+    {
+      "path": "artifacts/decipherment/vendor/naibbe_v2.py",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_v2.py",
+      "sha256": "8a28fc7677a9a117ad79e8060b42059eb17069bea58d82ccf7ef1f0747ea06b7"
+    },
+    {
+      "path": "artifacts/decipherment/vendor/decrypt_naibbe.py",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/decrypt_naibbe.py",
+      "sha256": "1c18514bbaba914989f1961f41a3930b7c1afe81d6db37b07b1dd7d9e6ea3b49"
+    },
+    {
+      "path": "artifacts/decipherment/vendor/references/naibbe_tables.csv",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv",
+      "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "results": [
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 42,
+      "bpc": 2.559186650047953,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-s42",
+      "epoch_2_bpc": 2.7946186790465717,
+      "qwen_bpc": 2.4819089204852856,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.07727772956266757,
+        "interval_95": [
+          -0.09359698143319621,
+          -0.05889617244711906
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.13935960873124215,
+        "interval_95": [
+          0.08983232288930733,
+          0.22998231582025327
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 42,
+      "bpc": 2.3308959837847794,
+      "parameters": 1316608,
+      "selected_epoch": 16,
+      "epochs": 20,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2009056,
+      "path": "training_run_outputs/char-gru-gc-s42",
+      "epoch_2_bpc": 2.508665980550092,
+      "qwen_bpc": 2.4819089204852856,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.15101293670050614,
+        "interval_95": [
+          0.11741142587435903,
+          0.18168177798908286
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.3676502749944158,
+        "interval_95": [
+          0.29984665750849704,
+          0.46451947105776137
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 43,
+      "bpc": 2.574391288344651,
+      "parameters": 1272448,
+      "selected_epoch": 14,
+      "epochs": 18,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 1757924,
+      "path": "training_run_outputs/char-transformer-gc-s43",
+      "epoch_2_bpc": 2.7972090740716187,
+      "qwen_bpc": 2.485745212902873,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.08864607544177813,
+        "interval_95": [
+          -0.10049903445622038,
+          -0.06742306398876509
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.12415497043454402,
+        "interval_95": [
+          0.06896140632810534,
+          0.22611965141124193
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 43,
+      "bpc": 2.3332421497928677,
+      "parameters": 1316608,
+      "selected_epoch": 14,
+      "epochs": 18,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 1757924,
+      "path": "training_run_outputs/char-gru-gc-s43",
+      "epoch_2_bpc": 2.5277396765306825,
+      "qwen_bpc": 2.485745212902873,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.1525030631100055,
+        "interval_95": [
+          0.12515964572996668,
+          0.17768960369926576
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.36530410898632765,
+        "interval_95": [
+          0.30313715143732123,
+          0.45530691783910454
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 44,
+      "bpc": 2.5633518817784777,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-s44",
+      "epoch_2_bpc": 2.7877744220871787,
+      "qwen_bpc": 2.4844573619335506,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.0788945198449268,
+        "interval_95": [
+          -0.09308750483222814,
+          -0.05567255488309139
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.13519437700071765,
+        "interval_95": [
+          0.08201184142229234,
+          0.23236571227574135
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 44,
+      "bpc": 2.3322223518815353,
+      "parameters": 1316608,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-gru-gc-s44",
+      "epoch_2_bpc": 2.506347802088887,
+      "qwen_bpc": 2.4844573619335506,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.15223501005201562,
+        "interval_95": [
+          0.12671459463361276,
+          0.17519771906784462
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.3663239068976601,
+        "interval_95": [
+          0.30223084726668303,
+          0.45799277814456146
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "bpc": 2.7060468130775983,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-shuffle-s42",
+      "epoch_2_bpc": 2.8399922567847007,
+      "qwen_bpc": 2.620184923363477,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.08586188971412118,
+        "interval_95": [
+          -0.10041900023366292,
+          -0.061179819799115395
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.15836374299642944,
+        "interval_95": [
+          0.10880013996841746,
+          0.24838929030139442
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "bpc": 2.5158502474192113,
+      "parameters": 1316608,
+      "selected_epoch": 15,
+      "epochs": 19,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "selected_training_characters": 1883490,
+      "path": "training_run_outputs/char-gru-gc-shuffle-s42",
+      "epoch_2_bpc": 2.6774116250864552,
+      "qwen_bpc": 2.620184923363477,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.10433467594426585,
+        "interval_95": [
+          0.07571793043517021,
+          0.1313867868110708
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.34856030865481646,
+        "interval_95": [
+          0.28733788984996217,
+          0.4489922979400242
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "timm",
+      "seed": 42,
+      "bpc": 2.286258022215304,
+      "parameters": 1272448,
+      "selected_epoch": 9,
+      "epochs": 13,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "selected_training_characters": 389547,
+      "path": "training_run_outputs/char-transformer-timm-s42",
+      "epoch_2_bpc": 2.477525405989199,
+      "qwen_bpc": 2.0169603666078904
+    },
+    {
+      "model": "gru",
+      "dataset": "timm",
+      "seed": 42,
+      "bpc": 2.0807217901978907,
+      "parameters": 1316608,
+      "selected_epoch": 8,
+      "epochs": 12,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "selected_training_characters": 346264,
+      "path": "training_run_outputs/char-gru-timm-s42",
+      "epoch_2_bpc": 2.1916775993188082,
+      "qwen_bpc": 2.0169603666078904
+    },
+    {
+      "model": "transformer",
+      "dataset": "naibbe",
+      "seed": 42,
+      "bpc": 1.8974568225479014,
+      "parameters": 1272448,
+      "selected_epoch": 15,
+      "epochs": 19,
+      "stop_reason": "early_stopping",
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "selected_training_characters": 1395900,
+      "path": "training_run_outputs/char-transformer-naibbe-s42",
+      "epoch_2_bpc": 2.2487962183052614,
+      "qwen_bpc": 1.8060617496223732
+    },
+    {
+      "model": "gru",
+      "dataset": "naibbe",
+      "seed": 42,
+      "bpc": 1.736649070934207,
+      "parameters": 1316608,
+      "selected_epoch": 20,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "selected_training_characters": 1861200,
+      "path": "training_run_outputs/char-gru-naibbe-s42",
+      "epoch_2_bpc": 1.8858864275123814,
+      "qwen_bpc": 1.8060617496223732
+    }
+  ],
+  "test_scored": false
+}

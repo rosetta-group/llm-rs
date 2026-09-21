@@ -1,0 +1,20 @@
+{
+  "device": "mps",
+  "context": 128,
+  "stride": 64,
+  "batch_size": 16,
+  "learning_rate": 0.0003,
+  "epochs": 20,
+  "patience": 4,
+  "max_seconds": 1800,
+  "suite_max_hours": 6,
+  "min_free_gib": 20,
+  "max_output_gib": 1,
+  "gc_seeds": [42, 43, 44],
+  "control_seed": 42,
+  "controls": ["gc-shuffle", "timm", "naibbe"],
+  "models": {
+    "transformer": {"width": 128, "layers": 6},
+    "gru": {"width": 256, "layers": 3}
+  }
+}

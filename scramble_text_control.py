@@ -1,10 +1,9 @@
-from config import HF_TOKEN
-from prepare_voynich_dataset import generate_datasets
-from transformers import LlamaTokenizer
+"""Build a deterministic within-line control without loading a model."""
 
-tokenizer = LlamaTokenizer.from_pretrained(
-    "meta-llama/Llama-2-7b-hf", token=HF_TOKEN)
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
+from voynich.data import build
 
-train_dataset, val_dataset = generate_datasets('GC2a-n.txt', tokenizer, True)
+
+if __name__ == "__main__":
+    import json
+    print(json.dumps(build("voynich_transliterations/GC2a-n.txt", "artifacts/data/gc-shuffle",
+                          "experiments/splits/folio-42.json", control="shuffle"), indent=2))

@@ -1,0 +1,18 @@
+{
+  "tiny": true,
+  "device": "cpu",
+  "dataset": "artifacts/data/gc",
+  "run_name": "smoke",
+  "output_dir": "training_run_outputs/smoke",
+  "layer_count": 2,
+  "context": 32,
+  "stride": 16,
+  "max_steps": 2,
+  "gradient_accumulation_steps": 1,
+  "max_train_windows": 8,
+  "max_eval_pages": 2,
+  "eval_batch_size": 8,
+  "eval_steps": 2,
+  "save_steps": 2,
+  "logging_steps": 1
+}

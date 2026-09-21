@@ -1,0 +1,330 @@
+{
+  "release": "UD 2.18",
+  "sources": [
+    {
+      "repository": "UD_Latin-Perseus",
+      "revision": "a296f012949ef766ffdc5898ded59ffe0a7c3c6a",
+      "release": "r2.18",
+      "label": "Latin (Perseus)",
+      "period": "historical",
+      "genre": "fiction nonfiction bible",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Latin-Perseus/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-Perseus/a296f012949ef766ffdc5898ded59ffe0a7c3c6a/LICENSE.txt",
+          "sha256": "1e610c18edecad65470980c2990acef370ee51d6b962515282e698735c46d0af",
+          "bytes": 279
+        },
+        {
+          "path": "artifacts/language-sources/UD_Latin-Perseus/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-Perseus/a296f012949ef766ffdc5898ded59ffe0a7c3c6a/README.md",
+          "sha256": "c98dfd03e015634225ff37de670e559bd5a8dcde2af7ea9ed58cb454cbd5c9b5",
+          "bytes": 5469
+        },
+        {
+          "path": "artifacts/language-sources/UD_Latin-Perseus/la_perseus-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-Perseus/a296f012949ef766ffdc5898ded59ffe0a7c3c6a/la_perseus-ud-train.conllu",
+          "sha256": "49d2e3813fc34595fe8cf569f263df4396e4b21aba9429fcdb0eea3ae09e64fa",
+          "bytes": 1853735
+        }
+      ],
+      "license": "CC BY-NC-SA 2.5"
+    },
+    {
+      "repository": "UD_Latin-ITTB",
+      "revision": "50140a44dcf8c54dbca3a2be59f62c2a519057f2",
+      "release": "r2.18",
+      "label": "Medieval Latin",
+      "period": "historical",
+      "genre": "nonfiction",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Latin-ITTB/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-ITTB/50140a44dcf8c54dbca3a2be59f62c2a519057f2/LICENSE.txt",
+          "sha256": "3e07ac7ee7b02daa2a88e8bb1e825d6a580aababe1a7084c40cd0664d6231fb0",
+          "bytes": 19805
+        },
+        {
+          "path": "artifacts/language-sources/UD_Latin-ITTB/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-ITTB/50140a44dcf8c54dbca3a2be59f62c2a519057f2/README.md",
+          "sha256": "379c2db2b78a932b6e41ec3314ef5694e4e9f83bbea5e8a0c124bca66f7934c3",
+          "bytes": 14101
+        },
+        {
+          "path": "artifacts/language-sources/UD_Latin-ITTB/la_ittb-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-ITTB/50140a44dcf8c54dbca3a2be59f62c2a519057f2/la_ittb-ud-train.conllu",
+          "sha256": "0f0aded3ec3f697cdb8dc2294d213bdc951b127a5bc3d2114be22cd730cac5b8",
+          "bytes": 41138457
+        }
+      ],
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "repository": "UD_Ancient_Greek-Perseus",
+      "revision": "37837c7a3c592c9563f8c51cc63344b87247f8a5",
+      "release": "r2.18",
+      "label": "Ancient Greek",
+      "period": "historical",
+      "genre": "fiction",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Ancient_Greek-Perseus/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Ancient_Greek-Perseus/37837c7a3c592c9563f8c51cc63344b87247f8a5/LICENSE.txt",
+          "sha256": "1e610c18edecad65470980c2990acef370ee51d6b962515282e698735c46d0af",
+          "bytes": 279
+        },
+        {
+          "path": "artifacts/language-sources/UD_Ancient_Greek-Perseus/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Ancient_Greek-Perseus/37837c7a3c592c9563f8c51cc63344b87247f8a5/README.md",
+          "sha256": "dfa8f9389227246e0d367d427d900b7a7d7eaf9f7f3e39de6d6a285bd4dc1238",
+          "bytes": 4228
+        },
+        {
+          "path": "artifacts/language-sources/UD_Ancient_Greek-Perseus/grc_perseus-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Ancient_Greek-Perseus/37837c7a3c592c9563f8c51cc63344b87247f8a5/grc_perseus-ud-train.conllu",
+          "sha256": "d7471c9b91bcd975848fa5d9b65c31f1fc48a597ed3667796968a82c6d098a7e",
+          "bytes": 14826536
+        }
+      ],
+      "license": "CC BY-NC-SA 2.5"
+    },
+    {
+      "repository": "UD_Italian-Old",
+      "revision": "2c1361d621dafa7c465da0947f73765caaf743af",
+      "release": "r2.18",
+      "label": "Old Italian",
+      "period": "historical",
+      "genre": "poetry",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Italian-Old/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-Old/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/README.md",
+          "sha256": "1796c08e68d943ca458642d334165a192705455586cc6d35ccd83382ffe1d1a5",
+          "bytes": 5716
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/it_old-ud-train.conllu",
+          "sha256": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+          "bytes": 13156778
+        }
+      ],
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "repository": "UD_Old_French-PROFITEROLE",
+      "revision": "669e5aa53d8edd68404151678235d6b4bd5dffe9",
+      "release": "r2.18",
+      "label": "Old French",
+      "period": "historical",
+      "genre": "nonfiction legal poetry",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Old_French-PROFITEROLE/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Old_French-PROFITEROLE/669e5aa53d8edd68404151678235d6b4bd5dffe9/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202
+        },
+        {
+          "path": "artifacts/language-sources/UD_Old_French-PROFITEROLE/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Old_French-PROFITEROLE/669e5aa53d8edd68404151678235d6b4bd5dffe9/README.md",
+          "sha256": "c7b71e4627b0ecf3d3670643582b542b3aabfd851b7a0b3c546e9ecc3e673eeb",
+          "bytes": 11848
+        },
+        {
+          "path": "artifacts/language-sources/UD_Old_French-PROFITEROLE/fro_profiterole-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Old_French-PROFITEROLE/669e5aa53d8edd68404151678235d6b4bd5dffe9/fro_profiterole-ud-train.conllu",
+          "sha256": "e8dee1e24558ac998c1cc136cafad81883190eb4cb58f3ebdfea101877c2aedc",
+          "bytes": 13671547
+        }
+      ],
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "repository": "UD_Italian-ISDT",
+      "revision": "4852011b996b9ec30d884a7a48e1118d0ce928f6",
+      "release": "r2.18",
+      "label": "Modern Italian",
+      "period": "modern",
+      "genre": "legal news wiki",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Italian-ISDT/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/LICENSE.txt",
+          "sha256": "9fb4259d67a39d43a850fbebb4d050629d7ebbf7bf99986cc6580f5668b4ff3c",
+          "bytes": 23438
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-ISDT/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/README.md",
+          "sha256": "44b82769b1da1edddf5b463542db317122812eacf23770b1618762944ef3da98",
+          "bytes": 10819
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-train.conllu",
+          "sha256": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+          "bytes": 19443447
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-dev.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-dev.conllu",
+          "sha256": "1bc7dda04c58a4d87e2e6607a0e612462b87e7da6dde56be610d3749521af744",
+          "bytes": 833985
+        },
+        {
+          "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-test.conllu",
+          "sha256": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+          "bytes": 735446
+        }
+      ],
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "repository": "UD_English-EWT",
+      "revision": "b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c",
+      "release": "r2.18",
+      "label": "Modern English",
+      "period": "modern",
+      "genre": "blog social reviews email web",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_English-EWT/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_English-EWT/b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c/LICENSE.txt",
+          "sha256": "b3d1b0f4c6ae151f7eb78738f46ebd5ee140f8a7f76501ba26af123140d35ae7",
+          "bytes": 20014
+        },
+        {
+          "path": "artifacts/language-sources/UD_English-EWT/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_English-EWT/b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c/README.md",
+          "sha256": "c2dc7edaf5937d18cb3ff142410fde7460e32faa69b2bd0a041abc3f957da281",
+          "bytes": 24522
+        },
+        {
+          "path": "artifacts/language-sources/UD_English-EWT/en_ewt-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_English-EWT/b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c/en_ewt-ud-train.conllu",
+          "sha256": "d68e06122a702464c613076523d56740f047e5bbe89dd90ec32737e04d952143",
+          "bytes": 15034493
+        }
+      ],
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "repository": "UD_French-GSD",
+      "revision": "15958a5df1d09e2a360784caaed07b9a3fcbf7a8",
+      "release": "r2.18",
+      "label": "Modern French",
+      "period": "modern",
+      "genre": "blog news reviews wiki",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_French-GSD/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_French-GSD/15958a5df1d09e2a360784caaed07b9a3fcbf7a8/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202
+        },
+        {
+          "path": "artifacts/language-sources/UD_French-GSD/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_French-GSD/15958a5df1d09e2a360784caaed07b9a3fcbf7a8/README.md",
+          "sha256": "d1a541bb6790fc3d02ed70a281bd4320593b98b8b06ed71371004c98bd74e37d",
+          "bytes": 8040
+        },
+        {
+          "path": "artifacts/language-sources/UD_French-GSD/fr_gsd-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_French-GSD/15958a5df1d09e2a360784caaed07b9a3fcbf7a8/fr_gsd-ud-train.conllu",
+          "sha256": "4b9a87b1b7e6e7003219df1d3ccca87ffaca0f00a6055b12b1857df5373589d2",
+          "bytes": 25555018
+        }
+      ],
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "repository": "UD_German-GSD",
+      "revision": "81d8c3612a88f5867fd089e9c0a5466ef230078b",
+      "release": "r2.18",
+      "label": "Modern German",
+      "period": "modern",
+      "genre": "news reviews wiki",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_German-GSD/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_German-GSD/81d8c3612a88f5867fd089e9c0a5466ef230078b/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202
+        },
+        {
+          "path": "artifacts/language-sources/UD_German-GSD/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_German-GSD/81d8c3612a88f5867fd089e9c0a5466ef230078b/README.md",
+          "sha256": "5d1af1a1fb974e83ccb9ad9446d19a13d4608faf1f57ee2bf85d4e8351cf5fa2",
+          "bytes": 10099
+        },
+        {
+          "path": "artifacts/language-sources/UD_German-GSD/de_gsd-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_German-GSD/81d8c3612a88f5867fd089e9c0a5466ef230078b/de_gsd-ud-train.conllu",
+          "sha256": "6cb1b600029292fb7bf60531a1d6d7824544791d732c0f7abae8102a2ac337bf",
+          "bytes": 19637803
+        }
+      ],
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "repository": "UD_Arabic-PADT",
+      "revision": "5b1ad7e87c70b0e290f8499b64531c7d6a88eea0",
+      "release": "r2.18",
+      "label": "Modern Arabic",
+      "period": "modern",
+      "genre": "news",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Arabic-PADT/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Arabic-PADT/5b1ad7e87c70b0e290f8499b64531c7d6a88eea0/LICENSE.txt",
+          "sha256": "79e211ff70191c7f5cf0e33a8cf2bfa5799318d51ae7a5fd1a065abcb3e3ab05",
+          "bytes": 19848
+        },
+        {
+          "path": "artifacts/language-sources/UD_Arabic-PADT/README.md",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Arabic-PADT/5b1ad7e87c70b0e290f8499b64531c7d6a88eea0/README.md",
+          "sha256": "ee3cdabcd72b433349bfb2b906f09dd068b5ed513d2e5abe528a957a7b1038ff",
+          "bytes": 7415
+        },
+        {
+          "path": "artifacts/language-sources/UD_Arabic-PADT/ar_padt-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Arabic-PADT/5b1ad7e87c70b0e290f8499b64531c7d6a88eea0/ar_padt-ud-train.conllu",
+          "sha256": "f0b56962b340f5325bb5d293f47717522e706112c19029e82c225355c6d65e85",
+          "bytes": 40698415
+        }
+      ],
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "repository": "UD_Finnish-TDT",
+      "revision": "a4966aac577d75ee43887c22b22d9522fb0a9caa",
+      "release": "r2.18",
+      "label": "Modern Finnish",
+      "period": "modern",
+      "genre": "mixed genres",
+      "files": [
+        {
+          "path": "artifacts/language-sources/UD_Finnish-TDT/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Finnish-TDT/a4966aac577d75ee43887c22b22d9522fb0a9caa/LICENSE.txt",
+          "sha256": "d59ddaa61ea7bef197ae6de9301a5f7dd3f107744766f9049bf9da516d30419b",
+          "bytes": 25587
+        },
+        {
+          "path": "artifacts/language-sources/UD_Finnish-TDT/fi_tdt-ud-train.conllu",
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Finnish-TDT/a4966aac577d75ee43887c22b22d9522fb0a9caa/fi_tdt-ud-train.conllu",
+          "sha256": "07217d128d3752e61f1249c1e57de402ca17b31d2fba479d4f857ff78e28b40d",
+          "bytes": 13375770
+        }
+      ],
+      "license": "CC BY-SA 4.0 (see LICENSE.txt)"
+    }
+  ]
+}

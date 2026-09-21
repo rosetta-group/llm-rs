@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "path": "training_run_outputs/cloud-qwen-1.7B-base-gc-s42-n3000",
+      "model": "Qwen/Qwen3-1.7B-Base",
+      "dataset": "gc",
+      "selected_step": 3000,
+      "updates": 3000,
+      "trainable_parameters": 1245184,
+      "bpc": 2.477125070626122,
+      "vs_copy": {
+        "delta_bits_per_character": 0.22142118815307327,
+        "interval_95": [
+          0.17363797740906659,
+          0.30646126838442317
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "path": "training_run_outputs/cloud-qwen-8B-base-gc-s42-n3000",
+      "model": "Qwen/Qwen3-8B-Base",
+      "dataset": "gc",
+      "selected_step": 3000,
+      "updates": 3000,
+      "trainable_parameters": 1212416,
+      "bpc": 2.468858126338944,
+      "vs_copy": {
+        "delta_bits_per_character": 0.22968813244025119,
+        "interval_95": [
+          0.1772102856556946,
+          0.31719520832743453
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    }
+  ],
+  "larger_vs_smaller": {
+    "gc": {
+      "delta_bits_per_character": 0.008266944287177912,
+      "interval_95": [
+        -0.001593541832070761,
+        0.017480120852474728
+      ],
+      "group": "folio",
+      "groups": 15,
+      "draws": 2000,
+      "seed": 42
+    }
+  },
+  "test_scored": false
+}

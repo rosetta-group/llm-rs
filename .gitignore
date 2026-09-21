@@ -4,3 +4,9 @@ wandb/
 *.pyc
 project_secrets.py
 venv_local
+.venv/
+artifacts/
+experiments/generated/
+.DS_Store
+.idea/
+tmp/

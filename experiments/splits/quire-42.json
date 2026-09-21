@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+  "seed": 42,
+  "group": "quire",
+  "assignments": {
+    "N": "test",
+    "M": "test",
+    "E": "test",
+    "J": "validation",
+    "F": "validation",
+    "H": "validation",
+    "S": "train",
+    "G": "train",
+    "K": "train",
+    "Q": "train",
+    "B": "train",
+    "L": "train",
+    "C": "train",
+    "O": "train",
+    "T": "train",
+    "I": "train",
+    "A": "train",
+    "D": "train"
+  }
+}

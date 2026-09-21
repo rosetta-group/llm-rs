@@ -1,0 +1,30 @@
+{
+  "budget_usd": 10,
+  "max_hours": 4,
+  "max_total_hourly_usd": 1.50,
+  "reserved_usd": 3,
+  "max_steps": 3000,
+  "eval_steps": 500,
+  "context": 64,
+  "stride": 32,
+  "seed": 42,
+  "models": {
+    "1.7B": {
+      "model_path": "Qwen/Qwen3-1.7B-Base",
+      "revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+      "lora_rank": 8,
+      "lora_alpha": 16,
+      "expected_trainable_parameters": 1245184
+    },
+    "8B": {
+      "model_path": "Qwen/Qwen3-8B-Base",
+      "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+      "lora_rank": 4,
+      "lora_alpha": 8,
+      "expected_trainable_parameters": 1212416
+    }
+  },
+  "test_scored": false,
+  "selection": "Choose a shared update budget from benchmark timing before reading primary validation results.",
+  "follow_up": "If the larger model has a positive paired validation interval versus the smaller model, run both on gc-shuffle when the estimated pair fits."
+}

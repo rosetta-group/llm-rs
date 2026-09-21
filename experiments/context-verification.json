@@ -1,0 +1,50 @@
+{
+  "evaluator": "voynich.character.score",
+  "stride": 1,
+  "device": "mps",
+  "checks": [
+    {
+      "dataset": "gc",
+      "context": 32,
+      "reference_bpc": 2.4215174414421763,
+      "absolute_bpc_error": 2.5542075121620655e-09,
+      "targets_match": true
+    },
+    {
+      "dataset": "naibbe",
+      "context": 8,
+      "reference_bpc": 1.8280044938275597,
+      "absolute_bpc_error": 1.4581633678290018e-09,
+      "targets_match": true
+    },
+    {
+      "dataset": "naibbe",
+      "context": 16,
+      "reference_bpc": 2.0552041192379833,
+      "absolute_bpc_error": 3.2118649961887513e-09,
+      "targets_match": true
+    },
+    {
+      "dataset": "naibbe",
+      "context": 32,
+      "reference_bpc": 2.332140525072541,
+      "absolute_bpc_error": 9.611005324927646e-10,
+      "targets_match": true
+    },
+    {
+      "dataset": "naibbe",
+      "context": 64,
+      "reference_bpc": 1.7440166515124806,
+      "absolute_bpc_error": 1.3967953460536364e-09,
+      "targets_match": true
+    },
+    {
+      "dataset": "naibbe",
+      "context": 128,
+      "reference_bpc": 1.7360692814299032,
+      "absolute_bpc_error": 1.968199159207984e-09,
+      "targets_match": true
+    }
+  ],
+  "test_scored": false
+}

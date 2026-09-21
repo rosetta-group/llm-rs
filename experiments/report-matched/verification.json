@@ -1,0 +1,124 @@
+{
+  "at": 1789957557.621057,
+  "completed": 18,
+  "frozen_inputs_verified": true,
+  "runs": [
+    {
+      "path": "training_run_outputs/matched-gc-c8-s42",
+      "bpc": 2.6541935482753827,
+      "checkpoint_sha256": "420764b467fecccb04e98eed14ebafb10569e264a2de01a09f90962982c14d16",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c8-s42",
+      "bpc": 2.862815269022146,
+      "checkpoint_sha256": "32fb06eb3184c8e858aa746657c038955c0314ff6cadc0ac0f4a1b921aaba2be",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c32-s42",
+      "bpc": 2.6152674803145426,
+      "checkpoint_sha256": "85528fd0e195ecea26dba003ce78629f5b7d01ee4c29d9fc0e3ff1fb8b5ebb96",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c32-s42",
+      "bpc": 2.8285999367436947,
+      "checkpoint_sha256": "a3331370a5a05e97b8296a7192745c32a9fc8c528e3d0bca77362787d6a8099f",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c128-s42",
+      "bpc": 2.53473477034855,
+      "checkpoint_sha256": "29c2257b1c34bfbd1851a9ff70985b51310f6e340835f6142dc0b2dfd35fe8a8",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c128-s42",
+      "bpc": 2.70837746919372,
+      "checkpoint_sha256": "d8657b605e6e354f71380ac1aa7e797bf745cf22eafe4b6fdd92e61dec950f21",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c8-s43",
+      "bpc": 2.6626161083144693,
+      "checkpoint_sha256": "44b390430fc648e00db38c01f5e15bbcf3503f012cb9b7a65611e36b96f4f725",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c8-s43",
+      "bpc": 2.8436921280507574,
+      "checkpoint_sha256": "2343090f718c4577eca3d34095f46ad1484a4847826396f898056bca37afc624",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c32-s43",
+      "bpc": 2.6232080500030044,
+      "checkpoint_sha256": "c3622f6580b228b0c1b742be4aea494ce90130f68449e974e267a3d48728e170",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c32-s43",
+      "bpc": 2.825199202079508,
+      "checkpoint_sha256": "0305d3613dcffd4005093466de579fb15a55f2c3a24e8dd2daeebf7b3b5dc787",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c128-s43",
+      "bpc": 2.5469331985966908,
+      "checkpoint_sha256": "03c6bb8135bebc5b282066049a5bf80bcc703166522d9a2886c1a68ba7e00258",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c128-s43",
+      "bpc": 2.724528870554169,
+      "checkpoint_sha256": "646369bae6c00681c5ae77d9c4a639c1551bf91eb8493b0687483be664449ef2",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c8-s44",
+      "bpc": 2.666381361529453,
+      "checkpoint_sha256": "8e926ac3d963b3b7ba5f199f872f7260d0bdbb819d8f8912fbb26868a54f9cc0",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c8-s44",
+      "bpc": 2.8541046743172656,
+      "checkpoint_sha256": "64e6c4aa151dd0aafa92f9db890f024f048f38b35e962ad50786cfa1d4697d2a",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c32-s44",
+      "bpc": 2.6248196887695503,
+      "checkpoint_sha256": "4bacb6eb667945ffa22c4f6c53a690ee37e5a8a5dcd21ce051f9fc1c98c37beb",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c32-s44",
+      "bpc": 2.826344418593418,
+      "checkpoint_sha256": "ca98f7865aba01ba4220556cd3c0c96be588670f0b07ed3ac8351889aa8b3af6",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-c128-s44",
+      "bpc": 2.5334196897190226,
+      "checkpoint_sha256": "db932c2837d720b0a89894fda3b0f3a654e27812ca05f880762dd4d0dc3ec468",
+      "reload_bpc_error": 0.0
+    },
+    {
+      "path": "training_run_outputs/matched-gc-shuffle-c128-s44",
+      "bpc": 2.7178914413450053,
+      "checkpoint_sha256": "3d754e00b83a417882960ab68c50e784557696ecb3df226bf5f6338d77bf737b",
+      "reload_bpc_error": 0.0
+    }
+  ],
+  "test_scored": false,
+  "training_targets_per_run": 2511320,
+  "updates_per_run": 9820,
+  "all_20_epochs": true,
+  "replication_lock_released": true,
+  "output_bytes": 289798761,
+  "free_bytes": 60936966144,
+  "suite_seconds": 17715.4600110054,
+  "within_original_deadline": true
+}

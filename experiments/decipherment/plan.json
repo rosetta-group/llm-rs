@@ -1,0 +1,18 @@
+{
+  "passages": 6,
+  "keys_per_passage": 2,
+  "minimum_letters": 1200,
+  "maximum_letters": 2000,
+  "source_language": "Italian",
+  "prior": "UD_Italian-ISDT training sentences",
+  "challenge": "UD_Italian-Old (Dante), disjoint from the prior corpus",
+  "restarts": 6,
+  "steps_per_restart": 12000,
+  "seed": 42,
+  "families": [
+    "substitution-spaces",
+    "substitution-no-spaces",
+    "naibbe-known-structure"
+  ],
+  "scope": "Cipher family and source language known; Naibbe codebook structure supplied; letter key hidden"
+}

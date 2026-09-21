@@ -1,0 +1,3396 @@
+{
+  "plan": {
+    "status": "ready",
+    "primary": "training_run_outputs/qwen-outer-c64-s42-n3000",
+    "layers": [
+      0,
+      1,
+      26,
+      27
+    ],
+    "gain": {
+      "delta_bits_per_character": 0.21663733829390971,
+      "interval_95": [
+        0.16940956300349488,
+        0.3002434057265871
+      ],
+      "group": "folio",
+      "groups": 15,
+      "draws": 2000,
+      "seed": 42
+    },
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "layer_subset": "fixed across seeds",
+    "jobs": [
+      {
+        "name": "qwen-replica-gc-s43-n3000",
+        "dataset": "gc",
+        "seed": 43,
+        "config": "experiments/generated/replications/qwen-replica-gc-s43-n3000.json",
+        "output": "training_run_outputs/qwen-replica-gc-s43-n3000",
+        "log": "artifacts/qwen-replica-gc-s43-n3000.log"
+      },
+      {
+        "name": "qwen-replica-gc-s44-n3000",
+        "dataset": "gc",
+        "seed": 44,
+        "config": "experiments/generated/replications/qwen-replica-gc-s44-n3000.json",
+        "output": "training_run_outputs/qwen-replica-gc-s44-n3000",
+        "log": "artifacts/qwen-replica-gc-s44-n3000.log"
+      },
+      {
+        "name": "qwen-replica-gc-s45-n3000",
+        "dataset": "gc",
+        "seed": 45,
+        "config": "experiments/generated/replications/qwen-replica-gc-s45-n3000.json",
+        "output": "training_run_outputs/qwen-replica-gc-s45-n3000",
+        "log": "artifacts/qwen-replica-gc-s45-n3000.log"
+      },
+      {
+        "name": "qwen-replica-gc-s46-n3000",
+        "dataset": "gc",
+        "seed": 46,
+        "config": "experiments/generated/replications/qwen-replica-gc-s46-n3000.json",
+        "output": "training_run_outputs/qwen-replica-gc-s46-n3000",
+        "log": "artifacts/qwen-replica-gc-s46-n3000.log"
+      },
+      {
+        "name": "qwen-replica-gc-shuffle-s42-n3000",
+        "dataset": "gc-shuffle",
+        "seed": 42,
+        "config": "experiments/generated/replications/qwen-replica-gc-shuffle-s42-n3000.json",
+        "output": "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000",
+        "log": "artifacts/qwen-replica-gc-shuffle-s42-n3000.log"
+      },
+      {
+        "name": "qwen-replica-timm-s42-n3000",
+        "dataset": "timm",
+        "seed": 42,
+        "config": "experiments/generated/replications/qwen-replica-timm-s42-n3000.json",
+        "output": "training_run_outputs/qwen-replica-timm-s42-n3000",
+        "log": "artifacts/qwen-replica-timm-s42-n3000.log"
+      },
+      {
+        "name": "qwen-replica-naibbe-s42-n3000",
+        "dataset": "naibbe",
+        "seed": 42,
+        "config": "experiments/generated/replications/qwen-replica-naibbe-s42-n3000.json",
+        "output": "training_run_outputs/qwen-replica-naibbe-s42-n3000",
+        "log": "artifacts/qwen-replica-naibbe-s42-n3000.log"
+      }
+    ]
+  },
+  "results": [
+    {
+      "dataset": "gc",
+      "seed": 42,
+      "selected_step": 3000,
+      "bits_per_character": 2.4819089204852856,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33979.922026500106,
+            "loss_nats": 2.3101449470732276,
+            "bits_per_character": 2.4819089204852856,
+            "accuracy": 0.428853083146373
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.257078170776,
+              "loss_nats": 2.4590381923047353,
+              "bits_per_character": 2.6301173910475617,
+              "accuracy": 0.4050267820354347
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16075.66494832933,
+              "loss_nats": 2.164198296759468,
+              "bits_per_character": 2.3353420702796557,
+              "accuracy": 0.45220786214324177
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5269.781411513686,
+              "loss_nats": 1.8654093492083845,
+              "bits_per_character": 2.0869304169529608,
+              "accuracy": 0.5030088495575221
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20390.884580135345,
+              "loss_nats": 2.431248906657368,
+              "bits_per_character": 2.6200416871304326,
+              "accuracy": 0.4115893644926672
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8319.256034851074,
+              "loss_nats": 2.378969412310859,
+              "bits_per_character": 2.4589529656556497,
+              "accuracy": 0.4103517300543323
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.257078170776,
+              "loss_nats": 2.4590381923047353,
+              "bits_per_character": 2.6301173910475617,
+              "accuracy": 0.4050267820354347
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6871.289719447494,
+              "loss_nats": 1.9317654538789693,
+              "bits_per_character": 2.1701347641764923,
+              "accuracy": 0.49620466685409054
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8319.256034851074,
+              "loss_nats": 2.378969412310859,
+              "bits_per_character": 2.4589529656556497,
+              "accuracy": 0.4103517300543323
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 885.1191940307617,
+              "loss_nats": 2.3666288610448176,
+              "bits_per_character": 2.6492885307548053,
+              "accuracy": 0.42513368983957217
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 751.7864151000977,
+            "correct": 118,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 609.8004493713379,
+            "correct": 124,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 787.6056995391846,
+            "correct": 160,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.3665237426758,
+            "correct": 119,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 929.0452728271484,
+            "correct": 116,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.0004348754883,
+            "correct": 97,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 771.7238078117371,
+            "correct": 157,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 829.7845001220703,
+            "correct": 187,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 902.2741432189941,
+            "correct": 153,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 564.8107643127441,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 769.0968761444092,
+            "correct": 110,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 744.7159271240234,
+            "correct": 124,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 605.0949230194092,
+            "correct": 109,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 820.0142631530762,
+            "correct": 137,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1183.030990600586,
+            "correct": 190,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 981.395263671875,
+            "correct": 134,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 591.2558059692383,
+            "correct": 112,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 691.4170837402344,
+            "correct": 119,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 895.696102142334,
+            "correct": 127,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 760.3740730285645,
+            "correct": 134,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 826.4317893981934,
+            "correct": 164,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 681.8969879150391,
+            "correct": 151,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 885.1191940307617,
+            "correct": 159,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2724.7182592004538,
+            "correct": 733,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2545.0631523132324,
+            "correct": 688,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1378.6404609680176,
+            "correct": 214,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 857.5068283081055,
+            "correct": 140,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4103.618915557861,
+            "correct": 726,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4215.637119293213,
+            "correct": 709,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-outer-c64-s42-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21663733829390971,
+        "interval_95": [
+          0.16940956300349488,
+          0.3002434057265871
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 43,
+      "selected_step": 3000,
+      "bits_per_character": 2.485745212902873,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 34032.444871373475,
+            "loss_nats": 2.313715743515771,
+            "bits_per_character": 2.485745212902873,
+            "accuracy": 0.4299408525392617
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17916.17748785019,
+              "loss_nats": 2.4606753863274538,
+              "bits_per_character": 2.6318684872627998,
+              "accuracy": 0.40708693860733414
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16116.267383523285,
+              "loss_nats": 2.1696644296611853,
+              "bits_per_character": 2.3412404623753496,
+              "accuracy": 0.45234248788368336
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5272.704059071839,
+              "loss_nats": 1.8664439147156953,
+              "bits_per_character": 2.0880878391704774,
+              "accuracy": 0.5015929203539823
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20406.358671188354,
+              "loss_nats": 2.4330939157253315,
+              "bits_per_character": 2.622029965935602,
+              "accuracy": 0.4137355431024204
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8353.382141113281,
+              "loss_nats": 2.3887280929691967,
+              "bits_per_character": 2.469039743830068,
+              "accuracy": 0.41092364884186444
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17916.17748785019,
+              "loss_nats": 2.4606753863274538,
+              "bits_per_character": 2.6318684872627998,
+              "accuracy": 0.40708693860733414
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6876.782779641449,
+              "loss_nats": 1.9333097496883467,
+              "bits_per_character": 2.171869617657474,
+              "accuracy": 0.4964858026426764
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8353.382141113281,
+              "loss_nats": 2.3887280929691967,
+              "bits_per_character": 2.469039743830068,
+              "accuracy": 0.41092364884186444
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 886.1024627685547,
+              "loss_nats": 2.369257921841055,
+              "bits_per_character": 2.65223159492882,
+              "accuracy": 0.4197860962566845
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.8855400085449,
+            "correct": 113,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 609.66943359375,
+            "correct": 125,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 797.81622838974,
+            "correct": 165,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.1531944274902,
+            "correct": 119,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 940.421272277832,
+            "correct": 117,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.2511444091797,
+            "correct": 101,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 773.1687397956848,
+            "correct": 165,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 830.9099807739258,
+            "correct": 184,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 900.1743087768555,
+            "correct": 150,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 556.751781463623,
+            "correct": 94,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 769.2741260528564,
+            "correct": 116,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.0648956298828,
+            "correct": 130,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 599.2375564575195,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 829.1169319152832,
+            "correct": 134,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1189.9814071655273,
+            "correct": 188,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 994.3164978027344,
+            "correct": 134,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 584.5163192749023,
+            "correct": 111,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 684.0706481933594,
+            "correct": 126,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 894.4581146240234,
+            "correct": 125,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.7525253295898,
+            "correct": 134,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 824.7139930725098,
+            "correct": 168,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 674.8677787780762,
+            "correct": 148,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 886.1024627685547,
+            "correct": 157,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2724.4819406941533,
+            "correct": 732,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2548.2221183776855,
+            "correct": 685,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1381.8748607635498,
+            "correct": 216,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 855.8089294433594,
+            "correct": 137,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4120.752738952637,
+            "correct": 732,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4232.6294021606445,
+            "correct": 705,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s43-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21280104587632215,
+        "interval_95": [
+          0.16558227798844347,
+          0.29759554466080296
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 44,
+      "selected_step": 3000,
+      "bits_per_character": 2.4844573619335506,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 34014.81284823269,
+            "loss_nats": 2.3125170200715677,
+            "bits_per_character": 2.4844573619335506,
+            "accuracy": 0.4278332993405398
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17940.249857902527,
+              "loss_nats": 2.4639815764184214,
+              "bits_per_character": 2.6354046942577036,
+              "accuracy": 0.4031039692349952
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16074.56299033016,
+              "loss_nats": 2.1640499448478945,
+              "bits_per_character": 2.3351819867693675,
+              "accuracy": 0.4520732364028002
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5287.947674416006,
+              "loss_nats": 1.8718398847490285,
+              "bits_per_character": 2.094124591369832,
+              "accuracy": 0.503716814159292
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20417.500648975372,
+              "loss_nats": 2.434422397636267,
+              "bits_per_character": 2.623461607910934,
+              "accuracy": 0.40908548944795514
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8309.364524841309,
+              "loss_nats": 2.3761408421050354,
+              "bits_per_character": 2.4560292958261085,
+              "accuracy": 0.41149556762939665
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17940.249857902527,
+              "loss_nats": 2.4639815764184214,
+              "bits_per_character": 2.6354046942577036,
+              "accuracy": 0.4031039692349952
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6882.332971714437,
+              "loss_nats": 1.9348701073135892,
+              "bits_per_character": 2.173622514894707,
+              "accuracy": 0.49620466685409054
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8309.364524841309,
+              "loss_nats": 2.3761408421050354,
+              "bits_per_character": 2.4560292958261085,
+              "accuracy": 0.41149556762939665
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 882.8654937744141,
+              "loss_nats": 2.360602924530519,
+              "bits_per_character": 2.6425428830712305,
+              "accuracy": 0.4117647058823529
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 754.8533630371094,
+            "correct": 112,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 607.8020439147949,
+            "correct": 127,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 787.3354616165161,
+            "correct": 164,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 745.1609039306641,
+            "correct": 118,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 941.7554130554199,
+            "correct": 115,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 840.8124542236328,
+            "correct": 93,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 767.9572424888611,
+            "correct": 161,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 826.4280548095703,
+            "correct": 181,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 906.0636329650879,
+            "correct": 154,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 563.4870300292969,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 763.0726165771484,
+            "correct": 112,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 751.1934509277344,
+            "correct": 128,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 600.605827331543,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 824.4418449401855,
+            "correct": 131,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1183.358470916748,
+            "correct": 192,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 995.7880477905273,
+            "correct": 131,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 587.0388107299805,
+            "correct": 107,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 685.1616973876953,
+            "correct": 120,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 898.4630126953125,
+            "correct": 127,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.4424896240234,
+            "correct": 132,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 829.3570709228516,
+            "correct": 168,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 675.5499305725098,
+            "correct": 145,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 882.8654937744141,
+            "correct": 154,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2741.4192091450095,
+            "correct": 731,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2546.528465270996,
+            "correct": 692,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1384.5170192718506,
+            "correct": 214,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 858.9892654418945,
+            "correct": 135,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4107.088806152344,
+            "correct": 724,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4202.275718688965,
+            "correct": 715,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s44-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21408889684564447,
+        "interval_95": [
+          0.1662962152746733,
+          0.2972084960013282
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 45,
+      "selected_step": 3000,
+      "bits_per_character": 2.482842777763382,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33992.707506753504,
+            "loss_nats": 2.311014175454042,
+            "bits_per_character": 2.482842777763382,
+            "accuracy": 0.4276293425793732
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.895245552063,
+              "loss_nats": 2.459125840619704,
+              "bits_per_character": 2.6302111371952286,
+              "accuracy": 0.40516412580689465
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16087.812261201441,
+              "loss_nats": 2.1658336377492517,
+              "bits_per_character": 2.3371067332582802,
+              "accuracy": 0.44964997307485194
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5253.9240299239755,
+              "loss_nats": 1.8597961167872479,
+              "bits_per_character": 2.0806506020254396,
+              "accuracy": 0.4994690265486726
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20399.037455558777,
+              "loss_nats": 2.4322209914819095,
+              "bits_per_character": 2.6210892568616733,
+              "accuracy": 0.4117085966376535
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8339.746021270752,
+              "loss_nats": 2.3848287164057056,
+              "bits_per_character": 2.4650092659620526,
+              "accuracy": 0.40777809551043753
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.895245552063,
+              "loss_nats": 2.459125840619704,
+              "bits_per_character": 2.6302111371952286,
+              "accuracy": 0.40516412580689465
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6855.579755403101,
+              "loss_nats": 1.927348820748693,
+              "bits_per_character": 2.165173142631092,
+              "accuracy": 0.4956423952769188
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8339.746021270752,
+              "loss_nats": 2.3848287164057056,
+              "bits_per_character": 2.4650092659620526,
+              "accuracy": 0.40777809551043753
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 892.4864845275879,
+              "loss_nats": 2.386327498736866,
+              "bits_per_character": 2.671339886490406,
+              "accuracy": 0.4037433155080214
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 749.4886245727539,
+            "correct": 119,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 606.953483581543,
+            "correct": 122,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 792.0844297409058,
+            "correct": 162,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 738.7359466552734,
+            "correct": 121,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 939.1261520385742,
+            "correct": 118,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 835.0928955078125,
+            "correct": 94,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 770.4627742767334,
+            "correct": 164,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 831.1929512023926,
+            "correct": 188,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 894.9653511047363,
+            "correct": 156,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 561.9871120452881,
+            "correct": 98,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 763.7512283325195,
+            "correct": 112,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 754.7287521362305,
+            "correct": 121,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 603.985429763794,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 818.8659324645996,
+            "correct": 135,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1174.2586059570312,
+            "correct": 193,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 987.5541229248047,
+            "correct": 132,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 580.9974403381348,
+            "correct": 112,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 688.9043579101562,
+            "correct": 125,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 899.5929946899414,
+            "correct": 124,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 760.9213562011719,
+            "correct": 130,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.912166595459,
+            "correct": 162,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 680.6955184936523,
+            "correct": 148,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 892.4864845275879,
+            "correct": 151,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2715.880263902247,
+            "correct": 728,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2538.0437660217285,
+            "correct": 683,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1383.0968341827393,
+            "correct": 216,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 855.1965103149414,
+            "correct": 137,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4120.48641204834,
+            "correct": 716,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4219.259609222412,
+            "correct": 710,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s45-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21570348101581321,
+        "interval_95": [
+          0.1697871438847177,
+          0.29971955300299996
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 46,
+      "selected_step": 3000,
+      "bits_per_character": 2.481784117624126,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33978.21334514767,
+            "loss_nats": 2.3100287813683913,
+            "bits_per_character": 2.481784117624126,
+            "accuracy": 0.42871711197226187
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17920.94971179962,
+              "loss_nats": 2.46133082156292,
+              "bits_per_character": 2.6325695221702285,
+              "accuracy": 0.40365334432083505
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16057.263633348048,
+              "loss_nats": 2.1617210061050147,
+              "bits_per_character": 2.332668876656724,
+              "accuracy": 0.45328486806677437
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5239.541161634028,
+              "loss_nats": 1.8547048359766471,
+              "bits_per_character": 2.074954721499591,
+              "accuracy": 0.5033628318584071
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20414.095057964325,
+              "loss_nats": 2.4340163417150738,
+              "bits_per_character": 2.6230240206947837,
+              "accuracy": 0.41027781089781806
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8324.577125549316,
+              "loss_nats": 2.380491028181103,
+              "bits_per_character": 2.46052573991553,
+              "accuracy": 0.41263940520446096
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17920.94971179962,
+              "loss_nats": 2.46133082156292,
+              "bits_per_character": 2.6325695221702285,
+              "accuracy": 0.40365334432083505
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6838.461986161768,
+              "loss_nats": 1.9225364031941998,
+              "bits_per_character": 2.1597668990243597,
+              "accuracy": 0.49592353106550463
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8324.577125549316,
+              "loss_nats": 2.380491028181103,
+              "bits_per_character": 2.46052573991553,
+              "accuracy": 0.41263940520446096
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 894.2245216369629,
+              "loss_nats": 2.390974656783323,
+              "bits_per_character": 2.6765420805123483,
+              "accuracy": 0.42780748663101603
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 753.4321975708008,
+            "correct": 109,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 610.2171592712402,
+            "correct": 122,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 794.5690584182739,
+            "correct": 165,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.825798034668,
+            "correct": 117,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 945.0540237426758,
+            "correct": 119,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 839.5880355834961,
+            "correct": 94,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 771.7178711891174,
+            "correct": 159,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 827.202953338623,
+            "correct": 183,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 899.142219543457,
+            "correct": 153,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 560.1603126525879,
+            "correct": 96,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 765.1774406433105,
+            "correct": 113,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.6381378173828,
+            "correct": 129,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 602.8111438751221,
+            "correct": 114,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 827.4703826904297,
+            "correct": 134,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1186.4217262268066,
+            "correct": 190,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 976.9433517456055,
+            "correct": 137,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 587.8104972839355,
+            "correct": 110,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 683.1309356689453,
+            "correct": 119,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 896.0121459960938,
+            "correct": 122,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.6864852905273,
+            "correct": 136,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 828.2219429016113,
+            "correct": 167,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 682.9120979309082,
+            "correct": 146,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 894.2245216369629,
+            "correct": 160,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2701.399701215327,
+            "correct": 740,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2538.141460418701,
+            "correct": 682,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1377.2660694122314,
+            "correct": 215,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 858.4585494995117,
+            "correct": 132,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4102.048805236816,
+            "correct": 734,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4222.5283203125,
+            "correct": 709,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s46-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21676214115506906,
+        "interval_95": [
+          0.1723454993849251,
+          0.2971195874865261
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "selected_step": 3000,
+      "bits_per_character": 2.620184923363477,
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14634,
+            "units": 19752,
+            "nll": 35873.06474304199,
+            "loss_nats": 2.451350604280579,
+            "bits_per_character": 2.620184923363477,
+            "accuracy": 0.3998223315566489
+          },
+          "currier": {
+            "A": {
+              "tokens": 7245,
+              "units": 9821,
+              "nll": 18749.120155334473,
+              "loss_nats": 2.587870276788747,
+              "bits_per_character": 2.754226928941285,
+              "accuracy": 0.38274672187715664
+            },
+            "B": {
+              "tokens": 7389,
+              "units": 9931,
+              "nll": 17123.94458770752,
+              "loss_nats": 2.317491485682436,
+              "bits_per_character": 2.487627624322127,
+              "accuracy": 0.4165651644336175
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2820,
+              "units": 3643,
+              "nll": 5529.607999801636,
+              "loss_nats": 1.9608539006388779,
+              "bits_per_character": 2.189826527415251,
+              "accuracy": 0.4723404255319149
+            },
+            "herbal": {
+              "tokens": 8344,
+              "units": 11228,
+              "nll": 21311.141277313232,
+              "loss_nats": 2.5540677465619885,
+              "bits_per_character": 2.7382862340990286,
+              "accuracy": 0.3920182166826462
+            },
+            "stars": {
+              "tokens": 3470,
+              "units": 4881,
+              "nll": 9032.315465927124,
+              "loss_nats": 2.6029727567513326,
+              "bits_per_character": 2.669714552435515,
+              "accuracy": 0.35965417867435157
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7245,
+              "units": 9821,
+              "nll": 18749.120155334473,
+              "loss_nats": 2.587870276788747,
+              "bits_per_character": 2.754226928941285,
+              "accuracy": 0.38274672187715664
+            },
+            "2": {
+              "tokens": 3547,
+              "units": 4568,
+              "nll": 7183.890436172485,
+              "loss_nats": 2.0253426659634863,
+              "bits_per_character": 2.2688623263037866,
+              "accuracy": 0.4708204116154497
+            },
+            "3": {
+              "tokens": 3470,
+              "units": 4881,
+              "nll": 9032.315465927124,
+              "loss_nats": 2.6029727567513326,
+              "bits_per_character": 2.669714552435515,
+              "accuracy": 0.35965417867435157
+            },
+            "5": {
+              "tokens": 372,
+              "units": 482,
+              "nll": 907.7386856079102,
+              "loss_nats": 2.4401577570105113,
+              "bits_per_character": 2.716991909024062,
+              "accuracy": 0.43010752688172044
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 799.9217548370361,
+            "correct": 95,
+            "tokens": 296,
+            "units": 389,
+            "target_sha256": "7b081c9732106ca29f05ec710ff73c260c9e7de5e094b790b0e21134176d5eb7"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 631.3155136108398,
+            "correct": 114,
+            "tokens": 270,
+            "units": 346,
+            "target_sha256": "858dd3c40f44187d6acd7d14953e21e417a7cec72b878d145605e7ad769ef1cf"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 823.502815246582,
+            "correct": 146,
+            "tokens": 352,
+            "units": 455,
+            "target_sha256": "7982f3507712652c28eb18d5bdef2272d13826bdc74f75ce72b51910d9519b26"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 757.7296104431152,
+            "correct": 116,
+            "tokens": 282,
+            "units": 372,
+            "target_sha256": "3891901c8c26c79878c95c0fe6e22514d2f15ca9334b3a4fd4d22d27c4014ec2"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 959.1325531005859,
+            "correct": 104,
+            "tokens": 330,
+            "units": 481,
+            "target_sha256": "84adef7f27e041c63adb58808b839d4c47387a78f41cb01a29e9ae86c88d7ffc"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 864.940559387207,
+            "correct": 94,
+            "tokens": 285,
+            "units": 404,
+            "target_sha256": "41c341ac97e6fc6fa06ffcd8284990ed9314d6b6e378a0b002c6a72385b873dc"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 777.5205841064453,
+            "correct": 162,
+            "tokens": 351,
+            "units": 438,
+            "target_sha256": "61d11ba46da4262e2402957fa4fc54d701695da644b7eedc7fae3414b15bf0fd"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 876.7618522644043,
+            "correct": 176,
+            "tokens": 376,
+            "units": 487,
+            "target_sha256": "c5472fdb930498f004495fffaccc28018ad6f23257cf7a3144fa000911cd511e"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 939.8281555175781,
+            "correct": 152,
+            "tokens": 370,
+            "units": 477,
+            "target_sha256": "f64853ed2ceec43aba95865b561f4ee16c80a434b68a2b16b2152bde5925a87e"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 602.3263874053955,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "fb5b6e9792de25e9103851d0ec71ff25f005745182d7bba228728f1d5bba8dcd"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 806.158073425293,
+            "correct": 103,
+            "tokens": 291,
+            "units": 413,
+            "target_sha256": "16d25a8aaacaddcd9326969867e207827f44d767c4aa67551eee483da148b87a"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 785.4923782348633,
+            "correct": 119,
+            "tokens": 307,
+            "units": 397,
+            "target_sha256": "2601e86ed0392926f7e3a61df1fb4e96244ddfae13d5a899fc86c0f841e14cd3"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 646.9991836547852,
+            "correct": 94,
+            "tokens": 267,
+            "units": 373,
+            "target_sha256": "5b5f2d1b2e2567fbe9aecb3884cfe121af456736c29d10ea3e4b45c452c2f833"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 862.5775375366211,
+            "correct": 120,
+            "tokens": 315,
+            "units": 433,
+            "target_sha256": "8683ee2a6dd18de86e0494d5f39cd1def0706de4ced6f913ac58dc2076bb6aea"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1239.7935218811035,
+            "correct": 181,
+            "tokens": 469,
+            "units": 652,
+            "target_sha256": "a4a4b0a7884163c4a0943b0a590f6d8fb89092d69c52661ea36ef3572e30ed43"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1047.2182807922363,
+            "correct": 134,
+            "tokens": 379,
+            "units": 516,
+            "target_sha256": "fb16f6fe6b902516fc7f8b81bc702f0f8138762954a2babfacabe2ea20ed80e1"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 617.597526550293,
+            "correct": 110,
+            "tokens": 249,
+            "units": 343,
+            "target_sha256": "264d6fa53859017eb17e74e69531e4c5b4ac5cc6d0332c0eb399efb3c854377c"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 693.8688545227051,
+            "correct": 124,
+            "tokens": 305,
+            "units": 390,
+            "target_sha256": "08a6a2dd829e0531b2a38eddda607b0715ebf0a06bdae25d1ee4697808550ade"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 930.7267074584961,
+            "correct": 124,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "c1cbf91f84312620eaa4ae73c0223b16b8a0bdbecb23611741e10b236fcefd46"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 813.9274215698242,
+            "correct": 122,
+            "tokens": 313,
+            "units": 432,
+            "target_sha256": "d3cf7a3fef25edb9781bf1fe2bf790efa7d32694bac9f9a8524c5d0f49802ed5"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 869.5307312011719,
+            "correct": 166,
+            "tokens": 378,
+            "units": 488,
+            "target_sha256": "1d638847b4f0cebda71750bd24832848a8dba1a987acb8bfe9bbae2d8ff4a361"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 731.7290916442871,
+            "correct": 141,
+            "tokens": 315,
+            "units": 427,
+            "target_sha256": "0ce471d96302c703bcd2c1445a7113e7a05888d034fb16764a24ddcc5263011a"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 907.7386856079102,
+            "correct": 160,
+            "tokens": 372,
+            "units": 482,
+            "target_sha256": "b90c9a88e5889fbcc9ed92b82628f2ba1b8b0b3b636c215db2bbf22e585962ab"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2867.8762168884277,
+            "correct": 677,
+            "tokens": 1437,
+            "units": 1857,
+            "target_sha256": "b7f2760a3b1b0b2c585d783d146b4e25cf1d1018401fc134f29aef260b0655fb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2661.731782913208,
+            "correct": 655,
+            "tokens": 1383,
+            "units": 1786,
+            "target_sha256": "17999c23c6efdb04f6f329b97700e0354dcf54fe0ae4b345e234bf05c6aadbd2"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1443.377540588379,
+            "correct": 202,
+            "tokens": 551,
+            "units": 763,
+            "target_sha256": "982824690e80135c4d5d6edfdeb1684ab8be490e54b32643ed0fab58e97e1477"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 881.4259567260742,
+            "correct": 115,
+            "tokens": 345,
+            "units": 469,
+            "target_sha256": "cdc101c7de307561a68dea33a8ef7ca1c6a458ea772ca386b72623376afdd103"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4494.3547439575195,
+            "correct": 644,
+            "tokens": 1734,
+            "units": 2442,
+            "target_sha256": "239e7e73129f3ca1ec4220f23924b83be7960b3834c403e9a0eef7400e84953d"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4537.9607219696045,
+            "correct": 604,
+            "tokens": 1736,
+            "units": 2439,
+            "target_sha256": "5efb22892541437c46148f32f7f834408af5a8dc6822ac93b9e7e3ffd3028613"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.24422563271055062,
+        "interval_95": [
+          0.20199467833053095,
+          0.3233940475067581
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "timm",
+      "seed": 42,
+      "selected_step": 1500,
+      "bits_per_character": 2.0169603666078904,
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "scores": {
+        "step": 1500,
+        "summary": {
+          "overall": {
+            "tokens": 3941,
+            "units": 8942,
+            "nll": 12501.366600036621,
+            "loss_nats": 3.1721305760052325,
+            "bits_per_character": 2.0169603666078904,
+            "accuracy": 0.2468916518650089
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "block0030",
+            "folio": "30",
+            "quire": "7",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2243.2024841308594,
+            "correct": 175,
+            "tokens": 672,
+            "units": 1491,
+            "target_sha256": "fe893a043e53b7db981140801978b96a90e0e22e5380c5e666fb3d872c495948"
+          },
+          {
+            "page": "block0031",
+            "folio": "31",
+            "quire": "7",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 1819.165382385254,
+            "correct": 158,
+            "tokens": 638,
+            "units": 1466,
+            "target_sha256": "ee71ecb1aab10e14e91e9c8a1a0f66b71475c7d9277730889355a251a25e2f08"
+          },
+          {
+            "page": "block0032",
+            "folio": "32",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2079.2361602783203,
+            "correct": 142,
+            "tokens": 637,
+            "units": 1470,
+            "target_sha256": "4396b48025705be5f87a0d83d3d65eefc23a244eeea523ced656db3773e7ce81"
+          },
+          {
+            "page": "block0033",
+            "folio": "33",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2027.8088340759277,
+            "correct": 152,
+            "tokens": 649,
+            "units": 1493,
+            "target_sha256": "893c4d78b8570e0f6d3517dd7e2451785223b90ab61b6216069fd53e52bab568"
+          },
+          {
+            "page": "block0034",
+            "folio": "34",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2095.5618934631348,
+            "correct": 160,
+            "tokens": 644,
+            "units": 1486,
+            "target_sha256": "2e7fd22b8a4bd9c718187e5078b5e87344d503d57a1177acf184996599405ee5"
+          },
+          {
+            "page": "block0035",
+            "folio": "35",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2236.391845703125,
+            "correct": 186,
+            "tokens": 701,
+            "units": 1536,
+            "target_sha256": "3ad2553830a70518c30dca46eec0ca4b8bd4491b6223918629886f8685fba28a"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-timm-s42-n3000"
+    },
+    {
+      "dataset": "naibbe",
+      "seed": 42,
+      "selected_step": 2500,
+      "bits_per_character": 1.8060617496223732,
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "scores": {
+        "step": 2500,
+        "summary": {
+          "overall": {
+            "tokens": 8141,
+            "units": 18217,
+            "nll": 22805.254028320312,
+            "loss_nats": 2.801284120909018,
+            "bits_per_character": 1.8060617496223732,
+            "accuracy": 0.27625598820783687
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "block0052",
+            "folio": "52",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2254.598566055298,
+            "correct": 263,
+            "tokens": 841,
+            "units": 1861,
+            "target_sha256": "0e0c4348cdfded996f5f6ef6f03274283814c110a100ae64d4bfbf535c3ca308"
+          },
+          {
+            "page": "block0053",
+            "folio": "53",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2221.707809448242,
+            "correct": 245,
+            "tokens": 822,
+            "units": 1814,
+            "target_sha256": "00011dfa8f717947f9751e948ce285ce360d87a5f7d7bd2bc012e2923188c63c"
+          },
+          {
+            "page": "block0054",
+            "folio": "54",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2286.433708190918,
+            "correct": 205,
+            "tokens": 797,
+            "units": 1799,
+            "target_sha256": "2df1080b7b27d3b1d6468c38ff094cb3abbb2f748590d2329a582f7658917fb4"
+          },
+          {
+            "page": "block0055",
+            "folio": "55",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2277.9677658081055,
+            "correct": 210,
+            "tokens": 799,
+            "units": 1810,
+            "target_sha256": "e440bc5d617ed8834b8f2b4623c4afc55c2379718d1ea7eb0e55897de53701a0"
+          },
+          {
+            "page": "block0056",
+            "folio": "56",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2294.2605266571045,
+            "correct": 219,
+            "tokens": 803,
+            "units": 1800,
+            "target_sha256": "7c0a526f86969e662a31a4e56dd250de3d72a79c4a055545e67269040beecbe2"
+          },
+          {
+            "page": "block0057",
+            "folio": "57",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2290.2916107177734,
+            "correct": 232,
+            "tokens": 822,
+            "units": 1844,
+            "target_sha256": "58c3581f96d127393378ac2d02aed11cabf08bf6885ab95dea6cf185bda921f3"
+          },
+          {
+            "page": "block0058",
+            "folio": "58",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2279.972702026367,
+            "correct": 230,
+            "tokens": 832,
+            "units": 1857,
+            "target_sha256": "9de6006fc84851d0aa0d7ea2ced3f3be455fbf49384fcfe0cd3dfb529fa51e9a"
+          },
+          {
+            "page": "block0059",
+            "folio": "59",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2313.0417404174805,
+            "correct": 217,
+            "tokens": 814,
+            "units": 1815,
+            "target_sha256": "c6b3aafbdbb70d97e7bdf2bdb236247fb7b6b84da67b77368cca7f21679f44ba"
+          },
+          {
+            "page": "block0060",
+            "folio": "60",
+            "quire": "15",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2297.856575012207,
+            "correct": 208,
+            "tokens": 812,
+            "units": 1830,
+            "target_sha256": "5e3c0f5c546b8ad694df9a8dca659478eeca816796dde71772c0e70b0fe694e7"
+          },
+          {
+            "page": "block0061",
+            "folio": "61",
+            "quire": "15",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2289.1230239868164,
+            "correct": 220,
+            "tokens": 799,
+            "units": 1787,
+            "target_sha256": "b6e940ccf9b811248a7b2ee19bbd5533fafed119e2b9a9f962b56576243ede44"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-naibbe-s42-n3000"
+    }
+  ],
+  "test_scored": false
+}

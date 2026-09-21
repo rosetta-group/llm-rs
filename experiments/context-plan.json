@@ -1,0 +1,14 @@
+{
+  "contexts": [8, 16, 32, 64, 128],
+  "device": "mps",
+  "batch_size": 64,
+  "min_free_gib": 20,
+  "cases": [
+    {"dataset": "gc", "seed": 42},
+    {"dataset": "gc", "seed": 43},
+    {"dataset": "gc", "seed": 44},
+    {"dataset": "gc-shuffle", "seed": 42},
+    {"dataset": "timm", "seed": 42},
+    {"dataset": "naibbe", "seed": 42}
+  ]
+}

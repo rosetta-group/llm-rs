@@ -1,0 +1,24 @@
+{
+  "ZL3b-n.txt": {
+    "url": "https://raw.githubusercontent.com/karolrybak/voynichese/7224d020ff6e91d9e2ceae30794838d37310b63a/ivtff/ZL3b-n.txt",
+    "original_url": "https://www.voynich.nu/data/ZL3b-n.txt",
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "retrieved": "2026-09-20",
+    "note": "Publisher download returned HTTP 406; used a pinned public mirror. Not independently byte-verified against publisher."
+  },
+  "timm-generated.txt": {
+    "url": "https://raw.githubusercontent.com/TorstenTimm/SelfCitationTextgenerator/a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7/graphs/GeneratedText/generated_text.txt",
+    "sha256": "1e954a17b157e83f04ea21353ba877f70084b828b812fab3944347ac2888dc11",
+    "retrieved": "2026-09-20"
+  },
+  "naibbe-reference.txt": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/figure_utils/gaskell_bowern_2022/data/naibbe_reference_ciphertexts/naibbe_Cleaned_78_01_10_word_lines.txt",
+    "sha256": "38b581cb97ed171ae81466cc78b30ce92ba33afd1b5934b88969569a8b7597f7",
+    "retrieved": "2026-09-20"
+  },
+  "naibbe-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/LICENSE",
+    "sha256": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc",
+    "retrieved": "2026-09-20"
+  }
+}

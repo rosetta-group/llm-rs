@@ -1,12 +1,20 @@
-import os
+"""Run a JSON experiment config; imports never start training."""
 
-from configs.first_full_config import first_full_config
-from fine_tuning import run_fine_tuning
+import argparse
+import json
+from pathlib import Path
 
-os.environ['HF_HOME'] = '/root/.cache/huggingface'
+from configs.config_model import FineTuningConfig
 
-# Disable hf_transfer if not installed
-if 'HF_HUB_ENABLE_HF_TRANSFER' in os.environ:
-    del os.environ['HF_HUB_ENABLE_HF_TRANSFER']
 
-run_fine_tuning(first_full_config)
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("config", help="JSON file matching FineTuningConfig")
+    args = parser.parse_args()
+    from fine_tuning import run_fine_tuning
+    config = FineTuningConfig.model_validate_json(Path(args.config).read_text())
+    print(json.dumps(run_fine_tuning(config), indent=2))
+
+
+if __name__ == "__main__":
+    main()

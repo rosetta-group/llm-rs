@@ -1,0 +1,5771 @@
+{
+  "captured_at": "2026-09-20T18:07:09+00:00",
+  "qwen": [
+    {
+      "dataset": "gc",
+      "seed": 42,
+      "selected_step": 3000,
+      "bits_per_character": 2.4819089204852856,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33979.922026500106,
+            "loss_nats": 2.3101449470732276,
+            "bits_per_character": 2.4819089204852856,
+            "accuracy": 0.428853083146373
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.257078170776,
+              "loss_nats": 2.4590381923047353,
+              "bits_per_character": 2.6301173910475617,
+              "accuracy": 0.4050267820354347
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16075.66494832933,
+              "loss_nats": 2.164198296759468,
+              "bits_per_character": 2.3353420702796557,
+              "accuracy": 0.45220786214324177
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5269.781411513686,
+              "loss_nats": 1.8654093492083845,
+              "bits_per_character": 2.0869304169529608,
+              "accuracy": 0.5030088495575221
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20390.884580135345,
+              "loss_nats": 2.431248906657368,
+              "bits_per_character": 2.6200416871304326,
+              "accuracy": 0.4115893644926672
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8319.256034851074,
+              "loss_nats": 2.378969412310859,
+              "bits_per_character": 2.4589529656556497,
+              "accuracy": 0.4103517300543323
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.257078170776,
+              "loss_nats": 2.4590381923047353,
+              "bits_per_character": 2.6301173910475617,
+              "accuracy": 0.4050267820354347
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6871.289719447494,
+              "loss_nats": 1.9317654538789693,
+              "bits_per_character": 2.1701347641764923,
+              "accuracy": 0.49620466685409054
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8319.256034851074,
+              "loss_nats": 2.378969412310859,
+              "bits_per_character": 2.4589529656556497,
+              "accuracy": 0.4103517300543323
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 885.1191940307617,
+              "loss_nats": 2.3666288610448176,
+              "bits_per_character": 2.6492885307548053,
+              "accuracy": 0.42513368983957217
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 751.7864151000977,
+            "correct": 118,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 609.8004493713379,
+            "correct": 124,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 787.6056995391846,
+            "correct": 160,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.3665237426758,
+            "correct": 119,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 929.0452728271484,
+            "correct": 116,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.0004348754883,
+            "correct": 97,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 771.7238078117371,
+            "correct": 157,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 829.7845001220703,
+            "correct": 187,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 902.2741432189941,
+            "correct": 153,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 564.8107643127441,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 769.0968761444092,
+            "correct": 110,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 744.7159271240234,
+            "correct": 124,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 605.0949230194092,
+            "correct": 109,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 820.0142631530762,
+            "correct": 137,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1183.030990600586,
+            "correct": 190,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 981.395263671875,
+            "correct": 134,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 591.2558059692383,
+            "correct": 112,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 691.4170837402344,
+            "correct": 119,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 895.696102142334,
+            "correct": 127,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 760.3740730285645,
+            "correct": 134,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 826.4317893981934,
+            "correct": 164,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 681.8969879150391,
+            "correct": 151,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 885.1191940307617,
+            "correct": 159,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2724.7182592004538,
+            "correct": 733,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2545.0631523132324,
+            "correct": 688,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1378.6404609680176,
+            "correct": 214,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 857.5068283081055,
+            "correct": 140,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4103.618915557861,
+            "correct": 726,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4215.637119293213,
+            "correct": 709,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-outer-c64-s42-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21663733829390971,
+        "interval_95": [
+          0.16940956300349488,
+          0.3002434057265871
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 43,
+      "selected_step": 3000,
+      "bits_per_character": 2.485745212902873,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 34032.444871373475,
+            "loss_nats": 2.313715743515771,
+            "bits_per_character": 2.485745212902873,
+            "accuracy": 0.4299408525392617
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17916.17748785019,
+              "loss_nats": 2.4606753863274538,
+              "bits_per_character": 2.6318684872627998,
+              "accuracy": 0.40708693860733414
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16116.267383523285,
+              "loss_nats": 2.1696644296611853,
+              "bits_per_character": 2.3412404623753496,
+              "accuracy": 0.45234248788368336
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5272.704059071839,
+              "loss_nats": 1.8664439147156953,
+              "bits_per_character": 2.0880878391704774,
+              "accuracy": 0.5015929203539823
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20406.358671188354,
+              "loss_nats": 2.4330939157253315,
+              "bits_per_character": 2.622029965935602,
+              "accuracy": 0.4137355431024204
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8353.382141113281,
+              "loss_nats": 2.3887280929691967,
+              "bits_per_character": 2.469039743830068,
+              "accuracy": 0.41092364884186444
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17916.17748785019,
+              "loss_nats": 2.4606753863274538,
+              "bits_per_character": 2.6318684872627998,
+              "accuracy": 0.40708693860733414
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6876.782779641449,
+              "loss_nats": 1.9333097496883467,
+              "bits_per_character": 2.171869617657474,
+              "accuracy": 0.4964858026426764
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8353.382141113281,
+              "loss_nats": 2.3887280929691967,
+              "bits_per_character": 2.469039743830068,
+              "accuracy": 0.41092364884186444
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 886.1024627685547,
+              "loss_nats": 2.369257921841055,
+              "bits_per_character": 2.65223159492882,
+              "accuracy": 0.4197860962566845
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.8855400085449,
+            "correct": 113,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 609.66943359375,
+            "correct": 125,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 797.81622838974,
+            "correct": 165,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.1531944274902,
+            "correct": 119,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 940.421272277832,
+            "correct": 117,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.2511444091797,
+            "correct": 101,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 773.1687397956848,
+            "correct": 165,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 830.9099807739258,
+            "correct": 184,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 900.1743087768555,
+            "correct": 150,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 556.751781463623,
+            "correct": 94,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 769.2741260528564,
+            "correct": 116,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.0648956298828,
+            "correct": 130,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 599.2375564575195,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 829.1169319152832,
+            "correct": 134,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1189.9814071655273,
+            "correct": 188,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 994.3164978027344,
+            "correct": 134,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 584.5163192749023,
+            "correct": 111,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 684.0706481933594,
+            "correct": 126,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 894.4581146240234,
+            "correct": 125,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.7525253295898,
+            "correct": 134,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 824.7139930725098,
+            "correct": 168,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 674.8677787780762,
+            "correct": 148,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 886.1024627685547,
+            "correct": 157,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2724.4819406941533,
+            "correct": 732,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2548.2221183776855,
+            "correct": 685,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1381.8748607635498,
+            "correct": 216,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 855.8089294433594,
+            "correct": 137,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4120.752738952637,
+            "correct": 732,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4232.6294021606445,
+            "correct": 705,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s43-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21280104587632215,
+        "interval_95": [
+          0.16558227798844347,
+          0.29759554466080296
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 44,
+      "selected_step": 3000,
+      "bits_per_character": 2.4844573619335506,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 34014.81284823269,
+            "loss_nats": 2.3125170200715677,
+            "bits_per_character": 2.4844573619335506,
+            "accuracy": 0.4278332993405398
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17940.249857902527,
+              "loss_nats": 2.4639815764184214,
+              "bits_per_character": 2.6354046942577036,
+              "accuracy": 0.4031039692349952
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16074.56299033016,
+              "loss_nats": 2.1640499448478945,
+              "bits_per_character": 2.3351819867693675,
+              "accuracy": 0.4520732364028002
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5287.947674416006,
+              "loss_nats": 1.8718398847490285,
+              "bits_per_character": 2.094124591369832,
+              "accuracy": 0.503716814159292
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20417.500648975372,
+              "loss_nats": 2.434422397636267,
+              "bits_per_character": 2.623461607910934,
+              "accuracy": 0.40908548944795514
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8309.364524841309,
+              "loss_nats": 2.3761408421050354,
+              "bits_per_character": 2.4560292958261085,
+              "accuracy": 0.41149556762939665
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17940.249857902527,
+              "loss_nats": 2.4639815764184214,
+              "bits_per_character": 2.6354046942577036,
+              "accuracy": 0.4031039692349952
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6882.332971714437,
+              "loss_nats": 1.9348701073135892,
+              "bits_per_character": 2.173622514894707,
+              "accuracy": 0.49620466685409054
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8309.364524841309,
+              "loss_nats": 2.3761408421050354,
+              "bits_per_character": 2.4560292958261085,
+              "accuracy": 0.41149556762939665
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 882.8654937744141,
+              "loss_nats": 2.360602924530519,
+              "bits_per_character": 2.6425428830712305,
+              "accuracy": 0.4117647058823529
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 754.8533630371094,
+            "correct": 112,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 607.8020439147949,
+            "correct": 127,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 787.3354616165161,
+            "correct": 164,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 745.1609039306641,
+            "correct": 118,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 941.7554130554199,
+            "correct": 115,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 840.8124542236328,
+            "correct": 93,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 767.9572424888611,
+            "correct": 161,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 826.4280548095703,
+            "correct": 181,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 906.0636329650879,
+            "correct": 154,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 563.4870300292969,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 763.0726165771484,
+            "correct": 112,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 751.1934509277344,
+            "correct": 128,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 600.605827331543,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 824.4418449401855,
+            "correct": 131,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1183.358470916748,
+            "correct": 192,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 995.7880477905273,
+            "correct": 131,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 587.0388107299805,
+            "correct": 107,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 685.1616973876953,
+            "correct": 120,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 898.4630126953125,
+            "correct": 127,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.4424896240234,
+            "correct": 132,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 829.3570709228516,
+            "correct": 168,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 675.5499305725098,
+            "correct": 145,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 882.8654937744141,
+            "correct": 154,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2741.4192091450095,
+            "correct": 731,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2546.528465270996,
+            "correct": 692,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1384.5170192718506,
+            "correct": 214,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 858.9892654418945,
+            "correct": 135,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4107.088806152344,
+            "correct": 724,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4202.275718688965,
+            "correct": 715,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s44-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21408889684564447,
+        "interval_95": [
+          0.1662962152746733,
+          0.2972084960013282
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 45,
+      "selected_step": 3000,
+      "bits_per_character": 2.482842777763382,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33992.707506753504,
+            "loss_nats": 2.311014175454042,
+            "bits_per_character": 2.482842777763382,
+            "accuracy": 0.4276293425793732
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.895245552063,
+              "loss_nats": 2.459125840619704,
+              "bits_per_character": 2.6302111371952286,
+              "accuracy": 0.40516412580689465
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16087.812261201441,
+              "loss_nats": 2.1658336377492517,
+              "bits_per_character": 2.3371067332582802,
+              "accuracy": 0.44964997307485194
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5253.9240299239755,
+              "loss_nats": 1.8597961167872479,
+              "bits_per_character": 2.0806506020254396,
+              "accuracy": 0.4994690265486726
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20399.037455558777,
+              "loss_nats": 2.4322209914819095,
+              "bits_per_character": 2.6210892568616733,
+              "accuracy": 0.4117085966376535
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8339.746021270752,
+              "loss_nats": 2.3848287164057056,
+              "bits_per_character": 2.4650092659620526,
+              "accuracy": 0.40777809551043753
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17904.895245552063,
+              "loss_nats": 2.459125840619704,
+              "bits_per_character": 2.6302111371952286,
+              "accuracy": 0.40516412580689465
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6855.579755403101,
+              "loss_nats": 1.927348820748693,
+              "bits_per_character": 2.165173142631092,
+              "accuracy": 0.4956423952769188
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8339.746021270752,
+              "loss_nats": 2.3848287164057056,
+              "bits_per_character": 2.4650092659620526,
+              "accuracy": 0.40777809551043753
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 892.4864845275879,
+              "loss_nats": 2.386327498736866,
+              "bits_per_character": 2.671339886490406,
+              "accuracy": 0.4037433155080214
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 749.4886245727539,
+            "correct": 119,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 606.953483581543,
+            "correct": 122,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 792.0844297409058,
+            "correct": 162,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 738.7359466552734,
+            "correct": 121,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 939.1261520385742,
+            "correct": 118,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 835.0928955078125,
+            "correct": 94,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 770.4627742767334,
+            "correct": 164,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 831.1929512023926,
+            "correct": 188,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 894.9653511047363,
+            "correct": 156,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 561.9871120452881,
+            "correct": 98,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 763.7512283325195,
+            "correct": 112,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 754.7287521362305,
+            "correct": 121,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 603.985429763794,
+            "correct": 113,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 818.8659324645996,
+            "correct": 135,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1174.2586059570312,
+            "correct": 193,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 987.5541229248047,
+            "correct": 132,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 580.9974403381348,
+            "correct": 112,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 688.9043579101562,
+            "correct": 125,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 899.5929946899414,
+            "correct": 124,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 760.9213562011719,
+            "correct": 130,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 833.912166595459,
+            "correct": 162,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 680.6955184936523,
+            "correct": 148,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 892.4864845275879,
+            "correct": 151,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2715.880263902247,
+            "correct": 728,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2538.0437660217285,
+            "correct": 683,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1383.0968341827393,
+            "correct": 216,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 855.1965103149414,
+            "correct": 137,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4120.48641204834,
+            "correct": 716,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4219.259609222412,
+            "correct": 710,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s45-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21570348101581321,
+        "interval_95": [
+          0.1697871438847177,
+          0.29971955300299996
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc",
+      "seed": 46,
+      "selected_step": 3000,
+      "bits_per_character": 2.481784117624126,
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14709,
+            "units": 19752,
+            "nll": 33978.21334514767,
+            "loss_nats": 2.3100287813683913,
+            "bits_per_character": 2.481784117624126,
+            "accuracy": 0.42871711197226187
+          },
+          "currier": {
+            "A": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17920.94971179962,
+              "loss_nats": 2.46133082156292,
+              "bits_per_character": 2.6325695221702285,
+              "accuracy": 0.40365334432083505
+            },
+            "B": {
+              "tokens": 7428,
+              "units": 9931,
+              "nll": 16057.263633348048,
+              "loss_nats": 2.1617210061050147,
+              "bits_per_character": 2.332668876656724,
+              "accuracy": 0.45328486806677437
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2825,
+              "units": 3643,
+              "nll": 5239.541161634028,
+              "loss_nats": 1.8547048359766471,
+              "bits_per_character": 2.074954721499591,
+              "accuracy": 0.5033628318584071
+            },
+            "herbal": {
+              "tokens": 8387,
+              "units": 11228,
+              "nll": 20414.095057964325,
+              "loss_nats": 2.4340163417150738,
+              "bits_per_character": 2.6230240206947837,
+              "accuracy": 0.41027781089781806
+            },
+            "stars": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8324.577125549316,
+              "loss_nats": 2.380491028181103,
+              "bits_per_character": 2.46052573991553,
+              "accuracy": 0.41263940520446096
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7281,
+              "units": 9821,
+              "nll": 17920.94971179962,
+              "loss_nats": 2.46133082156292,
+              "bits_per_character": 2.6325695221702285,
+              "accuracy": 0.40365334432083505
+            },
+            "2": {
+              "tokens": 3557,
+              "units": 4568,
+              "nll": 6838.461986161768,
+              "loss_nats": 1.9225364031941998,
+              "bits_per_character": 2.1597668990243597,
+              "accuracy": 0.49592353106550463
+            },
+            "3": {
+              "tokens": 3497,
+              "units": 4881,
+              "nll": 8324.577125549316,
+              "loss_nats": 2.380491028181103,
+              "bits_per_character": 2.46052573991553,
+              "accuracy": 0.41263940520446096
+            },
+            "5": {
+              "tokens": 374,
+              "units": 482,
+              "nll": 894.2245216369629,
+              "loss_nats": 2.390974656783323,
+              "bits_per_character": 2.6765420805123483,
+              "accuracy": 0.42780748663101603
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 753.4321975708008,
+            "correct": 109,
+            "tokens": 302,
+            "units": 389,
+            "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 610.2171592712402,
+            "correct": 122,
+            "tokens": 271,
+            "units": 346,
+            "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 794.5690584182739,
+            "correct": 165,
+            "tokens": 357,
+            "units": 455,
+            "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 739.825798034668,
+            "correct": 117,
+            "tokens": 285,
+            "units": 372,
+            "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 945.0540237426758,
+            "correct": 119,
+            "tokens": 331,
+            "units": 481,
+            "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 839.5880355834961,
+            "correct": 94,
+            "tokens": 287,
+            "units": 404,
+            "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 771.7178711891174,
+            "correct": 159,
+            "tokens": 353,
+            "units": 438,
+            "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 827.202953338623,
+            "correct": 183,
+            "tokens": 379,
+            "units": 487,
+            "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 899.142219543457,
+            "correct": 153,
+            "tokens": 367,
+            "units": 477,
+            "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 560.1603126525879,
+            "correct": 96,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 765.1774406433105,
+            "correct": 113,
+            "tokens": 297,
+            "units": 413,
+            "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 750.6381378173828,
+            "correct": 129,
+            "tokens": 304,
+            "units": 397,
+            "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 602.8111438751221,
+            "correct": 114,
+            "tokens": 270,
+            "units": 373,
+            "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 827.4703826904297,
+            "correct": 134,
+            "tokens": 319,
+            "units": 433,
+            "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1186.4217262268066,
+            "correct": 190,
+            "tokens": 475,
+            "units": 652,
+            "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 976.9433517456055,
+            "correct": 137,
+            "tokens": 378,
+            "units": 516,
+            "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 587.8104972839355,
+            "correct": 110,
+            "tokens": 247,
+            "units": 343,
+            "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 683.1309356689453,
+            "correct": 119,
+            "tokens": 304,
+            "units": 390,
+            "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 896.0121459960938,
+            "correct": 122,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 755.6864852905273,
+            "correct": 136,
+            "tokens": 317,
+            "units": 432,
+            "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 828.2219429016113,
+            "correct": 167,
+            "tokens": 379,
+            "units": 488,
+            "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 682.9120979309082,
+            "correct": 146,
+            "tokens": 317,
+            "units": 427,
+            "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 894.2245216369629,
+            "correct": 160,
+            "tokens": 374,
+            "units": 482,
+            "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2701.399701215327,
+            "correct": 740,
+            "tokens": 1441,
+            "units": 1857,
+            "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2538.141460418701,
+            "correct": 682,
+            "tokens": 1384,
+            "units": 1786,
+            "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1377.2660694122314,
+            "correct": 215,
+            "tokens": 550,
+            "units": 763,
+            "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 858.4585494995117,
+            "correct": 132,
+            "tokens": 348,
+            "units": 469,
+            "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4102.048805236816,
+            "correct": 734,
+            "tokens": 1743,
+            "units": 2442,
+            "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4222.5283203125,
+            "correct": 709,
+            "tokens": 1754,
+            "units": 2439,
+            "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-s46-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.21676214115506906,
+        "interval_95": [
+          0.1723454993849251,
+          0.2971195874865261
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "selected_step": 3000,
+      "bits_per_character": 2.620184923363477,
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "scores": {
+        "step": 3000,
+        "summary": {
+          "overall": {
+            "tokens": 14634,
+            "units": 19752,
+            "nll": 35873.06474304199,
+            "loss_nats": 2.451350604280579,
+            "bits_per_character": 2.620184923363477,
+            "accuracy": 0.3998223315566489
+          },
+          "currier": {
+            "A": {
+              "tokens": 7245,
+              "units": 9821,
+              "nll": 18749.120155334473,
+              "loss_nats": 2.587870276788747,
+              "bits_per_character": 2.754226928941285,
+              "accuracy": 0.38274672187715664
+            },
+            "B": {
+              "tokens": 7389,
+              "units": 9931,
+              "nll": 17123.94458770752,
+              "loss_nats": 2.317491485682436,
+              "bits_per_character": 2.487627624322127,
+              "accuracy": 0.4165651644336175
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 2820,
+              "units": 3643,
+              "nll": 5529.607999801636,
+              "loss_nats": 1.9608539006388779,
+              "bits_per_character": 2.189826527415251,
+              "accuracy": 0.4723404255319149
+            },
+            "herbal": {
+              "tokens": 8344,
+              "units": 11228,
+              "nll": 21311.141277313232,
+              "loss_nats": 2.5540677465619885,
+              "bits_per_character": 2.7382862340990286,
+              "accuracy": 0.3920182166826462
+            },
+            "stars": {
+              "tokens": 3470,
+              "units": 4881,
+              "nll": 9032.315465927124,
+              "loss_nats": 2.6029727567513326,
+              "bits_per_character": 2.669714552435515,
+              "accuracy": 0.35965417867435157
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 7245,
+              "units": 9821,
+              "nll": 18749.120155334473,
+              "loss_nats": 2.587870276788747,
+              "bits_per_character": 2.754226928941285,
+              "accuracy": 0.38274672187715664
+            },
+            "2": {
+              "tokens": 3547,
+              "units": 4568,
+              "nll": 7183.890436172485,
+              "loss_nats": 2.0253426659634863,
+              "bits_per_character": 2.2688623263037866,
+              "accuracy": 0.4708204116154497
+            },
+            "3": {
+              "tokens": 3470,
+              "units": 4881,
+              "nll": 9032.315465927124,
+              "loss_nats": 2.6029727567513326,
+              "bits_per_character": 2.669714552435515,
+              "accuracy": 0.35965417867435157
+            },
+            "5": {
+              "tokens": 372,
+              "units": 482,
+              "nll": 907.7386856079102,
+              "loss_nats": 2.4401577570105113,
+              "bits_per_character": 2.716991909024062,
+              "accuracy": 0.43010752688172044
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "f16r",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 799.9217548370361,
+            "correct": 95,
+            "tokens": 296,
+            "units": 389,
+            "target_sha256": "7b081c9732106ca29f05ec710ff73c260c9e7de5e094b790b0e21134176d5eb7"
+          },
+          {
+            "page": "f16v",
+            "folio": "16",
+            "quire": "B",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 631.3155136108398,
+            "correct": 114,
+            "tokens": 270,
+            "units": 346,
+            "target_sha256": "858dd3c40f44187d6acd7d14953e21e417a7cec72b878d145605e7ad769ef1cf"
+          },
+          {
+            "page": "f20r",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 823.502815246582,
+            "correct": 146,
+            "tokens": 352,
+            "units": 455,
+            "target_sha256": "7982f3507712652c28eb18d5bdef2272d13826bdc74f75ce72b51910d9519b26"
+          },
+          {
+            "page": "f20v",
+            "folio": "20",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 757.7296104431152,
+            "correct": 116,
+            "tokens": 282,
+            "units": 372,
+            "target_sha256": "3891901c8c26c79878c95c0fe6e22514d2f15ca9334b3a4fd4d22d27c4014ec2"
+          },
+          {
+            "page": "f24r",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 959.1325531005859,
+            "correct": 104,
+            "tokens": 330,
+            "units": 481,
+            "target_sha256": "84adef7f27e041c63adb58808b839d4c47387a78f41cb01a29e9ae86c88d7ffc"
+          },
+          {
+            "page": "f24v",
+            "folio": "24",
+            "quire": "C",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 864.940559387207,
+            "correct": 94,
+            "tokens": 285,
+            "units": 404,
+            "target_sha256": "41c341ac97e6fc6fa06ffcd8284990ed9314d6b6e378a0b002c6a72385b873dc"
+          },
+          {
+            "page": "f26r",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 777.5205841064453,
+            "correct": 162,
+            "tokens": 351,
+            "units": 438,
+            "target_sha256": "61d11ba46da4262e2402957fa4fc54d701695da644b7eedc7fae3414b15bf0fd"
+          },
+          {
+            "page": "f26v",
+            "folio": "26",
+            "quire": "D",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "2",
+            "nll": 876.7618522644043,
+            "correct": 176,
+            "tokens": 376,
+            "units": 487,
+            "target_sha256": "c5472fdb930498f004495fffaccc28018ad6f23257cf7a3144fa000911cd511e"
+          },
+          {
+            "page": "f30r",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 939.8281555175781,
+            "correct": 152,
+            "tokens": 370,
+            "units": 477,
+            "target_sha256": "f64853ed2ceec43aba95865b561f4ee16c80a434b68a2b16b2152bde5925a87e"
+          },
+          {
+            "page": "f30v",
+            "folio": "30",
+            "quire": "D",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 602.3263874053955,
+            "correct": 97,
+            "tokens": 235,
+            "units": 315,
+            "target_sha256": "fb5b6e9792de25e9103851d0ec71ff25f005745182d7bba228728f1d5bba8dcd"
+          },
+          {
+            "page": "f35r",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 806.158073425293,
+            "correct": 103,
+            "tokens": 291,
+            "units": 413,
+            "target_sha256": "16d25a8aaacaddcd9326969867e207827f44d767c4aa67551eee483da148b87a"
+          },
+          {
+            "page": "f35v",
+            "folio": "35",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 785.4923782348633,
+            "correct": 119,
+            "tokens": 307,
+            "units": 397,
+            "target_sha256": "2601e86ed0392926f7e3a61df1fb4e96244ddfae13d5a899fc86c0f841e14cd3"
+          },
+          {
+            "page": "f37r",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 646.9991836547852,
+            "correct": 94,
+            "tokens": 267,
+            "units": 373,
+            "target_sha256": "5b5f2d1b2e2567fbe9aecb3884cfe121af456736c29d10ea3e4b45c452c2f833"
+          },
+          {
+            "page": "f37v",
+            "folio": "37",
+            "quire": "E",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 862.5775375366211,
+            "correct": 120,
+            "tokens": 315,
+            "units": 433,
+            "target_sha256": "8683ee2a6dd18de86e0494d5f39cd1def0706de4ced6f913ac58dc2076bb6aea"
+          },
+          {
+            "page": "f42r",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1239.7935218811035,
+            "correct": 181,
+            "tokens": 469,
+            "units": 652,
+            "target_sha256": "a4a4b0a7884163c4a0943b0a590f6d8fb89092d69c52661ea36ef3572e30ed43"
+          },
+          {
+            "page": "f42v",
+            "folio": "42",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1047.2182807922363,
+            "correct": 134,
+            "tokens": 379,
+            "units": 516,
+            "target_sha256": "fb16f6fe6b902516fc7f8b81bc702f0f8138762954a2babfacabe2ea20ed80e1"
+          },
+          {
+            "page": "f47r",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 617.597526550293,
+            "correct": 110,
+            "tokens": 249,
+            "units": 343,
+            "target_sha256": "264d6fa53859017eb17e74e69531e4c5b4ac5cc6d0332c0eb399efb3c854377c"
+          },
+          {
+            "page": "f47v",
+            "folio": "47",
+            "quire": "F",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 693.8688545227051,
+            "correct": 124,
+            "tokens": 305,
+            "units": 390,
+            "target_sha256": "08a6a2dd829e0531b2a38eddda607b0715ebf0a06bdae25d1ee4697808550ade"
+          },
+          {
+            "page": "f54r",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 930.7267074584961,
+            "correct": 124,
+            "tokens": 341,
+            "units": 486,
+            "target_sha256": "c1cbf91f84312620eaa4ae73c0223b16b8a0bdbecb23611741e10b236fcefd46"
+          },
+          {
+            "page": "f54v",
+            "folio": "54",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 813.9274215698242,
+            "correct": 122,
+            "tokens": 313,
+            "units": 432,
+            "target_sha256": "d3cf7a3fef25edb9781bf1fe2bf790efa7d32694bac9f9a8524c5d0f49802ed5"
+          },
+          {
+            "page": "f56r",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 869.5307312011719,
+            "correct": 166,
+            "tokens": 378,
+            "units": 488,
+            "target_sha256": "1d638847b4f0cebda71750bd24832848a8dba1a987acb8bfe9bbae2d8ff4a361"
+          },
+          {
+            "page": "f56v",
+            "folio": "56",
+            "quire": "G",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 731.7290916442871,
+            "correct": 141,
+            "tokens": 315,
+            "units": 427,
+            "target_sha256": "0ce471d96302c703bcd2c1445a7113e7a05888d034fb16764a24ddcc5263011a"
+          },
+          {
+            "page": "f57r",
+            "folio": "57",
+            "quire": "H",
+            "currier": "B",
+            "section": "herbal",
+            "hand": "5",
+            "nll": 907.7386856079102,
+            "correct": 160,
+            "tokens": 372,
+            "units": 482,
+            "target_sha256": "b90c9a88e5889fbcc9ed92b82628f2ba1b8b0b3b636c215db2bbf22e585962ab"
+          },
+          {
+            "page": "f84r",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2867.8762168884277,
+            "correct": 677,
+            "tokens": 1437,
+            "units": 1857,
+            "target_sha256": "b7f2760a3b1b0b2c585d783d146b4e25cf1d1018401fc134f29aef260b0655fb"
+          },
+          {
+            "page": "f84v",
+            "folio": "84",
+            "quire": "M",
+            "currier": "B",
+            "section": "balneological",
+            "hand": "2",
+            "nll": 2661.731782913208,
+            "correct": 655,
+            "tokens": 1383,
+            "units": 1786,
+            "target_sha256": "17999c23c6efdb04f6f329b97700e0354dcf54fe0ae4b345e234bf05c6aadbd2"
+          },
+          {
+            "page": "f93r",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 1443.377540588379,
+            "correct": 202,
+            "tokens": 551,
+            "units": 763,
+            "target_sha256": "982824690e80135c4d5d6edfdeb1684ab8be490e54b32643ed0fab58e97e1477"
+          },
+          {
+            "page": "f93v",
+            "folio": "93",
+            "quire": "Q",
+            "currier": "A",
+            "section": "herbal",
+            "hand": "1",
+            "nll": 881.4259567260742,
+            "correct": 115,
+            "tokens": 345,
+            "units": 469,
+            "target_sha256": "cdc101c7de307561a68dea33a8ef7ca1c6a458ea772ca386b72623376afdd103"
+          },
+          {
+            "page": "f106r",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4494.3547439575195,
+            "correct": 644,
+            "tokens": 1734,
+            "units": 2442,
+            "target_sha256": "239e7e73129f3ca1ec4220f23924b83be7960b3834c403e9a0eef7400e84953d"
+          },
+          {
+            "page": "f106v",
+            "folio": "106",
+            "quire": "T",
+            "currier": "B",
+            "section": "stars",
+            "hand": "3",
+            "nll": 4537.9607219696045,
+            "correct": 604,
+            "tokens": 1736,
+            "units": 2439,
+            "target_sha256": "5efb22892541437c46148f32f7f834408af5a8dc6822ac93b9e7e3ffd3028613"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000",
+      "vs_baseline": {
+        "delta_bits_per_character": 0.24422563271055062,
+        "interval_95": [
+          0.20199467833053095,
+          0.3233940475067581
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "dataset": "timm",
+      "seed": 42,
+      "selected_step": 1500,
+      "bits_per_character": 2.0169603666078904,
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "scores": {
+        "step": 1500,
+        "summary": {
+          "overall": {
+            "tokens": 3941,
+            "units": 8942,
+            "nll": 12501.366600036621,
+            "loss_nats": 3.1721305760052325,
+            "bits_per_character": 2.0169603666078904,
+            "accuracy": 0.2468916518650089
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 3941,
+              "units": 8942,
+              "nll": 12501.366600036621,
+              "loss_nats": 3.1721305760052325,
+              "bits_per_character": 2.0169603666078904,
+              "accuracy": 0.2468916518650089
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "block0030",
+            "folio": "30",
+            "quire": "7",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2243.2024841308594,
+            "correct": 175,
+            "tokens": 672,
+            "units": 1491,
+            "target_sha256": "fe893a043e53b7db981140801978b96a90e0e22e5380c5e666fb3d872c495948"
+          },
+          {
+            "page": "block0031",
+            "folio": "31",
+            "quire": "7",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 1819.165382385254,
+            "correct": 158,
+            "tokens": 638,
+            "units": 1466,
+            "target_sha256": "ee71ecb1aab10e14e91e9c8a1a0f66b71475c7d9277730889355a251a25e2f08"
+          },
+          {
+            "page": "block0032",
+            "folio": "32",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2079.2361602783203,
+            "correct": 142,
+            "tokens": 637,
+            "units": 1470,
+            "target_sha256": "4396b48025705be5f87a0d83d3d65eefc23a244eeea523ced656db3773e7ce81"
+          },
+          {
+            "page": "block0033",
+            "folio": "33",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2027.8088340759277,
+            "correct": 152,
+            "tokens": 649,
+            "units": 1493,
+            "target_sha256": "893c4d78b8570e0f6d3517dd7e2451785223b90ab61b6216069fd53e52bab568"
+          },
+          {
+            "page": "block0034",
+            "folio": "34",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2095.5618934631348,
+            "correct": 160,
+            "tokens": 644,
+            "units": 1486,
+            "target_sha256": "2e7fd22b8a4bd9c718187e5078b5e87344d503d57a1177acf184996599405ee5"
+          },
+          {
+            "page": "block0035",
+            "folio": "35",
+            "quire": "8",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2236.391845703125,
+            "correct": 186,
+            "tokens": 701,
+            "units": 1536,
+            "target_sha256": "3ad2553830a70518c30dca46eec0ca4b8bd4491b6223918629886f8685fba28a"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-timm-s42-n3000"
+    },
+    {
+      "dataset": "naibbe",
+      "seed": 42,
+      "selected_step": 2500,
+      "bits_per_character": 1.8060617496223732,
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "scores": {
+        "step": 2500,
+        "summary": {
+          "overall": {
+            "tokens": 8141,
+            "units": 18217,
+            "nll": 22805.254028320312,
+            "loss_nats": 2.801284120909018,
+            "bits_per_character": 1.8060617496223732,
+            "accuracy": 0.27625598820783687
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8141,
+              "units": 18217,
+              "nll": 22805.254028320312,
+              "loss_nats": 2.801284120909018,
+              "bits_per_character": 1.8060617496223732,
+              "accuracy": 0.27625598820783687
+            }
+          }
+        },
+        "pages": [
+          {
+            "page": "block0052",
+            "folio": "52",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2254.598566055298,
+            "correct": 263,
+            "tokens": 841,
+            "units": 1861,
+            "target_sha256": "0e0c4348cdfded996f5f6ef6f03274283814c110a100ae64d4bfbf535c3ca308"
+          },
+          {
+            "page": "block0053",
+            "folio": "53",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2221.707809448242,
+            "correct": 245,
+            "tokens": 822,
+            "units": 1814,
+            "target_sha256": "00011dfa8f717947f9751e948ce285ce360d87a5f7d7bd2bc012e2923188c63c"
+          },
+          {
+            "page": "block0054",
+            "folio": "54",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2286.433708190918,
+            "correct": 205,
+            "tokens": 797,
+            "units": 1799,
+            "target_sha256": "2df1080b7b27d3b1d6468c38ff094cb3abbb2f748590d2329a582f7658917fb4"
+          },
+          {
+            "page": "block0055",
+            "folio": "55",
+            "quire": "13",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2277.9677658081055,
+            "correct": 210,
+            "tokens": 799,
+            "units": 1810,
+            "target_sha256": "e440bc5d617ed8834b8f2b4623c4afc55c2379718d1ea7eb0e55897de53701a0"
+          },
+          {
+            "page": "block0056",
+            "folio": "56",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2294.2605266571045,
+            "correct": 219,
+            "tokens": 803,
+            "units": 1800,
+            "target_sha256": "7c0a526f86969e662a31a4e56dd250de3d72a79c4a055545e67269040beecbe2"
+          },
+          {
+            "page": "block0057",
+            "folio": "57",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2290.2916107177734,
+            "correct": 232,
+            "tokens": 822,
+            "units": 1844,
+            "target_sha256": "58c3581f96d127393378ac2d02aed11cabf08bf6885ab95dea6cf185bda921f3"
+          },
+          {
+            "page": "block0058",
+            "folio": "58",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2279.972702026367,
+            "correct": 230,
+            "tokens": 832,
+            "units": 1857,
+            "target_sha256": "9de6006fc84851d0aa0d7ea2ced3f3be455fbf49384fcfe0cd3dfb529fa51e9a"
+          },
+          {
+            "page": "block0059",
+            "folio": "59",
+            "quire": "14",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2313.0417404174805,
+            "correct": 217,
+            "tokens": 814,
+            "units": 1815,
+            "target_sha256": "c6b3aafbdbb70d97e7bdf2bdb236247fb7b6b84da67b77368cca7f21679f44ba"
+          },
+          {
+            "page": "block0060",
+            "folio": "60",
+            "quire": "15",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2297.856575012207,
+            "correct": 208,
+            "tokens": 812,
+            "units": 1830,
+            "target_sha256": "5e3c0f5c546b8ad694df9a8dca659478eeca816796dde71772c0e70b0fe694e7"
+          },
+          {
+            "page": "block0061",
+            "folio": "61",
+            "quire": "15",
+            "currier": "unknown",
+            "section": "control",
+            "hand": "unknown",
+            "nll": 2289.1230239868164,
+            "correct": 220,
+            "tokens": 799,
+            "units": 1787,
+            "target_sha256": "b6e940ccf9b811248a7b2ee19bbd5533fafed119e2b9a9f962b56576243ede44"
+          }
+        ]
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "path": "training_run_outputs/qwen-replica-naibbe-s42-n3000"
+    }
+  ],
+  "characters": [
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 42,
+      "bpc": 2.559186650047953,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-s42",
+      "epoch_2_bpc": 2.7946186790465717,
+      "qwen_bpc": 2.4819089204852856,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.07727772956266757,
+        "interval_95": [
+          -0.09359698143319621,
+          -0.05889617244711906
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.13935960873124215,
+        "interval_95": [
+          0.08983232288930733,
+          0.22998231582025327
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 42,
+      "bpc": 2.3308959837847794,
+      "parameters": 1316608,
+      "selected_epoch": 16,
+      "epochs": 20,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2009056,
+      "path": "training_run_outputs/char-gru-gc-s42",
+      "epoch_2_bpc": 2.508665980550092,
+      "qwen_bpc": 2.4819089204852856,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.15101293670050614,
+        "interval_95": [
+          0.11741142587435903,
+          0.18168177798908286
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.3676502749944158,
+        "interval_95": [
+          0.29984665750849704,
+          0.46451947105776137
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 43,
+      "bpc": 2.574391288344651,
+      "parameters": 1272448,
+      "selected_epoch": 14,
+      "epochs": 18,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 1757924,
+      "path": "training_run_outputs/char-transformer-gc-s43",
+      "epoch_2_bpc": 2.7972090740716187,
+      "qwen_bpc": 2.485745212902873,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.08864607544177813,
+        "interval_95": [
+          -0.10049903445622038,
+          -0.06742306398876509
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.12415497043454402,
+        "interval_95": [
+          0.06896140632810534,
+          0.22611965141124193
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 43,
+      "bpc": 2.3332421497928677,
+      "parameters": 1316608,
+      "selected_epoch": 14,
+      "epochs": 18,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 1757924,
+      "path": "training_run_outputs/char-gru-gc-s43",
+      "epoch_2_bpc": 2.5277396765306825,
+      "qwen_bpc": 2.485745212902873,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.1525030631100055,
+        "interval_95": [
+          0.12515964572996668,
+          0.17768960369926576
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.36530410898632765,
+        "interval_95": [
+          0.30313715143732123,
+          0.45530691783910454
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc",
+      "seed": 44,
+      "bpc": 2.5633518817784777,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-s44",
+      "epoch_2_bpc": 2.7877744220871787,
+      "qwen_bpc": 2.4844573619335506,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.0788945198449268,
+        "interval_95": [
+          -0.09308750483222814,
+          -0.05567255488309139
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.13519437700071765,
+        "interval_95": [
+          0.08201184142229234,
+          0.23236571227574135
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc",
+      "seed": 44,
+      "bpc": 2.3322223518815353,
+      "parameters": 1316608,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.6985462587791953,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-gru-gc-s44",
+      "epoch_2_bpc": 2.506347802088887,
+      "qwen_bpc": 2.4844573619335506,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.15223501005201562,
+        "interval_95": [
+          0.12671459463361276,
+          0.17519771906784462
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.3663239068976601,
+        "interval_95": [
+          0.30223084726668303,
+          0.45799277814456146
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "bpc": 2.7060468130775983,
+      "parameters": 1272448,
+      "selected_epoch": 17,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "selected_training_characters": 2134622,
+      "path": "training_run_outputs/char-transformer-gc-shuffle-s42",
+      "epoch_2_bpc": 2.8399922567847007,
+      "qwen_bpc": 2.620184923363477,
+      "vs_qwen": {
+        "delta_bits_per_character": -0.08586188971412118,
+        "interval_95": [
+          -0.10041900023366292,
+          -0.061179819799115395
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.15836374299642944,
+        "interval_95": [
+          0.10880013996841746,
+          0.24838929030139442
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "gru",
+      "dataset": "gc-shuffle",
+      "seed": 42,
+      "bpc": 2.5158502474192113,
+      "parameters": 1316608,
+      "selected_epoch": 15,
+      "epochs": 19,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.8644105560740276,
+      "selected_training_characters": 1883490,
+      "path": "training_run_outputs/char-gru-gc-shuffle-s42",
+      "epoch_2_bpc": 2.6774116250864552,
+      "qwen_bpc": 2.620184923363477,
+      "vs_qwen": {
+        "delta_bits_per_character": 0.10433467594426585,
+        "interval_95": [
+          0.07571793043517021,
+          0.1313867868110708
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_baseline": {
+        "delta_bits_per_character": 0.34856030865481646,
+        "interval_95": [
+          0.28733788984996217,
+          0.4489922979400242
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    {
+      "model": "transformer",
+      "dataset": "timm",
+      "seed": 42,
+      "bpc": 2.286258022215304,
+      "parameters": 1272448,
+      "selected_epoch": 9,
+      "epochs": 13,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "selected_training_characters": 389547,
+      "path": "training_run_outputs/char-transformer-timm-s42",
+      "epoch_2_bpc": 2.477525405989199,
+      "qwen_bpc": 2.0169603666078904
+    },
+    {
+      "model": "gru",
+      "dataset": "timm",
+      "seed": 42,
+      "bpc": 2.0807217901978907,
+      "parameters": 1316608,
+      "selected_epoch": 8,
+      "epochs": 12,
+      "stop_reason": "early_stopping",
+      "baseline": "copy",
+      "baseline_bpc": 2.0908676820703405,
+      "selected_training_characters": 346264,
+      "path": "training_run_outputs/char-gru-timm-s42",
+      "epoch_2_bpc": 2.1916775993188082,
+      "qwen_bpc": 2.0169603666078904
+    },
+    {
+      "model": "transformer",
+      "dataset": "naibbe",
+      "seed": 42,
+      "bpc": 1.8974568225479014,
+      "parameters": 1272448,
+      "selected_epoch": 15,
+      "epochs": 19,
+      "stop_reason": "early_stopping",
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "selected_training_characters": 1395900,
+      "path": "training_run_outputs/char-transformer-naibbe-s42",
+      "epoch_2_bpc": 2.2487962183052614,
+      "qwen_bpc": 1.8060617496223732
+    },
+    {
+      "model": "gru",
+      "dataset": "naibbe",
+      "seed": 42,
+      "bpc": 1.736649070934207,
+      "parameters": 1316608,
+      "selected_epoch": 20,
+      "epochs": 20,
+      "stop_reason": "max_epochs",
+      "baseline": "layout",
+      "baseline_bpc": 1.868328054226676,
+      "selected_training_characters": 1861200,
+      "path": "training_run_outputs/char-gru-naibbe-s42",
+      "epoch_2_bpc": 1.8858864275123814,
+      "qwen_bpc": 1.8060617496223732
+    }
+  ],
+  "cloud": {
+    "results": [
+      {
+        "path": "training_run_outputs/cloud-qwen-1.7B-base-gc-s42-n3000",
+        "model": "Qwen/Qwen3-1.7B-Base",
+        "dataset": "gc",
+        "selected_step": 3000,
+        "updates": 3000,
+        "trainable_parameters": 1245184,
+        "bpc": 2.477125070626122,
+        "vs_copy": {
+          "delta_bits_per_character": 0.22142118815307327,
+          "interval_95": [
+            0.17363797740906659,
+            0.30646126838442317
+          ],
+          "group": "folio",
+          "groups": 15,
+          "draws": 2000,
+          "seed": 42
+        }
+      },
+      {
+        "path": "training_run_outputs/cloud-qwen-8B-base-gc-s42-n3000",
+        "model": "Qwen/Qwen3-8B-Base",
+        "dataset": "gc",
+        "selected_step": 3000,
+        "updates": 3000,
+        "trainable_parameters": 1212416,
+        "bpc": 2.468858126338944,
+        "vs_copy": {
+          "delta_bits_per_character": 0.22968813244025119,
+          "interval_95": [
+            0.1772102856556946,
+            0.31719520832743453
+          ],
+          "group": "folio",
+          "groups": 15,
+          "draws": 2000,
+          "seed": 42
+        }
+      }
+    ],
+    "larger_vs_smaller": {
+      "gc": {
+        "delta_bits_per_character": 0.008266944287177912,
+        "interval_95": [
+          -0.001593541832070761,
+          0.017480120852474728
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    "test_scored": false
+  },
+  "curves": {
+    "training_run_outputs/char-transformer-gc-s42": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.690666228248177,
+        "validation_bpc": 2.9034791671214046,
+        "seconds": 7.418961048126221
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.7568687326969767,
+        "validation_bpc": 2.7946186790465717,
+        "seconds": 11.025765180587769
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.6815140890287186,
+        "validation_bpc": 2.7542236971583294,
+        "seconds": 14.315378189086914
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.6402456961849174,
+        "validation_bpc": 2.734885572801919,
+        "seconds": 17.612548112869263
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.6137474845509563,
+        "validation_bpc": 2.7202782845143183,
+        "seconds": 20.909125089645386
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.5890118751251494,
+        "validation_bpc": 2.711887940720402,
+        "seconds": 24.45239806175232
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.5598459914064473,
+        "validation_bpc": 2.690842785531764,
+        "seconds": 27.751998901367188
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.531852615429538,
+        "validation_bpc": 2.6947971031446385,
+        "seconds": 31.07466220855713
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.5022421845226908,
+        "validation_bpc": 2.682593199750798,
+        "seconds": 34.35707211494446
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.471466701657395,
+        "validation_bpc": 2.6455692951486975,
+        "seconds": 37.65557503700256
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.4372060259314607,
+        "validation_bpc": 2.6395196473533082,
+        "seconds": 41.19427514076233
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.3957402359288196,
+        "validation_bpc": 2.6131951349496196,
+        "seconds": 44.487224102020264
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.3568671975519333,
+        "validation_bpc": 2.58836409118742,
+        "seconds": 47.78170108795166
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.321717117966953,
+        "validation_bpc": 2.5811048178709743,
+        "seconds": 51.08502697944641
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.2858689039571476,
+        "validation_bpc": 2.572864776744019,
+        "seconds": 54.598814964294434
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.25422359218702,
+        "validation_bpc": 2.56369611790586,
+        "seconds": 57.910189151763916
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.226585618204717,
+        "validation_bpc": 2.559186650047953,
+        "seconds": 61.2032470703125
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.1983021221032195,
+        "validation_bpc": 2.5831864306782486,
+        "seconds": 64.49932408332825
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.174235797292652,
+        "validation_bpc": 2.5758261605674977,
+        "seconds": 67.77935194969177
+      },
+      {
+        "epoch": 20,
+        "updates": 2560,
+        "training_characters_seen": 2511320,
+        "training_bpc": 2.143642277702638,
+        "validation_bpc": 2.595934892024768,
+        "seconds": 71.27585411071777
+      }
+    ],
+    "training_run_outputs/char-gru-gc-s42": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.2578118794909754,
+        "validation_bpc": 2.5942474676326794,
+        "seconds": 22.11092710494995
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.4727288362375597,
+        "validation_bpc": 2.508665980550092,
+        "seconds": 42.84256100654602
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.396429760926742,
+        "validation_bpc": 2.4644492407346363,
+        "seconds": 63.564452171325684
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.347470956347583,
+        "validation_bpc": 2.4263253337044812,
+        "seconds": 84.2611072063446
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.312362178044342,
+        "validation_bpc": 2.4010581826192676,
+        "seconds": 104.88923597335815
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.28425198393592,
+        "validation_bpc": 2.3907071546891134,
+        "seconds": 125.61338901519775
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.2612460597037556,
+        "validation_bpc": 2.3729772176017727,
+        "seconds": 146.38596415519714
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.2410761934295915,
+        "validation_bpc": 2.359804422604001,
+        "seconds": 167.03547716140747
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.22557038191046,
+        "validation_bpc": 2.357856947626956,
+        "seconds": 187.7927680015564
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.2098836334018266,
+        "validation_bpc": 2.3454367403505434,
+        "seconds": 208.54585123062134
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.194234493660877,
+        "validation_bpc": 2.341756917357653,
+        "seconds": 229.24639010429382
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.18160225879452,
+        "validation_bpc": 2.3386882910321307,
+        "seconds": 249.8999752998352
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.1689031601371616,
+        "validation_bpc": 2.336855864577294,
+        "seconds": 270.37167835235596
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.1542929640714195,
+        "validation_bpc": 2.340348494659442,
+        "seconds": 290.9062342643738
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.1381877000662053,
+        "validation_bpc": 2.335584147537761,
+        "seconds": 311.4429450035095
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.1249425121701804,
+        "validation_bpc": 2.3308959837847794,
+        "seconds": 332.05217719078064
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.1105069055102255,
+        "validation_bpc": 2.3354172074823056,
+        "seconds": 352.7586531639099
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.0958882597678024,
+        "validation_bpc": 2.335602251619936,
+        "seconds": 373.37839102745056
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.0803583340336833,
+        "validation_bpc": 2.3404729095142405,
+        "seconds": 394.04763007164
+      },
+      {
+        "epoch": 20,
+        "updates": 2560,
+        "training_characters_seen": 2511320,
+        "training_bpc": 2.065367183837873,
+        "validation_bpc": 2.3391731113090786,
+        "seconds": 414.6975872516632
+      }
+    ],
+    "training_run_outputs/char-transformer-gc-s43": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.645773076472198,
+        "validation_bpc": 2.907472826897587,
+        "seconds": 3.938310146331787
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.7579412586439584,
+        "validation_bpc": 2.7972090740716187,
+        "seconds": 7.1960601806640625
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.6826715552847817,
+        "validation_bpc": 2.748100500693223,
+        "seconds": 10.447490215301514
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.6411836251599694,
+        "validation_bpc": 2.7442037586088612,
+        "seconds": 13.704116344451904
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.6144183577149605,
+        "validation_bpc": 2.712920524277555,
+        "seconds": 17.25785231590271
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.590759463502367,
+        "validation_bpc": 2.7039796799696356,
+        "seconds": 20.560086011886597
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.569597921925702,
+        "validation_bpc": 2.7048690937166318,
+        "seconds": 23.859589099884033
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.54592206344748,
+        "validation_bpc": 2.691473664425874,
+        "seconds": 27.141200304031372
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.523110081947993,
+        "validation_bpc": 2.6846368479277345,
+        "seconds": 30.71491503715515
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.487182977539267,
+        "validation_bpc": 2.6594618533524246,
+        "seconds": 34.01767611503601
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.443238002110774,
+        "validation_bpc": 2.646625011452072,
+        "seconds": 37.31678915023804
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.4041719919719267,
+        "validation_bpc": 2.6031528616422848,
+        "seconds": 40.6170072555542
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.3636190889987794,
+        "validation_bpc": 2.5988835214086747,
+        "seconds": 43.923758029937744
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.325475260826745,
+        "validation_bpc": 2.574391288344651,
+        "seconds": 47.49880814552307
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.2950521434896722,
+        "validation_bpc": 2.5766802577572445,
+        "seconds": 50.80100202560425
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.262092650530469,
+        "validation_bpc": 2.58848421295403,
+        "seconds": 54.085790157318115
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.2340337597647446,
+        "validation_bpc": 2.5884730009947416,
+        "seconds": 57.36374497413635
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.201430527130076,
+        "validation_bpc": 2.5850099767263646,
+        "seconds": 60.878735065460205
+      }
+    ],
+    "training_run_outputs/char-gru-gc-s43": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.2315384090301262,
+        "validation_bpc": 2.6106367887417985,
+        "seconds": 21.116453886032104
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.474129347561971,
+        "validation_bpc": 2.5277396765306825,
+        "seconds": 41.826695919036865
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.402101074989351,
+        "validation_bpc": 2.459673293804579,
+        "seconds": 62.51682496070862
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.353698162584627,
+        "validation_bpc": 2.4312900338577075,
+        "seconds": 83.26580786705017
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.3174287681415553,
+        "validation_bpc": 2.405018563160425,
+        "seconds": 103.92841792106628
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.2892284253696005,
+        "validation_bpc": 2.3863339868086544,
+        "seconds": 124.2976930141449
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.272127668051419,
+        "validation_bpc": 2.376272530574553,
+        "seconds": 144.96070790290833
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.247996684535723,
+        "validation_bpc": 2.3629366873863193,
+        "seconds": 165.6199929714203
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.2313509634134294,
+        "validation_bpc": 2.3550582687252053,
+        "seconds": 186.13271188735962
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.215323584345657,
+        "validation_bpc": 2.3471149054028935,
+        "seconds": 206.75162196159363
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.1998024389609747,
+        "validation_bpc": 2.340231854618559,
+        "seconds": 227.27726697921753
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.183343886010026,
+        "validation_bpc": 2.3406646719113726,
+        "seconds": 247.70366287231445
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.1693388338897077,
+        "validation_bpc": 2.333772174549809,
+        "seconds": 268.27804803848267
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.1563286451938093,
+        "validation_bpc": 2.3332421497928677,
+        "seconds": 288.8221561908722
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.1412079589901034,
+        "validation_bpc": 2.3443328460574953,
+        "seconds": 309.41767621040344
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.1277819925056844,
+        "validation_bpc": 2.344200790129846,
+        "seconds": 330.04607105255127
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.115099474350459,
+        "validation_bpc": 2.3391117419923537,
+        "seconds": 350.5771658420563
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.0988223004739734,
+        "validation_bpc": 2.3366266368498003,
+        "seconds": 371.0924160480499
+      }
+    ],
+    "training_run_outputs/char-transformer-gc-s44": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.616677136770127,
+        "validation_bpc": 2.90511016615814,
+        "seconds": 3.9877469539642334
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.75960658930369,
+        "validation_bpc": 2.7877744220871787,
+        "seconds": 7.242470026016235
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.676301684382065,
+        "validation_bpc": 2.752051702139281,
+        "seconds": 10.514421939849854
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.6381785699743925,
+        "validation_bpc": 2.732945587324518,
+        "seconds": 13.792594909667969
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.6110462654248194,
+        "validation_bpc": 2.7158978990743807,
+        "seconds": 17.35551404953003
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.586923149553155,
+        "validation_bpc": 2.706122167251694,
+        "seconds": 20.655826091766357
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.563425633188567,
+        "validation_bpc": 2.694526157120914,
+        "seconds": 23.947367906570435
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.538194594859646,
+        "validation_bpc": 2.69090638386624,
+        "seconds": 27.266356945037842
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.510176732008083,
+        "validation_bpc": 2.6737034757359837,
+        "seconds": 30.78676199913025
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.4753889172823524,
+        "validation_bpc": 2.6482475848017084,
+        "seconds": 34.247836112976074
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.428836153200615,
+        "validation_bpc": 2.627667928764151,
+        "seconds": 37.545571088790894
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.3867352291412565,
+        "validation_bpc": 2.59521031414047,
+        "seconds": 40.91228890419006
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.348801203974121,
+        "validation_bpc": 2.5844819580853993,
+        "seconds": 44.2282018661499
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.316153904420929,
+        "validation_bpc": 2.573046998945176,
+        "seconds": 47.72322607040405
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.2828337622581705,
+        "validation_bpc": 2.5894663315492967,
+        "seconds": 51.025229930877686
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.25307971057026,
+        "validation_bpc": 2.571789819559416,
+        "seconds": 54.30795907974243
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.225776320126916,
+        "validation_bpc": 2.5633518817784777,
+        "seconds": 57.60348892211914
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.1964465593577867,
+        "validation_bpc": 2.583667136188428,
+        "seconds": 61.15506982803345
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.1709214859821917,
+        "validation_bpc": 2.58159494321017,
+        "seconds": 64.43864107131958
+      },
+      {
+        "epoch": 20,
+        "updates": 2560,
+        "training_characters_seen": 2511320,
+        "training_bpc": 2.139983217335739,
+        "validation_bpc": 2.589829041775801,
+        "seconds": 67.71921300888062
+      }
+    ],
+    "training_run_outputs/char-gru-gc-s44": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.2283896621575887,
+        "validation_bpc": 2.5996345354435015,
+        "seconds": 21.207229137420654
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.469723640956372,
+        "validation_bpc": 2.506347802088887,
+        "seconds": 41.90006899833679
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.394288945531714,
+        "validation_bpc": 2.461979052178874,
+        "seconds": 62.391263246536255
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.352597569232288,
+        "validation_bpc": 2.445430632698748,
+        "seconds": 83.11027121543884
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.3185666177687776,
+        "validation_bpc": 2.424291341632443,
+        "seconds": 103.74265217781067
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.2896580251922685,
+        "validation_bpc": 2.3903198985191336,
+        "seconds": 124.38671922683716
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.2657765504702723,
+        "validation_bpc": 2.3769039890132784,
+        "seconds": 145.0455310344696
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.2469923277308834,
+        "validation_bpc": 2.3748128805903845,
+        "seconds": 165.61486315727234
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.2258311248682463,
+        "validation_bpc": 2.3581709983959525,
+        "seconds": 186.19120812416077
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.2111197944680794,
+        "validation_bpc": 2.3542403529515954,
+        "seconds": 206.76880812644958
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.195696866988388,
+        "validation_bpc": 2.359198058447118,
+        "seconds": 227.27935004234314
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.180432711934456,
+        "validation_bpc": 2.3395685524322407,
+        "seconds": 247.8768470287323
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.166880997352973,
+        "validation_bpc": 2.341963266446949,
+        "seconds": 268.4591841697693
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.150713939715316,
+        "validation_bpc": 2.3371075206814,
+        "seconds": 288.94979596138
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.1378443077162865,
+        "validation_bpc": 2.347529270886763,
+        "seconds": 309.43459916114807
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.121958181762396,
+        "validation_bpc": 2.338374289301525,
+        "seconds": 329.92439794540405
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.1080159007922084,
+        "validation_bpc": 2.3322223518815353,
+        "seconds": 350.36862206459045
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.0929358842367485,
+        "validation_bpc": 2.343505229598632,
+        "seconds": 370.92971420288086
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.080443916395257,
+        "validation_bpc": 2.3431634765970246,
+        "seconds": 391.4683780670166
+      },
+      {
+        "epoch": 20,
+        "updates": 2560,
+        "training_characters_seen": 2511320,
+        "training_bpc": 2.0629619037232967,
+        "validation_bpc": 2.355137902613383,
+        "seconds": 411.99600410461426
+      }
+    ],
+    "training_run_outputs/char-transformer-gc-shuffle-s42": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.7206070798032833,
+        "validation_bpc": 2.941818816321659,
+        "seconds": 3.9099619388580322
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.8074058856509105,
+        "validation_bpc": 2.8399922567847007,
+        "seconds": 7.147021055221558
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.7360023789955967,
+        "validation_bpc": 2.8028823789679382,
+        "seconds": 10.382156133651733
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.69683206492368,
+        "validation_bpc": 2.7838614438375173,
+        "seconds": 13.851135015487671
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.673157800939915,
+        "validation_bpc": 2.7732828688592535,
+        "seconds": 17.140971183776855
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.651409461302709,
+        "validation_bpc": 2.762826127533233,
+        "seconds": 20.43358588218689
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.6322223427528124,
+        "validation_bpc": 2.754823409926243,
+        "seconds": 23.72524404525757
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.6113629395633193,
+        "validation_bpc": 2.7441265409759255,
+        "seconds": 27.06008291244507
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.588709646074744,
+        "validation_bpc": 2.7396929087599484,
+        "seconds": 30.60147213935852
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.563944821293695,
+        "validation_bpc": 2.725976781769261,
+        "seconds": 33.90201807022095
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.5399822219912314,
+        "validation_bpc": 2.732094303155173,
+        "seconds": 37.20064115524292
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.518600472078525,
+        "validation_bpc": 2.7399843706630542,
+        "seconds": 40.48088884353638
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.4930949465502152,
+        "validation_bpc": 2.7226911917719114,
+        "seconds": 43.966464042663574
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.463915297338275,
+        "validation_bpc": 2.7264332979788044,
+        "seconds": 47.262897968292236
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.438655859290387,
+        "validation_bpc": 2.707224862333192,
+        "seconds": 50.54552888870239
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.4059072611901975,
+        "validation_bpc": 2.7154631291620173,
+        "seconds": 53.84518504142761
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.3771448884604087,
+        "validation_bpc": 2.7060468130775983,
+        "seconds": 57.139654874801636
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.3500471717372267,
+        "validation_bpc": 2.7193750463992292,
+        "seconds": 60.66462802886963
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.3237712626539913,
+        "validation_bpc": 2.7167933400853763,
+        "seconds": 64.01228904724121
+      },
+      {
+        "epoch": 20,
+        "updates": 2560,
+        "training_characters_seen": 2511320,
+        "training_bpc": 2.297684678433798,
+        "validation_bpc": 2.72931056313039,
+        "seconds": 67.28107905387878
+      }
+    ],
+    "training_run_outputs/char-gru-gc-shuffle-s42": [
+      {
+        "epoch": 1,
+        "updates": 128,
+        "training_characters_seen": 125566,
+        "training_bpc": 3.349017002893398,
+        "validation_bpc": 2.7380592126117342,
+        "seconds": 21.16103506088257
+      },
+      {
+        "epoch": 2,
+        "updates": 256,
+        "training_characters_seen": 251132,
+        "training_bpc": 2.615114507889575,
+        "validation_bpc": 2.6774116250864552,
+        "seconds": 41.84948515892029
+      },
+      {
+        "epoch": 3,
+        "updates": 384,
+        "training_characters_seen": 376698,
+        "training_bpc": 2.555464763650668,
+        "validation_bpc": 2.624161951323709,
+        "seconds": 62.454153060913086
+      },
+      {
+        "epoch": 4,
+        "updates": 512,
+        "training_characters_seen": 502264,
+        "training_bpc": 2.5088180987673305,
+        "validation_bpc": 2.5995430476389227,
+        "seconds": 83.04232501983643
+      },
+      {
+        "epoch": 5,
+        "updates": 640,
+        "training_characters_seen": 627830,
+        "training_bpc": 2.4823776700100284,
+        "validation_bpc": 2.5834031714483,
+        "seconds": 103.71952319145203
+      },
+      {
+        "epoch": 6,
+        "updates": 768,
+        "training_characters_seen": 753396,
+        "training_bpc": 2.4558722522843683,
+        "validation_bpc": 2.564024042081339,
+        "seconds": 124.30848503112793
+      },
+      {
+        "epoch": 7,
+        "updates": 896,
+        "training_characters_seen": 878962,
+        "training_bpc": 2.4350250860660405,
+        "validation_bpc": 2.556051679238085,
+        "seconds": 144.8466019630432
+      },
+      {
+        "epoch": 8,
+        "updates": 1024,
+        "training_characters_seen": 1004528,
+        "training_bpc": 2.4175005403447805,
+        "validation_bpc": 2.5364152811003207,
+        "seconds": 165.50800490379333
+      },
+      {
+        "epoch": 9,
+        "updates": 1152,
+        "training_characters_seen": 1130094,
+        "training_bpc": 2.4004931023324576,
+        "validation_bpc": 2.533320807084956,
+        "seconds": 186.17403197288513
+      },
+      {
+        "epoch": 10,
+        "updates": 1280,
+        "training_characters_seen": 1255660,
+        "training_bpc": 2.3827172861122836,
+        "validation_bpc": 2.517765352600474,
+        "seconds": 206.6644880771637
+      },
+      {
+        "epoch": 11,
+        "updates": 1408,
+        "training_characters_seen": 1381226,
+        "training_bpc": 2.371713361513515,
+        "validation_bpc": 2.5190489057242655,
+        "seconds": 227.229070186615
+      },
+      {
+        "epoch": 12,
+        "updates": 1536,
+        "training_characters_seen": 1506792,
+        "training_bpc": 2.361800002246972,
+        "validation_bpc": 2.530004184702475,
+        "seconds": 247.77862310409546
+      },
+      {
+        "epoch": 13,
+        "updates": 1664,
+        "training_characters_seen": 1632358,
+        "training_bpc": 2.3483435312838936,
+        "validation_bpc": 2.5173744185512046,
+        "seconds": 268.3566212654114
+      },
+      {
+        "epoch": 14,
+        "updates": 1792,
+        "training_characters_seen": 1757924,
+        "training_bpc": 2.333323148175178,
+        "validation_bpc": 2.519386967472477,
+        "seconds": 288.91724705696106
+      },
+      {
+        "epoch": 15,
+        "updates": 1920,
+        "training_characters_seen": 1883490,
+        "training_bpc": 2.3251423540987717,
+        "validation_bpc": 2.5158502474192113,
+        "seconds": 309.4718370437622
+      },
+      {
+        "epoch": 16,
+        "updates": 2048,
+        "training_characters_seen": 2009056,
+        "training_bpc": 2.3088492663662494,
+        "validation_bpc": 2.523121459354732,
+        "seconds": 330.06601905822754
+      },
+      {
+        "epoch": 17,
+        "updates": 2176,
+        "training_characters_seen": 2134622,
+        "training_bpc": 2.2968110873622525,
+        "validation_bpc": 2.5190630198646655,
+        "seconds": 350.6062960624695
+      },
+      {
+        "epoch": 18,
+        "updates": 2304,
+        "training_characters_seen": 2260188,
+        "training_bpc": 2.2819677250992165,
+        "validation_bpc": 2.5312416996936338,
+        "seconds": 371.123379945755
+      },
+      {
+        "epoch": 19,
+        "updates": 2432,
+        "training_characters_seen": 2385754,
+        "training_bpc": 2.271222360967632,
+        "validation_bpc": 2.532015668153262,
+        "seconds": 391.6559729576111
+      }
+    ],
+    "training_run_outputs/char-transformer-timm-s42": [
+      {
+        "epoch": 1,
+        "updates": 44,
+        "training_characters_seen": 43283,
+        "training_bpc": 4.470338977442581,
+        "validation_bpc": 2.8935270462012013,
+        "seconds": 1.9664509296417236
+      },
+      {
+        "epoch": 2,
+        "updates": 88,
+        "training_characters_seen": 86566,
+        "training_bpc": 2.454677494160668,
+        "validation_bpc": 2.477525405989199,
+        "seconds": 3.117537021636963
+      },
+      {
+        "epoch": 3,
+        "updates": 132,
+        "training_characters_seen": 129849,
+        "training_bpc": 2.2191738703871167,
+        "validation_bpc": 2.3922351130773154,
+        "seconds": 4.267419099807739
+      },
+      {
+        "epoch": 4,
+        "updates": 176,
+        "training_characters_seen": 173132,
+        "training_bpc": 2.137881928815722,
+        "validation_bpc": 2.3302822524275912,
+        "seconds": 5.418355941772461
+      },
+      {
+        "epoch": 5,
+        "updates": 220,
+        "training_characters_seen": 216415,
+        "training_bpc": 2.093255551112752,
+        "validation_bpc": 2.329531617511243,
+        "seconds": 6.572973012924194
+      },
+      {
+        "epoch": 6,
+        "updates": 264,
+        "training_characters_seen": 259698,
+        "training_bpc": 2.0596797969740637,
+        "validation_bpc": 2.3181059589099458,
+        "seconds": 7.7259581089019775
+      },
+      {
+        "epoch": 7,
+        "updates": 308,
+        "training_characters_seen": 302981,
+        "training_bpc": 2.036906800622907,
+        "validation_bpc": 2.3199214974757734,
+        "seconds": 8.876224040985107
+      },
+      {
+        "epoch": 8,
+        "updates": 352,
+        "training_characters_seen": 346264,
+        "training_bpc": 2.0180004515534464,
+        "validation_bpc": 2.3087843567541526,
+        "seconds": 10.007927179336548
+      },
+      {
+        "epoch": 9,
+        "updates": 396,
+        "training_characters_seen": 389547,
+        "training_bpc": 2.0002972536173447,
+        "validation_bpc": 2.286258022215304,
+        "seconds": 11.15119218826294
+      },
+      {
+        "epoch": 10,
+        "updates": 440,
+        "training_characters_seen": 432830,
+        "training_bpc": 1.9828490406727328,
+        "validation_bpc": 2.2916453764840723,
+        "seconds": 12.30233120918274
+      },
+      {
+        "epoch": 11,
+        "updates": 484,
+        "training_characters_seen": 476113,
+        "training_bpc": 1.9642237385881147,
+        "validation_bpc": 2.2866851614196744,
+        "seconds": 13.442432165145874
+      },
+      {
+        "epoch": 12,
+        "updates": 528,
+        "training_characters_seen": 519396,
+        "training_bpc": 1.9484174601792408,
+        "validation_bpc": 2.3130202982921437,
+        "seconds": 14.574076175689697
+      },
+      {
+        "epoch": 13,
+        "updates": 572,
+        "training_characters_seen": 562679,
+        "training_bpc": 1.9294393729354444,
+        "validation_bpc": 2.294187217133022,
+        "seconds": 15.917213916778564
+      }
+    ],
+    "training_run_outputs/char-gru-timm-s42": [
+      {
+        "epoch": 1,
+        "updates": 44,
+        "training_characters_seen": 43283,
+        "training_bpc": 3.8218364315379003,
+        "validation_bpc": 2.455250888209253,
+        "seconds": 7.454035758972168
+      },
+      {
+        "epoch": 2,
+        "updates": 88,
+        "training_characters_seen": 86566,
+        "training_bpc": 2.0651387340322707,
+        "validation_bpc": 2.1916775993188082,
+        "seconds": 14.556826829910278
+      },
+      {
+        "epoch": 3,
+        "updates": 132,
+        "training_characters_seen": 129849,
+        "training_bpc": 1.9349784953678864,
+        "validation_bpc": 2.144106989141428,
+        "seconds": 21.573519706726074
+      },
+      {
+        "epoch": 4,
+        "updates": 176,
+        "training_characters_seen": 173132,
+        "training_bpc": 1.8893897603656507,
+        "validation_bpc": 2.1012417836712833,
+        "seconds": 28.60331082344055
+      },
+      {
+        "epoch": 5,
+        "updates": 220,
+        "training_characters_seen": 216415,
+        "training_bpc": 1.8602007324699772,
+        "validation_bpc": 2.0896147661975464,
+        "seconds": 35.93317770957947
+      },
+      {
+        "epoch": 6,
+        "updates": 264,
+        "training_characters_seen": 259698,
+        "training_bpc": 1.8363755533971506,
+        "validation_bpc": 2.1069047656219566,
+        "seconds": 42.97942399978638
+      },
+      {
+        "epoch": 7,
+        "updates": 308,
+        "training_characters_seen": 302981,
+        "training_bpc": 1.8207567281467192,
+        "validation_bpc": 2.1086388172614616,
+        "seconds": 50.211400747299194
+      },
+      {
+        "epoch": 8,
+        "updates": 352,
+        "training_characters_seen": 346264,
+        "training_bpc": 1.806651647489275,
+        "validation_bpc": 2.0807217901978907,
+        "seconds": 57.21355485916138
+      },
+      {
+        "epoch": 9,
+        "updates": 396,
+        "training_characters_seen": 389547,
+        "training_bpc": 1.7869691856283272,
+        "validation_bpc": 2.099194398798104,
+        "seconds": 64.34758281707764
+      },
+      {
+        "epoch": 10,
+        "updates": 440,
+        "training_characters_seen": 432830,
+        "training_bpc": 1.777909777998371,
+        "validation_bpc": 2.0981003075655895,
+        "seconds": 71.32538485527039
+      },
+      {
+        "epoch": 11,
+        "updates": 484,
+        "training_characters_seen": 476113,
+        "training_bpc": 1.7626328670722173,
+        "validation_bpc": 2.084559524083117,
+        "seconds": 78.43257975578308
+      },
+      {
+        "epoch": 12,
+        "updates": 528,
+        "training_characters_seen": 519396,
+        "training_bpc": 1.7449259291541772,
+        "validation_bpc": 2.101159065824624,
+        "seconds": 85.40033674240112
+      }
+    ],
+    "training_run_outputs/char-transformer-naibbe-s42": [
+      {
+        "epoch": 1,
+        "updates": 93,
+        "training_characters_seen": 93060,
+        "training_bpc": 3.478480524396373,
+        "validation_bpc": 2.3534362271004916,
+        "seconds": 3.417512893676758
+      },
+      {
+        "epoch": 2,
+        "updates": 186,
+        "training_characters_seen": 186120,
+        "training_bpc": 2.2685810627593828,
+        "validation_bpc": 2.2487962183052614,
+        "seconds": 5.775185823440552
+      },
+      {
+        "epoch": 3,
+        "updates": 279,
+        "training_characters_seen": 279180,
+        "training_bpc": 2.208147864680229,
+        "validation_bpc": 2.21919044153776,
+        "seconds": 8.134379863739014
+      },
+      {
+        "epoch": 4,
+        "updates": 372,
+        "training_characters_seen": 372240,
+        "training_bpc": 2.18312781611379,
+        "validation_bpc": 2.203893502896926,
+        "seconds": 10.511894941329956
+      },
+      {
+        "epoch": 5,
+        "updates": 465,
+        "training_characters_seen": 465300,
+        "training_bpc": 2.163553128973305,
+        "validation_bpc": 2.18470053255554,
+        "seconds": 12.887940883636475
+      },
+      {
+        "epoch": 6,
+        "updates": 558,
+        "training_characters_seen": 558360,
+        "training_bpc": 2.1370066597493023,
+        "validation_bpc": 2.16090562013747,
+        "seconds": 15.267501831054688
+      },
+      {
+        "epoch": 7,
+        "updates": 651,
+        "training_characters_seen": 651420,
+        "training_bpc": 2.0962745743439566,
+        "validation_bpc": 2.1128819823429814,
+        "seconds": 17.875900745391846
+      },
+      {
+        "epoch": 8,
+        "updates": 744,
+        "training_characters_seen": 744480,
+        "training_bpc": 2.0361479978809602,
+        "validation_bpc": 2.0450518450902786,
+        "seconds": 20.277284860610962
+      },
+      {
+        "epoch": 9,
+        "updates": 837,
+        "training_characters_seen": 837540,
+        "training_bpc": 1.9770873333809695,
+        "validation_bpc": 2.007284247867902,
+        "seconds": 22.68214178085327
+      },
+      {
+        "epoch": 10,
+        "updates": 930,
+        "training_characters_seen": 930600,
+        "training_bpc": 1.9290058305954276,
+        "validation_bpc": 1.9493938449479704,
+        "seconds": 25.086994886398315
+      },
+      {
+        "epoch": 11,
+        "updates": 1023,
+        "training_characters_seen": 1023660,
+        "training_bpc": 1.8928640948672713,
+        "validation_bpc": 1.930650740210502,
+        "seconds": 27.4879207611084
+      },
+      {
+        "epoch": 12,
+        "updates": 1116,
+        "training_characters_seen": 1116720,
+        "training_bpc": 1.8662336025249207,
+        "validation_bpc": 1.915390547191959,
+        "seconds": 29.89349675178528
+      },
+      {
+        "epoch": 13,
+        "updates": 1209,
+        "training_characters_seen": 1209780,
+        "training_bpc": 1.842683176848463,
+        "validation_bpc": 1.9150634135132696,
+        "seconds": 32.54039287567139
+      },
+      {
+        "epoch": 14,
+        "updates": 1302,
+        "training_characters_seen": 1302840,
+        "training_bpc": 1.8278539557994744,
+        "validation_bpc": 1.9106907134627318,
+        "seconds": 34.94742774963379
+      },
+      {
+        "epoch": 15,
+        "updates": 1395,
+        "training_characters_seen": 1395900,
+        "training_bpc": 1.8127488905311586,
+        "validation_bpc": 1.8974568225479014,
+        "seconds": 37.34883189201355
+      },
+      {
+        "epoch": 16,
+        "updates": 1488,
+        "training_characters_seen": 1488960,
+        "training_bpc": 1.795321390976341,
+        "validation_bpc": 1.9081044393975424,
+        "seconds": 39.75708484649658
+      },
+      {
+        "epoch": 17,
+        "updates": 1581,
+        "training_characters_seen": 1582020,
+        "training_bpc": 1.7835817927040847,
+        "validation_bpc": 1.9056448947095197,
+        "seconds": 42.14339089393616
+      },
+      {
+        "epoch": 18,
+        "updates": 1674,
+        "training_characters_seen": 1675080,
+        "training_bpc": 1.770214393852987,
+        "validation_bpc": 1.9043387043287276,
+        "seconds": 44.52778601646423
+      },
+      {
+        "epoch": 19,
+        "updates": 1767,
+        "training_characters_seen": 1768140,
+        "training_bpc": 1.7560260626614088,
+        "validation_bpc": 1.9190672410731628,
+        "seconds": 46.91999888420105
+      }
+    ],
+    "training_run_outputs/char-gru-naibbe-s42": [
+      {
+        "epoch": 1,
+        "updates": 93,
+        "training_characters_seen": 93060,
+        "training_bpc": 2.912502645713517,
+        "validation_bpc": 1.9459820124681644,
+        "seconds": 15.426733016967773
+      },
+      {
+        "epoch": 2,
+        "updates": 186,
+        "training_characters_seen": 186120,
+        "training_bpc": 1.9072101439944316,
+        "validation_bpc": 1.8858864275123814,
+        "seconds": 30.21940517425537
+      },
+      {
+        "epoch": 3,
+        "updates": 279,
+        "training_characters_seen": 279180,
+        "training_bpc": 1.8639310814878673,
+        "validation_bpc": 1.8586713058500446,
+        "seconds": 45.021658182144165
+      },
+      {
+        "epoch": 4,
+        "updates": 372,
+        "training_characters_seen": 372240,
+        "training_bpc": 1.8426958326130052,
+        "validation_bpc": 1.8454662768282288,
+        "seconds": 59.791808128356934
+      },
+      {
+        "epoch": 5,
+        "updates": 465,
+        "training_characters_seen": 465300,
+        "training_bpc": 1.8300360058079255,
+        "validation_bpc": 1.8321047381373585,
+        "seconds": 74.51474714279175
+      },
+      {
+        "epoch": 6,
+        "updates": 558,
+        "training_characters_seen": 558360,
+        "training_bpc": 1.8169829226232646,
+        "validation_bpc": 1.8299053033449835,
+        "seconds": 89.27113223075867
+      },
+      {
+        "epoch": 7,
+        "updates": 651,
+        "training_characters_seen": 651420,
+        "training_bpc": 1.8050769752981022,
+        "validation_bpc": 1.8159321351728492,
+        "seconds": 104.02990007400513
+      },
+      {
+        "epoch": 8,
+        "updates": 744,
+        "training_characters_seen": 744480,
+        "training_bpc": 1.7819978358753272,
+        "validation_bpc": 1.8030115052800424,
+        "seconds": 118.84793305397034
+      },
+      {
+        "epoch": 9,
+        "updates": 837,
+        "training_characters_seen": 837540,
+        "training_bpc": 1.7643776094682613,
+        "validation_bpc": 1.778732180959381,
+        "seconds": 133.558856010437
+      },
+      {
+        "epoch": 10,
+        "updates": 930,
+        "training_characters_seen": 930600,
+        "training_bpc": 1.7524271891593914,
+        "validation_bpc": 1.763176945052255,
+        "seconds": 148.33902311325073
+      },
+      {
+        "epoch": 11,
+        "updates": 1023,
+        "training_characters_seen": 1023660,
+        "training_bpc": 1.7406003600206803,
+        "validation_bpc": 1.766014410876664,
+        "seconds": 163.03399205207825
+      },
+      {
+        "epoch": 12,
+        "updates": 1116,
+        "training_characters_seen": 1116720,
+        "training_bpc": 1.7312561076084971,
+        "validation_bpc": 1.764499192912296,
+        "seconds": 177.6972050666809
+      },
+      {
+        "epoch": 13,
+        "updates": 1209,
+        "training_characters_seen": 1209780,
+        "training_bpc": 1.7272161633546221,
+        "validation_bpc": 1.755118570146268,
+        "seconds": 192.4475610256195
+      },
+      {
+        "epoch": 14,
+        "updates": 1302,
+        "training_characters_seen": 1302840,
+        "training_bpc": 1.7204530134507396,
+        "validation_bpc": 1.7543803176287593,
+        "seconds": 207.16710209846497
+      },
+      {
+        "epoch": 15,
+        "updates": 1395,
+        "training_characters_seen": 1395900,
+        "training_bpc": 1.7126456688307707,
+        "validation_bpc": 1.7519565034905886,
+        "seconds": 221.9669680595398
+      },
+      {
+        "epoch": 16,
+        "updates": 1488,
+        "training_characters_seen": 1488960,
+        "training_bpc": 1.703014981551605,
+        "validation_bpc": 1.7494185565408509,
+        "seconds": 236.7729458808899
+      },
+      {
+        "epoch": 17,
+        "updates": 1581,
+        "training_characters_seen": 1582020,
+        "training_bpc": 1.6976583395439007,
+        "validation_bpc": 1.7401955600235604,
+        "seconds": 251.57182812690735
+      },
+      {
+        "epoch": 18,
+        "updates": 1674,
+        "training_characters_seen": 1675080,
+        "training_bpc": 1.6968102876147764,
+        "validation_bpc": 1.755219245997501,
+        "seconds": 266.4008090496063
+      },
+      {
+        "epoch": 19,
+        "updates": 1767,
+        "training_characters_seen": 1768140,
+        "training_bpc": 1.6878028262903595,
+        "validation_bpc": 1.7387756138581074,
+        "seconds": 281.1635961532593
+      },
+      {
+        "epoch": 20,
+        "updates": 1860,
+        "training_characters_seen": 1861200,
+        "training_bpc": 1.6792839157532897,
+        "validation_bpc": 1.736649070934207,
+        "seconds": 295.99045300483704
+      }
+    ]
+  },
+  "runs": {
+    "training_run_outputs/qwen-outer-c64-s42-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-gc-s43-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-gc-s44-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-gc-s45-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-gc-s46-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2925,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-timm-s42-n3000": {
+      "status": "complete",
+      "selected_step": 1500,
+      "trainable_parameters": 1245184,
+      "training_windows": 609,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/qwen-replica-naibbe-s42-n3000": {
+      "status": "complete",
+      "selected_step": 2500,
+      "trainable_parameters": 1245184,
+      "training_windows": 1318,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/char-transformer-gc-s42": {
+      "status": "complete",
+      "selected_epoch": 17,
+      "epoch": 20,
+      "wall_seconds": 71.4617772102356,
+      "parameters": 1272448,
+      "training_characters_seen": 2511320,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-gru-gc-s42": {
+      "status": "complete",
+      "selected_epoch": 16,
+      "epoch": 20,
+      "wall_seconds": 416.3334720134735,
+      "parameters": 1316608,
+      "training_characters_seen": 2511320,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-transformer-gc-s43": {
+      "status": "complete",
+      "selected_epoch": 14,
+      "epoch": 18,
+      "wall_seconds": 61.064810037612915,
+      "parameters": 1272448,
+      "training_characters_seen": 2260188,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-gru-gc-s43": {
+      "status": "complete",
+      "selected_epoch": 14,
+      "epoch": 18,
+      "wall_seconds": 372.6968960762024,
+      "parameters": 1316608,
+      "training_characters_seen": 2260188,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-transformer-gc-s44": {
+      "status": "complete",
+      "selected_epoch": 17,
+      "epoch": 20,
+      "wall_seconds": 67.90520215034485,
+      "parameters": 1272448,
+      "training_characters_seen": 2511320,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-gru-gc-s44": {
+      "status": "complete",
+      "selected_epoch": 17,
+      "epoch": 20,
+      "wall_seconds": 413.6142098903656,
+      "parameters": 1316608,
+      "training_characters_seen": 2511320,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-transformer-gc-shuffle-s42": {
+      "status": "complete",
+      "selected_epoch": 17,
+      "epoch": 20,
+      "wall_seconds": 67.4654438495636,
+      "parameters": 1272448,
+      "training_characters_seen": 2511320,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-gru-gc-shuffle-s42": {
+      "status": "complete",
+      "selected_epoch": 15,
+      "epoch": 19,
+      "wall_seconds": 393.278874874115,
+      "parameters": 1316608,
+      "training_characters_seen": 2385754,
+      "training_characters_per_epoch": 125566
+    },
+    "training_run_outputs/char-transformer-timm-s42": {
+      "status": "complete",
+      "selected_epoch": 9,
+      "epoch": 13,
+      "wall_seconds": 16.0349280834198,
+      "parameters": 1272448,
+      "training_characters_seen": 562679,
+      "training_characters_per_epoch": 43283
+    },
+    "training_run_outputs/char-gru-timm-s42": {
+      "status": "complete",
+      "selected_epoch": 8,
+      "epoch": 12,
+      "wall_seconds": 85.95340490341187,
+      "parameters": 1316608,
+      "training_characters_seen": 519396,
+      "training_characters_per_epoch": 43283
+    },
+    "training_run_outputs/char-transformer-naibbe-s42": {
+      "status": "complete",
+      "selected_epoch": 15,
+      "epoch": 19,
+      "wall_seconds": 47.08327674865723,
+      "parameters": 1272448,
+      "training_characters_seen": 1768140,
+      "training_characters_per_epoch": 93060
+    },
+    "training_run_outputs/char-gru-naibbe-s42": {
+      "status": "complete",
+      "selected_epoch": 20,
+      "epoch": 20,
+      "wall_seconds": 296.99209904670715,
+      "parameters": 1316608,
+      "training_characters_seen": 1861200,
+      "training_characters_per_epoch": 93060
+    },
+    "training_run_outputs/cloud-qwen-1.7B-base-gc-s42-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1245184,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    },
+    "training_run_outputs/cloud-qwen-8B-base-gc-s42-n3000": {
+      "status": "complete",
+      "selected_step": 3000,
+      "trainable_parameters": 1212416,
+      "training_windows": 2935,
+      "optimizer_steps": 3000
+    }
+  },
+  "input_sha256": {
+    "experiments/replication-results.json": "2867092f702d6ddb19664f4456b4dc9d49e5d952e9081674cd7878aa754886ca",
+    "experiments/character-results.json": "adf3c068a34307b8f3c7512eb2f7c8769e49e3c69d7dd55f8e1f5a9097c40dc1",
+    "experiments/cloud-results.json": "98d1e34b6bc575041616516b4efa45960d49aed1b1deed3af61aab980481f952",
+    "experiments/character-plan.json": "6c94cd0e545b694e868030e66f83a9ff8426dd64e57f61e9cfa1aac7ebebe1fb",
+    "experiments/cloud-plan.json": "e4b799587518040741f47465e88b0f77e7825f5530a9f2a9baf40c0d7db8531e",
+    "artifacts/final-verification.json": "487810781a862ca9df3242d06453e86bd3c9354ef6d6613134522ce30fa21558",
+    "training_run_outputs/qwen-outer-c64-s42-n3000/run.json": "0f540306ab1c769fee0ccaf4675d5515aae7e58e9f8bfba2c81fca3f0e518d96",
+    "training_run_outputs/qwen-outer-c64-s42-n3000/adapted.json": "9cba403ce79e3ed3d674e260bae9575546901b2748df94e69ea9b929f9180e20",
+    "training_run_outputs/qwen-replica-gc-s43-n3000/run.json": "70a7916c8a71e2eb738b665390052ba66cfbfadefed3fc871604d107aad608bd",
+    "training_run_outputs/qwen-replica-gc-s43-n3000/adapted.json": "f961c72fbabc437a1541a12bc3086602add971c94f155e7ef1d26661a66b5fa3",
+    "training_run_outputs/qwen-replica-gc-s44-n3000/run.json": "909fabe7b0212621aaee3437b7fe1803d817ca1e7f406dcdbc0784a1ef634fc9",
+    "training_run_outputs/qwen-replica-gc-s44-n3000/adapted.json": "a2de0a066f8a94e6ef80531d5cd6f96c592f9ec1448b2714318a05959c8fd4a5",
+    "training_run_outputs/qwen-replica-gc-s45-n3000/run.json": "7398c2c7ad5efdcde90f0f2071c1850d8852fcda88dc5617470560c2a535a0ea",
+    "training_run_outputs/qwen-replica-gc-s45-n3000/adapted.json": "ab94f0da36c88b874a4e849158e29b6630765fd53f729bb56ecccdf22c31bdba",
+    "training_run_outputs/qwen-replica-gc-s46-n3000/run.json": "7a82ed3ddfed9ef10ca1b960be03c9e76e7222fedba33e44092d02a77f86268b",
+    "training_run_outputs/qwen-replica-gc-s46-n3000/adapted.json": "9f276fe463b36f1ab0789c88d320c762c4ef72b45ddd9933f2c12483647466c3",
+    "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000/run.json": "13f6fdd4490576cbe5a7a437c38032ce1b723c2b97a96ca3b1e9281c6f48f8a3",
+    "training_run_outputs/qwen-replica-gc-shuffle-s42-n3000/adapted.json": "b0837c56b11136aa2a56505ee472abe968a62dfbb2bf9b9eefc864568323988e",
+    "training_run_outputs/qwen-replica-timm-s42-n3000/run.json": "62b3bb06bd9b0c7664f27c858f30525d7b15b59bf39bc37662d1e59fce28f495",
+    "training_run_outputs/qwen-replica-timm-s42-n3000/adapted.json": "ec700a48ca06f1f1ea2e81e2eaa04e188765e9b932b017d74ada2b12999800bd",
+    "training_run_outputs/qwen-replica-naibbe-s42-n3000/run.json": "08310f6b4d04b9586bf76b85458f5de0eeb9d84ace0c35090b3b4c25e13b12d8",
+    "training_run_outputs/qwen-replica-naibbe-s42-n3000/adapted.json": "fa29c8b22be8b0f9e8d8b3d5264f5c69e6fcd84910b0a382977e76ce2f628628",
+    "training_run_outputs/char-transformer-gc-s42/run.json": "a33476b23d5ed7d48f210d091a66b167333f6f0d9662302684eb9329a8eafc18",
+    "training_run_outputs/char-transformer-gc-s42/adapted.json": "ae08c22ec8f1a4fa265c72ef709f96a17b3116270b9056adb75bc9603feb0061",
+    "training_run_outputs/char-transformer-gc-s42/learning_curve.json": "6cdb358b6f2116a4afa666d7b0dd3d4f55ae8625ca99235d76e1e99056bb299a",
+    "training_run_outputs/char-transformer-gc-s42/best.pt": "8e1e72bab4d6929a88b60bc983cb1834155ddd90c7be70264e8ab71fbfcc2f67",
+    "training_run_outputs/char-gru-gc-s42/run.json": "ee01ed1be96372892ba0593eb0fbe5dc19b924e2a330194f30c744482f8979c1",
+    "training_run_outputs/char-gru-gc-s42/adapted.json": "397e39b01527565640c1aca5af03ea184ca906c4d5f7f2e7d0b17821a0512c95",
+    "training_run_outputs/char-gru-gc-s42/learning_curve.json": "407d0e667f29405661b4b11c68b70f9d99cf43da25d53d24ec2319ffa053fb09",
+    "training_run_outputs/char-gru-gc-s42/best.pt": "8b28e4dfe6f04119a2856b9b8d8dd841daa2aba9a5a4f7204bb79443420740b1",
+    "training_run_outputs/char-transformer-gc-s43/run.json": "3e52f9ce2d19d1fc0bd84174540d2d552718d15f34de1d4f544f5360d552a51f",
+    "training_run_outputs/char-transformer-gc-s43/adapted.json": "530336c1081ef04d43e017089613dc1f1b1131e936a095c5e42cc4c09f18bdb5",
+    "training_run_outputs/char-transformer-gc-s43/learning_curve.json": "d3478bd4a1617c5a38f1ba46bde27a0fa4cc1e5963b6f2a5637af18b65470222",
+    "training_run_outputs/char-transformer-gc-s43/best.pt": "845c0cf4df0e7849f88aeaf7b7cfef1c23270b3b10f25738a0b5264ac5d9a713",
+    "training_run_outputs/char-gru-gc-s43/run.json": "80c81cc540ed267f2c3207864b8bc23be164d8cb37fb7fbd6279824b73e56a2b",
+    "training_run_outputs/char-gru-gc-s43/adapted.json": "2a4be84913d7cab8137586eecc4dcfd3328c136c961afbac66b6bd5bf4d87329",
+    "training_run_outputs/char-gru-gc-s43/learning_curve.json": "5f433d2e0102a44214ef56d05675b0b1e6a443a1e7d1ff39f4db66b8b03defbc",
+    "training_run_outputs/char-gru-gc-s43/best.pt": "9fa1fbf9b28bb9a1f3f160602c3cfb46e1d9db658199665cd1ef48102197534b",
+    "training_run_outputs/char-transformer-gc-s44/run.json": "140be7931dd5c58082d3f6ce501b75d6f2b97708c7f69da5151401aef82f3ab4",
+    "training_run_outputs/char-transformer-gc-s44/adapted.json": "80f9549fd3165b1c5b65dd620b3d027420475a36d5dd9f6cb09833c47320274c",
+    "training_run_outputs/char-transformer-gc-s44/learning_curve.json": "0f4feed9ce7cd953c5402c5c3f7450111933f45f8cde1ab4a479176fea2147a4",
+    "training_run_outputs/char-transformer-gc-s44/best.pt": "4c62269031985087c67ec477827eb219e86229bbab10d377c99f4497da161bc3",
+    "training_run_outputs/char-gru-gc-s44/run.json": "1ac15a68a1612f011bb35c0124f404bb92e9de7bea50a9b4a083c45ba1aa4d73",
+    "training_run_outputs/char-gru-gc-s44/adapted.json": "91e300d2e2e6d4a0df50682e9ea9ead8f4b2cb1808a235cbdb7e4b695199e852",
+    "training_run_outputs/char-gru-gc-s44/learning_curve.json": "132d1cb09bb1cca39bab02ee679bec823e635426f3f9653a6a9c554c63ea20ff",
+    "training_run_outputs/char-gru-gc-s44/best.pt": "f2c6410ebcef693e73650e061ab3d64aada73befccf22c32a22c9f9c8b038268",
+    "training_run_outputs/char-transformer-gc-shuffle-s42/run.json": "a9f185d5ab6b11278f81048235b351405fdb82a88d6e243814ceee274db9f7b0",
+    "training_run_outputs/char-transformer-gc-shuffle-s42/adapted.json": "65752a37daf03f48319b170783ce52aba23de67727948826876e445be559a9a1",
+    "training_run_outputs/char-transformer-gc-shuffle-s42/learning_curve.json": "dd9f31b7a71ccf43e34238c2151963025f7e205a4296a4585334ec2ff821f122",
+    "training_run_outputs/char-transformer-gc-shuffle-s42/best.pt": "d265ca9042b2d296b5ec493ee5e9f2cabae817453ed14e5775b3d43117fa1f0c",
+    "training_run_outputs/char-gru-gc-shuffle-s42/run.json": "b57ba6ae5c2bcc38f233f888a9f7c1ba8e3f84815270b0d883c03dbecc7a8867",
+    "training_run_outputs/char-gru-gc-shuffle-s42/adapted.json": "d940cfc6f357572e2767e297b1ba3db7234735ca521964f1a0f53325e0a531f0",
+    "training_run_outputs/char-gru-gc-shuffle-s42/learning_curve.json": "a0f45a5a448020003987c734da3877043cc29ac9e366ec70e432819020f9643a",
+    "training_run_outputs/char-gru-gc-shuffle-s42/best.pt": "96716c9ee6ed9c5e431c8b9a397c000752dd314e482223407ac5c15db2ec64eb",
+    "training_run_outputs/char-transformer-timm-s42/run.json": "22ee0e1aa685ab47ddd96b12f8a69d6c3e02da220c8bc35df98cac0a2ff246fc",
+    "training_run_outputs/char-transformer-timm-s42/adapted.json": "49858c172faffff393789f6021ec24b772d5ed48ce73c5751631e0761e1f1ec2",
+    "training_run_outputs/char-transformer-timm-s42/learning_curve.json": "9e0c084ca246a820081c7b52eed956a18c86d97291d389b027b9a35f750046d0",
+    "training_run_outputs/char-transformer-timm-s42/best.pt": "28c92b5bdd7fa8de6bf7ab6140bbad28716fe666ec2fc096927cda6a0fc0dd3f",
+    "training_run_outputs/char-gru-timm-s42/run.json": "af0ee004e947be5b2d85daa08ace2575e9e9c2a54ab814e6f5d7b58b2af6e9ff",
+    "training_run_outputs/char-gru-timm-s42/adapted.json": "4524bc3163f38610ca2fe2ca8df66614f06ba459e47aad5eab261596b55b6e8b",
+    "training_run_outputs/char-gru-timm-s42/learning_curve.json": "54b99652a4a095cd1784ae2f9f8dfa2f0bc943fb8c1e412d129c5bf624a94a3e",
+    "training_run_outputs/char-gru-timm-s42/best.pt": "75b4d67ef70394a9b48ea87d92fbb4929fc979eec42d8da096545f4633ffe645",
+    "training_run_outputs/char-transformer-naibbe-s42/run.json": "77f46213a55f9b517f7228182becdabf1874ec391ebf01235d856912f0bde904",
+    "training_run_outputs/char-transformer-naibbe-s42/adapted.json": "cdf9541f778177de05e71aaf299119bbe337121b3ee9c27d6a67e52e87512784",
+    "training_run_outputs/char-transformer-naibbe-s42/learning_curve.json": "e7d594fb08ddb16ac6eb5ccd26358deb2399f2de7fc644e6418e254935c0bc80",
+    "training_run_outputs/char-transformer-naibbe-s42/best.pt": "bf7a0e9b8ad26cf4768828429e901d6b7d78cea2b244c7d8a641be3c292cf895",
+    "training_run_outputs/char-gru-naibbe-s42/run.json": "fa4f25991550bf6a9180446bdceb90987da432e3835f270d5c27cb3c3ba0ed48",
+    "training_run_outputs/char-gru-naibbe-s42/adapted.json": "f1445e1b5c63c91a9f4e1079f51aaf373d8b5f4c7a47810ecd8c0ddcc5aee42e",
+    "training_run_outputs/char-gru-naibbe-s42/learning_curve.json": "ab9bd4f24178033c40915bbe2a54c00ff28bed4faf9d45207102521ae774e81f",
+    "training_run_outputs/char-gru-naibbe-s42/best.pt": "58ea82e3c2b44e90eba295fb1c6208ee6b8d1157ec474cbffe44127032aaedc3",
+    "training_run_outputs/cloud-qwen-1.7B-base-gc-s42-n3000/run.json": "2d5267b73d1ef8e0259034e450bc3f9afdfc2df3d8412e9ece43fd08b7a6742c",
+    "training_run_outputs/cloud-qwen-1.7B-base-gc-s42-n3000/adapted.json": "0ab24497553ffe729951a3e19d5148ad1d8a7fe4f248091b097a413a0cec058c",
+    "training_run_outputs/cloud-qwen-8B-base-gc-s42-n3000/run.json": "c0cf831af5baf1fc19699e9e45823b875427200a9b315e8c6279f54b1745e02b",
+    "training_run_outputs/cloud-qwen-8B-base-gc-s42-n3000/adapted.json": "d7e7540e8a8cf3b4a926ea2f0754dfb21ce38da515cf3725bfc6df8917030d0d"
+  }
+}

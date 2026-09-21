@@ -1,0 +1,5180 @@
+{
+  "date": "2026-09-20",
+  "split": "validation",
+  "test_scored": false,
+  "model": "mlx-community/Qwen3-1.7B-bf16",
+  "revision": "9cd6692855d3e06772228e9a962b2606359b2d24",
+  "hardware": "Apple Silicon, 36 GiB unified memory, MPS",
+  "seeds_run": [
+    42
+  ],
+  "source_manifest_sha256": "248a452b1ea6566855cf2394ed0010900333903b439c08fd7f5cf076005ca5ae",
+  "baselines": {
+    "gc": {
+      "dataset_sha256": "97d5e97339d565a929215b487630813d760425bdcd8c6710a9fad29f690245df",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 58118.39091933841,
+            "loss_nats": 2.9424053725869994,
+            "bits_per_character": 4.244993639316307,
+            "accuracy": 0.16681855002025112
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28811.864521324125,
+              "loss_nats": 2.9336996763388785,
+              "bits_per_character": 4.2324339745116575,
+              "accuracy": 0.16933102535383363
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 29306.526398014284,
+              "loss_nats": 2.9510146408231077,
+              "bits_per_character": 4.257414187906224,
+              "accuracy": 0.16433390393716646
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 10528.880860643774,
+              "loss_nats": 2.8901676806598338,
+              "bits_per_character": 4.169630580225499,
+              "accuracy": 0.16854241010156465
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 33003.303459938266,
+              "loss_nats": 2.939375085495036,
+              "bits_per_character": 4.240621859156262,
+              "accuracy": 0.16886355539722123
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14586.206598756366,
+              "loss_nats": 2.9883643922877208,
+              "bits_per_character": 4.311298489122656,
+              "accuracy": 0.1608276992419586
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28811.864521324125,
+              "loss_nats": 2.9336996763388785,
+              "bits_per_character": 4.2324339745116575,
+              "accuracy": 0.16933102535383363
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 13273.007933813917,
+              "loss_nats": 2.9056497228139047,
+              "bits_per_character": 4.191966445664011,
+              "accuracy": 0.1687828371278459
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14586.206598756366,
+              "loss_nats": 2.9883643922877208,
+              "bits_per_character": 4.311298489122656,
+              "accuracy": 0.1608276992419586
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1447.3118654440016,
+              "loss_nats": 3.0027217125394223,
+              "bits_per_character": 4.332011723850241,
+              "accuracy": 0.15767634854771784
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 37758.19135890849,
+            "loss_nats": 1.9116135762914381,
+            "bits_per_character": 2.757875426611674,
+            "accuracy": 0.43276630214661804
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20399.308089419814,
+              "loss_nats": 2.0771110975888214,
+              "bits_per_character": 2.9966378798668245,
+              "accuracy": 0.38723144282659605
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 17358.88326948867,
+              "loss_nats": 1.747949176265096,
+              "bits_per_character": 2.521757608323603,
+              "accuracy": 0.4777967979055483
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5618.646871207388,
+              "loss_nats": 1.54231316805034,
+              "bits_per_character": 2.225087559043972,
+              "accuracy": 0.5100192149327477
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 23305.084481667593,
+              "loss_nats": 2.0756220592863905,
+              "bits_per_character": 2.9944896516922137,
+              "accuracy": 0.39490559315995727
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8834.460006033503,
+              "loss_nats": 1.8099692698286218,
+              "bits_per_character": 2.611233689743171,
+              "accuracy": 0.46220036877688997
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20399.308089419814,
+              "loss_nats": 2.0771110975888214,
+              "bits_per_character": 2.9966378798668245,
+              "accuracy": 0.38723144282659605
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7469.443825426624,
+              "loss_nats": 1.63516721222124,
+              "bits_per_character": 2.3590476280958144,
+              "accuracy": 0.5013134851138353
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8834.460006033503,
+              "loss_nats": 1.8099692698286218,
+              "bits_per_character": 2.611233689743171,
+              "accuracy": 0.46220036877688997
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1054.9794380285448,
+              "loss_nats": 2.1887540208061096,
+              "bits_per_character": 3.1577045715427534,
+              "accuracy": 0.41286307053941906
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 41863.60652122425,
+            "loss_nats": 2.1194616505277564,
+            "bits_per_character": 3.0577368125707314,
+            "accuracy": 0.43544957472660994
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 22627.718818047637,
+              "loss_nats": 2.304013727527506,
+              "bits_per_character": 3.3239891788440286,
+              "accuracy": 0.395071784950616
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 19235.887703176606,
+              "loss_nats": 1.9369537512009471,
+              "bits_per_character": 2.7944335712888817,
+              "accuracy": 0.4753801228476488
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 6171.473343279635,
+              "loss_nats": 1.6940635035079974,
+              "bits_per_character": 2.444017015461971,
+              "accuracy": 0.5083722206972275
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 25870.786656064032,
+              "loss_nats": 2.3041313373765613,
+              "bits_per_character": 3.3241588539900206,
+              "accuracy": 0.40114000712504455
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9821.34652188058,
+              "loss_nats": 2.0121586809835237,
+              "bits_per_character": 2.902931350536608,
+              "accuracy": 0.45994673222700266
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 22627.718818047637,
+              "loss_nats": 2.304013727527506,
+              "bits_per_character": 3.3239891788440286,
+              "accuracy": 0.395071784950616
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 8236.462197612154,
+              "loss_nats": 1.8030784145385628,
+              "bits_per_character": 2.601292286988719,
+              "accuracy": 0.49934325744308233
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9821.34652188058,
+              "loss_nats": 2.0121586809835237,
+              "bits_per_character": 2.902931350536608,
+              "accuracy": 0.45994673222700266
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1178.078983683873,
+              "loss_nats": 2.4441472690536785,
+              "bits_per_character": 3.526159144266045,
+              "accuracy": 0.4045643153526971
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 37828.154792626316,
+            "loss_nats": 1.915155669938554,
+            "bits_per_character": 2.762985587550732,
+            "accuracy": 0.43529769137302554
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20429.24272943844,
+              "loss_nats": 2.080159121213567,
+              "bits_per_character": 3.001035248434757,
+              "accuracy": 0.392424396700947
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 17398.912063187872,
+              "loss_nats": 1.751979867403874,
+              "bits_per_character": 2.527572666440873,
+              "accuracy": 0.47769610311146915
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5655.528572174486,
+              "loss_nats": 1.552437159531838,
+              "bits_per_character": 2.239693391348331,
+              "accuracy": 0.5075487235794675
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 23336.907422611202,
+              "loss_nats": 2.078456307678233,
+              "bits_per_character": 2.9985786077917727,
+              "accuracy": 0.39909155682223013
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8835.718797840625,
+              "loss_nats": 1.8102271661218245,
+              "bits_per_character": 2.6116057554464382,
+              "accuracy": 0.46465888137676703
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20429.24272943844,
+              "loss_nats": 2.080159121213567,
+              "bits_per_character": 3.001035248434757,
+              "accuracy": 0.392424396700947
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7504.418318123684,
+              "loss_nats": 1.642823624808162,
+              "bits_per_character": 2.3700934965659664,
+              "accuracy": 0.4991243432574431
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8835.718797840625,
+              "loss_nats": 1.8102271661218245,
+              "bits_per_character": 2.6116057554464382,
+              "accuracy": 0.46465888137676703
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1058.7749472235632,
+              "loss_nats": 2.196628521210712,
+              "bits_per_character": 3.1690650742259514,
+              "accuracy": 0.4066390041493776
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 36945.913164408674,
+            "loss_nats": 1.8704897308833877,
+            "bits_per_character": 2.6985462587791953,
+            "accuracy": 0.44927095990279464
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 19774.572232775714,
+              "loss_nats": 2.013498852741647,
+              "bits_per_character": 2.9048648096859915,
+              "accuracy": 0.40708685469911415
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 17171.34093163296,
+              "loss_nats": 1.7290646391735938,
+              "bits_per_character": 2.494512980312209,
+              "accuracy": 0.4909878159299164
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5524.7458170763475,
+              "loss_nats": 1.5165374189064913,
+              "bits_per_character": 2.1879010135789434,
+              "accuracy": 0.524567664013176
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 22630.377638657734,
+              "loss_nats": 2.015530605509239,
+              "bits_per_character": 2.9077960093281088,
+              "accuracy": 0.4157463484146776
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8790.789708674592,
+              "loss_nats": 1.8010222718038502,
+              "bits_per_character": 2.5983259000619894,
+              "accuracy": 0.47019053472649047
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 19774.572232775714,
+              "loss_nats": 2.013498852741647,
+              "bits_per_character": 2.9048648096859915,
+              "accuracy": 0.40708685469911415
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7358.052540070228,
+              "loss_nats": 1.6107820797001375,
+              "bits_per_character": 2.3238673183361995,
+              "accuracy": 0.5203590192644484
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8790.789708674592,
+              "loss_nats": 1.8010222718038502,
+              "bits_per_character": 2.5983259000619894,
+              "accuracy": 0.47019053472649047
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1022.498682888141,
+              "loss_nats": 2.1213665620085913,
+              "bits_per_character": 3.0604850189174644,
+              "accuracy": 0.42323651452282157
+            }
+          }
+        }
+      }
+    },
+    "gc-shuffle": {
+      "dataset_sha256": "597ddbeab97a17777608e7f33292b967e209deecb4047c49bf609e8128bd08f1",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 58118.39091933841,
+            "loss_nats": 2.9424053725869994,
+            "bits_per_character": 4.244993639316307,
+            "accuracy": 0.16681855002025112
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28811.86452132412,
+              "loss_nats": 2.933699676338878,
+              "bits_per_character": 4.232433974511657,
+              "accuracy": 0.16933102535383363
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 29306.526398014284,
+              "loss_nats": 2.9510146408231077,
+              "bits_per_character": 4.257414187906224,
+              "accuracy": 0.16433390393716646
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 10528.880860643774,
+              "loss_nats": 2.8901676806598338,
+              "bits_per_character": 4.169630580225499,
+              "accuracy": 0.16854241010156465
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 33003.303459938266,
+              "loss_nats": 2.939375085495036,
+              "bits_per_character": 4.240621859156262,
+              "accuracy": 0.16886355539722123
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14586.206598756366,
+              "loss_nats": 2.9883643922877208,
+              "bits_per_character": 4.311298489122656,
+              "accuracy": 0.1608276992419586
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28811.86452132412,
+              "loss_nats": 2.933699676338878,
+              "bits_per_character": 4.232433974511657,
+              "accuracy": 0.16933102535383363
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 13273.007933813917,
+              "loss_nats": 2.9056497228139047,
+              "bits_per_character": 4.191966445664011,
+              "accuracy": 0.1687828371278459
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14586.206598756366,
+              "loss_nats": 2.9883643922877208,
+              "bits_per_character": 4.311298489122656,
+              "accuracy": 0.1608276992419586
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1447.311865444002,
+              "loss_nats": 3.002721712539423,
+              "bits_per_character": 4.332011723850242,
+              "accuracy": 0.15767634854771784
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 40011.73349884451,
+            "loss_nats": 2.025705422177223,
+            "bits_per_character": 2.9224751668769637,
+            "accuracy": 0.40724989874443096
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 21392.031693638408,
+              "loss_nats": 2.1781928208571846,
+              "bits_per_character": 3.1424679807506024,
+              "accuracy": 0.3670705630791162
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 18619.701805206096,
+              "loss_nats": 1.8749070390903328,
+              "bits_per_character": 2.7049190874234332,
+              "accuracy": 0.44698419091732955
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5991.6373104446375,
+              "loss_nats": 1.6446986852716545,
+              "bits_per_character": 2.372798636998014,
+              "accuracy": 0.4866867965962119
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 24363.492899698933,
+              "loss_nats": 2.169887148174112,
+              "bits_per_character": 3.1304854279594876,
+              "accuracy": 0.37718204488778057
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9656.603288700935,
+              "loss_nats": 1.9784067381071369,
+              "bits_per_character": 2.8542375899284766,
+              "accuracy": 0.41712763777914363
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 21392.031693638408,
+              "loss_nats": 2.1781928208571846,
+              "bits_per_character": 3.1424679807506024,
+              "accuracy": 0.3670705630791162
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7902.925572098875,
+              "loss_nats": 1.7300625157834666,
+              "bits_per_character": 2.4959526119486912,
+              "accuracy": 0.4816112084063047
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9656.603288700935,
+              "loss_nats": 1.9784067381071369,
+              "bits_per_character": 2.8542375899284766,
+              "accuracy": 0.41712763777914363
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1060.1729444062864,
+              "loss_nats": 2.1995289303034986,
+              "bits_per_character": 3.1732494800406643,
+              "accuracy": 0.4211618257261411
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 44487.03142121062,
+            "loss_nats": 2.2522798410900475,
+            "bits_per_character": 3.249352957434794,
+            "accuracy": 0.406591737545565
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 23840.06628169323,
+              "loss_nats": 2.427458128672562,
+              "bits_per_character": 3.5020818042015085,
+              "accuracy": 0.3739945015782507
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 20646.965139517386,
+              "loss_nats": 2.079041903083011,
+              "bits_per_character": 2.9994234433782134,
+              "accuracy": 0.4388279125969187
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 6574.972662193811,
+              "loss_nats": 1.8048236788893248,
+              "bits_per_character": 2.603810171212604,
+              "accuracy": 0.4822948119681581
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 27146.60774826676,
+              "loss_nats": 2.417759863579156,
+              "bits_per_character": 3.488090165246025,
+              "accuracy": 0.381011756323477
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 10765.451010750046,
+              "loss_nats": 2.205583079440698,
+              "bits_per_character": 3.1819837709777037,
+              "accuracy": 0.4089325957795534
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 23840.06628169323,
+              "loss_nats": 2.427458128672562,
+              "bits_per_character": 3.5020818042015085,
+              "accuracy": 0.3739945015782507
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 8686.243241548602,
+              "loss_nats": 1.9015418654878726,
+              "bits_per_character": 2.7433450193821023,
+              "accuracy": 0.4739492119089317
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 10765.451010750046,
+              "loss_nats": 2.205583079440698,
+              "bits_per_character": 3.1819837709777037,
+              "accuracy": 0.4089325957795534
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1195.2708872187397,
+              "loss_nats": 2.479815118711078,
+              "bits_per_character": 3.5776169740859487,
+              "accuracy": 0.4087136929460581
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 40196.49518126868,
+            "loss_nats": 2.035059496824052,
+            "bits_per_character": 2.935970243982049,
+            "accuracy": 0.4077055488051843
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 21498.939988082966,
+              "loss_nats": 2.1890785040304417,
+              "bits_per_character": 3.158172701881349,
+              "accuracy": 0.3686997250789125
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 18697.55519318571,
+              "loss_nats": 1.8827464699613041,
+              "bits_per_character": 2.7162289954643755,
+              "accuracy": 0.44627932735877557
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 6017.719123100457,
+              "loss_nats": 1.6518581177876632,
+              "bits_per_character": 2.383127514784439,
+              "accuracy": 0.4908042821850124
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 24489.268881467622,
+              "loss_nats": 2.181089141562845,
+              "bits_per_character": 3.1466464882694827,
+              "accuracy": 0.3786070537940862
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9689.507176700597,
+              "loss_nats": 1.9851479567098131,
+              "bits_per_character": 2.8639631125761063,
+              "accuracy": 0.41262036467936897
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 21498.939988082966,
+              "loss_nats": 2.1890785040304417,
+              "bits_per_character": 3.158172701881349,
+              "accuracy": 0.3686997250789125
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7944.481611396011,
+              "loss_nats": 1.739159722284591,
+              "bits_per_character": 2.5090771066538062,
+              "accuracy": 0.48489492119089317
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9689.507176700597,
+              "loss_nats": 1.9851479567098131,
+              "bits_per_character": 2.8639631125761063,
+              "accuracy": 0.41262036467936897
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1063.5664050891019,
+              "loss_nats": 2.2065693051641118,
+              "bits_per_character": 3.18340659393807,
+              "accuracy": 0.4211618257261411
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 39216.76840915175,
+            "loss_nats": 1.9854581009088574,
+            "bits_per_character": 2.8644105560740276,
+            "accuracy": 0.4259821790198461
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20758.253904683417,
+              "loss_nats": 2.1136599027271576,
+              "bits_per_character": 3.0493666597903197,
+              "accuracy": 0.39140617045107423
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 18458.514504468334,
+              "loss_nats": 1.8586763170343705,
+              "bits_per_character": 2.6815031052032494,
+              "accuracy": 0.4601752089416977
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5912.078395994435,
+              "loss_nats": 1.6228598396910334,
+              "bits_per_character": 2.341291842780112,
+              "accuracy": 0.5072742245402141
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 23702.777005989647,
+              "loss_nats": 2.1110417711070224,
+              "bits_per_character": 3.0455894942855557,
+              "accuracy": 0.40122907018168863
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9601.91300716767,
+              "loss_nats": 1.9672020092537739,
+              "bits_per_character": 2.838072583177224,
+              "accuracy": 0.4222495390288875
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20758.253904683417,
+              "loss_nats": 2.1136599027271576,
+              "bits_per_character": 3.0493666597903197,
+              "accuracy": 0.39140617045107423
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7821.6779094931635,
+              "loss_nats": 1.7122762498890463,
+              "bits_per_character": 2.4702924543468785,
+              "accuracy": 0.50284588441331
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9601.91300716767,
+              "loss_nats": 1.9672020092537739,
+              "bits_per_character": 2.838072583177224,
+              "accuracy": 0.4222495390288875
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1034.9235878075008,
+              "loss_nats": 2.1471443730446076,
+              "bits_per_character": 3.097674539064098,
+              "accuracy": 0.43983402489626555
+            }
+          }
+        }
+      }
+    },
+    "gc-merged": {
+      "dataset_sha256": "a3dd027783dd6db78181d5bf0b552b4d1daf872fc8dc569e54fd39a488f69024",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 19441,
+            "units": 19441,
+            "nll": 56508.34118673393,
+            "loss_nats": 2.9066581547623027,
+            "bits_per_character": 4.19342130543504,
+            "accuracy": 0.16948716629802993
+          },
+          "currier": {
+            "A": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 28128.742585152882,
+              "loss_nats": 2.9019645708400787,
+              "bits_per_character": 4.186649895186451,
+              "accuracy": 0.17156711028577323
+            },
+            "B": {
+              "tokens": 9748,
+              "units": 9748,
+              "nll": 28379.598601581045,
+              "loss_nats": 2.911325256625056,
+              "bits_per_character": 4.200154510147757,
+              "accuracy": 0.16741895773492
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3604,
+              "units": 3604,
+              "nll": 10312.870286936828,
+              "loss_nats": 2.861506738883693,
+              "bits_per_character": 4.128281581657853,
+              "accuracy": 0.17036625971143174
+            },
+            "herbal": {
+              "tokens": 11095,
+              "units": 11095,
+              "nll": 32281.11618037654,
+              "loss_nats": 2.90951925915967,
+              "bits_per_character": 4.197549006560586,
+              "accuracy": 0.17088778729157278
+            },
+            "stars": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 13914.35471942056,
+              "loss_nats": 2.934279780561063,
+              "bits_per_character": 4.233270887996201,
+              "accuracy": 0.16554196541543653
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 28128.742585152882,
+              "loss_nats": 2.9019645708400787,
+              "bits_per_character": 4.186649895186451,
+              "accuracy": 0.17156711028577323
+            },
+            "2": {
+              "tokens": 4524,
+              "units": 4524,
+              "nll": 13023.763345278347,
+              "loss_nats": 2.878815947232172,
+              "bits_per_character": 4.153253490703919,
+              "accuracy": 0.17042440318302388
+            },
+            "3": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 13914.35471942056,
+              "loss_nats": 2.934279780561063,
+              "bits_per_character": 4.233270887996201,
+              "accuracy": 0.16554196541543653
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1441.4805368821399,
+              "loss_nats": 2.990623520502365,
+              "bits_per_character": 4.314557722194655,
+              "accuracy": 0.15767634854771784
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 19441,
+            "units": 19441,
+            "nll": 36517.722616826046,
+            "loss_nats": 1.8783870488568513,
+            "bits_per_character": 2.7099396802558346,
+            "accuracy": 0.4371174322308523
+          },
+          "currier": {
+            "A": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19841.522826882647,
+              "loss_nats": 2.0469950301127255,
+              "bits_per_character": 2.9531895786679834,
+              "accuracy": 0.3901784793149696
+            },
+            "B": {
+              "tokens": 9748,
+              "units": 9748,
+              "nll": 16676.199789943403,
+              "loss_nats": 1.7107303846884903,
+              "bits_per_character": 2.4680622422881537,
+              "accuracy": 0.48379154698399673
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3604,
+              "units": 3604,
+              "nll": 5453.872162931779,
+              "loss_nats": 1.5132830640765202,
+              "bits_per_character": 2.183205972004451,
+              "accuracy": 0.5180355160932297
+            },
+            "herbal": {
+              "tokens": 11095,
+              "units": 11095,
+              "nll": 22705.998077187607,
+              "loss_nats": 2.046507262477477,
+              "bits_per_character": 2.952485878719504,
+              "accuracy": 0.3977467327625056
+            },
+            "stars": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8357.85237670666,
+              "loss_nats": 1.7625163173147744,
+              "bits_per_character": 2.5427735504759035,
+              "accuracy": 0.4677351328553353
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19841.522826882647,
+              "loss_nats": 2.0469950301127255,
+              "bits_per_character": 2.9531895786679834,
+              "accuracy": 0.3901784793149696
+            },
+            "2": {
+              "tokens": 4524,
+              "units": 4524,
+              "nll": 7266.339817423315,
+              "loss_nats": 1.606175910128938,
+              "bits_per_character": 2.317222020338336,
+              "accuracy": 0.5079575596816976
+            },
+            "3": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8357.85237670666,
+              "loss_nats": 1.7625163173147744,
+              "bits_per_character": 2.5427735504759035,
+              "accuracy": 0.4677351328553353
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1052.007595813428,
+              "loss_nats": 2.1825883730569045,
+              "bits_per_character": 3.148809422111107,
+              "accuracy": 0.4149377593360996
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 19441,
+            "units": 19441,
+            "nll": 40444.39682748132,
+            "loss_nats": 2.080366073117706,
+            "bits_per_character": 3.0013338169205612,
+            "accuracy": 0.43912350187747545
+          },
+          "currier": {
+            "A": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 21989.941987073413,
+              "loss_nats": 2.268641492527949,
+              "bits_per_character": 3.272957830825009,
+              "accuracy": 0.39801918910554007
+            },
+            "B": {
+              "tokens": 9748,
+              "units": 9748,
+              "nll": 18454.454840407914,
+              "loss_nats": 1.893152938080418,
+              "bits_per_character": 2.73124235541299,
+              "accuracy": 0.4799958965941732
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3604,
+              "units": 3604,
+              "nll": 5974.062014513145,
+              "loss_nats": 1.6576198708416052,
+              "bits_per_character": 2.3914399673421878,
+              "accuracy": 0.5113762486126526
+            },
+            "herbal": {
+              "tokens": 11095,
+              "units": 11095,
+              "nll": 25186.44711439251,
+              "loss_nats": 2.270071844469807,
+              "bits_per_character": 3.275021392478253,
+              "accuracy": 0.40369535826949077
+            },
+            "stars": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 9283.887698575669,
+              "loss_nats": 1.9578000207877835,
+              "bits_per_character": 2.8245083810428446,
+              "accuracy": 0.46710248840151836
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 21989.941987073413,
+              "loss_nats": 2.268641492527949,
+              "bits_per_character": 3.272957830825009,
+              "accuracy": 0.39801918910554007
+            },
+            "2": {
+              "tokens": 4524,
+              "units": 4524,
+              "nll": 7996.618038071497,
+              "loss_nats": 1.7675990358248224,
+              "bits_per_character": 2.5501063632645846,
+              "accuracy": 0.5008841732979664
+            },
+            "3": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 9283.887698575669,
+              "loss_nats": 1.9578000207877835,
+              "bits_per_character": 2.8245083810428446,
+              "accuracy": 0.46710248840151836
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1173.9491037607477,
+              "loss_nats": 2.4355790534455344,
+              "bits_per_character": 3.5137978220989083,
+              "accuracy": 0.4107883817427386
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 19441,
+            "units": 19441,
+            "nll": 36560.49669128537,
+            "loss_nats": 1.8805872481500627,
+            "bits_per_character": 2.713113896865118,
+            "accuracy": 0.4396378787099429
+          },
+          "currier": {
+            "A": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19861.514348936078,
+              "loss_nats": 2.049057500148156,
+              "bits_per_character": 2.9561650939600814,
+              "accuracy": 0.39451150314660066
+            },
+            "B": {
+              "tokens": 9748,
+              "units": 9748,
+              "nll": 16698.982342349296,
+              "loss_nats": 1.7130675361458039,
+              "bits_per_character": 2.4714340391054264,
+              "accuracy": 0.4845096430036931
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3604,
+              "units": 3604,
+              "nll": 5488.401784943285,
+              "loss_nats": 1.5228639802839303,
+              "bits_per_character": 2.197028312304054,
+              "accuracy": 0.5152608213096559
+            },
+            "herbal": {
+              "tokens": 11095,
+              "units": 11095,
+              "nll": 22723.657611644223,
+              "loss_nats": 2.048098928494297,
+              "bits_per_character": 2.954782167388722,
+              "accuracy": 0.40153222172149616
+            },
+            "stars": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8348.437294697866,
+              "loss_nats": 1.760530850843076,
+              "bits_per_character": 2.539909127843333,
+              "accuracy": 0.4713201180936314
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19861.514348936078,
+              "loss_nats": 2.049057500148156,
+              "bits_per_character": 2.9561650939600814,
+              "accuracy": 0.39451150314660066
+            },
+            "2": {
+              "tokens": 4524,
+              "units": 4524,
+              "nll": 7296.358644215214,
+              "loss_nats": 1.6128113714003567,
+              "bits_per_character": 2.3267949674086226,
+              "accuracy": 0.5064102564102564
+            },
+            "3": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8348.437294697866,
+              "loss_nats": 1.760530850843076,
+              "bits_per_character": 2.539909127843333,
+              "accuracy": 0.4713201180936314
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1054.1864034362156,
+              "loss_nats": 2.187108720822024,
+              "bits_per_character": 3.1553309054149388,
+              "accuracy": 0.4087136929460581
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 19441,
+            "units": 19441,
+            "nll": 35708.58483680867,
+            "loss_nats": 1.836766876025342,
+            "bits_per_character": 2.6498944633108743,
+            "accuracy": 0.45347461550331775
+          },
+          "currier": {
+            "A": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19192.066903712235,
+              "loss_nats": 1.9799924588581692,
+              "bits_per_character": 2.8565253013922263,
+              "accuracy": 0.4112245950686062
+            },
+            "B": {
+              "tokens": 9748,
+              "units": 9748,
+              "nll": 16516.51793309644,
+              "loss_nats": 1.6943493981428435,
+              "bits_per_character": 2.44442947423388,
+              "accuracy": 0.4954862535904801
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3604,
+              "units": 3604,
+              "nll": 5370.612406714965,
+              "loss_nats": 1.490181022950878,
+              "bits_per_character": 2.1498767718380742,
+              "accuracy": 0.5307991120976693
+            },
+            "herbal": {
+              "tokens": 11095,
+              "units": 11095,
+              "nll": 22004.55353151078,
+              "loss_nats": 1.9832855819297683,
+              "bits_per_character": 2.861276273716659,
+              "accuracy": 0.4191077061739522
+            },
+            "stars": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8333.418898582928,
+              "loss_nats": 1.757363749173962,
+              "bits_per_character": 2.5353399659713114,
+              "accuracy": 0.4751159848165331
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9693,
+              "units": 9693,
+              "nll": 19192.066903712235,
+              "loss_nats": 1.9799924588581692,
+              "bits_per_character": 2.8565253013922263,
+              "accuracy": 0.4112245950686062
+            },
+            "2": {
+              "tokens": 4524,
+              "units": 4524,
+              "nll": 7162.70680910018,
+              "loss_nats": 1.5832685254421264,
+              "bits_per_character": 2.2841736500509375,
+              "accuracy": 0.5251989389920424
+            },
+            "3": {
+              "tokens": 4742,
+              "units": 4742,
+              "nll": 8333.418898582928,
+              "loss_nats": 1.757363749173962,
+              "bits_per_character": 2.5353399659713114,
+              "accuracy": 0.4751159848165331
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1020.3922254133312,
+              "loss_nats": 2.1169963182849196,
+              "bits_per_character": 3.054180089969847,
+              "accuracy": 0.4170124481327801
+            }
+          }
+        }
+      }
+    },
+    "gc-separate": {
+      "dataset_sha256": "a19e720a8db56cfe2b7e238533c0554b70260270c30c43032d0ddfce6785cccc",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 57048.04657200657,
+            "loss_nats": 2.8882162095993604,
+            "bits_per_character": 4.166815202604116,
+            "accuracy": 0.18256379100850548
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28350.39563077853,
+              "loss_nats": 2.8867117025535616,
+              "bits_per_character": 4.16464465775016,
+              "accuracy": 0.18236432135220446
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 28697.650941228043,
+              "loss_nats": 2.889704052082171,
+              "bits_per_character": 4.168961705575692,
+              "accuracy": 0.1827610512536502
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 10380.954135767814,
+              "loss_nats": 2.849561936801486,
+              "bits_per_character": 4.111048874929454,
+              "accuracy": 0.1792478726324458
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 32512.34074988463,
+              "loss_nats": 2.8956484458393863,
+              "bits_per_character": 4.177537652970318,
+              "accuracy": 0.18070894193088707
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14154.751686354128,
+              "loss_nats": 2.899969614086074,
+              "bits_per_character": 4.183771780970661,
+              "accuracy": 0.18930547019053473
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 28350.39563077853,
+              "loss_nats": 2.8867117025535616,
+              "bits_per_character": 4.16464465775016,
+              "accuracy": 0.18236432135220446
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 13100.773948440883,
+              "loss_nats": 2.867945260166568,
+              "bits_per_character": 4.1375704043833155,
+              "accuracy": 0.17841506129597198
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 14154.751686354128,
+              "loss_nats": 2.899969614086074,
+              "bits_per_character": 4.183771780970661,
+              "accuracy": 0.18930547019053473
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1442.1253064330333,
+              "loss_nats": 2.991961216666044,
+              "bits_per_character": 4.316487609816211,
+              "accuracy": 0.15767634854771784
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 36979.531086444804,
+            "loss_nats": 1.872191731796517,
+            "bits_per_character": 2.7010017270561555,
+            "accuracy": 0.4369684082624544
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20063.840990608554,
+              "loss_nats": 2.042952956990994,
+              "bits_per_character": 2.9473580998203515,
+              "accuracy": 0.3886569595764179
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 16915.69009583625,
+              "loss_nats": 1.7033219309068823,
+              "bits_per_character": 2.457374102756773,
+              "accuracy": 0.48474473869700935
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5492.122248709497,
+              "loss_nats": 1.5075822807327746,
+              "bits_per_character": 2.174981480145247,
+              "accuracy": 0.5168816909140818
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 22933.880527806647,
+              "loss_nats": 2.0425615005171576,
+              "bits_per_character": 2.9467933475068233,
+              "accuracy": 0.396419665122907
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8553.52830992866,
+              "loss_nats": 1.7524130936137392,
+              "bits_per_character": 2.5281976797454284,
+              "accuracy": 0.47060028682647
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20063.840990608554,
+              "loss_nats": 2.042952956990994,
+              "bits_per_character": 2.9473580998203515,
+              "accuracy": 0.3886569595764179
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7311.500376467725,
+              "loss_nats": 1.6005911507153514,
+              "bits_per_character": 2.3091649156277967,
+              "accuracy": 0.5070052539404554
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8553.52830992866,
+              "loss_nats": 1.7524130936137392,
+              "bits_per_character": 2.5281976797454284,
+              "accuracy": 0.47060028682647
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1050.6614094398658,
+              "loss_nats": 2.179795455269431,
+              "bits_per_character": 3.1447800934695085,
+              "accuracy": 0.4170124481327801
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 40993.12422015755,
+            "loss_nats": 2.0753910601537844,
+            "bits_per_character": 2.9941563903891533,
+            "accuracy": 0.4399048197650871
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 22258.153114056164,
+              "loss_nats": 2.266383577441825,
+              "bits_per_character": 3.2697003479275093,
+              "accuracy": 0.396191833825476
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 18734.971106101388,
+              "loss_nats": 1.8865140576076314,
+              "bits_per_character": 2.7216644754778465,
+              "accuracy": 0.48313362199174303
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 6032.393937596328,
+              "loss_nats": 1.655886340268001,
+              "bits_per_character": 2.38893901138042,
+              "accuracy": 0.5174306889925885
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 25474.847735154293,
+              "loss_nats": 2.268867806835972,
+              "bits_per_character": 3.2732843333548756,
+              "accuracy": 0.4022978268614179
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9485.882547406927,
+              "loss_nats": 1.9434301469794975,
+              "bits_per_character": 2.8037770353614304,
+              "accuracy": 0.46855152632657243
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 22258.153114056164,
+              "loss_nats": 2.266383577441825,
+              "bits_per_character": 3.2697003479275093,
+              "accuracy": 0.396191833825476
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 8071.606502775929,
+              "loss_nats": 1.7669891643555011,
+              "bits_per_character": 2.549226504720215,
+              "accuracy": 0.5072241681260946
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 9485.882547406927,
+              "loss_nats": 1.9434301469794975,
+              "bits_per_character": 2.8037770353614304,
+              "accuracy": 0.46855152632657243
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1177.4820559185318,
+              "loss_nats": 2.442908829706498,
+              "bits_per_character": 3.5243724539614254,
+              "accuracy": 0.4024896265560166
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 37040.05088464464,
+            "loss_nats": 1.8752557150994653,
+            "bits_per_character": 2.7054221205726856,
+            "accuracy": 0.43949979748886187
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20090.946399204957,
+              "loss_nats": 2.0457129008456323,
+              "bits_per_character": 2.9513398571325697,
+              "accuracy": 0.3943590265757051
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 16949.10448543968,
+              "loss_nats": 1.7066865859872802,
+              "bits_per_character": 2.4622282739555645,
+              "accuracy": 0.4841405699325345
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5529.055024310457,
+              "loss_nats": 1.517720292152198,
+              "bits_per_character": 2.1896075389445246,
+              "accuracy": 0.5141367005215481
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 22963.614930876993,
+              "loss_nats": 2.0452097373420908,
+              "bits_per_character": 2.950613945641254,
+              "accuracy": 0.4006056287851799
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8547.380929457187,
+              "loss_nats": 1.7511536425849594,
+              "bits_per_character": 2.5263806759919656,
+              "accuracy": 0.4732636754763368
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 20090.946399204957,
+              "loss_nats": 2.0457129008456323,
+              "bits_per_character": 2.9513398571325697,
+              "accuracy": 0.3943590265757051
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7346.7437104256205,
+              "loss_nats": 1.6083064164679555,
+              "bits_per_character": 2.3202956912682193,
+              "accuracy": 0.5041593695271454
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8547.380929457187,
+              "loss_nats": 1.7511536425849594,
+              "bits_per_character": 2.5263806759919656,
+              "accuracy": 0.4732636754763368
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1054.9798455568712,
+              "loss_nats": 2.1887548663005627,
+              "bits_per_character": 3.1577057913334077,
+              "accuracy": 0.4045643153526971
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 19752,
+            "units": 19752,
+            "nll": 36200.04361194953,
+            "loss_nats": 1.8327280078953792,
+            "bits_per_character": 2.6440676082889722,
+            "accuracy": 0.45266302146618065
+          },
+          "currier": {
+            "A": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 19444.935504744008,
+              "loss_nats": 1.979934375801243,
+              "bits_per_character": 2.856441505254039,
+              "accuracy": 0.40769779044903776
+            },
+            "B": {
+              "tokens": 9931,
+              "units": 9931,
+              "nll": 16755.10810720552,
+              "loss_nats": 1.6871521606288913,
+              "bits_per_character": 2.4340460553644014,
+              "accuracy": 0.49713019836874434
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 3643,
+              "units": 3643,
+              "nll": 5413.204529522362,
+              "loss_nats": 1.485919442635839,
+              "bits_per_character": 2.1437286110512175,
+              "accuracy": 0.5317046390337634
+            },
+            "herbal": {
+              "tokens": 11228,
+              "units": 11228,
+              "nll": 22259.27739189546,
+              "loss_nats": 1.9824792832112095,
+              "bits_per_character": 2.8601130305539186,
+              "accuracy": 0.4157463484146776
+            },
+            "stars": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8527.561690531707,
+              "loss_nats": 1.7470931552001039,
+              "bits_per_character": 2.5205226309782423,
+              "accuracy": 0.4785904527760705
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 9821,
+              "units": 9821,
+              "nll": 19444.935504744008,
+              "loss_nats": 1.979934375801243,
+              "bits_per_character": 2.856441505254039,
+              "accuracy": 0.40769779044903776
+            },
+            "2": {
+              "tokens": 4568,
+              "units": 4568,
+              "nll": 7208.356064555765,
+              "loss_nats": 1.578011397669826,
+              "bits_per_character": 2.27658921788452,
+              "accuracy": 0.5240805604203153
+            },
+            "3": {
+              "tokens": 4881,
+              "units": 4881,
+              "nll": 8527.561690531707,
+              "loss_nats": 1.7470931552001039,
+              "bits_per_character": 2.5205226309782423,
+              "accuracy": 0.4785904527760705
+            },
+            "5": {
+              "tokens": 482,
+              "units": 482,
+              "nll": 1019.1903521180471,
+              "loss_nats": 2.114502805224164,
+              "bits_per_character": 3.0505827110427033,
+              "accuracy": 0.42946058091286304
+            }
+          }
+        }
+      }
+    },
+    "gc-quire": {
+      "dataset_sha256": "f899d2e44a19ebe602653449181aeadbb77cdeb974a35d05269c5456fe699c1d",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 16068,
+            "units": 16068,
+            "nll": 47110.58730810038,
+            "loss_nats": 2.9319509153659684,
+            "bits_per_character": 4.22991104572834,
+            "accuracy": 0.1689071446353
+          },
+          "currier": {
+            "A": {
+              "tokens": 7509,
+              "units": 7509,
+              "nll": 21869.805158135227,
+              "loss_nats": 2.9124790462292216,
+              "bits_per_character": 4.201819076687917,
+              "accuracy": 0.1727260620588627
+            },
+            "B": {
+              "tokens": 7710,
+              "units": 7710,
+              "nll": 22710.212541233537,
+              "loss_nats": 2.945552858785154,
+              "bits_per_character": 4.249534502045651,
+              "accuracy": 0.1642023346303502
+            },
+            "unknown": {
+              "tokens": 849,
+              "units": 849,
+              "nll": 2530.5696087316182,
+              "loss_nats": 2.980647360107913,
+              "bits_per_character": 4.300165165066467,
+              "accuracy": 0.17785630153121318
+            }
+          },
+          "section": {
+            "cosmological": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1854.607358116035,
+              "loss_nats": 2.9485013642544273,
+              "bits_per_character": 4.253788296264206,
+              "accuracy": 0.17965023847376788
+            },
+            "herbal": {
+              "tokens": 9852,
+              "units": 9852,
+              "nll": 28910.513679987125,
+              "loss_nats": 2.9344816971160297,
+              "bits_per_character": 4.233562192008725,
+              "accuracy": 0.17123426715387738
+            },
+            "stars": {
+              "tokens": 3984,
+              "units": 3984,
+              "nll": 11629.194652488237,
+              "loss_nats": 2.9189745613675293,
+              "bits_per_character": 4.211190124165972,
+              "accuracy": 0.1659136546184739
+            },
+            "text": {
+              "tokens": 1603,
+              "units": 1603,
+              "nll": 4716.271617508983,
+              "loss_nats": 2.9421532236487726,
+              "bits_per_character": 4.244629865293562,
+              "accuracy": 0.15782907049282596
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 3525,
+              "units": 3525,
+              "nll": 10240.610505646988,
+              "loss_nats": 2.9051377320984364,
+              "bits_per_character": 4.191227799197825,
+              "accuracy": 0.1804255319148936
+            },
+            "2": {
+              "tokens": 2942,
+              "units": 2942,
+              "nll": 8783.023891319082,
+              "loss_nats": 2.985392213228784,
+              "bits_per_character": 4.307010541133693,
+              "accuracy": 0.1726716519374575
+            },
+            "3": {
+              "tokens": 4204,
+              "units": 4204,
+              "nll": 12305.15690310382,
+              "loss_nats": 2.9270116325175595,
+              "bits_per_character": 4.222785166857392,
+              "accuracy": 0.16627021883920076
+            },
+            "4": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1854.607358116035,
+              "loss_nats": 2.9485013642544273,
+              "bits_per_character": 4.253788296264206,
+              "accuracy": 0.17965023847376788
+            },
+            "5": {
+              "tokens": 4768,
+              "units": 4768,
+              "nll": 13927.188649914457,
+              "loss_nats": 2.920970773891455,
+              "bits_per_character": 4.2140700500748,
+              "accuracy": 0.1589765100671141
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 16068,
+            "units": 16068,
+            "nll": 31647.16299868728,
+            "loss_nats": 1.9695769852307243,
+            "bits_per_character": 2.841498949241401,
+            "accuracy": 0.4278690565098332
+          },
+          "currier": {
+            "A": {
+              "tokens": 7509,
+              "units": 7509,
+              "nll": 14786.067872126283,
+              "loss_nats": 1.9691127809463687,
+              "bits_per_character": 2.840829244022402,
+              "accuracy": 0.41097349846850445
+            },
+            "B": {
+              "tokens": 7710,
+              "units": 7710,
+              "nll": 14959.817582701571,
+              "loss_nats": 1.940313564552733,
+              "bits_per_character": 2.7992807573498157,
+              "accuracy": 0.4481193255512322
+            },
+            "unknown": {
+              "tokens": 849,
+              "units": 849,
+              "nll": 1901.277543859426,
+              "loss_nats": 2.2394317359946125,
+              "bits_per_character": 3.23081705992879,
+              "accuracy": 0.3934040047114252
+            }
+          },
+          "section": {
+            "cosmological": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1369.9359082932285,
+              "loss_nats": 2.177958518749171,
+              "bits_per_character": 3.1421299542613017,
+              "accuracy": 0.3942766295707472
+            },
+            "herbal": {
+              "tokens": 9852,
+              "units": 9852,
+              "nll": 19543.974378347622,
+              "loss_nats": 1.983757042057209,
+              "bits_per_character": 2.8619564469044945,
+              "accuracy": 0.4285424279334145
+            },
+            "stars": {
+              "tokens": 3984,
+              "units": 3984,
+              "nll": 7704.349019971269,
+              "loss_nats": 1.9338225451735112,
+              "bits_per_character": 2.7899161958810983,
+              "accuracy": 0.4159136546184739
+            },
+            "text": {
+              "tokens": 1603,
+              "units": 1603,
+              "nll": 3028.903692075161,
+              "loss_nats": 1.8895219538834442,
+              "bits_per_character": 2.72600395251847,
+              "accuracy": 0.46662507797878977
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 3525,
+              "units": 3525,
+              "nll": 7081.718852155014,
+              "loss_nats": 2.0089982559305004,
+              "bits_per_character": 2.89837182098551,
+              "accuracy": 0.4053900709219858
+            },
+            "2": {
+              "tokens": 2942,
+              "units": 2942,
+              "nll": 5867.224410223092,
+              "loss_nats": 1.994297896064953,
+              "bits_per_character": 2.877163684708201,
+              "accuracy": 0.4435757987763426
+            },
+            "3": {
+              "tokens": 4204,
+              "units": 4204,
+              "nll": 8235.690655537466,
+              "loss_nats": 1.9590130008414526,
+              "bits_per_character": 2.8262583413509703,
+              "accuracy": 0.41460513796384396
+            },
+            "4": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1369.9359082932285,
+              "loss_nats": 2.177958518749171,
+              "bits_per_character": 3.1421299542613017,
+              "accuracy": 0.3942766295707472
+            },
+            "5": {
+              "tokens": 4768,
+              "units": 4768,
+              "nll": 9092.593172478479,
+              "loss_nats": 1.9070036016104193,
+              "bits_per_character": 2.7512246390007444,
+              "accuracy": 0.4509228187919463
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 16068,
+            "units": 16068,
+            "nll": 35359.720173881826,
+            "loss_nats": 2.2006298340728048,
+            "bits_per_character": 3.174837748449138,
+            "accuracy": 0.4209609161065472
+          },
+          "currier": {
+            "A": {
+              "tokens": 7509,
+              "units": 7509,
+              "nll": 16438.10076589457,
+              "loss_nats": 2.189119824995948,
+              "bits_per_character": 3.1582323154333696,
+              "accuracy": 0.410041283792782
+            },
+            "B": {
+              "tokens": 7710,
+              "units": 7710,
+              "nll": 16772.79828427079,
+              "loss_nats": 2.1754602184527614,
+              "bits_per_character": 3.13852566881302,
+              "accuracy": 0.43540856031128405
+            },
+            "unknown": {
+              "tokens": 849,
+              "units": 849,
+              "nll": 2148.821123716467,
+              "loss_nats": 2.5310025014328232,
+              "bits_per_character": 3.651464757294696,
+              "accuracy": 0.38633686690223795
+            }
+          },
+          "section": {
+            "cosmological": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1559.3796598073643,
+              "loss_nats": 2.4791409535888143,
+              "bits_per_character": 3.5766443594073185,
+              "accuracy": 0.3847376788553259
+            },
+            "herbal": {
+              "tokens": 9852,
+              "units": 9852,
+              "nll": 21738.30816646557,
+              "loss_nats": 2.2064868216063305,
+              "bits_per_character": 3.1832875953183044,
+              "accuracy": 0.42021924482338613
+            },
+            "stars": {
+              "tokens": 3984,
+              "units": 3984,
+              "nll": 8653.577504635676,
+              "loss_nats": 2.1720827069868665,
+              "bits_per_character": 3.133652949770628,
+              "accuracy": 0.4174196787148594
+            },
+            "text": {
+              "tokens": 1603,
+              "units": 1603,
+              "nll": 3408.4548429732185,
+              "loss_nats": 2.126297469103692,
+              "bits_per_character": 3.067598814130651,
+              "accuracy": 0.44853399875233935
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 3525,
+              "units": 3525,
+              "nll": 7784.523261258895,
+              "loss_nats": 2.2083753932649346,
+              "bits_per_character": 3.186012228284536,
+              "accuracy": 0.40170212765957447
+            },
+            "2": {
+              "tokens": 2942,
+              "units": 2942,
+              "nll": 6598.263068888939,
+              "loss_nats": 2.242781464612148,
+              "bits_per_character": 3.235649696793632,
+              "accuracy": 0.42861998640380694
+            },
+            "3": {
+              "tokens": 4204,
+              "units": 4204,
+              "nll": 9243.018968544777,
+              "loss_nats": 2.1986248735834386,
+              "bits_per_character": 3.1719452018939513,
+              "accuracy": 0.4160323501427212
+            },
+            "4": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1559.3796598073643,
+              "loss_nats": 2.4791409535888143,
+              "bits_per_character": 3.5766443594073185,
+              "accuracy": 0.3847376788553259
+            },
+            "5": {
+              "tokens": 4768,
+              "units": 4768,
+              "nll": 10174.535215381851,
+              "loss_nats": 2.1339209763804217,
+              "bits_per_character": 3.0785972102729695,
+              "accuracy": 0.4395973154362416
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 16068,
+            "units": 16068,
+            "nll": 31770.47873288954,
+            "loss_nats": 1.9772516014992245,
+            "bits_per_character": 2.8525710800726922,
+            "accuracy": 0.428117998506348
+          },
+          "currier": {
+            "A": {
+              "tokens": 7509,
+              "units": 7509,
+              "nll": 14829.42226490291,
+              "loss_nats": 1.9748864382611413,
+              "bits_per_character": 2.849158870798217,
+              "accuracy": 0.4168331335730457
+            },
+            "B": {
+              "tokens": 7710,
+              "units": 7710,
+              "nll": 15024.09666167206,
+              "loss_nats": 1.9486506694775694,
+              "bits_per_character": 2.811308657280248,
+              "accuracy": 0.4425421530479896
+            },
+            "unknown": {
+              "tokens": 849,
+              "units": 849,
+              "nll": 1916.9598063145695,
+              "loss_nats": 2.25790318764967,
+              "bits_per_character": 3.257465731629561,
+              "accuracy": 0.39693757361601884
+            }
+          },
+          "section": {
+            "cosmological": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1382.3576278706416,
+              "loss_nats": 2.1977068805574587,
+              "bits_per_character": 3.1706208179077997,
+              "accuracy": 0.40222575516693165
+            },
+            "herbal": {
+              "tokens": 9852,
+              "units": 9852,
+              "nll": 19593.620967277944,
+              "loss_nats": 1.9887962816969087,
+              "bits_per_character": 2.86922653294254,
+              "accuracy": 0.42752740560292324
+            },
+            "stars": {
+              "tokens": 3984,
+              "units": 3984,
+              "nll": 7739.303586253865,
+              "loss_nats": 1.9425962816902274,
+              "bits_per_character": 2.802574022043831,
+              "accuracy": 0.4211847389558233
+            },
+            "text": {
+              "tokens": 1603,
+              "units": 1603,
+              "nll": 3055.196551487089,
+              "loss_nats": 1.9059242367355516,
+              "bits_per_character": 2.749667444648463,
+              "accuracy": 0.4591391141609482
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 3525,
+              "units": 3525,
+              "nll": 7090.118678649046,
+              "loss_nats": 2.0113811854323536,
+              "bits_per_character": 2.9018096615606215,
+              "accuracy": 0.41191489361702127
+            },
+            "2": {
+              "tokens": 2942,
+              "units": 2942,
+              "nll": 5901.347527668633,
+              "loss_nats": 2.0058965083849873,
+              "bits_per_character": 2.8938969451835086,
+              "accuracy": 0.438137321549966
+            },
+            "3": {
+              "tokens": 4204,
+              "units": 4204,
+              "nll": 8273.905764697793,
+              "loss_nats": 1.9681031790432428,
+              "bits_per_character": 2.83937269636349,
+              "accuracy": 0.4191246431969553
+            },
+            "4": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1382.3576278706416,
+              "loss_nats": 2.1977068805574587,
+              "bits_per_character": 3.1706208179077997,
+              "accuracy": 0.40222575516693165
+            },
+            "5": {
+              "tokens": 4768,
+              "units": 4768,
+              "nll": 9122.749134003427,
+              "loss_nats": 1.9133282579705173,
+              "bits_per_character": 2.7603491893667846,
+              "accuracy": 0.44526006711409394
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 16068,
+            "units": 16068,
+            "nll": 30978.63540788259,
+            "loss_nats": 1.9279708369356852,
+            "bits_per_character": 2.7814739654256573,
+            "accuracy": 0.4479711227284043
+          },
+          "currier": {
+            "A": {
+              "tokens": 7509,
+              "units": 7509,
+              "nll": 14473.878813865947,
+              "loss_nats": 1.9275374635591886,
+              "bits_per_character": 2.780848739804533,
+              "accuracy": 0.4420029298175523
+            },
+            "B": {
+              "tokens": 7710,
+              "units": 7710,
+              "nll": 14659.272334488973,
+              "loss_nats": 1.901332339103628,
+              "bits_per_character": 2.7430427367066175,
+              "accuracy": 0.4570687418936446
+            },
+            "unknown": {
+              "tokens": 849,
+              "units": 849,
+              "nll": 1845.4842595276705,
+              "loss_nats": 2.1737152644613316,
+              "bits_per_character": 3.1360082323430047,
+              "accuracy": 0.41813898704358066
+            }
+          },
+          "section": {
+            "cosmological": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1323.1757335178104,
+              "loss_nats": 2.1036180183113045,
+              "bits_per_character": 3.0348792829423874,
+              "accuracy": 0.42130365659777425
+            },
+            "herbal": {
+              "tokens": 9852,
+              "units": 9852,
+              "nll": 19194.788937054822,
+              "loss_nats": 1.9483139400177447,
+              "bits_per_character": 2.810822859358438,
+              "accuracy": 0.4422452293950467
+            },
+            "stars": {
+              "tokens": 3984,
+              "units": 3984,
+              "nll": 7485.0459943073965,
+              "loss_nats": 1.8787766049968364,
+              "bits_per_character": 2.7105016909671393,
+              "accuracy": 0.45732931726907633
+            },
+            "text": {
+              "tokens": 1603,
+              "units": 1603,
+              "nll": 2975.6247430025633,
+              "loss_nats": 1.8562849301326034,
+              "bits_per_character": 2.678053063179223,
+              "accuracy": 0.4703680598877105
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 3525,
+              "units": 3525,
+              "nll": 6988.832819558551,
+              "loss_nats": 1.9826476083854045,
+              "bits_per_character": 2.860355872447987,
+              "accuracy": 0.4246808510638298
+            },
+            "2": {
+              "tokens": 2942,
+              "units": 2942,
+              "nll": 5753.878469612513,
+              "loss_nats": 1.9557710637703987,
+              "bits_per_character": 2.821581214815687,
+              "accuracy": 0.4493541808293678
+            },
+            "3": {
+              "tokens": 4204,
+              "units": 4204,
+              "nll": 8007.354520317257,
+              "loss_nats": 1.9046989819974447,
+              "bits_per_character": 2.7478997757139703,
+              "accuracy": 0.4548049476688868
+            },
+            "4": {
+              "tokens": 629,
+              "units": 629,
+              "nll": 1323.1757335178104,
+              "loss_nats": 2.1036180183113045,
+              "bits_per_character": 3.0348792829423874,
+              "accuracy": 0.42130365659777425
+            },
+            "5": {
+              "tokens": 4768,
+              "units": 4768,
+              "nll": 8905.39386487646,
+              "loss_nats": 1.8677420018616735,
+              "bits_per_character": 2.6945821237458616,
+              "accuracy": 0.46182885906040266
+            }
+          }
+        }
+      }
+    },
+    "zl": {
+      "dataset_sha256": "e36386b0bb9a827a8b11abaaa5e58bb01beea1d9451224e06d277ec4c141cf47",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 23393,
+            "units": 23393,
+            "nll": 66094.55814858295,
+            "loss_nats": 2.8253989718540993,
+            "bits_per_character": 4.076189085226685,
+            "accuracy": 0.12696105672637115
+          },
+          "currier": {
+            "A": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 34256.255444158305,
+              "loss_nats": 2.8456766443062222,
+              "bits_per_character": 4.105443582714134,
+              "accuracy": 0.12551918923409205
+            },
+            "B": {
+              "tokens": 11355,
+              "units": 11355,
+              "nll": 31838.302704424645,
+              "loss_nats": 2.8039016032078066,
+              "bits_per_character": 4.045174938088517,
+              "accuracy": 0.12848965213562308
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 4064,
+              "units": 4064,
+              "nll": 11266.182584827058,
+              "loss_nats": 2.7721905966602014,
+              "bits_per_character": 3.999425626200689,
+              "accuracy": 0.1345964566929134
+            },
+            "herbal": {
+              "tokens": 13677,
+              "units": 13677,
+              "nll": 38901.00486750779,
+              "loss_nats": 2.844264448892871,
+              "bits_per_character": 4.103406215394525,
+              "accuracy": 0.12510053374277985
+            },
+            "stars": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 15927.370696248096,
+              "loss_nats": 2.8180061387558557,
+              "bits_per_character": 4.0655234815777295,
+              "accuracy": 0.1259731068648266
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 34256.255444158305,
+              "loss_nats": 2.8456766443062222,
+              "bits_per_character": 4.105443582714134,
+              "accuracy": 0.12551918923409205
+            },
+            "2": {
+              "tokens": 5138,
+              "units": 5138,
+              "nll": 14335.547400038584,
+              "loss_nats": 2.790102646951846,
+              "bits_per_character": 4.025267252328598,
+              "accuracy": 0.13234721681588166
+            },
+            "3": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 15927.370696248096,
+              "loss_nats": 2.8180061387558557,
+              "bits_per_character": 4.0655234815777295,
+              "accuracy": 0.1259731068648266
+            },
+            "5": {
+              "tokens": 565,
+              "units": 565,
+              "nll": 1575.384608137964,
+              "loss_nats": 2.7882913418371045,
+              "bits_per_character": 4.022654091422025,
+              "accuracy": 0.11858407079646018
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 23393,
+            "units": 23393,
+            "nll": 33742.585942941245,
+            "loss_nats": 1.4424223461266723,
+            "bits_per_character": 2.080975565624374,
+            "accuracy": 0.5149403667763861
+          },
+          "currier": {
+            "A": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18863.08685139269,
+              "loss_nats": 1.5669618583977978,
+              "bits_per_character": 2.2606481023726572,
+              "accuracy": 0.4696793487290248
+            },
+            "B": {
+              "tokens": 11355,
+              "units": 11355,
+              "nll": 14879.499091548552,
+              "loss_nats": 1.3103918178378293,
+              "bits_per_character": 1.8904957772161104,
+              "accuracy": 0.5629238221047996
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 4064,
+              "units": 4064,
+              "nll": 4917.995930619585,
+              "loss_nats": 1.2101367939516696,
+              "bits_per_character": 1.745858351431343,
+              "accuracy": 0.5883366141732284
+            },
+            "herbal": {
+              "tokens": 13677,
+              "units": 13677,
+              "nll": 21356.400621123885,
+              "loss_nats": 1.561482826725443,
+              "bits_per_character": 2.252743530550077,
+              "accuracy": 0.4769320757476055
+            },
+            "stars": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7468.189391197776,
+              "loss_nats": 1.3213357026181487,
+              "bits_per_character": 1.9062844655167372,
+              "accuracy": 0.554140127388535
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18863.08685139269,
+              "loss_nats": 1.5669618583977978,
+              "bits_per_character": 2.2606481023726572,
+              "accuracy": 0.4696793487290248
+            },
+            "2": {
+              "tokens": 5138,
+              "units": 5138,
+              "nll": 6603.495904816213,
+              "loss_nats": 1.2852269180257323,
+              "bits_per_character": 1.8541905010527304,
+              "accuracy": 0.5780459322693655
+            },
+            "3": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7468.189391197776,
+              "loss_nats": 1.3213357026181487,
+              "bits_per_character": 1.9062844655167372,
+              "accuracy": 0.554140127388535
+            },
+            "5": {
+              "tokens": 565,
+              "units": 565,
+              "nll": 807.8137955345635,
+              "loss_nats": 1.4297589301496698,
+              "bits_per_character": 2.062706118193639,
+              "accuracy": 0.5132743362831859
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 23393,
+            "units": 23393,
+            "nll": 36031.61247662807,
+            "loss_nats": 1.5402732645076762,
+            "bits_per_character": 2.222144600319079,
+            "accuracy": 0.5202410977642885
+          },
+          "currier": {
+            "A": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 20248.323447289677,
+              "loss_nats": 1.6820338467594016,
+              "bits_per_character": 2.426661889327175,
+              "accuracy": 0.4842166472836019
+            },
+            "B": {
+              "tokens": 11355,
+              "units": 11355,
+              "nll": 15783.28902933839,
+              "loss_nats": 1.3899858238078724,
+              "bits_per_character": 2.005325654913578,
+              "accuracy": 0.5584324086305592
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 4064,
+              "units": 4064,
+              "nll": 5129.889150760993,
+              "loss_nats": 1.2622758737108744,
+              "bits_per_character": 1.821079143236462,
+              "accuracy": 0.5846456692913385
+            },
+            "herbal": {
+              "tokens": 13677,
+              "units": 13677,
+              "nll": 22943.50334703919,
+              "loss_nats": 1.6775245556071645,
+              "bits_per_character": 2.4201563573439184,
+              "accuracy": 0.48936170212765956
+            },
+            "stars": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7958.219978827883,
+              "loss_nats": 1.4080360896723076,
+              "bits_per_character": 2.031366683962926,
+              "accuracy": 0.5486553432413305
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 20248.323447289677,
+              "loss_nats": 1.6820338467594016,
+              "bits_per_character": 2.426661889327175,
+              "accuracy": 0.4842166472836019
+            },
+            "2": {
+              "tokens": 5138,
+              "units": 5138,
+              "nll": 6965.274733191036,
+              "loss_nats": 1.3556393019056123,
+              "bits_per_character": 1.955774098093403,
+              "accuracy": 0.5753211366290385
+            },
+            "3": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7958.219978827883,
+              "loss_nats": 1.4080360896723076,
+              "bits_per_character": 2.031366683962926,
+              "accuracy": 0.5486553432413305
+            },
+            "5": {
+              "tokens": 565,
+              "units": 565,
+              "nll": 859.7943173194697,
+              "loss_nats": 1.521759853662778,
+              "bits_per_character": 2.195435394303205,
+              "accuracy": 0.5026548672566372
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 23393,
+            "units": 23393,
+            "nll": 33636.480896381974,
+            "loss_nats": 1.4378865855761114,
+            "bits_per_character": 2.07443184637142,
+            "accuracy": 0.5194716368144316
+          },
+          "currier": {
+            "A": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18821.562016298827,
+              "loss_nats": 1.563512378825289,
+              "bits_per_character": 2.2556715552997506,
+              "accuracy": 0.4792324306363183
+            },
+            "B": {
+              "tokens": 11355,
+              "units": 11355,
+              "nll": 14814.918880083149,
+              "loss_nats": 1.3047044368192997,
+              "bits_per_character": 1.8822906208250318,
+              "accuracy": 0.5621312197269925
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 4064,
+              "units": 4064,
+              "nll": 4918.1243871160605,
+              "loss_nats": 1.2101684023415502,
+              "bits_per_character": 1.7459039526986746,
+              "accuracy": 0.5829232283464567
+            },
+            "herbal": {
+              "tokens": 13677,
+              "units": 13677,
+              "nll": 21304.65838824595,
+              "loss_nats": 1.5576996701210755,
+              "bits_per_character": 2.2472855892780497,
+              "accuracy": 0.4846823133728157
+            },
+            "stars": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7413.698121019966,
+              "loss_nats": 1.3116946427848488,
+              "bits_per_character": 1.8923753563063217,
+              "accuracy": 0.5580325548478414
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18821.562016298827,
+              "loss_nats": 1.563512378825289,
+              "bits_per_character": 2.2556715552997506,
+              "accuracy": 0.4792324306363183
+            },
+            "2": {
+              "tokens": 5138,
+              "units": 5138,
+              "nll": 6598.9849093489665,
+              "loss_nats": 1.284348950826969,
+              "bits_per_character": 1.8529238621290114,
+              "accuracy": 0.5722070844686649
+            },
+            "3": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7413.698121019966,
+              "loss_nats": 1.3116946427848488,
+              "bits_per_character": 1.8923753563063217,
+              "accuracy": 0.5580325548478414
+            },
+            "5": {
+              "tokens": 565,
+              "units": 565,
+              "nll": 802.2358497142164,
+              "loss_nats": 1.4198864596711795,
+              "bits_per_character": 2.048463153992998,
+              "accuracy": 0.511504424778761
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 23393,
+            "units": 23393,
+            "nll": 33549.982053644955,
+            "loss_nats": 1.4341889477042258,
+            "bits_per_character": 2.0690972825506475,
+            "accuracy": 0.5288761595349036
+          },
+          "currier": {
+            "A": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18553.240315064104,
+              "loss_nats": 1.541222820656596,
+              "bits_per_character": 2.2235145202661717,
+              "accuracy": 0.4880378800465194
+            },
+            "B": {
+              "tokens": 11355,
+              "units": 11355,
+              "nll": 14996.741738580853,
+              "loss_nats": 1.3207170179287409,
+              "bits_per_character": 1.9053918921834547,
+              "accuracy": 0.5721708498458828
+            }
+          },
+          "section": {
+            "balneological": {
+              "tokens": 4064,
+              "units": 4064,
+              "nll": 4929.367593975133,
+              "loss_nats": 1.212934939462385,
+              "bits_per_character": 1.7498952220833381,
+              "accuracy": 0.5981791338582677
+            },
+            "herbal": {
+              "tokens": 13677,
+              "units": 13677,
+              "nll": 21041.366250187082,
+              "loss_nats": 1.5384489471512088,
+              "bits_per_character": 2.2195126667158958,
+              "accuracy": 0.49462601447685894
+            },
+            "stars": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7579.248209482743,
+              "loss_nats": 1.3409851750677182,
+              "bits_per_character": 1.9346326619758154,
+              "accuracy": 0.5619249823071479
+            }
+          },
+          "hand": {
+            "1": {
+              "tokens": 12038,
+              "units": 12038,
+              "nll": 18553.240315064104,
+              "loss_nats": 1.541222820656596,
+              "bits_per_character": 2.2235145202661717,
+              "accuracy": 0.4880378800465194
+            },
+            "2": {
+              "tokens": 5138,
+              "units": 5138,
+              "nll": 6607.718046552814,
+              "loss_nats": 1.2860486661254988,
+              "bits_per_character": 1.8553760329611235,
+              "accuracy": 0.5864149474503698
+            },
+            "3": {
+              "tokens": 5652,
+              "units": 5652,
+              "nll": 7579.248209482743,
+              "loss_nats": 1.3409851750677182,
+              "bits_per_character": 1.9346326619758154,
+              "accuracy": 0.5619249823071479
+            },
+            "5": {
+              "tokens": 565,
+              "units": 565,
+              "nll": 809.7754825452979,
+              "loss_nats": 1.4332309425580494,
+              "bits_per_character": 2.067715173277113,
+              "accuracy": 0.5451327433628319
+            }
+          }
+        }
+      }
+    },
+    "timm": {
+      "dataset_sha256": "77572a77a9c7b82d26f9588618af1153c80ce9c504119ca58dfc5806df7339e4",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 8942,
+            "units": 8942,
+            "nll": 24022.129951044746,
+            "loss_nats": 2.6864381515370996,
+            "bits_per_character": 3.8757109988774876,
+            "accuracy": 0.15991948110042495
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 24022.129951044746,
+              "loss_nats": 2.6864381515370996,
+              "bits_per_character": 3.8757109988774876,
+              "accuracy": 0.15991948110042495
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 24022.129951044746,
+              "loss_nats": 2.6864381515370996,
+              "bits_per_character": 3.8757109988774876,
+              "accuracy": 0.15991948110042495
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 24022.129951044746,
+              "loss_nats": 2.6864381515370996,
+              "bits_per_character": 3.8757109988774876,
+              "accuracy": 0.15991948110042495
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 8942,
+            "units": 8942,
+            "nll": 14214.614408577007,
+            "loss_nats": 1.589645986197384,
+            "bits_per_character": 2.293374381056011,
+            "accuracy": 0.49116528740773874
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14214.614408577007,
+              "loss_nats": 1.589645986197384,
+              "bits_per_character": 2.293374381056011,
+              "accuracy": 0.49116528740773874
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14214.614408577007,
+              "loss_nats": 1.589645986197384,
+              "bits_per_character": 2.293374381056011,
+              "accuracy": 0.49116528740773874
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14214.614408577007,
+              "loss_nats": 1.589645986197384,
+              "bits_per_character": 2.293374381056011,
+              "accuracy": 0.49116528740773874
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 8942,
+            "units": 8942,
+            "nll": 15546.673211168127,
+            "loss_nats": 1.7386125264111079,
+            "bits_per_character": 2.5082876698807373,
+            "accuracy": 0.4826660702303735
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 15546.673211168127,
+              "loss_nats": 1.7386125264111079,
+              "bits_per_character": 2.5082876698807373,
+              "accuracy": 0.4826660702303735
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 15546.673211168127,
+              "loss_nats": 1.7386125264111079,
+              "bits_per_character": 2.5082876698807373,
+              "accuracy": 0.4826660702303735
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 15546.673211168127,
+              "loss_nats": 1.7386125264111079,
+              "bits_per_character": 2.5082876698807373,
+              "accuracy": 0.4826660702303735
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 8942,
+            "units": 8942,
+            "nll": 14228.091186429074,
+            "loss_nats": 1.5911531185896974,
+            "bits_per_character": 2.295548713484365,
+            "accuracy": 0.4944084097517334
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14228.091186429074,
+              "loss_nats": 1.5911531185896974,
+              "bits_per_character": 2.295548713484365,
+              "accuracy": 0.4944084097517334
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14228.091186429074,
+              "loss_nats": 1.5911531185896974,
+              "bits_per_character": 2.295548713484365,
+              "accuracy": 0.4944084097517334
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 14228.091186429074,
+              "loss_nats": 1.5911531185896974,
+              "bits_per_character": 2.295548713484365,
+              "accuracy": 0.4944084097517334
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 8942,
+            "units": 8942,
+            "nll": 12959.453164511126,
+            "loss_nats": 1.4492790387509646,
+            "bits_per_character": 2.0908676820703405,
+            "accuracy": 0.49698054126593605
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 12959.453164511126,
+              "loss_nats": 1.4492790387509646,
+              "bits_per_character": 2.0908676820703405,
+              "accuracy": 0.49698054126593605
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 12959.453164511126,
+              "loss_nats": 1.4492790387509646,
+              "bits_per_character": 2.0908676820703405,
+              "accuracy": 0.49698054126593605
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 8942,
+              "units": 8942,
+              "nll": 12959.453164511126,
+              "loss_nats": 1.4492790387509646,
+              "bits_per_character": 2.0908676820703405,
+              "accuracy": 0.49698054126593605
+            }
+          }
+        }
+      }
+    },
+    "naibbe": {
+      "dataset_sha256": "3bd1cc513e138537557f18fc31953e9ecd2a5e89cb2a53c67ba3309f1fba294f",
+      "models": {
+        "frequency": {
+          "overall": {
+            "tokens": 18217,
+            "units": 18217,
+            "nll": 50018.697723696634,
+            "loss_nats": 2.745715415474372,
+            "bits_per_character": 3.9612300135972567,
+            "accuracy": 0.14327276719547674
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 50018.697723696634,
+              "loss_nats": 2.745715415474372,
+              "bits_per_character": 3.9612300135972567,
+              "accuracy": 0.14327276719547674
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 50018.697723696634,
+              "loss_nats": 2.745715415474372,
+              "bits_per_character": 3.9612300135972567,
+              "accuracy": 0.14327276719547674
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 50018.697723696634,
+              "loss_nats": 2.745715415474372,
+              "bits_per_character": 3.9612300135972567,
+              "accuracy": 0.14327276719547674
+            }
+          }
+        },
+        "ngram3": {
+          "overall": {
+            "tokens": 18217,
+            "units": 18217,
+            "nll": 23659.154931174886,
+            "loss_nats": 1.2987404584275615,
+            "bits_per_character": 1.873686418775302,
+            "accuracy": 0.5472360981500796
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23659.154931174886,
+              "loss_nats": 1.2987404584275615,
+              "bits_per_character": 1.873686418775302,
+              "accuracy": 0.5472360981500796
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23659.154931174886,
+              "loss_nats": 1.2987404584275615,
+              "bits_per_character": 1.873686418775302,
+              "accuracy": 0.5472360981500796
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23659.154931174886,
+              "loss_nats": 1.2987404584275615,
+              "bits_per_character": 1.873686418775302,
+              "accuracy": 0.5472360981500796
+            }
+          }
+        },
+        "ngram5": {
+          "overall": {
+            "tokens": 18217,
+            "units": 18217,
+            "nll": 24706.502080001854,
+            "loss_nats": 1.3562333029588765,
+            "bits_per_character": 1.9566310604672303,
+            "accuracy": 0.543558214854257
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24706.502080001854,
+              "loss_nats": 1.3562333029588765,
+              "bits_per_character": 1.9566310604672303,
+              "accuracy": 0.543558214854257
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24706.502080001854,
+              "loss_nats": 1.3562333029588765,
+              "bits_per_character": 1.9566310604672303,
+              "accuracy": 0.543558214854257
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24706.502080001854,
+              "loss_nats": 1.3562333029588765,
+              "bits_per_character": 1.9566310604672303,
+              "accuracy": 0.543558214854257
+            }
+          }
+        },
+        "layout": {
+          "overall": {
+            "tokens": 18217,
+            "units": 18217,
+            "nll": 23591.494528792016,
+            "loss_nats": 1.295026323148269,
+            "bits_per_character": 1.868328054226676,
+            "accuracy": 0.5482790799802383
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23591.494528792016,
+              "loss_nats": 1.295026323148269,
+              "bits_per_character": 1.868328054226676,
+              "accuracy": 0.5482790799802383
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23591.494528792016,
+              "loss_nats": 1.295026323148269,
+              "bits_per_character": 1.868328054226676,
+              "accuracy": 0.5482790799802383
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 23591.494528792016,
+              "loss_nats": 1.295026323148269,
+              "bits_per_character": 1.868328054226676,
+              "accuracy": 0.5482790799802383
+            }
+          }
+        },
+        "copy": {
+          "overall": {
+            "tokens": 18217,
+            "units": 18217,
+            "nll": 24466.808235964283,
+            "loss_nats": 1.3430756016887677,
+            "bits_per_character": 1.9376485100953462,
+            "accuracy": 0.5458637536367129
+          },
+          "currier": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24466.808235964283,
+              "loss_nats": 1.3430756016887677,
+              "bits_per_character": 1.9376485100953462,
+              "accuracy": 0.5458637536367129
+            }
+          },
+          "section": {
+            "control": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24466.808235964283,
+              "loss_nats": 1.3430756016887677,
+              "bits_per_character": 1.9376485100953462,
+              "accuracy": 0.5458637536367129
+            }
+          },
+          "hand": {
+            "unknown": {
+              "tokens": 18217,
+              "units": 18217,
+              "nll": 24466.808235964283,
+              "loss_nats": 1.3430756016887677,
+              "bits_per_character": 1.9376485100953462,
+              "accuracy": 0.5458637536367129
+            }
+          }
+        }
+      }
+    }
+  },
+  "qwen": {
+    "outer": {
+      "config": {
+        "revision": "main",
+        "local_files_only": true,
+        "manuscript_file": "GC2a-n.txt",
+        "dataset": "artifacts/data/gc",
+        "run_name": "qwen-outer-c64-s42-n400",
+        "output_dir": "training_run_outputs/qwen-outer-c64-s42-n400",
+        "trainable_layers": null,
+        "layer_selection": "outer",
+        "layer_count": 4,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "context": 64,
+        "stride": 32,
+        "num_train_epochs": 1,
+        "train_batch_size": 1,
+        "eval_batch_size": 2,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0,
+        "warmup_steps": 0,
+        "eval_steps": 400,
+        "save_steps": 400,
+        "logging_steps": 10,
+        "max_steps": 400,
+        "seed": 42,
+        "device": "mps",
+        "dtype": "bfloat16",
+        "quantize": false,
+        "report_to": "none",
+        "max_train_windows": null,
+        "max_eval_pages": null,
+        "tiny": false,
+        "tokenizer_path": null
+      },
+      "layers": [
+        0,
+        1,
+        26,
+        27
+      ],
+      "versions": {
+        "torch": "2.8.0",
+        "transformers": "4.55.0",
+        "peft": "0.17.0",
+        "datasets": "4.0.0"
+      },
+      "trainable_parameters": 1245184,
+      "optimizer_steps": 400,
+      "dataset_sha256": "97d5e97339d565a929215b487630813d760425bdcd8c6710a9fad29f690245df",
+      "code_sha256": {
+        "fine_tuning.py": "f4ba5500c9a9a3cabe9707b2d7447c205aa86d41886652dc5b4b85b67acdb4ad",
+        "configs/config_model.py": "f9ac84f4c3c1769c2fdd0ef22327ebe1434abc0e725384a04cfd84fd64e5afea",
+        "voynich/__init__.py": "7c5c5d0f5ac45b89064c6b98cc2bf44f869093ad6280d736a229b1e0e1f14250",
+        "voynich/__main__.py": "907c1e7dbe9674191186ffe21b22133e9fb84b884ccdaf1017c123b13b91777d",
+        "voynich/baselines.py": "0046695c18e17bad0c45db3b8a25bf3dd8829754efc98844dfbbfdf9df740e9d",
+        "voynich/data.py": "7b535419de82b0e284036d538600150f538e5d46bffebfa2f4bdc16e06235cbe",
+        "voynich/evaluate.py": "5dd96df8e475a4acefa94881096d5a11f592a6abb8561d4ef4bb712376224e7f",
+        "voynich/report.py": "04a1543793bca5ce5128a687117a8eec09d0705945bc95bbf32be6e42636e105",
+        "voynich/tokenization.py": "12d8ac12048a7c9ba1eda299b84e85f6f95ed7aa576b1ccce05fa7576ada822e",
+        "voynich/windows.py": "7a18c3736be1953c2354eedec02ed7b0c95d5354b4e63701e201f81071318c93"
+      },
+      "frozen": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 59562.629653930664,
+          "loss_nats": 4.049400343594443,
+          "bits_per_character": 4.350481491698647,
+          "accuracy": 0.2896186008566184
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 29274.79932785034,
+            "loss_nats": 3.9411415357902992,
+            "bits_per_character": 4.25280513677467,
+            "accuracy": 0.3037156704361874
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 9954.245307922363,
+            "loss_nats": 3.523626657671633,
+            "bits_per_character": 3.9420643265253434,
+            "accuracy": 0.35008849557522126
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 34590.92625808716,
+            "loss_nats": 4.124350334814255,
+            "bits_per_character": 4.444616830450497,
+            "accuracy": 0.2810301657326815
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 12746.896202087402,
+            "loss_nats": 3.5836087157962897,
+            "bits_per_character": 4.025806466172911,
+            "accuracy": 0.34860837784649984
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1510.4450378417969,
+            "loss_nats": 4.038623095833682,
+            "bits_per_character": 4.520978351928845,
+            "accuracy": 0.2727272727272727
+          }
+        }
+      },
+      "adapted": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 40214.73833465576,
+          "loss_nats": 2.734022593966671,
+          "bits_per_character": 2.9373027321818124,
+          "accuracy": 0.36243116459310626
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 20968.82020187378,
+            "loss_nats": 2.8799368495912345,
+            "bits_per_character": 3.0802986374641703,
+            "accuracy": 0.33566817744815275
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 19245.918132781982,
+            "loss_nats": 2.5909959791036594,
+            "bits_per_character": 2.7958907106554776,
+            "accuracy": 0.3886645126548196
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 6257.111427307129,
+            "loss_nats": 2.214906699931727,
+            "bits_per_character": 2.477931272705369,
+            "accuracy": 0.43964601769911504
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 23978.315784454346,
+            "loss_nats": 2.858986024139066,
+            "bits_per_character": 3.080993700668137,
+            "accuracy": 0.34303088112555147
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 9979.311122894287,
+            "loss_nats": 2.8536777589060014,
+            "bits_per_character": 2.9496215260167307,
+            "accuracy": 0.34658278524449526
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 20968.82020187378,
+            "loss_nats": 2.8799368495912345,
+            "bits_per_character": 3.0802986374641703,
+            "accuracy": 0.33566817744815275
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 8199.518859863281,
+            "loss_nats": 2.3051782006925166,
+            "bits_per_character": 2.5896246052540026,
+            "accuracy": 0.4318245712679224
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 9979.311122894287,
+            "loss_nats": 2.8536777589060014,
+            "bits_per_character": 2.9496215260167307,
+            "accuracy": 0.34658278524449526
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1067.088150024414,
+            "loss_nats": 2.8531768717230324,
+            "bits_per_character": 3.193947680978424,
+            "accuracy": 0.3716577540106952
+          }
+        }
+      },
+      "pages": [
+        {
+          "page": "f16r",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 900.5113830566406,
+          "correct": 91,
+          "tokens": 302,
+          "units": 389,
+          "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+        },
+        {
+          "page": "f16v",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 734.7520980834961,
+          "correct": 112,
+          "tokens": 271,
+          "units": 346,
+          "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+        },
+        {
+          "page": "f20r",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 927.9545440673828,
+          "correct": 140,
+          "tokens": 357,
+          "units": 455,
+          "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+        },
+        {
+          "page": "f20v",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 865.7932891845703,
+          "correct": 103,
+          "tokens": 285,
+          "units": 372,
+          "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+        },
+        {
+          "page": "f24r",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1090.3778686523438,
+          "correct": 90,
+          "tokens": 331,
+          "units": 481,
+          "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+        },
+        {
+          "page": "f24v",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 959.9061126708984,
+          "correct": 83,
+          "tokens": 287,
+          "units": 404,
+          "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+        },
+        {
+          "page": "f26r",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 929.0416793823242,
+          "correct": 131,
+          "tokens": 353,
+          "units": 438,
+          "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+        },
+        {
+          "page": "f26v",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 1013.3657531738281,
+          "correct": 163,
+          "tokens": 379,
+          "units": 487,
+          "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+        },
+        {
+          "page": "f30r",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1016.3472213745117,
+          "correct": 145,
+          "tokens": 367,
+          "units": 477,
+          "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+        },
+        {
+          "page": "f30v",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 673.1033020019531,
+          "correct": 73,
+          "tokens": 235,
+          "units": 315,
+          "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+        },
+        {
+          "page": "f35r",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 871.0095825195312,
+          "correct": 89,
+          "tokens": 297,
+          "units": 413,
+          "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+        },
+        {
+          "page": "f35v",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 903.043212890625,
+          "correct": 103,
+          "tokens": 304,
+          "units": 397,
+          "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+        },
+        {
+          "page": "f37r",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 748.9590492248535,
+          "correct": 78,
+          "tokens": 270,
+          "units": 373,
+          "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+        },
+        {
+          "page": "f37v",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1006.1112060546875,
+          "correct": 83,
+          "tokens": 319,
+          "units": 433,
+          "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+        },
+        {
+          "page": "f42r",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1360.4070281982422,
+          "correct": 155,
+          "tokens": 475,
+          "units": 652,
+          "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+        },
+        {
+          "page": "f42v",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1127.6729278564453,
+          "correct": 129,
+          "tokens": 378,
+          "units": 516,
+          "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+        },
+        {
+          "page": "f47r",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 683.400390625,
+          "correct": 94,
+          "tokens": 247,
+          "units": 343,
+          "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+        },
+        {
+          "page": "f47v",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 791.4102478027344,
+          "correct": 120,
+          "tokens": 304,
+          "units": 390,
+          "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+        },
+        {
+          "page": "f54r",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1027.092056274414,
+          "correct": 107,
+          "tokens": 341,
+          "units": 486,
+          "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+        },
+        {
+          "page": "f54v",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 902.4400024414062,
+          "correct": 106,
+          "tokens": 317,
+          "units": 432,
+          "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+        },
+        {
+          "page": "f56r",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 932.9092102050781,
+          "correct": 144,
+          "tokens": 379,
+          "units": 488,
+          "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+        },
+        {
+          "page": "f56v",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 785.0478668212891,
+          "correct": 123,
+          "tokens": 317,
+          "units": 427,
+          "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+        },
+        {
+          "page": "f57r",
+          "folio": "57",
+          "quire": "H",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "5",
+          "nll": 1067.088150024414,
+          "correct": 139,
+          "tokens": 374,
+          "units": 482,
+          "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+        },
+        {
+          "page": "f84r",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 3255.729866027832,
+          "correct": 638,
+          "tokens": 1441,
+          "units": 1857,
+          "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+        },
+        {
+          "page": "f84v",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 3001.381561279297,
+          "correct": 604,
+          "tokens": 1384,
+          "units": 1786,
+          "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+        },
+        {
+          "page": "f93r",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1630.4780578613281,
+          "correct": 165,
+          "tokens": 550,
+          "units": 763,
+          "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+        },
+        {
+          "page": "f93v",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1030.0935440063477,
+          "correct": 111,
+          "tokens": 348,
+          "units": 469,
+          "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+        },
+        {
+          "page": "f106r",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 4951.728664398193,
+          "correct": 611,
+          "tokens": 1743,
+          "units": 2442,
+          "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+        },
+        {
+          "page": "f106v",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 5027.582458496094,
+          "correct": 601,
+          "tokens": 1754,
+          "units": 2439,
+          "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+        }
+      ],
+      "vs_frozen": {
+        "delta_bits_per_character": 1.413178759516835,
+        "interval_95": [
+          1.3546797052540234,
+          1.4472210738686462
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_copy": {
+        "delta_bits_per_character": -0.23875647340261721,
+        "interval_95": [
+          -0.287256035183779,
+          -0.16150209586668604
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    "middle": {
+      "config": {
+        "revision": "main",
+        "local_files_only": true,
+        "manuscript_file": "GC2a-n.txt",
+        "dataset": "artifacts/data/gc",
+        "run_name": "qwen-middle-c64-s42-n400",
+        "output_dir": "training_run_outputs/qwen-middle-c64-s42-n400",
+        "trainable_layers": null,
+        "layer_selection": "middle",
+        "layer_count": 4,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "context": 64,
+        "stride": 32,
+        "num_train_epochs": 1,
+        "train_batch_size": 1,
+        "eval_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0,
+        "warmup_steps": 0,
+        "eval_steps": 400,
+        "save_steps": 400,
+        "logging_steps": 10,
+        "max_steps": 400,
+        "seed": 42,
+        "device": "mps",
+        "dtype": "bfloat16",
+        "quantize": false,
+        "report_to": "none",
+        "max_train_windows": null,
+        "max_eval_pages": null,
+        "tiny": false,
+        "tokenizer_path": null
+      },
+      "layers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "versions": {
+        "torch": "2.8.0",
+        "transformers": "4.55.0",
+        "peft": "0.17.0",
+        "datasets": "4.0.0"
+      },
+      "trainable_parameters": 1245184,
+      "optimizer_steps": 400,
+      "dataset_sha256": "97d5e97339d565a929215b487630813d760425bdcd8c6710a9fad29f690245df",
+      "code_sha256": {
+        "fine_tuning.py": "f4ba5500c9a9a3cabe9707b2d7447c205aa86d41886652dc5b4b85b67acdb4ad",
+        "configs/config_model.py": "f9ac84f4c3c1769c2fdd0ef22327ebe1434abc0e725384a04cfd84fd64e5afea",
+        "voynich/__init__.py": "7c5c5d0f5ac45b89064c6b98cc2bf44f869093ad6280d736a229b1e0e1f14250",
+        "voynich/__main__.py": "8c376760df02bbecdeab49a98cd4d9d247948c9110886e57887d7e555c5f135b",
+        "voynich/baselines.py": "0046695c18e17bad0c45db3b8a25bf3dd8829754efc98844dfbbfdf9df740e9d",
+        "voynich/data.py": "7b535419de82b0e284036d538600150f538e5d46bffebfa2f4bdc16e06235cbe",
+        "voynich/evaluate.py": "5dd96df8e475a4acefa94881096d5a11f592a6abb8561d4ef4bb712376224e7f",
+        "voynich/report.py": "04a1543793bca5ce5128a687117a8eec09d0705945bc95bbf32be6e42636e105",
+        "voynich/sources.py": "0f6e7044b2ddffdc60f4e17f88ebdb8a2f49aa6404dc114e7f76e888c9523ea4",
+        "voynich/tokenization.py": "12d8ac12048a7c9ba1eda299b84e85f6f95ed7aa576b1ccce05fa7576ada822e",
+        "voynich/windows.py": "7a18c3736be1953c2354eedec02ed7b0c95d5354b4e63701e201f81071318c93"
+      },
+      "frozen": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 59562.629653930664,
+          "loss_nats": 4.049400343594443,
+          "bits_per_character": 4.350481491698647,
+          "accuracy": 0.2896186008566184
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 29274.79932785034,
+            "loss_nats": 3.9411415357902992,
+            "bits_per_character": 4.25280513677467,
+            "accuracy": 0.3037156704361874
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 9954.245307922363,
+            "loss_nats": 3.523626657671633,
+            "bits_per_character": 3.9420643265253434,
+            "accuracy": 0.35008849557522126
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 34590.92625808716,
+            "loss_nats": 4.124350334814255,
+            "bits_per_character": 4.444616830450497,
+            "accuracy": 0.2810301657326815
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 12746.896202087402,
+            "loss_nats": 3.5836087157962897,
+            "bits_per_character": 4.025806466172911,
+            "accuracy": 0.34860837784649984
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1510.4450378417969,
+            "loss_nats": 4.038623095833682,
+            "bits_per_character": 4.520978351928845,
+            "accuracy": 0.2727272727272727
+          }
+        }
+      },
+      "adapted": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 43193.271309792995,
+          "loss_nats": 2.9365199068456724,
+          "bits_per_character": 3.1548561319567585,
+          "accuracy": 0.35114555714188594
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 22403.501883506775,
+            "loss_nats": 3.076981442591234,
+            "bits_per_character": 3.291051936246999,
+            "accuracy": 0.3222084878450762
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 20789.76942628622,
+            "loss_nats": 2.798838102623347,
+            "bits_per_character": 3.020168890597938,
+            "accuracy": 0.37950996230479267
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 6764.493205010891,
+            "loss_nats": 2.394510869030404,
+            "bits_per_character": 2.6788637938502067,
+            "accuracy": 0.431858407079646
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 25607.187772750854,
+            "loss_nats": 3.053199925211739,
+            "bits_per_character": 3.2902888146473246,
+            "accuracy": 0.33194229164182665
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 10821.59033203125,
+            "loss_nats": 3.094535410932585,
+            "bits_per_character": 3.1985770757126484,
+            "accuracy": 0.3319988561624249
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 22403.501883506775,
+            "loss_nats": 3.076981442591234,
+            "bits_per_character": 3.291051936246999,
+            "accuracy": 0.3222084878450762
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 8843.345750749111,
+            "loss_nats": 2.486180981374504,
+            "bits_per_character": 2.7929621408651992,
+            "accuracy": 0.42901321338206355
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 10821.59033203125,
+            "loss_nats": 3.094535410932585,
+            "bits_per_character": 3.1985770757126484,
+            "accuracy": 0.3319988561624249
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1124.8333435058594,
+            "loss_nats": 3.007575784775025,
+            "bits_per_character": 3.3667873163951354,
+            "accuracy": 0.35294117647058826
+          }
+        }
+      },
+      "pages": [
+        {
+          "page": "f16r",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 949.9399032592773,
+          "correct": 91,
+          "tokens": 302,
+          "units": 389,
+          "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+        },
+        {
+          "page": "f16v",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 769.205696105957,
+          "correct": 101,
+          "tokens": 271,
+          "units": 346,
+          "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+        },
+        {
+          "page": "f20r",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 983.4331998825073,
+          "correct": 139,
+          "tokens": 357,
+          "units": 455,
+          "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+        },
+        {
+          "page": "f20v",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 909.4673843383789,
+          "correct": 93,
+          "tokens": 285,
+          "units": 372,
+          "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+        },
+        {
+          "page": "f24r",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1178.7622680664062,
+          "correct": 95,
+          "tokens": 331,
+          "units": 481,
+          "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+        },
+        {
+          "page": "f24v",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1006.7397537231445,
+          "correct": 72,
+          "tokens": 287,
+          "units": 404,
+          "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+        },
+        {
+          "page": "f26r",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 996.7859411239624,
+          "correct": 140,
+          "tokens": 353,
+          "units": 438,
+          "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+        },
+        {
+          "page": "f26v",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 1082.0666046142578,
+          "correct": 166,
+          "tokens": 379,
+          "units": 487,
+          "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+        },
+        {
+          "page": "f30r",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1084.6390571594238,
+          "correct": 146,
+          "tokens": 367,
+          "units": 477,
+          "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+        },
+        {
+          "page": "f30v",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 731.1808547973633,
+          "correct": 71,
+          "tokens": 235,
+          "units": 315,
+          "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+        },
+        {
+          "page": "f35r",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 908.3147392272949,
+          "correct": 96,
+          "tokens": 297,
+          "units": 413,
+          "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+        },
+        {
+          "page": "f35v",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 937.5006141662598,
+          "correct": 103,
+          "tokens": 304,
+          "units": 397,
+          "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+        },
+        {
+          "page": "f37r",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 780.2864589691162,
+          "correct": 85,
+          "tokens": 270,
+          "units": 373,
+          "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+        },
+        {
+          "page": "f37v",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1043.9647979736328,
+          "correct": 92,
+          "tokens": 319,
+          "units": 433,
+          "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+        },
+        {
+          "page": "f42r",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1459.7060089111328,
+          "correct": 146,
+          "tokens": 475,
+          "units": 652,
+          "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+        },
+        {
+          "page": "f42v",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1226.226448059082,
+          "correct": 114,
+          "tokens": 378,
+          "units": 516,
+          "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+        },
+        {
+          "page": "f47r",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 743.5282669067383,
+          "correct": 83,
+          "tokens": 247,
+          "units": 343,
+          "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+        },
+        {
+          "page": "f47v",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 845.368034362793,
+          "correct": 106,
+          "tokens": 304,
+          "units": 390,
+          "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+        },
+        {
+          "page": "f54r",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1121.5120544433594,
+          "correct": 101,
+          "tokens": 341,
+          "units": 486,
+          "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+        },
+        {
+          "page": "f54v",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 994.9963836669922,
+          "correct": 98,
+          "tokens": 317,
+          "units": 432,
+          "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+        },
+        {
+          "page": "f56r",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 994.717658996582,
+          "correct": 140,
+          "tokens": 379,
+          "units": 488,
+          "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+        },
+        {
+          "page": "f56v",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 827.1589431762695,
+          "correct": 120,
+          "tokens": 317,
+          "units": 427,
+          "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+        },
+        {
+          "page": "f57r",
+          "folio": "57",
+          "quire": "H",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "5",
+          "nll": 1124.8333435058594,
+          "correct": 132,
+          "tokens": 374,
+          "units": 482,
+          "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+        },
+        {
+          "page": "f84r",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 3528.687956750393,
+          "correct": 628,
+          "tokens": 1441,
+          "units": 1857,
+          "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+        },
+        {
+          "page": "f84v",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 3235.805248260498,
+          "correct": 592,
+          "tokens": 1384,
+          "units": 1786,
+          "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+        },
+        {
+          "page": "f93r",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1782.6006870269775,
+          "correct": 157,
+          "tokens": 550,
+          "units": 763,
+          "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+        },
+        {
+          "page": "f93v",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1124.252670288086,
+          "correct": 97,
+          "tokens": 348,
+          "units": 469,
+          "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+        },
+        {
+          "page": "f106r",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 5342.076168060303,
+          "correct": 596,
+          "tokens": 1743,
+          "units": 2442,
+          "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+        },
+        {
+          "page": "f106v",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 5479.514163970947,
+          "correct": 565,
+          "tokens": 1754,
+          "units": 2439,
+          "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+        }
+      ],
+      "vs_frozen": {
+        "delta_bits_per_character": 1.1956253597418889,
+        "interval_95": [
+          1.1407988698725278,
+          1.2266680495611046
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_copy": {
+        "delta_bits_per_character": -0.45630987317756344,
+        "interval_95": [
+          -0.5156309280650355,
+          -0.36405044880034315
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_outer": {
+        "delta_bits_per_character": -0.2175533997749462,
+        "interval_95": [
+          -0.239747977775965,
+          -0.19033874222485012
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    },
+    "random": {
+      "config": {
+        "revision": "main",
+        "local_files_only": true,
+        "manuscript_file": "GC2a-n.txt",
+        "dataset": "artifacts/data/gc",
+        "run_name": "qwen-random-c64-s42-n400",
+        "output_dir": "training_run_outputs/qwen-random-c64-s42-n400",
+        "trainable_layers": null,
+        "layer_selection": "random",
+        "layer_count": 4,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "context": 64,
+        "stride": 32,
+        "num_train_epochs": 1,
+        "train_batch_size": 1,
+        "eval_batch_size": 1,
+        "gradient_accumulation_steps": 2,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0,
+        "warmup_steps": 0,
+        "eval_steps": 400,
+        "save_steps": 400,
+        "logging_steps": 10,
+        "max_steps": 400,
+        "seed": 42,
+        "device": "mps",
+        "dtype": "bfloat16",
+        "quantize": false,
+        "report_to": "none",
+        "max_train_windows": null,
+        "max_eval_pages": null,
+        "tiny": false,
+        "tokenizer_path": null
+      },
+      "layers": [
+        0,
+        3,
+        20,
+        23
+      ],
+      "versions": {
+        "torch": "2.8.0",
+        "transformers": "4.55.0",
+        "peft": "0.17.0",
+        "datasets": "4.0.0"
+      },
+      "trainable_parameters": 1245184,
+      "optimizer_steps": 400,
+      "dataset_sha256": "97d5e97339d565a929215b487630813d760425bdcd8c6710a9fad29f690245df",
+      "code_sha256": {
+        "fine_tuning.py": "f4ba5500c9a9a3cabe9707b2d7447c205aa86d41886652dc5b4b85b67acdb4ad",
+        "configs/config_model.py": "f9ac84f4c3c1769c2fdd0ef22327ebe1434abc0e725384a04cfd84fd64e5afea",
+        "voynich/__init__.py": "7c5c5d0f5ac45b89064c6b98cc2bf44f869093ad6280d736a229b1e0e1f14250",
+        "voynich/__main__.py": "8c376760df02bbecdeab49a98cd4d9d247948c9110886e57887d7e555c5f135b",
+        "voynich/baselines.py": "0046695c18e17bad0c45db3b8a25bf3dd8829754efc98844dfbbfdf9df740e9d",
+        "voynich/data.py": "80dcae01c9936db53fd947116795fe1ab92a7ca99ec3337337711cc6817c9d21",
+        "voynich/evaluate.py": "899857192472de8bf2ccfcb85bb1111db75fe5e4b8f7a48bc71b24315481658e",
+        "voynich/report.py": "04a1543793bca5ce5128a687117a8eec09d0705945bc95bbf32be6e42636e105",
+        "voynich/sources.py": "0f6e7044b2ddffdc60f4e17f88ebdb8a2f49aa6404dc114e7f76e888c9523ea4",
+        "voynich/tokenization.py": "12d8ac12048a7c9ba1eda299b84e85f6f95ed7aa576b1ccce05fa7576ada822e",
+        "voynich/windows.py": "7a18c3736be1953c2354eedec02ed7b0c95d5354b4e63701e201f81071318c93"
+      },
+      "frozen": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 59562.629653930664,
+          "loss_nats": 4.049400343594443,
+          "bits_per_character": 4.350481491698647,
+          "accuracy": 0.2896186008566184
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 29274.79932785034,
+            "loss_nats": 3.9411415357902992,
+            "bits_per_character": 4.25280513677467,
+            "accuracy": 0.3037156704361874
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 9954.245307922363,
+            "loss_nats": 3.523626657671633,
+            "bits_per_character": 3.9420643265253434,
+            "accuracy": 0.35008849557522126
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 34590.92625808716,
+            "loss_nats": 4.124350334814255,
+            "bits_per_character": 4.444616830450497,
+            "accuracy": 0.2810301657326815
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 30287.830326080322,
+            "loss_nats": 4.1598448463233515,
+            "bits_per_character": 4.449251869536956,
+            "accuracy": 0.27523691800576844
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 12746.896202087402,
+            "loss_nats": 3.5836087157962897,
+            "bits_per_character": 4.025806466172911,
+            "accuracy": 0.34860837784649984
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 15017.458087921143,
+            "loss_nats": 4.2943832107295234,
+            "bits_per_character": 4.438765070723559,
+            "accuracy": 0.26136688590220186
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1510.4450378417969,
+            "loss_nats": 4.038623095833682,
+            "bits_per_character": 4.520978351928845,
+            "accuracy": 0.2727272727272727
+          }
+        }
+      },
+      "adapted": {
+        "overall": {
+          "tokens": 14709,
+          "units": 19752,
+          "nll": 39406.69616831839,
+          "loss_nats": 2.679087372922591,
+          "bits_per_character": 2.878282965768077,
+          "accuracy": 0.37752396491943707
+        },
+        "currier": {
+          "A": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 20816.144530296326,
+            "loss_nats": 2.858967797046604,
+            "bits_per_character": 3.0578707345775817,
+            "accuracy": 0.3395138030490317
+          },
+          "B": {
+            "tokens": 7428,
+            "units": 9931,
+            "nll": 18590.551638022065,
+            "loss_nats": 2.5027667794860076,
+            "bits_per_character": 2.7006843878325073,
+            "accuracy": 0.41478190630048467
+          }
+        },
+        "section": {
+          "balneological": {
+            "tokens": 2825,
+            "units": 3643,
+            "nll": 5963.1679524332285,
+            "loss_nats": 2.1108559123657447,
+            "bits_per_character": 2.361524247313591,
+            "accuracy": 0.4661946902654867
+          },
+          "herbal": {
+            "tokens": 8387,
+            "units": 11228,
+            "nll": 23746.03633737564,
+            "loss_nats": 2.831290847427643,
+            "bits_per_character": 3.05114792168694,
+            "accuracy": 0.35006557767974245
+          },
+          "stars": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 9697.491878509521,
+            "loss_nats": 2.773088898630118,
+            "bits_per_character": 2.8663231801242954,
+            "accuracy": 0.37174721189591076
+          }
+        },
+        "hand": {
+          "1": {
+            "tokens": 7281,
+            "units": 9821,
+            "nll": 20816.144530296326,
+            "loss_nats": 2.858967797046604,
+            "bits_per_character": 3.0578707345775817,
+            "accuracy": 0.3395138030490317
+          },
+          "2": {
+            "tokens": 3557,
+            "units": 4568,
+            "nll": 7831.309236899018,
+            "loss_nats": 2.2016612979755465,
+            "bits_per_character": 2.4733342819050232,
+            "accuracy": 0.46246837222378406
+          },
+          "3": {
+            "tokens": 3497,
+            "units": 4881,
+            "nll": 9697.491878509521,
+            "loss_nats": 2.773088898630118,
+            "bits_per_character": 2.8663231801242954,
+            "accuracy": 0.37174721189591076
+          },
+          "5": {
+            "tokens": 374,
+            "units": 482,
+            "nll": 1061.7505226135254,
+            "loss_nats": 2.8389051406778756,
+            "bits_per_character": 3.1779713975846438,
+            "accuracy": 0.36363636363636365
+          }
+        }
+      },
+      "pages": [
+        {
+          "page": "f16r",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 886.7976150512695,
+          "correct": 97,
+          "tokens": 302,
+          "units": 389,
+          "target_sha256": "930b3e8e76a336dbeff021ec71cb457afcbafa74d4b04272aec9d2959f606d51"
+        },
+        {
+          "page": "f16v",
+          "folio": "16",
+          "quire": "B",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 715.8515892028809,
+          "correct": 115,
+          "tokens": 271,
+          "units": 346,
+          "target_sha256": "19b77c22473d632f93e52854eb3aa7299022e0fb9108f5013af66119cbcc7b3e"
+        },
+        {
+          "page": "f20r",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 905.918740272522,
+          "correct": 134,
+          "tokens": 357,
+          "units": 455,
+          "target_sha256": "44f949e80ea4346755dd86c2fe2db43fe9943b86e32d095fcde6cd08e7429a5c"
+        },
+        {
+          "page": "f20v",
+          "folio": "20",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 850.0064163208008,
+          "correct": 96,
+          "tokens": 285,
+          "units": 372,
+          "target_sha256": "54cf712a1fb3ffce2791a485e5d8bd2237e3fac259b761288cdc319e25b5b55b"
+        },
+        {
+          "page": "f24r",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1084.7997665405273,
+          "correct": 90,
+          "tokens": 331,
+          "units": 481,
+          "target_sha256": "024b051e490085b20f569495a741dfc979553888e24fe56b93249735dd40c7f6"
+        },
+        {
+          "page": "f24v",
+          "folio": "24",
+          "quire": "C",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 953.4358139038086,
+          "correct": 77,
+          "tokens": 287,
+          "units": 404,
+          "target_sha256": "beedd60d10c78965f6510493c8b7f44e9d354e08fe546663363935307c04e3ce"
+        },
+        {
+          "page": "f26r",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 893.8969073295593,
+          "correct": 148,
+          "tokens": 353,
+          "units": 438,
+          "target_sha256": "b4a8f63dcbe28a5e8925fe587bb5f124b3f5be19215d6c1ef70da0c8f9a5f64b"
+        },
+        {
+          "page": "f26v",
+          "folio": "26",
+          "quire": "D",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "2",
+          "nll": 974.2443771362305,
+          "correct": 180,
+          "tokens": 379,
+          "units": 487,
+          "target_sha256": "7d0b4ba1f3565498ba3903ca991ad6fb1e2f9f3be2cf61b7e8754b8d720565dd"
+        },
+        {
+          "page": "f30r",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1008.9144821166992,
+          "correct": 145,
+          "tokens": 367,
+          "units": 477,
+          "target_sha256": "271264c52cebe6a93b40d26bcacf6c1831ac581fe9cd63487815ffff154e78a2"
+        },
+        {
+          "page": "f30v",
+          "folio": "30",
+          "quire": "D",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 671.6103458404541,
+          "correct": 76,
+          "tokens": 235,
+          "units": 315,
+          "target_sha256": "606af006de694469bc73f10d59c23cf3f2ad758797025616c02d10711cbcafd6"
+        },
+        {
+          "page": "f35r",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 881.3790874481201,
+          "correct": 93,
+          "tokens": 297,
+          "units": 413,
+          "target_sha256": "fbf95c5c1c95cac9fd78b1e94bf42ead5bbbbb4b17dc4406a6e2b54b98318a32"
+        },
+        {
+          "page": "f35v",
+          "folio": "35",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 888.7062606811523,
+          "correct": 111,
+          "tokens": 304,
+          "units": 397,
+          "target_sha256": "9eac7038264364365f23d5f30ba64839531ce313a00c1187961621b6461308a1"
+        },
+        {
+          "page": "f37r",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 722.3063297271729,
+          "correct": 91,
+          "tokens": 270,
+          "units": 373,
+          "target_sha256": "9d01fdef7b3a1522f5676c0644d7f97bf7156eb556aa962a65b1597d29fc0b83"
+        },
+        {
+          "page": "f37v",
+          "folio": "37",
+          "quire": "E",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 986.5171890258789,
+          "correct": 91,
+          "tokens": 319,
+          "units": 433,
+          "target_sha256": "f89a3b8f8b69f011b5fcbfec4b4ececfc1cdc90b3a1123f37ba2559fd0304791"
+        },
+        {
+          "page": "f42r",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1360.7562408447266,
+          "correct": 161,
+          "tokens": 475,
+          "units": 652,
+          "target_sha256": "713e9ba6f276c9bacb4bf14af8eb75381d3581f1285a07f839b243215d732f14"
+        },
+        {
+          "page": "f42v",
+          "folio": "42",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1157.1087799072266,
+          "correct": 117,
+          "tokens": 378,
+          "units": 516,
+          "target_sha256": "22301fdacebd2ea122c7e7aacefb81dd6e5a6d04db25cb85e61075973de6d232"
+        },
+        {
+          "page": "f47r",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 675.2566757202148,
+          "correct": 93,
+          "tokens": 247,
+          "units": 343,
+          "target_sha256": "cd270383af8f32427d3729d82e7d0bb3859fb68543d82293e295d64da1a7a4db"
+        },
+        {
+          "page": "f47v",
+          "folio": "47",
+          "quire": "F",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 802.4099349975586,
+          "correct": 106,
+          "tokens": 304,
+          "units": 390,
+          "target_sha256": "2f59dfbec7cd91656a3f1e1e52379156326c26632d1f0d38ff06f6be1b71e2f7"
+        },
+        {
+          "page": "f54r",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1031.810531616211,
+          "correct": 112,
+          "tokens": 341,
+          "units": 486,
+          "target_sha256": "8d2e166850eabea3c6bbe225c860a74348ddffe9276f07777bc1ccd7d06629f0"
+        },
+        {
+          "page": "f54v",
+          "folio": "54",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 889.4469909667969,
+          "correct": 122,
+          "tokens": 317,
+          "units": 432,
+          "target_sha256": "618fa3d4d841a933de1be8ce8fda9d58b25792cd0b2e778dc310df58741f97bc"
+        },
+        {
+          "page": "f56r",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 934.8106689453125,
+          "correct": 141,
+          "tokens": 379,
+          "units": 488,
+          "target_sha256": "4a768d82e648f1ac07a37a17976fb90f0c5bedc330cdf75d256b1c91bcf21128"
+        },
+        {
+          "page": "f56v",
+          "folio": "56",
+          "quire": "G",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 777.2465934753418,
+          "correct": 121,
+          "tokens": 317,
+          "units": 427,
+          "target_sha256": "60cb171751487982a997399ee2dbd86152e772a4de11e7af53e6c4a4e45a6360"
+        },
+        {
+          "page": "f57r",
+          "folio": "57",
+          "quire": "H",
+          "currier": "B",
+          "section": "herbal",
+          "hand": "5",
+          "nll": 1061.7505226135254,
+          "correct": 136,
+          "tokens": 374,
+          "units": 482,
+          "target_sha256": "f68dc30fb3ba2ad2ea504a49b2be53c8693dc8f3e6b1691fd26122e4ae3f998a"
+        },
+        {
+          "page": "f84r",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 3097.7649907022715,
+          "correct": 683,
+          "tokens": 1441,
+          "units": 1857,
+          "target_sha256": "bc43b874873d07298b94e058f4966ce90a6f921b9cfa43be144528c4b02317eb"
+        },
+        {
+          "page": "f84v",
+          "folio": "84",
+          "quire": "M",
+          "currier": "B",
+          "section": "balneological",
+          "hand": "2",
+          "nll": 2865.402961730957,
+          "correct": 634,
+          "tokens": 1384,
+          "units": 1786,
+          "target_sha256": "f5128e6d3fefe1f394d5ab813309e8e9ed5ee0bb074d1062663d3d874ec32a1a"
+        },
+        {
+          "page": "f93r",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1619.1713523864746,
+          "correct": 171,
+          "tokens": 550,
+          "units": 763,
+          "target_sha256": "d7cc39ed9fc96380e0b71b1cb025c39c0cae7d1a17702a9b438ff365adc48fab"
+        },
+        {
+          "page": "f93v",
+          "folio": "93",
+          "quire": "Q",
+          "currier": "A",
+          "section": "herbal",
+          "hand": "1",
+          "nll": 1011.8831253051758,
+          "correct": 112,
+          "tokens": 348,
+          "units": 469,
+          "target_sha256": "663696553e0dd17647d0f17c7e652190189cd6732b81585fe762d8f3def31006"
+        },
+        {
+          "page": "f106r",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 4792.394264221191,
+          "correct": 662,
+          "tokens": 1743,
+          "units": 2442,
+          "target_sha256": "9b7a96dfcd66edc76420d70bc64380078f203855b0421cd104ac141339bc58b7"
+        },
+        {
+          "page": "f106v",
+          "folio": "106",
+          "quire": "T",
+          "currier": "B",
+          "section": "stars",
+          "hand": "3",
+          "nll": 4905.09761428833,
+          "correct": 638,
+          "tokens": 1754,
+          "units": 2439,
+          "target_sha256": "63c262dddab73192be9b710c0f6762760730d81f548cc7e0cf34b8e0dad72bda"
+        }
+      ],
+      "vs_frozen": {
+        "delta_bits_per_character": 1.4721985259305703,
+        "interval_95": [
+          1.3841786445390325,
+          1.5218765481603524
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_copy": {
+        "delta_bits_per_character": -0.17973670698888192,
+        "interval_95": [
+          -0.21912097177392717,
+          -0.12814313834569385
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      },
+      "vs_outer": {
+        "delta_bits_per_character": 0.05901976641373531,
+        "interval_95": [
+          0.02207992455284821,
+          0.08198546121328903
+        ],
+        "group": "folio",
+        "groups": 15,
+        "draws": 2000,
+        "seed": 42
+      }
+    }
+  },
+  "copy_vs_frequency": {
+    "delta_bits_per_character": 1.5464473805371108,
+    "interval_95": [
+      1.3131447341368632,
+      1.7057839622948465
+    ],
+    "group": "folio",
+    "groups": 15,
+    "draws": 2000,
+    "seed": 42
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "device": "mps",
+  "contexts": [8, 32, 128],
+  "datasets": ["gc", "gc-shuffle"],
+  "seeds": [42, 43, 44],
+  "width": 256,
+  "layers": 3,
+  "batch_size": 256,
+  "eval_batch_size": 64,
+  "learning_rate": 0.0003,
+  "epochs": 20,
+  "primary": "final_epoch",
+  "max_job_hours": 2,
+  "max_suite_hours": 12,
+  "min_free_gib": 20,
+  "max_output_gib": 1
+}

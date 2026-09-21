@@ -1,0 +1,8 @@
+transformers==4.55.0
+peft==0.17.0
+datasets==4.0.0
+accelerate==1.10.0
+pydantic==2.11.7
+numpy==1.26.4
+huggingface-hub==0.34.4
+safetensors==0.6.2
