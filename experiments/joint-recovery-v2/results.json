@@ -1,0 +1,181 @@
+{
+  "summary": {
+    "modern": {
+      "cases": 2,
+      "cer": 0.09518818484992854,
+      "wer": 0.5411946446961895,
+      "gate_passes": 0,
+      "round_one_cer": 0.12498799116149487,
+      "round_one_wer": 0.5803310613437196
+    },
+    "historical": {
+      "cases": 2,
+      "cer": 0.1026806858008904,
+      "wer": 0.6019455252918288,
+      "gate_passes": 0,
+      "round_one_cer": 0.334822259445375,
+      "round_one_wer": 0.8697743248242693
+    }
+  },
+  "cases": [
+    {
+      "id": "409e87096529e71e",
+      "passage": "7706e76e54ad0437",
+      "dataset": "modern",
+      "characters": 5237,
+      "words": 961,
+      "character_errors": 561,
+      "word_errors": 572,
+      "cer": 0.10712239831964865,
+      "wer": 0.595213319458897,
+      "gate": false,
+      "segmentation_agreement": 0.8938999710899104,
+      "recovered_letters": 5129,
+      "joint": {
+        "first_pieces": 697,
+        "pruned_pieces": 265,
+        "first_restart_scores": [
+          -26854.287015711598,
+          -26031.046593649655,
+          -26646.337796861255,
+          -26043.4413699718
+        ],
+        "second_restart_scores": [
+          -25249.225006828834,
+          -25201.244768203207,
+          -25197.90745335112,
+          -25272.063025327137
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "refine_cap_hit": false,
+      "seconds": 156.20715412509162,
+      "case_cap_hit": false
+    },
+    {
+      "id": "48372dfe12d78e79",
+      "passage": "cc5b4468cc175660",
+      "dataset": "historical",
+      "characters": 5271,
+      "words": 1240,
+      "character_errors": 475,
+      "word_errors": 705,
+      "cer": 0.09011572756592677,
+      "wer": 0.5685483870967742,
+      "gate": false,
+      "segmentation_agreement": 0.9025955088947215,
+      "recovered_letters": 5188,
+      "joint": {
+        "first_pieces": 754,
+        "pruned_pieces": 265,
+        "first_restart_scores": [
+          -26754.959652274327,
+          -26787.121139461327,
+          -26760.256661737632,
+          -26742.495379974127
+        ],
+        "second_restart_scores": [
+          -25736.09176377747,
+          -25871.530055771324,
+          -25858.175180294344,
+          -25790.295490347064
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "refine_cap_hit": false,
+      "seconds": 147.99672850000206,
+      "case_cap_hit": false
+    },
+    {
+      "id": "a9bc42c7404bf829",
+      "passage": "cb6ac091c735055f",
+      "dataset": "historical",
+      "characters": 5286,
+      "words": 1330,
+      "character_errors": 609,
+      "word_errors": 842,
+      "cer": 0.1152099886492622,
+      "wer": 0.6330827067669172,
+      "gate": false,
+      "segmentation_agreement": 0.8843359488520779,
+      "recovered_letters": 5186,
+      "joint": {
+        "first_pieces": 693,
+        "pruned_pieces": 268,
+        "first_restart_scores": [
+          -26566.92323184846,
+          -26630.454588348985,
+          -26646.64034424467,
+          -26599.617967262177
+        ],
+        "second_restart_scores": [
+          -25807.80421058714,
+          -25754.970881492853,
+          -25814.27871777073,
+          -25803.764489039542
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "refine_cap_hit": false,
+      "seconds": 141.56420799996704,
+      "case_cap_hit": false
+    },
+    {
+      "id": "e12c5a91a5512473",
+      "passage": "9e4fc958539a5a77",
+      "dataset": "modern",
+      "characters": 5258,
+      "words": 981,
+      "character_errors": 438,
+      "word_errors": 479,
+      "cer": 0.08330163560289083,
+      "wer": 0.48827726809378186,
+      "gate": false,
+      "segmentation_agreement": 0.9120750293083235,
+      "recovered_letters": 5117,
+      "joint": {
+        "first_pieces": 724,
+        "pruned_pieces": 265,
+        "first_restart_scores": [
+          -26125.94796093151,
+          -26123.39435195098,
+          -26088.649382939926,
+          -26127.212804360286
+        ],
+        "second_restart_scores": [
+          -25317.448298230585,
+          -25291.0591339553,
+          -25349.29394517728,
+          -25319.4007566067
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "refine_cap_hit": false,
+      "seconds": 150.82056058302987,
+      "case_cap_hit": false
+    }
+  ],
+  "challenge": {
+    "public_sha256": "b9291fb7d46cbb7aabc84be814ce011f212d6bc832a27f699bd11b560a0ec7c3",
+    "answers_sha256": "06081bc102f93b3d1ec237b5745f446df980f1f6fcf3dafde4776ca2922a7f09",
+    "freeze_sha256": "6365bab70d422347aa51a8fb82e11f8ed975cf9dcb73b224cefbf83a39e4afab",
+    "freeze_commit": "cae7c8602fae3310b9749f5244a108a44229cbec",
+    "cases": 4,
+    "independent_passages": 4,
+    "letters": [
+      5237,
+      5258,
+      5271,
+      5286
+    ],
+    "at": 1790022267.630044
+  },
+  "predictions_sha256": "9aba1712645753ac4475478a55c7ce5058c3958f9f931edd1207aedce7ecd5d4",
+  "naibbe_gate": false,
+  "voynich_run": false,
+  "final_test_scored": false
+}

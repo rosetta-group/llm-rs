@@ -18,10 +18,13 @@ The [methods note](experiments/method-benchmark/METHODS_NOTE.md) connects all tr
   is repaired. Naibbe fails; the reserved Voynich mechanism test stays closed.
 - **Codebook-free Naibbe, joint segmentation + EM (development only):** treating each token's
   parse as latent and learning role-specific piece emissions moves character error from 300%+
-  to 12.2% on 5,200 letters of modern Italian in development. **Fresh evaluation**, four sealed
-  5,200-letter passages: 12.5% CER modern, 33.5% Dante; word error 58% and 87%; gate not met.
-  Passages under about 2,600 letters are unrecoverable for this cipher class by any method tried.
-  [Fresh report](experiments/joint-recovery/REPORT.md), [development record](experiments/joint-development/REPORT.md).
+  to 12.2% on 5,200 letters of modern Italian in development. **Round one**, four sealed
+  5,200-letter passages: 12.5% CER modern, 33.5% Dante. **Round two** (usage pruning of the piece
+  lexicon plus a prior with Petrarca's verse, Dante excluded): **9.5% modern, 10.3% Dante**; word
+  error 54% and 60%; gate (CER ≤ 1%, WER ≤ 10%) still not met. Passages under about 2,600 letters
+  are unrecoverable for this cipher class by any method tried.
+  [Round two](experiments/joint-recovery-v2/REPORT.md), [round one](experiments/joint-recovery/REPORT.md),
+  [development records](experiments/joint-development-v2/REPORT.md).
 - **Image descriptions reopened by request:** [213 archived scans and a versioned
   228-panel description table](data/folios/README.md). Pixel Layout v1 measures colour,
   geometry and spatial arrangement. It does not infer object identities or meanings.
