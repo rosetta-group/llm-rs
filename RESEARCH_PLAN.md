@@ -170,8 +170,13 @@ See [methods, limitations, and graphs](experiments/decipherment/REPORT.md).
 The new lexicon benchmark was tuned only on non-Dante Italian and scored 24 fresh passages.
 Modern word error is 6.1%; historical word error remains 39.9%. The improvement gate passed;
 the declared <10% error gate on both corpora failed. See [segmentation report](experiments/segmentation/REPORT.md).
-The next codebook-free benchmark supplies only ciphertext and a known Italian prior;
-its representation, CPU cap, controls, and limitations are frozen before grading.
+The codebook-free benchmark supplied only ciphertext and a known Italian prior. Its first
+decoder failed; the standard one-letter comparators recovered substitution and homophonic
+controls but cannot express Naibbe's units. A joint segmentation-and-decipherment EM now
+recovers Naibbe to about 12% (modern) and 15% (historical) character error on development
+passages of 5,200–10,400 letters, and nothing recovers it below about 2,600 letters. The gate
+is not met. The [drafted protocol](experiments/joint-development/PROTOCOL.md) fixes the method
+and uses 5,200–6,000-letter fresh passages; it has not been frozen or run.
 
 TransformerLens or SAEs are deferred unless a concrete mechanism warrants an intervention. No new layer or BPC sweep is planned.
 
@@ -209,6 +214,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Known-plaintext recovery | First controlled benchmark complete; spaced substitution exact, space-free word recovery still poor; `experiments/decipherment/REPORT.md` |
 | Lexicon segmentation | Fresh 24-passage evaluation complete: 6.1% modern / 39.9% historical word error |
 | Codebook-free recovery | Complete: modern substitution passes; historical selection and broader/Naibbe controls fail; `experiments/codebook-free/REPORT.md` |
+| Joint segmentation + EM | Development complete: Naibbe about 12% / 15% CER at 5,200–10,400 letters; gate not met; fresh protocol drafted, not run; `experiments/joint-development/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |

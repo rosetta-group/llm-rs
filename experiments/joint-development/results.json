@@ -1,0 +1,435 @@
+{
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "em_restarts": 6,
+    "em_iterations": 200,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "warm_rounds": 1,
+    "warm_iterations": 30,
+    "seed": 3
+  },
+  "prior_sha256": "b1470da27d8c5229a3b85d79b89c5fb2eee67bb543601f7c6e06130a7692d9a0",
+  "code_sha256": {
+    "voynich/joint_segments.py": "aea22ff0f80b89adaf1acb93efbafbe659fe3bb2ba2de57353a69c3777101260",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/homophonic.py": "789b4d3e97ebc4ca24ff7bbb25c470fd7509a364520981b5d909271e92483bb7",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "experiments/joint_development.py": "a3b7fea596cacde8d9b14887649bf421b758fce4e2f9761836b3ec2a20e4056e"
+  },
+  "commit": "b46ae8a8b9b4204ee0c9c34e78686f25cd87034b",
+  "development_data": {
+    "historical": "Novellino/Decameron development tales",
+    "modern": "UD_Italian-ISDT dev"
+  },
+  "evaluation_passages_used": false,
+  "voynich_text_used": false,
+  "final_test_scored": false,
+  "quick": false,
+  "rows": [
+    {
+      "source": "historical",
+      "letters": 1300,
+      "tokens": 840,
+      "token_types": 522,
+      "true_pieces": 257,
+      "oracle_segmentation": {
+        "unit_types": 305,
+        "truth_bits": 11405.728460666825,
+        "beam_bits": 12984.78527893548,
+        "beam_cer": 0.8038461538461539,
+        "em_cer": 0.7738461538461539,
+        "em_key_bits": 12873.397615361948,
+        "em_refined_cer": 0.7830769230769231,
+        "em_refined_bits": 11527.339086116428,
+        "seconds": 58.068068981170654
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.6404761904761904,
+        "joint_pieces": 712,
+        "joint_parses": 2130,
+        "joint_restart_scores": [
+          -6320.448987634699,
+          -6332.882772622813,
+          -6340.092708945383,
+          -6342.740028862757
+        ],
+        "joint_segmentation_agreement": 0.6416666666666667,
+        "joint_cer": 0.7623076923076924,
+        "joint_recovered_letters": 1273,
+        "rounds": [
+          {
+            "refined_cer": 0.7746153846153846,
+            "refined_bits": 11850.508673629796,
+            "segmentation_agreement": 0.6416666666666667,
+            "warm_cer": 0.7584615384615384,
+            "warm_segmentation_agreement": 0.6416666666666667,
+            "warm_log_likelihood": -6307.455303232794
+          },
+          {
+            "refined_cer": 0.7753846153846153,
+            "refined_bits": 11907.094188919844,
+            "segmentation_agreement": 0.6416666666666667
+          }
+        ],
+        "final_cer": 0.7753846153846153,
+        "final_recovered": "eanplyntraafredingliscrepartiamoforosegliperladeflatodalgonoceihoodoiistectiinedereeifortebibilemidarealschumpanemantllm",
+        "seconds": 77.07405424118042
+      }
+    },
+    {
+      "source": "historical",
+      "letters": 2600,
+      "tokens": 1688,
+      "token_types": 882,
+      "true_pieces": 288,
+      "oracle_segmentation": {
+        "unit_types": 344,
+        "truth_bits": 20937.7298830444,
+        "beam_bits": 24620.829455976447,
+        "beam_cer": 0.7823076923076923,
+        "em_cer": 0.1973076923076923,
+        "em_key_bits": 23247.94904788003,
+        "em_refined_cer": 0.046153846153846156,
+        "em_refined_bits": 20637.14482017536,
+        "seconds": 107.0224392414093
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.7008293838862559,
+        "joint_pieces": 1199,
+        "joint_parses": 5322,
+        "joint_restart_scores": [
+          -13074.668659238381,
+          -13071.270388382742,
+          -13067.625993221782,
+          -13079.294430527854
+        ],
+        "joint_segmentation_agreement": 0.8187203791469194,
+        "joint_cer": 0.6207692307692307,
+        "joint_recovered_letters": 2564,
+        "rounds": [
+          {
+            "refined_cer": 0.6176923076923077,
+            "refined_bits": 23892.509039085537,
+            "segmentation_agreement": 0.8187203791469194,
+            "warm_cer": 0.5661538461538461,
+            "warm_segmentation_agreement": 0.8187203791469194,
+            "warm_log_likelihood": -13044.088840490696
+          },
+          {
+            "refined_cer": 0.4930769230769231,
+            "refined_bits": 23383.02008043025,
+            "segmentation_agreement": 0.8187203791469194
+          }
+        ],
+        "final_cer": 0.4930769230769231,
+        "final_recovered": "tonudestendeaerlaeioltaticiecatecohemiraoelevadattaimallausieunciannaiordobapensieratureciealpostilosparigiinallafostero",
+        "seconds": 129.32868766784668
+      }
+    },
+    {
+      "source": "historical",
+      "letters": 5200,
+      "tokens": 3401,
+      "token_types": 1425,
+      "true_pieces": 305,
+      "oracle_segmentation": {
+        "unit_types": 379,
+        "truth_bits": 41576.4299267639,
+        "beam_bits": 51961.98021557731,
+        "beam_cer": 0.7821153846153847,
+        "em_cer": 0.0926923076923077,
+        "em_key_bits": 42645.421741803824,
+        "em_refined_cer": 0.03192307692307692,
+        "em_refined_bits": 40484.80865222398,
+        "seconds": 130.49002695083618
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.8238753307850633,
+        "joint_pieces": 1892,
+        "joint_parses": 12003,
+        "joint_restart_scores": [
+          -25734.721110914867,
+          -25763.323747948023,
+          -25742.170741586207,
+          -25801.66442045554
+        ],
+        "joint_segmentation_agreement": 0.8712143487209644,
+        "joint_cer": 0.3453846153846154,
+        "joint_recovered_letters": 5020,
+        "rounds": [
+          {
+            "refined_cer": 0.14173076923076924,
+            "refined_bits": 42423.150478323936,
+            "segmentation_agreement": 0.8712143487209644,
+            "warm_cer": 0.2453846153846154,
+            "warm_segmentation_agreement": 0.8735665980593943,
+            "warm_log_likelihood": -25607.232671808863
+          },
+          {
+            "refined_cer": 0.14038461538461539,
+            "refined_bits": 42293.3098579049,
+            "segmentation_agreement": 0.8735665980593943
+          }
+        ],
+        "final_cer": 0.14038461538461539,
+        "final_recovered": "danitastandoperlamuontadidiochidipeiiiolaveafattosignorelinenneungiorainpensierodimoliealpostattosaperafuantiosseropernu",
+        "seconds": 198.78466701507568
+      }
+    },
+    {
+      "source": "historical",
+      "letters": 10400,
+      "tokens": 6817,
+      "token_types": 2286,
+      "true_pieces": 330,
+      "oracle_segmentation": {
+        "unit_types": 416,
+        "truth_bits": 82547.33397186597,
+        "beam_bits": 102556.28784940255,
+        "beam_cer": 0.7770192307692307,
+        "em_cer": 0.05384615384615385,
+        "em_key_bits": 82157.86914127602,
+        "em_refined_cer": 0.025576923076923077,
+        "em_refined_bits": 79217.61974249862,
+        "seconds": 292.3466727733612
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.8842599383893208,
+        "joint_pieces": 3097,
+        "joint_parses": 28239,
+        "joint_restart_scores": [
+          -50526.48671473535,
+          -50593.674193091094,
+          -50538.27145813796,
+          -50636.49701504471
+        ],
+        "joint_segmentation_agreement": 0.8455332257591316,
+        "joint_cer": 0.3439423076923077,
+        "joint_recovered_letters": 9662,
+        "rounds": [
+          {
+            "refined_cer": 0.15336538461538463,
+            "refined_bits": 84026.88834598656,
+            "segmentation_agreement": 0.8455332257591316,
+            "warm_cer": 0.21048076923076922,
+            "warm_segmentation_agreement": 0.8481736834384627,
+            "warm_log_likelihood": -50102.25582219734
+          },
+          {
+            "refined_cer": 0.15019230769230768,
+            "refined_bits": 83827.53324136407,
+            "segmentation_agreement": 0.8481736834384627
+          }
+        ],
+        "final_cer": 0.15019230769230768,
+        "final_recovered": "dhitrestatoperlabontadidiochedipecoraiolaveafattuignoraivenneungianoinpensarodivolaealpostuttosapereefantifosserpernumer",
+        "seconds": 591.7844650745392
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 1300,
+      "tokens": 840,
+      "token_types": 519,
+      "true_pieces": 256,
+      "oracle_segmentation": {
+        "unit_types": 303,
+        "truth_bits": 10885.066750500257,
+        "beam_bits": 12538.472733231889,
+        "beam_cer": 0.7853846153846153,
+        "em_cer": 0.7646153846153846,
+        "em_key_bits": 12872.47919806107,
+        "em_refined_cer": 0.7623076923076924,
+        "em_refined_bits": 11537.427076914377,
+        "seconds": 34.83456993103027
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.594047619047619,
+        "joint_pieces": 708,
+        "joint_parses": 2194,
+        "joint_restart_scores": [
+          -6349.978668279124,
+          -6320.181924007927,
+          -6330.685041121211,
+          -6331.493410774192
+        ],
+        "joint_segmentation_agreement": 0.655952380952381,
+        "joint_cer": 0.7592307692307693,
+        "joint_recovered_letters": 1284,
+        "rounds": [
+          {
+            "refined_cer": 0.7638461538461538,
+            "refined_bits": 11845.933774804,
+            "segmentation_agreement": 0.655952380952381,
+            "warm_cer": 0.7569230769230769,
+            "warm_segmentation_agreement": 0.655952380952381,
+            "warm_log_likelihood": -6306.80063962172
+          },
+          {
+            "refined_cer": 0.7684615384615384,
+            "refined_bits": 11756.960304064485,
+            "segmentation_agreement": 0.655952380952381
+          }
+        ],
+        "final_cer": 0.7684615384615384,
+        "final_recovered": "tamtastalugiaerearonenirerelioresanzatecolafungeallamounoantavalietofilmielverovitanatantiriallisteunflazvviennemilanari",
+        "seconds": 42.908071994781494
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 2600,
+      "tokens": 1688,
+      "token_types": 871,
+      "true_pieces": 289,
+      "oracle_segmentation": {
+        "unit_types": 343,
+        "truth_bits": 20688.875261514942,
+        "beam_bits": 24879.178328206406,
+        "beam_cer": 0.7892307692307692,
+        "em_cer": 0.7653846153846153,
+        "em_key_bits": 25257.976892682414,
+        "em_refined_cer": 0.7696153846153846,
+        "em_refined_bits": 22792.29523688477,
+        "seconds": 71.45534896850586
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.6753554502369669,
+        "joint_pieces": 1181,
+        "joint_parses": 5241,
+        "joint_restart_scores": [
+          -12949.819175757972,
+          -12947.742168919662,
+          -12941.67045100246,
+          -12956.901704355123
+        ],
+        "joint_segmentation_agreement": 0.7956161137440758,
+        "joint_cer": 0.5215384615384615,
+        "joint_recovered_letters": 2543,
+        "rounds": [
+          {
+            "refined_cer": 0.49115384615384616,
+            "refined_bits": 23356.51566950323,
+            "segmentation_agreement": 0.7956161137440758,
+            "warm_cer": 0.46192307692307694,
+            "warm_segmentation_agreement": 0.7968009478672986,
+            "warm_log_likelihood": -12910.150861289123
+          },
+          {
+            "refined_cer": 0.39653846153846156,
+            "refined_bits": 22893.05486350999,
+            "segmentation_agreement": 0.7968009478672986
+          }
+        ],
+        "final_cer": 0.39653846153846156,
+        "final_recovered": "voraverestortdapiginaeregniitreacevanonateidolegiatolachaestadonavalinciandaladiscesetattirliusareedmanoinnadiconesosser",
+        "seconds": 105.30951809883118
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 5200,
+      "tokens": 3401,
+      "token_types": 1460,
+      "true_pieces": 317,
+      "oracle_segmentation": {
+        "unit_types": 385,
+        "truth_bits": 40353.88683038009,
+        "beam_bits": 50842.65404888317,
+        "beam_cer": 0.7713461538461538,
+        "em_cer": 0.07884615384615384,
+        "em_key_bits": 41541.18086330316,
+        "em_refined_cer": 0.03173076923076923,
+        "em_refined_bits": 39357.47078851521,
+        "seconds": 133.4772870540619
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.8177006762716847,
+        "joint_pieces": 1941,
+        "joint_parses": 11990,
+        "joint_restart_scores": [
+          -25702.90114299347,
+          -25845.721872927355,
+          -25677.59428499578,
+          -25662.910516757638
+        ],
+        "joint_segmentation_agreement": 0.8850338135842399,
+        "joint_cer": 0.2792307692307692,
+        "joint_recovered_letters": 5031,
+        "rounds": [
+          {
+            "refined_cer": 0.12076923076923077,
+            "refined_bits": 41619.373478607515,
+            "segmentation_agreement": 0.8850338135842399,
+            "warm_cer": 0.22230769230769232,
+            "warm_segmentation_agreement": 0.8844457512496324,
+            "warm_log_likelihood": -25573.49865225067
+          },
+          {
+            "refined_cer": 0.12211538461538461,
+            "refined_bits": 41557.040531016006,
+            "segmentation_agreement": 0.8844457512496324
+          }
+        ],
+        "final_cer": 0.12211538461538461,
+        "final_recovered": "corrieresportdapaginaapaginaitreacevanodapocoimasciaelacimaestavanocomincindoladiscesatuttiliessiiumanisannodipoteresser",
+        "seconds": 199.33396291732788
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 10400,
+      "tokens": 6817,
+      "token_types": 2372,
+      "true_pieces": 343,
+      "oracle_segmentation": {
+        "unit_types": 432,
+        "truth_bits": 80781.03480829403,
+        "beam_bits": 103878.93708606971,
+        "beam_cer": 0.7753846153846153,
+        "em_cer": 0.045384615384615384,
+        "em_key_bits": 81632.14386758706,
+        "em_refined_cer": 0.026634615384615385,
+        "em_refined_bits": 78820.23512506842,
+        "seconds": 288.9461131095886
+      },
+      "codebook_free": {
+        "deterministic_segmentation_agreement": 0.8970221505060877,
+        "joint_pieces": 3186,
+        "joint_parses": 27903,
+        "joint_restart_scores": [
+          -50770.55093451982,
+          -50864.19094734939,
+          -50736.432268552075,
+          -50693.3057913813
+        ],
+        "joint_segmentation_agreement": 0.8566818248496406,
+        "joint_cer": 0.25817307692307695,
+        "joint_recovered_letters": 9738,
+        "rounds": [
+          {
+            "refined_cer": 0.13375,
+            "refined_bits": 83167.72851628333,
+            "segmentation_agreement": 0.8566818248496406,
+            "warm_cer": 0.2076923076923077,
+            "warm_segmentation_agreement": 0.8572685932228253,
+            "warm_log_likelihood": -50516.78758842129
+          },
+          {
+            "refined_cer": 0.13567307692307692,
+            "refined_bits": 83128.23016529172,
+            "segmentation_agreement": 0.8572685932228253
+          }
+        ],
+        "final_cer": 0.13567307692307692,
+        "final_recovered": "chrierespotdapaginaapaginaitreavevanodapocolasciatolacimaesevanosminciodoladiscesouttigliesseriumanisannodipoteresserepi",
+        "seconds": 572.6331822872162
+      }
+    }
+  ],
+  "at": 1790008493.230101
+}

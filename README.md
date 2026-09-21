@@ -16,6 +16,12 @@ The [methods note](experiments/method-benchmark/METHODS_NOTE.md) connects all tr
 - **Published cipher comparators + MDL:** exact letters in 7/8 fresh substitution/homophonic
   controls; the remaining case has 0.63% character error. Historical substitution selection
   is repaired. Naibbe fails; the reserved Voynich mechanism test stays closed.
+- **Codebook-free Naibbe, joint segmentation + EM (development only):** treating each token's
+  parse as latent and learning role-specific piece emissions moves character error from 300%+
+  to about 12% on 5,200 letters of modern Italian and 15% on 10,400 historical letters. The
+  CER ≤ 1% gate is not met. Passages under about 2,600 letters are unrecoverable for this cipher
+  class by any method tried, so the drafted fresh protocol uses 5,200–6,000 letters.
+  [Development record](experiments/joint-development/REPORT.md), [protocol](experiments/joint-development/PROTOCOL.md).
 - **Image descriptions reopened by request:** [213 archived scans and a versioned
   228-panel description table](data/folios/README.md). Pixel Layout v1 measures colour,
   geometry and spatial arrangement. It does not infer object identities or meanings.
