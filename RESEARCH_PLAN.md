@@ -2,6 +2,13 @@
 
 Updated: 2026-09-21
 
+**Latest scope change:** the user requested raw folio images and reproducible image
+descriptions. The [image archive and Pixel Layout v1](data/folios/README.md) provide
+213 scans, 228 panel descriptions, reviewed foldout crops and versioned `analysis_id`
+records. This reopens acquisition/description, while confirmatory text/image modelling
+remains parked. A later method should describe objects and relations with explicit
+evidence regions; it still needs independent masked evaluation before meaning claims.
+
 **Current deliverable: a validated decipherment-method benchmark with positive controls
 and honest Voynich negatives.** Translation is a long-term motivation, not a reachable
 claim on current evidence. See [the current CPU plan](experiments/METHOD_BENCHMARK_PLAN.md),
@@ -228,7 +235,7 @@ The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) su
 older next-step suggestions. Archive committed (`28ceb16`); use total description length
 including key and residual ambiguity costs; compare published homophonic search; build
 historical training/development from Novellino and Decameron, with Dante held for evaluation.
-Freeze in Git before new grading. CPU only. Image modelling is parked pending independent
+Freeze in Git before new grading. CPU only. Image association modelling is parked pending independent
 masked annotations from two annotators. No further catalogue study. The reserved Voynich
 shuffle mechanism remains gated on Naibbe recovery. Write up methods and bounded negatives;
 do not claim a translation or a general impossibility result.
@@ -242,5 +249,6 @@ prose lowers fresh Dante WER from 37.7% to 24.2%, still above the 10% gate. Naib
 variable-length recovery remain unsuccessful. No Voynich mechanism run is earned by this
 result. Published one-letter model failures cannot reject every variable-length cipher.
 The [methods note](experiments/method-benchmark/METHODS_NOTE.md) now includes the comparison.
-Image modelling remains parked. No further run is scheduled; any decoder revision needs
+Image association modelling remains parked; image description is reopened above.
+No further decoder run is scheduled; any decoder revision needs
 new development evidence, a new committed freeze and source IDs disjoint from this release.

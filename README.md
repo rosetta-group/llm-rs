@@ -16,7 +16,10 @@ The [methods note](experiments/method-benchmark/METHODS_NOTE.md) connects all tr
 - **Published cipher comparators + MDL:** exact letters in 7/8 fresh substitution/homophonic
   controls; the remaining case has 0.63% character error. Historical substitution selection
   is repaired. Naibbe fails; the reserved Voynich mechanism test stays closed.
-- **Image track parked:** no further catalogue study. Reopening needs masked labels from
+- **Image descriptions reopened by request:** [213 archived scans and a versioned
+  228-panel description table](data/folios/README.md). Pixel Layout v1 measures colour,
+  geometry and spatial arrangement. It does not infer object identities or meanings.
+- **Image association tests remain parked:** reopening needs masked labels from
   two annotators, agreement statistics and an identifiable design.
 - **Broad image domains:** botanical, people/bathing, and celestial/diagrams now tested
   across 63 physical folio groups. Character text alone scores 72.2% balanced accuracy;

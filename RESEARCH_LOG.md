@@ -46,6 +46,22 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-21: image descriptions reopened by explicit request.** Downloaded the complete
+213-image Yale scan set at 1,800 pixels on the longest side (121.2 MB), indexed all
+228 Voynich.nu panels, and reviewed 39 registered foldout crops. Inspected all scans
+in contact sheets and enlarged examples spanning figures, containers, diagrams and
+text. The [archive and method](data/folios/README.md) contain sources, hashes, reviewed
+crop coordinates and a reproducible CPU pipeline. Pixel Layout v1 produces CSV/JSONL
+rows keyed by `(analysis_id, folio_id)`, plus a searchable gallery. It describes colour,
+patch distribution, geometry and dark-mark bands; subject domains remain unassigned.
+The [visual review](data/folios/VISUAL_REVIEW.md) records direct observations and the
+false-circle detector failure found during development. This is an exploratory
+description baseline, not a fourth association study or evidence of meaning. All
+images were visible during development; no independent masked annotation is claimed.
+All 92 repository tests passed. A full rerun reproduced the archived files exactly;
+the 231 generated output checksums also matched staged Git contents. No paid compute.
+
+
 **Standard-method comparison completed.** Method committed as `146fa75` before generating
 16 fresh encodings of four passages. CPU decoding took 13.3 minutes; no paid compute.
 The [report and graphs](experiments/standard-decipherment/REPORT.md) and
@@ -76,7 +92,8 @@ The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) no
 CPU development: total description length, published homophonic comparators, and a
 non-Dante historical lexicon. A separate commit must freeze the method before fresh grading.
 
-**Image track parked.** All three catalogue-based studies are preserved. No fourth study
+**Image association tests parked.** Image acquisition/description is now reopened above.
+All three catalogue-based studies are preserved. No fourth association study
 on Grove/Stolfi will run. Reopening requires text-masked annotation, two annotators,
 agreement statistics, and a design that can separate image domain from hand and quire.
 

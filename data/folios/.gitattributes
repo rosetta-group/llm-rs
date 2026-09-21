@@ -1,0 +1,4 @@
+# Preserve archived bytes exactly: registry SHA-256 checksums include line endings.
+* -text
+# CSV's standard CRLF record endings are intentional, not trailing spaces.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

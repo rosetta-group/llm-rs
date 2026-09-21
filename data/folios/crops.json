@@ -1,0 +1,631 @@
+{
+  "coordinate_system": "Normalized x1,y1,x2,y2 on the uncropped downloaded Yale image; axis-aligned, no perspective rectification.",
+  "method": "SIFT thumbnail registration + visual crop contact-sheet review by Codex, 2026-09-21",
+  "review_limit": "Identity and coarse boundary review, not a pixel-accurate segmentation annotation; crops may include narrow neighbouring margins.",
+  "crops": [
+    {
+      "folio_id": "f67r1",
+      "image_id": "1006194",
+      "bbox": [
+        0.0266,
+        0.0208,
+        0.5146,
+        0.9907
+      ],
+      "inliers": 302,
+      "matches": 321,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f67r1.jpg",
+      "thumbnail_sha256": "967c4a5b867e8ce114bc3668c8e9ba51c0e561cb7a922a7e63ea0bc46185ed31",
+      "thumbnail_url": "https://voynich.nu/q09/f067r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f67r2",
+      "image_id": "1006194",
+      "bbox": [
+        0.4951,
+        0.0212,
+        0.9871,
+        0.9911
+      ],
+      "inliers": 71,
+      "matches": 78,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f67r2.jpg",
+      "thumbnail_sha256": "33396123b6d42e6b5fd0af5b54c181a05354016f188c040f4e3003f1d754211c",
+      "thumbnail_url": "https://voynich.nu/q09/f067r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f67v2",
+      "image_id": "1006195",
+      "bbox": [
+        0.0109,
+        0.0118,
+        0.5118,
+        0.9949
+      ],
+      "inliers": 57,
+      "matches": 66,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f67v2.jpg",
+      "thumbnail_sha256": "9b67f67ddda8ff5d81149b3d76c0a2f97a9cbcb3da8a65b62f8c235101e84fb4",
+      "thumbnail_url": "https://voynich.nu/q09/f067v2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f67v1",
+      "image_id": "1006195",
+      "bbox": [
+        0.4804,
+        0.0118,
+        0.9847,
+        0.993
+      ],
+      "inliers": 91,
+      "matches": 122,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f67v1.jpg",
+      "thumbnail_sha256": "f532bdc7450676c476091f6d28d59eb50b175e6921655eb384203db30eb07287",
+      "thumbnail_url": "https://voynich.nu/q09/f067v1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68r1",
+      "image_id": "1006196",
+      "bbox": [
+        0.0201,
+        0.0213,
+        0.3185,
+        0.9778
+      ],
+      "inliers": 87,
+      "matches": 91,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68r1.jpg",
+      "thumbnail_sha256": "a3e67144e70bc7dbeb8b891fececa05ba36290c7d6d434cb56ce89bfb8be67ef",
+      "thumbnail_url": "https://voynich.nu/q09/f068r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68r2",
+      "image_id": "1006196",
+      "bbox": [
+        0.308,
+        0.023,
+        0.5719,
+        0.9797
+      ],
+      "inliers": 143,
+      "matches": 185,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68r2.jpg",
+      "thumbnail_sha256": "262544541f8d3ae9be0f3148024647178b127d65bcd7bd486588b4a25cf44342",
+      "thumbnail_url": "https://voynich.nu/q09/f068r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68r3",
+      "image_id": "1006196",
+      "bbox": [
+        0.5618,
+        0.02,
+        0.9933,
+        0.98
+      ],
+      "inliers": 203,
+      "matches": 219,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68r3.jpg",
+      "thumbnail_sha256": "bc3345aa678f5b3927bb066b5e58c187bdf3a73fa4d92d3677cb76d05c8701e0",
+      "thumbnail_url": "https://voynich.nu/q09/f068r3_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68v3",
+      "image_id": "1006197",
+      "bbox": [
+        0.0109,
+        0.021,
+        0.441,
+        0.9753
+      ],
+      "inliers": 278,
+      "matches": 343,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68v3.jpg",
+      "thumbnail_sha256": "bf49c1696cd134f2429c6e793b535ab12660ea554c4fd0f4c2171d4a084b25ce",
+      "thumbnail_url": "https://voynich.nu/q09/f068v3_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68v2",
+      "image_id": "1006197",
+      "bbox": [
+        0.4293,
+        0.0204,
+        0.6947,
+        0.9742
+      ],
+      "inliers": 212,
+      "matches": 218,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68v2.jpg",
+      "thumbnail_sha256": "eb2e61a18c4d1551496a7f11703d2933bc185aafe5c4c2ce8eb07ec99f2514e9",
+      "thumbnail_url": "https://voynich.nu/q09/f068v2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f68v1",
+      "image_id": "1006197",
+      "bbox": [
+        0.6881,
+        0.0211,
+        0.9855,
+        0.9775
+      ],
+      "inliers": 254,
+      "matches": 297,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f68v1.jpg",
+      "thumbnail_sha256": "68c0f1f9b930652b855dd2a94850ebeeafaa0de00421c1d5061146acc5677faf",
+      "thumbnail_url": "https://voynich.nu/q09/f068v1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f69v",
+      "image_id": "1006199",
+      "bbox": [
+        0.0618,
+        0.0188,
+        0.3506,
+        0.9833
+      ],
+      "inliers": 208,
+      "matches": 213,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f69v.jpg",
+      "thumbnail_sha256": "a0093f2991ee6ea28458c14c487a7bbfa30e3548a4b79ccc719d80d1468dd885",
+      "thumbnail_url": "https://voynich.nu/q10/f069v_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f70r1",
+      "image_id": "1006199",
+      "bbox": [
+        0.3325,
+        0.0198,
+        0.5973,
+        0.9833
+      ],
+      "inliers": 135,
+      "matches": 147,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f70r1.jpg",
+      "thumbnail_sha256": "9144759c688477952e07fa59b59f4855f9aeb0da72cc9deae332c23041bb2962",
+      "thumbnail_url": "https://voynich.nu/q10/f070r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f70r2",
+      "image_id": "1006199",
+      "bbox": [
+        0.5912,
+        0.0196,
+        0.9919,
+        0.9855
+      ],
+      "inliers": 258,
+      "matches": 266,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f70r2.jpg",
+      "thumbnail_sha256": "6097e6c2d020e542141a7dc4426b845db609cb929e5a5a1a7ca1b388c9295031",
+      "thumbnail_url": "https://voynich.nu/q10/f070r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f71v",
+      "image_id": "1006203",
+      "bbox": [
+        0.0431,
+        0.0355,
+        0.2653,
+        0.9755
+      ],
+      "inliers": 56,
+      "matches": 59,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f71v.jpg",
+      "thumbnail_sha256": "8c32d555f9babd7743517133e9edb8e68a8c114032c4238aef9a3179a063f24c",
+      "thumbnail_url": "https://voynich.nu/q11/f071v_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f72r1",
+      "image_id": "1006203",
+      "bbox": [
+        0.257,
+        0.0363,
+        0.4784,
+        0.9791
+      ],
+      "inliers": 59,
+      "matches": 65,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f72r1.jpg",
+      "thumbnail_sha256": "4821e3e6587c0c31d00c1749dfff4e9cf4a797137eedb49d9da4e2bfc936d993",
+      "thumbnail_url": "https://voynich.nu/q11/f072r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f72r2",
+      "image_id": "1006203",
+      "bbox": [
+        0.4746,
+        0.0369,
+        0.6814,
+        0.9764
+      ],
+      "inliers": 68,
+      "matches": 74,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f72r2.jpg",
+      "thumbnail_sha256": "31be6233e3df950ae0cac5b10fb3b6c7c1adcacebbccdc09888f54a81fd6d398",
+      "thumbnail_url": "https://voynich.nu/q11/f072r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f72r3",
+      "image_id": "1006203",
+      "bbox": [
+        0.672,
+        0.0336,
+        0.9939,
+        0.9752
+      ],
+      "inliers": 50,
+      "matches": 55,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f72r3.jpg",
+      "thumbnail_sha256": "7820c6291ca227bb7d4918b55d764cf0c259401a893355619e6adf1de8e441f4",
+      "thumbnail_url": "https://voynich.nu/q11/f072r3_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f72v3",
+      "image_id": "1006204",
+      "bbox": [
+        0.0087,
+        0.0293,
+        0.599,
+        0.9661
+      ],
+      "inliers": 76,
+      "matches": 90,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f72v3.jpg",
+      "thumbnail_sha256": "8f48b338a30a90ab8ff62c3cf55d1c6d0b2073c13e58bbc9e08988261e65117f",
+      "thumbnail_url": "https://voynich.nu/q11/f072v3_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f72v2",
+      "image_id": "1006204",
+      "bbox": [
+        0.5784,
+        0.0301,
+        0.9648,
+        0.9688
+      ],
+      "inliers": 35,
+      "matches": 43,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f72v2.jpg",
+      "thumbnail_sha256": "748cb002ebb7bf3be1ce613fbfb92dfba346a42a97ff457166cae7056c698118",
+      "thumbnail_url": "https://voynich.nu/q11/f072v2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f85r2",
+      "image_id": "1006229",
+      "bbox": [
+        0.0741,
+        0.0431,
+        0.3947,
+        0.9744
+      ],
+      "inliers": 199,
+      "matches": 211,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f85r2.jpg",
+      "thumbnail_sha256": "32a9e765b5995d007fdc3240800227014764d4a17d56af8a048dfbd19bf07202",
+      "thumbnail_url": "https://voynich.nu/q14/f085r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f86v4",
+      "image_id": "1006229",
+      "bbox": [
+        0.3818,
+        0.042,
+        0.7023,
+        0.9724
+      ],
+      "inliers": 273,
+      "matches": 291,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f86v4.jpg",
+      "thumbnail_sha256": "6079725fc0b7a35a2983a032f4769fd94ac7120d4b7ec2cfaee4fb238d053813",
+      "thumbnail_url": "https://voynich.nu/q14/f086v4_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f86v6",
+      "image_id": "1006229",
+      "bbox": [
+        0.6918,
+        0.0431,
+        0.985,
+        0.9743
+      ],
+      "inliers": 454,
+      "matches": 511,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f86v6.jpg",
+      "thumbnail_sha256": "06ef0208a985330f14b1b7f3a69f4e7ef794a132ae4c88366d071555bab8c878",
+      "thumbnail_url": "https://voynich.nu/q14/f086v6_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f86v5",
+      "image_id": "1006230",
+      "bbox": [
+        0.0217,
+        0.0419,
+        0.4731,
+        0.9916
+      ],
+      "inliers": 420,
+      "matches": 441,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f86v5.jpg",
+      "thumbnail_sha256": "60538a72eb709888ad3ee18a7e6f826f67a1867c6d2e1ad14421d89554557769",
+      "thumbnail_url": "https://voynich.nu/q14/f086v5_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f86v3",
+      "image_id": "1006230",
+      "bbox": [
+        0.4573,
+        0.0412,
+        0.9879,
+        0.9886
+      ],
+      "inliers": 307,
+      "matches": 347,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f86v3.jpg",
+      "thumbnail_sha256": "332b3d05809e96bfc5cda0a803c090317b31127c517de04dacd78636a531cc13",
+      "thumbnail_url": "https://voynich.nu/q14/f086v3_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f88v",
+      "image_id": "1006233",
+      "bbox": [
+        0.0471,
+        0.0303,
+        0.317,
+        0.9754
+      ],
+      "inliers": 451,
+      "matches": 461,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f88v.jpg",
+      "thumbnail_sha256": "e8de4148c735fcdfca5feedad143bac9ae72010315271d7a707512780514f7f5",
+      "thumbnail_url": "https://voynich.nu/q15/f088v_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f89r1",
+      "image_id": "1006233",
+      "bbox": [
+        0.3081,
+        0.0299,
+        0.5795,
+        0.9754
+      ],
+      "inliers": 323,
+      "matches": 338,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f89r1.jpg",
+      "thumbnail_sha256": "a7bc0dfdea47ca246bc5939d266481d23b1079fbbff1de75b7ce1198f3526192",
+      "thumbnail_url": "https://voynich.nu/q15/f089r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f89r2",
+      "image_id": "1006233",
+      "bbox": [
+        0.5707,
+        0.0304,
+        0.9914,
+        0.9764
+      ],
+      "inliers": 500,
+      "matches": 522,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f89r2.jpg",
+      "thumbnail_sha256": "cfb253d43c03f40ccc09c90f3468a8f2afe3dd014f6b2ca57736233fb00656b1",
+      "thumbnail_url": "https://voynich.nu/q15/f089r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f89v1",
+      "image_id": "1006235",
+      "bbox": [
+        0.0753,
+        0.0203,
+        0.3898,
+        0.982
+      ],
+      "inliers": 329,
+      "matches": 362,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f89v1.jpg",
+      "thumbnail_sha256": "2a0e597684825053b729f00874c24ac2085abf353fd0088ef2b9d49c778c50ae",
+      "thumbnail_url": "https://voynich.nu/q15/f089v1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f90r1",
+      "image_id": "1006235",
+      "bbox": [
+        0.3803,
+        0.0208,
+        0.6938,
+        0.9823
+      ],
+      "inliers": 267,
+      "matches": 274,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f90r1.jpg",
+      "thumbnail_sha256": "6c7f95920c4ed25aa1b3cfdd1d96accc0e1e97bb9a8a2ee1d2c71086b5c37d3b",
+      "thumbnail_url": "https://voynich.nu/q15/f090r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f90r2",
+      "image_id": "1006235",
+      "bbox": [
+        0.6833,
+        0.0209,
+        0.9885,
+        0.983
+      ],
+      "inliers": 279,
+      "matches": 295,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f90r2.jpg",
+      "thumbnail_sha256": "aea6cd9a5aea37908ad2b37aefb6aad6cafc31e0a95d499ded9921c31a75a444",
+      "thumbnail_url": "https://voynich.nu/q15/f090r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f94v",
+      "image_id": "1006241",
+      "bbox": [
+        0.0776,
+        0.0302,
+        0.4004,
+        0.9713
+      ],
+      "inliers": 270,
+      "matches": 273,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f94v.jpg",
+      "thumbnail_sha256": "43ff9021e7ebe25a17fa01a461aad3836791521a1f38845d42e5d69a0369499f",
+      "thumbnail_url": "https://voynich.nu/q17/f094v_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f95r1",
+      "image_id": "1006241",
+      "bbox": [
+        0.3862,
+        0.0303,
+        0.709,
+        0.9716
+      ],
+      "inliers": 403,
+      "matches": 411,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f95r1.jpg",
+      "thumbnail_sha256": "e324e1966014d50959506d2f1601e1da53ad6f626bd241ed29e440756e48a9ff",
+      "thumbnail_url": "https://voynich.nu/q17/f095r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f95r2",
+      "image_id": "1006241",
+      "bbox": [
+        0.6997,
+        0.03,
+        0.9885,
+        0.9711
+      ],
+      "inliers": 302,
+      "matches": 311,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f95r2.jpg",
+      "thumbnail_sha256": "a50b497cc5c4f57edcd62022fe7ac5f7a54c05c746cb610a60fc7ff1f42de303",
+      "thumbnail_url": "https://voynich.nu/q17/f095r2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f100v",
+      "image_id": "1006249",
+      "bbox": [
+        0.0764,
+        0.0196,
+        0.3948,
+        0.9829
+      ],
+      "inliers": 448,
+      "matches": 479,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f100v.jpg",
+      "thumbnail_sha256": "2da17075e76f4b550da3f81b465b7ee93cdfbbbd94ba299dfd652e8a54d17701",
+      "thumbnail_url": "https://voynich.nu/q19/f100v_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f101r",
+      "image_id": "1006249",
+      "bbox": [
+        0.3848,
+        0.0238,
+        0.9897,
+        0.9785
+      ],
+      "inliers": 913,
+      "matches": 921,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f101r.jpg",
+      "thumbnail_sha256": "7b44d2b46079077aa0bff2904664045cca8f43abcfd385a6a4986d56facafb5b",
+      "thumbnail_url": "https://voynich.nu/q19/f101r_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f101v2",
+      "image_id": "1006250",
+      "bbox": [
+        0.0654,
+        0.0101,
+        0.9648,
+        0.9501
+      ],
+      "inliers": 442,
+      "matches": 494,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f101v2.jpg",
+      "thumbnail_sha256": "0ab5adc5ddcd150b204da0ccd049e321f33ec89c2da0f50894f478322ceeab10",
+      "thumbnail_url": "https://voynich.nu/q19/f101v2_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f101v1",
+      "image_id": "1006251",
+      "bbox": [
+        0.0519,
+        0.0376,
+        0.3586,
+        0.9806
+      ],
+      "inliers": 416,
+      "matches": 426,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f101v1.jpg",
+      "thumbnail_sha256": "ad8ab93d95b0b639e8eeb0b54bcf5d7d2ab699f50a97df401dfd5b6de0d8051e",
+      "thumbnail_url": "https://voynich.nu/q19/f101v1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f102r1",
+      "image_id": "1006251",
+      "bbox": [
+        0.3389,
+        0.0379,
+        0.6443,
+        0.9809
+      ],
+      "inliers": 418,
+      "matches": 424,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f102r1.jpg",
+      "thumbnail_sha256": "92640bbe5bd078d9478718ae6c94b48c435d5642ddf8ff426d59883c6efaf466",
+      "thumbnail_url": "https://voynich.nu/q19/f102r1_th.jpg",
+      "visually_reviewed": true
+    },
+    {
+      "folio_id": "f102r2",
+      "image_id": "1006251",
+      "bbox": [
+        0.6347,
+        0.0382,
+        0.9922,
+        0.9808
+      ],
+      "inliers": 423,
+      "matches": 474,
+      "thumbnail_path": "data/folios/sources/panel-thumbnails/f102r2.jpg",
+      "thumbnail_sha256": "aa2302c1367826bf02cd404c85f206729df4a30503842b47619cd359f30255d8",
+      "thumbnail_url": "https://voynich.nu/q19/f102r2_th.jpg",
+      "visually_reviewed": true
+    }
+  ]
+}

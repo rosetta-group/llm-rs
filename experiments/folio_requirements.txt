@@ -1,0 +1,5 @@
+# Isolated image-description dependencies; no model weights or GPU.
+numpy==1.26.4
+Pillow==11.3.0
+opencv-python-headless==4.11.0.86
+beautifulsoup4==4.14.3

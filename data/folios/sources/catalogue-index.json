@@ -1,0 +1,1906 @@
+{
+  "url": "https://voynich.nu/folios.html",
+  "html_sha256": "50c7b573b445db8347e5eb5bfe5ff9d81f6164d18aa5e915688c9d6314d5cf2a",
+  "quire_sources": [
+    {
+      "url": "https://voynich.nu/q01/index.html",
+      "html_sha256": "6c82ec816e5b4b320d87551af34eaec768531e32bde00afc4415652f5ddc10a4"
+    },
+    {
+      "url": "https://voynich.nu/q02/index.html",
+      "html_sha256": "62dacc593854f9de724820c427ee5285492084b08839684fe59143ff2e95c89a"
+    },
+    {
+      "url": "https://voynich.nu/q03/index.html",
+      "html_sha256": "c43ff6e75e0d6db22a6c7e887101f3d1045f8a72878717e733c10ec93ce65ab3"
+    },
+    {
+      "url": "https://voynich.nu/q04/index.html",
+      "html_sha256": "c4e5921c0f6d312f8b73ec9a4a3e09cee0089ff7d53c1f279a24066a8c830dbd"
+    },
+    {
+      "url": "https://voynich.nu/q05/index.html",
+      "html_sha256": "48d3ee83bde2ffffa8a95770f5ca54ae996f340d81080e4024f9f94581d7f3ed"
+    },
+    {
+      "url": "https://voynich.nu/q06/index.html",
+      "html_sha256": "bd377ccecf0c472e4b7965f9885b130943be6c98097b33fa5486c592cf133beb"
+    },
+    {
+      "url": "https://voynich.nu/q07/index.html",
+      "html_sha256": "69af3fe68a574e4ac12e1af5eddf46c642d0ffa52b36b0fa577d3676294c2b1f"
+    },
+    {
+      "url": "https://voynich.nu/q08/index.html",
+      "html_sha256": "ce3df63cb48cf440faa2d637b382b7665b992a55709b5a721fdce078e21e42d7"
+    },
+    {
+      "url": "https://voynich.nu/q09/index.html",
+      "html_sha256": "56b592284239fbd4d2ffabac2c534207c2e8a6da00ce4570d526544b9793f977"
+    },
+    {
+      "url": "https://voynich.nu/q10/index.html",
+      "html_sha256": "2f15159cd9ea04213f2031fbbebe33e3b057795656e349bf765e4f0344ff2ec5"
+    },
+    {
+      "url": "https://voynich.nu/q11/index.html",
+      "html_sha256": "5553f82d3c7d016c3a9f7853388e844764239f929cdd24f2870a1d56b172ad64"
+    },
+    {
+      "url": "https://voynich.nu/q12/index.html",
+      "html_sha256": "3a9b4e587c9b9d0228bf87eea1b3a0e34f3fcfe4abafd71e712213e0af9132b6"
+    },
+    {
+      "url": "https://voynich.nu/q13/index.html",
+      "html_sha256": "424956a525b3bc0cf63aee266e8fd92c3c8c98c3f6d36427eeb3f62085ad6437"
+    },
+    {
+      "url": "https://voynich.nu/q14/index.html",
+      "html_sha256": "a7f48085a58fec9d2e842665f74424a42a9a0524f8c9e7589616c15b2a667a4f"
+    },
+    {
+      "url": "https://voynich.nu/q15/index.html",
+      "html_sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7"
+    },
+    {
+      "url": "https://voynich.nu/q17/index.html",
+      "html_sha256": "5b5f1743df54e5e0b5f3e1e60e994870b237a3722122b8c6ce7be9121d6a24dd"
+    },
+    {
+      "url": "https://voynich.nu/q19/index.html",
+      "html_sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb"
+    },
+    {
+      "url": "https://voynich.nu/q20/index.html",
+      "html_sha256": "322002b8c8da66a5f1d2d4c05ab4e4bfca8233bb05751fbac5a7be88cea33201"
+    }
+  ],
+  "panels": [
+    {
+      "folio_id": "f1r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f1r",
+      "thumbnail_url": "https://voynich.nu/q01/f001r_th.jpg",
+      "yale_image_ids": [
+        "1006076"
+      ]
+    },
+    {
+      "folio_id": "f1v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f1v",
+      "thumbnail_url": "https://voynich.nu/q01/f001v_th.jpg",
+      "yale_image_ids": [
+        "1006077"
+      ]
+    },
+    {
+      "folio_id": "f2r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f2r",
+      "thumbnail_url": "https://voynich.nu/q01/f002r_th.jpg",
+      "yale_image_ids": [
+        "1006078"
+      ]
+    },
+    {
+      "folio_id": "f2v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f2v",
+      "thumbnail_url": "https://voynich.nu/q01/f002v_th.jpg",
+      "yale_image_ids": [
+        "1006079"
+      ]
+    },
+    {
+      "folio_id": "f3r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f3r",
+      "thumbnail_url": "https://voynich.nu/q01/f003r_th.jpg",
+      "yale_image_ids": [
+        "1006080"
+      ]
+    },
+    {
+      "folio_id": "f3v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f3v",
+      "thumbnail_url": "https://voynich.nu/q01/f003v_th.jpg",
+      "yale_image_ids": [
+        "1006081"
+      ]
+    },
+    {
+      "folio_id": "f4r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f4r",
+      "thumbnail_url": "https://voynich.nu/q01/f004r_th.jpg",
+      "yale_image_ids": [
+        "1006082"
+      ]
+    },
+    {
+      "folio_id": "f4v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f4v",
+      "thumbnail_url": "https://voynich.nu/q01/f004v_th.jpg",
+      "yale_image_ids": [
+        "1006083"
+      ]
+    },
+    {
+      "folio_id": "f5r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f5r",
+      "thumbnail_url": "https://voynich.nu/q01/f005r_th.jpg",
+      "yale_image_ids": [
+        "1006084"
+      ]
+    },
+    {
+      "folio_id": "f5v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f5v",
+      "thumbnail_url": "https://voynich.nu/q01/f005v_th.jpg",
+      "yale_image_ids": [
+        "1006085"
+      ]
+    },
+    {
+      "folio_id": "f6r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f6r",
+      "thumbnail_url": "https://voynich.nu/q01/f006r_th.jpg",
+      "yale_image_ids": [
+        "1006086"
+      ]
+    },
+    {
+      "folio_id": "f6v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f6v",
+      "thumbnail_url": "https://voynich.nu/q01/f006v_th.jpg",
+      "yale_image_ids": [
+        "1006087"
+      ]
+    },
+    {
+      "folio_id": "f7r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f7r",
+      "thumbnail_url": "https://voynich.nu/q01/f007r_th.jpg",
+      "yale_image_ids": [
+        "1006088"
+      ]
+    },
+    {
+      "folio_id": "f7v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f7v",
+      "thumbnail_url": "https://voynich.nu/q01/f007v_th.jpg",
+      "yale_image_ids": [
+        "1006089"
+      ]
+    },
+    {
+      "folio_id": "f8r",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f8r",
+      "thumbnail_url": "https://voynich.nu/q01/f008r_th.jpg",
+      "yale_image_ids": [
+        "1006090"
+      ]
+    },
+    {
+      "folio_id": "f8v",
+      "catalogue_url": "https://voynich.nu/q01/index.html#f8v",
+      "thumbnail_url": "https://voynich.nu/q01/f008v_th.jpg",
+      "yale_image_ids": [
+        "1006091"
+      ]
+    },
+    {
+      "folio_id": "f9r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f9r",
+      "thumbnail_url": "https://voynich.nu/q02/f009r_th.jpg",
+      "yale_image_ids": [
+        "1006092"
+      ]
+    },
+    {
+      "folio_id": "f9v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f9v",
+      "thumbnail_url": "https://voynich.nu/q02/f009v_th.jpg",
+      "yale_image_ids": [
+        "1006093"
+      ]
+    },
+    {
+      "folio_id": "f10r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f10r",
+      "thumbnail_url": "https://voynich.nu/q02/f010r_th.jpg",
+      "yale_image_ids": [
+        "1006094"
+      ]
+    },
+    {
+      "folio_id": "f10v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f10v",
+      "thumbnail_url": "https://voynich.nu/q02/f010v_th.jpg",
+      "yale_image_ids": [
+        "1006095"
+      ]
+    },
+    {
+      "folio_id": "f11r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f11r",
+      "thumbnail_url": "https://voynich.nu/q02/f011r_th.jpg",
+      "yale_image_ids": [
+        "1006096"
+      ]
+    },
+    {
+      "folio_id": "f11v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f11v",
+      "thumbnail_url": "https://voynich.nu/q02/f011v_th.jpg",
+      "yale_image_ids": [
+        "1006097"
+      ]
+    },
+    {
+      "folio_id": "f13r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f13r",
+      "thumbnail_url": "https://voynich.nu/q02/f013r_th.jpg",
+      "yale_image_ids": [
+        "1006098"
+      ]
+    },
+    {
+      "folio_id": "f13v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f13v",
+      "thumbnail_url": "https://voynich.nu/q02/f013v_th.jpg",
+      "yale_image_ids": [
+        "1006099"
+      ]
+    },
+    {
+      "folio_id": "f14r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f14r",
+      "thumbnail_url": "https://voynich.nu/q02/f014r_th.jpg",
+      "yale_image_ids": [
+        "1006100"
+      ]
+    },
+    {
+      "folio_id": "f14v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f14v",
+      "thumbnail_url": "https://voynich.nu/q02/f014v_th.jpg",
+      "yale_image_ids": [
+        "1006101"
+      ]
+    },
+    {
+      "folio_id": "f15r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f15r",
+      "thumbnail_url": "https://voynich.nu/q02/f015r_th.jpg",
+      "yale_image_ids": [
+        "1006102"
+      ]
+    },
+    {
+      "folio_id": "f15v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f15v",
+      "thumbnail_url": "https://voynich.nu/q02/f015v_th.jpg",
+      "yale_image_ids": [
+        "1006103"
+      ]
+    },
+    {
+      "folio_id": "f16r",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f16r",
+      "thumbnail_url": "https://voynich.nu/q02/f016r_th.jpg",
+      "yale_image_ids": [
+        "1006104"
+      ]
+    },
+    {
+      "folio_id": "f16v",
+      "catalogue_url": "https://voynich.nu/q02/index.html#f16v",
+      "thumbnail_url": "https://voynich.nu/q02/f016v_th.jpg",
+      "yale_image_ids": [
+        "1006105"
+      ]
+    },
+    {
+      "folio_id": "f17r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f17r",
+      "thumbnail_url": "https://voynich.nu/q03/f017r_th.jpg",
+      "yale_image_ids": [
+        "1006106"
+      ]
+    },
+    {
+      "folio_id": "f17v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f17v",
+      "thumbnail_url": "https://voynich.nu/q03/f017v_th.jpg",
+      "yale_image_ids": [
+        "1006107"
+      ]
+    },
+    {
+      "folio_id": "f18r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f18r",
+      "thumbnail_url": "https://voynich.nu/q03/f018r_th.jpg",
+      "yale_image_ids": [
+        "1006108"
+      ]
+    },
+    {
+      "folio_id": "f18v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f18v",
+      "thumbnail_url": "https://voynich.nu/q03/f018v_th.jpg",
+      "yale_image_ids": [
+        "1006109"
+      ]
+    },
+    {
+      "folio_id": "f19r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f19r",
+      "thumbnail_url": "https://voynich.nu/q03/f019r_th.jpg",
+      "yale_image_ids": [
+        "1006110"
+      ]
+    },
+    {
+      "folio_id": "f19v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f19v",
+      "thumbnail_url": "https://voynich.nu/q03/f019v_th.jpg",
+      "yale_image_ids": [
+        "1006111"
+      ]
+    },
+    {
+      "folio_id": "f20r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f20r",
+      "thumbnail_url": "https://voynich.nu/q03/f020r_th.jpg",
+      "yale_image_ids": [
+        "1006112"
+      ]
+    },
+    {
+      "folio_id": "f20v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f20v",
+      "thumbnail_url": "https://voynich.nu/q03/f020v_th.jpg",
+      "yale_image_ids": [
+        "1006113"
+      ]
+    },
+    {
+      "folio_id": "f21r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f21r",
+      "thumbnail_url": "https://voynich.nu/q03/f021r_th.jpg",
+      "yale_image_ids": [
+        "1006114"
+      ]
+    },
+    {
+      "folio_id": "f21v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f21v",
+      "thumbnail_url": "https://voynich.nu/q03/f021v_th.jpg",
+      "yale_image_ids": [
+        "1006115"
+      ]
+    },
+    {
+      "folio_id": "f22r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f22r",
+      "thumbnail_url": "https://voynich.nu/q03/f022r_th.jpg",
+      "yale_image_ids": [
+        "1006116"
+      ]
+    },
+    {
+      "folio_id": "f22v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f22v",
+      "thumbnail_url": "https://voynich.nu/q03/f022v_th.jpg",
+      "yale_image_ids": [
+        "1006117"
+      ]
+    },
+    {
+      "folio_id": "f23r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f23r",
+      "thumbnail_url": "https://voynich.nu/q03/f023r_th.jpg",
+      "yale_image_ids": [
+        "1006118"
+      ]
+    },
+    {
+      "folio_id": "f23v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f23v",
+      "thumbnail_url": "https://voynich.nu/q03/f023v_th.jpg",
+      "yale_image_ids": [
+        "1006119"
+      ]
+    },
+    {
+      "folio_id": "f24r",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f24r",
+      "thumbnail_url": "https://voynich.nu/q03/f024r_th.jpg",
+      "yale_image_ids": [
+        "1006120"
+      ]
+    },
+    {
+      "folio_id": "f24v",
+      "catalogue_url": "https://voynich.nu/q03/index.html#f24v",
+      "thumbnail_url": "https://voynich.nu/q03/f024v_th.jpg",
+      "yale_image_ids": [
+        "1006121"
+      ]
+    },
+    {
+      "folio_id": "f25r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f25r",
+      "thumbnail_url": "https://voynich.nu/q04/f025r_th.jpg",
+      "yale_image_ids": [
+        "1006122"
+      ]
+    },
+    {
+      "folio_id": "f25v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f25v",
+      "thumbnail_url": "https://voynich.nu/q04/f025v_th.jpg",
+      "yale_image_ids": [
+        "1006123"
+      ]
+    },
+    {
+      "folio_id": "f26r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f26r",
+      "thumbnail_url": "https://voynich.nu/q04/f026r_th.jpg",
+      "yale_image_ids": [
+        "1006124"
+      ]
+    },
+    {
+      "folio_id": "f26v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f26v",
+      "thumbnail_url": "https://voynich.nu/q04/f026v_th.jpg",
+      "yale_image_ids": [
+        "1006125"
+      ]
+    },
+    {
+      "folio_id": "f27r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f27r",
+      "thumbnail_url": "https://voynich.nu/q04/f027r_th.jpg",
+      "yale_image_ids": [
+        "1006126"
+      ]
+    },
+    {
+      "folio_id": "f27v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f27v",
+      "thumbnail_url": "https://voynich.nu/q04/f027v_th.jpg",
+      "yale_image_ids": [
+        "1006127"
+      ]
+    },
+    {
+      "folio_id": "f28r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f28r",
+      "thumbnail_url": "https://voynich.nu/q04/f028r_th.jpg",
+      "yale_image_ids": [
+        "1006128"
+      ]
+    },
+    {
+      "folio_id": "f28v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f28v",
+      "thumbnail_url": "https://voynich.nu/q04/f028v_th.jpg",
+      "yale_image_ids": [
+        "1006129"
+      ]
+    },
+    {
+      "folio_id": "f29r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f29r",
+      "thumbnail_url": "https://voynich.nu/q04/f029r_th.jpg",
+      "yale_image_ids": [
+        "1006130"
+      ]
+    },
+    {
+      "folio_id": "f29v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f29v",
+      "thumbnail_url": "https://voynich.nu/q04/f029v_th.jpg",
+      "yale_image_ids": [
+        "1006131"
+      ]
+    },
+    {
+      "folio_id": "f30r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f30r",
+      "thumbnail_url": "https://voynich.nu/q04/f030r_th.jpg",
+      "yale_image_ids": [
+        "1006132"
+      ]
+    },
+    {
+      "folio_id": "f30v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f30v",
+      "thumbnail_url": "https://voynich.nu/q04/f030v_th.jpg",
+      "yale_image_ids": [
+        "1006133"
+      ]
+    },
+    {
+      "folio_id": "f31r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f31r",
+      "thumbnail_url": "https://voynich.nu/q04/f031r_th.jpg",
+      "yale_image_ids": [
+        "1006134"
+      ]
+    },
+    {
+      "folio_id": "f31v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f31v",
+      "thumbnail_url": "https://voynich.nu/q04/f031v_th.jpg",
+      "yale_image_ids": [
+        "1006135"
+      ]
+    },
+    {
+      "folio_id": "f32r",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f32r",
+      "thumbnail_url": "https://voynich.nu/q04/f032r_th.jpg",
+      "yale_image_ids": [
+        "1006136"
+      ]
+    },
+    {
+      "folio_id": "f32v",
+      "catalogue_url": "https://voynich.nu/q04/index.html#f32v",
+      "thumbnail_url": "https://voynich.nu/q04/f032v_th.jpg",
+      "yale_image_ids": [
+        "1006137"
+      ]
+    },
+    {
+      "folio_id": "f33r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f33r",
+      "thumbnail_url": "https://voynich.nu/q05/f033r_th.jpg",
+      "yale_image_ids": [
+        "1006138"
+      ]
+    },
+    {
+      "folio_id": "f33v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f33v",
+      "thumbnail_url": "https://voynich.nu/q05/f033v_th.jpg",
+      "yale_image_ids": [
+        "1006139"
+      ]
+    },
+    {
+      "folio_id": "f34r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f34r",
+      "thumbnail_url": "https://voynich.nu/q05/f034r_th.jpg",
+      "yale_image_ids": [
+        "1006140"
+      ]
+    },
+    {
+      "folio_id": "f34v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f34v",
+      "thumbnail_url": "https://voynich.nu/q05/f034v_th.jpg",
+      "yale_image_ids": [
+        "1006141"
+      ]
+    },
+    {
+      "folio_id": "f35r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f35r",
+      "thumbnail_url": "https://voynich.nu/q05/f035r_th.jpg",
+      "yale_image_ids": [
+        "1006142"
+      ]
+    },
+    {
+      "folio_id": "f35v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f35v",
+      "thumbnail_url": "https://voynich.nu/q05/f035v_th.jpg",
+      "yale_image_ids": [
+        "1006143"
+      ]
+    },
+    {
+      "folio_id": "f36r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f36r",
+      "thumbnail_url": "https://voynich.nu/q05/f036r_th.jpg",
+      "yale_image_ids": [
+        "1006144"
+      ]
+    },
+    {
+      "folio_id": "f36v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f36v",
+      "thumbnail_url": "https://voynich.nu/q05/f036v_th.jpg",
+      "yale_image_ids": [
+        "1006145"
+      ]
+    },
+    {
+      "folio_id": "f37r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f37r",
+      "thumbnail_url": "https://voynich.nu/q05/f037r_th.jpg",
+      "yale_image_ids": [
+        "1006146"
+      ]
+    },
+    {
+      "folio_id": "f37v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f37v",
+      "thumbnail_url": "https://voynich.nu/q05/f037v_th.jpg",
+      "yale_image_ids": [
+        "1006147"
+      ]
+    },
+    {
+      "folio_id": "f38r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f38r",
+      "thumbnail_url": "https://voynich.nu/q05/f038r_th.jpg",
+      "yale_image_ids": [
+        "1006148"
+      ]
+    },
+    {
+      "folio_id": "f38v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f38v",
+      "thumbnail_url": "https://voynich.nu/q05/f038v_th.jpg",
+      "yale_image_ids": [
+        "1006149"
+      ]
+    },
+    {
+      "folio_id": "f39r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f39r",
+      "thumbnail_url": "https://voynich.nu/q05/f039r_th.jpg",
+      "yale_image_ids": [
+        "1006150"
+      ]
+    },
+    {
+      "folio_id": "f39v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f39v",
+      "thumbnail_url": "https://voynich.nu/q05/f039v_th.jpg",
+      "yale_image_ids": [
+        "1006151"
+      ]
+    },
+    {
+      "folio_id": "f40r",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f40r",
+      "thumbnail_url": "https://voynich.nu/q05/f040r_th.jpg",
+      "yale_image_ids": [
+        "1006152"
+      ]
+    },
+    {
+      "folio_id": "f40v",
+      "catalogue_url": "https://voynich.nu/q05/index.html#f40v",
+      "thumbnail_url": "https://voynich.nu/q05/f040v_th.jpg",
+      "yale_image_ids": [
+        "1006153"
+      ]
+    },
+    {
+      "folio_id": "f41r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f41r",
+      "thumbnail_url": "https://voynich.nu/q06/f041r_th.jpg",
+      "yale_image_ids": [
+        "1006154"
+      ]
+    },
+    {
+      "folio_id": "f41v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f41v",
+      "thumbnail_url": "https://voynich.nu/q06/f041v_th.jpg",
+      "yale_image_ids": [
+        "1006155"
+      ]
+    },
+    {
+      "folio_id": "f42r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f42r",
+      "thumbnail_url": "https://voynich.nu/q06/f042r_th.jpg",
+      "yale_image_ids": [
+        "1006156"
+      ]
+    },
+    {
+      "folio_id": "f42v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f42v",
+      "thumbnail_url": "https://voynich.nu/q06/f042v_th.jpg",
+      "yale_image_ids": [
+        "1006157"
+      ]
+    },
+    {
+      "folio_id": "f43r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f43r",
+      "thumbnail_url": "https://voynich.nu/q06/f043r_th.jpg",
+      "yale_image_ids": [
+        "1006158"
+      ]
+    },
+    {
+      "folio_id": "f43v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f43v",
+      "thumbnail_url": "https://voynich.nu/q06/f043v_th.jpg",
+      "yale_image_ids": [
+        "1006159"
+      ]
+    },
+    {
+      "folio_id": "f44r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f44r",
+      "thumbnail_url": "https://voynich.nu/q06/f044r_th.jpg",
+      "yale_image_ids": [
+        "1006160"
+      ]
+    },
+    {
+      "folio_id": "f44v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f44v",
+      "thumbnail_url": "https://voynich.nu/q06/f044v_th.jpg",
+      "yale_image_ids": [
+        "1006161"
+      ]
+    },
+    {
+      "folio_id": "f45r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f45r",
+      "thumbnail_url": "https://voynich.nu/q06/f045r_th.jpg",
+      "yale_image_ids": [
+        "1006162"
+      ]
+    },
+    {
+      "folio_id": "f45v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f45v",
+      "thumbnail_url": "https://voynich.nu/q06/f045v_th.jpg",
+      "yale_image_ids": [
+        "1006163"
+      ]
+    },
+    {
+      "folio_id": "f46r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f46r",
+      "thumbnail_url": "https://voynich.nu/q06/f046r_th.jpg",
+      "yale_image_ids": [
+        "1006164"
+      ]
+    },
+    {
+      "folio_id": "f46v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f46v",
+      "thumbnail_url": "https://voynich.nu/q06/f046v_th.jpg",
+      "yale_image_ids": [
+        "1006165"
+      ]
+    },
+    {
+      "folio_id": "f47r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f47r",
+      "thumbnail_url": "https://voynich.nu/q06/f047r_th.jpg",
+      "yale_image_ids": [
+        "1006166"
+      ]
+    },
+    {
+      "folio_id": "f47v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f47v",
+      "thumbnail_url": "https://voynich.nu/q06/f047v_th.jpg",
+      "yale_image_ids": [
+        "1006167"
+      ]
+    },
+    {
+      "folio_id": "f48r",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f48r",
+      "thumbnail_url": "https://voynich.nu/q06/f048r_th.jpg",
+      "yale_image_ids": [
+        "1006168"
+      ]
+    },
+    {
+      "folio_id": "f48v",
+      "catalogue_url": "https://voynich.nu/q06/index.html#f48v",
+      "thumbnail_url": "https://voynich.nu/q06/f048v_th.jpg",
+      "yale_image_ids": [
+        "1006169"
+      ]
+    },
+    {
+      "folio_id": "f49r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f49r",
+      "thumbnail_url": "https://voynich.nu/q07/f049r_th.jpg",
+      "yale_image_ids": [
+        "1006170"
+      ]
+    },
+    {
+      "folio_id": "f49v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f49v",
+      "thumbnail_url": "https://voynich.nu/q07/f049v_th.jpg",
+      "yale_image_ids": [
+        "1006171"
+      ]
+    },
+    {
+      "folio_id": "f50r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f50r",
+      "thumbnail_url": "https://voynich.nu/q07/f050r_th.jpg",
+      "yale_image_ids": [
+        "1006172"
+      ]
+    },
+    {
+      "folio_id": "f50v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f50v",
+      "thumbnail_url": "https://voynich.nu/q07/f050v_th.jpg",
+      "yale_image_ids": [
+        "1006173"
+      ]
+    },
+    {
+      "folio_id": "f51r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f51r",
+      "thumbnail_url": "https://voynich.nu/q07/f051r_th.jpg",
+      "yale_image_ids": [
+        "1006174"
+      ]
+    },
+    {
+      "folio_id": "f51v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f51v",
+      "thumbnail_url": "https://voynich.nu/q07/f051v_th.jpg",
+      "yale_image_ids": [
+        "1006175"
+      ]
+    },
+    {
+      "folio_id": "f52r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f52r",
+      "thumbnail_url": "https://voynich.nu/q07/f052r_th.jpg",
+      "yale_image_ids": [
+        "1006176"
+      ]
+    },
+    {
+      "folio_id": "f52v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f52v",
+      "thumbnail_url": "https://voynich.nu/q07/f052v_th.jpg",
+      "yale_image_ids": [
+        "1006177"
+      ]
+    },
+    {
+      "folio_id": "f53r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f53r",
+      "thumbnail_url": "https://voynich.nu/q07/f053r_th.jpg",
+      "yale_image_ids": [
+        "1006178"
+      ]
+    },
+    {
+      "folio_id": "f53v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f53v",
+      "thumbnail_url": "https://voynich.nu/q07/f053v_th.jpg",
+      "yale_image_ids": [
+        "1006179"
+      ]
+    },
+    {
+      "folio_id": "f54r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f54r",
+      "thumbnail_url": "https://voynich.nu/q07/f054r_th.jpg",
+      "yale_image_ids": [
+        "1006180"
+      ]
+    },
+    {
+      "folio_id": "f54v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f54v",
+      "thumbnail_url": "https://voynich.nu/q07/f054v_th.jpg",
+      "yale_image_ids": [
+        "1006181"
+      ]
+    },
+    {
+      "folio_id": "f55r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f55r",
+      "thumbnail_url": "https://voynich.nu/q07/f055r_th.jpg",
+      "yale_image_ids": [
+        "1006182"
+      ]
+    },
+    {
+      "folio_id": "f55v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f55v",
+      "thumbnail_url": "https://voynich.nu/q07/f055v_th.jpg",
+      "yale_image_ids": [
+        "1006183"
+      ]
+    },
+    {
+      "folio_id": "f56r",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f56r",
+      "thumbnail_url": "https://voynich.nu/q07/f056r_th.jpg",
+      "yale_image_ids": [
+        "1006184"
+      ]
+    },
+    {
+      "folio_id": "f56v",
+      "catalogue_url": "https://voynich.nu/q07/index.html#f56v",
+      "thumbnail_url": "https://voynich.nu/q07/f056v_th.jpg",
+      "yale_image_ids": [
+        "1006185"
+      ]
+    },
+    {
+      "folio_id": "f57r",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f57r",
+      "thumbnail_url": "https://voynich.nu/q08/f057r_th.jpg",
+      "yale_image_ids": [
+        "1006186"
+      ]
+    },
+    {
+      "folio_id": "f57v",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f57v",
+      "thumbnail_url": "https://voynich.nu/q08/f057v_th.jpg",
+      "yale_image_ids": [
+        "1006187"
+      ]
+    },
+    {
+      "folio_id": "f58r",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f58r",
+      "thumbnail_url": "https://voynich.nu/q08/f058r_th.jpg",
+      "yale_image_ids": [
+        "1006188"
+      ]
+    },
+    {
+      "folio_id": "f58v",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f58v",
+      "thumbnail_url": "https://voynich.nu/q08/f058v_th.jpg",
+      "yale_image_ids": [
+        "1006189"
+      ]
+    },
+    {
+      "folio_id": "f65r",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f65r",
+      "thumbnail_url": "https://voynich.nu/q08/f065r_th.jpg",
+      "yale_image_ids": [
+        "1006190"
+      ]
+    },
+    {
+      "folio_id": "f65v",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f65v",
+      "thumbnail_url": "https://voynich.nu/q08/f065v_th.jpg",
+      "yale_image_ids": [
+        "1006191"
+      ]
+    },
+    {
+      "folio_id": "f66r",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f66r",
+      "thumbnail_url": "https://voynich.nu/q08/f066r_th.jpg",
+      "yale_image_ids": [
+        "1006192"
+      ]
+    },
+    {
+      "folio_id": "f66v",
+      "catalogue_url": "https://voynich.nu/q08/index.html#f66v",
+      "thumbnail_url": "https://voynich.nu/q08/f066v_th.jpg",
+      "yale_image_ids": [
+        "1006193"
+      ]
+    },
+    {
+      "folio_id": "f67r1",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f67r1",
+      "thumbnail_url": "https://voynich.nu/q09/f067r1_th.jpg",
+      "yale_image_ids": [
+        "1006194"
+      ]
+    },
+    {
+      "folio_id": "f67r2",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f67r2",
+      "thumbnail_url": "https://voynich.nu/q09/f067r2_th.jpg",
+      "yale_image_ids": [
+        "1006194"
+      ]
+    },
+    {
+      "folio_id": "f67v2",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f67v2",
+      "thumbnail_url": "https://voynich.nu/q09/f067v2_th.jpg",
+      "yale_image_ids": [
+        "1006195"
+      ]
+    },
+    {
+      "folio_id": "f67v1",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f67v1",
+      "thumbnail_url": "https://voynich.nu/q09/f067v1_th.jpg",
+      "yale_image_ids": [
+        "1006195"
+      ]
+    },
+    {
+      "folio_id": "f68r1",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68r1",
+      "thumbnail_url": "https://voynich.nu/q09/f068r1_th.jpg",
+      "yale_image_ids": [
+        "1006196"
+      ]
+    },
+    {
+      "folio_id": "f68r2",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68r2",
+      "thumbnail_url": "https://voynich.nu/q09/f068r2_th.jpg",
+      "yale_image_ids": [
+        "1006196"
+      ]
+    },
+    {
+      "folio_id": "f68r3",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68r3",
+      "thumbnail_url": "https://voynich.nu/q09/f068r3_th.jpg",
+      "yale_image_ids": [
+        "1006196"
+      ]
+    },
+    {
+      "folio_id": "f68v3",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68v3",
+      "thumbnail_url": "https://voynich.nu/q09/f068v3_th.jpg",
+      "yale_image_ids": [
+        "1006197"
+      ]
+    },
+    {
+      "folio_id": "f68v2",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68v2",
+      "thumbnail_url": "https://voynich.nu/q09/f068v2_th.jpg",
+      "yale_image_ids": [
+        "1006197"
+      ]
+    },
+    {
+      "folio_id": "f68v1",
+      "catalogue_url": "https://voynich.nu/q09/index.html#f68v1",
+      "thumbnail_url": "https://voynich.nu/q09/f068v1_th.jpg",
+      "yale_image_ids": [
+        "1006197"
+      ]
+    },
+    {
+      "folio_id": "f69r",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f69r",
+      "thumbnail_url": "https://voynich.nu/q10/f069r_th.jpg",
+      "yale_image_ids": [
+        "1006198"
+      ]
+    },
+    {
+      "folio_id": "f69v",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f69v",
+      "thumbnail_url": "https://voynich.nu/q10/f069v_th.jpg",
+      "yale_image_ids": [
+        "1006199"
+      ]
+    },
+    {
+      "folio_id": "f70r1",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f70r1",
+      "thumbnail_url": "https://voynich.nu/q10/f070r1_th.jpg",
+      "yale_image_ids": [
+        "1006199"
+      ]
+    },
+    {
+      "folio_id": "f70r2",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f70r2",
+      "thumbnail_url": "https://voynich.nu/q10/f070r2_th.jpg",
+      "yale_image_ids": [
+        "1006199"
+      ]
+    },
+    {
+      "folio_id": "f70v2",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f70v2",
+      "thumbnail_url": "https://voynich.nu/q10/f070v2_th.jpg",
+      "yale_image_ids": [
+        "1006200"
+      ]
+    },
+    {
+      "folio_id": "f70v1",
+      "catalogue_url": "https://voynich.nu/q10/index.html#f70v1",
+      "thumbnail_url": "https://voynich.nu/q10/f070v1_th.jpg",
+      "yale_image_ids": [
+        "1006201"
+      ]
+    },
+    {
+      "folio_id": "f71r",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f71r",
+      "thumbnail_url": "https://voynich.nu/q11/f071r_th.jpg",
+      "yale_image_ids": [
+        "1006202"
+      ]
+    },
+    {
+      "folio_id": "f71v",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f71v",
+      "thumbnail_url": "https://voynich.nu/q11/f071v_th.jpg",
+      "yale_image_ids": [
+        "1006203"
+      ]
+    },
+    {
+      "folio_id": "f72r1",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72r1",
+      "thumbnail_url": "https://voynich.nu/q11/f072r1_th.jpg",
+      "yale_image_ids": [
+        "1006203"
+      ]
+    },
+    {
+      "folio_id": "f72r2",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72r2",
+      "thumbnail_url": "https://voynich.nu/q11/f072r2_th.jpg",
+      "yale_image_ids": [
+        "1006203"
+      ]
+    },
+    {
+      "folio_id": "f72r3",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72r3",
+      "thumbnail_url": "https://voynich.nu/q11/f072r3_th.jpg",
+      "yale_image_ids": [
+        "1006203"
+      ]
+    },
+    {
+      "folio_id": "f72v3",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72v3",
+      "thumbnail_url": "https://voynich.nu/q11/f072v3_th.jpg",
+      "yale_image_ids": [
+        "1006204"
+      ]
+    },
+    {
+      "folio_id": "f72v2",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72v2",
+      "thumbnail_url": "https://voynich.nu/q11/f072v2_th.jpg",
+      "yale_image_ids": [
+        "1006204"
+      ]
+    },
+    {
+      "folio_id": "f72v1",
+      "catalogue_url": "https://voynich.nu/q11/index.html#f72v1",
+      "thumbnail_url": "https://voynich.nu/q11/f072v1_th.jpg",
+      "yale_image_ids": [
+        "1006205"
+      ]
+    },
+    {
+      "folio_id": "f73r",
+      "catalogue_url": "https://voynich.nu/q12/index.html#f73r",
+      "thumbnail_url": "https://voynich.nu/q12/f073r_th.jpg",
+      "yale_image_ids": [
+        "1006206"
+      ]
+    },
+    {
+      "folio_id": "f73v",
+      "catalogue_url": "https://voynich.nu/q12/index.html#f73v",
+      "thumbnail_url": "https://voynich.nu/q12/f073v_th.jpg",
+      "yale_image_ids": [
+        "1006207"
+      ]
+    },
+    {
+      "folio_id": "f75r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f75r",
+      "thumbnail_url": "https://voynich.nu/q13/f075r_th.jpg",
+      "yale_image_ids": [
+        "1006208"
+      ]
+    },
+    {
+      "folio_id": "f75v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f75v",
+      "thumbnail_url": "https://voynich.nu/q13/f075v_th.jpg",
+      "yale_image_ids": [
+        "1006209"
+      ]
+    },
+    {
+      "folio_id": "f76r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f76r",
+      "thumbnail_url": "https://voynich.nu/q13/f076r_th.jpg",
+      "yale_image_ids": [
+        "1006210"
+      ]
+    },
+    {
+      "folio_id": "f76v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f76v",
+      "thumbnail_url": "https://voynich.nu/q13/f076v_th.jpg",
+      "yale_image_ids": [
+        "1006211"
+      ]
+    },
+    {
+      "folio_id": "f77r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f77r",
+      "thumbnail_url": "https://voynich.nu/q13/f077r_th.jpg",
+      "yale_image_ids": [
+        "1006212"
+      ]
+    },
+    {
+      "folio_id": "f77v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f77v",
+      "thumbnail_url": "https://voynich.nu/q13/f077v_th.jpg",
+      "yale_image_ids": [
+        "1006213"
+      ]
+    },
+    {
+      "folio_id": "f78r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f78r",
+      "thumbnail_url": "https://voynich.nu/q13/f078r_th.jpg",
+      "yale_image_ids": [
+        "1006214"
+      ]
+    },
+    {
+      "folio_id": "f78v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f78v",
+      "thumbnail_url": "https://voynich.nu/q13/f078v_th.jpg",
+      "yale_image_ids": [
+        "1006215"
+      ]
+    },
+    {
+      "folio_id": "f79r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f79r",
+      "thumbnail_url": "https://voynich.nu/q13/f079r_th.jpg",
+      "yale_image_ids": [
+        "1006216"
+      ]
+    },
+    {
+      "folio_id": "f79v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f79v",
+      "thumbnail_url": "https://voynich.nu/q13/f079v_th.jpg",
+      "yale_image_ids": [
+        "1006217"
+      ]
+    },
+    {
+      "folio_id": "f80r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f80r",
+      "thumbnail_url": "https://voynich.nu/q13/f080r_th.jpg",
+      "yale_image_ids": [
+        "1006218"
+      ]
+    },
+    {
+      "folio_id": "f80v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f80v",
+      "thumbnail_url": "https://voynich.nu/q13/f080v_th.jpg",
+      "yale_image_ids": [
+        "1006219"
+      ]
+    },
+    {
+      "folio_id": "f81r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f81r",
+      "thumbnail_url": "https://voynich.nu/q13/f081r_th.jpg",
+      "yale_image_ids": [
+        "1006220"
+      ]
+    },
+    {
+      "folio_id": "f81v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f81v",
+      "thumbnail_url": "https://voynich.nu/q13/f081v_th.jpg",
+      "yale_image_ids": [
+        "1006221"
+      ]
+    },
+    {
+      "folio_id": "f82r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f82r",
+      "thumbnail_url": "https://voynich.nu/q13/f082r_th.jpg",
+      "yale_image_ids": [
+        "1006222"
+      ]
+    },
+    {
+      "folio_id": "f82v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f82v",
+      "thumbnail_url": "https://voynich.nu/q13/f082v_th.jpg",
+      "yale_image_ids": [
+        "1006223"
+      ]
+    },
+    {
+      "folio_id": "f83r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f83r",
+      "thumbnail_url": "https://voynich.nu/q13/f083r_th.jpg",
+      "yale_image_ids": [
+        "1006224"
+      ]
+    },
+    {
+      "folio_id": "f83v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f83v",
+      "thumbnail_url": "https://voynich.nu/q13/f083v_th.jpg",
+      "yale_image_ids": [
+        "1006225"
+      ]
+    },
+    {
+      "folio_id": "f84r",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f84r",
+      "thumbnail_url": "https://voynich.nu/q13/f084r_th.jpg",
+      "yale_image_ids": [
+        "1006226"
+      ]
+    },
+    {
+      "folio_id": "f84v",
+      "catalogue_url": "https://voynich.nu/q13/index.html#f84v",
+      "thumbnail_url": "https://voynich.nu/q13/f084v_th.jpg",
+      "yale_image_ids": [
+        "1006227"
+      ]
+    },
+    {
+      "folio_id": "f85r1",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f85r1",
+      "thumbnail_url": "https://voynich.nu/q14/f085r1_th.jpg",
+      "yale_image_ids": [
+        "1006228"
+      ]
+    },
+    {
+      "folio_id": "f85r2",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f85r2",
+      "thumbnail_url": "https://voynich.nu/q14/f085r2_th.jpg",
+      "yale_image_ids": [
+        "1006229"
+      ]
+    },
+    {
+      "folio_id": "fRos",
+      "catalogue_url": "https://voynich.nu/q14/index.html#fRos",
+      "thumbnail_url": "https://voynich.nu/q14/fRos_th.jpg",
+      "yale_image_ids": [
+        "1006231"
+      ]
+    },
+    {
+      "folio_id": "f86v4",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f86v4",
+      "thumbnail_url": "https://voynich.nu/q14/f086v4_th.jpg",
+      "yale_image_ids": [
+        "1006229"
+      ]
+    },
+    {
+      "folio_id": "f86v6",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f86v6",
+      "thumbnail_url": "https://voynich.nu/q14/f086v6_th.jpg",
+      "yale_image_ids": [
+        "1006229"
+      ]
+    },
+    {
+      "folio_id": "f86v5",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f86v5",
+      "thumbnail_url": "https://voynich.nu/q14/f086v5_th.jpg",
+      "yale_image_ids": [
+        "1006230"
+      ]
+    },
+    {
+      "folio_id": "f86v3",
+      "catalogue_url": "https://voynich.nu/q14/index.html#f86v3",
+      "thumbnail_url": "https://voynich.nu/q14/f086v3_th.jpg",
+      "yale_image_ids": [
+        "1006230"
+      ]
+    },
+    {
+      "folio_id": "f87r",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f87r",
+      "thumbnail_url": "https://voynich.nu/q15/f087r_th.jpg",
+      "yale_image_ids": [
+        "1006232"
+      ]
+    },
+    {
+      "folio_id": "f87v",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f87v",
+      "thumbnail_url": "https://voynich.nu/q15/f087v_th.jpg",
+      "yale_image_ids": [
+        "1043429"
+      ]
+    },
+    {
+      "folio_id": "f88r",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f88r",
+      "thumbnail_url": "https://voynich.nu/q15/f088r_th.jpg",
+      "yale_image_ids": [
+        "1037112"
+      ]
+    },
+    {
+      "folio_id": "f88v",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f88v",
+      "thumbnail_url": "https://voynich.nu/q15/f088v_th.jpg",
+      "yale_image_ids": [
+        "1006233"
+      ]
+    },
+    {
+      "folio_id": "f89r1",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f89r1",
+      "thumbnail_url": "https://voynich.nu/q15/f089r1_th.jpg",
+      "yale_image_ids": [
+        "1006233"
+      ]
+    },
+    {
+      "folio_id": "f89r2",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f89r2",
+      "thumbnail_url": "https://voynich.nu/q15/f089r2_th.jpg",
+      "yale_image_ids": [
+        "1006233"
+      ]
+    },
+    {
+      "folio_id": "f89v2",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f89v2",
+      "thumbnail_url": "https://voynich.nu/q15/f089v2_th.jpg",
+      "yale_image_ids": [
+        "1006234"
+      ]
+    },
+    {
+      "folio_id": "f89v1",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f89v1",
+      "thumbnail_url": "https://voynich.nu/q15/f089v1_th.jpg",
+      "yale_image_ids": [
+        "1006235"
+      ]
+    },
+    {
+      "folio_id": "f90r1",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f90r1",
+      "thumbnail_url": "https://voynich.nu/q15/f090r1_th.jpg",
+      "yale_image_ids": [
+        "1006235"
+      ]
+    },
+    {
+      "folio_id": "f90r2",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f90r2",
+      "thumbnail_url": "https://voynich.nu/q15/f090r2_th.jpg",
+      "yale_image_ids": [
+        "1006235"
+      ]
+    },
+    {
+      "folio_id": "f90v2",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f90v2",
+      "thumbnail_url": "https://voynich.nu/q15/f090v2_th.jpg",
+      "yale_image_ids": [
+        "1006236"
+      ]
+    },
+    {
+      "folio_id": "f90v1",
+      "catalogue_url": "https://voynich.nu/q15/index.html#f90v1",
+      "thumbnail_url": "https://voynich.nu/q15/f090v1_th.jpg",
+      "yale_image_ids": [
+        "1006237"
+      ]
+    },
+    {
+      "folio_id": "f93r",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f93r",
+      "thumbnail_url": "https://voynich.nu/q17/f093r_th.jpg",
+      "yale_image_ids": [
+        "1006238"
+      ]
+    },
+    {
+      "folio_id": "f93v",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f93v",
+      "thumbnail_url": "https://voynich.nu/q17/f093v_th.jpg",
+      "yale_image_ids": [
+        "1006239"
+      ]
+    },
+    {
+      "folio_id": "f94r",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f94r",
+      "thumbnail_url": "https://voynich.nu/q17/f094r_th.jpg",
+      "yale_image_ids": [
+        "1006240"
+      ]
+    },
+    {
+      "folio_id": "f94v",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f94v",
+      "thumbnail_url": "https://voynich.nu/q17/f094v_th.jpg",
+      "yale_image_ids": [
+        "1006241"
+      ]
+    },
+    {
+      "folio_id": "f95r1",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f95r1",
+      "thumbnail_url": "https://voynich.nu/q17/f095r1_th.jpg",
+      "yale_image_ids": [
+        "1006241"
+      ]
+    },
+    {
+      "folio_id": "f95r2",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f95r2",
+      "thumbnail_url": "https://voynich.nu/q17/f095r2_th.jpg",
+      "yale_image_ids": [
+        "1006241"
+      ]
+    },
+    {
+      "folio_id": "f95v2",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f95v2",
+      "thumbnail_url": "https://voynich.nu/q17/f095v2_th.jpg",
+      "yale_image_ids": [
+        "1006242"
+      ]
+    },
+    {
+      "folio_id": "f95v1",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f95v1",
+      "thumbnail_url": "https://voynich.nu/q17/f095v1_th.jpg",
+      "yale_image_ids": [
+        "1006243"
+      ]
+    },
+    {
+      "folio_id": "f96r",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f96r",
+      "thumbnail_url": "https://voynich.nu/q17/f096r_th.jpg",
+      "yale_image_ids": [
+        "1006244"
+      ]
+    },
+    {
+      "folio_id": "f96v",
+      "catalogue_url": "https://voynich.nu/q17/index.html#f96v",
+      "thumbnail_url": "https://voynich.nu/q17/f096v_th.jpg",
+      "yale_image_ids": [
+        "1006245"
+      ]
+    },
+    {
+      "folio_id": "f99r",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f99r",
+      "thumbnail_url": "https://voynich.nu/q19/f099r_th.jpg",
+      "yale_image_ids": [
+        "1006246"
+      ]
+    },
+    {
+      "folio_id": "f99v",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f99v",
+      "thumbnail_url": "https://voynich.nu/q19/f099v_th.jpg",
+      "yale_image_ids": [
+        "1006247"
+      ]
+    },
+    {
+      "folio_id": "f100r",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f100r",
+      "thumbnail_url": "https://voynich.nu/q19/f100r_th.jpg",
+      "yale_image_ids": [
+        "1006248"
+      ]
+    },
+    {
+      "folio_id": "f100v",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f100v",
+      "thumbnail_url": "https://voynich.nu/q19/f100v_th.jpg",
+      "yale_image_ids": [
+        "1006249"
+      ]
+    },
+    {
+      "folio_id": "f101r",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f101r",
+      "thumbnail_url": "https://voynich.nu/q19/f101r_th.jpg",
+      "yale_image_ids": [
+        "1006249"
+      ]
+    },
+    {
+      "folio_id": "f101v2",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f101v",
+      "thumbnail_url": "https://voynich.nu/q19/f101v2_th.jpg",
+      "yale_image_ids": [
+        "1006250",
+        "1006251"
+      ]
+    },
+    {
+      "folio_id": "f101v1",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f101v",
+      "thumbnail_url": "https://voynich.nu/q19/f101v1_th.jpg",
+      "yale_image_ids": [
+        "1006250",
+        "1006251"
+      ]
+    },
+    {
+      "folio_id": "f102r1",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f102r1",
+      "thumbnail_url": "https://voynich.nu/q19/f102r1_th.jpg",
+      "yale_image_ids": [
+        "1006251"
+      ]
+    },
+    {
+      "folio_id": "f102r2",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f102r2",
+      "thumbnail_url": "https://voynich.nu/q19/f102r2_th.jpg",
+      "yale_image_ids": [
+        "1006251"
+      ]
+    },
+    {
+      "folio_id": "f102v2",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f102v2",
+      "thumbnail_url": "https://voynich.nu/q19/f102v2_th.jpg",
+      "yale_image_ids": [
+        "1006252"
+      ]
+    },
+    {
+      "folio_id": "f102v1",
+      "catalogue_url": "https://voynich.nu/q19/index.html#f102v1",
+      "thumbnail_url": "https://voynich.nu/q19/f102v1_th.jpg",
+      "yale_image_ids": [
+        "1006253"
+      ]
+    },
+    {
+      "folio_id": "f103r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f103r",
+      "thumbnail_url": "https://voynich.nu/q20/f103r_th.jpg",
+      "yale_image_ids": [
+        "1006254"
+      ]
+    },
+    {
+      "folio_id": "f103v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f103v",
+      "thumbnail_url": "https://voynich.nu/q20/f103v_th.jpg",
+      "yale_image_ids": [
+        "1006255"
+      ]
+    },
+    {
+      "folio_id": "f104r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f104r",
+      "thumbnail_url": "https://voynich.nu/q20/f104r_th.jpg",
+      "yale_image_ids": [
+        "1006256"
+      ]
+    },
+    {
+      "folio_id": "f104v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f104v",
+      "thumbnail_url": "https://voynich.nu/q20/f104v_th.jpg",
+      "yale_image_ids": [
+        "1006257"
+      ]
+    },
+    {
+      "folio_id": "f105r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f105r",
+      "thumbnail_url": "https://voynich.nu/q20/f105r_th.jpg",
+      "yale_image_ids": [
+        "1006258"
+      ]
+    },
+    {
+      "folio_id": "f105v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f105v",
+      "thumbnail_url": "https://voynich.nu/q20/f105v_th.jpg",
+      "yale_image_ids": [
+        "1006259"
+      ]
+    },
+    {
+      "folio_id": "f106r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f106r",
+      "thumbnail_url": "https://voynich.nu/q20/f106r_th.jpg",
+      "yale_image_ids": [
+        "1006260"
+      ]
+    },
+    {
+      "folio_id": "f106v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f106v",
+      "thumbnail_url": "https://voynich.nu/q20/f106v_th.jpg",
+      "yale_image_ids": [
+        "1006261"
+      ]
+    },
+    {
+      "folio_id": "f107r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f107r",
+      "thumbnail_url": "https://voynich.nu/q20/f107r_th.jpg",
+      "yale_image_ids": [
+        "1006262"
+      ]
+    },
+    {
+      "folio_id": "f107v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f107v",
+      "thumbnail_url": "https://voynich.nu/q20/f107v_th.jpg",
+      "yale_image_ids": [
+        "1006263"
+      ]
+    },
+    {
+      "folio_id": "f108r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f108r",
+      "thumbnail_url": "https://voynich.nu/q20/f108r_th.jpg",
+      "yale_image_ids": [
+        "1006264"
+      ]
+    },
+    {
+      "folio_id": "f108v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f108v",
+      "thumbnail_url": "https://voynich.nu/q20/f108v_th.jpg",
+      "yale_image_ids": [
+        "1006265"
+      ]
+    },
+    {
+      "folio_id": "f111r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f111r",
+      "thumbnail_url": "https://voynich.nu/q20/f111r_th.jpg",
+      "yale_image_ids": [
+        "1006266"
+      ]
+    },
+    {
+      "folio_id": "f111v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f111v",
+      "thumbnail_url": "https://voynich.nu/q20/f111v_th.jpg",
+      "yale_image_ids": [
+        "1006267"
+      ]
+    },
+    {
+      "folio_id": "f112r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f112r",
+      "thumbnail_url": "https://voynich.nu/q20/f112r_th.jpg",
+      "yale_image_ids": [
+        "1006268"
+      ]
+    },
+    {
+      "folio_id": "f112v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f112v",
+      "thumbnail_url": "https://voynich.nu/q20/f112v_th.jpg",
+      "yale_image_ids": [
+        "1006269"
+      ]
+    },
+    {
+      "folio_id": "f113r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f113r",
+      "thumbnail_url": "https://voynich.nu/q20/f113r_th.jpg",
+      "yale_image_ids": [
+        "1006270"
+      ]
+    },
+    {
+      "folio_id": "f113v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f113v",
+      "thumbnail_url": "https://voynich.nu/q20/f113v_th.jpg",
+      "yale_image_ids": [
+        "1006271"
+      ]
+    },
+    {
+      "folio_id": "f114r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f114r",
+      "thumbnail_url": "https://voynich.nu/q20/f114r_th.jpg",
+      "yale_image_ids": [
+        "1006272"
+      ]
+    },
+    {
+      "folio_id": "f114v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f114v",
+      "thumbnail_url": "https://voynich.nu/q20/f114v_th.jpg",
+      "yale_image_ids": [
+        "1006273"
+      ]
+    },
+    {
+      "folio_id": "f115r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f115r",
+      "thumbnail_url": "https://voynich.nu/q20/f115r_th.jpg",
+      "yale_image_ids": [
+        "1006274"
+      ]
+    },
+    {
+      "folio_id": "f115v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f115v",
+      "thumbnail_url": "https://voynich.nu/q20/f115v_th.jpg",
+      "yale_image_ids": [
+        "1006275"
+      ]
+    },
+    {
+      "folio_id": "f116r",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f116r",
+      "thumbnail_url": "https://voynich.nu/q20/f116r_th.jpg",
+      "yale_image_ids": [
+        "1006276"
+      ]
+    },
+    {
+      "folio_id": "f116v",
+      "catalogue_url": "https://voynich.nu/q20/index.html#f116v",
+      "thumbnail_url": "https://voynich.nu/q20/f116v_th.jpg",
+      "yale_image_ids": [
+        "1006277"
+      ]
+    }
+  ]
+}
