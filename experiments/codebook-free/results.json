@@ -1,0 +1,621 @@
+{
+  "summary": {
+    "substitution": {
+      "modern": {
+        "cases": 2,
+        "character_error_rate": 0.0,
+        "word_error_rate": 0.057203389830508475,
+        "recovery_gate_passes": 2,
+        "exact": 0
+      },
+      "historical": {
+        "cases": 2,
+        "character_error_rate": 1.4629104175111471,
+        "word_error_rate": 2.087314662273476,
+        "recovery_gate_passes": 0,
+        "exact": 0
+      }
+    },
+    "variable-homophonic": {
+      "modern": {
+        "cases": 2,
+        "character_error_rate": 4.469120654396728,
+        "word_error_rate": 7.7309322033898304,
+        "recovery_gate_passes": 0,
+        "exact": 0
+      },
+      "historical": {
+        "cases": 2,
+        "character_error_rate": 4.593027969193352,
+        "word_error_rate": 6.527182866556837,
+        "recovery_gate_passes": 0,
+        "exact": 0
+      }
+    },
+    "naibbe": {
+      "modern": {
+        "cases": 2,
+        "character_error_rate": 6.570552147239264,
+        "word_error_rate": 8.264830508474576,
+        "recovery_gate_passes": 0,
+        "exact": 0
+      },
+      "historical": {
+        "cases": 2,
+        "character_error_rate": 6.624645318200243,
+        "word_error_rate": 9.266886326194399,
+        "recovery_gate_passes": 0,
+        "exact": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "2161d425a85df84b",
+      "passage": "214c4474d5980bc4",
+      "dataset": "modern",
+      "family": "naibbe",
+      "characters": 1225,
+      "words": 236,
+      "character_errors": 8082,
+      "word_errors": 1847,
+      "character_error_rate": 6.597551020408163,
+      "word_error_rate": 7.826271186440678,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -3.4329151778535296,
+          "character_error_rate": 3.021224489795918,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.1898194580571726
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.0520878984060777,
+          "character_error_rate": 6.597551020408163,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 5.758906833012588
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.269298105225666,
+          "character_error_rate": 0.7942857142857143,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.3318717919755727
+        }
+      ],
+      "oracle_candidate_cer": 0.7942857142857143
+    },
+    {
+      "id": "3eee524fb6244c1f",
+      "passage": "214c4474d5980bc4",
+      "dataset": "modern",
+      "family": "variable-homophonic",
+      "characters": 1225,
+      "words": 236,
+      "character_errors": 5378,
+      "word_errors": 1629,
+      "character_error_rate": 4.390204081632653,
+      "word_error_rate": 6.9025423728813555,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -4.2826886720035215,
+          "character_error_rate": 2.0808163265306123,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.0043462089961395
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.194552444736092,
+          "character_error_rate": 4.390204081632653,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 4.381511582992971
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.302805996517602,
+          "character_error_rate": 0.8130612244897959,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.3115831250324845
+        }
+      ],
+      "oracle_candidate_cer": 0.8130612244897959
+    },
+    {
+      "id": "42f93c10622d51d9",
+      "passage": "f1cacda9b61d810b",
+      "dataset": "modern",
+      "family": "variable-homophonic",
+      "characters": 1220,
+      "words": 236,
+      "character_errors": 5549,
+      "word_errors": 2020,
+      "character_error_rate": 4.548360655737705,
+      "word_error_rate": 8.559322033898304,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -4.222043188471321,
+          "character_error_rate": 2.160655737704918,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.0141370410565287
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.1874547340148873,
+          "character_error_rate": 4.548360655737705,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 4.543019375065342
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.265562761671719,
+          "character_error_rate": 0.8655737704918033,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.2583943749777973
+        }
+      ],
+      "oracle_candidate_cer": 0.8655737704918033
+    },
+    {
+      "id": "5a0a31a60ab3032e",
+      "passage": "f1cacda9b61d810b",
+      "dataset": "modern",
+      "family": "naibbe",
+      "characters": 1220,
+      "words": 236,
+      "character_errors": 7983,
+      "word_errors": 2054,
+      "character_error_rate": 6.54344262295082,
+      "word_error_rate": 8.703389830508474,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -3.5703258876562702,
+          "character_error_rate": 2.998360655737705,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.1823405420873314
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.1698648653293415,
+          "character_error_rate": 6.54344262295082,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 5.775867332937196
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.2546450223729724,
+          "character_error_rate": 0.7836065573770492,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.222230499959551
+        }
+      ],
+      "oracle_candidate_cer": 0.7836065573770492
+    },
+    {
+      "id": "5fad477ed02431db",
+      "passage": "6d46c56c454115f8",
+      "dataset": "historical",
+      "family": "naibbe",
+      "characters": 1202,
+      "words": 294,
+      "character_errors": 7977,
+      "word_errors": 2746,
+      "character_error_rate": 6.636439267886855,
+      "word_error_rate": 9.34013605442177,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -3.5364461995677496,
+          "character_error_rate": 3.0299500831946755,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.189048666972667
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.0336384468496274,
+          "character_error_rate": 6.636439267886855,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 5.71170141606126
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.2669576049442663,
+          "character_error_rate": 0.7903494176372712,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.2685291250236332
+        }
+      ],
+      "oracle_candidate_cer": 0.7903494176372712
+    },
+    {
+      "id": "636ee09f71bae25b",
+      "passage": "961d4cc67edbd059",
+      "dataset": "historical",
+      "family": "naibbe",
+      "characters": 1265,
+      "words": 313,
+      "character_errors": 8366,
+      "word_errors": 2879,
+      "character_error_rate": 6.613438735177866,
+      "word_error_rate": 9.198083067092652,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -3.539608978915924,
+          "character_error_rate": 3.03399209486166,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.2175485409097746
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.0395521479259338,
+          "character_error_rate": 6.613438735177866,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 5.9328238340094686
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.2665340911387264,
+          "character_error_rate": 0.7857707509881423,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.2771263340255246
+        }
+      ],
+      "oracle_candidate_cer": 0.7857707509881423
+    },
+    {
+      "id": "68d1bc3fb15c7e40",
+      "passage": "6d46c56c454115f8",
+      "dataset": "historical",
+      "family": "substitution",
+      "characters": 1202,
+      "words": 294,
+      "character_errors": 1746,
+      "word_errors": 583,
+      "character_error_rate": 1.4525790349417638,
+      "word_error_rate": 1.9829931972789117,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -2.401807034573093,
+          "character_error_rate": 0.0,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 0.6037509579909965
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.196852671099919,
+          "character_error_rate": 1.4525790349417638,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.4899975830921903
+        }
+      ],
+      "oracle_candidate_cer": 0.0
+    },
+    {
+      "id": "85b7b291e471f156",
+      "passage": "f1cacda9b61d810b",
+      "dataset": "modern",
+      "family": "substitution",
+      "characters": 1220,
+      "words": 236,
+      "character_errors": 0,
+      "word_errors": 5,
+      "character_error_rate": 0.0,
+      "word_error_rate": 0.0211864406779661,
+      "recovery_gate": true,
+      "exact": false,
+      "selected": 0,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -1.9238737772894186,
+          "character_error_rate": 0.0,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 0.6121311249444261
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.1121120246682126,
+          "character_error_rate": 1.4418032786885246,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.4736913749948144
+        }
+      ],
+      "oracle_candidate_cer": 0.0
+    },
+    {
+      "id": "8fd10710baa1e452",
+      "passage": "961d4cc67edbd059",
+      "dataset": "historical",
+      "family": "variable-homophonic",
+      "characters": 1265,
+      "words": 313,
+      "character_errors": 5828,
+      "word_errors": 2098,
+      "character_error_rate": 4.607114624505929,
+      "word_error_rate": 6.702875399361022,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -4.236074765288622,
+          "character_error_rate": 2.176284584980237,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 1.0211362079717219
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.1935317721020096,
+          "character_error_rate": 4.607114624505929,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 4.548160249949433
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.3173916414866786,
+          "character_error_rate": 0.8268774703557312,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.319549207924865
+        }
+      ],
+      "oracle_candidate_cer": 0.8268774703557312
+    },
+    {
+      "id": "b685059fd48f8e42",
+      "passage": "6d46c56c454115f8",
+      "dataset": "historical",
+      "family": "variable-homophonic",
+      "characters": 1202,
+      "words": 294,
+      "character_errors": 5503,
+      "word_errors": 1864,
+      "character_error_rate": 4.578202995008319,
+      "word_error_rate": 6.340136054421769,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -4.248452520047286,
+          "character_error_rate": 2.1697171381031612,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 0.9965714169666171
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.2064181092868616,
+          "character_error_rate": 4.578202995008319,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 4.469493042095564
+        },
+        {
+          "representation": "units",
+          "method": "variable",
+          "language_score": -2.229556542528585,
+          "character_error_rate": 0.8419301164725458,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.2602130419109017
+        }
+      ],
+      "oracle_candidate_cer": 0.8419301164725458
+    },
+    {
+      "id": "f522d2f1eadea788",
+      "passage": "214c4474d5980bc4",
+      "dataset": "modern",
+      "family": "substitution",
+      "characters": 1225,
+      "words": 236,
+      "character_errors": 0,
+      "word_errors": 22,
+      "character_error_rate": 0.0,
+      "word_error_rate": 0.09322033898305085,
+      "recovery_gate": true,
+      "exact": false,
+      "selected": 0,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -2.0135666203807894,
+          "character_error_rate": 0.0,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 0.6159988330909982
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.105407906020617,
+          "character_error_rate": 1.457142857142857,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.5289234580704942
+        }
+      ],
+      "oracle_candidate_cer": 0.0
+    },
+    {
+      "id": "ffd7697bfafa1ad7",
+      "passage": "961d4cc67edbd059",
+      "dataset": "historical",
+      "family": "substitution",
+      "characters": 1265,
+      "words": 313,
+      "character_errors": 1863,
+      "word_errors": 684,
+      "character_error_rate": 1.4727272727272727,
+      "word_error_rate": 2.1853035143769968,
+      "recovery_gate": false,
+      "exact": false,
+      "selected": 1,
+      "candidates": [
+        {
+          "representation": "characters",
+          "method": "bijection",
+          "language_score": -2.4567456132299825,
+          "character_error_rate": 0.0,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 0.6353553330991417
+        },
+        {
+          "representation": "characters",
+          "method": "variable",
+          "language_score": -2.1114877359900426,
+          "character_error_rate": 1.4727272727272727,
+          "proposals": 72000,
+          "cap_hit": false,
+          "seconds": 2.5815721669932827
+        }
+      ],
+      "oracle_candidate_cer": 0.0
+    }
+  ],
+  "seconds": 83.527517080307,
+  "challenge": {
+    "public_sha256": "6c19c97282a88e7114078870b329cbeface15f782cf93ed13bb3699dc14f323b",
+    "answers_sha256": "942d65ff4a1b8602372c015614a6e03e7dc411e79615f3c71c69842e1e3655ab",
+    "freeze_sha256": "8c3750907ba9b9977cbad19af50de259816150b771dc077b8d90f2675b195080",
+    "cases": 12,
+    "passages": 4,
+    "old_sentence_overlap": 0,
+    "prior_sentence_overlap": 0,
+    "sources": [
+      {
+        "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-test.conllu",
+        "sha256": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+        "bytes": 735446
+      },
+      {
+        "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-test.conllu",
+        "sha256": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+        "bytes": 735446
+      },
+      {
+        "path": "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/it_old-ud-train.conllu",
+        "sha256": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+        "bytes": 13156778
+      },
+      {
+        "path": "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/it_old-ud-train.conllu",
+        "sha256": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+        "bytes": 13156778
+      }
+    ],
+    "at": 1789977472.519137
+  },
+  "predictions_sha256": "0d3a36d01581cd7a5b30e60c1d3918d688592e7e8e99ba451512789de2206cc5",
+  "freeze": {
+    "code_sha256": {
+      "voynich/unknown_cipher.py": "e0ec34a4a87c91a2be21e650265b4ff5e33cbab8e4d6a890552edca5b6967c83",
+      "experiments/codebook_free.py": "babc8d8230a98bce6cbc5520a5633c375083bc88e689edcf8cd25a848910c147",
+      "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+      "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02"
+    },
+    "protocol_sha256": "8cc0121b321458f8cee4a37741333e44f9dd603a8212b8144c6710e853539816",
+    "prior_sha256": "ff625a42f8c2049598c96ce6c7c66f80ea5dde4d22a543f3479166a4a390acfd",
+    "chunks_sha256": "5c649e9fe0e561b2fc199fd611215329e2bb4be42ac8667c93ef1be3e55426c2",
+    "prior_source": {
+      "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-train.conllu",
+      "sha256": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+      "bytes": 19443447
+    },
+    "segmentation_freeze_sha256": "e514cdd24b2b44f9dc5e19a75c801dd3932985b2da7aad86e92617706b6e6012",
+    "restarts": 6,
+    "steps": 12000,
+    "cap_seconds": 120,
+    "seed": 42,
+    "at": 1789977471.33662
+  },
+  "test_scored": false,
+  "limitation": "Four independent passages; broader mapping search is not validated unless its positive control succeeds. No claim about all unknown ciphers."
+}

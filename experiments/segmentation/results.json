@@ -1,0 +1,581 @@
+{
+  "summary": {
+    "modern": {
+      "lexicon": {
+        "word_error_rate": 0.061452513966480445,
+        "boundary_f1": 0.9795158286778398,
+        "precision": 0.9686924493554327,
+        "recall": 0.9905838041431262,
+        "errors": 66,
+        "words": 1074,
+        "tp": 1052,
+        "fp": 34,
+        "fn": 10,
+        "exact": 1
+      },
+      "baseline": {
+        "word_error_rate": 0.15921787709497207,
+        "boundary_f1": 0.9422806194274989,
+        "precision": 0.9391955098222639,
+        "recall": 0.9453860640301318,
+        "errors": 171,
+        "words": 1074,
+        "tp": 1004,
+        "fp": 65,
+        "fn": 58,
+        "exact": 0
+      },
+      "absolute_wer_improvement_interval_95": [
+        0.047341797209381954,
+        0.14362924581889017
+      ],
+      "relative_wer_reduction": 0.6140350877192983
+    },
+    "historical": {
+      "lexicon": {
+        "word_error_rate": 0.39895209580838326,
+        "boundary_f1": 0.8351816443594646,
+        "precision": 0.8458559256390396,
+        "recall": 0.824773413897281,
+        "errors": 533,
+        "words": 1336,
+        "tp": 1092,
+        "fp": 199,
+        "fn": 232,
+        "exact": 0
+      },
+      "baseline": {
+        "word_error_rate": 0.6092814371257484,
+        "boundary_f1": 0.6699640287769785,
+        "precision": 0.8277777777777777,
+        "recall": 0.5626888217522659,
+        "errors": 814,
+        "words": 1336,
+        "tp": 745,
+        "fp": 155,
+        "fn": 579,
+        "exact": 0
+      },
+      "absolute_wer_improvement_interval_95": [
+        0.15999844720496895,
+        0.2529797663061963
+      ],
+      "relative_wer_reduction": 0.3452088452088451
+    }
+  },
+  "cases": [
+    {
+      "id": "04fb2e35146527e6",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 27,
+        "words": 136,
+        "tp": 126,
+        "fp": 7,
+        "fn": 9,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 69,
+        "words": 136,
+        "tp": 86,
+        "fp": 10,
+        "fn": 49,
+        "exact": false
+      }
+    },
+    {
+      "id": "089369ab3bce3efd",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 11,
+        "words": 75,
+        "tp": 73,
+        "fp": 7,
+        "fn": 1,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 4,
+        "words": 75,
+        "tp": 71,
+        "fp": 0,
+        "fn": 3,
+        "exact": false
+      }
+    },
+    {
+      "id": "149f8a3ed49a1766",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 46,
+        "words": 142,
+        "tp": 123,
+        "fp": 20,
+        "fn": 18,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 86,
+        "words": 142,
+        "tp": 75,
+        "fp": 12,
+        "fn": 66,
+        "exact": false
+      }
+    },
+    {
+      "id": "2407520ff0f4a643",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 7,
+        "words": 87,
+        "tp": 85,
+        "fp": 3,
+        "fn": 1,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 5,
+        "words": 87,
+        "tp": 85,
+        "fp": 2,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "id": "29c146ef966a6d3a",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 29,
+        "words": 104,
+        "tp": 98,
+        "fp": 11,
+        "fn": 5,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 50,
+        "words": 104,
+        "tp": 76,
+        "fp": 12,
+        "fn": 27,
+        "exact": false
+      }
+    },
+    {
+      "id": "3ce8e330394db14c",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 63,
+        "words": 103,
+        "tp": 78,
+        "fp": 28,
+        "fn": 24,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 75,
+        "words": 103,
+        "tp": 49,
+        "fp": 18,
+        "fn": 53,
+        "exact": false
+      }
+    },
+    {
+      "id": "4a386225d1f5ade3",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 8,
+        "words": 93,
+        "tp": 90,
+        "fp": 2,
+        "fn": 2,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 19,
+        "words": 93,
+        "tp": 86,
+        "fp": 6,
+        "fn": 6,
+        "exact": false
+      }
+    },
+    {
+      "id": "4c9f79e62b9af535",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 5,
+        "words": 103,
+        "tp": 102,
+        "fp": 3,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 10,
+        "words": 103,
+        "tp": 101,
+        "fp": 5,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "id": "4f1786a25fbb1dda",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 2,
+        "words": 83,
+        "tp": 82,
+        "fp": 1,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 7,
+        "words": 83,
+        "tp": 81,
+        "fp": 4,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "id": "552b2330d47d63b1",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 47,
+        "words": 106,
+        "tp": 83,
+        "fp": 17,
+        "fn": 22,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 68,
+        "words": 106,
+        "tp": 53,
+        "fp": 14,
+        "fn": 52,
+        "exact": false
+      }
+    },
+    {
+      "id": "5c1139ff7e005628",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 2,
+        "words": 76,
+        "tp": 75,
+        "fp": 1,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 12,
+        "words": 76,
+        "tp": 73,
+        "fp": 5,
+        "fn": 2,
+        "exact": false
+      }
+    },
+    {
+      "id": "69b1b107a2acfca7",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 4,
+        "words": 92,
+        "tp": 91,
+        "fp": 2,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 21,
+        "words": 92,
+        "tp": 80,
+        "fp": 5,
+        "fn": 11,
+        "exact": false
+      }
+    },
+    {
+      "id": "702504197613fd22",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 3,
+        "words": 83,
+        "tp": 80,
+        "fp": 2,
+        "fn": 2,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 12,
+        "words": 83,
+        "tp": 79,
+        "fp": 8,
+        "fn": 3,
+        "exact": false
+      }
+    },
+    {
+      "id": "866422821ad2fe7d",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 30,
+        "words": 100,
+        "tp": 91,
+        "fp": 17,
+        "fn": 8,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 62,
+        "words": 100,
+        "tp": 50,
+        "fp": 12,
+        "fn": 49,
+        "exact": false
+      }
+    },
+    {
+      "id": "90f98e7cd86053bf",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 58,
+        "words": 104,
+        "tp": 78,
+        "fp": 23,
+        "fn": 25,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 59,
+        "words": 104,
+        "tp": 64,
+        "fp": 11,
+        "fn": 39,
+        "exact": false
+      }
+    },
+    {
+      "id": "9124dd8f5d5b0ac0",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 41,
+        "words": 96,
+        "tp": 81,
+        "fp": 21,
+        "fn": 14,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 58,
+        "words": 96,
+        "tp": 58,
+        "fp": 17,
+        "fn": 37,
+        "exact": false
+      }
+    },
+    {
+      "id": "a885c9a78ae52199",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 17,
+        "words": 126,
+        "tp": 121,
+        "fp": 9,
+        "fn": 4,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 44,
+        "words": 126,
+        "tp": 106,
+        "fp": 17,
+        "fn": 19,
+        "exact": false
+      }
+    },
+    {
+      "id": "ad22da76f7084618",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 0,
+        "words": 83,
+        "tp": 82,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      },
+      "baseline": {
+        "errors": 10,
+        "words": 83,
+        "tp": 80,
+        "fp": 4,
+        "fn": 2,
+        "exact": false
+      }
+    },
+    {
+      "id": "b1a074c68383ade1",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 56,
+        "words": 118,
+        "tp": 84,
+        "fp": 17,
+        "fn": 33,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 81,
+        "words": 118,
+        "tp": 54,
+        "fp": 11,
+        "fn": 63,
+        "exact": false
+      }
+    },
+    {
+      "id": "b1c8b9495ad691b8",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 5,
+        "words": 95,
+        "tp": 94,
+        "fp": 3,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 20,
+        "words": 95,
+        "tp": 88,
+        "fp": 8,
+        "fn": 6,
+        "exact": false
+      }
+    },
+    {
+      "id": "cb2da121cf309c3b",
+      "dataset": "modern",
+      "lexicon": {
+        "errors": 2,
+        "words": 78,
+        "tp": 77,
+        "fp": 1,
+        "fn": 0,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 7,
+        "words": 78,
+        "tp": 74,
+        "fp": 1,
+        "fn": 3,
+        "exact": false
+      }
+    },
+    {
+      "id": "daaff5f76d0ef997",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 38,
+        "words": 104,
+        "tp": 83,
+        "fp": 10,
+        "fn": 20,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 61,
+        "words": 104,
+        "tp": 58,
+        "fp": 8,
+        "fn": 45,
+        "exact": false
+      }
+    },
+    {
+      "id": "e930853b7458268b",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 44,
+        "words": 117,
+        "tp": 96,
+        "fp": 9,
+        "fn": 20,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 70,
+        "words": 117,
+        "tp": 73,
+        "fp": 14,
+        "fn": 43,
+        "exact": false
+      }
+    },
+    {
+      "id": "fcb35c20808e63ca",
+      "dataset": "historical",
+      "lexicon": {
+        "errors": 54,
+        "words": 106,
+        "tp": 71,
+        "fp": 19,
+        "fn": 34,
+        "exact": false
+      },
+      "baseline": {
+        "errors": 75,
+        "words": 106,
+        "tp": 49,
+        "fp": 16,
+        "fn": 56,
+        "exact": false
+      }
+    }
+  ],
+  "challenge": {
+    "cases": 24,
+    "passages_per_corpus": 12,
+    "old_challenge_sentence_overlap": 0,
+    "prior_sentence_overlap": 0,
+    "sources": [
+      {
+        "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-test.conllu",
+        "sha256": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+        "bytes": 735446
+      },
+      {
+        "path": "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu",
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-Old/2c1361d621dafa7c465da0947f73765caaf743af/it_old-ud-train.conllu",
+        "sha256": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+        "bytes": 13156778
+      }
+    ],
+    "code_sha256": {
+      "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+      "experiments/segmentation.py": "67761646e6ccc4506f33a5cf0cb9ca4fd24ee5d992216db185f5acc7299849c8",
+      "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+      "voynich/corpora.py": "c9869572ca3d3ed0666afd451c19d8bb85e591815c5526b62987fab9224c9839"
+    },
+    "frozen_sha256": "e514cdd24b2b44f9dc5e19a75c801dd3932985b2da7aad86e92617706b6e6012",
+    "public_sha256": "f35d154cfbaa1664128cb024c8a972aad8478f731e41c1667c0ae82b63c1b495",
+    "answers_sha256": "674a4e340468d18926d49a615ef33a66daf31f9eeda53b6832082a9898ad7941",
+    "at": 1789976816.470428
+  },
+  "predictions_sha256": "689e8345526745d6737b05679fd050132ae258727a0eee78f568b433078f58e7",
+  "test_scored": false,
+  "limitation": "Fresh passages, not independent works; Dante shares author/work with earlier benchmark. No tuning on these answers."
+}

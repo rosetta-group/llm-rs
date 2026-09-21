@@ -1,0 +1,23 @@
+{
+  "code_sha256": {
+    "voynich/unknown_cipher.py": "e0ec34a4a87c91a2be21e650265b4ff5e33cbab8e4d6a890552edca5b6967c83",
+    "experiments/codebook_free.py": "babc8d8230a98bce6cbc5520a5633c375083bc88e689edcf8cd25a848910c147",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02"
+  },
+  "protocol_sha256": "8cc0121b321458f8cee4a37741333e44f9dd603a8212b8144c6710e853539816",
+  "prior_sha256": "ff625a42f8c2049598c96ce6c7c66f80ea5dde4d22a543f3479166a4a390acfd",
+  "chunks_sha256": "5c649e9fe0e561b2fc199fd611215329e2bb4be42ac8667c93ef1be3e55426c2",
+  "prior_source": {
+    "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu",
+    "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-train.conllu",
+    "sha256": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+    "bytes": 19443447
+  },
+  "segmentation_freeze_sha256": "e514cdd24b2b44f9dc5e19a75c801dd3932985b2da7aad86e92617706b6e6012",
+  "restarts": 6,
+  "steps": 12000,
+  "cap_seconds": 120,
+  "seed": 42,
+  "at": 1789977471.33662
+}

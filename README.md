@@ -1,41 +1,87 @@
 # Voynich meaning-recovery research
 
-The goal is to recover and validate Voynich meaning, then render it in English or Italian.
-Prediction experiments help develop the method; this repo does not yet produce verified translations.
+The deliverable is a **validated decipherment-method benchmark** with positive controls
+and honest Voynich negatives. Translation into English or Italian remains a long-term
+motivation; it is not supported by current evidence.
 
-Start with the **[research record](RESEARCH_LOG.md)** for the overall goal, every experiment,
-results, limitations, current work, and the next meaning-recovery milestone.
-The **[matched-context suite](experiments/MATCHED_PLAN.md)** is complete: all 18 runs verified.
-The [final report and graphs](experiments/report-matched/REPORT.md) show no established extra
-long-history gain for intact text versus shuffled text. All runs overfit by the fixed final epoch.
-The local suite has ended and its monitor is paused.
+Start with the [research record](RESEARCH_LOG.md), [bounded CPU plan](experiments/METHOD_BENCHMARK_PLAN.md),
+and [benchmark report with graphs](experiments/method-benchmark/REPORT.md).
 
-Completed results: [illustrated report](experiments/report-completed/REPORT.md) and
-[PDF](output/pdf/voynich-completed-experiments.pdf). The small GRU averages 2.332
-bits/character versus local Qwen at 2.483; training budgets differ. Final test remains sealed.
+- **Prediction track closed.** No further BPC sweeps, longer training, or larger-model
+  comparisons. Reopening requires a named mechanism, falsifiable contrast, and fixed budget.
+- **Fresh segmentation:** modern Italian word error 15.9% → 6.1%; historical Italian
+  60.9% → 39.9%. Frozen after non-Dante tuning. Historical segmentation remains unresolved.
+- **Broad image domains:** botanical, people/bathing, and celestial/diagrams now tested
+  across 63 physical folio groups. Character text alone scores 72.2% balanced accuracy;
+  hand/layout scores 94.4%; adding text does not improve it. [Report](experiments/image-domains/REPORT.md).
+- **Complex image associations:** 123 descriptions; joint visual features, nonlinear
+  models, same-page matching, and relational tests. None of 12 comparisons establishes
+  an association. [Report and graphs](experiments/association-complex/REPORT.md).
+  The earlier 59-label root-color pilot is preserved.
+- **Codebook-free recovery:** modern substitution passed; historical selection, broader
+  synthetic control, and Naibbe failed. Exact historical letters were found but not selected.
+- **Cloud cleanup complete:** Runpod pod and attached temporary storage deleted on
+  2026-09-21; no network volumes remain. [Audit record](experiments/cloud-cleanup.json).
 
-New: [memory test and graphs](experiments/CONTEXT.md). With fixed GRU weights,
-64 characters recover 91% of the observed gain from extending history from 8 to 128.
-Shuffled Voynich also benefits; the result does not establish meaning.
+All previous experiments and reports remain archived. The Voynich final test is sealed.
+The old prediction monitor is paused. Training commands below document earlier methods;
+they are not the active research plan.
 
-New: [historical/modern language statistics](experiments/language-comparison/REPORT.md)
-compares counts, lengths, neighboring lengths, vocabulary, repetition, and character
-entropy across eleven corpus samples. [Blind decipherment](experiments/decipherment/REPORT.md)
-recovers normalized Italian under declared cipher assumptions; missing word spaces remain
-an obstacle. Both reports contain graphs and numerical results.
+## Current benchmark commands
 
-**Validation:** pages used to compare settings. **Test:** pages reserved for the final comparison.
-**BPC:** negative log likelihood in bits per normalized transcription character; lower is better.
-**LoRA:** small trainable matrices added to selected frozen model layers.
-
-```text
-Build fixed page groups
-Fit models on training pages
-Compare validation loss on identical targets
-Repeat promising comparisons across seeds and controls
-Freeze choices, then release the test set
-Validate original-content recovery on controlled ciphertext alongside prediction checks
+```sh
+.venv/bin/python -m experiments.discovery_sources
+.venv/bin/python -m experiments.benchmark_sources
+.venv/bin/python -m experiments.segmentation tune
+.venv/bin/python -m experiments.segmentation prepare
+.venv/bin/python -m experiments.segmentation solve
+.venv/bin/python -m experiments.segmentation evaluate
+.venv/bin/python -m experiments.codebook_free freeze
+.venv/bin/python -m experiments.codebook_free prepare
+.venv/bin/python -m experiments.codebook_free solve
+.venv/bin/python -m experiments.codebook_free evaluate
+.venv/bin/python -m experiments.association freeze
+.venv/bin/python -m experiments.association run
+python -m experiments.benchmark_report
+.venv/bin/python -m experiments.benchmark_verify
 ```
+
+These are the stage order, not instructions to overwrite completed work. Preparation,
+freezing, and prediction refuse existing outputs. Preserve this run; a fresh replication
+needs an isolated copy with its prior output records archived. Source downloads are
+hash-checked. Reports need matplotlib; computation uses CPU and NumPy. Case keys are
+random: a new run is a replication, not a byte-identical recreation. Exact grading needs
+the preserved local `artifacts/` inputs, frozen model, predictions, and evaluator files.
+Reports publish aggregate metrics, provenance, and limitations without reference passages.
+
+## Complex image-association extension
+
+```sh
+.venv/bin/python -m experiments.association_complex freeze
+.venv/bin/python -m experiments.association_complex run
+.venv/bin/python -m experiments.association_complex verify
+python -m experiments.association_complex_report
+```
+
+This completed extension reuses existing human image descriptions and is exploratory.
+The protocol protects whole folios, tests three model classes and four endpoints, and
+corrects all 12 comparisons together. A fresh replication needs an isolated output
+archive; existing frozen outputs are protected. Reports regenerate from saved scores.
+A larger independently annotated image sample remains necessary; this is not raw-pixel analysis.
+
+## Broad image-domain study
+
+```sh
+.venv/bin/python -m experiments.image_domains freeze
+.venv/bin/python -m experiments.image_domains run
+.venv/bin/python -m experiments.image_domains verify
+python -m experiments.image_domains_report
+```
+
+This completed study uses conventional IVTFF illustration categories, including labels
+and circular text on diagram pages. Frozen outputs are protected; use an isolated output
+archive for a new replication. People/bathing cannot be validated across quires here:
+all its training examples share one quire. Some domain/hand effects are unidentifiable.
 
 ## Setup
 
@@ -116,7 +162,7 @@ matplotlib and reportlab. This reads saved scores; it does not train or score th
 To replace the snapshot, refresh `experiments.learning_curves`, run the report builder
 with `--capture`, and review its narrative for changes in experiment status.
 
-After both long runs finish, `python -m experiments.replications` selects the better
+The archived runner `python -m experiments.replications` selects the better
 configuration. If its paired validation interval supports a gain over the copy baseline,
 it runs four more seeds with that layer subset fixed, then three text controls at seed 42.
 Each follow-up has the same 3,000-update budget. This command starts training and can take
@@ -124,10 +170,10 @@ several hours locally; completed results go to `experiments/REPLICATIONS.md`.
 
 ## Comparisons
 
-The authorized $10 Runpod comparison is specified in
+The completed $10 Runpod comparison is specified in
 [`experiments/CLOUD_PLAN.md`](experiments/CLOUD_PLAN.md). Its upload bundle excludes
 final-test text and local credentials. Cloud runs use a separate environment and
-do not change the ongoing local replication suite.
+are archived locally. The pod and its temporary storage have now been deleted.
 
 ```sh
 .venv/bin/python -m voynich compare artifacts/results/gc.json \
@@ -200,12 +246,12 @@ isolated checkout for a new benchmark. New random keys produce a new run, not a 
 reproduction. Original predictions and hidden keys are retained locally under
 `artifacts/decipherment/`; public scores and passages are in `experiments/decipherment/`.
 
-The boundary diagnostic is an exploratory repair calibrated on separate modern Italian
-development text. It does not replace the failed primary baseline. Future confirmatory
-work must use fresh evaluation passages.
+The old boundary diagnostic is an exploratory repair. The new lexicon benchmark uses
+fresh passages, preserves that failed primary baseline, and still finds poor historical
+word recovery; see the current benchmark report.
 
-See `RESEARCH_PLAN.md` for research gates. Full neural robustness checks, image annotations,
-and activation interventions remain separate experiments. No Voynich translator is implemented.
+See `RESEARCH_PLAN.md` for research gates. Broad neural comparisons are closed. The image
+pilot is implemented; independent visual re-annotation remains outstanding. No Voynich translator is implemented.
 
 Sources: [IVTFF specification](https://www.voynich.nu/software/ivtt/IVTFF_format.pdf),
 [ZL transcription mirror](https://github.com/karolrybak/voynichese),

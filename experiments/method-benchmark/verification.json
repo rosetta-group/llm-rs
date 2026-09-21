@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-21",
+  "branch": "main",
+  "tests_passed": 67,
+  "frozen_segmentation_hashes": "passed",
+  "frozen_codebook_free_hashes": "passed",
+  "frozen_association_hashes": "passed",
+  "prediction_digests": "passed",
+  "new_passage_exclusions": "passed: no overlap with earlier source sentences or exact prior sentences",
+  "codebook_public_fields": [
+    "id",
+    "ciphertext"
+  ],
+  "codebook_free_candidate_proposals": 72000,
+  "codebook_free_cap_hits": 0,
+  "codebook_free_passages": 4,
+  "codebook_free_cases": 12,
+  "segmentation_passages": 24,
+  "association_training_folios_only": true,
+  "association_eligible_labels": 59,
+  "association_physical_folios": 6,
+  "visual_checks": "All three PNG figures inspected; labels readable and no clipping",
+  "local_markdown_targets": "passed",
+  "free_disk_gib": 53.91,
+  "new_cloud_jobs": 0,
+  "models_downloaded": 0,
+  "new_local_artifacts_mib": 31.66,
+  "final_voynich_test_scored": false,
+  "prediction_track": "closed",
+  "monitor": "PAUSED",
+  "limitations": [
+    "Historical segmentation remains poor",
+    "Codebook-free broader positive control fails",
+    "Image pilot has no established gain; independent annotation outstanding",
+    "Blindness is software separation, not an OS sandbox",
+    "Exact replay requires preserved local artifacts; public records contain aggregate results"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "files_sha256": {
+    "voynich/image_domains.py": "c958002d5348559874962a156876aa263001124874c2cdf785721c9f0a536fb3",
+    "experiments/image_domains.py": "cf455e69c37aa78e6454dca5afb3b5143fb7431773be49909ba9d65a1bffbf1f",
+    "voynich/data.py": "df239427067a2717cceae3fc3308946f8c38b2ab8208e4e2840fb4d0a7584768",
+    "voynich/association_complex.py": "106bddf3b29a5c57d9419e74027f9cbe842a11197d15caf9daae87aacdce30e3",
+    "experiments/image-domains/PROTOCOL.md": "8f6aea0011c228ebd456f60d787fd90fad4f77735d7c84035cf05ec0aa0b2aa5",
+    "artifacts/data/gc/corpus.json": "592cb315db523cc29ef236c94c8c850545d51160e0381c98c17faf7e408cc35e",
+    "artifacts/data/gc/manifest.json": "00a45cb1df4c0abe029bd5c2e7be33f20e9c528c66970198f0517ae901645ff5"
+  },
+  "audit": {
+    "original_categories": {
+      "astronomical": {
+        "pages": 3,
+        "folios": 1,
+        "hands": {
+          "4": 3
+        },
+        "quires": {
+          "I": 3
+        }
+      },
+      "balneological": {
+        "pages": 14,
+        "folios": 7,
+        "hands": {
+          "2": 14
+        },
+        "quires": {
+          "M": 14
+        }
+      },
+      "cosmological": {
+        "pages": 9,
+        "folios": 4,
+        "hands": {
+          "4": 6,
+          "2": 3
+        },
+        "quires": {
+          "I": 1,
+          "J": 4,
+          "N": 4
+        }
+      },
+      "herbal": {
+        "pages": 90,
+        "folios": 44,
+        "hands": {
+          "1": 63,
+          "2": 16,
+          "5": 3,
+          "3": 8
+        },
+        "quires": {
+          "A": 11,
+          "B": 10,
+          "C": 12,
+          "D": 10,
+          "E": 8,
+          "F": 10,
+          "G": 12,
+          "H": 3,
+          "O": 6,
+          "Q": 8
+        }
+      },
+      "pharmaceutical": {
+        "pages": 16,
+        "folios": 6,
+        "hands": {
+          "1": 16
+        },
+        "quires": {
+          "O": 6,
+          "S": 10
+        }
+      },
+      "stars": {
+        "pages": 15,
+        "folios": 8,
+        "hands": {
+          "3": 14,
+          "2": 1
+        },
+        "quires": {
+          "T": 15
+        }
+      },
+      "text": {
+        "pages": 5,
+        "folios": 3,
+        "hands": {
+          "1": 1,
+          "5": 1,
+          "2": 3
+        },
+        "quires": {
+          "A": 1,
+          "H": 1,
+          "N": 3
+        }
+      },
+      "zodiac": {
+        "pages": 10,
+        "folios": 3,
+        "hands": {
+          "4": 10
+        },
+        "quires": {
+          "J": 2,
+          "K": 8
+        }
+      }
+    },
+    "training_pages": 162,
+    "excluded": [],
+    "domains": {
+      "botanical": {
+        "folios": 50,
+        "pages": 106
+      },
+      "celestial/diagrams": {
+        "folios": 6,
+        "pages": 22
+      },
+      "people/bathing": {
+        "folios": 7,
+        "pages": 14
+      }
+    },
+    "tables": {
+      "hand_signature": {
+        "botanical": {
+          "1": 37,
+          "2": 8,
+          "5": 2,
+          "3": 3
+        },
+        "celestial/diagrams": {
+          "4": 5,
+          "2+4": 1
+        },
+        "people/bathing": {
+          "2": 7
+        }
+      },
+      "quire": {
+        "botanical": {
+          "A": 6,
+          "S": 4,
+          "B": 5,
+          "C": 6,
+          "D": 5,
+          "E": 4,
+          "F": 5,
+          "G": 6,
+          "H": 2,
+          "O": 4,
+          "Q": 3
+        },
+        "celestial/diagrams": {
+          "I": 1,
+          "J": 2,
+          "K": 2,
+          "N": 1
+        },
+        "people/bathing": {
+          "M": 7
+        }
+      }
+    },
+    "hand_mobility": {
+      "movable_folios": 15,
+      "mixed_strata": 1,
+      "total_strata": 6
+    },
+    "hand_quire_mobility": {
+      "movable_folios": 0,
+      "mixed_strata": 0,
+      "total_strata": 23
+    }
+  },
+  "seed": 20260922,
+  "permutations": 999,
+  "bootstrap": 2000,
+  "cpu_cap_seconds": 3600,
+  "output_cap_mib": 100,
+  "source": {
+    "transcription": "GC2a-n, v101; IVTFF 2a modified 2025-06-25",
+    "illustration_types": "https://www.voynich.nu/software/ivtt/IVTFF_format.pdf",
+    "visual_overview": "https://www.voynich.nu/illustr.html"
+  },
+  "frozen_at": 1789980728.4409962
+}

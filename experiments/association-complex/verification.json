@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-21",
+  "tests_passed": 73,
+  "frozen_hashes": "passed",
+  "planned_comparisons": 12,
+  "permutations_each": 999,
+  "bootstrap_draws_each": 2000,
+  "confirmed_signals": 0,
+  "profile_objects": 123,
+  "matching_objects": 121,
+  "profile_folios": 6,
+  "training_folios_only": true,
+  "source_scope": "Existing human image descriptions; not raw pixels; exploratory reuse",
+  "synthetic_interaction_check": {
+    "examples": 24,
+    "groups": 6,
+    "task": "XOR interaction with constant length/layout controls",
+    "balanced_accuracy": {
+      "control": 0.5,
+      "additive": 0.5,
+      "interactions": 1.0,
+      "nonlinear": 1.0
+    },
+    "permutation_p": {
+      "additive": 0.561,
+      "interactions": 0.001,
+      "nonlinear": 0.001
+    }
+  },
+  "figures": "Both PNG figures visually inspected: labels legible, no clipping",
+  "local_markdown_links": "passed",
+  "original_benchmark_hashes": "Previously reverified unchanged this turn",
+  "cpu_seconds": 8.44956087495666,
+  "gpu_jobs": 0,
+  "model_downloads": 0,
+  "final_test_scored": false,
+  "free_disk_gib": 53.91,
+  "output_mib": 1.153,
+  "branch": "main",
+  "result_sha256": "25c884b701a52f825536d352a3999782ce1f53cb01ae07974f1808997d2e8752"
+}

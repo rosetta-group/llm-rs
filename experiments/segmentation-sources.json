@@ -1,0 +1,13 @@
+{
+  "lexicon": {
+    "url": "https://raw.githubusercontent.com/giodegas/morphit-lemmatizer/b99d75d774367e4bedc5c5f339dec384777488ff/master/morph-it_048.txt",
+    "path": "artifacts/segmentation/sources/morph-it_048.txt",
+    "sha256": "705da3220c8b7dafa0731f057303da0c474efe248abe6d7ae331d1e470fd55fa",
+    "bytes": 19047561,
+    "version": "0.48",
+    "authors": "Marco Baroni and Eros Zanchetta",
+    "source": "https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it",
+    "license": "CC BY-SA 2.0 (one of the upstream licensing options)",
+    "retrieval": "Pinned mirror; upstream documentation endpoint returns HTTP 402"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-21",
+  "pod_id": "6o8irlwqlzhsb1",
+  "pod_name": "voynich-qwen-scaling-10usd",
+  "action": "Terminate stopped pod and delete attached non-network volumes",
+  "authorization": "User explicitly requested immediate deletion",
+  "verification": "Runpod audit log: deleted a Pod 6o8irlwqlzhsb1, 21/09/2026 08:39:38; network storage inventory 0 GB",
+  "network_volumes_remaining": 0,
+  "balance_at_check_usd": 8.89,
+  "local_results": "Previously downloaded and verified; preserved",
+  "new_cloud_jobs": 0
+}

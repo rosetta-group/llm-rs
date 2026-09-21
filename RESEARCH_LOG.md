@@ -1,14 +1,15 @@
-# Recovering meaning from the Voynich manuscript
+# Decipherment-method benchmark and Voynich evidence
 
 Updated: 2026-09-21. This is the current project overview and research record.
 Older reports preserve earlier experiments and may contain superseded next steps.
 
 ## Overall goal
 
-Recover and validate the meaning of Voynich text, then express it in English or Italian.
-Prediction, linguistic statistics, and model interpretation are tools toward that goal.
-They are not the final product, and a better prediction score is not a translation.
-Linear B remains a later target after the meaning-recovery method has been validated.
+The current deliverable is a validated decipherment-method benchmark with positive
+controls and honest Voynich negatives. Translation into English or Italian remains the
+long-term motivation; it is not in reach on the current evidence. A methods contribution
+may be publishable, but acceptance is not established by these experiments.
+Linear B remains deferred until the method earns further testing.
 
 **Meaning recovery:** an interpretation of the source that can be checked against independent evidence.
 **BPC:** bits per normalized transcription character; lower means better prediction.
@@ -20,11 +21,11 @@ its higher-level knowledge. We have not established a clean separation between t
 functions or shown that selective adaptation recovers meaning. TransformerLens and sparse
 autoencoders remain possible diagnostic tools, not sources of verified word meanings.
 
-## The route to translation
+## Evidence required before a translation claim
 
 ```text
 Build reliable text preparation and evaluation
-Use prediction experiments to identify useful models and unresolved assumptions
+Archive the closed prediction track; reopen only for a specific falsifiable mechanism
 Record the completed matched-context comparison and its limits
 Run controlled recovery with verified ciphertext and hidden original passages
 Improve word recovery on fresh passages, then reduce supplied cipher assumptions
@@ -43,7 +44,107 @@ Success is not a plausible English paragraph. A proposed reading must use consis
 rules, account for repeated forms, and make checkable predictions beyond the material
 used to invent it. We must also record contradictions and competing readings.
 
-## What we are doing now
+## Current work: benchmark, not another prediction sweep
+
+**Prediction track formally closed, 2026-09-21.** No additional BPC sweeps, longer runs,
+or larger-model comparisons. A future exception must name a mechanism, falsifiable
+contrast, fixed budget, and the interpretation it could reject. Lower BPC alone is
+insufficient. Existing results, failures, and unused diagnostic options remain archived.
+
+The [bounded CPU plan](experiments/METHOD_BENCHMARK_PLAN.md) supersedes earlier next-step
+suggestions. Its one-week budget is a cap, not a reason to run machines unnecessarily.
+No new GPU rental, model download, or Voynich final-test scoring is authorized by it.
+
+| Work | Status and measured result | Record |
+|---|---|---|
+| Cloud cleanup | Deleted stopped pod and attached temporary volumes; zero network volumes; $8.89 balance at check | [Audit](experiments/cloud-cleanup.json) |
+| Lexicon segmentation | Frozen after non-Dante tuning; 24 fresh passages. Modern word error 15.9% → 6.1%; historical 60.9% → 39.9%. Historical gate failed | [Report and graphs](experiments/segmentation/REPORT.md) |
+| Codebook-free recovery | Completed: modern substitution passes; historical candidate selection, broader control, and Naibbe fail | [Protocol and results](experiments/codebook-free/REPORT.md) |
+| Independent evidence pilot | 59 visual descriptions across six folios. Text gain +1.45 accuracy points, p=0.348; no established association | [Report and graphs](experiments/association/REPORT.md) |
+| Complex image associations | Completed: 123 descriptions, three text kernels, four endpoints; no reliable gain in 12 corrected tests. Nonlinear synthetic control passes | [Report and graphs](experiments/association-complex/REPORT.md) |
+| Broad image domains | Complete: 63 folio groups / three domains. Character text 72.2% balanced accuracy; hand/layout 94.4%; no incremental text gain | [Domain report](experiments/image-domains/REPORT.md) |
+| Deliverable | Auditable recovery benchmark and limitations; no Voynich translation claim | [Combined report](experiments/method-benchmark/REPORT.md) |
+
+**Segmentation finding:** the relative word-error reduction exceeds the declared 20%
+target on each corpus (61.4% modern, 34.5% historical). Only modern Italian meets the
+<10% word-error gate. Correct boundary characters do not imply recovered historical words.
+No tuning followed exposure of these evaluation answers. Fresh Dante passages still
+share an author/work with the earlier benchmark; this is not cross-author validation.
+
+**Codebook-free finding:** all 12 cases from four further fresh passages completed in
+83.5 seconds on CPU. The two modern substitution cases pass the recovery gate (0% letter
+error, 5.72% pooled word error). Both historical substitution cases contained an exact
+letter candidate, but the selection score chose a wrong expansion. Naibbe and the
+artificial variable-length positive control fail even under post-hoc best-candidate
+checks. This decoder is not validated for broader cipher recovery. That is a method
+negative, not proof that every possible unknown-cipher solver or Voynich interpretation
+must fail. No further tuning was performed on these now-exposed references.
+
+**Image finding:** existing Grove/Stolfi visual descriptions provide a narrow source
+outside text statistics, but annotators were not blinded to text. Root-versus-plant
+labels are confounded with folio; leaf/flower coloration has too few examples. The
+eligible root-color endpoint does not pass its permutation/interval gates. The larger
+herbal-page study requires new independent visual annotation and unseen evaluation.
+
+## Complex image-association extension
+
+The user requested relationships beyond simple visual attributes. We froze an exploratory
+extension with 35 botanical descriptors plus pairwise co-mentions, three text models
+(additive, interaction, radial), and four outcomes: root color, joint-profile prediction,
+within-page description matching, and relationships between objects. The source yields
+123 clear whole-plant descriptions on six training folios; 121 support same-page matching.
+Depending on the held-out folio, 58–70 joint-profile dimensions have training support.
+
+**Finding:** no reliable improvement in any of 12 predeclared comparisons. The largest
+apparent relational gain is +0.0719 correlation (raw p=0.153; interval −0.0821 to +0.2466).
+All Holm-adjusted p-values are 1.0. Same-page matching rank is 52.28–53.85% with text
+versus 54.65% for nonlinear controls. All three text models worsen joint-profile error.
+The nonlinear machinery detects a planted interaction at 100% held-out accuracy versus
+50% additive/control accuracy; this validates that check, not arbitrary manuscript patterns.
+
+**Limit:** this reuses the earlier catalogue; it is exploratory, not new independent
+confirmation. The targets are mentions in image descriptions, not raw pixels or known
+biological absences. Shape and texture coverage is thin: one triangular-shape example,
+two hairy/fuzzy examples, five striped examples. Independent masked-image annotation
+and fresh folios are the next data requirement. No new BPC work or cloud computation.
+
+Records: [protocol](experiments/association-complex/PROTOCOL.md),
+[full report and graphs](experiments/association-complex/REPORT.md),
+[all scores and null distributions](experiments/association-complex/results.json).
+
+## Broad illustration-domain study
+
+The earlier image studies were restricted to plants/roots. The user requested broader
+image domains. The new frozen study uses the transcription's conventional illustration
+categories and includes paragraph, label, and circular text. It audits 162 training
+pages/panels, then compares 142 illustrated pages in 63 physical groups: 50 botanical,
+7 people/bathing, and 6 celestial/diagram groups. Zodiac, astronomy, and cosmology remain
+separate in the coverage audit but share a broad classification target. Stars in text
+margins and text-only pages are not automatically labelled celestial. These are dominant
+domains, not exhaustive object-presence tags; zodiac pictures also contain people.
+
+**Finding:** held-out-folio character text scores 72.22% balanced accuracy, word text
+57.14%, and hand/layout controls 94.44%. Adding either text view gives 88.89%, with no
+supported incremental gain. Raw accuracy is misleading because 50/63 groups are botanical.
+The strict hand/layout/quire/position baseline also scores 94.44%.
+
+**Transfer limit:** the people/bathing examples all belong to quire M, so their cross-quire
+transfer cannot be assessed. Botanical/celestial cross-quire scores are 83.33% for controls,
+83.33% after adding character text, and 58.33% after adding words. Hand-conditioned labels
+cannot move at all in this binary comparison; that conditional test is unidentifiable.
+Conditioning on both hand and quire also leaves no domain exchanges in the full sample.
+This does not establish semantic independence, individual word meanings, or absence of
+an image–text relationship. It demonstrates why section recognition is an insufficient
+meaning benchmark.
+
+Records: [protocol](experiments/image-domains/PROTOCOL.md),
+[coverage, controlled comparisons, and graphs](experiments/image-domains/REPORT.md),
+[all scores and per-folio predictions](experiments/image-domains/results.json).
+A stronger next comparison would link text regions to independently annotated people,
+stars, containers, plant parts, or pipes/pools within matched manuscript contexts.
+No new BPC study, paid computation, or final-test scoring occurred.
+
+## Archived matched-context completion
 
 **Completed: matched-context training, all 18 local runs verified.** Each model trained
 and evaluated with 8, 32, or 128 preceding characters. We compared intact and within-line shuffled
@@ -94,9 +195,8 @@ by pass 20. Equal exposure does not equalize convergence or overfitting. These r
 do not measure semantic content or imply that the manuscript is meaningless. The folio
 intervals do not include every source of training/design uncertainty. Final-test pages remain sealed.
 
-The prediction suite is finished and its monitor is paused. No follow-up experiment
-was started. The proposed next meaning milestone remains fresh-passage word recovery
-with fewer supplied cipher assumptions, described below.
+The prediction suite is finished and its monitor is paused. The later CPU benchmark
+work is recorded above; the suite is not a reason to restart prediction training.
 
 A reporting error stopped the suite after run five: bootstrap and training seeds used
 the same dictionary field. The report now records both separately. A regression test
@@ -138,6 +238,11 @@ page scores, uncertainty, and limitations.
 | Blind substitution recovery | 100% normalized letters and words with spaces; 100% letters without spaces | Hidden-key recovery works with known Italian and a supplied simple cipher family | [Recovery benchmark](experiments/decipherment/REPORT.md) |
 | Restricted Naibbe recovery | 99.44% letters with structural codebook supplied | A positive control under strong declared assistance, not unknown-cipher discovery | [Recovery benchmark](experiments/decipherment/REPORT.md) |
 | Word-boundary failure and secondary repair | Primary space-free word error 99.32%; independently calibrated penalty reduces it to 60.33% for substitution and 61.53% for Naibbe | Correct letters do not guarantee correct words; secondary reuse is exploratory | [Boundary diagnostic](experiments/decipherment/boundary-diagnostic.json) |
+| Frozen lexicon segmentation | Fresh modern WER 6.15%; historical 39.90%; both improve >20% relatively, historical gate fails | Correct space insertion remains a separate, unresolved historical-language problem | [Fresh benchmark](experiments/segmentation/REPORT.md) |
+| Codebook-free recovery | Two modern substitution cases pass; historical selection, variable-length control, and Naibbe fail | Prior language score can prefer a wrong expansion even when exact letters are available | [Negative result](experiments/codebook-free/REPORT.md) |
+| Text–image pilot | 59 labels / six folios; +1.45 balanced-accuracy points; p=0.348 | Existing root-color descriptions do not establish a text association; independent annotation is still needed | [Pilot report](experiments/association/REPORT.md) |
+| Complex text–image associations | Three kernels × four endpoints on 123 descriptions; no corrected signal | Joint, nonlinear, and relational tests remain negative on this limited annotation source | [Extended report](experiments/association-complex/REPORT.md) |
+| Broad illustration domains | Botanical / people / celestial: text-only character balanced accuracy 72.22%; hand/layout 94.44%; no incremental gain | Domain and manuscript production are strongly entangled; some conditional effects are unidentifiable | [Domain report](experiments/image-domains/REPORT.md) |
 
 The frozen [completed-experiments report](experiments/report-completed/REPORT.md) and
 [PDF](output/pdf/voynich-completed-experiments.pdf) cover the Qwen, cloud, and character
@@ -168,7 +273,7 @@ are each one published sample, split into chronological blocks, not independent
 generator replications. Baseline robustness was measured; the corresponding full
 neural transcription/quire robustness matrix has not been run.
 
-## Next meaning milestone: reliable recovery with fewer hints
+## Recovery evidence and remaining limits
 
 **Known plaintext:** original text whose relationship to the ciphertext is independently verified.
 The first controlled benchmark is complete: the solver used unrelated modern Italian
@@ -187,8 +292,8 @@ Test which recoverable assumptions are defensible for Voynich
 Do not tune further against the six disclosed Dante passages and call that blind progress.
 A new recovery result needs fresh evaluation passages. A useful target is whole-word and
 passage recovery with source spaces removed. English or Italian rendering must preserve
-recovered content; it must not hide a wrong decoding. These are proposed next experiments,
-not additional training or cloud jobs launched by this study.
+recovered content; it must not hide a wrong decoding. The new CPU protocols above test these ideas. No additional training or cloud job is
+part of this benchmark. Further improvement needs a newly frozen method and fresh cases.
 
 For Voynich, independent anchors could include repeatable text/image relationships
 tested within section and hand, or mappings that predict unseen passages consistently.
@@ -205,9 +310,10 @@ when a concrete intervention can test a specific mapping or mechanism.
 - `artifacts/data/`: prepared text and metadata. `artifacts/results/`: baseline page scores.
 - `training_run_outputs/`: model configs, training curves, weights, scores, and run status. These large files are git-ignored.
 - [Literature and source links](RESEARCH_PLAN.md#key-reading): motivation, not independently reproduced findings.
-- The old Runpod GPU was stopped and its results downloaded and verified. The last
-  recorded balance was $9.18 from $10; this is not a current balance. Temporary stopped
-  storage was last quoted at $0.014/hour and its deletion is still pending. No new cloud run is authorized by this local suite.
+- Runpod pod `6o8irlwqlzhsb1` and attached non-network volumes were deleted on
+  2026-09-21 after the explicit user request. The audit log confirms deletion; network
+  storage is 0 GB. Balance was $8.89 at check. Local results remain preserved.
+  [Cleanup audit](experiments/cloud-cleanup.json). No new cloud run is planned.
 - The matched-context suite is complete and its progress monitor is paused.
   [Final verification](experiments/report-matched/verification.json) records checkpoint, exposure, hash, and resource checks.
 

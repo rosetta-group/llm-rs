@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "6e167c4cc59536b7a337b086b03e719867880500050d83acd843cdf3202ba310",
+  "code_sha256": "299478979e49189cf0af3282ce58c149d8149d630e8a8cc9e9f2b34449e9d110",
+  "source": {
+    "url": "https://www.ic.unicamp.br/~stolfi/EXPORT/voynich/98-02-01-lotsa-labels/labtit-98-07-20.idx",
+    "path": "artifacts/association/labels.idx",
+    "sha256": "cb210aaa75dfd2e9d86e63fd4cff1684acdfc2669bd6a6f9969f4e6bfe10071c",
+    "attribution": "John Grove / Jorge Stolfi, 1998",
+    "reuse_license": "Not found; raw copy remains local"
+  },
+  "metadata_sha256": "97d5e97339d565a929215b487630813d760425bdcd8c6710a9fad29f690245df",
+  "split_sha256": "00a45cb1df4c0abe029bd5c2e7be33f20e9c528c66970198f0517ae901645ff5",
+  "seed": 42,
+  "permutations": 999,
+  "bootstrap": 2000
+}

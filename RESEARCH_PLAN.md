@@ -1,13 +1,16 @@
 # Voynich research plan
 
-Updated: 2026-09-20
+Updated: 2026-09-21
 
-Recover and validate Voynich meaning, then express it in English or Italian.
-Selective LLM adaptation and prediction comparisons are research methods toward that goal.
-See [RESEARCH_LOG.md](RESEARCH_LOG.md) for the current project overview, full experiment
-history, live work, and the next meaning-recovery deliverable.
+**Current deliverable: a validated decipherment-method benchmark with positive controls
+and honest Voynich negatives.** Translation is a long-term motivation, not a reachable
+claim on current evidence. See [the current CPU plan](experiments/METHOD_BENCHMARK_PLAN.md),
+[benchmark results](experiments/method-benchmark/REPORT.md), and [research record](RESEARCH_LOG.md).
 
-**Translation is the ultimate goal. Prediction is a diagnostic milestone.** There is no accepted English or Italian translation to use as ground truth.
+**Prediction track formally closed.** No more broad BPC experiments, model scaling, or
+longer training. Any exception needs a named mechanism, falsifiable contrast, fixed
+budget, and a statement of which interpretation the result could reject. Unfinished
+robustness checks below are archived possibilities, not a queue to execute.
 
 ## Terms
 
@@ -19,14 +22,12 @@ history, live work, and the next meaning-recovery deliverable.
 ## Workflow
 
 ```text
-Repair data preparation and training
-Freeze evaluation splits and controls
-Compare simple models with selective LLM adaptation
-Use the completed matched-context comparison with its overfitting limitation
-Build a verified known-plaintext benchmark and measure original-content recovery
-Test connections between text and independently annotated images
-Test constrained Voynich interpretations on unseen material
-Use remaining prediction robustness checks when they resolve a specific uncertainty
+Archive completed prediction experiments
+Tune segmentation on non-Dante development text
+Freeze, then grade fresh hidden passages
+Remove cipher-family and codebook hints; report positive controls and failures
+Test existing visual annotations with held-out folios and layout controls
+Publish the validated benchmark and its limits; require new evidence before translation
 ```
 
 ## 1. Make the pipeline reliable
@@ -54,7 +55,7 @@ Use remaining prediction robustness checks when they resolve a specific uncertai
 
 **Deliverable:** fixed split manifests, scoring rules, and control-generation scripts.
 
-## 3. Measure residual predictability
+## 3. Measure residual predictability — closed
 
 Completed on 2026-09-20. See `experiments/report-completed/REPORT.md` and
 `output/pdf/voynich-completed-experiments.pdf` for the graphs and interpretation.
@@ -71,11 +72,11 @@ All model selection used validation; final-test scores remain sealed.
 - GRU control scores: shuffled GC 2.5159; Timm 2.0807; Naibbe 1.7366.
   Qwen wins on the Timm sample. All twelve character runs are complete and verified.
 - Cloud base models scored 2.4771 (1.7B) and 2.4689 (8B). The paired gain interval
-  includes zero. The GPU is stopped; no further paid comparison is planned.
+  includes zero. The pod and attached storage are deleted; no further paid comparison is planned.
 
 Twenty-two selected runs were verified. Character outputs use about 62 MiB, with
-no pretrained downloads. Temporary Runpod storage awaits deletion approval and
-was last quoted at $0.014/hour. The local suite is complete and its progress monitor is paused.
+no pretrained downloads. Runpod pod and attached non-network volumes were deleted on 2026-09-21;
+the network-volume inventory is empty. See `experiments/cloud-cleanup.json`. The local suite is complete and its progress monitor is paused.
 
 The saved-GRU context ablations are complete: [CONTEXT.md](experiments/CONTEXT.md).
 Matched-context retraining is complete: all 18 runs verified. Mean 8-to-128 gains were
@@ -83,9 +84,9 @@ Matched-context retraining is complete: all 18 runs verified. Mean 8-to-128 gain
 overfit by the fixed final epoch. See the [final report](experiments/report-matched/REPORT.md)
 and [fixed protocol](experiments/MATCHED_PLAN.md).
 The first controlled known-plaintext benchmark is complete; see
-[the recovery report](experiments/decipherment/REPORT.md). Next, improve boundary recovery
-on fresh passages and reduce supplied cipher assumptions. Transcription and quire checks
-remain useful diagnostics; finishing every such check is not a prerequisite for that benchmark.
+[the recovery report](experiments/decipherment/REPORT.md). Fresh-passage lexicon segmentation and codebook-free recovery now have separate frozen
+protocols in `experiments/segmentation/` and `experiments/codebook-free/`. Transcription
+and quire prediction checks are deferred unless they test a specific mechanism.
 See `experiments/CHARACTER_PLAN.md` and `experiments/CLOUD_PLAN.md` for fixed settings.
 Use the random tiny model for pipeline checks only.
 
@@ -106,7 +107,7 @@ Run the same evaluation on intact text and words shuffled within each line. Keep
 
 **Interpretation:** a gain identifies structure to explain. It does not prove language or translation. Failure does not prove meaninglessness.
 
-## 4. Check transcription and boundary assumptions
+## 4. Check transcription and boundary assumptions — conditional only
 
 - Compare the current transcription with an independent one on matched pages.
 - Compare transcription characters, composite symbols, and learned symbol groups.
@@ -117,6 +118,14 @@ Run the same evaluation on intact text and words shuffled within each line. Keep
 
 ## 5. Seek independent evidence of meaning
 
+**Started and measured:** the Grove/Stolfi pharmaceutical-label pilot uses explicit light/dark
+root descriptions, not guessed plant identities. With 59 examples across six training
+folios, text improves balanced accuracy by 1.45 points over length/layout controls;
+p=0.348, so no association is established. See [frozen protocol](experiments/association/PROTOCOL.md)
+and [report](experiments/association/REPORT.md). The larger herbal-page study still needs
+independent visual annotations; missing part mentions cannot serve as negative labels.
+
+
 Test whether text predicts observable image properties within the same section and scribal hand. For example, use independently annotated leaf counts or diagram shapes.
 
 - Control for text length and layout.
@@ -126,6 +135,23 @@ Test whether text predicts observable image properties within the same section a
 
 **Success:** reproducible text-image association beyond the matched controls. This supports a limited association, not a translated sentence.
 
+**Complex extension completed:** [joint and nonlinear associations](experiments/association-complex/REPORT.md)
+adds 35 descriptors and pairwise co-mentions on 123 plants, same-page description retrieval,
+and relational alignment. Three model classes × four endpoints yield no reliable gain
+under whole-folio holdout and 999 within-page permutations; all 12 Holm p-values are 1.0.
+A synthetic interaction control passes. This is exploratory reuse of existing descriptions,
+not direct pixel modelling or independently blinded annotation. The next richer data need
+is standardized morphology/spatial-relation annotation with writing hidden and fresh folios.
+
+**Broad image domains completed:** [domain-level study](experiments/image-domains/REPORT.md)
+compares botanical, people/bathing, and celestial/diagram categories on 63 training folio
+groups. Character text alone scores 72.22% balanced accuracy; hand/layout controls score
+94.44%; adding text does not improve them. People/bathing occupies one quire; other
+conditional domain tests are unidentifiable because hand and domain are aligned. Existing
+illustration metadata supplies dominant domains, not independent object-presence labels.
+Next, link nearby text to independently annotated objects within matched domains, including
+people/stars in zodiac diagrams and people/pipes/pools in biological scenes.
+
 ## 6. Test a route to English or Italian
 
 The first verified recovery benchmark is complete: six Dante passages, two hidden keys,
@@ -134,11 +160,13 @@ restricted Naibbe recovered 99.44% of letters with its structural codebook suppl
 Space-free word recovery remains poor (60–62% error after a secondary diagnostic).
 See [methods, limitations, and graphs](experiments/decipherment/REPORT.md).
 
-Improve segmentation using independent development material, then score fresh passages.
-Keep evaluation originals hidden from method selection and declare every supplied hint.
-Gradually reduce known cipher structure. This remains a method check, not a Voynich reading.
+The new lexicon benchmark was tuned only on non-Dante Italian and scored 24 fresh passages.
+Modern word error is 6.1%; historical word error remains 39.9%. The improvement gate passed;
+the declared <10% error gate on both corpora failed. See [segmentation report](experiments/segmentation/REPORT.md).
+The next codebook-free benchmark supplies only ciphertext and a known Italian prior;
+its representation, CPU cap, controls, and limitations are frozen before grading.
 
-Compare input-layer adaptation with adaptation of both early and late layers. Use TransformerLens for targeted activation interventions. Add SAEs only for a specific question that simpler interventions cannot answer.
+TransformerLens or SAEs are deferred unless a concrete mechanism warrants an intervention. No new layer or BPC sweep is planned.
 
 Apply candidate Voynich mappings consistently across unseen passages. Test repeated forms and independent image associations. Record competing interpretations and contradictions. Fluent output, feature names, and round-trip consistency are insufficient evidence on their own.
 
@@ -149,7 +177,8 @@ Apply candidate Voynich mappings consistently across unseen passages. Test repea
 1. Dataset audit, fixed splits, and working controls.
 2. Baseline and selective-adaptation results table.
 3. Context, transcription, and boundary robustness report.
-4. Controlled content recovery alongside prediction studies, then independent Voynich grounding.
+4. Frozen decipherment-method benchmark, fresh positive controls, negative results, and an image-association pilot.
+5. Reproducible report suitable for assessment as a methods contribution; publication is not guaranteed.
 
 After each milestone, report: completed work, measured results, blockers, and the next experiment. During active work, give brief updates when findings or decisions change. Do not start long or paid training runs without an agreed compute budget.
 
@@ -165,13 +194,16 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Local Qwen adapters and layer controls | Implemented; initial seed-42 experiments recorded in `experiments/RESULTS.md` |
 | Longer primary runs | Both 3,000-update runs complete; outer 2.4819 and random 2.4828 validation BPC |
 | Five training seeds and neural controls | Complete: five intact seeds and three controls; `experiments/REPLICATIONS.md` |
-| Larger base-model comparison | Complete: 8B gain over 1.7B is 0.0083 BPC, with folio interval crossing zero; GPU stopped |
+| Larger base-model comparison | Complete: 8B gain over 1.7B is 0.0083 BPC, with folio interval crossing zero; pod/storage deleted |
 | Character models from scratch | Twelve runs complete: GRU mean 2.332 BPC; training exposure differs from Qwen |
 | Exact context ablation | Thirty evaluations complete: 8–128 characters, fixed GRU weights, stride 1; `experiments/CONTEXT.md` |
 | Training matched to short histories | Complete: 18 verified runs; no established extra intact context gain, with later overfitting; `experiments/report-matched/REPORT.md` |
 | Historical/modern language statistics | Complete: eleven pinned corpus samples, two Voynich transcriptions, adjacency controls; `experiments/language-comparison/REPORT.md` |
 | Known-plaintext recovery | First controlled benchmark complete; spaced substitution exact, space-free word recovery still poor; `experiments/decipherment/REPORT.md` |
-| Text-image association | Proposed independent grounding experiment; not implemented yet |
+| Lexicon segmentation | Fresh 24-passage evaluation complete: 6.1% modern / 39.9% historical word error |
+| Codebook-free recovery | Complete: modern substitution passes; historical selection and broader/Naibbe controls fail; `experiments/codebook-free/REPORT.md` |
+| Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
+| Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

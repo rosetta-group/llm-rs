@@ -1,0 +1,155 @@
+{
+  "parameters": {
+    "alpha": 1.0,
+    "bigram": 0.5,
+    "unknown": 3.0
+  },
+  "beam": 8,
+  "maximum": 32,
+  "trials": [
+    {
+      "alpha": 0.01,
+      "bigram": 0.0,
+      "unknown": 2.0,
+      "word_error_rate": 0.07770845150311968
+    },
+    {
+      "alpha": 0.01,
+      "bigram": 0.0,
+      "unknown": 3.0,
+      "word_error_rate": 0.07241444507468331
+    },
+    {
+      "alpha": 0.01,
+      "bigram": 0.5,
+      "unknown": 2.0,
+      "word_error_rate": 0.07222537341652487
+    },
+    {
+      "alpha": 0.01,
+      "bigram": 0.5,
+      "unknown": 3.0,
+      "word_error_rate": 0.06863301191151447
+    },
+    {
+      "alpha": 0.01,
+      "bigram": 0.9,
+      "unknown": 2.0,
+      "word_error_rate": 0.07581773492153526
+    },
+    {
+      "alpha": 0.01,
+      "bigram": 0.9,
+      "unknown": 3.0,
+      "word_error_rate": 0.06712043864624692
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.0,
+      "unknown": 2.0,
+      "word_error_rate": 0.07449423331442617
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.0,
+      "unknown": 3.0,
+      "word_error_rate": 0.06901115522783134
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.5,
+      "unknown": 2.0,
+      "word_error_rate": 0.06768765362072225
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.5,
+      "unknown": 3.0,
+      "word_error_rate": 0.06466250709018719
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.9,
+      "unknown": 2.0,
+      "word_error_rate": 0.07146908678389109
+    },
+    {
+      "alpha": 0.1,
+      "bigram": 0.9,
+      "unknown": 3.0,
+      "word_error_rate": 0.06296086216676121
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.0,
+      "unknown": 2.0,
+      "word_error_rate": 0.08640574777840802
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.0,
+      "unknown": 3.0,
+      "word_error_rate": 0.06712043864624692
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.5,
+      "unknown": 2.0,
+      "word_error_rate": 0.07090187180941576
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.5,
+      "unknown": 3.0,
+      "word_error_rate": 0.06144828890149367
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.9,
+      "unknown": 2.0,
+      "word_error_rate": 0.07525051994705993
+    },
+    {
+      "alpha": 1.0,
+      "bigram": 0.9,
+      "unknown": 3.0,
+      "word_error_rate": 0.06296086216676121
+    }
+  ],
+  "development_sentences": 200,
+  "lexicon_forms": 404346,
+  "train_source": {
+    "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu",
+    "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-train.conllu",
+    "sha256": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+    "bytes": 19443447
+  },
+  "development_source": {
+    "path": "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-dev.conllu",
+    "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-dev.conllu",
+    "sha256": "1bc7dda04c58a4d87e2e6607a0e612462b87e7da6dde56be610d3749521af744",
+    "bytes": 833985
+  },
+  "lexicon": {
+    "url": "https://raw.githubusercontent.com/giodegas/morphit-lemmatizer/b99d75d774367e4bedc5c5f339dec384777488ff/master/morph-it_048.txt",
+    "path": "artifacts/segmentation/sources/morph-it_048.txt",
+    "sha256": "705da3220c8b7dafa0731f057303da0c474efe248abe6d7ae331d1e470fd55fa",
+    "bytes": 19047561,
+    "version": "0.48",
+    "authors": "Marco Baroni and Eros Zanchetta",
+    "source": "https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it",
+    "license": "CC BY-SA 2.0 (one of the upstream licensing options)",
+    "retrieval": "Pinned mirror; upstream documentation endpoint returns HTTP 402"
+  },
+  "code_sha256": {
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "experiments/segmentation.py": "67761646e6ccc4506f33a5cf0cb9ca4fd24ee5d992216db185f5acc7299849c8",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+    "voynich/corpora.py": "c9869572ca3d3ed0666afd451c19d8bb85e591815c5526b62987fab9224c9839"
+  },
+  "model_sha256": "be88729fa898a3d91dcc8d1b59e72c7b0fce55b378ac79451b69289eaefe48f7",
+  "protocol_sha256": "c95f4619f1b9deb2f2f0bd45d3a97bd72f46e8cbe2300c91eaf108f22c0c0c75",
+  "at": 1789976770.413656,
+  "seconds": 19.2724871635437,
+  "scope": "Non-Dante training/development only; evaluation not generated yet"
+}
