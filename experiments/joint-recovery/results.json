@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "modern": {
+      "cases": 2,
+      "cer": 0.12498799116149487,
+      "wer": 0.5803310613437196,
+      "gate_passes": 0,
+      "previous_standard_method_cer": 3.1883141049497583,
+      "previous_letters": "1,200-1,800 per passage"
+    },
+    "historical": {
+      "cases": 2,
+      "cer": 0.334822259445375,
+      "wer": 0.8697743248242693,
+      "gate_passes": 0,
+      "previous_standard_method_cer": 3.036854103343465,
+      "previous_letters": "1,200-1,800 per passage"
+    }
+  },
+  "cases": [
+    {
+      "id": "1c3730bf1372166c",
+      "passage": "ead3c5048a57d785",
+      "dataset": "historical",
+      "characters": 5217,
+      "words": 1260,
+      "character_errors": 1571,
+      "word_errors": 1079,
+      "cer": 0.3011309181521947,
+      "wer": 0.8563492063492063,
+      "gate": false,
+      "segmentation_agreement": 0.8515258215962441,
+      "recovered_letters": 5059,
+      "joint": {
+        "pieces": 2006,
+        "parses": 12738,
+        "restart_scores": [
+          -26152.79754596343,
+          -26149.656122328095,
+          -26177.074536925145,
+          -26161.24568599436
+        ],
+        "restarts": 4,
+        "cap_hit": false,
+        "seconds": 74.46389808307867
+      },
+      "rounds": [
+        {
+          "refined_bits": 46868.9593375178,
+          "refine_seconds": 66.40706995804794,
+          "cap_hit": false,
+          "warm_log_likelihood": -26106.709572127027,
+          "warm_cap_hit": false
+        },
+        {
+          "refined_bits": 45677.428905811714,
+          "refine_seconds": 72.28542033291887,
+          "cap_hit": false
+        }
+      ],
+      "seconds": 222.6920725830132,
+      "case_cap_hit": false
+    },
+    {
+      "id": "3f999eea9a4aa5b2",
+      "passage": "db04d194e3473d2f",
+      "dataset": "modern",
+      "characters": 5208,
+      "words": 1003,
+      "character_errors": 809,
+      "word_errors": 678,
+      "cer": 0.1553379416282642,
+      "wer": 0.6759720837487537,
+      "gate": false,
+      "segmentation_agreement": 0.8511013215859031,
+      "recovered_letters": 5046,
+      "joint": {
+        "pieces": 1947,
+        "parses": 11944,
+        "restart_scores": [
+          -25956.384714386004,
+          -25967.424235071252,
+          -25986.709901911614,
+          -25952.219653914388
+        ],
+        "restarts": 4,
+        "cap_hit": false,
+        "seconds": 70.14763779193163
+      },
+      "rounds": [
+        {
+          "refined_bits": 42963.53173298599,
+          "refine_seconds": 71.10901470808312,
+          "cap_hit": false,
+          "warm_log_likelihood": -25815.95435677131,
+          "warm_cap_hit": false
+        },
+        {
+          "refined_bits": 42924.081844809465,
+          "refine_seconds": 70.59423625003546,
+          "cap_hit": false
+        }
+      ],
+      "seconds": 220.73023558408022,
+      "case_cap_hit": false
+    },
+    {
+      "id": "65ab0f00327e11ad",
+      "passage": "858c1ecc5eda6d97",
+      "dataset": "modern",
+      "characters": 5201,
+      "words": 1051,
+      "character_errors": 492,
+      "word_errors": 514,
+      "cer": 0.09459719284752932,
+      "wer": 0.489058039961941,
+      "gate": false,
+      "segmentation_agreement": 0.9094662341492186,
+      "recovered_letters": 5111,
+      "joint": {
+        "pieces": 2050,
+        "parses": 12568,
+        "restart_scores": [
+          -26107.51995355767,
+          -26082.821456305464,
+          -26039.63965459033,
+          -26118.711945300078
+        ],
+        "restarts": 4,
+        "cap_hit": false,
+        "seconds": 74.35075691703241
+      },
+      "rounds": [
+        {
+          "refined_bits": 41454.03877013588,
+          "refine_seconds": 53.34146187501028,
+          "cap_hit": false,
+          "warm_log_likelihood": -25980.495264773883,
+          "warm_cap_hit": false
+        },
+        {
+          "refined_bits": 41420.57294807571,
+          "refine_seconds": 49.16240424988791,
+          "cap_hit": false
+        }
+      ],
+      "seconds": 186.34104349999689,
+      "case_cap_hit": false
+    },
+    {
+      "id": "e940964d539580b8",
+      "passage": "c57f5c347761affc",
+      "dataset": "historical",
+      "characters": 5529,
+      "words": 1443,
+      "character_errors": 2027,
+      "word_errors": 1272,
+      "cer": 0.3666124073069271,
+      "wer": 0.8814968814968815,
+      "gate": false,
+      "segmentation_agreement": 0.890818858560794,
+      "recovered_letters": 5348,
+      "joint": {
+        "pieces": 2103,
+        "parses": 14035,
+        "restart_scores": [
+          -27834.307758155326,
+          -27834.730733342803,
+          -27830.01543296521,
+          -27840.288174331108
+        ],
+        "restarts": 4,
+        "cap_hit": false,
+        "seconds": 82.39499195897952
+      },
+      "rounds": [
+        {
+          "refined_bits": 49785.16140457013,
+          "refine_seconds": 79.3762486249907,
+          "cap_hit": false,
+          "warm_log_likelihood": -27749.621232346726,
+          "warm_cap_hit": false
+        },
+        {
+          "refined_bits": 48747.4378280974,
+          "refine_seconds": 67.440571833984,
+          "cap_hit": false
+        }
+      ],
+      "seconds": 239.73542366700713,
+      "case_cap_hit": false
+    }
+  ],
+  "challenge": {
+    "public_sha256": "248704847c12551aa9cccf9c3bb1768634cdb575a32d70bbae752d16693451e2",
+    "answers_sha256": "0235e4f5c5776c65cdab11f4a12f5440f0243c2b48410e4a254ba6c52bef8df6",
+    "freeze_sha256": "d5b0a817fca015e2da8508c994124da9ed51da45820c59f546aa4859ea696517",
+    "freeze_commit": "64d37f4d083b0ca477621fbccba4a0ed76f0fb12",
+    "cases": 4,
+    "independent_passages": 4,
+    "letters": [
+      5201,
+      5208,
+      5217,
+      5529
+    ],
+    "at": 1790008577.1419961
+  },
+  "predictions_sha256": "30247f06ae6fd592a99ba7005cbe8b61e23936ab5085036395d05f86bfc702a0",
+  "naibbe_gate": false,
+  "voynich_run": false,
+  "final_test_scored": false
+}
