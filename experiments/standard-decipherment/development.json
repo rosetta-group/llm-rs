@@ -1,0 +1,403 @@
+{
+  "segmentation": [
+    {
+      "weight": 1,
+      "parameters": {
+        "alpha": 0.1,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.11082251082251082
+    },
+    {
+      "weight": 1,
+      "parameters": {
+        "alpha": 1.0,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.11645021645021646
+    },
+    {
+      "weight": 4,
+      "parameters": {
+        "alpha": 0.1,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.10606060606060606
+    },
+    {
+      "weight": 4,
+      "parameters": {
+        "alpha": 1.0,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.10735930735930736
+    },
+    {
+      "weight": 16,
+      "parameters": {
+        "alpha": 0.1,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.10562770562770563
+    },
+    {
+      "weight": 16,
+      "parameters": {
+        "alpha": 1.0,
+        "bigram": 0.5,
+        "unknown": 3.0
+      },
+      "word_error_rate": 0.1025974025974026
+    }
+  ],
+  "selected_segmenter": {
+    "weight": 16,
+    "parameters": {
+      "alpha": 1.0,
+      "bigram": 0.5,
+      "unknown": 3.0
+    },
+    "word_error_rate": 0.1025974025974026
+  },
+  "selected_width": 2048,
+  "beam": [
+    {
+      "width": 128,
+      "mean_cer": 0.022507173829462733,
+      "cases": [
+        {
+          "id": "novellino-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.14162500004749745
+        },
+        {
+          "id": "novellino-005",
+          "family": "homophonic",
+          "cer": 0.10939357907253269,
+          "status": "complete",
+          "seconds": 0.24918624991551042
+        },
+        {
+          "id": "novellino-010",
+          "family": "substitution",
+          "cer": 0.07066381156316917,
+          "status": "complete",
+          "seconds": 0.05306566599756479
+        },
+        {
+          "id": "novellino-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.1621147090336308
+        },
+        {
+          "id": "decameron-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.13683020800817758
+        },
+        {
+          "id": "decameron-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.41292237502057105
+        },
+        {
+          "id": "decameron-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.13567416602745652
+        },
+        {
+          "id": "decameron-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.4128614580258727
+        }
+      ]
+    },
+    {
+      "width": 512,
+      "mean_cer": 0.012039239001189061,
+      "cases": [
+        {
+          "id": "novellino-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.22986320802010596
+        },
+        {
+          "id": "novellino-005",
+          "family": "homophonic",
+          "cer": 0.09631391200951249,
+          "status": "complete",
+          "seconds": 0.49312016693875194
+        },
+        {
+          "id": "novellino-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.13664874993264675
+        },
+        {
+          "id": "novellino-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.2954425000352785
+        },
+        {
+          "id": "decameron-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.384686499950476
+        },
+        {
+          "id": "decameron-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.8494279590668157
+        },
+        {
+          "id": "decameron-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.38461595796979964
+        },
+        {
+          "id": "decameron-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.8281393749639392
+        }
+      ]
+    },
+    {
+      "width": 2048,
+      "mean_cer": 0.0,
+      "cases": [
+        {
+          "id": "novellino-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.8960967909079045
+        },
+        {
+          "id": "novellino-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 1.9910467920126393
+        },
+        {
+          "id": "novellino-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 0.5243357080034912
+        },
+        {
+          "id": "novellino-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 1.1822799170622602
+        },
+        {
+          "id": "decameron-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 1.5333215839928016
+        },
+        {
+          "id": "decameron-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 3.391976125072688
+        },
+        {
+          "id": "decameron-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 1.4790688749635592
+        },
+        {
+          "id": "decameron-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 3.2956216249149293
+        }
+      ]
+    },
+    {
+      "width": 8192,
+      "mean_cer": 0.0,
+      "cases": [
+        {
+          "id": "novellino-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 3.552386249997653
+        },
+        {
+          "id": "novellino-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 8.042484042001888
+        },
+        {
+          "id": "novellino-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 2.120882875053212
+        },
+        {
+          "id": "novellino-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 4.795950124971569
+        },
+        {
+          "id": "decameron-005",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 5.947197041939944
+        },
+        {
+          "id": "decameron-005",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 15.293228750000708
+        },
+        {
+          "id": "decameron-010",
+          "family": "substitution",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 7.102269041934051
+        },
+        {
+          "id": "decameron-010",
+          "family": "homophonic",
+          "cer": 0.0,
+          "status": "complete",
+          "seconds": 13.338386583025567
+        }
+      ]
+    }
+  ],
+  "selection": [
+    {
+      "id": "novellino-005",
+      "old_selected": 1,
+      "mdl_selected": 0,
+      "old_cer": 1.4482758620689655,
+      "mdl_cer": 0.0,
+      "candidates": [
+        {
+          "method": "bijection",
+          "bits": 2835.371178005436,
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "bits": 6442.800104677458,
+          "cer": 1.4482758620689655
+        }
+      ]
+    },
+    {
+      "id": "novellino-010",
+      "old_selected": 0,
+      "mdl_selected": 0,
+      "old_cer": 0.0,
+      "mdl_cer": 0.0,
+      "candidates": [
+        {
+          "method": "bijection",
+          "bits": 1755.6584456638832,
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "bits": 3907.942002095374,
+          "cer": 1.4582441113490363
+        }
+      ]
+    },
+    {
+      "id": "decameron-005",
+      "old_selected": 0,
+      "mdl_selected": 0,
+      "old_cer": 0.0,
+      "mdl_cer": 0.0,
+      "candidates": [
+        {
+          "method": "bijection",
+          "bits": 4104.434389413345,
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "bits": 11483.02230886219,
+          "cer": 1.4421428571428572
+        }
+      ]
+    },
+    {
+      "id": "decameron-010",
+      "old_selected": 0,
+      "mdl_selected": 0,
+      "old_cer": 0.0,
+      "mdl_cer": 0.0,
+      "candidates": [
+        {
+          "method": "bijection",
+          "bits": 4149.95002391213,
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "bits": 10763.748991941515,
+          "cer": 1.457142857142857
+        }
+      ]
+    }
+  ],
+  "development_items": 36,
+  "training_words": {
+    "modern": 216579,
+    "historical": 62756
+  },
+  "historical_lexicon_forms": 8436,
+  "added_historical_forms": 2995
+}

@@ -221,3 +221,14 @@ recovery uses separate hidden source passages. Voynich final test scoring remain
 - [Rozanova & Temerev, 2026: A Glyph Is Not a Letter…](https://arxiv.org/html/2608.17096v1) Preprint; challenges assumed symbol and boundary units.
 
 These sources motivate experiments. Their findings have not been independently reproduced in this repo.
+
+## Superseding priorities: 2026-09-21
+
+The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) supersedes
+older next-step suggestions. Archive committed (`28ceb16`); use total description length
+including key and residual ambiguity costs; compare published homophonic search; build
+historical training/development from Novellino and Decameron, with Dante held for evaluation.
+Freeze in Git before new grading. CPU only. Image modelling is parked pending independent
+masked annotations from two annotators. No further catalogue study. The reserved Voynich
+shuffle mechanism remains gated on Naibbe recovery. Write up methods and bounded negatives;
+do not claim a translation or a general impossibility result.

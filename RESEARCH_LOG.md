@@ -46,6 +46,21 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-21 priority change.** Archived work is committed as `28ceb16`.
+The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) now governs
+CPU development: total description length, published homophonic comparators, and a
+non-Dante historical lexicon. A separate commit must freeze the method before fresh grading.
+
+**Image track parked.** All three catalogue-based studies are preserved. No fourth study
+on Grove/Stolfi will run. Reopening requires text-masked annotation, two annotators,
+agreement statistics, and a design that can separate image domain from hand and quire.
+
+**Voynich mechanism reserved.** The intact-versus-within-line-shuffle comparison stays
+closed until codebook-free Naibbe meets the frozen letter and word recovery gates.
+A standard one-letter homophonic model cannot express every Naibbe unit. Failure of that
+model alone cannot rule out an unknown variable-length cipher or meaning in Voynich.
+
+
 **Prediction track formally closed, 2026-09-21.** No additional BPC sweeps, longer runs,
 or larger-model comparisons. A future exception must name a mechanism, falsifiable
 contrast, fixed budget, and the interpretation it could reject. Lower BPC alone is

@@ -10,3 +10,8 @@ experiments/generated/
 .DS_Store
 .idea/
 tmp/
+
+# Python and Numba compilation caches
+__pycache__/
+*.nbc
+*.nbi

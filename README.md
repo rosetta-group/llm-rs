@@ -260,3 +260,25 @@ Sources: [IVTFF specification](https://www.voynich.nu/software/ivtt/IVTFF_format
 Naibbe data is credited to Michael A. Greshko (2025),
 [The Naibbe cipher](https://doi.org/10.1080/01611194.2025.2566408).
 Downloaded data and licenses remain under `artifacts/sources/`.
+
+### Standard decipherment comparison
+
+Current protocol: [standard-method benchmark](experiments/standard-decipherment/PROTOCOL.md).
+Image modelling is parked pending independent annotations. Prediction sweeps remain closed.
+The Voynich mechanism test is reserved until the Naibbe recovery gate passes.
+
+```sh
+.venv/bin/python -m pip install -r experiments/standard-decipherment/requirements.txt
+.venv/bin/python -m experiments.historical_sources prepare
+.venv/bin/python -m experiments.standard_decipherment develop
+.venv/bin/python -m experiments.standard_decipherment freeze
+# Commit the method and freeze before preparing evaluation cases.
+.venv/bin/python -m experiments.standard_decipherment prepare
+.venv/bin/python -m experiments.standard_decipherment solve
+.venv/bin/python -m experiments.standard_decipherment segment_controls
+.venv/bin/python -m experiments.standard_decipherment evaluate
+```
+
+Existing freezes refuse overwrite. `verify` checks the committed method and pinned inputs.
+Raw prose, models and private answers live under ignored `artifacts/`; source manifests,
+development results, protocols and aggregate evaluation results are tracked.
