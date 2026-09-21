@@ -1,0 +1,41 @@
+{
+  "code_sha256": {
+    "voynich/joint_segments.py": "aea22ff0f80b89adaf1acb93efbafbe659fe3bb2ba2de57353a69c3777101260",
+    "voynich/joint_segments_v2.py": "9af72d52809033f70cb06a647f6006ec6bdd922456d02505501f6781ea06ce2a",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/homophonic.py": "789b4d3e97ebc4ca24ff7bbb25c470fd7509a364520981b5d909271e92483bb7",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+    "experiments/joint_development.py": "a3b7fea596cacde8d9b14887649bf421b758fce4e2f9761836b3ec2a20e4056e",
+    "experiments/joint_development_v2.py": "834583e63bb54b295955f4be28cdcc9a33ee1bc7a96476891a874e84bd62b666",
+    "experiments/joint_recovery.py": "359e18e7dfda7d5c6a03f3c72db9cc7a9a9976beb3064a9cf686fc5d19b3c7a7",
+    "experiments/joint_recovery_v2.py": "f9a474ff983830c6ea5db1f3333528f80bea6bf06958cd54b912df01493056ab"
+  },
+  "inputs": {
+    "experiments/joint-development-v2/results.json": "6b16e0c429b4f8bd4c989e6de7baf3f502625ccc9dfa2a0cc24de4633640e11e",
+    "experiments/joint-development-v2/PROTOCOL.md": "6ab017262e2089c14e9a933680a1a15513b7f0decf2b3a783926e2a45bd6b861",
+    "artifacts/standard-decipherment/segmenter.json": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+    "experiments/standard-decipherment/development.json": "21619a30936b5a460978390584d4e23f7eb8a4c3b3349eb10d848dbd34eb88a7",
+    "experiments/decipherment-sources.json": "98b3657fa5d3d2c34ce9ce071d8fa72a64aee297ba031dde2592e3a94d93d649",
+    "experiments/verse-prior/sources.json": "220a2814c5c116e8c34aaaa406bee3e06fe04bb1a8e28ad137d2dab3dbc9de36",
+    "artifacts/verse-prior/prior-verse.npz": "3bff9e9f11876fadeeba724a3ce2da795c685db4e7f80e031940b38e1d4d5059"
+  },
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3
+  },
+  "prior": "prose+verse",
+  "prior_sha256": "3bff9e9f11876fadeeba724a3ce2da795c685db4e7f80e031940b38e1d4d5059",
+  "min_letters": 5200,
+  "max_letters": 6000,
+  "case_cap_seconds": 3000,
+  "at": 1790022255.935432
+}

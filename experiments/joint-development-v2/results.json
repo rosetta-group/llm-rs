@@ -1,0 +1,261 @@
+{
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3
+  },
+  "prior_sha256": {
+    "prose": "b1470da27d8c5229a3b85d79b89c5fb2eee67bb543601f7c6e06130a7692d9a0",
+    "prose+verse": "3bff9e9f11876fadeeba724a3ce2da795c685db4e7f80e031940b38e1d4d5059"
+  },
+  "code_sha256": {
+    "voynich/joint_segments.py": "aea22ff0f80b89adaf1acb93efbafbe659fe3bb2ba2de57353a69c3777101260",
+    "voynich/joint_segments_v2.py": "9af72d52809033f70cb06a647f6006ec6bdd922456d02505501f6781ea06ce2a",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/homophonic.py": "789b4d3e97ebc4ca24ff7bbb25c470fd7509a364520981b5d909271e92483bb7",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "experiments/joint_development.py": "a3b7fea596cacde8d9b14887649bf421b758fce4e2f9761836b3ec2a20e4056e",
+    "experiments/joint_development_v2.py": "834583e63bb54b295955f4be28cdcc9a33ee1bc7a96476891a874e84bd62b666",
+    "experiments/verse_sources.py": "02d06d63d1a6f2ad5987eaa37128257586ed8ea09e8b9e137ddc9d89db854497"
+  },
+  "commit": "4f8655120962342b1e835f8b40329ea5d94bb770",
+  "development_data": {
+    "historical": "Novellino/Decameron development tales",
+    "modern": "UD_Italian-ISDT dev",
+    "verse": "Petrarca Canzoniere development poems"
+  },
+  "evaluation_passages_used": false,
+  "voynich_text_used": false,
+  "final_test_scored": false,
+  "rows": [
+    {
+      "source": "historical",
+      "letters": 5200,
+      "prior": "prose",
+      "bits_per_letter_true": 2.8534895448540967,
+      "pruned_from": 646,
+      "pruned_to": 273,
+      "seconds": 494.91787654103246,
+      "joint": {
+        "segmentation_agreement": 0.8712143487209644,
+        "joint_cer": 0.3453846153846154,
+        "refined_cer": 0.14173076923076924,
+        "candidate_pieces": 646,
+        "restart_scores": [
+          -25734.721110914867,
+          -25763.323747948023,
+          -25742.170741586207,
+          -25801.66442045554
+        ],
+        "refined_bits": 42423.150478323936,
+        "sample": "danitastandoperlamuontadidiochidipeiiiolaveafattosignorelinenneungiorainpensierodimoliealpostattosaperafuantiosseropernu"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.8976771537783005,
+        "joint_cer": 0.3082692307692308,
+        "refined_cer": 0.10365384615384615,
+        "candidate_pieces": 273,
+        "restart_scores": [
+          -25190.41932531961,
+          -25140.398781971355,
+          -25220.06595852364,
+          -25264.71169809437
+        ],
+        "refined_bits": 41501.86277248095,
+        "sample": "davitustandoperlamuontadidiochidipeaaiolaveafattosignorelivenneungiorainpensieroduoliealpostuttosaperafuantuosseropernum"
+      }
+    },
+    {
+      "source": "historical",
+      "letters": 5200,
+      "prior": "prose+verse",
+      "bits_per_letter_true": 2.8367806103580917,
+      "pruned_from": 646,
+      "pruned_to": 271,
+      "seconds": 209.87770254095085,
+      "joint": {
+        "segmentation_agreement": 0.8720964422228756,
+        "joint_cer": 0.3415384615384615,
+        "refined_cer": 0.14365384615384616,
+        "candidate_pieces": 646,
+        "restart_scores": [
+          -25793.959032317634,
+          -25823.51309595929,
+          -25799.49839162626,
+          -25847.246601687515
+        ],
+        "refined_bits": 42313.30585306625,
+        "sample": "danitastandoperlamuontadidiochidipeaaiolaveafattosignorelinenneungiorainpensierodimoliealpostuttosaperafuantiosseropernu"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.8988532784475154,
+        "joint_cer": 0.25596153846153846,
+        "refined_cer": 0.10865384615384616,
+        "candidate_pieces": 271,
+        "restart_scores": [
+          -25151.68206652285,
+          -25191.612623679885,
+          -25169.539049298834,
+          -25268.328914847647
+        ],
+        "refined_bits": 41402.767496661756,
+        "sample": "danithstandoperlamuontadidiochadipeaaiolaveafattosignorelinenneungiorainpensieroduolaealpostuttosaperafuantuosseropernum"
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 5200,
+      "prior": "prose",
+      "bits_per_letter_true": 2.656240238905445,
+      "pruned_from": 655,
+      "pruned_to": 263,
+      "seconds": 195.25787412491627,
+      "joint": {
+        "segmentation_agreement": 0.8850338135842399,
+        "joint_cer": 0.2792307692307692,
+        "refined_cer": 0.12076923076923077,
+        "candidate_pieces": 655,
+        "restart_scores": [
+          -25702.90114299347,
+          -25845.721872927355,
+          -25677.59428499578,
+          -25662.910516757638
+        ],
+        "refined_bits": 41619.373478607515,
+        "sample": "corrieresportdapaginaapaginaitreavevanodapocoimasciaelacimaestavanocomincindoladiscesatuttiliessiiumanisannodipoteresser"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.9038518082916789,
+        "joint_cer": 0.255,
+        "refined_cer": 0.09403846153846154,
+        "candidate_pieces": 263,
+        "restart_scores": [
+          -24967.167887515912,
+          -24960.8120945679,
+          -25000.189404987843,
+          -25060.785166813832
+        ],
+        "refined_bits": 40511.49813359142,
+        "sample": "corrieresportdapaginaapaginaitreavevanodapocoimasciaelacimaestavanocomincendoladiscesatutoeliesseiumanisannodipoteresser"
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 5200,
+      "prior": "prose+verse",
+      "bits_per_letter_true": 2.7096229282778443,
+      "pruned_from": 655,
+      "pruned_to": 262,
+      "seconds": 196.13564870797563,
+      "joint": {
+        "segmentation_agreement": 0.8841517200823287,
+        "joint_cer": 0.28307692307692306,
+        "refined_cer": 0.11942307692307692,
+        "candidate_pieces": 655,
+        "restart_scores": [
+          -25787.399362999797,
+          -25943.56970192217,
+          -25755.09930291529,
+          -25753.604737879108
+        ],
+        "refined_bits": 41793.38897872185,
+        "sample": "corrieresportdapaginaapaginaitreavevanodapocoimasciaelacimaestavanocomincendoladiscesatuttiliesseiumanisannodipoteresser"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.9044398706262864,
+        "joint_cer": 0.22807692307692307,
+        "refined_cer": 0.09326923076923077,
+        "candidate_pieces": 262,
+        "restart_scores": [
+          -25042.841350796698,
+          -24995.861269050718,
+          -24998.59367302458,
+          -25022.196301639724
+        ],
+        "refined_bits": 40722.05711140139,
+        "sample": "corrieresportdapaginaapaginaitreavevanodapocoimasciaelacimaestavanocomincendoladiscesatutogliesseiumanisannodipoteresser"
+      }
+    },
+    {
+      "source": "verse",
+      "letters": 5200,
+      "prior": "prose",
+      "bits_per_letter_true": 3.502403902357763,
+      "pruned_from": 653,
+      "pruned_to": 262,
+      "seconds": 222.76702466700226,
+      "joint": {
+        "segmentation_agreement": 0.8715083798882681,
+        "joint_cer": 0.5534615384615384,
+        "refined_cer": 0.5336538461538461,
+        "candidate_pieces": 653,
+        "restart_scores": [
+          -26309.003401573,
+          -26166.906995212725,
+          -26136.02579932345,
+          -26146.07501751123
+        ],
+        "refined_bits": 47353.446065879834,
+        "sample": "veealtheddaisessoriosuriadarvoiallonetalostornistrinsealerenutandosuconinneeunodrivoraostlaltaerozditiaisentoneaevastros"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.8967950602763893,
+        "joint_cer": 0.5576923076923077,
+        "refined_cer": 0.4348076923076923,
+        "candidate_pieces": 262,
+        "restart_scores": [
+          -25527.678516266085,
+          -25521.235426524687,
+          -25506.48939197126,
+          -25508.889146456968
+        ],
+        "refined_bits": 46077.987300841414,
+        "sample": "rdoaldaietoceisespiriisroiacarvoielnosebeneltersiscristaosiralaedanmesilmesintiaucivitareilsienteorizdotiattantimeeevest"
+      }
+    },
+    {
+      "source": "verse",
+      "letters": 5200,
+      "prior": "prose+verse",
+      "bits_per_letter_true": 2.8480022153176736,
+      "pruned_from": 653,
+      "pruned_to": 261,
+      "seconds": 204.23677541699726,
+      "joint": {
+        "segmentation_agreement": 0.8723904733901794,
+        "joint_cer": 0.45884615384615385,
+        "refined_cer": 0.13096153846153846,
+        "candidate_pieces": 653,
+        "restart_scores": [
+          -26231.597295335927,
+          -26194.35777156885,
+          -26150.36934473706,
+          -26155.89994698346
+        ],
+        "refined_bits": 43052.77922678436,
+        "sample": "deuanduomuoisospiriacuriamarvoielnomedenelcormiscrisseamoreludandosicominciausisriforeilseondepribdiciaccentisuoivostros"
+      },
+      "pruned": {
+        "segmentation_agreement": 0.8967950602763893,
+        "joint_cer": 0.41557692307692307,
+        "refined_cer": 0.09519230769230769,
+        "candidate_pieces": 261,
+        "restart_scores": [
+          -25462.404859715953,
+          -25497.254789463423,
+          -25478.39123778613,
+          -25470.007183199148
+        ],
+        "refined_bits": 41557.90700541414,
+        "sample": "svuandoiomovoisospiriaclhiamarvoielnomebenelcormiscrisseamorelaedandosincominciaudiziforeilsuondepribdeciaccentiseoivost"
+      }
+    }
+  ],
+  "at": 1790022219.128611
+}
