@@ -93,20 +93,23 @@ def prepare():
     passages = []
     for dataset, repo, split in [('modern', 'UD_Italian-ISDT', 'test'), ('historical', 'UD_Italian-Old', 'train')]:
         rows, source = corpus(repo, split)
-        for region in range(2):
-            texts, ids, length = [], [], 0
-            for row in rows[region * len(rows) // 2:(region + 1) * len(rows) // 2]:
-                text = normalize(' '.join(row['words'])); n = len(text.replace(' ', ''))
-                if row['id'] in excluded[dataset] or text in seen or not text or length + n > MAX_LETTERS:
-                    continue
-                texts.append(text); ids.append(row['id']); length += n
-                if length >= MIN_LETTERS:
+        # Walk the whole corpus in order and cut two passages from consecutive fresh sentences.
+        # Earlier rounds split the corpus into halves; after two rounds one half no longer holds 5,200 fresh letters.
+        texts, ids, length, built = [], [], 0, 0
+        for row in rows:
+            text = normalize(' '.join(row['words'])); n = len(text.replace(' ', ''))
+            if row['id'] in excluded[dataset] or text in seen or not text or length + n > MAX_LETTERS:
+                continue
+            texts.append(text); ids.append(row['id']); length += n
+            if length >= MIN_LETTERS:
+                excluded[dataset].update(ids)
+                passages.append(dict(dataset=dataset, source=source, source_ids=ids, plaintext=' '.join(texts),
+                                     passage=hashlib.sha256((repo + ':'.join(ids)).encode()).hexdigest()[:16]))
+                texts, ids, length, built = [], [], 0, built + 1
+                if built == 2:
                     break
-            if length < MIN_LETTERS:
-                raise ValueError(f'Not enough fresh {dataset} text in region {region}')
-            excluded[dataset].update(ids)
-            passages.append(dict(dataset=dataset, source=source, source_ids=ids, plaintext=' '.join(texts),
-                                 passage=hashlib.sha256((repo + ':'.join(ids)).encode()).hexdigest()[:16]))
+        if built < 2:
+            raise ValueError(f'Not enough fresh {dataset} text for two passages')
     vendor = load_vendor()
     public, answers = [], []
     for passage in passages:
