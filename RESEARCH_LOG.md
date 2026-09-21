@@ -1,5 +1,13 @@
 # Decipherment-method benchmark and Voynich evidence
 
+> **How to read this file.** It is the append-only research record: every experiment, its
+> fixed settings, result, limits and implication, in the order the work happened. For the
+> short version read [docs/OVERVIEW.md](docs/OVERVIEW.md); for one table of results read
+> [docs/RESULTS.md](docs/RESULTS.md); for terms read [docs/GLOSSARY.md](docs/GLOSSARY.md).
+>
+> Sections: overall goal · evidence required · current work (newest first) · image studies ·
+> archived matched-context suite · what we tried and found · what we know · recovery evidence · resources.
+
 Updated: 2026-09-21. This is the current project overview and research record.
 Older reports preserve earlier experiments and may contain superseded next steps.
 

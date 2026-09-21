@@ -1,5 +1,10 @@
 # Voynich research plan
 
+> **How to read this file.** Research gates and the status of each work item, kept since the
+> project began; numbered sections 1–6 are the original plan with status notes added. The
+> current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
+> [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
+
 Updated: 2026-09-21
 
 **Latest scope change:** the user requested raw folio images and reproducible image

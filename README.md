@@ -1,314 +1,71 @@
-# Voynich meaning-recovery research
+# llm-rs: Voynich meaning-recovery research
 
-The deliverable is a **validated decipherment-method benchmark** with positive controls
-and honest Voynich negatives. Translation into English or Italian remains a long-term
-motivation; it is not supported by current evidence.
+Controlled experiments on whether computational methods can recover meaning from the
+Voynich manuscript. The repository contains no translation. It contains a prediction track
+(closed), corpus statistics, three image studies (parked), and an active cipher-recovery
+track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
+until grading.
 
-Start with the [research record](RESEARCH_LOG.md), [current protocol](experiments/standard-decipherment/PROTOCOL.md),
-and [fresh standard-method report with graphs](experiments/standard-decipherment/REPORT.md).
-The [methods note](experiments/method-benchmark/METHODS_NOTE.md) connects all tracks.
+**Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
+[docs/RESULTS.md](docs/RESULTS.md) for every number with its record.
 
-- **Prediction track closed.** No further BPC sweeps, longer training, or larger-model
-  comparisons. Reopening requires a named mechanism, falsifiable contrast, and fixed budget.
-- **Fresh historical segmentation:** Novellino/Decameron training lowers Dante word error
-  from 37.7% to 24.2% on the same new passages; modern error falls 7.4% → 6.0%.
-  Historical segmentation still misses the 10% gate. Earlier results remain archived.
-- **Published cipher comparators + MDL:** exact letters in 7/8 fresh substitution/homophonic
-  controls; the remaining case has 0.63% character error. Historical substitution selection
-  is repaired. Naibbe fails; the reserved Voynich mechanism test stays closed.
-- **Codebook-free Naibbe, joint segmentation + EM (development only):** treating each token's
-  parse as latent and learning role-specific piece emissions moves character error from 300%+
-  to 12.2% on 5,200 letters of modern Italian in development. **Round one**, four sealed
-  5,200-letter passages: 12.5% CER modern, 33.5% Dante. **Round two** (usage pruning of the piece
-  lexicon plus a prior with Petrarca's verse, Dante excluded): 9.5% modern, 10.3% Dante. **Round
-  three** (a word-level polish after the same decoder): **8.8% modern, 10.5% Dante**; word error
-  54% and 56%; gate (CER ≤ 1%, WER ≤ 10%) still not met. Letters inside correctly parsed tokens
-  are 99–99.5% right; the 10% of mis-parsed tokens carry the rest. Passages under about 2,600
-  letters are unrecoverable for this cipher class by any method tried.
-  [Round three](experiments/joint-recovery-v3/REPORT.md), [round two](experiments/joint-recovery-v2/REPORT.md),
-  [round one](experiments/joint-recovery/REPORT.md), [development records](experiments/joint-development-v3/REPORT.md).
-- **Image descriptions reopened by request:** [213 archived scans and a versioned
-  228-panel description table](data/folios/README.md). Pixel Layout v1 measures colour,
-  geometry and spatial arrangement. It does not infer object identities or meanings.
-- **Image association tests remain parked:** reopening needs masked labels from
-  two annotators, agreement statistics and an identifiable design.
-- **Broad image domains:** botanical, people/bathing, and celestial/diagrams now tested
-  across 63 physical folio groups. Character text alone scores 72.2% balanced accuracy;
-  hand/layout scores 94.4%; adding text does not improve it. [Report](experiments/image-domains/REPORT.md).
-- **Complex image associations:** 123 descriptions; joint visual features, nonlinear
-  models, same-page matching, and relational tests. None of 12 comparisons establishes
-  an association. [Report and graphs](experiments/association-complex/REPORT.md).
-  The earlier 59-label root-color pilot is preserved.
-- **Earlier codebook-free recovery:** exact historical letters were found but not selected.
-  The new selector repairs this substitution failure; variable-length recovery remains unresolved.
-- **Cloud cleanup complete:** Runpod pod and attached temporary storage deleted on
-  2026-09-21; no network volumes remain. [Audit record](experiments/cloud-cleanup.json).
+## Where things stand
 
-All previous experiments and reports remain archived. The Voynich final test is sealed.
-The old prediction monitor is paused. Training commands below document earlier methods;
-they are not the active research plan.
+| Question | Answer so far | Record |
+|---|---|---|
+| Is Voynich text predictable? | Yes, but shuffled and synthetic controls are predictable to the same degree; prediction cannot detect meaning | [prediction report](experiments/report-completed/REPORT.md) |
+| Is it a simple cipher of a European language? | Not with its word spaces kept: adjacent word lengths cluster in Voynich and anti-cluster in Romance languages | [corpus statistics](experiments/language-comparison/REPORT.md) |
+| Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
+| Can a solver break a Voynich-style cipher without its codebook? | Partly: about 9 letters in 10 on sealed 5,200-letter Italian passages; words about half wrong; pass mark not met | [round three](experiments/joint-recovery-v3/REPORT.md) |
+| Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 
-## Archived benchmark commands
+Latest sealed recovery result (round three, Naibbe cipher, codebook-free):
 
-```sh
-.venv/bin/python -m experiments.discovery_sources
-.venv/bin/python -m experiments.benchmark_sources
-.venv/bin/python -m experiments.segmentation tune
-.venv/bin/python -m experiments.segmentation prepare
-.venv/bin/python -m experiments.segmentation solve
-.venv/bin/python -m experiments.segmentation evaluate
-.venv/bin/python -m experiments.codebook_free freeze
-.venv/bin/python -m experiments.codebook_free prepare
-.venv/bin/python -m experiments.codebook_free solve
-.venv/bin/python -m experiments.codebook_free evaluate
-.venv/bin/python -m experiments.association freeze
-.venv/bin/python -m experiments.association run
-python -m experiments.benchmark_report
-.venv/bin/python -m experiments.benchmark_verify
-```
+| Text | Character error | Word error | Round two | Round one |
+|---|---:|---:|---:|---:|
+| Modern Italian | 8.8% | 54% | 9.5% | 12.5% |
+| Dante | 10.5% | 56% | 10.3% | 33.5% |
 
-These are the stage order, not instructions to overwrite completed work. Preparation,
-freezing, and prediction refuse existing outputs. Preserve this run; a fresh replication
-needs an isolated copy with its prior output records archived. Source downloads are
-hash-checked. Reports need matplotlib; computation uses CPU and NumPy. Case keys are
-random: a new run is a replication, not a byte-identical recreation. Exact grading needs
-the preserved local `artifacts/` inputs, frozen model, predictions, and evaluator files.
-Reports publish aggregate metrics, provenance, and limitations without reference passages.
+Pass mark: 1% character error and 10% word error. Where the solver splits a word correctly,
+its letters are 99% right; the remaining error comes from the one word in ten it splits wrong.
 
-## Complex image-association extension
+## Documentation
 
-```sh
-.venv/bin/python -m experiments.association_complex freeze
-.venv/bin/python -m experiments.association_complex run
-.venv/bin/python -m experiments.association_complex verify
-python -m experiments.association_complex_report
-```
-
-This completed extension reuses existing human image descriptions and is exploratory.
-The protocol protects whole folios, tests three model classes and four endpoints, and
-corrects all 12 comparisons together. A fresh replication needs an isolated output
-archive; existing frozen outputs are protected. Reports regenerate from saved scores.
-A larger independently annotated image sample remains necessary; this is not raw-pixel analysis.
-
-## Broad image-domain study
-
-```sh
-.venv/bin/python -m experiments.image_domains freeze
-.venv/bin/python -m experiments.image_domains run
-.venv/bin/python -m experiments.image_domains verify
-python -m experiments.image_domains_report
-```
-
-This completed study uses conventional IVTFF illustration categories, including labels
-and circular text on diagram pages. Frozen outputs are protected; use an isolated output
-archive for a new replication. People/bathing cannot be validated across quires here:
-all its training examples share one quire. Some domain/hand effects are unidentifiable.
+| Page | For |
+|---|---|
+| [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
+| [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
+| [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
+| [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze |
+| [docs/CONVENTIONS.md](docs/CONVENTIONS.md) | How a round is frozen, sealed, graded and reported |
+| [docs/REPRODUCE.md](docs/REPRODUCE.md) | Setup and every command |
+| [docs/COMMIT_MAP.md](docs/COMMIT_MAP.md) | Old to new commit hashes after the one history rewrite |
+| [RESEARCH_LOG.md](RESEARCH_LOG.md) | The full chronological record, append-only |
+| [RESEARCH_PLAN.md](RESEARCH_PLAN.md) | Research gates and status per work item |
 
 ## Setup
 
-Run from the repo root. The existing Poetry lock contains the dependencies.
-The implementation was checked with Python 3.12, PyTorch 2.8, Transformers 4.55,
-and PEFT 0.17. An existing `.venv` works with the commands below.
-
 ```sh
 poetry install
-poetry run python -m unittest discover -s tests -v
+.venv/bin/python -m unittest discover -s tests -v
 ```
 
-## Data and baselines
+Recovery rounds run on CPU in minutes. Raw corpora, fitted priors and sealed answers live in
+the git-ignored `artifacts/` folder and are restored from pinned archives; see
+[docs/REPRODUCE.md](docs/REPRODUCE.md).
 
-```sh
-.venv/bin/python -m voynich build voynich_transliterations/GC2a-n.txt
-.venv/bin/python -m voynich baseline artifacts/data/gc --output artifacts/results/gc.json
-.venv/bin/python -m experiments.baselines
-```
+## Rules of the road
 
-The last command runs all eight baseline datasets. It downloads small, pinned public
-text files listed in `experiments/sources.json`; existing files are hash-checked.
-It does not download models. Results include per-page scores and A/B, section, and hand summaries.
+- Methods are frozen and committed before sealed passages exist; `verify` enforces it.
+- Each sealed passage is used once, then disclosed and excluded.
+- Development text, evaluation text and Voynich text never mix; the Voynich final test is sealed.
+- Files hashed by a freeze are never edited; new behaviour goes in a new module.
+- Negatives are recorded with the same care as positives. No translation claims.
 
-1. **Manuscript splits.** `experiments/splits/folio-42.json` keeps both sides and all panels
-   of a folio together, including the shared 85/86/Ros foldout. `quire-42.json` holds out
-   whole quires. Splits are fixed across models.
-2. **Representations.** GC2a uses v101; ZL3b uses EVA on matched paragraph pages.
-   Dots and commas distinguish certain and uncertain spaces. Extended IVTFF glyph escapes
-   count as one transcription character. Line and paragraph boundaries remain in the text.
-3. **Controls.** Shuffle written forms within each line. Also fit the published Naibbe
-   ciphertext and Timm–Schinner sample separately, with chronological blocks and unused
-   boundary blocks. Those blocks are synthetic, not manuscript folios or independent generator runs.
-4. **Preservation.** `corpus.json` retains raw loci, including labels and circular text.
-   `documents.json` models running paragraph text only. Page metadata is inherited from
-   the transcription; `$H` is its hand label, not a new attribution to a scribe.
+## Attribution
 
-## Local training
-
-```sh
-.venv/bin/python run_fine_tuning.py experiments/smoke.json
-.venv/bin/python -m voynich matrix mlx-community/Qwen3-1.7B-bf16 --contexts 64 --steps 400
-.venv/bin/python run_fine_tuning.py experiments/generated/gc-outer-c64-s42.json
-```
-
-The smoke model has random weights and checks the pipeline only. Each output directory
-is used once. Choose a new `output_dir` to rerun an experiment.
-
-The matrix writes 15 configs: outer, middle, and random layers for seeds 42–46.
-It does not start those runs. `model_path` accepts a cached Hugging Face ID or a local
-Transformers-compatible checkpoint. The cached Qwen3-1.7B BF16 checkpoint works on this Mac's
-Apple GPU. Llama projections are also supported. No hosted API or paid compute is used.
-
-`local_files_only` defaults to true. `device` selects MPS, CUDA, or CPU automatically.
-Use `dtype: "float32"` for CPU and `"bfloat16"` for the tested Qwen/MPS setup.
-Optional 4-bit loading requires CUDA and bitsandbytes. Logging stays local by default.
-Legacy `HF_TOKEN` is read from the environment.
-
-For 28-layer Qwen, four outer layers means `[0, 1, 26, 27]`; middle means `[12, 13, 14, 15]`.
-All seven attention/MLP projections receive equal-rank adapters. Layer position is an
-experimental choice; the code does not assume those layers contain only language-specific features.
-
-Each run saves its settings, selected layers, parameter count, data/split/code hashes,
-package versions, frozen scores, adapted scores, and adapter weights under `training_run_outputs/`.
-`frozen_reference` can reuse a completed run's frozen evaluation after checking its settings and data.
-
-For a learning curve, set `max_steps: 3000`, `eval_steps: 500`, `save_steps: 500`,
-and `load_best_model_at_end: true`. Every validation checkpoint gets per-page scores under
-`validation/`; `learning_curve.json` records the curve. The run root exports the selected
-adapter, and `run.json` records both completed updates and the selected update.
-The local 3,000-update experiments are reported in `experiments/LEARNING_CURVES.md`.
-
-The illustrated [interim research report](experiments/report/REPORT.md) explains the
-results, uncertainty and next experiments. Its [PDF](output/pdf/voynich-research-report.pdf)
-and four figures use the frozen scores in `experiments/report/snapshot.json`.
-Rebuild with `python -m experiments.research_report` in an environment containing
-matplotlib and reportlab. This reads saved scores; it does not train or score the test set.
-To replace the snapshot, refresh `experiments.learning_curves`, run the report builder
-with `--capture`, and review its narrative for changes in experiment status.
-
-The archived runner `python -m experiments.replications` selects the better
-configuration. If its paired validation interval supports a gain over the copy baseline,
-it runs four more seeds with that layer subset fixed, then three text controls at seed 42.
-Each follow-up has the same 3,000-update budget. This command starts training and can take
-several hours locally; completed results go to `experiments/REPLICATIONS.md`.
-
-## Comparisons
-
-The completed $10 Runpod comparison is specified in
-[`experiments/CLOUD_PLAN.md`](experiments/CLOUD_PLAN.md). Its upload bundle excludes
-final-test text and local credentials. Cloud runs use a separate environment and
-are archived locally. The pod and its temporary storage have now been deleted.
-
-```sh
-.venv/bin/python -m voynich compare artifacts/results/gc.json \
-  training_run_outputs/gc-outer-c64-s42/adapted.json --reference-model copy \
-  --output artifacts/results/qwen-vs-copy.json
-.venv/bin/python -m voynich evaluate experiments/generated/gc-outer-c64-s42.json \
-  --adapter training_run_outputs/gc-outer-c64-s42 --context 16 \
-  --output artifacts/results/qwen-context16.json
-```
-
-1. **Common targets.** Windows keep token IDs and score each target once. Padding,
-   repeated context, and tokens containing unreadable `?` are excluded from loss.
-   BPC includes scored line/boundary characters. Comparison rejects unequal page targets,
-   even when they have the same length. A tokenizer that merges `?` with adjacent characters
-   can mask extra characters; such scores cannot be directly paired with character baselines.
-2. **Uncertainty.** `compare` reports a paired 95% bootstrap interval over folios
-   (`--group quire` for the quire split). Positive delta favors the candidate. It describes
-   page sampling uncertainty, not variation across training seeds.
-3. **Context.** Evaluate the same adapter at 16, 64, and 256 tokens to isolate available
-   context. Default stride is half the context, so targets receive varying preceding context,
-   capped at the selected length. Use `--stride 1` for the full available context at every target;
-   this costs more. Matrix budgets are matched within each context, not across context lengths.
-4. **Units.** Token accuracy is comparable only for the same tokenizer. Compare BPC only
-   on the same normalized text and masks. EVA and v101 BPC values are not directly comparable.
-   Compare each model's gain within its own representation.
-
-Scoring defaults to validation. `--split test` requires `--release-test` after model choices
-are frozen. The test set has not been scored in the initial experiments.
-
-## Learned symbol groups
-
-```sh
-.venv/bin/python -m voynich tokenizer artifacts/data/gc --output artifacts/tokenizers/gc-bpe64
-```
-
-This fits reversible BPE groups on training pages only and records those page IDs.
-The fixed alphabet includes all 256 normalized transcription characters. To test the tokenizer
-plumbing, set `tokenizer_path` and `tiny: true` in a smoke config. Replacing a pretrained model's
-tokenizer would require training new embeddings; that experiment is not implemented.
-
-## Evidence and remaining work
-
-Small character models trained from scratch are described in
-[`experiments/CHARACTER_PLAN.md`](experiments/CHARACTER_PLAN.md). Their local suite
-completed all twelve runs without downloading weights and kept a 20 GiB free-disk reserve.
-Run `.venv/bin/python -m experiments.characters report` to refresh completed results.
-
-The [context plan](experiments/context-plan.json) evaluates saved GRUs on the same validation
-targets at 8, 16, 32, 64, and 128 characters. Run `.venv/bin/python -m experiments.context`
-once; it refuses to overwrite `artifacts/context-ablation`. The completed run used local
-hardware, trained no models, and downloaded no weights. Its stride-one scores differ from
-the earlier stride-64 evaluation. See [protocol, results, and reproduction](experiments/CONTEXT.md).
-
-## Corpus statistics and controlled recovery
-
-```sh
-.venv/bin/python -m experiments.discovery_sources
-.venv/bin/python -m experiments.languages
-.venv/bin/python -m experiments.decipherment prepare
-.venv/bin/python -m experiments.decipherment solve
-.venv/bin/python -m experiments.decipherment evaluate
-.venv/bin/python -m experiments.boundaries
-python -m experiments.discovery_report
-```
-
-The source command downloads missing pinned text/code files and verifies SHA-256 hashes;
-existing files are checked. Report generation needs matplotlib. Prepare/solve and the
-boundary diagnostic refuse existing benchmark outputs: preserve this run and use an
-isolated checkout for a new benchmark. New random keys produce a new run, not a byte-identical
-reproduction. Original predictions and hidden keys are retained locally under
-`artifacts/decipherment/`; public scores and passages are in `experiments/decipherment/`.
-
-The old boundary diagnostic is an exploratory repair. The new lexicon benchmark uses
-fresh passages, preserves that failed primary baseline, and still finds poor historical
-word recovery; see the current benchmark report.
-
-See `RESEARCH_PLAN.md` for research gates. Broad neural comparisons are closed. The image
-pilot is implemented; independent visual re-annotation remains outstanding. No Voynich translator is implemented.
-
-Sources: [IVTFF specification](https://www.voynich.nu/software/ivtt/IVTFF_format.pdf),
-[ZL transcription mirror](https://github.com/karolrybak/voynichese),
-[Greshko's Naibbe code and data](https://github.com/greshko/naibbe-cipher),
-[Timm–Schinner generated sample](https://github.com/TorstenTimm/SelfCitationTextgenerator).
-Naibbe data is credited to Michael A. Greshko (2025),
-[The Naibbe cipher](https://doi.org/10.1080/01611194.2025.2566408).
-Downloaded data and licenses remain under `artifacts/sources/`.
-
-### Standard decipherment comparison
-
-Current protocol: [standard-method benchmark](experiments/standard-decipherment/PROTOCOL.md).
-Image modelling is parked pending independent annotations. Prediction sweeps remain closed.
-The Voynich mechanism test is reserved until the Naibbe recovery gate passes.
-
-```sh
-.venv/bin/python -m pip install -r experiments/standard-decipherment/requirements.txt
-.venv/bin/python -m experiments.historical_sources prepare
-.venv/bin/python -m experiments.standard_decipherment develop
-.venv/bin/python -m experiments.standard_decipherment freeze
-# Commit the method and freeze before preparing evaluation cases.
-.venv/bin/python -m experiments.standard_decipherment prepare
-.venv/bin/python -m experiments.standard_decipherment solve
-.venv/bin/python -m experiments.standard_decipherment segment_controls
-.venv/bin/python -m experiments.standard_decipherment evaluate
-```
-
-Existing freezes refuse overwrite. `verify` checks the committed method and pinned inputs.
-Raw prose, models and private answers live under ignored `artifacts/`; source manifests,
-development results, protocols and aggregate evaluation results are tracked.
-
-For the committed completed run, restore exact prose with
-`python -m experiments.historical_sources restore`. With the earlier pinned UD corpora
-and frozen modern segmenter available, `python -m experiments.standard_decipherment_rebuild`
-recreates missing priors without tuning. `python -m experiments.standard_decipherment_records restore`
-restores the exact graded challenge and predictions; its plaintext references are now disclosed.
-`python -m experiments.standard_decipherment_audit` verifies the saved result. The report
-regenerates with `python -m experiments.standard_decipherment_report` (matplotlib required).
-Do not reuse disclosed source IDs as fresh tests. Source/data licenses accompany both archives.
+Naibbe cipher code and data: Michael A. Greshko (2025), *The Naibbe cipher: a substitution
+cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext*, Cryptologia,
+modified MIT licence. Italian texts: Universal Dependencies treebanks and Wikisource
+transcriptions (CC BY-SA); manifests with revisions, hashes and licences accompany each
+experiment. Manuscript scans: Yale Beinecke Library; see `data/folios/sources/`.

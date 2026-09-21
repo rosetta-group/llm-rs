@@ -1,0 +1,70 @@
+# Results at a glance
+
+Every frozen or verified result, grouped by track. Numbers are as reported in the linked
+record; "sealed" means the answers were hidden until predictions were saved. Nothing here
+scores Voynich's reserved test pages.
+
+Metrics: **BPC** bits per character (prediction; lower is better). **CER / WER** character
+and word error rate (recovery; lower is better). See the [glossary](GLOSSARY.md).
+
+## Prediction on Voynich text (validation pages; track closed)
+
+| Experiment | Result | Reading | Record |
+|---|---|---|---|
+| Baselines | frequency 4.245 BPC; best copy baseline 2.699 | Local repetition explains a lot of predictability | [RESULTS.md](../experiments/RESULTS.md) |
+| Qwen 1.7B adapters, 5 seeds | 2.483 BPC (SD 0.002) | Stable gain over copying | [REPLICATIONS.md](../experiments/REPLICATIONS.md) |
+| Outer vs random layers | 2.4819 vs 2.4828 | No layer-specific effect | [LEARNING_CURVES.md](../experiments/LEARNING_CURVES.md) |
+| Qwen 8B vs 1.7B (cloud) | 2.469 vs 2.477; interval crosses zero | Scale did not help measurably | [CLOUD_RESULTS.md](../experiments/CLOUD_RESULTS.md) |
+| Character GRU from scratch, 3 seeds | 2.332 BPC | Beats the pretrained model | [CHARACTERS.md](../experiments/CHARACTERS.md) |
+| Controls (shuffled, Timm, Naibbe) | gains of the same size on all | Prediction is not a meaning detector | [report](../experiments/report-completed/REPORT.md) |
+| Context ablation, fixed GRU | 64 chars give 91% of the 8→128 gain; shuffled text gains too | History helps regardless of order | [CONTEXT.md](../experiments/CONTEXT.md) |
+| Matched-context retraining, 18 runs | intact gain 0.123 vs shuffled 0.137 BPC | No extra benefit for intact text | [report](../experiments/report-matched/REPORT.md) |
+
+## Corpus statistics (training pages)
+
+| Experiment | Result | Reading | Record |
+|---|---|---|---|
+| Word-length adjacency, 11 languages | Voynich +0.218 (v101), +0.169 (EVA); languages −0.18 to +0.07; controls ≈ 0 | Rules out spaced substitution of a Romance language; does not identify the text | [report](../experiments/language-comparison/REPORT.md) |
+
+## Text–image association (parked)
+
+| Experiment | Result | Reading | Record |
+|---|---|---|---|
+| Root-colour pilot, 59 labels | +1.45 points over controls, p = 0.35 | No association established | [report](../experiments/association/REPORT.md) |
+| Complex features, 123 descriptions, 12 tests | no corrected signal | Same | [report](../experiments/association-complex/REPORT.md) |
+| Broad domains, 63 folio groups | text 72% balanced accuracy; hand/layout 94%; no gain from adding text | Domain and production are entangled | [report](../experiments/image-domains/REPORT.md) |
+| Folio scans and pixel descriptions | 213 scans, 228 panels archived | Data only; no inference | [data/folios](../data/folios/README.md) |
+
+## Cipher recovery on sealed Italian passages (active)
+
+Positive controls first, then the codebook-free Naibbe rounds. "Letters" is passage length.
+
+| Round | Setup | Result | Record |
+|---|---|---|---|
+| Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |
+| Segmentation | frozen lexicon segmenter on exact letters, 24 fresh passages | WER 6.1% modern, 39.9% historical | [report](../experiments/segmentation/REPORT.md) |
+| Codebook-free v0 | annealing, mean score, 1,200–1,800 letters | modern substitution ok; historical selection fails; Naibbe 300%+ CER | [report](../experiments/codebook-free/REPORT.md) |
+| Standard methods | MDL selection, Nuhn beam, BK&K HMM, prose prior | 7/8 substitution and homophonic controls exact; Naibbe still 300%+ | [report](../experiments/standard-decipherment/REPORT.md) |
+| Joint EM, round one | latent parses, role emissions, 5,200 letters | CER 12.5% modern, 33.5% Dante; WER 58% / 87% | [report](../experiments/joint-recovery/REPORT.md) |
+| Joint EM, round two | + usage pruning, + Petrarch verse in prior | **CER 9.5% modern, 10.3% Dante**; WER 54% / 60% | [report](../experiments/joint-recovery-v2/REPORT.md) |
+| Joint EM, round three | + lexical polish after the round-two decoder | **CER 8.8% modern, 10.5% Dante**; WER 54% / 56%; polish gains 0.5–1.5 points paired | [report](../experiments/joint-recovery-v3/REPORT.md) |
+
+Development findings that shaped the rounds (development text only):
+
+| Finding | Evidence | Record |
+|---|---|---|
+| Search, not scoring, blocked recovery | true key scores best under every objective; only EM reaches it | [round one dev](../experiments/joint-development/REPORT.md) |
+| Length is a hard limit | 77% CER at 1,300 letters, 4.6% at 2,600, 3.2% at 5,200 with true splits | same |
+| Splits and letters must be learned jointly | fixed splits with 14% errors collapse EM to 77% | same |
+| Pruning helps, one pass suffices | 14.2% → 10.4% prose, 12.2% → 9.4% modern | [round two dev](../experiments/joint-development-v2/REPORT.md) |
+| Verse prior fixes verse | Petrarch dev 53% → 9.5%; no regression on prose | same |
+| Remaining error is in mis-parsed tokens | 0.5–1.0% letter error inside correct parses; ~12% of letters in wrong parses; confirmed on fresh text (0.5–1.4%, 10–14%) | [round three dev](../experiments/joint-development-v3/REPORT.md), [fresh](../experiments/joint-recovery-v3/REPORT.md) |
+| Polish weight 1 is the only safe setting | higher weights help prose, hurt verse; token re-parsing and warm EM restarts rejected | [round three dev](../experiments/joint-development-v3/REPORT.md) |
+
+## Operational
+
+| Item | Status | Record |
+|---|---|---|
+| Cloud compute | pod and volumes deleted 2026-09-21; $8.89 balance at check | [audit](../experiments/cloud-cleanup.json) |
+| Voynich final test pages | never scored | all reports |
+| Reserved Voynich mechanism test | closed until a recovery gate is met | [protocol](../experiments/joint-development/PROTOCOL.md) |
