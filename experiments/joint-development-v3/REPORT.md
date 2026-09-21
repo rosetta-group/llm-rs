@@ -1,7 +1,7 @@
 # Codebook-free Naibbe recovery, round three: development record
 
 Development results on development text only. The [protocol](PROTOCOL.md) fixes the one change
-tested here; the fresh evaluation is reported in `../joint-recovery-v3/REPORT.md` once run.
+tested here; the fresh evaluation is reported in the [round-three fresh report](../joint-recovery-v3/REPORT.md).
 
 Round three asks where the remaining 9–11% character error lives and adds a word-level polish.
 The answer is sharp: letters inside correctly parsed tokens are already 99–99.5% right, and

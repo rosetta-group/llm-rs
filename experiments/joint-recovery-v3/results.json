@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "modern": {
+      "polished": {
+        "cases": 2,
+        "cer": 0.08754554797720265,
+        "wer": 0.5442032821598729,
+        "gate_passes": 0
+      },
+      "refined_only": {
+        "cases": 2,
+        "cer": 0.09277772587125105,
+        "wer": 0.5727898358920064,
+        "gate_passes": 0
+      },
+      "round_two_cer": 0.09518818484992854,
+      "round_two_wer": 0.5411946446961895,
+      "round_one_cer": 0.12498799116149487
+    },
+    "historical": {
+      "polished": {
+        "cases": 2,
+        "cer": 0.10477001703577513,
+        "wer": 0.5581395348837209,
+        "gate_passes": 0
+      },
+      "refined_only": {
+        "cases": 2,
+        "cer": 0.11489683891728185,
+        "wer": 0.6070569366479551,
+        "gate_passes": 0
+      },
+      "round_two_cer": 0.1026806858008904,
+      "round_two_wer": 0.6019455252918288,
+      "round_one_cer": 0.334822259445375
+    }
+  },
+  "cases": [
+    {
+      "id": "501b21ccf29ddeb1",
+      "passage": "2182a88cfc517f79",
+      "dataset": "modern",
+      "characters": 5469,
+      "words": 963,
+      "polished": {
+        "character_errors": 448,
+        "word_errors": 519,
+        "cer": 0.08191625525690255,
+        "wer": 0.5389408099688473,
+        "gate": false
+      },
+      "refined_only": {
+        "character_errors": 477,
+        "word_errors": 541,
+        "cer": 0.08721886999451453,
+        "wer": 0.5617860851505712,
+        "gate": false
+      },
+      "segmentation_agreement": 0.9141895681435782,
+      "error_rate_in_correct_tokens": 0.004873096446700508,
+      "share_of_letters_misparsed": 0.0994697385262388,
+      "recovered_letters": 5364,
+      "joint": {
+        "first_pieces": 727,
+        "pruned_pieces": 274,
+        "first_restart_scores": [
+          -27768.246704028403,
+          -27116.353571093732,
+          -27095.704261948697,
+          -27279.18093006362
+        ],
+        "second_restart_scores": [
+          -26251.26828650084,
+          -26416.899062811044,
+          -26256.253493361783,
+          -26254.51154629356
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "polish_changes": 54,
+      "polish_cap_hit": false,
+      "refine_cap_hit": false,
+      "seconds": 300.6277389159659,
+      "case_cap_hit": false
+    },
+    {
+      "id": "8ece23e27c8a432b",
+      "passage": "c0e778645a3f2a27",
+      "dataset": "historical",
+      "characters": 5211,
+      "words": 1223,
+      "polished": {
+        "character_errors": 528,
+        "word_errors": 711,
+        "cer": 0.10132412204951065,
+        "wer": 0.5813573180703189,
+        "gate": false
+      },
+      "refined_only": {
+        "character_errors": 557,
+        "word_errors": 762,
+        "cer": 0.1068892726923815,
+        "wer": 0.6230580539656582,
+        "gate": false
+      },
+      "segmentation_agreement": 0.8970032004655223,
+      "error_rate_in_correct_tokens": 0.010017421602787456,
+      "share_of_letters_misparsed": 0.11878718096334677,
+      "recovered_letters": 5139,
+      "joint": {
+        "first_pieces": 640,
+        "pruned_pieces": 255,
+        "first_restart_scores": [
+          -26312.246513750317,
+          -26238.8090339908,
+          -26148.806689589077,
+          -26294.796539418854
+        ],
+        "second_restart_scores": [
+          -25548.06546655546,
+          -25429.521551398277,
+          -25557.61454288653,
+          -25471.270160620814
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "polish_changes": 50,
+      "polish_cap_hit": false,
+      "refine_cap_hit": false,
+      "seconds": 286.66245641594287,
+      "case_cap_hit": false
+    },
+    {
+      "id": "b49139ce75e21a88",
+      "passage": "0e8ae0a9e4c7babc",
+      "dataset": "historical",
+      "characters": 5355,
+      "words": 1271,
+      "polished": {
+        "character_errors": 579,
+        "word_errors": 681,
+        "cer": 0.10812324929971989,
+        "wer": 0.5357985837922895,
+        "gate": false
+      },
+      "refined_only": {
+        "character_errors": 657,
+        "word_errors": 752,
+        "cer": 0.1226890756302521,
+        "wer": 0.5916601101494886,
+        "gate": false
+      },
+      "segmentation_agreement": 0.8853485064011379,
+      "error_rate_in_correct_tokens": 0.014322916666666666,
+      "share_of_letters_misparsed": 0.13949579831932774,
+      "recovered_letters": 5210,
+      "joint": {
+        "first_pieces": 662,
+        "pruned_pieces": 274,
+        "first_restart_scores": [
+          -26995.695409130494,
+          -27022.304121917947,
+          -26982.10958191973,
+          -26986.901780336466
+        ],
+        "second_restart_scores": [
+          -26274.612602045934,
+          -26309.34952570372,
+          -26254.687712898325,
+          -26332.95500593159
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "polish_changes": 84,
+      "polish_cap_hit": false,
+      "refine_cap_hit": false,
+      "seconds": 321.99097866599914,
+      "case_cap_hit": false
+    },
+    {
+      "id": "cd74de286609fce1",
+      "passage": "21d1fc35b17b4f03",
+      "dataset": "modern",
+      "characters": 5234,
+      "words": 926,
+      "polished": {
+        "character_errors": 489,
+        "word_errors": 509,
+        "cer": 0.0934275888421857,
+        "wer": 0.5496760259179265,
+        "gate": false
+      },
+      "refined_only": {
+        "character_errors": 516,
+        "word_errors": 541,
+        "cer": 0.09858616736721437,
+        "wer": 0.5842332613390929,
+        "gate": false
+      },
+      "segmentation_agreement": 0.8972622902561084,
+      "error_rate_in_correct_tokens": 0.006072435480373021,
+      "share_of_letters_misparsed": 0.11902942300343905,
+      "recovered_letters": 5132,
+      "joint": {
+        "first_pieces": 694,
+        "pruned_pieces": 261,
+        "first_restart_scores": [
+          -25951.08123917441,
+          -25993.37981783303,
+          -25902.47078830654,
+          -26000.560881853828
+        ],
+        "second_restart_scores": [
+          -25090.20352212012,
+          -25086.976468142224,
+          -25108.29645950126,
+          -25088.074366504276
+        ],
+        "first_cap_hit": false,
+        "second_cap_hit": false
+      },
+      "polish_changes": 51,
+      "polish_cap_hit": false,
+      "refine_cap_hit": false,
+      "seconds": 294.72940208297223,
+      "case_cap_hit": false
+    }
+  ],
+  "challenge": {
+    "public_sha256": "6064c896994350aa55220bb9db66dc319528c28325446483375141eac181ee7c",
+    "answers_sha256": "a782f3fd90520fdfb8bf4bedac7a44cdba3cc8ebaf342dd72bfc2e1d5558b996",
+    "freeze_sha256": "48b0e5922b9bca4c3475226bcc821ce4cd7912e6d32b7c0ebf2b6275fd6f7554",
+    "freeze_commit": "fbc149617657323923fdfaf4337d1fdeeaed994b",
+    "cases": 4,
+    "independent_passages": 4,
+    "letters": [
+      5469,
+      5234,
+      5211,
+      5355
+    ],
+    "at": 1790029186.84345
+  },
+  "predictions_sha256": "543782fc7fcde2d5c012bf3c937235d837a0c319bb173b40df3e739c66c5c981",
+  "naibbe_gate": false,
+  "voynich_run": false,
+  "final_test_scored": false
+}
