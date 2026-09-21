@@ -1,0 +1,69 @@
+{
+  "comparators": [
+    {
+      "family": "substitution",
+      "dataset": "modern",
+      "beam_cer": 0.0,
+      "beam_cases": 2,
+      "em": {
+        "cases": 2,
+        "cer": 0.002232973576479345,
+        "wer": 0.07961165048543689,
+        "gate_passes": 1
+      }
+    },
+    {
+      "family": "substitution",
+      "dataset": "historical",
+      "beam_cer": 0.0,
+      "beam_cases": 2,
+      "em": {
+        "cases": 2,
+        "cer": 0.003419452887537994,
+        "wer": 0.26952526799387444,
+        "gate_passes": 0
+      }
+    },
+    {
+      "family": "homophonic",
+      "dataset": "modern",
+      "beam_cer": 0.0,
+      "beam_cases": 2,
+      "em": {
+        "cases": 2,
+        "cer": 0.005582433941198363,
+        "wer": 0.1145631067961165,
+        "gate_passes": 0
+      }
+    },
+    {
+      "family": "homophonic",
+      "dataset": "historical",
+      "beam_cer": 0.00303951367781155,
+      "beam_cases": 2,
+      "em": {
+        "cases": 2,
+        "cer": 0.012917933130699088,
+        "wer": 0.32006125574272587,
+        "gate_passes": 0
+      }
+    }
+  ],
+  "segmentation": {
+    "modern": {
+      "old": 0.07378640776699029,
+      "new": 0.06019417475728155
+    },
+    "historical": {
+      "old": 0.3767228177641654,
+      "new": 0.24196018376722817
+    }
+  },
+  "selection_losses": [
+    "49586b739969f2e1",
+    "56a2cf880f81ebec",
+    "58fc93d9a51d4171",
+    "6783ffa169653710",
+    "e771fd05fb853701"
+  ]
+}

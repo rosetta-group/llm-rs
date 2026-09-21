@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "445f3ea3710c3ea58c3b8824e40975a5e6b809647d320112424d5fa7aa1a4dae",
+  "files": {
+    "public.json": "998cd0838e8c30bcb6a079e00374e375c959971cafa0ed1f055bd3d21f555d1d",
+    "challenge.json": "8dfd1bec5f9d1e9dce320dc7865548d8943f6fafb9bc44d80fa776c380dedff3",
+    "predictions.json": "a96066cc3da79f74274a192c377d218c24d70a08e38231ddcf0fea8188e4170c",
+    "segmentation-predictions.json": "de382bc4308f6edde3603001fc26fbfe3069d3b98152086a06ddafbb96343160",
+    "evaluator-only/answers.json": "52b02426298ece36cd8939afb30a4fb940bf527cf0990c4514530407d55ee170"
+  },
+  "release": "After grading only. Plaintext references are now disclosed; never reuse these passages for tuning or a fresh test.",
+  "license": "ISDT-derived passages: CC BY-NC-SA 3.0; Italian-Old/Dante annotations: CC BY-SA 4.0. See SOURCE_LICENSE.md."
+}

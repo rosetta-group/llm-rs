@@ -4,13 +4,20 @@ The deliverable is a **validated decipherment-method benchmark** with positive c
 and honest Voynich negatives. Translation into English or Italian remains a long-term
 motivation; it is not supported by current evidence.
 
-Start with the [research record](RESEARCH_LOG.md), [bounded CPU plan](experiments/METHOD_BENCHMARK_PLAN.md),
-and [benchmark report with graphs](experiments/method-benchmark/REPORT.md).
+Start with the [research record](RESEARCH_LOG.md), [current protocol](experiments/standard-decipherment/PROTOCOL.md),
+and [fresh standard-method report with graphs](experiments/standard-decipherment/REPORT.md).
+The [methods note](experiments/method-benchmark/METHODS_NOTE.md) connects all tracks.
 
 - **Prediction track closed.** No further BPC sweeps, longer training, or larger-model
   comparisons. Reopening requires a named mechanism, falsifiable contrast, and fixed budget.
-- **Fresh segmentation:** modern Italian word error 15.9% → 6.1%; historical Italian
-  60.9% → 39.9%. Frozen after non-Dante tuning. Historical segmentation remains unresolved.
+- **Fresh historical segmentation:** Novellino/Decameron training lowers Dante word error
+  from 37.7% to 24.2% on the same new passages; modern error falls 7.4% → 6.0%.
+  Historical segmentation still misses the 10% gate. Earlier results remain archived.
+- **Published cipher comparators + MDL:** exact letters in 7/8 fresh substitution/homophonic
+  controls; the remaining case has 0.63% character error. Historical substitution selection
+  is repaired. Naibbe fails; the reserved Voynich mechanism test stays closed.
+- **Image track parked:** no further catalogue study. Reopening needs masked labels from
+  two annotators, agreement statistics and an identifiable design.
 - **Broad image domains:** botanical, people/bathing, and celestial/diagrams now tested
   across 63 physical folio groups. Character text alone scores 72.2% balanced accuracy;
   hand/layout scores 94.4%; adding text does not improve it. [Report](experiments/image-domains/REPORT.md).
@@ -18,8 +25,8 @@ and [benchmark report with graphs](experiments/method-benchmark/REPORT.md).
   models, same-page matching, and relational tests. None of 12 comparisons establishes
   an association. [Report and graphs](experiments/association-complex/REPORT.md).
   The earlier 59-label root-color pilot is preserved.
-- **Codebook-free recovery:** modern substitution passed; historical selection, broader
-  synthetic control, and Naibbe failed. Exact historical letters were found but not selected.
+- **Earlier codebook-free recovery:** exact historical letters were found but not selected.
+  The new selector repairs this substitution failure; variable-length recovery remains unresolved.
 - **Cloud cleanup complete:** Runpod pod and attached temporary storage deleted on
   2026-09-21; no network volumes remain. [Audit record](experiments/cloud-cleanup.json).
 
@@ -27,7 +34,7 @@ All previous experiments and reports remain archived. The Voynich final test is 
 The old prediction monitor is paused. Training commands below document earlier methods;
 they are not the active research plan.
 
-## Current benchmark commands
+## Archived benchmark commands
 
 ```sh
 .venv/bin/python -m experiments.discovery_sources
@@ -282,3 +289,12 @@ The Voynich mechanism test is reserved until the Naibbe recovery gate passes.
 Existing freezes refuse overwrite. `verify` checks the committed method and pinned inputs.
 Raw prose, models and private answers live under ignored `artifacts/`; source manifests,
 development results, protocols and aggregate evaluation results are tracked.
+
+For the committed completed run, restore exact prose with
+`python -m experiments.historical_sources restore`. With the earlier pinned UD corpora
+and frozen modern segmenter available, `python -m experiments.standard_decipherment_rebuild`
+recreates missing priors without tuning. `python -m experiments.standard_decipherment_records restore`
+restores the exact graded challenge and predictions; its plaintext references are now disclosed.
+`python -m experiments.standard_decipherment_audit` verifies the saved result. The report
+regenerates with `python -m experiments.standard_decipherment_report` (matplotlib required).
+Do not reuse disclosed source IDs as fresh tests. Source/data licenses accompany both archives.

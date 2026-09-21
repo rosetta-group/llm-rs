@@ -1,0 +1,2908 @@
+{
+  "summary": {
+    "substitution": {
+      "modern": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.06019417475728155,
+          "gate_passes": 1
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.06019417475728155,
+          "gate_passes": 1
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.06019417475728155,
+          "gate_passes": 1
+        },
+        "hmm_em": {
+          "cases": 2,
+          "cer": 0.002232973576479345,
+          "wer": 0.07961165048543689,
+          "gate_passes": 1
+        }
+      },
+      "historical": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.24196018376722817,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 1.4582066869300911,
+          "wer": 2.55895865237366,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.24196018376722817,
+          "gate_passes": 0
+        },
+        "hmm_em": {
+          "cases": 2,
+          "cer": 0.003419452887537994,
+          "wer": 0.26952526799387444,
+          "gate_passes": 0
+        }
+      }
+    },
+    "homophonic": {
+      "modern": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.0,
+          "wer": 0.06019417475728155,
+          "gate_passes": 1
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 4.495347971715668,
+          "wer": 6.918446601941747,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 1.436546334201712,
+          "wer": 3.4679611650485436,
+          "gate_passes": 0
+        },
+        "hmm_em": {
+          "cases": 2,
+          "cer": 0.005582433941198363,
+          "wer": 0.1145631067961165,
+          "gate_passes": 0
+        }
+      },
+      "historical": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.00303951367781155,
+          "wer": 0.26339969372128635,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 1.4601063829787233,
+          "wer": 2.656967840735069,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 1.4601063829787233,
+          "wer": 2.656967840735069,
+          "gate_passes": 0
+        },
+        "hmm_em": {
+          "cases": 2,
+          "cer": 0.012917933130699088,
+          "wer": 0.32006125574272587,
+          "gate_passes": 0
+        }
+      }
+    },
+    "variable-homophonic": {
+      "modern": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.6929661332340901,
+          "wer": 0.916504854368932,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 4.493487160401935,
+          "wer": 9.139805825242718,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 0.8105694082620022,
+          "wer": 1.4582524271844661,
+          "gate_passes": 0
+        }
+      },
+      "historical": {
+        "combined": {
+          "cases": 2,
+          "cer": 0.709726443768997,
+          "wer": 0.9264931087289433,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 4.517477203647417,
+          "wer": 7.4701378254211335,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 0.8271276595744681,
+          "wer": 1.105666156202144,
+          "gate_passes": 0
+        }
+      }
+    },
+    "naibbe": {
+      "modern": {
+        "combined": {
+          "cases": 2,
+          "cer": 3.1883141049497583,
+          "wer": 5.0,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 6.685522887979159,
+          "wer": 12.448543689320388,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 3.1332340900632674,
+          "wer": 2.095145631067961,
+          "gate_passes": 0
+        }
+      },
+      "historical": {
+        "combined": {
+          "cases": 2,
+          "cer": 3.036854103343465,
+          "wer": 3.120980091883614,
+          "gate_passes": 0
+        },
+        "legacy_mean": {
+          "cases": 2,
+          "cer": 6.347644376899696,
+          "wer": 9.124042879019909,
+          "gate_passes": 0
+        },
+        "legacy_mdl": {
+          "cases": 2,
+          "cer": 2.982142857142857,
+          "wer": 1.4655436447166923,
+          "gate_passes": 0
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "0a65e2e7870bb11b",
+      "passage": "eb1019634e7c5bb7",
+      "dataset": "modern",
+      "family": "homophonic",
+      "characters": 1436,
+      "words": 254,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 27,
+          "cer": 0.0,
+          "wer": 0.1062992125984252,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 10268,
+          "word_errors": 2740,
+          "cer": 7.1504178272980505,
+          "wer": 10.78740157480315,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 2049,
+          "word_errors": 963,
+          "cer": 1.4268802228412256,
+          "wer": 3.7913385826771653,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 2,
+          "word_errors": 32,
+          "cer": 0.001392757660167131,
+          "wer": 0.12598425196850394,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32211.705852417406,
+            "plaintext_bits": 27319.086545554826,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4698.619306862582,
+            "plaintext_characters": 5744
+          },
+          "cer": 3.3962395543175488
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 39203.598851758485,
+            "plaintext_bits": 33313.979544895905,
+            "key_bits": 249,
+            "residual_bits": 942.0,
+            "overhead_bits": 4698.619306862582,
+            "plaintext_characters": 11488
+          },
+          "cer": 7.1504178272980505
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 13410.366061388206,
+            "plaintext_bits": 9163.278760759376,
+            "key_bits": 2022,
+            "residual_bits": 2182.0873006288284,
+            "overhead_bits": 43,
+            "plaintext_characters": 2862
+          },
+          "cer": 1.4268802228412256
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 30621.283441461776,
+            "plaintext_bits": 25728.664134599196,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4698.619306862582,
+            "plaintext_characters": 5744
+          },
+          "cer": 3.367688022284123
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32226.956139809532,
+            "plaintext_bits": 23229.336832946952,
+            "key_bits": 194,
+            "residual_bits": 4105.0,
+            "overhead_bits": 4698.619306862582,
+            "plaintext_characters": 5744
+          },
+          "cer": 3.461699164345404
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7102.789012473115,
+            "plaintext_bits": 3806.789012473115,
+            "key_bits": 1817,
+            "residual_bits": 1436.0,
+            "overhead_bits": 43,
+            "plaintext_characters": 1436
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7132.460998744631,
+            "plaintext_bits": 3798.098586194873,
+            "key_bits": 1817,
+            "residual_bits": 1474.3624125497586,
+            "overhead_bits": 43,
+            "plaintext_characters": 1436
+          },
+          "cer": 0.0006963788300835655
+        }
+      ],
+      "selected": 5,
+      "old_selected": 1,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 25703.664134599352,
+          "seconds": 5.214568166993558,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 23204.336832946738,
+          "seconds": 6.812650499981828,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 42,
+          "seconds": 0.21964149991981685
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 3785.789012473115,
+          "seconds": 3.5003597079776227,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 4,
+          "status": "complete",
+          "search_bits": 3777.098586194873,
+          "seconds": 7.113523792009801,
+          "width": 2048,
+          "max_homophones": 4,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -4337.998926719158,
+        "best_restart": 6,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -4337.998974062819,
+          -4675.265672300228,
+          -4337.998968127518,
+          -4337.998963753215,
+          -4667.0190806257,
+          -4669.608173492117,
+          -4337.998926719158,
+          -4662.004392970913
+        ],
+        "seconds": 28.354570040944964,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "224088f2a11c5152",
+      "passage": "1562a2b68de5b036",
+      "dataset": "historical",
+      "family": "substitution",
+      "characters": 1367,
+      "words": 340,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 83,
+          "cer": 0.0,
+          "wer": 0.24411764705882352,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 1976,
+          "word_errors": 916,
+          "cer": 1.445501097293343,
+          "wer": 2.6941176470588237,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 0,
+          "word_errors": 83,
+          "cer": 0.0,
+          "wer": 0.24411764705882352,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 5,
+          "word_errors": 92,
+          "cer": 0.0036576444769568397,
+          "wer": 0.27058823529411763,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4792.049064997892,
+            "plaintext_bits": 4418.049064997892,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1367
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 10195.79311905496,
+            "plaintext_bits": 8509.763630350604,
+            "key_bits": 444,
+            "residual_bits": 1217.0294887043567,
+            "overhead_bits": 25,
+            "plaintext_characters": 2713
+          },
+          "cer": 1.445501097293343
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4792.049064997892,
+            "plaintext_bits": 4418.049064997892,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1367
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4792.049064997892,
+            "plaintext_bits": 4418.049064997892,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1367
+          },
+          "cer": 0.0
+        }
+      ],
+      "selected": 0,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 4397.0490649978865,
+          "seconds": 1.5179727090289816,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 4397.0490649978865,
+          "seconds": 2.767769332975149,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -3225.372678510259,
+        "best_restart": 7,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -3528.810845979781,
+          -3515.0216854220002,
+          -3515.2750974236997,
+          -3512.8792340751947,
+          -3513.129084635817,
+          -3225.3726812913164,
+          -3225.3726822399753,
+          -3225.372678510259
+        ],
+        "seconds": 26.818959709024057,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "266a92a00a48e667",
+      "passage": "dbc876174c6f422a",
+      "dataset": "modern",
+      "family": "substitution",
+      "characters": 1251,
+      "words": 261,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 4,
+          "cer": 0.0,
+          "wer": 0.01532567049808429,
+          "gate": true
+        },
+        "legacy_mean": {
+          "character_errors": 0,
+          "word_errors": 4,
+          "cer": 0.0,
+          "wer": 0.01532567049808429,
+          "gate": true
+        },
+        "legacy_mdl": {
+          "character_errors": 0,
+          "word_errors": 4,
+          "cer": 0.0,
+          "wer": 0.01532567049808429,
+          "gate": true
+        },
+        "hmm_em": {
+          "character_errors": 6,
+          "word_errors": 14,
+          "cer": 0.004796163069544364,
+          "wer": 0.05363984674329502,
+          "gate": true
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 3731.2353884661106,
+            "plaintext_bits": 3323.2353884661106,
+            "key_bits": 383,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1251
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 9705.817693027126,
+            "plaintext_bits": 8185.817693027127,
+            "key_bits": 493,
+            "residual_bits": 1002.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 2502
+          },
+          "cer": 1.4548361310951239
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 3731.2353884661106,
+            "plaintext_bits": 3323.2353884661106,
+            "key_bits": 383,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1251
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 3787.1870370114184,
+            "plaintext_bits": 3304.1870370114184,
+            "key_bits": 383,
+            "residual_bits": 75.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1251
+          },
+          "cer": 0.0007993605115907274
+        }
+      ],
+      "selected": 0,
+      "old_selected": 0,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 3302.235388466114,
+          "seconds": 1.7779808329651132,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 3283.187037011421,
+          "seconds": 3.707033000071533,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -2959.3833452285658,
+        "best_restart": 2,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -2959.383345872975,
+          -2959.3833464665813,
+          -2959.3833452285658,
+          -3212.7224092101023,
+          -3216.7253259201507,
+          -3211.1986277542474,
+          -2959.3833466321303,
+          -2959.3833459959997
+        ],
+        "seconds": 24.118554458022118,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "422bdf1c2f8118b6",
+      "passage": "dbc876174c6f422a",
+      "dataset": "modern",
+      "family": "variable-homophonic",
+      "characters": 1251,
+      "words": 261,
+      "methods": {
+        "combined": {
+          "character_errors": 898,
+          "word_errors": 240,
+          "cer": 0.7178257394084733,
+          "wer": 0.9195402298850575,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 5656,
+          "word_errors": 2080,
+          "cer": 4.521183053557154,
+          "wer": 7.969348659003831,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 996,
+          "word_errors": 301,
+          "cer": 0.7961630695443646,
+          "wer": 1.1532567049808429,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 34507.75461942355,
+            "plaintext_bits": 31363.05688521882,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2744.6977342047303,
+            "plaintext_characters": 3340
+          },
+          "cer": 2.161470823341327
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 28936.905611792426,
+            "plaintext_bits": 23021.697976624222,
+            "key_bits": 515,
+            "residual_bits": 2655.509900963473,
+            "overhead_bits": 2744.6977342047303,
+            "plaintext_characters": 6680
+          },
+          "cer": 4.521183053557154
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 20565.752361894072,
+            "plaintext_bits": 4989.247346807802,
+            "key_bits": 12269,
+            "residual_bits": 3268.50501508627,
+            "overhead_bits": 39,
+            "plaintext_characters": 1353
+          },
+          "cer": 0.7961630695443646
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 33650.81219878293,
+            "plaintext_bits": 30506.1144645782,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2744.6977342047303,
+            "plaintext_characters": 3340
+          },
+          "cer": 2.167066346922462
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 26903.042105717563,
+            "plaintext_bits": 20520.344371512834,
+            "key_bits": 400,
+            "residual_bits": 3238.0,
+            "overhead_bits": 2744.6977342047303,
+            "plaintext_characters": 3340
+          },
+          "cer": 2.060751398880895
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 18126.291140108387,
+            "plaintext_bits": 2794.4912973189566,
+            "key_bits": 11584,
+            "residual_bits": 3708.7998427894295,
+            "overhead_bits": 39,
+            "plaintext_characters": 835
+          },
+          "cer": 0.7178257394084733
+        }
+      ],
+      "selected": 5,
+      "old_selected": 1,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.7178257394084733,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 30483.11446457825,
+          "seconds": 2.5759689590195194,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 20497.344371512834,
+          "seconds": 5.006585708935745,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 269,
+          "seconds": 0.0005035829963162541
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 269,
+          "seconds": 9.470898658037186e-05
+        },
+        {
+          "representation": "units",
+          "capacity": 24,
+          "status": "complete",
+          "search_bits": 2775.491297318958,
+          "seconds": 26.586977750062943,
+          "width": 2048,
+          "max_homophones": 24,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "469bed24acb53790",
+      "passage": "977f300de6388c83",
+      "dataset": "historical",
+      "family": "variable-homophonic",
+      "characters": 1265,
+      "words": 313,
+      "methods": {
+        "combined": {
+          "character_errors": 901,
+          "word_errors": 287,
+          "cer": 0.7122529644268775,
+          "wer": 0.9169329073482428,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 5724,
+          "word_errors": 2357,
+          "cer": 4.524901185770751,
+          "wer": 7.5303514376996805,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1033,
+          "word_errors": 332,
+          "cer": 0.8166007905138339,
+          "wer": 1.060702875399361,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 35184.22197331383,
+            "plaintext_bits": 32020.05872781072,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2764.163245503116,
+            "plaintext_characters": 3364
+          },
+          "cer": 2.1478260869565218
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 30160.912634831955,
+            "plaintext_bits": 22433.717726187675,
+            "key_bits": 515,
+            "residual_bits": 4448.031663141162,
+            "overhead_bits": 2764.163245503116,
+            "plaintext_characters": 6728
+          },
+          "cer": 4.524901185770751
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 21017.997605146007,
+            "plaintext_bits": 5325.845811834365,
+            "key_bits": 12339,
+            "residual_bits": 3314.1517933116397,
+            "overhead_bits": 39,
+            "plaintext_characters": 1410
+          },
+          "cer": 0.8166007905138339
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 33499.046735343065,
+            "plaintext_bits": 30334.88348983995,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2764.163245503116,
+            "plaintext_characters": 3364
+          },
+          "cer": 2.13201581027668
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 26759.67286923864,
+            "plaintext_bits": 20358.50962373552,
+            "key_bits": 400,
+            "residual_bits": 3237.0,
+            "overhead_bits": 2764.163245503116,
+            "plaintext_characters": 3364
+          },
+          "cer": 2.04901185770751
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 18096.579398520935,
+            "plaintext_bits": 2785.1997686425875,
+            "key_bits": 11584,
+            "residual_bits": 3688.3796298783477,
+            "overhead_bits": 39,
+            "plaintext_characters": 841
+          },
+          "cer": 0.7122529644268775
+        }
+      ],
+      "selected": 5,
+      "old_selected": 1,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.7122529644268775,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 30311.883489840035,
+          "seconds": 2.5874983749818057,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 20335.509623735532,
+          "seconds": 5.077668834012002,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 269,
+          "seconds": 0.00034304207656532526
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 269,
+          "seconds": 9.524996858090162e-05
+        },
+        {
+          "representation": "units",
+          "capacity": 24,
+          "status": "complete",
+          "search_bits": 2766.1997686425884,
+          "seconds": 27.713909541955218,
+          "width": 2048,
+          "max_homophones": 24,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "492e0dcf670bbaa7",
+      "passage": "eb1019634e7c5bb7",
+      "dataset": "modern",
+      "family": "substitution",
+      "characters": 1436,
+      "words": 254,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 27,
+          "cer": 0.0,
+          "wer": 0.1062992125984252,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 0,
+          "word_errors": 27,
+          "cer": 0.0,
+          "wer": 0.1062992125984252,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 0,
+          "word_errors": 27,
+          "cer": 0.0,
+          "wer": 0.1062992125984252,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 0,
+          "word_errors": 27,
+          "cer": 0.0,
+          "wer": 0.1062992125984252,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4197.789012473115,
+            "plaintext_bits": 3806.789012473115,
+            "key_bits": 366,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1436
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 11688.40956917715,
+            "plaintext_bits": 9561.428974695587,
+            "key_bits": 456,
+            "residual_bits": 1645.9805944815625,
+            "overhead_bits": 25,
+            "plaintext_characters": 2786
+          },
+          "cer": 1.4080779944289694
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4197.789012473115,
+            "plaintext_bits": 3806.789012473115,
+            "key_bits": 366,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1436
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4197.789012473115,
+            "plaintext_bits": 3806.789012473115,
+            "key_bits": 366,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1436
+          },
+          "cer": 0.0
+        }
+      ],
+      "selected": 0,
+      "old_selected": 0,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 3785.789012473115,
+          "seconds": 2.074658624944277,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 3785.789012473115,
+          "seconds": 3.3234094999497756,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -3316.9012151656543,
+        "best_restart": 1,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -3671.3732432308475,
+          -3316.9012151656543,
+          -3316.9012152080304,
+          -3681.5233706226336,
+          -3672.287303613416,
+          -3316.9012152274754,
+          -3675.7383485456485,
+          -3673.8123780552423
+        ],
+        "seconds": 27.356230875011533,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "49586b739969f2e1",
+      "passage": "977f300de6388c83",
+      "dataset": "historical",
+      "family": "naibbe",
+      "characters": 1265,
+      "words": 313,
+      "methods": {
+        "combined": {
+          "character_errors": 3640,
+          "word_errors": 765,
+          "cer": 2.877470355731225,
+          "wer": 2.4440894568690097,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 7442,
+          "word_errors": 2578,
+          "cer": 5.88300395256917,
+          "wer": 8.236421725239616,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 3583,
+          "word_errors": 389,
+          "cer": 2.832411067193676,
+          "wer": 1.2428115015974441,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 29849.65988943134,
+            "plaintext_bits": 26410.984403332328,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3089.67548609901,
+            "plaintext_characters": 4445
+          },
+          "cer": 2.832411067193676
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32414.556210269922,
+            "plaintext_bits": 26395.88072417091,
+            "key_bits": 434,
+            "residual_bits": 2495.0,
+            "overhead_bits": 3089.67548609901,
+            "plaintext_characters": 8511
+          },
+          "cer": 5.88300395256917
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 39494.124269647815,
+            "plaintext_bits": 4675.730181331449,
+            "key_bits": 31042,
+            "residual_bits": 3737.3940883163673,
+            "overhead_bits": 39,
+            "plaintext_characters": 1245
+          },
+          "cer": 0.7715415019762846
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 28132.497165188997,
+            "plaintext_bits": 24693.821679089986,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3089.67548609901,
+            "plaintext_characters": 4445
+          },
+          "cer": 2.857707509881423
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 27405.551463514355,
+            "plaintext_bits": 19893.875977415344,
+            "key_bits": 349,
+            "residual_bits": 4073.0,
+            "overhead_bits": 3089.67548609901,
+            "plaintext_characters": 4445
+          },
+          "cer": 2.877470355731225
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 36278.71811614014,
+            "plaintext_bits": 2241.2020891520283,
+            "key_bits": 29767,
+            "residual_bits": 4231.516026988109,
+            "overhead_bits": 39,
+            "plaintext_characters": 814
+          },
+          "cer": 0.7114624505928854
+        }
+      ],
+      "selected": 4,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.7114624505928854,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 24668.821679089997,
+          "seconds": 4.944591916981153,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 19868.87597741538,
+          "seconds": 8.438122416031547,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 514,
+          "seconds": 0.0005446249851956964
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 514,
+          "seconds": 0.00013145897537469864
+        },
+        {
+          "representation": "units",
+          "capacity": 46,
+          "status": "complete",
+          "search_bits": 2222.2020891520265,
+          "seconds": 44.643377624917775,
+          "width": 2048,
+          "max_homophones": 46,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "56a2cf880f81ebec",
+      "passage": "977f300de6388c83",
+      "dataset": "historical",
+      "family": "homophonic",
+      "characters": 1265,
+      "words": 313,
+      "methods": {
+        "combined": {
+          "character_errors": 8,
+          "word_errors": 89,
+          "cer": 0.006324110671936759,
+          "wer": 0.28434504792332266,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 1854,
+          "word_errors": 838,
+          "cer": 1.4656126482213438,
+          "wer": 2.6773162939297124,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1854,
+          "word_errors": 838,
+          "cer": 1.4656126482213438,
+          "wer": 2.6773162939297124,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 19,
+          "word_errors": 111,
+          "cer": 0.015019762845849802,
+          "wer": 0.3546325878594249,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 29635.87940117245,
+            "plaintext_bits": 25298.08288451825,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4143.796516654199,
+            "plaintext_characters": 5060
+          },
+          "cer": 3.3889328063241106
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 38004.6390258624,
+            "plaintext_bits": 32837.8425092082,
+            "key_bits": 249,
+            "residual_bits": 774.0,
+            "overhead_bits": 4143.796516654199,
+            "plaintext_characters": 10120
+          },
+          "cer": 7.1628458498023715
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 12101.949680088224,
+            "plaintext_bits": 8219.93267942049,
+            "key_bits": 1931,
+            "residual_bits": 1908.017000667735,
+            "overhead_bits": 43,
+            "plaintext_characters": 2530
+          },
+          "cer": 1.4656126482213438
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 27611.387839175073,
+            "plaintext_bits": 23273.591322520875,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4143.796516654199,
+            "plaintext_characters": 5060
+          },
+          "cer": 3.3944664031620553
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 28329.41872777396,
+            "plaintext_bits": 20341.62221111976,
+            "key_bits": 194,
+            "residual_bits": 3650.0,
+            "overhead_bits": 4143.796516654199,
+            "plaintext_characters": 5060
+          },
+          "cer": 3.5098814229249014
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7185.02268865634,
+            "plaintext_bits": 4146.02268865634,
+            "key_bits": 1731,
+            "residual_bits": 1265.0,
+            "overhead_bits": 43,
+            "plaintext_characters": 1265
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7173.439008615645,
+            "plaintext_bits": 4111.945771081752,
+            "key_bits": 1731,
+            "residual_bits": 1287.4932375338935,
+            "overhead_bits": 43,
+            "plaintext_characters": 1265
+          },
+          "cer": 0.006324110671936759
+        }
+      ],
+      "selected": 6,
+      "old_selected": 2,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 23248.59132252088,
+          "seconds": 4.609944458003156,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 20316.622211119615,
+          "seconds": 6.1241743749706075,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 40,
+          "seconds": 0.1849590000929311
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 4125.02268865634,
+          "seconds": 2.8692167080007493,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 4,
+          "status": "complete",
+          "search_bits": 4090.9457710817533,
+          "seconds": 5.719711208017543,
+          "width": 2048,
+          "max_homophones": 4,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -3897.897722147411,
+        "best_restart": 6,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -3897.91067477361,
+          -3897.9028686937486,
+          -3897.9030053383426,
+          -3897.9003759447623,
+          -3897.9025484600884,
+          -3897.9025146581735,
+          -3897.897722147411,
+          -3897.900387862435
+        ],
+        "seconds": 24.688606000039726,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "58fc93d9a51d4171",
+      "passage": "1562a2b68de5b036",
+      "dataset": "historical",
+      "family": "naibbe",
+      "characters": 1367,
+      "words": 340,
+      "methods": {
+        "combined": {
+          "character_errors": 4353,
+          "word_errors": 1273,
+          "cer": 3.184345281638625,
+          "wer": 3.7441176470588236,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 9265,
+          "word_errors": 3380,
+          "cer": 6.777615215801024,
+          "wer": 9.941176470588236,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 4266,
+          "word_errors": 568,
+          "cer": 3.120702267739576,
+          "wer": 1.6705882352941177,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 34400.91467684043,
+            "plaintext_bits": 30618.56010175451,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3433.3545750859257,
+            "plaintext_characters": 5226
+          },
+          "cer": 3.120702267739576
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 39450.718855692015,
+            "plaintext_bits": 33661.36428060609,
+            "key_bits": 449,
+            "residual_bits": 1907.0,
+            "overhead_bits": 3433.3545750859257,
+            "plaintext_characters": 10452
+          },
+          "cer": 6.777615215801024
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 43455.69717936899,
+            "plaintext_bits": 4975.304816107903,
+            "key_bits": 34426,
+            "residual_bits": 4015.3923632610818,
+            "overhead_bits": 39,
+            "plaintext_characters": 1353
+          },
+          "cer": 0.7644476956839795
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32456.435037629133,
+            "plaintext_bits": 28674.080462543207,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3433.3545750859257,
+            "plaintext_characters": 5226
+          },
+          "cer": 3.1250914411119237
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32021.758419449146,
+            "plaintext_bits": 23084.40384436322,
+            "key_bits": 349,
+            "residual_bits": 5155.0,
+            "overhead_bits": 3433.3545750859257,
+            "plaintext_characters": 5226
+          },
+          "cer": 3.184345281638625
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 40196.663722675825,
+            "plaintext_bits": 2494.458433011213,
+            "key_bits": 33036,
+            "residual_bits": 4627.205289664614,
+            "overhead_bits": 39,
+            "plaintext_characters": 871
+          },
+          "cer": 0.7103145574250183
+        }
+      ],
+      "selected": 4,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.7103145574250183,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 28649.08046254308,
+          "seconds": 6.0644267910392955,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 23059.403844363147,
+          "seconds": 10.225189958000556,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 539,
+          "seconds": 0.0005750830750912428
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 539,
+          "seconds": 0.00014808401465415955
+        },
+        {
+          "representation": "units",
+          "capacity": 48,
+          "status": "complete",
+          "search_bits": 2475.458433011214,
+          "seconds": 52.20747245789971,
+          "width": 2048,
+          "max_homophones": 48,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "6783ffa169653710",
+      "passage": "dbc876174c6f422a",
+      "dataset": "modern",
+      "family": "naibbe",
+      "characters": 1251,
+      "words": 261,
+      "methods": {
+        "combined": {
+          "character_errors": 4206,
+          "word_errors": 1431,
+          "cer": 3.3621103117505995,
+          "wer": 5.482758620689655,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 8753,
+          "word_errors": 3263,
+          "cer": 6.996802557953637,
+          "wer": 12.50191570881226,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 4107,
+          "word_errors": 581,
+          "cer": 3.2829736211031175,
+          "wer": 2.2260536398467434,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 33233.0060632111,
+            "plaintext_bits": 29608.216156160357,
+            "key_bits": 315,
+            "residual_bits": 0.0,
+            "overhead_bits": 3309.7899070507383,
+            "plaintext_characters": 5021
+          },
+          "cer": 3.2829736211031175
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 36744.55481809543,
+            "plaintext_bits": 31728.712223115603,
+            "key_bits": 400,
+            "residual_bits": 1306.0526879290833,
+            "overhead_bits": 3309.7899070507383,
+            "plaintext_characters": 9864
+          },
+          "cer": 6.996802557953637
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 40154.257895533985,
+            "plaintext_bits": 4819.17216557343,
+            "key_bits": 31643,
+            "residual_bits": 3653.0857299605595,
+            "overhead_bits": 39,
+            "plaintext_characters": 1306
+          },
+          "cer": 0.7865707434052758
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 30336.909218167722,
+            "plaintext_bits": 26712.119311116985,
+            "key_bits": 315,
+            "residual_bits": 0.0,
+            "overhead_bits": 3309.7899070507383,
+            "plaintext_characters": 5021
+          },
+          "cer": 3.323741007194245
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 29318.4100048687,
+            "plaintext_bits": 21562.620097817962,
+            "key_bits": 315,
+            "residual_bits": 4131.0,
+            "overhead_bits": 3309.7899070507383,
+            "plaintext_characters": 5021
+          },
+          "cer": 3.3621103117505995
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 37037.787143050016,
+            "plaintext_bits": 2299.335280664871,
+            "key_bits": 30343,
+            "residual_bits": 4356.451862385147,
+            "overhead_bits": 39,
+            "plaintext_characters": 841
+          },
+          "cer": 0.709832134292566
+        }
+      ],
+      "selected": 4,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.709832134292566,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 26687.119311117025,
+          "seconds": 5.240970207960345,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 21537.620097818028,
+          "seconds": 8.320445333025418,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 484,
+          "seconds": 0.000521959038451314
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 484,
+          "seconds": 0.00013266701716929674
+        },
+        {
+          "representation": "units",
+          "capacity": 44,
+          "status": "complete",
+          "search_bits": 2280.3352806648677,
+          "seconds": 45.61250670894515,
+          "width": 2048,
+          "max_homophones": 44,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "7be20a2158b98da7",
+      "passage": "977f300de6388c83",
+      "dataset": "historical",
+      "family": "substitution",
+      "characters": 1265,
+      "words": 313,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 75,
+          "cer": 0.0,
+          "wer": 0.23961661341853036,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 1862,
+          "word_errors": 755,
+          "cer": 1.4719367588932806,
+          "wer": 2.412140575079872,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 0,
+          "word_errors": 75,
+          "cer": 0.0,
+          "wer": 0.23961661341853036,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 4,
+          "word_errors": 84,
+          "cer": 0.0031620553359683794,
+          "wer": 0.268370607028754,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4520.02268865634,
+            "plaintext_bits": 4146.02268865634,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1265
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 10460.446492043093,
+            "plaintext_bits": 8927.458479216406,
+            "key_bits": 449,
+            "residual_bits": 1058.9880128266873,
+            "overhead_bits": 25,
+            "plaintext_characters": 2530
+          },
+          "cer": 1.4719367588932806
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4520.02268865634,
+            "plaintext_bits": 4146.02268865634,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1265
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 4549.639046720268,
+            "plaintext_bits": 4123.639046720268,
+            "key_bits": 349,
+            "residual_bits": 52.0,
+            "overhead_bits": 25,
+            "plaintext_characters": 1265
+          },
+          "cer": 0.010276679841897233
+        }
+      ],
+      "selected": 0,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 4125.02268865634,
+          "seconds": 1.3249889999860898,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 4102.639046720271,
+          "seconds": 2.5676526660099626,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -3001.750273525497,
+        "best_restart": 7,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -3001.750393244999,
+          -3001.7509078512385,
+          -3252.7357614385705,
+          -3001.7505668094464,
+          -3259.323311981124,
+          -3001.75076171694,
+          -3001.750918198484,
+          -3001.750273525497
+        ],
+        "seconds": 23.972483124933206,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "8c76718d9df49ea4",
+      "passage": "eb1019634e7c5bb7",
+      "dataset": "modern",
+      "family": "variable-homophonic",
+      "characters": 1436,
+      "words": 254,
+      "methods": {
+        "combined": {
+          "character_errors": 964,
+          "word_errors": 232,
+          "cer": 0.6713091922005571,
+          "wer": 0.9133858267716536,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 6418,
+          "word_errors": 2627,
+          "cer": 4.469359331476323,
+          "wer": 10.34251968503937,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1182,
+          "word_errors": 450,
+          "cer": 0.8231197771587744,
+          "wer": 1.7716535433070866,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 37917.99535360955,
+            "plaintext_bits": 34403.44709185896,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 3114.54826175059,
+            "plaintext_characters": 3796
+          },
+          "cer": 2.1128133704735377
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 33208.55245849347,
+            "plaintext_bits": 25753.69883348056,
+            "key_bits": 515,
+            "residual_bits": 3825.3053632623173,
+            "overhead_bits": 3114.54826175059,
+            "plaintext_characters": 7592
+          },
+          "cer": 4.469359331476323
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 21460.220709849295,
+            "plaintext_bits": 5963.049161111672,
+            "key_bits": 12255,
+            "residual_bits": 3203.171548737621,
+            "overhead_bits": 39,
+            "plaintext_characters": 1646
+          },
+          "cer": 0.8231197771587744
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 36460.6307986083,
+            "plaintext_bits": 32946.082536857706,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 3114.54826175059,
+            "plaintext_characters": 3796
+          },
+          "cer": 2.114902506963788
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 30083.68586935732,
+            "plaintext_bits": 22869.137607606728,
+            "key_bits": 400,
+            "residual_bits": 3700.0,
+            "overhead_bits": 3114.54826175059,
+            "plaintext_characters": 3796
+          },
+          "cer": 2.0327298050139277
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 19000.05578888434,
+            "plaintext_bits": 3345.413139997367,
+            "key_bits": 11455,
+            "residual_bits": 4160.642648886975,
+            "overhead_bits": 39,
+            "plaintext_characters": 949
+          },
+          "cer": 0.6713091922005571
+        }
+      ],
+      "selected": 5,
+      "old_selected": 1,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.6713091922005571,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 32923.08253685777,
+          "seconds": 3.2610898329876363,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 22846.13760760676,
+          "seconds": 6.002556790946983,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 266,
+          "seconds": 0.0003450830699875951
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 266,
+          "seconds": 0.00010020798072218895
+        },
+        {
+          "representation": "units",
+          "capacity": 24,
+          "status": "complete",
+          "search_bits": 3326.4131399973703,
+          "seconds": 29.94460816704668,
+          "width": 2048,
+          "max_homophones": 24,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "97b3db13526dc321",
+      "passage": "dbc876174c6f422a",
+      "dataset": "modern",
+      "family": "homophonic",
+      "characters": 1251,
+      "words": 261,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 4,
+          "cer": 0.0,
+          "wer": 0.01532567049808429,
+          "gate": true
+        },
+        "legacy_mean": {
+          "character_errors": 1811,
+          "word_errors": 823,
+          "cer": 1.4476418864908074,
+          "wer": 3.153256704980843,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1811,
+          "word_errors": 823,
+          "cer": 1.4476418864908074,
+          "wer": 3.153256704980843,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 13,
+          "word_errors": 27,
+          "cer": 0.010391686650679457,
+          "wer": 0.10344827586206896,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 27203.54900459157,
+            "plaintext_bits": 22911.176036261593,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4098.372968329974,
+            "plaintext_characters": 5004
+          },
+          "cer": 3.3709032773780976
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 35048.5421864718,
+            "plaintext_bits": 30701.169218141826,
+            "key_bits": 249,
+            "residual_bits": 0.0,
+            "overhead_bits": 4098.372968329974,
+            "plaintext_characters": 10008
+          },
+          "cer": 7.1374900079936054
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 12491.039192332864,
+            "plaintext_bits": 8264.514276360107,
+            "key_bits": 2070,
+            "residual_bits": 2113.5249159727578,
+            "overhead_bits": 43,
+            "plaintext_characters": 2501
+          },
+          "cer": 1.4476418864908074
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 26826.57212056032,
+            "plaintext_bits": 22534.199152230343,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4098.372968329974,
+            "plaintext_characters": 5004
+          },
+          "cer": 3.372501998401279
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 26208.378017599425,
+            "plaintext_bits": 20335.00504926945,
+            "key_bits": 194,
+            "residual_bits": 1581.0,
+            "overhead_bits": 4098.372968329974,
+            "plaintext_characters": 5004
+          },
+          "cer": 3.4748201438848922
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 6476.235388466111,
+            "plaintext_bits": 3323.2353884661106,
+            "key_bits": 1860,
+            "residual_bits": 1250.0,
+            "overhead_bits": 43,
+            "plaintext_characters": 1251
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 6502.059224565504,
+            "plaintext_bits": 3304.1870370114184,
+            "key_bits": 1860,
+            "residual_bits": 1294.8721875540862,
+            "overhead_bits": 43,
+            "plaintext_characters": 1251
+          },
+          "cer": 0.0007993605115907274
+        }
+      ],
+      "selected": 5,
+      "old_selected": 2,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 22509.19915223033,
+          "seconds": 4.550627083983272,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 20310.005049269203,
+          "seconds": 6.026669249986298,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 43,
+          "seconds": 0.21971158299129456
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 3302.235388466114,
+          "seconds": 3.1410930829588324,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 4,
+          "status": "complete",
+          "search_bits": 3283.187037011421,
+          "seconds": 6.4963152499403805,
+          "width": 2048,
+          "max_homophones": 4,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -3842.7596366609064,
+        "best_restart": 4,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -3842.759642248808,
+          -3842.7596413054885,
+          -4068.828630801182,
+          -3842.759645741264,
+          -3842.7596366609064,
+          -3842.7596413000315,
+          -3842.7596474256625,
+          -3842.759638544631
+        ],
+        "seconds": 23.66019837500062,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "c848ee995f2ad4f7",
+      "passage": "1562a2b68de5b036",
+      "dataset": "historical",
+      "family": "variable-homophonic",
+      "characters": 1367,
+      "words": 340,
+      "methods": {
+        "combined": {
+          "character_errors": 967,
+          "word_errors": 318,
+          "cer": 0.7073884418434528,
+          "wer": 0.9352941176470588,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 6166,
+          "word_errors": 2521,
+          "cer": 4.510607168983175,
+          "wer": 7.4147058823529415,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1144,
+          "word_errors": 390,
+          "cer": 0.8368690563277249,
+          "wer": 1.1470588235294117,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 37587.08882026614,
+            "plaintext_bits": 34208.802637011664,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2978.286183254471,
+            "plaintext_characters": 3628
+          },
+          "cer": 2.1324067300658376
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 31697.106259922348,
+            "plaintext_bits": 23866.70425139526,
+            "key_bits": 515,
+            "residual_bits": 4337.11582527262,
+            "overhead_bits": 2978.286183254471,
+            "plaintext_characters": 7256
+          },
+          "cer": 4.510607168983175
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 20742.215151452478,
+            "plaintext_bits": 5790.8129734467875,
+            "key_bits": 11818,
+            "residual_bits": 3094.4021780056905,
+            "overhead_bits": 39,
+            "plaintext_characters": 1566
+          },
+          "cer": 0.8368690563277249
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 35584.90886495512,
+            "plaintext_bits": 32206.622681700646,
+            "key_bits": 400,
+            "residual_bits": 0.0,
+            "overhead_bits": 2978.286183254471,
+            "plaintext_characters": 3628
+          },
+          "cer": 2.1258229700073152
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 28568.52813590428,
+            "plaintext_bits": 21654.24195264981,
+            "key_bits": 400,
+            "residual_bits": 3536.0,
+            "overhead_bits": 2978.286183254471,
+            "plaintext_characters": 3628
+          },
+          "cer": 2.055596196049744
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 18147.490418896265,
+            "plaintext_bits": 3066.9959226675574,
+            "key_bits": 11068,
+            "residual_bits": 3973.494496228707,
+            "overhead_bits": 39,
+            "plaintext_characters": 907
+          },
+          "cer": 0.7073884418434528
+        }
+      ],
+      "selected": 5,
+      "old_selected": 1,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.7073884418434528,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 32183.622681700625,
+          "seconds": 2.985765208955854,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 21631.24195264981,
+          "seconds": 5.644864332978614,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 257,
+          "seconds": 0.0003471659729257226
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 257,
+          "seconds": 9.699992369860411e-05
+        },
+        {
+          "representation": "units",
+          "capacity": 24,
+          "status": "complete",
+          "search_bits": 3047.995922667555,
+          "seconds": 27.245609416044317,
+          "width": 2048,
+          "max_homophones": 24,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    },
+    {
+      "id": "d73db803a7749432",
+      "passage": "1562a2b68de5b036",
+      "dataset": "historical",
+      "family": "homophonic",
+      "characters": 1367,
+      "words": 340,
+      "methods": {
+        "combined": {
+          "character_errors": 0,
+          "word_errors": 83,
+          "cer": 0.0,
+          "wer": 0.24411764705882352,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 1989,
+          "word_errors": 897,
+          "cer": 1.4550109729334308,
+          "wer": 2.638235294117647,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 1989,
+          "word_errors": 897,
+          "cer": 1.4550109729334308,
+          "wer": 2.638235294117647,
+          "gate": false
+        },
+        "hmm_em": {
+          "character_errors": 15,
+          "word_errors": 98,
+          "cer": 0.010972933430870519,
+          "wer": 0.28823529411764703,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 29325.32495207376,
+            "plaintext_bits": 24656.582890886857,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4474.742061186904,
+            "plaintext_characters": 5468
+          },
+          "cer": 3.376005852231163
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32108.316295772944,
+            "plaintext_bits": 25866.574234586038,
+            "key_bits": 244,
+            "residual_bits": 1523.0,
+            "overhead_bits": 4474.742061186904,
+            "plaintext_characters": 9569
+          },
+          "cer": 6.201170446232626
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 13278.492546270654,
+            "plaintext_bits": 8736.042790720056,
+            "key_bits": 1921,
+            "residual_bits": 2578.449755550598,
+            "overhead_bits": 43,
+            "plaintext_characters": 2714
+          },
+          "cer": 1.4550109729334308
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 28348.752189255407,
+            "plaintext_bits": 23680.0101280685,
+            "key_bits": 194,
+            "residual_bits": 0.0,
+            "overhead_bits": 4474.742061186904,
+            "plaintext_characters": 5468
+          },
+          "cer": 3.365764447695684
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 31380.307118528406,
+            "plaintext_bits": 21366.5650573415,
+            "key_bits": 194,
+            "residual_bits": 5345.0,
+            "overhead_bits": 4474.742061186904,
+            "plaintext_characters": 5468
+          },
+          "cer": 3.523043160204828
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7559.049064997892,
+            "plaintext_bits": 4418.049064997892,
+            "key_bits": 1731,
+            "residual_bits": 1367.0,
+            "overhead_bits": 43,
+            "plaintext_characters": 1367
+          },
+          "cer": 0.0
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 7559.049064997892,
+            "plaintext_bits": 4418.049064997892,
+            "key_bits": 1731,
+            "residual_bits": 1367.0,
+            "overhead_bits": 43,
+            "plaintext_characters": 1367
+          },
+          "cer": 0.0
+        }
+      ],
+      "selected": 5,
+      "old_selected": 2,
+      "mdl_legacy_selected": 2,
+      "oracle_cer": 0.0,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 23655.01012806857,
+          "seconds": 4.596955041983165,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 21341.56505734148,
+          "seconds": 6.009727458003908,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 40,
+          "seconds": 0.19994312501512468
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 4397.0490649978865,
+          "seconds": 3.1012307080673054,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 4,
+          "status": "complete",
+          "search_bits": 4397.0490649978865,
+          "seconds": 6.010974125005305,
+          "width": 2048,
+          "max_homophones": 4,
+          "extension_order": "2014-beam-100"
+        }
+      ],
+      "em": {
+        "log_likelihood": -4191.876609472914,
+        "best_restart": 6,
+        "restarts": 8,
+        "iterations": 200,
+        "restart_scores": [
+          -4191.876641376529,
+          -4191.876629127625,
+          -4473.289135787051,
+          -4191.876612556362,
+          -4191.876620523168,
+          -4191.876635492072,
+          -4191.876609472914,
+          -4456.361493502354
+        ],
+        "seconds": 25.83449295896571,
+        "cap_hit": false
+      }
+    },
+    {
+      "id": "e771fd05fb853701",
+      "passage": "eb1019634e7c5bb7",
+      "dataset": "modern",
+      "family": "naibbe",
+      "characters": 1436,
+      "words": 254,
+      "methods": {
+        "combined": {
+          "character_errors": 4361,
+          "word_errors": 1144,
+          "cer": 3.036908077994429,
+          "wer": 4.503937007874016,
+          "gate": false
+        },
+        "legacy_mean": {
+          "character_errors": 9211,
+          "word_errors": 3148,
+          "cer": 6.414345403899722,
+          "wer": 12.393700787401574,
+          "gate": false
+        },
+        "legacy_mdl": {
+          "character_errors": 4312,
+          "word_errors": 498,
+          "cer": 3.002785515320334,
+          "wer": 1.9606299212598426,
+          "gate": false
+        }
+      },
+      "candidates": [
+        {
+          "method": "bijection",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 35888.16638902601,
+            "plaintext_bits": 31887.53841567234,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3651.6279733536717,
+            "plaintext_characters": 5338
+          },
+          "cer": 3.002785515320334
+        },
+        {
+          "method": "variable",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 39998.96939704067,
+            "plaintext_bits": 33608.341423687,
+            "key_bits": 439,
+            "residual_bits": 2300.0,
+            "overhead_bits": 3651.6279733536717,
+            "plaintext_characters": 10474
+          },
+          "cer": 6.414345403899722
+        },
+        {
+          "method": "variable",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 43800.77879563178,
+            "plaintext_bits": 5795.054881816987,
+            "key_bits": 33571,
+            "residual_bits": 4395.723913814796,
+            "overhead_bits": 39,
+            "plaintext_characters": 1488
+          },
+          "cer": 0.7834261838440112
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 32495.503202624837,
+            "plaintext_bits": 28494.875229271165,
+            "key_bits": 349,
+            "residual_bits": 0.0,
+            "overhead_bits": 3651.6279733536717,
+            "plaintext_characters": 5338
+          },
+          "cer": 3.0243732590529246
+        },
+        {
+          "method": "published-beam",
+          "representation": "characters",
+          "mdl": {
+            "total_bits": 31756.31863129113,
+            "plaintext_bits": 22843.69065793746,
+            "key_bits": 349,
+            "residual_bits": 4912.0,
+            "overhead_bits": 3651.6279733536717,
+            "plaintext_characters": 5338
+          },
+          "cer": 3.036908077994429
+        },
+        {
+          "method": "published-beam",
+          "representation": "units",
+          "mdl": {
+            "total_bits": 40127.06738069665,
+            "plaintext_bits": 2812.064492364141,
+            "key_bits": 32211,
+            "residual_bits": 5065.002888332518,
+            "overhead_bits": 39,
+            "plaintext_characters": 954
+          },
+          "cer": 0.6991643454038997
+        }
+      ],
+      "selected": 4,
+      "old_selected": 1,
+      "mdl_legacy_selected": 0,
+      "oracle_cer": 0.6991643454038997,
+      "beam_runs": [
+        {
+          "representation": "characters",
+          "capacity": 1,
+          "status": "complete",
+          "search_bits": 28469.875229271074,
+          "seconds": 5.967311291955411,
+          "width": 2048,
+          "max_homophones": 1,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "characters",
+          "capacity": 2,
+          "status": "complete",
+          "search_bits": 22818.690657937485,
+          "seconds": 10.308497042045929,
+          "width": 2048,
+          "max_homophones": 2,
+          "extension_order": "2014-beam-100"
+        },
+        {
+          "representation": "units",
+          "capacity": 1,
+          "status": "capacity_exceeded",
+          "inventory": 538,
+          "seconds": 0.000587458023801446
+        },
+        {
+          "representation": "units",
+          "capacity": 2,
+          "status": "capacity_exceeded",
+          "inventory": 538,
+          "seconds": 0.00014599994756281376
+        },
+        {
+          "representation": "units",
+          "capacity": 48,
+          "status": "complete",
+          "search_bits": 2793.064492364139,
+          "seconds": 57.113084208918735,
+          "width": 2048,
+          "max_homophones": 48,
+          "extension_order": "2013-frequency"
+        }
+      ],
+      "em": {
+        "status": "inventory_budget_exceeded"
+      }
+    }
+  ],
+  "segmentation": [
+    {
+      "passage": "dbc876174c6f422a",
+      "dataset": "modern",
+      "words": 261,
+      "old_errors": 7,
+      "new_errors": 4
+    },
+    {
+      "passage": "eb1019634e7c5bb7",
+      "dataset": "modern",
+      "words": 254,
+      "old_errors": 31,
+      "new_errors": 27
+    },
+    {
+      "passage": "977f300de6388c83",
+      "dataset": "historical",
+      "words": 313,
+      "old_errors": 119,
+      "new_errors": 75
+    },
+    {
+      "passage": "1562a2b68de5b036",
+      "dataset": "historical",
+      "words": 340,
+      "old_errors": 127,
+      "new_errors": 83
+    }
+  ],
+  "challenge": {
+    "public_sha256": "998cd0838e8c30bcb6a079e00374e375c959971cafa0ed1f055bd3d21f555d1d",
+    "answers_sha256": "52b02426298ece36cd8939afb30a4fb940bf527cf0990c4514530407d55ee170",
+    "freeze_sha256": "c020a345be4ef9b5d69dca78f21199cb8f01fb7d490de25c9647f8fc052f7b08",
+    "freeze_commit": "146fa75ce524c5e20ed18f1308cb9fc1ca65f2fe",
+    "cases": 16,
+    "independent_passages": 4,
+    "earlier_sentence_overlap": 0,
+    "training_sentence_overlap": 0,
+    "at": 1789990536.811828
+  },
+  "predictions_sha256": "a96066cc3da79f74274a192c377d218c24d70a08e38231ddcf0fea8188e4170c",
+  "segmentation_predictions_sha256": "de382bc4308f6edde3603001fc26fbfe3069d3b98152086a06ddafbb96343160",
+  "naibbe_gate": false,
+  "voynich_run": false,
+  "final_test_scored": false
+}

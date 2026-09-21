@@ -232,3 +232,15 @@ Freeze in Git before new grading. CPU only. Image modelling is parked pending in
 masked annotations from two annotators. No further catalogue study. The reserved Voynich
 shuffle mechanism remains gated on Naibbe recovery. Write up methods and bounded negatives;
 do not claim a translation or a general impossibility result.
+
+### Completed standard-method comparison
+
+Frozen at `146fa75` before fresh grading; [report](experiments/standard-decipherment/REPORT.md).
+Seven of eight substitution/homophonic controls have exact selected letters; the eighth
+has 0.63% CER. MDL fixes the historical substitution selection failure. Non-Dante historical
+prose lowers fresh Dante WER from 37.7% to 24.2%, still above the 10% gate. Naibbe and
+variable-length recovery remain unsuccessful. No Voynich mechanism run is earned by this
+result. Published one-letter model failures cannot reject every variable-length cipher.
+The [methods note](experiments/method-benchmark/METHODS_NOTE.md) now includes the comparison.
+Image modelling remains parked. No further run is scheduled; any decoder revision needs
+new development evidence, a new committed freeze and source IDs disjoint from this release.

@@ -23,3 +23,28 @@ specified in PROTOCOL.md. The extraction code is `experiments/historical_sources
 
 The archived HTML fixes transcluded text too: a top-level Wiki revision URL alone
 would not necessarily freeze all later changes to embedded transcription pages.
+
+## Evaluated-records archive
+
+`evaluated-records.tar.gz`, created only after frozen grading, contains generated
+ciphers, model predictions, references, encryption seeds and source sentence IDs.
+Its passages are now disclosed and must not be reused as a fresh held-out test.
+The private/evaluator-only separation described in the protocol applied during solving.
+The completed records are released afterward so the reported experiment can be audited.
+
+- Modern passages derive from Universal Dependencies Italian ISDT, revision
+  `4852011b996b9ec30d884a7a48e1118d0ce928f6` (r2.18), by its treebank contributors:
+  https://github.com/UniversalDependencies/UD_Italian-ISDT
+  License: Creative Commons Attribution–NonCommercial–ShareAlike 3.0:
+  https://creativecommons.org/licenses/by-nc-sa/3.0/
+- Historical passages derive from Universal Dependencies Italian Old, revision
+  `2c1361d621dafa7c465da0947f73765caaf743af` (r2.18), by its treebank contributors:
+  https://github.com/UniversalDependencies/UD_Italian-Old
+  License: Creative Commons Attribution–ShareAlike 4.0:
+  https://creativecommons.org/licenses/by-sa/4.0/
+  Dante's original work is public domain; the treebank annotation/tokenization is credited.
+
+Source hashes and provenance are in `experiments/language-sources.json` and the archived
+case metadata. Transformations use the protocol's normalized alphabet, removed word
+boundaries, and generated cipher mappings. The generated training/evaluation passages
+retain their source licensing requirements; repository code licensing does not replace them.

@@ -46,6 +46,31 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**Standard-method comparison completed.** Method committed as `146fa75` before generating
+16 fresh encodings of four passages. CPU decoding took 13.3 minutes; no paid compute.
+The [report and graphs](experiments/standard-decipherment/REPORT.md) and
+[methods note](experiments/method-benchmark/METHODS_NOTE.md) are the latest records.
+
+- MDL reranking repairs both historical substitution cases: 145.82% → 0% character error.
+- Published beam candidates give exact selected letters in 7/8 substitution/homophonic
+  controls; the remaining case has 0.63% error. All eight pass the letter threshold.
+- Historical segmentation improves 37.67% → 24.20% on the same new passages; modern
+  segmentation improves 7.38% → 6.02%. The historical <10% gate still fails.
+- Variable-length controls and Naibbe fail. Naibbe selected character error remains about
+  304–319%; even the oracle best generated candidate has roughly 70–71% error.
+- The HMM comparator completed eight restarts on each eligible case; it is a bounded
+  adaptation, not a reproduction of the million-restart paper.
+- Five cases retain an oracle-selection gap. One is a small same-length homophonic error:
+  7,173 bits for eight wrong letters versus 7,185 for the exact 1,265-letter candidate.
+  MDL removes the expansion defect but does not guarantee the true reading.
+- The exact evaluated records are committed after grading, including seeds and references.
+  Those source IDs are now disclosed; exclude them from all future fresh evaluations.
+
+The Naibbe gate is closed. The standard one-letter model class does not generally express
+Naibbe's units; its failure is not a universal cipher rejection. No Voynich-facing run,
+new image study, or final-test scoring occurred. All 83 unit tests and freeze audits passed.
+
+
 **2026-09-21 priority change.** Archived work is committed as `28ceb16`.
 The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) now governs
 CPU development: total description length, published homophonic comparators, and a
