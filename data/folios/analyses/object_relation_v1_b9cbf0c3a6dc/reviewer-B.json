@@ -1,0 +1,564 @@
+{
+  "analysis_id": "object_relation_v1_b9cbf0c3a6dc",
+  "annotator_id": null,
+  "annotator_type": null,
+  "independent": false,
+  "text_masked": false,
+  "mask_reviewed": false,
+  "mask_manifest_sha256": null,
+  "status": "pending",
+  "panels": [
+    {
+      "panel_id": "panel-011",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-014",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-005",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-019",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-024",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-009",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-016",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-006",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-004",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-008",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-002",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-013",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-001",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-015",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-007",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-022",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-017",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-023",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-010",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-021",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-020",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-012",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-003",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    },
+    {
+      "panel_id": "panel-018",
+      "domains": {
+        "botanical": null,
+        "human_figures": null,
+        "animal_figures": null,
+        "containers": null,
+        "basins_channels": null,
+        "diagrammatic": null,
+        "celestial_like": null,
+        "text_dominant": null,
+        "sparse_marks": null
+      },
+      "patterns": {
+        "linked_basins": null,
+        "figures_in_linked_basins": null,
+        "vessels_beside_botanical_groups": null,
+        "animal_in_circular_diagram": null,
+        "linked_circular_structures": null
+      },
+      "unassessable_reason": null,
+      "notes": ""
+    }
+  ]
+}

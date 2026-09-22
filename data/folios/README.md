@@ -1,5 +1,8 @@
 # Voynich folio image archive
 
+The new [Object–Relation pilot](object-pilot/REPORT.md) adds reviewed objects,
+evidence boxes and compound relations on 24 panels. Independent review is pending.
+
 **Pixel Layout v1** is our first reproducible image-description method.
 It records visible colour and geometry; it does not infer what a passage means.
 

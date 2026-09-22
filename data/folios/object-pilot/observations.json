@@ -1,0 +1,1880 @@
+{
+  "observer": "Codex (single AI visual review)",
+  "date": "2026-09-22",
+  "method": "object_relation_v1",
+  "selection": "Purposive 24-panel development sample covering visible content types; not random or held out.",
+  "coordinate_system": "Normalized [left, top, right, bottom] on the panel crop; rectangles are evidence regions, not pixel masks.",
+  "independence": "No independent annotators; no agreement estimate. Images were not text-masked. Catalogue descriptions and transcriptions were not used.",
+  "panels": [
+    {
+      "folio_id": "f1v",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "plant",
+          "kind": "whole_plant",
+          "bbox": [
+            0.18,
+            0.1,
+            0.95,
+            0.95
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.18,
+            0.14,
+            0.95,
+            0.66
+          ],
+          "count_min": 12,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "root",
+          "kind": "root",
+          "bbox": [
+            0.24,
+            0.78,
+            0.85,
+            0.95
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "root",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "above",
+          "object": "root",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Green and ochre leaf-like forms; no species identification.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f2v",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "plant",
+          "kind": "whole_plant",
+          "bbox": [
+            0.17,
+            0.04,
+            0.94,
+            0.95
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaf",
+          "kind": "leaf",
+          "bbox": [
+            0.24,
+            0.26,
+            0.89,
+            0.61
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "root",
+          "kind": "root",
+          "bbox": [
+            0.18,
+            0.88,
+            0.94,
+            0.95
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "flower",
+          "kind": "flower_like",
+          "bbox": [
+            0.64,
+            0.04,
+            0.89,
+            0.26
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "tentative",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "leaf",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "root",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "flower",
+          "predicate": "above",
+          "object": "leaf",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Broad round leaf is not classified as a diagram.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f5r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "plant",
+          "kind": "whole_plant",
+          "bbox": [
+            0.21,
+            0.3,
+            0.85,
+            0.94
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.27,
+            0.4,
+            0.81,
+            0.72
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "root",
+          "kind": "root",
+          "bbox": [
+            0.2,
+            0.84,
+            0.84,
+            0.95
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "root",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "above",
+          "object": "root",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Ignore faint reverse-side green forms.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f13r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "plant",
+          "kind": "whole_plant",
+          "bbox": [
+            0.15,
+            0.25,
+            0.84,
+            0.98
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.16,
+            0.37,
+            0.8,
+            0.72
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "root",
+          "kind": "root",
+          "bbox": [
+            0.3,
+            0.69,
+            0.85,
+            0.98
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "head",
+          "kind": "flower_like",
+          "bbox": [
+            0.42,
+            0.25,
+            0.57,
+            0.43
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "tentative",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "root",
+          "predicate": "part_of",
+          "object": "plant",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "head",
+          "predicate": "above",
+          "object": "leaves",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Large red root-like base with narrow branching extensions.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f75r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "people",
+          "kind": "human_figure",
+          "bbox": [
+            0.39,
+            0.09,
+            0.85,
+            0.84
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "channel",
+          "kind": "channel",
+          "bbox": [
+            0.34,
+            0.05,
+            0.62,
+            0.42
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "basin1",
+          "kind": "basin",
+          "bbox": [
+            0.41,
+            0.35,
+            0.67,
+            0.56
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "basin2",
+          "kind": "basin",
+          "bbox": [
+            0.52,
+            0.6,
+            0.86,
+            0.86
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "channel",
+          "predicate": "connected_to",
+          "object": "basin1",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "basin1",
+          "predicate": "above",
+          "object": "basin2",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "people",
+          "predicate": "overlaps",
+          "object": "basin1",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "people",
+          "predicate": "overlaps",
+          "object": "basin2",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Figures occupy multiple green outlined spaces. No medical or bathing function assigned.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f76v",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "people",
+          "kind": "human_figure",
+          "bbox": [
+            0.14,
+            0.22,
+            0.33,
+            0.7
+          ],
+          "count_min": 3,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "forms",
+          "kind": "uncertain_form",
+          "bbox": [
+            0.14,
+            0.11,
+            0.31,
+            0.86
+          ],
+          "count_min": 3,
+          "count_max": null,
+          "certainty": "tentative",
+          "note": ""
+        },
+        {
+          "id": "upper_right_person",
+          "kind": "human_figure",
+          "bbox": [
+            0.755,
+            0.035,
+            0.865,
+            0.17
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": "Enlarged scan review confirms a separate figure at upper right."
+        },
+        {
+          "id": "small_container",
+          "kind": "vessel",
+          "bbox": [
+            0.765,
+            0.125,
+            0.84,
+            0.165
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "tentative",
+          "note": "Outlined tub-like form around the feet."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "people",
+          "predicate": "overlaps",
+          "object": "forms",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "upper_right_person",
+          "predicate": "overlaps",
+          "object": "small_container",
+          "certainty": "tentative",
+          "note": ""
+        }
+      ],
+      "notes": "Figures and patterned forms run down the left margin; another figure stands at upper right beside dense writing. Object counts are not exhaustive.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f78r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "upper_people",
+          "kind": "human_figure",
+          "bbox": [
+            0.46,
+            0.34,
+            0.77,
+            0.51
+          ],
+          "count_min": 5,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "lower_people",
+          "kind": "human_figure",
+          "bbox": [
+            0.44,
+            0.69,
+            0.79,
+            0.87
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "upper_basin",
+          "kind": "basin",
+          "bbox": [
+            0.44,
+            0.33,
+            0.81,
+            0.53
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "lower_basin",
+          "kind": "basin",
+          "bbox": [
+            0.42,
+            0.7,
+            0.8,
+            0.89
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "top_channel",
+          "kind": "channel",
+          "bbox": [
+            0.15,
+            0.04,
+            0.85,
+            0.36
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "link",
+          "kind": "channel",
+          "bbox": [
+            0.69,
+            0.49,
+            0.76,
+            0.74
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "upper_people",
+          "predicate": "inside",
+          "object": "upper_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "lower_people",
+          "predicate": "inside",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "link",
+          "predicate": "connected_to",
+          "object": "upper_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "link",
+          "predicate": "connected_to",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "top_channel",
+          "predicate": "connected_to",
+          "object": "upper_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "upper_basin",
+          "predicate": "above",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f81r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "upper_people",
+          "kind": "human_figure",
+          "bbox": [
+            0.19,
+            0.07,
+            0.72,
+            0.18
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "lower_people",
+          "kind": "human_figure",
+          "bbox": [
+            0.23,
+            0.7,
+            0.7,
+            0.81
+          ],
+          "count_min": 5,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "upper_basin",
+          "kind": "basin",
+          "bbox": [
+            0.15,
+            0.065,
+            0.74,
+            0.2
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "lower_basin",
+          "kind": "basin",
+          "bbox": [
+            0.19,
+            0.69,
+            0.72,
+            0.84
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "link",
+          "kind": "channel",
+          "bbox": [
+            0.075,
+            0.15,
+            0.23,
+            0.76
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "upper_people",
+          "predicate": "inside",
+          "object": "upper_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "lower_people",
+          "predicate": "inside",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "link",
+          "predicate": "connected_to",
+          "object": "upper_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "link",
+          "predicate": "connected_to",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "upper_basin",
+          "predicate": "above",
+          "object": "lower_basin",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Count bounds are conservative, not complete individual counts.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f57v",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "rings",
+          "kind": "circular_structure",
+          "bbox": [
+            0.18,
+            0.07,
+            0.94,
+            0.69
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "people",
+          "kind": "human_figure",
+          "bbox": [
+            0.39,
+            0.25,
+            0.78,
+            0.54
+          ],
+          "count_min": 4,
+          "count_max": 4,
+          "certainty": "tentative",
+          "note": ""
+        },
+        {
+          "id": "centre",
+          "kind": "radial_motif",
+          "bbox": [
+            0.51,
+            0.345,
+            0.64,
+            0.44
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "people",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "centre",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Faint figures and rings need independent checking. Circular structure count refers to visible rings, not separate diagrams.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f67r1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "ring",
+          "kind": "circular_structure",
+          "bbox": [
+            0.04,
+            0.17,
+            0.96,
+            0.82
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "rays",
+          "kind": "radial_motif",
+          "bbox": [
+            0.23,
+            0.3,
+            0.78,
+            0.65
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "face",
+          "kind": "face",
+          "bbox": [
+            0.425,
+            0.435,
+            0.56,
+            0.535
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.1,
+            0.26,
+            0.88,
+            0.74
+          ],
+          "count_min": 10,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "face",
+          "predicate": "inside",
+          "object": "rays",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "rays",
+          "predicate": "inside",
+          "object": "ring",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "stars",
+          "predicate": "inside",
+          "object": "ring",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Celestial-like describes visible face/rays/stars, not an identified astronomical object.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f68r1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.055,
+            0.2,
+            0.82,
+            0.72
+          ],
+          "count_min": 15,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "top_disc",
+          "kind": "circular_structure",
+          "bbox": [
+            0.35,
+            0.155,
+            0.52,
+            0.26
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "bottom_disc",
+          "kind": "circular_structure",
+          "bbox": [
+            0.35,
+            0.635,
+            0.54,
+            0.775
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "face",
+          "kind": "face",
+          "bbox": [
+            0.38,
+            0.67,
+            0.49,
+            0.745
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "tentative",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "top_disc",
+          "predicate": "above",
+          "object": "bottom_disc",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "face",
+          "predicate": "inside",
+          "object": "bottom_disc",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Star-like marks have adjacent labels; no constellations or star names inferred.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f68v1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "ring",
+          "kind": "circular_structure",
+          "bbox": [
+            0.08,
+            0.13,
+            0.97,
+            0.8
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "rays",
+          "kind": "radial_motif",
+          "bbox": [
+            0.275,
+            0.3,
+            0.795,
+            0.65
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.23,
+            0.21,
+            0.91,
+            0.73
+          ],
+          "count_min": 15,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "rays",
+          "predicate": "inside",
+          "object": "ring",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "stars",
+          "predicate": "inside",
+          "object": "ring",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Blue rays in a circular field with many small star-like marks.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f70v1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "rings",
+          "kind": "circular_structure",
+          "bbox": [
+            0.16,
+            0.14,
+            0.965,
+            0.77
+          ],
+          "count_min": 2,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "animal",
+          "kind": "animal",
+          "bbox": [
+            0.47,
+            0.395,
+            0.66,
+            0.51
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "people",
+          "kind": "human_figure",
+          "bbox": [
+            0.2,
+            0.17,
+            0.945,
+            0.735
+          ],
+          "count_min": 10,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "containers",
+          "kind": "vessel",
+          "bbox": [
+            0.22,
+            0.24,
+            0.88,
+            0.7
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.26,
+            0.185,
+            0.87,
+            0.74
+          ],
+          "count_min": 8,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "animal",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "people",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "people",
+          "predicate": "overlaps",
+          "object": "containers",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "stars",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Central quadruped, small human figures and tub-like forms. Animal identity deliberately unassigned.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f72r1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "rings",
+          "kind": "circular_structure",
+          "bbox": [
+            0.13,
+            0.13,
+            0.93,
+            0.8
+          ],
+          "count_min": 2,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "animal",
+          "kind": "animal",
+          "bbox": [
+            0.385,
+            0.42,
+            0.56,
+            0.55
+          ],
+          "count_min": 1,
+          "count_max": 1,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "people",
+          "kind": "human_figure",
+          "bbox": [
+            0.17,
+            0.165,
+            0.89,
+            0.79
+          ],
+          "count_min": 8,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.28,
+            0.24,
+            0.79,
+            0.68
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "animal",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "people",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "stars",
+          "predicate": "inside",
+          "object": "rings",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Red central quadruped; figures are faint and a dark blemish obscures part of the diagram.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "fRos",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "nodes",
+          "kind": "circular_structure",
+          "bbox": [
+            0.1,
+            0.055,
+            0.96,
+            0.975
+          ],
+          "count_min": 9,
+          "count_max": 9,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "paths",
+          "kind": "channel",
+          "bbox": [
+            0.19,
+            0.18,
+            0.87,
+            0.84
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "tentative",
+          "note": ""
+        },
+        {
+          "id": "rays",
+          "kind": "radial_motif",
+          "bbox": [
+            0.41,
+            0.07,
+            0.66,
+            0.91
+          ],
+          "count_min": 2,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "nodes",
+          "predicate": "connected_to",
+          "object": "nodes",
+          "certainty": "tentative",
+          "note": "Several paths visibly join major circular structures; individual edges are not exhaustively traced."
+        },
+        {
+          "subject": "rays",
+          "predicate": "inside",
+          "object": "nodes",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Nine major circular structures; no geographic or cosmological interpretation. Smaller rings are excluded from this count.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f88r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "vessels",
+          "kind": "vessel",
+          "bbox": [
+            0.065,
+            0.05,
+            0.23,
+            0.9
+          ],
+          "count_min": 3,
+          "count_max": 3,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "plants",
+          "kind": "plant_part",
+          "bbox": [
+            0.21,
+            0.04,
+            0.975,
+            0.98
+          ],
+          "count_min": 8,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "roots",
+          "kind": "root",
+          "bbox": [
+            0.235,
+            0.075,
+            0.95,
+            0.96
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.26,
+            0.055,
+            0.965,
+            0.98
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vessels",
+          "predicate": "left_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "roots",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Three ornate vessel-like forms beside rows of detached botanical forms.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f89r1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "vessels",
+          "kind": "vessel",
+          "bbox": [
+            0.035,
+            0.045,
+            0.18,
+            0.9
+          ],
+          "count_min": 3,
+          "count_max": 3,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "plants",
+          "kind": "plant_part",
+          "bbox": [
+            0.16,
+            0.015,
+            0.975,
+            0.98
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "roots",
+          "kind": "root",
+          "bbox": [
+            0.21,
+            0.1,
+            0.965,
+            0.985
+          ],
+          "count_min": 5,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.22,
+            0.015,
+            0.965,
+            0.875
+          ],
+          "count_min": 6,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vessels",
+          "predicate": "left_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "roots",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Three left-margin vessels; small root-and-leaf forms in horizontal groups.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f99r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "vessels",
+          "kind": "vessel",
+          "bbox": [
+            0.07,
+            0.055,
+            0.225,
+            0.79
+          ],
+          "count_min": 4,
+          "count_max": 4,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "plants",
+          "kind": "plant_part",
+          "bbox": [
+            0.235,
+            0.035,
+            0.975,
+            0.96
+          ],
+          "count_min": 12,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "roots",
+          "kind": "root",
+          "bbox": [
+            0.24,
+            0.035,
+            0.97,
+            0.93
+          ],
+          "count_min": 10,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.27,
+            0.075,
+            0.97,
+            0.955
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vessels",
+          "predicate": "left_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "roots",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Four red cylindrical vessel-like forms; rows of roots and some leafy pieces.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f100r",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "vessels",
+          "kind": "vessel",
+          "bbox": [
+            0.065,
+            0.04,
+            0.22,
+            0.61
+          ],
+          "count_min": 2,
+          "count_max": 2,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "plants",
+          "kind": "plant_part",
+          "bbox": [
+            0.155,
+            0.035,
+            0.94,
+            0.635
+          ],
+          "count_min": 10,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.18,
+            0.045,
+            0.94,
+            0.61
+          ],
+          "count_min": 10,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "roots",
+          "kind": "root",
+          "bbox": [
+            0.22,
+            0.1,
+            0.925,
+            0.645
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vessels",
+          "predicate": "left_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "roots",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "Two red vessels beside two main bands of green botanical forms.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f102r1",
+      "layout": "illustrated",
+      "objects": [
+        {
+          "id": "vessels",
+          "kind": "vessel",
+          "bbox": [
+            0.035,
+            0.01,
+            0.165,
+            0.63
+          ],
+          "count_min": 3,
+          "count_max": 3,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "plants",
+          "kind": "plant_part",
+          "bbox": [
+            0.16,
+            0.0,
+            0.95,
+            0.94
+          ],
+          "count_min": 4,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "roots",
+          "kind": "root",
+          "bbox": [
+            0.2,
+            0.0,
+            0.95,
+            0.925
+          ],
+          "count_min": 3,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "leaves",
+          "kind": "leaf",
+          "bbox": [
+            0.16,
+            0.0,
+            0.92,
+            0.82
+          ],
+          "count_min": 5,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vessels",
+          "predicate": "left_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "roots",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "subject": "leaves",
+          "predicate": "part_of",
+          "object": "plants",
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "notes": "The upper botanical form is cut by the panel edge. Do not count faint show-through as extra plants.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f1r",
+      "layout": "text_dominant",
+      "objects": [
+        {
+          "id": "red_marks",
+          "kind": "decorative_mark",
+          "bbox": [
+            0.165,
+            0.25,
+            0.27,
+            0.41
+          ],
+          "count_min": 2,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        },
+        {
+          "id": "show_through",
+          "kind": "uncertain_form",
+          "bbox": [
+            0.17,
+            0.16,
+            0.87,
+            0.7
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "tentative",
+          "note": "Faint green forms appear to be reverse-side show-through."
+        }
+      ],
+      "relations": [],
+      "notes": "Writing dominates; no foreground plant assigned from show-through.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f58r",
+      "layout": "text_dominant",
+      "objects": [
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.12,
+            0.04,
+            0.26,
+            0.515
+          ],
+          "count_min": 3,
+          "count_max": 3,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [],
+      "notes": "Three star-like marks along the left of a large block of writing; no circular diagram.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f103r",
+      "layout": "text_dominant",
+      "objects": [
+        {
+          "id": "stars",
+          "kind": "star_like_mark",
+          "bbox": [
+            0.075,
+            0.06,
+            0.16,
+            0.735
+          ],
+          "count_min": 12,
+          "count_max": null,
+          "certainty": "clear",
+          "note": ""
+        }
+      ],
+      "relations": [],
+      "notes": "Repeated marginal star-like marks beside dense writing. They may function as separators, but that function is not a visual fact.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    },
+    {
+      "folio_id": "f116v",
+      "layout": "sparse",
+      "objects": [
+        {
+          "id": "sketch",
+          "kind": "uncertain_form",
+          "bbox": [
+            0.085,
+            0.07,
+            0.17,
+            0.23
+          ],
+          "count_min": 1,
+          "count_max": null,
+          "certainty": "tentative",
+          "note": ""
+        }
+      ],
+      "relations": [],
+      "notes": "Sparse writing at the top, faint small left sketch and largely blank parchment.",
+      "annotation_status": "single_ai_development_review",
+      "text_masked": false
+    }
+  ]
+}

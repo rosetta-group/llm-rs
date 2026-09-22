@@ -1,0 +1,29 @@
+{
+  "status": "coordinator_only_after_masking",
+  "mapping": {
+    "panel-001": "f1v",
+    "panel-002": "f2v",
+    "panel-003": "f5r",
+    "panel-004": "f13r",
+    "panel-005": "f75r",
+    "panel-006": "f76v",
+    "panel-007": "f78r",
+    "panel-008": "f81r",
+    "panel-009": "f57v",
+    "panel-010": "f67r1",
+    "panel-011": "f68r1",
+    "panel-012": "f68v1",
+    "panel-013": "f70v1",
+    "panel-014": "f72r1",
+    "panel-015": "fRos",
+    "panel-016": "f88r",
+    "panel-017": "f89r1",
+    "panel-018": "f99r",
+    "panel-019": "f100r",
+    "panel-020": "f102r1",
+    "panel-021": "f1r",
+    "panel-022": "f58r",
+    "panel-023": "f103r",
+    "panel-024": "f116v"
+  }
+}

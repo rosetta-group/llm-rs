@@ -31,6 +31,9 @@ Pass mark: 1% character error and 10% word error. Round four repaired the solver
 candidate word pieces from the ciphertext alone; given the true list, the same solver reaches
 0.5% character error, so the remaining gap is still in that list.
 
+The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
+evidence boxes and compound relations. Independent human review is pending.
+
 ## Documentation
 
 | Page | For |

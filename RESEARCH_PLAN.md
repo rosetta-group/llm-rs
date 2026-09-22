@@ -270,3 +270,13 @@ The [methods note](experiments/method-benchmark/METHODS_NOTE.md) now includes th
 Image association modelling remains parked; image description is reopened above.
 No further decoder run is scheduled; any decoder revision needs
 new development evidence, a new committed freeze and source IDs disjoint from this release.
+
+
+### 2026-09-22: object-and-relation description pilot
+
+The [24-panel pilot](data/folios/object-pilot/REPORT.md) extends image descriptions to
+visible objects and relations. Tables include `analysis_id`, evidence regions,
+uncertainty and physical-folio/foldout groups. The descriptions are a single AI
+observer's development annotations. Text masking, two independent human reviews and
+agreement estimates remain pending; no association model or Voynich word claim is
+licensed by this pilot. The previous pixel-only method remains available for comparison.

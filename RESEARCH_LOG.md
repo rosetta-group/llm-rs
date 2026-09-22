@@ -8,7 +8,7 @@
 > Sections: overall goal · evidence required · current work (newest first) · image studies ·
 > archived matched-context suite · what we tried and found · what we know · recovery evidence · resources.
 
-Updated: 2026-09-21. This is the current project overview and research record.
+Updated: 2026-09-22. This is the current project overview and research record.
 Older reports preserve earlier experiments and may contain superseded next steps.
 
 ## Overall goal
@@ -53,6 +53,18 @@ rules, account for repeated forms, and make checkable predictions beyond the mat
 used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
+
+**2026-09-22: object-and-relation image pilot.** Directly inspected 24 varied panels,
+recording objects, count bounds, evidence rectangles and relations. The deterministic
+`object_relation_v1_b9cbf0c3a6dc` analysis derives multi-label domains and compound patterns:
+two panels with figures in linked basins, five with vessels beside botanical groups,
+two with an animal inside a circular diagram, and a tentative linked-circle graph on
+the Rosettes. CSV/JSONL, provenance and an evidence gallery are archived. This is one
+AI observer's unmasked development annotation, not an automatic semantic detector,
+independent ground truth or text association result. Two human reviewer templates and
+an agreement scorer are implemented; reviewed text masks and the human reviews remain
+pending. The 228-panel pixel baseline is unchanged. CPU only; no paid service or model
+download. [Pilot report](data/folios/object-pilot/REPORT.md).
 
 **2026-09-22: history rewritten once to remove a leaked token.** An early local commit had placed
 a Hugging Face access token in `config.py`; the next commit removed it, but GitHub's push protection

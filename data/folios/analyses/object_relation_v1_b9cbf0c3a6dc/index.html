@@ -1,0 +1,2481 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Voynich Object–Relation pilot</title>
+<style>body{font:16px system-ui;max-width:1250px;margin:32px auto;padding:0 20px;background:#faf8f2;color:#24303a}h1{margin-bottom:8px}.notice{padding:18px;background:#fff0ce;border-left:4px solid #a56a13}input{font:inherit;padding:10px;width:80%}article{border-top:1px solid #bbb;padding:20px 0}.pair{display:grid;grid-template-columns:42% 1fr;gap:24px}img{width:100%}table{border-collapse:collapse;font-size:14px}td,th{padding:6px;border-bottom:1px solid #ddd;text-align:left}pre{white-space:pre-wrap;font-size:12px}.muted{color:#59646b}code{overflow-wrap:anywhere}@media(max-width:700px){.pair{display:block}}</style>
+<h1>Object–Relation pilot</h1><p>24 panels · <code>object_relation_v1_b9cbf0c3a6dc</code></p>
+<div class="notice"><b>Development annotations by one AI observer.</b> Objects and evidence boxes were supplied by visual inspection. The script derives domain tags and relational patterns. Independent human agreement and text masking are pending. No word meanings are inferred.</div>
+<p><a href="descriptions.csv">Panel table</a> · <a href="descriptions.jsonl">Structured records</a> · <a href="analysis.json">Provenance</a> · <a href="../../object-pilot/RUBRIC.md">Rubric</a></p>
+<p>Boxes identify evidence groups; they are not precise silhouettes. Counts are bounds and may overlap between groups.</p>
+<label>Filter by folio, domain, object or relation <input type="search" id="filter" placeholder="e.g. linked_basins or f81r"></label><p id="count">24 panels</p>
+<article><h2>f1v</h2><div class="pair"><a href="../../images/yale_1006077.jpg"><img src="previews/f1v.jpg" alt="f1v evidence regions"></a><div>
+<p><b>Domains:</b> botanical</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Green and ochre leaf-like forms; no species identification.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>plant</td><td>whole_plant</td><td>1–1</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>12–?</td><td>clear</td></tr><tr><td>root</td><td>root</td><td>1–?</td><td>clear</td></tr></table><ul><li>leaves → <b>part_of</b> → plant (clear)</li><li>root → <b>part_of</b> → plant (clear)</li><li>leaves → <b>above</b> → root (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f1v&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;plant&quot;,
+      &quot;kind&quot;: &quot;whole_plant&quot;,
+      &quot;bbox&quot;: [
+        0.18,
+        0.1,
+        0.95,
+        0.95
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.18,
+        0.14,
+        0.95,
+        0.66
+      ],
+      &quot;count_min&quot;: 12,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;root&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.24,
+        0.78,
+        0.85,
+        0.95
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;root&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;root&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Green and ochre leaf-like forms; no species identification.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_1&quot;,
+  &quot;image_id&quot;: &quot;1006077&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006077.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;63e8b178270bec6a05cc8ebd2cd6dac5737629555158cdeaa23ab0234d6efbea&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 3,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, root, whole plant. leaves part of plant; root part of plant; leaves above root. Green and ochre leaf-like forms; no species identification.&quot;
+}</pre></details></div></div></article><article><h2>f2v</h2><div class="pair"><a href="../../images/yale_1006079.jpg"><img src="previews/f2v.jpg" alt="f2v evidence regions"></a><div>
+<p><b>Domains:</b> botanical</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Broad round leaf is not classified as a diagram.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>plant</td><td>whole_plant</td><td>1–1</td><td>clear</td></tr><tr><td>leaf</td><td>leaf</td><td>1–1</td><td>clear</td></tr><tr><td>root</td><td>root</td><td>1–?</td><td>clear</td></tr><tr><td>flower</td><td>flower_like</td><td>1–1</td><td>tentative</td></tr></table><ul><li>leaf → <b>part_of</b> → plant (clear)</li><li>root → <b>part_of</b> → plant (clear)</li><li>flower → <b>above</b> → leaf (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f2v&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;plant&quot;,
+      &quot;kind&quot;: &quot;whole_plant&quot;,
+      &quot;bbox&quot;: [
+        0.17,
+        0.04,
+        0.94,
+        0.95
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaf&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.24,
+        0.26,
+        0.89,
+        0.61
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;root&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.18,
+        0.88,
+        0.94,
+        0.95
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;flower&quot;,
+      &quot;kind&quot;: &quot;flower_like&quot;,
+      &quot;bbox&quot;: [
+        0.64,
+        0.04,
+        0.89,
+        0.26
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;leaf&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;root&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;flower&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;leaf&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Broad round leaf is not classified as a diagram.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_2&quot;,
+  &quot;image_id&quot;: &quot;1006079&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006079.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;40ad3afab23564fbeded797854697a973b40e04fa906cb12986b7d7f02c929cd&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Flower like, leaf, root, whole plant. leaf part of plant; root part of plant; flower above leaf. Broad round leaf is not classified as a diagram.&quot;
+}</pre></details></div></div></article><article><h2>f5r</h2><div class="pair"><a href="../../images/yale_1006084.jpg"><img src="previews/f5r.jpg" alt="f5r evidence regions"></a><div>
+<p><b>Domains:</b> botanical</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Ignore faint reverse-side green forms.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>plant</td><td>whole_plant</td><td>1–1</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>4–?</td><td>clear</td></tr><tr><td>root</td><td>root</td><td>1–?</td><td>clear</td></tr></table><ul><li>leaves → <b>part_of</b> → plant (clear)</li><li>root → <b>part_of</b> → plant (clear)</li><li>leaves → <b>above</b> → root (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f5r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;plant&quot;,
+      &quot;kind&quot;: &quot;whole_plant&quot;,
+      &quot;bbox&quot;: [
+        0.21,
+        0.3,
+        0.85,
+        0.94
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.27,
+        0.4,
+        0.81,
+        0.72
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;root&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.2,
+        0.84,
+        0.84,
+        0.95
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;root&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;root&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Ignore faint reverse-side green forms.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_5&quot;,
+  &quot;image_id&quot;: &quot;1006084&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006084.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;4449eaeeb92129e101ecc5e5e646ed78732fa454631f1fae67945878e812d944&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 3,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, root, whole plant. leaves part of plant; root part of plant; leaves above root. Ignore faint reverse-side green forms.&quot;
+}</pre></details></div></div></article><article><h2>f13r</h2><div class="pair"><a href="../../images/yale_1006098.jpg"><img src="previews/f13r.jpg" alt="f13r evidence regions"></a><div>
+<p><b>Domains:</b> botanical</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Large red root-like base with narrow branching extensions.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>plant</td><td>whole_plant</td><td>1–1</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>4–?</td><td>clear</td></tr><tr><td>root</td><td>root</td><td>1–1</td><td>clear</td></tr><tr><td>head</td><td>flower_like</td><td>1–1</td><td>tentative</td></tr></table><ul><li>leaves → <b>part_of</b> → plant (clear)</li><li>root → <b>part_of</b> → plant (clear)</li><li>head → <b>above</b> → leaves (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f13r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;plant&quot;,
+      &quot;kind&quot;: &quot;whole_plant&quot;,
+      &quot;bbox&quot;: [
+        0.15,
+        0.25,
+        0.84,
+        0.98
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.16,
+        0.37,
+        0.8,
+        0.72
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;root&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.3,
+        0.69,
+        0.85,
+        0.98
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;head&quot;,
+      &quot;kind&quot;: &quot;flower_like&quot;,
+      &quot;bbox&quot;: [
+        0.42,
+        0.25,
+        0.57,
+        0.43
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;root&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plant&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;head&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;leaves&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Large red root-like base with narrow branching extensions.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_13&quot;,
+  &quot;image_id&quot;: &quot;1006098&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006098.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;b39e1dc313cbafb007d9c235a674d8ca67c281ce6cf6d8209ac62d69cb8cb4d9&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Flower like, leaf, root, whole plant. leaves part of plant; root part of plant; head above leaves. Large red root-like base with narrow branching extensions.&quot;
+}</pre></details></div></div></article><article><h2>f75r</h2><div class="pair"><a href="../../images/yale_1006208.jpg"><img src="previews/f75r.jpg" alt="f75r evidence regions"></a><div>
+<p><b>Domains:</b> basins_channels, human_figures</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Figures occupy multiple green outlined spaces. No medical or bathing function assigned.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>people</td><td>human_figure</td><td>6–?</td><td>clear</td></tr><tr><td>channel</td><td>channel</td><td>1–1</td><td>clear</td></tr><tr><td>basin1</td><td>basin</td><td>1–1</td><td>clear</td></tr><tr><td>basin2</td><td>basin</td><td>1–1</td><td>clear</td></tr></table><ul><li>channel → <b>connected_to</b> → basin1 (clear)</li><li>basin1 → <b>above</b> → basin2 (clear)</li><li>people → <b>overlaps</b> → basin1 (clear)</li><li>people → <b>overlaps</b> → basin2 (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f75r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.39,
+        0.09,
+        0.85,
+        0.84
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;channel&quot;,
+      &quot;kind&quot;: &quot;channel&quot;,
+      &quot;bbox&quot;: [
+        0.34,
+        0.05,
+        0.62,
+        0.42
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;basin1&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.41,
+        0.35,
+        0.67,
+        0.56
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;basin2&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.52,
+        0.6,
+        0.86,
+        0.86
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;channel&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;basin1&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;basin1&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;basin2&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;overlaps&quot;,
+      &quot;object&quot;: &quot;basin1&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;overlaps&quot;,
+      &quot;object&quot;: &quot;basin2&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Figures occupy multiple green outlined spaces. No medical or bathing function assigned.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_75&quot;,
+  &quot;image_id&quot;: &quot;1006208&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006208.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;3c695db7b2d80a4e0ac246b8258691ac4bbb5d160e669744ef666f81a5f5f146&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;basins_channels&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 4,
+  &quot;description&quot;: &quot;Basin, channel, human figure. channel connected to basin1; basin1 above basin2; people overlaps basin1; people overlaps basin2. Figures occupy multiple green outlined spaces. No medical or bathing function assigned.&quot;
+}</pre></details></div></div></article><article><h2>f76v</h2><div class="pair"><a href="../../images/yale_1006211.jpg"><img src="previews/f76v.jpg" alt="f76v evidence regions"></a><div>
+<p><b>Domains:</b> containers, human_figures</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Figures and patterned forms run down the left margin; another figure stands at upper right beside dense writing. Object counts are not exhaustive.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>people</td><td>human_figure</td><td>3–?</td><td>clear</td></tr><tr><td>forms</td><td>uncertain_form</td><td>3–?</td><td>tentative</td></tr><tr><td>upper_right_person</td><td>human_figure</td><td>1–1</td><td>clear</td></tr><tr><td>small_container</td><td>vessel</td><td>1–1</td><td>tentative</td></tr></table><ul><li>people → <b>overlaps</b> → forms (clear)</li><li>upper_right_person → <b>overlaps</b> → small_container (tentative)</li></ul>
+<p class="muted">Tentative domains: containers. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f76v&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.14,
+        0.22,
+        0.33,
+        0.7
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;forms&quot;,
+      &quot;kind&quot;: &quot;uncertain_form&quot;,
+      &quot;bbox&quot;: [
+        0.14,
+        0.11,
+        0.31,
+        0.86
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;upper_right_person&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.755,
+        0.035,
+        0.865,
+        0.17
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;Enlarged scan review confirms a separate figure at upper right.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;small_container&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.765,
+        0.125,
+        0.84,
+        0.165
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;Outlined tub-like form around the feet.&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;overlaps&quot;,
+      &quot;object&quot;: &quot;forms&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;upper_right_person&quot;,
+      &quot;predicate&quot;: &quot;overlaps&quot;,
+      &quot;object&quot;: &quot;small_container&quot;,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Figures and patterned forms run down the left margin; another figure stands at upper right beside dense writing. Object counts are not exhaustive.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_76&quot;,
+  &quot;image_id&quot;: &quot;1006211&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006211.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;2b07207b38214f74705f5f4c4f1680be953d606bc87c7e32a7231454b57cd067&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;containers&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [
+    &quot;containers&quot;
+  ],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 2,
+  &quot;description&quot;: &quot;Human figure, uncertain form, vessel. people overlaps forms; upper_right_person overlaps small_container. Figures and patterned forms run down the left margin; another figure stands at upper right beside dense writing. Object counts are not exhaustive.&quot;
+}</pre></details></div></div></article><article><h2>f78r</h2><div class="pair"><a href="../../images/yale_1006214.jpg"><img src="previews/f78r.jpg" alt="f78r evidence regions"></a><div>
+<p><b>Domains:</b> basins_channels, human_figures</p><p><b>Relation patterns:</b> figures_in_linked_basins, linked_basins</p>
+<p></p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>upper_people</td><td>human_figure</td><td>5–?</td><td>clear</td></tr><tr><td>lower_people</td><td>human_figure</td><td>6–?</td><td>clear</td></tr><tr><td>upper_basin</td><td>basin</td><td>1–1</td><td>clear</td></tr><tr><td>lower_basin</td><td>basin</td><td>1–1</td><td>clear</td></tr><tr><td>top_channel</td><td>channel</td><td>1–?</td><td>clear</td></tr><tr><td>link</td><td>channel</td><td>1–1</td><td>clear</td></tr></table><ul><li>upper_people → <b>inside</b> → upper_basin (clear)</li><li>lower_people → <b>inside</b> → lower_basin (clear)</li><li>link → <b>connected_to</b> → upper_basin (clear)</li><li>link → <b>connected_to</b> → lower_basin (clear)</li><li>top_channel → <b>connected_to</b> → upper_basin (clear)</li><li>upper_basin → <b>above</b> → lower_basin (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f78r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;upper_people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.46,
+        0.34,
+        0.77,
+        0.51
+      ],
+      &quot;count_min&quot;: 5,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;lower_people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.44,
+        0.69,
+        0.79,
+        0.87
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;upper_basin&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.44,
+        0.33,
+        0.81,
+        0.53
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;lower_basin&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.42,
+        0.7,
+        0.8,
+        0.89
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;top_channel&quot;,
+      &quot;kind&quot;: &quot;channel&quot;,
+      &quot;bbox&quot;: [
+        0.15,
+        0.04,
+        0.85,
+        0.36
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;link&quot;,
+      &quot;kind&quot;: &quot;channel&quot;,
+      &quot;bbox&quot;: [
+        0.69,
+        0.49,
+        0.76,
+        0.74
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;upper_people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;upper_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;lower_people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;link&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;upper_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;link&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;top_channel&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;upper_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;upper_basin&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_78&quot;,
+  &quot;image_id&quot;: &quot;1006214&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006214.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;fd2810ff8c0952d8a4c15d8f55334038ab507c4c282652df60b26acadd56ddfe&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;basins_channels&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;figures_in_linked_basins&quot;,
+    &quot;linked_basins&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 6,
+  &quot;relation_count&quot;: 6,
+  &quot;description&quot;: &quot;Basin, channel, human figure. upper_people inside upper_basin; lower_people inside lower_basin; link connected to upper_basin; link connected to lower_basin; top_channel connected to upper_basin; upper_basin above lower_basin. &quot;
+}</pre></details></div></div></article><article><h2>f81r</h2><div class="pair"><a href="../../images/yale_1006220.jpg"><img src="previews/f81r.jpg" alt="f81r evidence regions"></a><div>
+<p><b>Domains:</b> basins_channels, human_figures</p><p><b>Relation patterns:</b> figures_in_linked_basins, linked_basins</p>
+<p>Count bounds are conservative, not complete individual counts.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>upper_people</td><td>human_figure</td><td>6–?</td><td>clear</td></tr><tr><td>lower_people</td><td>human_figure</td><td>5–?</td><td>clear</td></tr><tr><td>upper_basin</td><td>basin</td><td>1–1</td><td>clear</td></tr><tr><td>lower_basin</td><td>basin</td><td>1–1</td><td>clear</td></tr><tr><td>link</td><td>channel</td><td>1–1</td><td>clear</td></tr></table><ul><li>upper_people → <b>inside</b> → upper_basin (clear)</li><li>lower_people → <b>inside</b> → lower_basin (clear)</li><li>link → <b>connected_to</b> → upper_basin (clear)</li><li>link → <b>connected_to</b> → lower_basin (clear)</li><li>upper_basin → <b>above</b> → lower_basin (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f81r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;upper_people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.19,
+        0.07,
+        0.72,
+        0.18
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;lower_people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.23,
+        0.7,
+        0.7,
+        0.81
+      ],
+      &quot;count_min&quot;: 5,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;upper_basin&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.15,
+        0.065,
+        0.74,
+        0.2
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;lower_basin&quot;,
+      &quot;kind&quot;: &quot;basin&quot;,
+      &quot;bbox&quot;: [
+        0.19,
+        0.69,
+        0.72,
+        0.84
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;link&quot;,
+      &quot;kind&quot;: &quot;channel&quot;,
+      &quot;bbox&quot;: [
+        0.075,
+        0.15,
+        0.23,
+        0.76
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;upper_people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;upper_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;lower_people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;link&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;upper_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;link&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;upper_basin&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;lower_basin&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Count bounds are conservative, not complete individual counts.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_81&quot;,
+  &quot;image_id&quot;: &quot;1006220&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006220.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;9585a87601197318babaa1a5c8fbd64486440277348433c01904783ffe7d5abc&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;basins_channels&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;figures_in_linked_basins&quot;,
+    &quot;linked_basins&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 5,
+  &quot;relation_count&quot;: 5,
+  &quot;description&quot;: &quot;Basin, channel, human figure. upper_people inside upper_basin; lower_people inside lower_basin; link connected to upper_basin; link connected to lower_basin; upper_basin above lower_basin. Count bounds are conservative, not complete individual counts.&quot;
+}</pre></details></div></div></article><article><h2>f57v</h2><div class="pair"><a href="../../images/yale_1006187.jpg"><img src="previews/f57v.jpg" alt="f57v evidence regions"></a><div>
+<p><b>Domains:</b> diagrammatic, human_figures</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Faint figures and rings need independent checking. Circular structure count refers to visible rings, not separate diagrams.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>rings</td><td>circular_structure</td><td>4–?</td><td>clear</td></tr><tr><td>people</td><td>human_figure</td><td>4–4</td><td>tentative</td></tr><tr><td>centre</td><td>radial_motif</td><td>1–1</td><td>clear</td></tr></table><ul><li>people → <b>inside</b> → rings (clear)</li><li>centre → <b>inside</b> → rings (clear)</li></ul>
+<p class="muted">Tentative domains: human_figures. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f57v&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;rings&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.18,
+        0.07,
+        0.94,
+        0.69
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.39,
+        0.25,
+        0.78,
+        0.54
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: 4,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;centre&quot;,
+      &quot;kind&quot;: &quot;radial_motif&quot;,
+      &quot;bbox&quot;: [
+        0.51,
+        0.345,
+        0.64,
+        0.44
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;centre&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Faint figures and rings need independent checking. Circular structure count refers to visible rings, not separate diagrams.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_57&quot;,
+  &quot;image_id&quot;: &quot;1006187&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006187.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;76d11b3a5123b46612cebc47d83bcfa60a0524f9bf79848daf9c229f8dbc457c&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;diagrammatic&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [
+    &quot;human_figures&quot;
+  ],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 3,
+  &quot;relation_count&quot;: 2,
+  &quot;description&quot;: &quot;Circular structure, human figure, radial motif. people inside rings; centre inside rings. Faint figures and rings need independent checking. Circular structure count refers to visible rings, not separate diagrams.&quot;
+}</pre></details></div></div></article><article><h2>f67r1</h2><div class="pair"><a href="../../images/yale_1006194.jpg"><img src="previews/f67r1.jpg" alt="f67r1 evidence regions"></a><div>
+<p><b>Domains:</b> celestial_like, diagrammatic</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Celestial-like describes visible face/rays/stars, not an identified astronomical object.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>ring</td><td>circular_structure</td><td>1–1</td><td>clear</td></tr><tr><td>rays</td><td>radial_motif</td><td>1–1</td><td>clear</td></tr><tr><td>face</td><td>face</td><td>1–1</td><td>clear</td></tr><tr><td>stars</td><td>star_like_mark</td><td>10–?</td><td>clear</td></tr></table><ul><li>face → <b>inside</b> → rays (clear)</li><li>rays → <b>inside</b> → ring (clear)</li><li>stars → <b>inside</b> → ring (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f67r1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;ring&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.04,
+        0.17,
+        0.96,
+        0.82
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;rays&quot;,
+      &quot;kind&quot;: &quot;radial_motif&quot;,
+      &quot;bbox&quot;: [
+        0.23,
+        0.3,
+        0.78,
+        0.65
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;face&quot;,
+      &quot;kind&quot;: &quot;face&quot;,
+      &quot;bbox&quot;: [
+        0.425,
+        0.435,
+        0.56,
+        0.535
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.1,
+        0.26,
+        0.88,
+        0.74
+      ],
+      &quot;count_min&quot;: 10,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;face&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rays&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;rays&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;ring&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;stars&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;ring&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Celestial-like describes visible face/rays/stars, not an identified astronomical object.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;foldout_67_68&quot;,
+  &quot;image_id&quot;: &quot;1006194&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006194.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;ed3657b74b4705da1b2605b12e0a9cda501df9384b8e0f8f5ce392498ee41e84&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.0266,
+    0.0208,
+    0.5146,
+    0.9907
+  ],
+  &quot;domains&quot;: [
+    &quot;celestial_like&quot;,
+    &quot;diagrammatic&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Circular structure, face, radial motif, star like mark. face inside rays; rays inside ring; stars inside ring. Celestial-like describes visible face/rays/stars, not an identified astronomical object.&quot;
+}</pre></details></div></div></article><article><h2>f68r1</h2><div class="pair"><a href="../../images/yale_1006196.jpg"><img src="previews/f68r1.jpg" alt="f68r1 evidence regions"></a><div>
+<p><b>Domains:</b> celestial_like, diagrammatic</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Star-like marks have adjacent labels; no constellations or star names inferred.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>stars</td><td>star_like_mark</td><td>15–?</td><td>clear</td></tr><tr><td>top_disc</td><td>circular_structure</td><td>1–1</td><td>clear</td></tr><tr><td>bottom_disc</td><td>circular_structure</td><td>1–1</td><td>clear</td></tr><tr><td>face</td><td>face</td><td>1–1</td><td>tentative</td></tr></table><ul><li>top_disc → <b>above</b> → bottom_disc (clear)</li><li>face → <b>inside</b> → bottom_disc (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f68r1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.055,
+        0.2,
+        0.82,
+        0.72
+      ],
+      &quot;count_min&quot;: 15,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;top_disc&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.35,
+        0.155,
+        0.52,
+        0.26
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;bottom_disc&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.35,
+        0.635,
+        0.54,
+        0.775
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;face&quot;,
+      &quot;kind&quot;: &quot;face&quot;,
+      &quot;bbox&quot;: [
+        0.38,
+        0.67,
+        0.49,
+        0.745
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;top_disc&quot;,
+      &quot;predicate&quot;: &quot;above&quot;,
+      &quot;object&quot;: &quot;bottom_disc&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;face&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;bottom_disc&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Star-like marks have adjacent labels; no constellations or star names inferred.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;foldout_67_68&quot;,
+  &quot;image_id&quot;: &quot;1006196&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006196.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;da1c31e2187794fdba8b4b4b7da0eecd48cd40f403e39586d44dfecd39816cb5&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.0201,
+    0.0213,
+    0.3185,
+    0.9778
+  ],
+  &quot;domains&quot;: [
+    &quot;celestial_like&quot;,
+    &quot;diagrammatic&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 2,
+  &quot;description&quot;: &quot;Circular structure, face, star like mark. top_disc above bottom_disc; face inside bottom_disc. Star-like marks have adjacent labels; no constellations or star names inferred.&quot;
+}</pre></details></div></div></article><article><h2>f68v1</h2><div class="pair"><a href="../../images/yale_1006197.jpg"><img src="previews/f68v1.jpg" alt="f68v1 evidence regions"></a><div>
+<p><b>Domains:</b> celestial_like, diagrammatic</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Blue rays in a circular field with many small star-like marks.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>ring</td><td>circular_structure</td><td>1–1</td><td>clear</td></tr><tr><td>rays</td><td>radial_motif</td><td>1–1</td><td>clear</td></tr><tr><td>stars</td><td>star_like_mark</td><td>15–?</td><td>clear</td></tr></table><ul><li>rays → <b>inside</b> → ring (clear)</li><li>stars → <b>inside</b> → ring (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f68v1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;ring&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.08,
+        0.13,
+        0.97,
+        0.8
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;rays&quot;,
+      &quot;kind&quot;: &quot;radial_motif&quot;,
+      &quot;bbox&quot;: [
+        0.275,
+        0.3,
+        0.795,
+        0.65
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.23,
+        0.21,
+        0.91,
+        0.73
+      ],
+      &quot;count_min&quot;: 15,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;rays&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;ring&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;stars&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;ring&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Blue rays in a circular field with many small star-like marks.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;foldout_67_68&quot;,
+  &quot;image_id&quot;: &quot;1006197&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006197.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;8be5e0d26e8f8b8f03286df9ccf5a04c5d506b42ba63014693b1494ed695c37b&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.6881,
+    0.0211,
+    0.9855,
+    0.9775
+  ],
+  &quot;domains&quot;: [
+    &quot;celestial_like&quot;,
+    &quot;diagrammatic&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 3,
+  &quot;relation_count&quot;: 2,
+  &quot;description&quot;: &quot;Circular structure, radial motif, star like mark. rays inside ring; stars inside ring. Blue rays in a circular field with many small star-like marks.&quot;
+}</pre></details></div></div></article><article><h2>f70v1</h2><div class="pair"><a href="../../images/yale_1006201.jpg"><img src="previews/f70v1.jpg" alt="f70v1 evidence regions"></a><div>
+<p><b>Domains:</b> animal_figures, celestial_like, containers, diagrammatic, human_figures</p><p><b>Relation patterns:</b> animal_in_circular_diagram</p>
+<p>Central quadruped, small human figures and tub-like forms. Animal identity deliberately unassigned.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>rings</td><td>circular_structure</td><td>2–?</td><td>clear</td></tr><tr><td>animal</td><td>animal</td><td>1–1</td><td>clear</td></tr><tr><td>people</td><td>human_figure</td><td>10–?</td><td>clear</td></tr><tr><td>containers</td><td>vessel</td><td>6–?</td><td>clear</td></tr><tr><td>stars</td><td>star_like_mark</td><td>8–?</td><td>clear</td></tr></table><ul><li>animal → <b>inside</b> → rings (clear)</li><li>people → <b>inside</b> → rings (clear)</li><li>people → <b>overlaps</b> → containers (clear)</li><li>stars → <b>inside</b> → rings (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f70v1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;rings&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.16,
+        0.14,
+        0.965,
+        0.77
+      ],
+      &quot;count_min&quot;: 2,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;animal&quot;,
+      &quot;kind&quot;: &quot;animal&quot;,
+      &quot;bbox&quot;: [
+        0.47,
+        0.395,
+        0.66,
+        0.51
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.2,
+        0.17,
+        0.945,
+        0.735
+      ],
+      &quot;count_min&quot;: 10,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;containers&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.22,
+        0.24,
+        0.88,
+        0.7
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.26,
+        0.185,
+        0.87,
+        0.74
+      ],
+      &quot;count_min&quot;: 8,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;animal&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;overlaps&quot;,
+      &quot;object&quot;: &quot;containers&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;stars&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Central quadruped, small human figures and tub-like forms. Animal identity deliberately unassigned.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_70&quot;,
+  &quot;image_id&quot;: &quot;1006201&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006201.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;7607647c85b29ebd9021a4fc14180dbb49f8b315f94a31f597f6b91a029424e8&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;animal_figures&quot;,
+    &quot;celestial_like&quot;,
+    &quot;containers&quot;,
+    &quot;diagrammatic&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;animal_in_circular_diagram&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 5,
+  &quot;relation_count&quot;: 4,
+  &quot;description&quot;: &quot;Animal, circular structure, human figure, star like mark, vessel. animal inside rings; people inside rings; people overlaps containers; stars inside rings. Central quadruped, small human figures and tub-like forms. Animal identity deliberately unassigned.&quot;
+}</pre></details></div></div></article><article><h2>f72r1</h2><div class="pair"><a href="../../images/yale_1006203.jpg"><img src="previews/f72r1.jpg" alt="f72r1 evidence regions"></a><div>
+<p><b>Domains:</b> animal_figures, celestial_like, diagrammatic, human_figures</p><p><b>Relation patterns:</b> animal_in_circular_diagram</p>
+<p>Red central quadruped; figures are faint and a dark blemish obscures part of the diagram.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>rings</td><td>circular_structure</td><td>2–?</td><td>clear</td></tr><tr><td>animal</td><td>animal</td><td>1–1</td><td>clear</td></tr><tr><td>people</td><td>human_figure</td><td>8–?</td><td>clear</td></tr><tr><td>stars</td><td>star_like_mark</td><td>4–?</td><td>clear</td></tr></table><ul><li>animal → <b>inside</b> → rings (clear)</li><li>people → <b>inside</b> → rings (clear)</li><li>stars → <b>inside</b> → rings (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f72r1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;rings&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.13,
+        0.13,
+        0.93,
+        0.8
+      ],
+      &quot;count_min&quot;: 2,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;animal&quot;,
+      &quot;kind&quot;: &quot;animal&quot;,
+      &quot;bbox&quot;: [
+        0.385,
+        0.42,
+        0.56,
+        0.55
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: 1,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;people&quot;,
+      &quot;kind&quot;: &quot;human_figure&quot;,
+      &quot;bbox&quot;: [
+        0.17,
+        0.165,
+        0.89,
+        0.79
+      ],
+      &quot;count_min&quot;: 8,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.28,
+        0.24,
+        0.79,
+        0.68
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;animal&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;people&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;stars&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;rings&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Red central quadruped; figures are faint and a dark blemish obscures part of the diagram.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_72&quot;,
+  &quot;image_id&quot;: &quot;1006203&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006203.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;3567e0dd91f58faea44099b7b9fd79131e16f11de113980676073a39bb22b7e4&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.257,
+    0.0363,
+    0.4784,
+    0.9791
+  ],
+  &quot;domains&quot;: [
+    &quot;animal_figures&quot;,
+    &quot;celestial_like&quot;,
+    &quot;diagrammatic&quot;,
+    &quot;human_figures&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;animal_in_circular_diagram&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Animal, circular structure, human figure, star like mark. animal inside rings; people inside rings; stars inside rings. Red central quadruped; figures are faint and a dark blemish obscures part of the diagram.&quot;
+}</pre></details></div></div></article><article><h2>fRos</h2><div class="pair"><a href="../../images/yale_1006231.jpg"><img src="previews/fRos.jpg" alt="fRos evidence regions"></a><div>
+<p><b>Domains:</b> basins_channels, diagrammatic</p><p><b>Relation patterns:</b> linked_circular_structures</p>
+<p>Nine major circular structures; no geographic or cosmological interpretation. Smaller rings are excluded from this count.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>nodes</td><td>circular_structure</td><td>9–9</td><td>clear</td></tr><tr><td>paths</td><td>channel</td><td>4–?</td><td>tentative</td></tr><tr><td>rays</td><td>radial_motif</td><td>2–?</td><td>clear</td></tr></table><ul><li>nodes → <b>connected_to</b> → nodes (tentative)</li><li>rays → <b>inside</b> → nodes (clear)</li></ul>
+<p class="muted">Tentative domains: basins_channels. Tentative patterns: linked_circular_structures.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;fRos&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;nodes&quot;,
+      &quot;kind&quot;: &quot;circular_structure&quot;,
+      &quot;bbox&quot;: [
+        0.1,
+        0.055,
+        0.96,
+        0.975
+      ],
+      &quot;count_min&quot;: 9,
+      &quot;count_max&quot;: 9,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;paths&quot;,
+      &quot;kind&quot;: &quot;channel&quot;,
+      &quot;bbox&quot;: [
+        0.19,
+        0.18,
+        0.87,
+        0.84
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;rays&quot;,
+      &quot;kind&quot;: &quot;radial_motif&quot;,
+      &quot;bbox&quot;: [
+        0.41,
+        0.07,
+        0.66,
+        0.91
+      ],
+      &quot;count_min&quot;: 2,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;nodes&quot;,
+      &quot;predicate&quot;: &quot;connected_to&quot;,
+      &quot;object&quot;: &quot;nodes&quot;,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;Several paths visibly join major circular structures; individual edges are not exhaustively traced.&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;rays&quot;,
+      &quot;predicate&quot;: &quot;inside&quot;,
+      &quot;object&quot;: &quot;nodes&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Nine major circular structures; no geographic or cosmological interpretation. Smaller rings are excluded from this count.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;foldout_rosettes&quot;,
+  &quot;image_id&quot;: &quot;1006231&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006231.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;0f16acfa51a93c8ba44dcd4c0f7e619648a4144fd4f6d07bed5271694f022daf&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;basins_channels&quot;,
+    &quot;diagrammatic&quot;
+  ],
+  &quot;tentative_domains&quot;: [
+    &quot;basins_channels&quot;
+  ],
+  &quot;relation_patterns&quot;: [
+    &quot;linked_circular_structures&quot;
+  ],
+  &quot;tentative_patterns&quot;: [
+    &quot;linked_circular_structures&quot;
+  ],
+  &quot;object_group_count&quot;: 3,
+  &quot;relation_count&quot;: 2,
+  &quot;description&quot;: &quot;Channel, circular structure, radial motif. nodes connected to nodes; rays inside nodes. Nine major circular structures; no geographic or cosmological interpretation. Smaller rings are excluded from this count.&quot;
+}</pre></details></div></div></article><article><h2>f88r</h2><div class="pair"><a href="../../images/yale_1037112.jpg"><img src="previews/f88r.jpg" alt="f88r evidence regions"></a><div>
+<p><b>Domains:</b> botanical, containers</p><p><b>Relation patterns:</b> vessels_beside_botanical_groups</p>
+<p>Three ornate vessel-like forms beside rows of detached botanical forms.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>vessels</td><td>vessel</td><td>3–3</td><td>clear</td></tr><tr><td>plants</td><td>plant_part</td><td>8–?</td><td>clear</td></tr><tr><td>roots</td><td>root</td><td>6–?</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>6–?</td><td>clear</td></tr></table><ul><li>vessels → <b>left_of</b> → plants (clear)</li><li>roots → <b>part_of</b> → plants (clear)</li><li>leaves → <b>part_of</b> → plants (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f88r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;vessels&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.065,
+        0.05,
+        0.23,
+        0.9
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: 3,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;plants&quot;,
+      &quot;kind&quot;: &quot;plant_part&quot;,
+      &quot;bbox&quot;: [
+        0.21,
+        0.04,
+        0.975,
+        0.98
+      ],
+      &quot;count_min&quot;: 8,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;roots&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.235,
+        0.075,
+        0.95,
+        0.96
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.26,
+        0.055,
+        0.965,
+        0.98
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;vessels&quot;,
+      &quot;predicate&quot;: &quot;left_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;roots&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Three ornate vessel-like forms beside rows of detached botanical forms.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_88&quot;,
+  &quot;image_id&quot;: &quot;1037112&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1037112.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;4d4483d7a911ba9f6c683d4aca54c06aa8bb4d3c3a874154aa37f64ebe902d90&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;,
+    &quot;containers&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;vessels_beside_botanical_groups&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, plant part, root, vessel. vessels left of plants; roots part of plants; leaves part of plants. Three ornate vessel-like forms beside rows of detached botanical forms.&quot;
+}</pre></details></div></div></article><article><h2>f89r1</h2><div class="pair"><a href="../../images/yale_1006233.jpg"><img src="previews/f89r1.jpg" alt="f89r1 evidence regions"></a><div>
+<p><b>Domains:</b> botanical, containers</p><p><b>Relation patterns:</b> vessels_beside_botanical_groups</p>
+<p>Three left-margin vessels; small root-and-leaf forms in horizontal groups.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>vessels</td><td>vessel</td><td>3–3</td><td>clear</td></tr><tr><td>plants</td><td>plant_part</td><td>6–?</td><td>clear</td></tr><tr><td>roots</td><td>root</td><td>5–?</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>6–?</td><td>clear</td></tr></table><ul><li>vessels → <b>left_of</b> → plants (clear)</li><li>roots → <b>part_of</b> → plants (clear)</li><li>leaves → <b>part_of</b> → plants (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f89r1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;vessels&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.035,
+        0.045,
+        0.18,
+        0.9
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: 3,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;plants&quot;,
+      &quot;kind&quot;: &quot;plant_part&quot;,
+      &quot;bbox&quot;: [
+        0.16,
+        0.015,
+        0.975,
+        0.98
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;roots&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.21,
+        0.1,
+        0.965,
+        0.985
+      ],
+      &quot;count_min&quot;: 5,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.22,
+        0.015,
+        0.965,
+        0.875
+      ],
+      &quot;count_min&quot;: 6,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;vessels&quot;,
+      &quot;predicate&quot;: &quot;left_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;roots&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Three left-margin vessels; small root-and-leaf forms in horizontal groups.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_89&quot;,
+  &quot;image_id&quot;: &quot;1006233&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006233.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;b1dd67c6bac9819f74428786b445240ddfe000cc37f181ac7df8888861e4a760&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.3081,
+    0.0299,
+    0.5795,
+    0.9754
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;,
+    &quot;containers&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;vessels_beside_botanical_groups&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, plant part, root, vessel. vessels left of plants; roots part of plants; leaves part of plants. Three left-margin vessels; small root-and-leaf forms in horizontal groups.&quot;
+}</pre></details></div></div></article><article><h2>f99r</h2><div class="pair"><a href="../../images/yale_1006246.jpg"><img src="previews/f99r.jpg" alt="f99r evidence regions"></a><div>
+<p><b>Domains:</b> botanical, containers</p><p><b>Relation patterns:</b> vessels_beside_botanical_groups</p>
+<p>Four red cylindrical vessel-like forms; rows of roots and some leafy pieces.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>vessels</td><td>vessel</td><td>4–4</td><td>clear</td></tr><tr><td>plants</td><td>plant_part</td><td>12–?</td><td>clear</td></tr><tr><td>roots</td><td>root</td><td>10–?</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>4–?</td><td>clear</td></tr></table><ul><li>vessels → <b>left_of</b> → plants (clear)</li><li>roots → <b>part_of</b> → plants (clear)</li><li>leaves → <b>part_of</b> → plants (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f99r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;vessels&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.07,
+        0.055,
+        0.225,
+        0.79
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: 4,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;plants&quot;,
+      &quot;kind&quot;: &quot;plant_part&quot;,
+      &quot;bbox&quot;: [
+        0.235,
+        0.035,
+        0.975,
+        0.96
+      ],
+      &quot;count_min&quot;: 12,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;roots&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.24,
+        0.035,
+        0.97,
+        0.93
+      ],
+      &quot;count_min&quot;: 10,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.27,
+        0.075,
+        0.97,
+        0.955
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;vessels&quot;,
+      &quot;predicate&quot;: &quot;left_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;roots&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Four red cylindrical vessel-like forms; rows of roots and some leafy pieces.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_99&quot;,
+  &quot;image_id&quot;: &quot;1006246&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006246.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;ea3806cf5ea2a8702cb145c63a3b3b07158821e59c2e39b66eeb243cee81fa37&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;,
+    &quot;containers&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;vessels_beside_botanical_groups&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, plant part, root, vessel. vessels left of plants; roots part of plants; leaves part of plants. Four red cylindrical vessel-like forms; rows of roots and some leafy pieces.&quot;
+}</pre></details></div></div></article><article><h2>f100r</h2><div class="pair"><a href="../../images/yale_1006248.jpg"><img src="previews/f100r.jpg" alt="f100r evidence regions"></a><div>
+<p><b>Domains:</b> botanical, containers</p><p><b>Relation patterns:</b> vessels_beside_botanical_groups</p>
+<p>Two red vessels beside two main bands of green botanical forms.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>vessels</td><td>vessel</td><td>2–2</td><td>clear</td></tr><tr><td>plants</td><td>plant_part</td><td>10–?</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>10–?</td><td>clear</td></tr><tr><td>roots</td><td>root</td><td>4–?</td><td>clear</td></tr></table><ul><li>vessels → <b>left_of</b> → plants (clear)</li><li>leaves → <b>part_of</b> → plants (clear)</li><li>roots → <b>part_of</b> → plants (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f100r&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;vessels&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.065,
+        0.04,
+        0.22,
+        0.61
+      ],
+      &quot;count_min&quot;: 2,
+      &quot;count_max&quot;: 2,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;plants&quot;,
+      &quot;kind&quot;: &quot;plant_part&quot;,
+      &quot;bbox&quot;: [
+        0.155,
+        0.035,
+        0.94,
+        0.635
+      ],
+      &quot;count_min&quot;: 10,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.18,
+        0.045,
+        0.94,
+        0.61
+      ],
+      &quot;count_min&quot;: 10,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;roots&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.22,
+        0.1,
+        0.925,
+        0.645
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;vessels&quot;,
+      &quot;predicate&quot;: &quot;left_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;roots&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;Two red vessels beside two main bands of green botanical forms.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_100&quot;,
+  &quot;image_id&quot;: &quot;1006248&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006248.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;6ed53d6ad2f8a31fd867be5051c3f4cc35877e85fd66a96685d2f004704727ae&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;,
+    &quot;containers&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;vessels_beside_botanical_groups&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, plant part, root, vessel. vessels left of plants; leaves part of plants; roots part of plants. Two red vessels beside two main bands of green botanical forms.&quot;
+}</pre></details></div></div></article><article><h2>f102r1</h2><div class="pair"><a href="../../images/yale_1006251.jpg"><img src="previews/f102r1.jpg" alt="f102r1 evidence regions"></a><div>
+<p><b>Domains:</b> botanical, containers</p><p><b>Relation patterns:</b> vessels_beside_botanical_groups</p>
+<p>The upper botanical form is cut by the panel edge. Do not count faint show-through as extra plants.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>vessels</td><td>vessel</td><td>3–3</td><td>clear</td></tr><tr><td>plants</td><td>plant_part</td><td>4–?</td><td>clear</td></tr><tr><td>roots</td><td>root</td><td>3–?</td><td>clear</td></tr><tr><td>leaves</td><td>leaf</td><td>5–?</td><td>clear</td></tr></table><ul><li>vessels → <b>left_of</b> → plants (clear)</li><li>roots → <b>part_of</b> → plants (clear)</li><li>leaves → <b>part_of</b> → plants (clear)</li></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f102r1&quot;,
+  &quot;layout&quot;: &quot;illustrated&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;vessels&quot;,
+      &quot;kind&quot;: &quot;vessel&quot;,
+      &quot;bbox&quot;: [
+        0.035,
+        0.01,
+        0.165,
+        0.63
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: 3,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;plants&quot;,
+      &quot;kind&quot;: &quot;plant_part&quot;,
+      &quot;bbox&quot;: [
+        0.16,
+        0.0,
+        0.95,
+        0.94
+      ],
+      &quot;count_min&quot;: 4,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;roots&quot;,
+      &quot;kind&quot;: &quot;root&quot;,
+      &quot;bbox&quot;: [
+        0.2,
+        0.0,
+        0.95,
+        0.925
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;leaves&quot;,
+      &quot;kind&quot;: &quot;leaf&quot;,
+      &quot;bbox&quot;: [
+        0.16,
+        0.0,
+        0.92,
+        0.82
+      ],
+      &quot;count_min&quot;: 5,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [
+    {
+      &quot;subject&quot;: &quot;vessels&quot;,
+      &quot;predicate&quot;: &quot;left_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;roots&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;subject&quot;: &quot;leaves&quot;,
+      &quot;predicate&quot;: &quot;part_of&quot;,
+      &quot;object&quot;: &quot;plants&quot;,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;notes&quot;: &quot;The upper botanical form is cut by the panel edge. Do not count faint show-through as extra plants.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_102&quot;,
+  &quot;image_id&quot;: &quot;1006251&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006251.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;f6130d8e34f2b52618d32ae104be606b9d65c123ea08476bf72a9664eace7f98&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0.3389,
+    0.0379,
+    0.6443,
+    0.9809
+  ],
+  &quot;domains&quot;: [
+    &quot;botanical&quot;,
+    &quot;containers&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [
+    &quot;vessels_beside_botanical_groups&quot;
+  ],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 4,
+  &quot;relation_count&quot;: 3,
+  &quot;description&quot;: &quot;Leaf, plant part, root, vessel. vessels left of plants; roots part of plants; leaves part of plants. The upper botanical form is cut by the panel edge. Do not count faint show-through as extra plants.&quot;
+}</pre></details></div></div></article><article><h2>f1r</h2><div class="pair"><a href="../../images/yale_1006076.jpg"><img src="previews/f1r.jpg" alt="f1r evidence regions"></a><div>
+<p><b>Domains:</b> text_dominant</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Writing dominates; no foreground plant assigned from show-through.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>red_marks</td><td>decorative_mark</td><td>2–?</td><td>clear</td></tr><tr><td>show_through</td><td>uncertain_form</td><td>1–?</td><td>tentative</td></tr></table><ul></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f1r&quot;,
+  &quot;layout&quot;: &quot;text_dominant&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;red_marks&quot;,
+      &quot;kind&quot;: &quot;decorative_mark&quot;,
+      &quot;bbox&quot;: [
+        0.165,
+        0.25,
+        0.27,
+        0.41
+      ],
+      &quot;count_min&quot;: 2,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: &quot;show_through&quot;,
+      &quot;kind&quot;: &quot;uncertain_form&quot;,
+      &quot;bbox&quot;: [
+        0.17,
+        0.16,
+        0.87,
+        0.7
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;Faint green forms appear to be reverse-side show-through.&quot;
+    }
+  ],
+  &quot;relations&quot;: [],
+  &quot;notes&quot;: &quot;Writing dominates; no foreground plant assigned from show-through.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_1&quot;,
+  &quot;image_id&quot;: &quot;1006076&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006076.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;6a7037996dfd4813846dbeda948b0a8f5cd0e6803fc25243d8bd985d6c1df7d4&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;text_dominant&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 2,
+  &quot;relation_count&quot;: 0,
+  &quot;description&quot;: &quot;Decorative mark, uncertain form. Writing dominates; no foreground plant assigned from show-through.&quot;
+}</pre></details></div></div></article><article><h2>f58r</h2><div class="pair"><a href="../../images/yale_1006188.jpg"><img src="previews/f58r.jpg" alt="f58r evidence regions"></a><div>
+<p><b>Domains:</b> text_dominant</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Three star-like marks along the left of a large block of writing; no circular diagram.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>stars</td><td>star_like_mark</td><td>3–3</td><td>clear</td></tr></table><ul></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f58r&quot;,
+  &quot;layout&quot;: &quot;text_dominant&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.12,
+        0.04,
+        0.26,
+        0.515
+      ],
+      &quot;count_min&quot;: 3,
+      &quot;count_max&quot;: 3,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [],
+  &quot;notes&quot;: &quot;Three star-like marks along the left of a large block of writing; no circular diagram.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_58&quot;,
+  &quot;image_id&quot;: &quot;1006188&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006188.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;a7df1e3994cae9379afe32230a567bf93ce1bdca2ae2d95cde2929d23fba83ea&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;text_dominant&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 1,
+  &quot;relation_count&quot;: 0,
+  &quot;description&quot;: &quot;Star like mark. Three star-like marks along the left of a large block of writing; no circular diagram.&quot;
+}</pre></details></div></div></article><article><h2>f103r</h2><div class="pair"><a href="../../images/yale_1006254.jpg"><img src="previews/f103r.jpg" alt="f103r evidence regions"></a><div>
+<p><b>Domains:</b> text_dominant</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Repeated marginal star-like marks beside dense writing. They may function as separators, but that function is not a visual fact.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>stars</td><td>star_like_mark</td><td>12–?</td><td>clear</td></tr></table><ul></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f103r&quot;,
+  &quot;layout&quot;: &quot;text_dominant&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;stars&quot;,
+      &quot;kind&quot;: &quot;star_like_mark&quot;,
+      &quot;bbox&quot;: [
+        0.075,
+        0.06,
+        0.16,
+        0.735
+      ],
+      &quot;count_min&quot;: 12,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;clear&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [],
+  &quot;notes&quot;: &quot;Repeated marginal star-like marks beside dense writing. They may function as separators, but that function is not a visual fact.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_103&quot;,
+  &quot;image_id&quot;: &quot;1006254&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006254.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;e48af246e7a9995c6deaae9405c696149ffe503bdb47c8636183aa5950afcffc&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;text_dominant&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 1,
+  &quot;relation_count&quot;: 0,
+  &quot;description&quot;: &quot;Star like mark. Repeated marginal star-like marks beside dense writing. They may function as separators, but that function is not a visual fact.&quot;
+}</pre></details></div></div></article><article><h2>f116v</h2><div class="pair"><a href="../../images/yale_1006277.jpg"><img src="previews/f116v.jpg" alt="f116v evidence regions"></a><div>
+<p><b>Domains:</b> sparse_marks</p><p><b>Relation patterns:</b> none assigned</p>
+<p>Sparse writing at the top, faint small left sketch and largely blank parchment.</p><table><tr><th>Region</th><th>Visible form</th><th>Count bound</th><th>Certainty</th></tr><tr><td>sketch</td><td>uncertain_form</td><td>1–?</td><td>tentative</td></tr></table><ul></ul>
+<p class="muted">Tentative domains: none. Tentative patterns: none.</p>
+<details><summary>Full structured observation</summary><pre>{
+  &quot;analysis_id&quot;: &quot;object_relation_v1_b9cbf0c3a6dc&quot;,
+  &quot;folio_id&quot;: &quot;f116v&quot;,
+  &quot;layout&quot;: &quot;sparse&quot;,
+  &quot;objects&quot;: [
+    {
+      &quot;id&quot;: &quot;sketch&quot;,
+      &quot;kind&quot;: &quot;uncertain_form&quot;,
+      &quot;bbox&quot;: [
+        0.085,
+        0.07,
+        0.17,
+        0.23
+      ],
+      &quot;count_min&quot;: 1,
+      &quot;count_max&quot;: null,
+      &quot;certainty&quot;: &quot;tentative&quot;,
+      &quot;note&quot;: &quot;&quot;
+    }
+  ],
+  &quot;relations&quot;: [],
+  &quot;notes&quot;: &quot;Sparse writing at the top, faint small left sketch and largely blank parchment.&quot;,
+  &quot;annotation_status&quot;: &quot;single_ai_development_review&quot;,
+  &quot;text_masked&quot;: false,
+  &quot;physical_group&quot;: &quot;folio_116&quot;,
+  &quot;image_id&quot;: &quot;1006277&quot;,
+  &quot;image_path&quot;: &quot;data/folios/images/yale_1006277.jpg&quot;,
+  &quot;image_sha256&quot;: &quot;ce0822d1e266c490c98ccdb212f2ed0b7e26df2e9c60f09cc21ec64b76989765&quot;,
+  &quot;crop_bbox_normalized&quot;: [
+    0,
+    0,
+    1,
+    1
+  ],
+  &quot;domains&quot;: [
+    &quot;sparse_marks&quot;
+  ],
+  &quot;tentative_domains&quot;: [],
+  &quot;relation_patterns&quot;: [],
+  &quot;tentative_patterns&quot;: [],
+  &quot;object_group_count&quot;: 1,
+  &quot;relation_count&quot;: 0,
+  &quot;description&quot;: &quot;Uncertain form. Sparse writing at the top, faint small left sketch and largely blank parchment.&quot;
+}</pre></details></div></div></article><script>document.querySelector('#filter').addEventListener('input',function(){let n=0;document.querySelectorAll('article').forEach(x=>{x.hidden=!x.textContent.toLowerCase().includes(this.value.toLowerCase());if(!x.hidden)n++;});document.querySelector('#count').textContent=n+' panels';});</script></html>

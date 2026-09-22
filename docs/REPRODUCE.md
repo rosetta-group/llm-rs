@@ -117,6 +117,19 @@ python -m experiments.discovery_report
 .venv/bin/python -m experiments.download_folios       # Yale scans, hashed; see data/folios/README.md
 ```
 
+## Object-and-relation pilot
+
+```sh
+.venv/bin/python -m experiments.describe_folio_objects
+.venv/bin/python -m unittest tests.test_folio_objects tests.test_folio_description
+```
+
+The script validates reviewed observations and derives tables/galleries; it does
+not detect semantic objects automatically. Changed inputs get a new `analysis_id`.
+See [the pilot report](../data/folios/object-pilot/REPORT.md) for pending text masks,
+independent reviewer forms and the agreement command. Do not use unfilled templates
+as annotations or send the development gallery as a blind review packet.
+
 ## Sources and licences
 
 Pinned public texts and code, with revisions, hashes and licences, are listed in

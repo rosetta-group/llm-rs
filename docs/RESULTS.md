@@ -34,6 +34,7 @@ and word error rate (recovery; lower is better). See the [glossary](GLOSSARY.md)
 | Complex features, 123 descriptions, 12 tests | no corrected signal | Same | [report](../experiments/association-complex/REPORT.md) |
 | Broad domains, 63 folio groups | text 72% balanced accuracy; hand/layout 94%; no gain from adding text | Domain and production are entangled | [report](../experiments/image-domains/REPORT.md) |
 | Folio scans and pixel descriptions | 213 scans, 228 panels archived | Data only; no inference | [data/folios](../data/folios/README.md) |
+| Object–Relation pilot | 24 panels; 2 with figures in linked basins, 5 with vessels beside botanical groups | Single AI development annotations; independent agreement pending | [pilot](../data/folios/object-pilot/REPORT.md) |
 
 ## Cipher recovery on sealed Italian passages (active)
 

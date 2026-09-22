@@ -51,8 +51,12 @@ between an invented text, a cipher that changes word boundaries, and an unfamili
 Three studies asked whether the text on a page predicts what the page's picture shows,
 using existing catalogue descriptions. None found an association beyond what scribe hand
 and layout already explain, and some comparisons cannot be tested at all because picture
-type, hand and quire move together in this manuscript. The track is parked until someone
-annotates the pictures without seeing the text.
+type, hand and quire move together in this manuscript. Association modelling remains parked until independently reviewed, text-masked
+annotations exist. Image description is active: the
+[24-panel Object–Relation pilot](../data/folios/object-pilot/REPORT.md) records plants,
+people, animals, vessels and diagrams, with evidence boxes and relations such as
+figures inside connected basins. These are one AI observer's development annotations,
+not independently validated labels or recovered meanings.
 
 ## Track four: cipher recovery (active)
 
