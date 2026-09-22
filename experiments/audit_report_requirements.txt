@@ -1,0 +1,4 @@
+# Keep the decoder/image NumPy version while adding plotting.
+numpy==1.26.4
+contourpy==1.3.2
+matplotlib==3.10.6

@@ -8,7 +8,7 @@
 > Sections: overall goal · evidence required · current work (newest first) · image studies ·
 > archived matched-context suite · what we tried and found · what we know · recovery evidence · resources.
 
-Updated: 2026-09-22. This is the current project overview and research record.
+Updated: 2026-09-23. This is the current project overview and research record.
 Older reports preserve earlier experiments and may contain superseded next steps.
 
 ## Overall goal
@@ -53,6 +53,23 @@ rules, account for repeated forms, and make checkable predictions beyond the mat
 used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
+
+**2026-09-23: segmentation audit separates two bottlenecks; fixed-key reparse rejected.**
+On the three existing 5,200-letter development streams, the frozen word segmenter,
+given perfect letters, has WER **15.3% historical prose, 6.9% modern, 28.5% Petrarca**.
+With the true cipher-piece inventory supplied as an explicitly labelled oracle,
+the polished decoder reaches CER **0.38%, 0.42%, 0.65%**, but WER is still **17.2%,
+10.03%, 29.7%**. Better character recovery alone does not pass the historical word gate.
+One declared candidate searches known whole/split readings with a 128-state beam
+under the fixed round-four key, full five-gram context, length and homophone costs.
+Paired mean CER improves only **4.97% to 4.67%**, WER **37.3% to 36.0%**; historical
+CER worsens slightly. It fails the predeclared one-percentage-point improvement
+requirement. No setting sweep, no fresh passages consumed, no new modern corpus or
+historical author evaluated. All reported stage caps are false. This is a development
+negative, not a new sealed round or a general cipher impossibility result. Round four
+remains the baseline; the next separately frozen development comparison should fix
+historical word boundaries before spending fresh passages. No Voynich text, paid
+compute or model downloads. [Audit and graphs](experiments/segmentation-audit/REPORT.md).
 
 **2026-09-22: object-and-relation image pilot.** Directly inspected 24 varied panels,
 recording objects, count bounds, evidence rectangles and relations. The deterministic

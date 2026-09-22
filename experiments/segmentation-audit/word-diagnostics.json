@@ -1,0 +1,182 @@
+{
+  "word_model_sha256": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+  "rows": [
+    {
+      "source": "historical",
+      "words": 1133,
+      "unknown_word_tokens": 64,
+      "unknown_word_fraction": 0.05648720211827008,
+      "unknown_word_types": 51,
+      "extra_boundaries": 92,
+      "missing_boundaries": 22,
+      "most_frequent_missing_words": [
+        [
+          "melano",
+          5
+        ],
+        [
+          "merlino",
+          4
+        ],
+        [
+          "favolatore",
+          3
+        ],
+        [
+          "paulino",
+          2
+        ],
+        [
+          "sguardate",
+          2
+        ],
+        [
+          "nferno",
+          2
+        ],
+        [
+          "burchiello",
+          2
+        ],
+        [
+          "punillo",
+          1
+        ],
+        [
+          "appicciolo",
+          1
+        ],
+        [
+          "candava",
+          1
+        ],
+        [
+          "smontoe",
+          1
+        ],
+        [
+          "linnocenti",
+          1
+        ]
+      ]
+    },
+    {
+      "source": "modern",
+      "words": 1016,
+      "unknown_word_tokens": 22,
+      "unknown_word_fraction": 0.021653543307086614,
+      "unknown_word_types": 21,
+      "extra_boundaries": 31,
+      "missing_boundaries": 16,
+      "most_frequent_missing_words": [
+        [
+          "salaam",
+          2
+        ],
+        [
+          "lincendio",
+          1
+        ],
+        [
+          "congo",
+          1
+        ],
+        [
+          "micuni",
+          1
+        ],
+        [
+          "apted",
+          1
+        ],
+        [
+          "marthas",
+          1
+        ],
+        [
+          "vineyard",
+          1
+        ],
+        [
+          "lisoletta",
+          1
+        ],
+        [
+          "massachusetts",
+          1
+        ],
+        [
+          "slobo",
+          1
+        ],
+        [
+          "alledicola",
+          1
+        ],
+        [
+          "larringa",
+          1
+        ]
+      ]
+    },
+    {
+      "source": "verse",
+      "words": 1204,
+      "unknown_word_tokens": 123,
+      "unknown_word_fraction": 0.10215946843853821,
+      "unknown_word_types": 114,
+      "extra_boundaries": 161,
+      "missing_boundaries": 98,
+      "most_frequent_missing_words": [
+        [
+          "cor",
+          3
+        ],
+        [
+          "mortal",
+          2
+        ],
+        [
+          "camin",
+          2
+        ],
+        [
+          "talor",
+          2
+        ],
+        [
+          "foco",
+          2
+        ],
+        [
+          "chamor",
+          2
+        ],
+        [
+          "lopra",
+          2
+        ],
+        [
+          "honora",
+          2
+        ],
+        [
+          "movo",
+          1
+        ],
+        [
+          "laudando",
+          1
+        ],
+        [
+          "sincomincia",
+          1
+        ],
+        [
+          "fore",
+          1
+        ]
+      ]
+    }
+  ]
+}

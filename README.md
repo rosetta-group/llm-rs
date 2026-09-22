@@ -28,8 +28,11 @@ Latest sealed recovery results (Naibbe cipher, codebook-free):
 | Modern Italian, character error | not run (test text exhausted) | 8.8% | 9.5% | 12.5% |
 
 Pass mark: 1% character error and 10% word error. Round four repaired the solver's list of
-candidate word pieces from the ciphertext alone; given the true list, the same solver reaches
-0.5% character error, so the remaining gap is still in that list.
+candidate cipher pieces from the ciphertext alone. The new
+[segmentation audit](experiments/segmentation-audit/REPORT.md) separates cipher parsing
+from word boundaries: perfect letters still give 15.3% word error on historical prose
+and 28.5% on Petrarca development verse. A fixed-key reparse improved mean character
+error by only 0.29 points and was rejected before consuming fresh passages.
 
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.

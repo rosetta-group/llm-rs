@@ -117,6 +117,19 @@ python -m experiments.discovery_report
 .venv/bin/python -m experiments.download_folios       # Yale scans, hashed; see data/folios/README.md
 ```
 
+## Segmentation audit
+
+```sh
+.venv/bin/python -m pip install -r experiments/audit_report_requirements.txt
+.venv/bin/python -m experiments.report_segmentation_audit
+.venv/bin/python -m experiments.verify_segmentation_audit
+```
+
+The first command installs plotting dependencies only. Verification rechecks source
+text, deterministic ciphertext, scores, word predictions and the rejection decision
+without rerunning cipher search. The [audit report](../experiments/segmentation-audit/REPORT.md)
+explains how to rerun into a new directory. This is development data, not a fresh test.
+
 ## Object-and-relation pilot
 
 ```sh

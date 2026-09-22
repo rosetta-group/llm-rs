@@ -65,6 +65,8 @@ Development findings that shaped the rounds (development text only):
 | The lexicon, not the model, limits parsing | with the true piece lexicon the same EM reaches 97% agreement and 0.5% CER | [round four dev](../experiments/joint-development-v4/REPORT.md) |
 | Two lexicon defects, both repairable from ciphertext | spurious whole pieces are all bigram concatenations (count ≈ expected from the halves); missing pieces are rare-letter pieces below the threshold; repair 10.9% → 5.0%, 9.3% → 5.5%, 9.5% → 6.2% | same |
 | Lower thresholds and global admission fail | candidate threshold 3: 12.0%; complements for every token: 17.2% | same |
+| Perfect letters do not fix historical word boundaries | development WER 15.3% historical prose, 6.9% modern, 28.5% Petrarca | [segmentation audit](../experiments/segmentation-audit/REPORT.md) |
+| Fixed-key context reparse rejected | paired mean CER 4.97% → 4.67%, below the predeclared 1-point improvement; WER 37.3% → 36.0%; no fresh evaluation | same |
 
 ## Operational
 

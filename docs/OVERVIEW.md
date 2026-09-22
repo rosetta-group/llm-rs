@@ -89,6 +89,13 @@ What came out, in order:
    uses raised split accuracy to about 90%. Adding Petrarch's verse to the Italian model
    fixed Dante, which the prose-only model could not read at all.
 
+A later [development audit](../experiments/segmentation-audit/REPORT.md) separates
+cipher-piece errors from word-space errors. Even perfect letters give 15.3% word error
+on historical prose and 28.5% on Petrarca verse. A fixed-key context reparse produced
+only a 0.29-point mean character-error improvement, below its declared requirement;
+it was rejected without using fresh test passages. These are development diagnostics,
+not additional sealed evaluations.
+
 Current standing on four sealed 5,200-letter Dante passages (round four):
 
 | Text | Character error | Word error | Round three |

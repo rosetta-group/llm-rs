@@ -280,3 +280,20 @@ uncertainty and physical-folio/foldout groups. The descriptions are a single AI
 observer's development annotations. Text masking, two independent human reviews and
 agreement estimates remain pending; no association model or Voynich word claim is
 licensed by this pilot. The previous pixel-only method remains available for comparison.
+
+
+### 2026-09-23: segmentation audit completed
+
+[Audit](experiments/segmentation-audit/REPORT.md): perfect-letter word error is 15.3%
+on historical prose, 6.9% modern and 28.5% Petrarca development verse. A true
+cipher-piece inventory oracle reaches 0.38–0.65% character error but still fails
+historical word recovery. The one targeted fixed-key reparse change improves mean
+CER by only 0.29 points, below its predeclared 1-point minimum; it is rejected.
+Fresh author/corpus evaluation was conditional on selection and was not run.
+
+Next: declare a bounded word-segmentation development comparison using training-only
+historical prose and verse; freeze before any new grading. Do not add observed
+missing development words directly to a lexicon. Any selected decoder must then be
+compared with the baseline on identical new passages and keys, including a new
+historical author and a newly pinned modern corpus. The recovery gate and the
+closed Voynich mechanism test remain unchanged.
