@@ -9,7 +9,7 @@ mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 
 # Write deploy key from RunPod secret
-echo "$GITHUB_DEPLOY_KEY" > ~/.ssh/my-github-deploy-key
+echo "$GITHUB_DEPLOY_KEY" | base64 -d > ~/.ssh/my-github-deploy-key
 chmod 600 ~/.ssh/my-github-deploy-key
 
 # Add GitHub to known hosts
