@@ -1,0 +1,649 @@
+{
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 1200,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 1.0
+  },
+  "grid": [
+    {
+      "minimum": 1,
+      "passes": 1
+    },
+    {
+      "minimum": 1,
+      "passes": 2
+    },
+    {
+      "minimum": 2,
+      "passes": 1
+    },
+    {
+      "minimum": 2,
+      "passes": 2
+    }
+  ],
+  "selected": "minimum2_passes2",
+  "mean_cer_by_config": {
+    "minimum1_passes1": 0.07858974358974359,
+    "minimum1_passes2": 0.06256410256410257,
+    "minimum2_passes1": 0.05826923076923077,
+    "minimum2_passes2": 0.05532051282051282
+  },
+  "prior_sha256": "3bff9e9f11876fadeeba724a3ce2da795c685db4e7f80e031940b38e1d4d5059",
+  "segmenter_sha256": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+  "code_sha256": {
+    "voynich/joint_segments.py": "aea22ff0f80b89adaf1acb93efbafbe659fe3bb2ba2de57353a69c3777101260",
+    "voynich/joint_segments_v2.py": "9af72d52809033f70cb06a647f6006ec6bdd922456d02505501f6781ea06ce2a",
+    "voynich/lexicon_repair.py": "56b1c158983fab5a39afc6bc4e11e2b6d9dc23589a05c92b0276c93dee272681",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/lexical_polish.py": "999603a179b2e059fd045a08ab423ce5584f07aa4cbb2d6eb8f86e52522dc0bf",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "experiments/joint_development.py": "a3b7fea596cacde8d9b14887649bf421b758fce4e2f9761836b3ec2a20e4056e",
+    "experiments/joint_development_v2.py": "834583e63bb54b295955f4be28cdcc9a33ee1bc7a96476891a874e84bd62b666",
+    "experiments/joint_development_v3.py": "a69173679394e0591e2a1322d8385fc82eb40439b4cb585c4a18a9e270cafb26",
+    "experiments/joint_development_v4.py": "8311981db8393bbaf4ab5b49eccef2194ed8889ca5a419c29cfe52b122735aeb"
+  },
+  "commit": "6d76e8742317428f64356b0ce411876427b5ff61",
+  "evaluation_passages_used": false,
+  "voynich_text_used": false,
+  "final_test_scored": false,
+  "rows": [
+    {
+      "source": "historical",
+      "letters": 5200,
+      "tokens": 3401,
+      "round_two": {
+        "cer": 0.10865384615384616,
+        "agreement": 0.8988532784475154,
+        "misparsed": {
+          "split->whole": 181,
+          "whole->split": 58,
+          "split->split": 105
+        },
+        "lexicon": {
+          "pieces": 271,
+          "true": 240,
+          "spurious": 31,
+          "missing": 65
+        },
+        "seconds": 142.95501899719238
+      },
+      "repairs": {
+        "minimum1_passes1": {
+          "minimum": 1,
+          "passes": 1,
+          "cer": 0.06403846153846154,
+          "agreement": 0.9282563951778888,
+          "misparsed": {
+            "split->whole": 64,
+            "whole->split": 58,
+            "split->split": 122
+          },
+          "lexicon": {
+            "pieces": 495,
+            "true": 278,
+            "spurious": 217,
+            "missing": 27
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 16,
+              "complements_admitted": 240,
+              "pieces": 495,
+              "log_likelihood": -25617.852729697286,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9282563951778888,
+          "letters_in_correct_tokens": 4770,
+          "wrong_letters_in_correct_tokens": 46,
+          "error_rate_in_correct_tokens": 0.009643605870020965,
+          "letters_in_misparsed_tokens": 430,
+          "share_of_letters_misparsed": 0.08269230769230769,
+          "seconds": 73.39047503471375
+        },
+        "minimum1_passes2": {
+          "minimum": 1,
+          "passes": 2,
+          "cer": 0.06057692307692308,
+          "agreement": 0.9300205821817112,
+          "misparsed": {
+            "split->whole": 53,
+            "whole->split": 73,
+            "split->split": 112
+          },
+          "lexicon": {
+            "pieces": 354,
+            "true": 273,
+            "spurious": 81,
+            "missing": 32
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 16,
+              "complements_admitted": 240,
+              "pieces": 495,
+              "log_likelihood": -25617.852729697286,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 199,
+              "concatenations_dropped": 10,
+              "complements_admitted": 68,
+              "pieces": 354,
+              "log_likelihood": -25436.529471111346,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9300205821817112,
+          "letters_in_correct_tokens": 4797,
+          "wrong_letters_in_correct_tokens": 35,
+          "error_rate_in_correct_tokens": 0.00729622680842193,
+          "letters_in_misparsed_tokens": 403,
+          "share_of_letters_misparsed": 0.0775,
+          "seconds": 107.00215101242065
+        },
+        "minimum2_passes1": {
+          "minimum": 2,
+          "passes": 1,
+          "cer": 0.06057692307692308,
+          "agreement": 0.9317847691855337,
+          "misparsed": {
+            "split->whole": 61,
+            "whole->split": 58,
+            "split->split": 113
+          },
+          "lexicon": {
+            "pieces": 302,
+            "true": 263,
+            "spurious": 39,
+            "missing": 42
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 16,
+              "complements_admitted": 47,
+              "pieces": 302,
+              "log_likelihood": -25323.49547066671,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9317847691855337,
+          "letters_in_correct_tokens": 4794,
+          "wrong_letters_in_correct_tokens": 40,
+          "error_rate_in_correct_tokens": 0.008343763037129746,
+          "letters_in_misparsed_tokens": 406,
+          "share_of_letters_misparsed": 0.07807692307692307,
+          "seconds": 69.53804588317871
+        },
+        "minimum2_passes2": {
+          "minimum": 2,
+          "passes": 2,
+          "cer": 0.04961538461538462,
+          "agreement": 0.9382534548662158,
+          "misparsed": {
+            "whole->split": 76,
+            "split->split": 101,
+            "split->whole": 33
+          },
+          "lexicon": {
+            "pieces": 274,
+            "true": 260,
+            "spurious": 14,
+            "missing": 45
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 16,
+              "complements_admitted": 47,
+              "pieces": 302,
+              "log_likelihood": -25323.49547066671,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 15,
+              "concatenations_dropped": 15,
+              "complements_admitted": 2,
+              "pieces": 274,
+              "log_likelihood": -25310.48102892124,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9382534548662158,
+          "letters_in_correct_tokens": 4856,
+          "wrong_letters_in_correct_tokens": 37,
+          "error_rate_in_correct_tokens": 0.007619439868204283,
+          "letters_in_misparsed_tokens": 344,
+          "share_of_letters_misparsed": 0.06615384615384616,
+          "seconds": 96.10713982582092
+        }
+      },
+      "oracle": {
+        "true_lexicon": {
+          "cer": 0.005,
+          "agreement": 0.9714789767715378,
+          "misparsed": {
+            "split->split": 93,
+            "split->whole": 4
+          },
+          "seconds": 62.451383113861084
+        }
+      },
+      "selected": {
+        "config": "minimum2_passes2",
+        "refined_cer": 0.04961538461538462,
+        "polished_cer": 0.04519230769230769,
+        "polish_changes": 19,
+        "sample": "davitrestandoperlamuontadidiochediidecoraiolaveafattosignorelivenneungiornoinpensierodivolerealpostuttosapersfuantifosse",
+        "seconds": 121.04434514045715
+      }
+    },
+    {
+      "source": "modern",
+      "letters": 5200,
+      "tokens": 3401,
+      "round_two": {
+        "cer": 0.09326923076923077,
+        "agreement": 0.9044398706262864,
+        "misparsed": {
+          "split->split": 104,
+          "whole->split": 45,
+          "split->whole": 176
+        },
+        "lexicon": {
+          "pieces": 262,
+          "true": 240,
+          "spurious": 22,
+          "missing": 77
+        },
+        "seconds": 149.53363609313965
+      },
+      "repairs": {
+        "minimum1_passes1": {
+          "minimum": 1,
+          "passes": 1,
+          "cer": 0.09846153846153846,
+          "agreement": 0.9079682446339312,
+          "misparsed": {
+            "split->split": 145,
+            "whole->split": 52,
+            "split->whole": 116
+          },
+          "lexicon": {
+            "pieces": 832,
+            "true": 286,
+            "spurious": 546,
+            "missing": 31
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 21,
+              "complements_admitted": 591,
+              "pieces": 832,
+              "log_likelihood": -26148.882224273468,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9079682446339312,
+          "letters_in_correct_tokens": 4626,
+          "wrong_letters_in_correct_tokens": 73,
+          "error_rate_in_correct_tokens": 0.015780371811500216,
+          "letters_in_misparsed_tokens": 574,
+          "share_of_letters_misparsed": 0.11038461538461539,
+          "seconds": 94.22872495651245
+        },
+        "minimum1_passes2": {
+          "minimum": 1,
+          "passes": 2,
+          "cer": 0.06903846153846153,
+          "agreement": 0.9267862393413702,
+          "misparsed": {
+            "split->split": 126,
+            "whole->split": 60,
+            "split->whole": 63
+          },
+          "lexicon": {
+            "pieces": 461,
+            "true": 278,
+            "spurious": 183,
+            "missing": 39
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 21,
+              "complements_admitted": 591,
+              "pieces": 832,
+              "log_likelihood": -26148.882224273468,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 509,
+              "concatenations_dropped": 29,
+              "complements_admitted": 167,
+              "pieces": 461,
+              "log_likelihood": -25562.56854011327,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9267862393413702,
+          "letters_in_correct_tokens": 4762,
+          "wrong_letters_in_correct_tokens": 39,
+          "error_rate_in_correct_tokens": 0.008189836203275935,
+          "letters_in_misparsed_tokens": 438,
+          "share_of_letters_misparsed": 0.08423076923076923,
+          "seconds": 123.87297773361206
+        },
+        "minimum2_passes1": {
+          "minimum": 2,
+          "passes": 1,
+          "cer": 0.05519230769230769,
+          "agreement": 0.9373713613643047,
+          "misparsed": {
+            "split->split": 101,
+            "whole->split": 54,
+            "split->whole": 58
+          },
+          "lexicon": {
+            "pieces": 386,
+            "true": 264,
+            "spurious": 122,
+            "missing": 53
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 21,
+              "complements_admitted": 145,
+              "pieces": 386,
+              "log_likelihood": -25435.000222575713,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9373713613643047,
+          "letters_in_correct_tokens": 4828,
+          "wrong_letters_in_correct_tokens": 37,
+          "error_rate_in_correct_tokens": 0.0076636288318144155,
+          "letters_in_misparsed_tokens": 372,
+          "share_of_letters_misparsed": 0.07153846153846154,
+          "seconds": 70.92041492462158
+        },
+        "minimum2_passes2": {
+          "minimum": 2,
+          "passes": 2,
+          "cer": 0.054615384615384614,
+          "agreement": 0.937959423698912,
+          "misparsed": {
+            "split->split": 101,
+            "whole->split": 60,
+            "split->whole": 50
+          },
+          "lexicon": {
+            "pieces": 350,
+            "true": 263,
+            "spurious": 87,
+            "missing": 54
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 21,
+              "complements_admitted": 145,
+              "pieces": 386,
+              "log_likelihood": -25435.000222575713,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 98,
+              "concatenations_dropped": 14,
+              "complements_admitted": 76,
+              "pieces": 350,
+              "log_likelihood": -25435.67757824436,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.937959423698912,
+          "letters_in_correct_tokens": 4838,
+          "wrong_letters_in_correct_tokens": 41,
+          "error_rate_in_correct_tokens": 0.00847457627118644,
+          "letters_in_misparsed_tokens": 362,
+          "share_of_letters_misparsed": 0.06961538461538462,
+          "seconds": 103.3692729473114
+        }
+      },
+      "oracle": {
+        "true_lexicon": {
+          "cer": 0.004615384615384616,
+          "agreement": 0.9735371949426639,
+          "misparsed": {
+            "split->split": 83,
+            "split->whole": 7
+          },
+          "seconds": 64.19898414611816
+        }
+      },
+      "selected": {
+        "config": "minimum2_passes2",
+        "refined_cer": 0.054615384615384614,
+        "polished_cer": 0.04730769230769231,
+        "polish_changes": 23,
+        "sample": "corrieresportdapaginaapaginaitreavevanodapocoimasciatolacimaestavanocominciandoladiscesatuttigliesseriumanisannodipotere",
+        "seconds": 80.90892314910889
+      }
+    },
+    {
+      "source": "verse",
+      "letters": 5200,
+      "tokens": 3401,
+      "round_two": {
+        "cer": 0.09519230769230769,
+        "agreement": 0.8967950602763893,
+        "misparsed": {
+          "whole->split": 56,
+          "split->split": 102,
+          "split->whole": 193
+        },
+        "lexicon": {
+          "pieces": 261,
+          "true": 241,
+          "spurious": 20,
+          "missing": 77
+        },
+        "seconds": 148.33832502365112
+      },
+      "repairs": {
+        "minimum1_passes1": {
+          "minimum": 1,
+          "passes": 1,
+          "cer": 0.07326923076923077,
+          "agreement": 0.9200235224933843,
+          "misparsed": {
+            "whole->split": 56,
+            "split->split": 128,
+            "split->whole": 88
+          },
+          "lexicon": {
+            "pieces": 594,
+            "true": 287,
+            "spurious": 307,
+            "missing": 31
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 7,
+              "complements_admitted": 340,
+              "pieces": 594,
+              "log_likelihood": -26274.416134242812,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9200235224933843,
+          "letters_in_correct_tokens": 4712,
+          "wrong_letters_in_correct_tokens": 47,
+          "error_rate_in_correct_tokens": 0.009974533106960951,
+          "letters_in_misparsed_tokens": 488,
+          "share_of_letters_misparsed": 0.09384615384615384,
+          "seconds": 84.74029111862183
+        },
+        "minimum1_passes2": {
+          "minimum": 1,
+          "passes": 2,
+          "cer": 0.058076923076923075,
+          "agreement": 0.9306086445163188,
+          "misparsed": {
+            "whole->split": 62,
+            "split->split": 119,
+            "split->whole": 55
+          },
+          "lexicon": {
+            "pieces": 399,
+            "true": 282,
+            "spurious": 117,
+            "missing": 36
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 7,
+              "complements_admitted": 340,
+              "pieces": 594,
+              "log_likelihood": -26274.416134242812,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 285,
+              "concatenations_dropped": 19,
+              "complements_admitted": 109,
+              "pieces": 399,
+              "log_likelihood": -25994.982813116505,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9306086445163188,
+          "letters_in_correct_tokens": 4790,
+          "wrong_letters_in_correct_tokens": 29,
+          "error_rate_in_correct_tokens": 0.0060542797494780795,
+          "letters_in_misparsed_tokens": 410,
+          "share_of_letters_misparsed": 0.07884615384615384,
+          "seconds": 112.67112708091736
+        },
+        "minimum2_passes1": {
+          "minimum": 2,
+          "passes": 1,
+          "cer": 0.05903846153846154,
+          "agreement": 0.9288444575124963,
+          "misparsed": {
+            "whole->split": 58,
+            "split->split": 109,
+            "split->whole": 75
+          },
+          "lexicon": {
+            "pieces": 316,
+            "true": 273,
+            "spurious": 43,
+            "missing": 45
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 7,
+              "complements_admitted": 62,
+              "pieces": 316,
+              "log_likelihood": -25890.495682361226,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9288444575124963,
+          "letters_in_correct_tokens": 4774,
+          "wrong_letters_in_correct_tokens": 36,
+          "error_rate_in_correct_tokens": 0.00754084625052367,
+          "letters_in_misparsed_tokens": 426,
+          "share_of_letters_misparsed": 0.08192307692307692,
+          "seconds": 68.9609169960022
+        },
+        "minimum2_passes2": {
+          "minimum": 2,
+          "passes": 2,
+          "cer": 0.06173076923076923,
+          "agreement": 0.9291384886798001,
+          "misparsed": {
+            "whole->split": 70,
+            "split->split": 111,
+            "split->whole": 60
+          },
+          "lexicon": {
+            "pieces": 292,
+            "true": 269,
+            "spurious": 23,
+            "missing": 49
+          },
+          "record": [
+            {
+              "usage_pruned": 0,
+              "concatenations_dropped": 7,
+              "complements_admitted": 62,
+              "pieces": 316,
+              "log_likelihood": -25890.495682361226,
+              "cap_hit": false
+            },
+            {
+              "usage_pruned": 18,
+              "concatenations_dropped": 7,
+              "complements_admitted": 1,
+              "pieces": 292,
+              "log_likelihood": -25909.493545477148,
+              "cap_hit": false
+            }
+          ],
+          "tokens_correct": 0.9291384886798001,
+          "letters_in_correct_tokens": 4788,
+          "wrong_letters_in_correct_tokens": 40,
+          "error_rate_in_correct_tokens": 0.00835421888053467,
+          "letters_in_misparsed_tokens": 412,
+          "share_of_letters_misparsed": 0.07923076923076923,
+          "seconds": 102.07083487510681
+        }
+      },
+      "oracle": {
+        "true_lexicon": {
+          "cer": 0.007115384615384615,
+          "agreement": 0.9705968832696266,
+          "misparsed": {
+            "split->split": 93,
+            "split->whole": 7
+          },
+          "seconds": 65.78647565841675
+        }
+      },
+      "selected": {
+        "config": "minimum2_passes2",
+        "refined_cer": 0.06173076923076923,
+        "polished_cer": 0.05653846153846154,
+        "polish_changes": 29,
+        "sample": "vvuandoiomovoisospiriacmoiamarvoielnomedenelcormiscrisseamorelaudandosincominciaudirdiforeilsuondeprimidolciaccentisuoiv",
+        "seconds": 118.4280571937561
+      }
+    }
+  ],
+  "at": 1790111352.6044931
+}
