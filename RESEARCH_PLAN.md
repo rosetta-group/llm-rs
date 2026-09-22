@@ -183,11 +183,12 @@ passages of 5,200–10,400 letters, and nothing recovers it below about 2,600 le
 is not met. Round one on four sealed 5,200-letter passages gave 12.5% CER modern and 33.5% Dante.
 Round two, with usage pruning of the piece lexicon and a prior including Petrarca's verse, gave
 9.5% modern and 10.3% Dante on four new sealed passages. Round three added a word-level polish
-and gave **8.8% modern and 10.5% Dante**; word error 54% and 56%; the gate still fails. The
-letter mapping is 99% right inside correctly parsed tokens; the residual is the 10% of tokens
-whose parse is wrong, and no cheap change is left. See the
-[round-three report](experiments/joint-recovery-v3/REPORT.md),
-[round two](experiments/joint-recovery-v2/REPORT.md) and [round one](experiments/joint-recovery/REPORT.md).
+and gave 8.8% modern and 10.5% Dante. Round four repaired the candidate piece lexicon from the
+ciphertext (an oracle with the true lexicon reaches 0.5%) and gave **5.7% Dante** on four new
+sealed passages; word error 45%; the gate still fails. Modern test text is exhausted; a modern
+half needs a newly pinned corpus. See the [round-four report](experiments/joint-recovery-v4/REPORT.md),
+[round three](experiments/joint-recovery-v3/REPORT.md), [round two](experiments/joint-recovery-v2/REPORT.md)
+and [round one](experiments/joint-recovery/REPORT.md).
 
 TransformerLens or SAEs are deferred unless a concrete mechanism warrants an intervention. No new layer or BPC sweep is planned.
 
@@ -225,7 +226,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Known-plaintext recovery | First controlled benchmark complete; spaced substitution exact, space-free word recovery still poor; `experiments/decipherment/REPORT.md` |
 | Lexicon segmentation | Fresh 24-passage evaluation complete: 6.1% modern / 39.9% historical word error |
 | Codebook-free recovery | Complete: modern substitution passes; historical selection and broader/Naibbe controls fail; `experiments/codebook-free/REPORT.md` |
-| Joint segmentation + EM | Three fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; gate not met; residual is parse error; `experiments/joint-recovery-v3/REPORT.md` |
+| Joint segmentation + EM | Four fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; round four 5.7% Dante with lexicon repair; gate not met; oracle ceiling 0.5%; `experiments/joint-recovery-v4/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |

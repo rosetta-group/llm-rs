@@ -20,21 +20,24 @@ Regrading an archived round (no new randomness):
 ```sh
 .venv/bin/python -m experiments.historical_sources restore     # Novellino and Decameron pages
 .venv/bin/python -m experiments.verse_sources restore          # Petrarch pages (round two onward)
-.venv/bin/python -m experiments.joint_recovery_v3 verify       # frozen files unchanged and committed
-.venv/bin/python -m experiments.joint_recovery_v3 evaluate     # regrades archived predictions
+.venv/bin/python -m experiments.joint_recovery_v4 verify       # frozen files unchanged and committed
+.venv/bin/python -m experiments.joint_recovery_v4 evaluate     # regrades archived predictions
 ```
 
-Rounds one and two regrade the same way with `joint_recovery` and `joint_recovery_v2`.
+Rounds one to three regrade the same way with `joint_recovery`, `joint_recovery_v2` and `joint_recovery_v3`.
 
-Running a new round follows [CONVENTIONS.md](CONVENTIONS.md), with a new `_v4` pair of drivers:
+Running a new round follows [CONVENTIONS.md](CONVENTIONS.md), with a new `_v5` pair of drivers:
 
 ```sh
-.venv/bin/python -m experiments.joint_development_v4            # development table
-.venv/bin/python -m experiments.joint_recovery_v4 freeze         # then commit
-.venv/bin/python -m experiments.joint_recovery_v4 prepare        # new sealed passages, new keys
-.venv/bin/python -m experiments.joint_recovery_v4 solve          # ~5 min per case
-.venv/bin/python -m experiments.joint_recovery_v4 evaluate
+.venv/bin/python -m experiments.joint_development_v5            # development table
+.venv/bin/python -m experiments.joint_recovery_v5 freeze         # then commit
+.venv/bin/python -m experiments.joint_recovery_v5 prepare        # new sealed passages, new keys
+.venv/bin/python -m experiments.joint_recovery_v5 solve          # ~6 min per case
+.venv/bin/python -m experiments.joint_recovery_v5 evaluate
 ```
+
+The ISDT modern test split is exhausted; a modern half needs a newly pinned corpus, recorded by
+revision and hash like `experiments/language-sources.json`.
 
 New passages draw new random keys, so a rerun reproduces the procedure, not the bytes.
 

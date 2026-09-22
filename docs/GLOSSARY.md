@@ -33,6 +33,8 @@ Terms as used in this repository. One line each; details in the linked reports.
 - **Usage pruning** — dropping candidate pieces the joint model barely uses, then rerunning EM.
 - **Refinement** — iterated local search over a complete key under the description length.
 - **Lexical polish** — re-scoring letter changes with a dictionary segmenter's local cost.
+- **Lexicon repair** — dropping whole pieces whose count matches a prefix+suffix bigram under the decoded key, and admitting the complement of a known half for tokens with no parse.
+- **Concatenation ratio** — a whole piece's token count over the count its two halves would produce as a bigram; low means the piece is really two letters.
 - **Oracle segmentation** — the true parse from the encoder trace; a diagnostic only.
 - **Segmenter** — a lexicon Viterbi model that inserts word spaces into a letter string.
 

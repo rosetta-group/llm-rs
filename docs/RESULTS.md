@@ -47,7 +47,8 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 | Standard methods | MDL selection, Nuhn beam, BK&K HMM, prose prior | 7/8 substitution and homophonic controls exact; Naibbe still 300%+ | [report](../experiments/standard-decipherment/REPORT.md) |
 | Joint EM, round one | latent parses, role emissions, 5,200 letters | CER 12.5% modern, 33.5% Dante; WER 58% / 87% | [report](../experiments/joint-recovery/REPORT.md) |
 | Joint EM, round two | + usage pruning, + Petrarch verse in prior | **CER 9.5% modern, 10.3% Dante**; WER 54% / 60% | [report](../experiments/joint-recovery-v2/REPORT.md) |
-| Joint EM, round three | + lexical polish after the round-two decoder | **CER 8.8% modern, 10.5% Dante**; WER 54% / 56%; polish gains 0.5–1.5 points paired | [report](../experiments/joint-recovery-v3/REPORT.md) |
+| Joint EM, round three | + lexical polish after the round-two decoder | CER 8.8% modern, 10.5% Dante; WER 54% / 56%; polish gains 0.5–1.5 points paired | [report](../experiments/joint-recovery-v3/REPORT.md) |
+| Joint EM, round four | + lexicon repair before refinement; four Dante passages (modern test text exhausted) | **CER 5.7% Dante**; WER 45%; parse agreement 90% → 93% on every case | [report](../experiments/joint-recovery-v4/REPORT.md) |
 
 Development findings that shaped the rounds (development text only):
 
@@ -60,6 +61,9 @@ Development findings that shaped the rounds (development text only):
 | Verse prior fixes verse | Petrarch dev 53% → 9.5%; no regression on prose | same |
 | Remaining error is in mis-parsed tokens | 0.5–1.0% letter error inside correct parses; ~12% of letters in wrong parses; confirmed on fresh text (0.5–1.4%, 10–14%) | [round three dev](../experiments/joint-development-v3/REPORT.md), [fresh](../experiments/joint-recovery-v3/REPORT.md) |
 | Polish weight 1 is the only safe setting | higher weights help prose, hurt verse; token re-parsing and warm EM restarts rejected | [round three dev](../experiments/joint-development-v3/REPORT.md) |
+| The lexicon, not the model, limits parsing | with the true piece lexicon the same EM reaches 97% agreement and 0.5% CER | [round four dev](../experiments/joint-development-v4/REPORT.md) |
+| Two lexicon defects, both repairable from ciphertext | spurious whole pieces are all bigram concatenations (count ≈ expected from the halves); missing pieces are rare-letter pieces below the threshold; repair 10.9% → 5.0%, 9.3% → 5.5%, 9.5% → 6.2% | same |
+| Lower thresholds and global admission fail | candidate threshold 3: 12.0%; complements for every token: 17.2% | same |
 
 ## Operational
 

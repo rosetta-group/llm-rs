@@ -16,18 +16,20 @@ until grading.
 | Is Voynich text predictable? | Yes, but shuffled and synthetic controls are predictable to the same degree; prediction cannot detect meaning | [prediction report](experiments/report-completed/REPORT.md) |
 | Is it a simple cipher of a European language? | Not with its word spaces kept: adjacent word lengths cluster in Voynich and anti-cluster in Romance languages | [corpus statistics](experiments/language-comparison/REPORT.md) |
 | Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
-| Can a solver break a Voynich-style cipher without its codebook? | Partly: about 9 letters in 10 on sealed 5,200-letter Italian passages; words about half wrong; pass mark not met | [round three](experiments/joint-recovery-v3/REPORT.md) |
+| Can a solver break a Voynich-style cipher without its codebook? | Partly: about 94 letters in 100 on sealed 5,200-letter Dante passages; words about half wrong; pass mark not met | [round four](experiments/joint-recovery-v4/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 
-Latest sealed recovery result (round three, Naibbe cipher, codebook-free):
+Latest sealed recovery results (Naibbe cipher, codebook-free):
 
-| Text | Character error | Word error | Round two | Round one |
+| Text | Round four | Round three | Round two | Round one |
 |---|---:|---:|---:|---:|
-| Modern Italian | 8.8% | 54% | 9.5% | 12.5% |
-| Dante | 10.5% | 56% | 10.3% | 33.5% |
+| Dante, character error | **5.7%** | 10.5% | 10.3% | 33.5% |
+| Dante, word error | **45%** | 56% | 60% | 87% |
+| Modern Italian, character error | not run (test text exhausted) | 8.8% | 9.5% | 12.5% |
 
-Pass mark: 1% character error and 10% word error. Where the solver splits a word correctly,
-its letters are 99% right; the remaining error comes from the one word in ten it splits wrong.
+Pass mark: 1% character error and 10% word error. Round four repaired the solver's list of
+candidate word pieces from the ciphertext alone; given the true list, the same solver reaches
+0.5% character error, so the remaining gap is still in that list.
 
 ## Documentation
 

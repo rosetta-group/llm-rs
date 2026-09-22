@@ -77,6 +77,15 @@ development text (Novellino/Decameron dev tales, ISDT dev), all CPU:
   Segmentation is 85–89% right and dominates the residual error. Fixed deterministic
   segmentation collapses EM at every length; re-segmentation under a fixed key and warm EM
   restarts did not help. The artificial variable-homophonic control stays unsolved and is out of class.
+- **Round four, frozen at `b4648f6` and run on four new sealed Dante passages** (5,213–5,263
+  letters, 22 CPU minutes): lexicon repair between the second joint EM and the refinement. An
+  oracle with the true piece lexicon had shown the same EM at 97% agreement and 0.5% CER on
+  development text; the repair drops whole pieces whose count matches a prefix+suffix bigram
+  under the decoded key and admits complements of known halves for unparsed tokens. CER 4.4%,
+  5.2%, 6.3%, 7.0%; WER 38–50%. Pooled: **5.7% Dante**, from 10.5%; WER 45% from 56%. Parse
+  agreement 90% → 93% on every case. No modern passages: the ISDT test split holds fewer than
+  1,000 fresh letters. Stop rule (Dante below 8%) passed; gate still fails.
+  [Round-four report](experiments/joint-recovery-v4/REPORT.md), [development](experiments/joint-development-v4/REPORT.md).
 - **Round three, frozen at `2221e83` and run on four new sealed passages** (5,211–5,469 letters,
   20 CPU minutes): the round-two decoder followed by a lexical polish that re-scores shortlisted
   letters against the frozen segmenter's word cost. CER 8.2% and 9.3% on modern ISDT, 10.1% and
@@ -174,6 +183,7 @@ No new GPU rental, model download, or Voynich final-test scoring is authorized b
 | Joint segmentation + EM, round one | Fresh 5,200-letter Naibbe: CER 12.5% modern, 33.5% Dante (from 300%+); WER 58% / 87%; gate not met | [Report](experiments/joint-recovery/REPORT.md), [development](experiments/joint-development/REPORT.md) |
 | Round two: usage pruning + verse prior | Fresh 5,200-letter Naibbe: CER 9.5% modern, 10.3% Dante; WER 54% / 60%; gate not met | [Report](experiments/joint-recovery-v2/REPORT.md), [development](experiments/joint-development-v2/REPORT.md) |
 | Round three: lexical polish | Fresh 5,200-letter Naibbe: CER 8.8% modern, 10.5% Dante; WER 54% / 56%; polish gains 0.5–1.5 points paired; error inside correct parses 0.5–1.4%; gate not met | [Report](experiments/joint-recovery-v3/REPORT.md), [development](experiments/joint-development-v3/REPORT.md) |
+| Round four: lexicon repair | Fresh 5,200-letter Naibbe, Dante only: CER 5.7%, WER 45%; agreement 90% → 93%; oracle with true lexicon 0.5%; gate not met | [Report](experiments/joint-recovery-v4/REPORT.md), [development](experiments/joint-development-v4/REPORT.md) |
 | Independent evidence pilot | 59 visual descriptions across six folios. Text gain +1.45 accuracy points, p=0.348; no established association | [Report and graphs](experiments/association/REPORT.md) |
 | Complex image associations | Completed: 123 descriptions, three text kernels, four endpoints; no reliable gain in 12 corrected tests. Nonlinear synthetic control passes | [Report and graphs](experiments/association-complex/REPORT.md) |
 | Broad image domains | Complete: 63 folio groups / three domains. Character text 72.2% balanced accuracy; hand/layout 94.4%; no incremental text gain | [Domain report](experiments/image-domains/REPORT.md) |
@@ -354,7 +364,7 @@ page scores, uncertainty, and limitations.
 | Word-boundary failure and secondary repair | Primary space-free word error 99.32%; independently calibrated penalty reduces it to 60.33% for substitution and 61.53% for Naibbe | Correct letters do not guarantee correct words; secondary reuse is exploratory | [Boundary diagnostic](experiments/decipherment/boundary-diagnostic.json) |
 | Frozen lexicon segmentation | Fresh modern WER 6.15%; historical 39.90%; both improve >20% relatively, historical gate fails | Correct space insertion remains a separate, unresolved historical-language problem | [Fresh benchmark](experiments/segmentation/REPORT.md) |
 | Codebook-free recovery | Two modern substitution cases pass; historical selection, variable-length control, and Naibbe fail | Prior language score can prefer a wrong expansion even when exact letters are available | [Negative result](experiments/codebook-free/REPORT.md) |
-| Joint segmentation + EM on Naibbe | Development: oracle segmentation 3.2% CER at 5,200 letters, 77% at 1,300. Fresh round one: 12.5% modern, 33.5% Dante. Round two with pruning and a Petrarca-augmented prior: 9.5% / 10.3%. Round three with a lexical polish: 8.8% / 10.5%; gate failed | Search, not the objective, blocked earlier attempts; length below ~2,600 letters is unrecoverable; the prose prior, not segmentation, limited Dante; letters inside correct parses are 99% right, so the residual is parse error | [Round three](experiments/joint-recovery-v3/REPORT.md), [round two](experiments/joint-recovery-v2/REPORT.md), [round one](experiments/joint-recovery/REPORT.md) |
+| Joint segmentation + EM on Naibbe | Development: oracle segmentation 3.2% CER at 5,200 letters, 77% at 1,300. Fresh round one: 12.5% modern, 33.5% Dante. Round two with pruning and a Petrarca-augmented prior: 9.5% / 10.3%. Round three with a lexical polish: 8.8% / 10.5%. Round four with lexicon repair: 5.7% Dante; gate failed | Search, not the objective, blocked earlier attempts; length below ~2,600 letters is unrecoverable; the prose prior, not segmentation, limited Dante; the candidate lexicon, not the model, limits parsing (oracle 97% / 0.5%) | [Round four](experiments/joint-recovery-v4/REPORT.md), [round three](experiments/joint-recovery-v3/REPORT.md), [round two](experiments/joint-recovery-v2/REPORT.md), [round one](experiments/joint-recovery/REPORT.md) |
 | Text–image pilot | 59 labels / six folios; +1.45 balanced-accuracy points; p=0.348 | Existing root-color descriptions do not establish a text association; independent annotation is still needed | [Pilot report](experiments/association/REPORT.md) |
 | Complex text–image associations | Three kernels × four endpoints on 123 descriptions; no corrected signal | Joint, nonlinear, and relational tests remain negative on this limited annotation source | [Extended report](experiments/association-complex/REPORT.md) |
 | Broad illustration domains | Botanical / people / celestial: text-only character balanced accuracy 72.22%; hand/layout 94.44%; no incremental gain | Domain and manuscript production are strongly entangled; some conditional effects are unidentifiable | [Domain report](experiments/image-domains/REPORT.md) |
@@ -379,11 +389,11 @@ explains why its 128-character reference differs from the earlier 2.3321 mean.
 4. **Controlled content recovery now works under declared assistance.** The spaced
    substitution benchmark recovered its normalized Italian originals exactly. Known
    language and cipher structure are substantial hints; word segmentation remains poor.
-   Without the codebook, Naibbe is about 90% recoverable by letter on fresh 5,200-letter
-   passages (8.8% character error on modern Italian, 10.5% on Dante after three frozen rounds);
-   below 2,600 letters this class is not recoverable by any method tried. Letters inside correctly
-   parsed tokens are 99% right; the remaining error is parse error, which a stronger letter
-   model cannot fix. Letters are not words: word error stays above 48%.
+   Without the codebook, Naibbe is about 94% recoverable by letter on fresh 5,200-letter
+   Dante passages (5.7% character error after four frozen rounds; 8.8% on modern Italian after
+   three); below 2,600 letters this class is not recoverable by any method tried. Given the true
+   piece lexicon the same solver reaches 0.5%, so the remaining error is in the candidate
+   lexicon, not the model. Letters are not words: word error stays above 38%.
 5. **Voynich meaning remains unvalidated.** No verified Voynich word, passage translation,
    or controlled image association has been produced. Corpus resemblance is not a language label.
 

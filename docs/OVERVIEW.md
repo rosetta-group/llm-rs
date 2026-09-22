@@ -85,18 +85,20 @@ What came out, in order:
    uses raised split accuracy to about 90%. Adding Petrarch's verse to the Italian model
    fixed Dante, which the prose-only model could not read at all.
 
-Current standing on four sealed 5,200-letter passages (round three):
+Current standing on four sealed 5,200-letter Dante passages (round four):
 
-| Text | Character error | Word error |
-|---|---:|---:|
-| Modern Italian news | 8.8% | 54% |
-| Dante | 10.5% | 56% |
+| Text | Character error | Word error | Round three |
+|---|---:|---:|---:|
+| Dante | 5.7% | 45% | 10.5% / 56% |
 
 The declared pass mark is 1% character error and 10% word error. It has not been met. Round
-three added a dictionary-based polish of the letters; it gained about one point on every
-passage and confirmed where the rest lives. Where the split is right, letters are 99% right;
-every remaining error comes from the roughly one word in ten whose split is wrong. Fixing
-those splits needs a different model, not a better letter table.
+three added a dictionary-based polish of the letters and confirmed that the remaining error sat
+in wrongly split words. Round four asked why the splits were wrong and found the answer with an
+oracle: given the true list of word pieces, the same solver splits 97% of words correctly and
+reaches 0.5% character error. The solver was starved, not broken. Two defects of the piece
+list were repaired from the ciphertext alone: frequent two-letter strings that had been admitted
+as one-letter pieces, and rare-letter pieces that never passed the frequency threshold. Dante
+error halved. Modern Italian was not re-run: the test corpus is used up after three rounds.
 
 ## What is known, in five sentences
 
