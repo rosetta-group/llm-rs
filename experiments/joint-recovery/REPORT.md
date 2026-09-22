@@ -1,6 +1,6 @@
 # Codebook-free Naibbe recovery: fresh evaluation
 
-Frozen method commit: `64d37f4d083b0ca477621fbccba4a0ed76f0fb12` ([freeze](freeze.json), [protocol](../joint-development/PROTOCOL.md)).
+Frozen method commit: `983542cdf186b631c20e424dd2e8abbae7c9e6f0` ([freeze](freeze.json), [protocol](../joint-development/PROTOCOL.md)).
 Four fresh passages of 5,201–5,529 letters, ciphertext-only decoding, references opened after predictions were saved.
 
 **The gate fails.** Character error is 12.5% on modern Italian and 33.5% on Dante; word error 58% and 87%.

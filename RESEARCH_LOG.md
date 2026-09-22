@@ -46,6 +46,13 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-22: history rewritten once to remove a leaked token.** An early local commit had placed
+a Hugging Face access token in `config.py`; the next commit removed it, but GitHub's push protection
+rejected every push. The token was revoked and the one blob replaced by a placeholder in a single
+`filter-branch` pass before anything was pushed. Commits after it changed hash; the reports and this
+log now cite the new hashes, and [docs/COMMIT_MAP.md](docs/COMMIT_MAP.md) maps old to new. No
+tree other than that one blob changed; all `verify` commands and tests pass unchanged.
+
 **2026-09-21: codebook-free Naibbe recovery reaches partial success in development.** The
 standard-method report had left the Naibbe gate untested: its one-letter model class cannot
 express Naibbe's one/two-letter units. New code in `voynich/variable_units.py` and
@@ -62,7 +69,7 @@ development text (Novellino/Decameron dev tales, ISDT dev), all CPU:
   Segmentation is 85–89% right and dominates the residual error. Fixed deterministic
   segmentation collapses EM at every length; re-segmentation under a fixed key and warm EM
   restarts did not help. The artificial variable-homophonic control stays unsolved and is out of class.
-- **Round three, frozen at `fbc1496` and run on four new sealed passages** (5,211–5,469 letters,
+- **Round three, frozen at `2221e83` and run on four new sealed passages** (5,211–5,469 letters,
   20 CPU minutes): the round-two decoder followed by a lexical polish that re-scores shortlisted
   letters against the frozen segmenter's word cost. CER 8.2% and 9.3% on modern ISDT, 10.1% and
   10.8% on Dante; WER 54–58%. Pooled: **8.8% modern, 10.5% Dante**. Paired against the same
@@ -71,14 +78,14 @@ development text (Novellino/Decameron dev tales, ISDT dev), all CPU:
   letters and nearly all the remaining error. Gate still fails; the residual is segmentation, not
   the key. [Round-three report](experiments/joint-recovery-v3/REPORT.md),
   [development](experiments/joint-development-v3/REPORT.md).
-- **Round two, frozen at `cae7c86` and run on four new sealed passages** (5,237–5,286 letters,
+- **Round two, frozen at `699ab78` and run on four new sealed passages** (5,237–5,286 letters,
   10 CPU minutes): usage pruning of the candidate piece lexicon and a prior that adds Petrarca's
   Canzoniere (pinned from Wikisource; Dante never used for fitting). CER 10.7% and 8.3% on modern
   ISDT, 9.0% and 11.5% on Dante; WER 49–63%. Pooled: **9.5% modern, 10.3% Dante**, from 12.5% and
   33.5%. Gate still fails. The verse prior transferred across authors; segmentation agreement is
   88–91%. [Round-two report](experiments/joint-recovery-v2/REPORT.md),
   [development](experiments/joint-development-v2/REPORT.md), [verse sources](experiments/verse-prior/sources.json).
-- **Round one under the frozen protocol** (commit `64d37f4`, four sealed passages of
+- **Round one under the frozen protocol** (commit `983542c`, four sealed passages of
   5,201–5,529 letters, 14.5 CPU minutes): CER 9.5% and 15.5% on modern ISDT, 30.1% and 36.7% on
   Dante; WER 49–88%. Gate CER ≤ 1% / WER ≤ 10% not met on any case. Modern matches development;
   Dante is worse than development prose, which points at the prose-trained prior rather than
@@ -101,7 +108,7 @@ All 92 repository tests passed. A full rerun reproduced the archived files exact
 the 231 generated output checksums also matched staged Git contents. No paid compute.
 
 
-**Standard-method comparison completed.** Method committed as `146fa75` before generating
+**Standard-method comparison completed.** Method committed as `752c3fa` before generating
 16 fresh encodings of four passages. CPU decoding took 13.3 minutes; no paid compute.
 The [report and graphs](experiments/standard-decipherment/REPORT.md) and
 [methods note](experiments/method-benchmark/METHODS_NOTE.md) are the latest records.
@@ -126,7 +133,7 @@ Naibbe's units; its failure is not a universal cipher rejection. No Voynich-faci
 new image study, or final-test scoring occurred. All 83 unit tests and freeze audits passed.
 
 
-**2026-09-21 priority change.** Archived work is committed as `28ceb16`.
+**2026-09-21 priority change.** Archived work is committed as `49a4522`.
 The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) now governs
 CPU development: total description length, published homophonic comparators, and a
 non-Dante historical lexicon. A separate commit must freeze the method before fresh grading.

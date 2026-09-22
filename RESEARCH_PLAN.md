@@ -244,7 +244,7 @@ These sources motivate experiments. Their findings have not been independently r
 ## Superseding priorities: 2026-09-21
 
 The [standard-method protocol](experiments/standard-decipherment/PROTOCOL.md) supersedes
-older next-step suggestions. Archive committed (`28ceb16`); use total description length
+older next-step suggestions. Archive committed (`49a4522`); use total description length
 including key and residual ambiguity costs; compare published homophonic search; build
 historical training/development from Novellino and Decameron, with Dante held for evaluation.
 Freeze in Git before new grading. CPU only. Image association modelling is parked pending independent
@@ -254,7 +254,7 @@ do not claim a translation or a general impossibility result.
 
 ### Completed standard-method comparison
 
-Frozen at `146fa75` before fresh grading; [report](experiments/standard-decipherment/REPORT.md).
+Frozen at `752c3fa` before fresh grading; [report](experiments/standard-decipherment/REPORT.md).
 Seven of eight substitution/homophonic controls have exact selected letters; the eighth
 has 0.63% CER. MDL fixes the historical substitution selection failure. Non-Dante historical
 prose lowers fresh Dante WER from 37.7% to 24.2%, still above the 10% gate. Naibbe and

@@ -1,6 +1,6 @@
 # Codebook-free Naibbe recovery, round three: fresh evaluation
 
-Frozen method commit: `fbc149617657323923fdfaf4337d1fdeeaed994b` ([freeze](freeze.json), [protocol](../joint-development-v3/PROTOCOL.md)).
+Frozen method commit: `2221e8312b9e8afc3ce53970bbf20f2c64b28684` ([freeze](freeze.json), [protocol](../joint-development-v3/PROTOCOL.md)).
 Four fresh passages of 5,211–5,469 letters, none overlapping any earlier challenge, decoded from ciphertext only; references opened after predictions were saved.
 
 **The polish buys about one point and the gate still fails.** Character error is 8.8% on modern

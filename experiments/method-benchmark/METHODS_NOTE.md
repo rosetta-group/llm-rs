@@ -72,7 +72,7 @@ remain possible sources of error. Source pages and transcluded content are archi
 
 ## Fresh standard-method results
 
-The method was committed as `146fa75` before creating 16 encodings from four new passages.
+The method was committed as `752c3fa` before creating 16 encodings from four new passages.
 The combined selector recovers exact letters in seven of eight substitution/homophonic
 cases, with 0.63% character error in the remaining case. All eight meet the 1% letter
 threshold. This is positive evidence that the new search can solve these model classes.

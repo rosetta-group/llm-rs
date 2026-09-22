@@ -1,6 +1,6 @@
 # Length-aware selection and standard decipherment comparators
 
-Frozen method commit: `146fa75ce524c5e20ed18f1308cb9fc1ca65f2fe`. Earlier archive: `28ceb16`.
+Frozen method commit: `752c3fa5ca752d3d6806ac0cf4814b351072ed14`. Earlier archive: `49a4522`.
 [Protocol](PROTOCOL.md) · [development](development.json) · [fresh results](results.json) · [sources](sources.json) · [audit](verification.json).
 
 ## What was done
