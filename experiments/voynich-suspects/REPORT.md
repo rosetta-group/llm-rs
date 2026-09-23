@@ -35,6 +35,32 @@ letter. Only word counts per line are compared.
    in the script (a/o, f/k, k/p, n/r, c/s), which fits misreading. Others (o/y, s/y, d/y) sit at word
    endings and look more like morphology. This split is a reading of glyph shapes, not a test.
 
+## Equal-size controls ([equal-size-controls.json](equal-size-controls.json))
+
+These are near-hapax shares of tokens in 10,000-token windows, averaged over up to two disjoint
+windows. The same filter and threshold apply throughout.
+
+| Source | Near-hapax share |
+|---|---:|
+| Voynich v101 | 12.20% |
+| Voynich EVA | 8.33% |
+| Naibbe cipher (published sample) | 5.86% |
+| Timm–Schinner generator (published sample) | 5.63% |
+| Old French | 2.23% |
+| Finnish (agglutinative) | 1.78% |
+| German | 1.64% |
+| Italian | 1.42% |
+| Latin | 1.22% |
+
+- **Cleaning does not remove the excess.** Merging uncertain spaces and dropping the 447 disputed
+  lines gives 12.0% (v101) and 7.8% (EVA) at 20,000 tokens.
+- **Natural languages stay at 1.2–2.2%, Finnish included.** Rich morphology alone does not produce it.
+- **Both artificial controls sit at about 5.7%.** That is 3–4× natural text, but still below the
+  Voynich text. So a verbose cipher or copying-with-modification produces this signature, and the
+  published samples produce less of it than the manuscript.
+- **The figure depends on the transcription alphabet.** 12.2% against 8.3% shows it. One EVA edit is
+  often a pen stroke, not a letter. Each control is a single published sample.
+
 ## Visual-review list ([review-top50.csv](review-top50.csv))
 
 This list has 164 candidates, and the file holds the top 50. Each is an EVA near-hapax of plain

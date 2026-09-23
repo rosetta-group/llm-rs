@@ -1,0 +1,38 @@
+{
+  "voynich v101": [
+    12.2,
+    2
+  ],
+  "voynich EVA": [
+    8.33,
+    2
+  ],
+  "timm generator": [
+    5.63,
+    1
+  ],
+  "naibbe cipher": [
+    5.86,
+    2
+  ],
+  "latin": [
+    1.22,
+    1
+  ],
+  "italian": [
+    1.42,
+    1
+  ],
+  "old_french": [
+    2.23,
+    1
+  ],
+  "german": [
+    1.64,
+    1
+  ],
+  "finnish": [
+    1.78,
+    1
+  ]
+}
