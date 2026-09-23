@@ -1,0 +1,32 @@
+{
+  "files": {
+    "voynich/verse_word_model.py": "4a3eff90026e4e5ff13d1b8e18c802fc6fa747ddbc660c50466c3084cc547452",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+    "voynich/corpora.py": "c9869572ca3d3ed0666afd451c19d8bb85e591815c5526b62987fab9224c9839",
+    "voynich/data.py": "df239427067a2717cceae3fc3308946f8c38b2ab8208e4e2840fb4d0a7584768",
+    "experiments/word_segmentation_v2.py": "5cfee8e5b7ac370742b4fbdd3a2c550773ca91e0eef3316886496659ac8acf6c",
+    "experiments/word_segmentation_fresh.py": "c10f80d2e60eec416d56bd765413470b8b604c78eebdff0b988f9c2a92382e19",
+    "experiments/segmentation_audit.py": "8bca3c05566cd0d75cc3c14e638b2a24dd5362608a3e58f6a94d8ee3d2449596",
+    "experiments/joint_development_v3.py": "a69173679394e0591e2a1322d8385fc82eb40439b4cb585c4a18a9e270cafb26",
+    "experiments/verse_sources.py": "02d06d63d1a6f2ad5987eaa37128257586ed8ea09e8b9e137ddc9d89db854497",
+    "experiments/historical_sources.py": "53b3617ba0f3a5a117497e92e827f7b75fa2b675072347de772dd4be67256020",
+    "experiments/segmentation.py": "67761646e6ccc4506f33a5cf0cb9ca4fd24ee5d992216db185f5acc7299849c8",
+    "experiments/word-segmentation-v2/PROTOCOL.md": "bf5c0dfdce33e3a9886dd739c2ce828d8aef63529822d1fa3858735ea2742fdf",
+    "experiments/word-segmentation-v2/development.json": "81cd82c3acc5ea18d0a100398bbdc0a0f95a41b47518500f24e7c8f7022bc6fb",
+    "experiments/word-segmentation-v2/model.json.gz": "7b6ea5a127160e0229b09b8d4622467c6914d2d6b0271ed207a943cf62cd4894",
+    "experiments/standard-decipherment/development.json": "21619a30936b5a460978390584d4e23f7eb8a4c3b3349eb10d848dbd34eb88a7",
+    "experiments/standard-decipherment/sources.json": "d7470b54dee6645f607a2e487081f35d9a6bd4ce1fea050f800997e9e9b745f3",
+    "experiments/verse-prior/sources.json": "220a2814c5c116e8c34aaaa406bee3e06fe04bb1a8e28ad137d2dab3dbc9de36",
+    "experiments/language-sources.json": "7f827578b4d2c6b79b82da3289ab216bf049cac6be7d258d32f4a327286d244c",
+    "experiments/segmentation-sources.json": "d3b05f4a54cb9ce4d64bbd7fed96b1015856b6381baea95d520a05072e2e7964"
+  },
+  "baseline_sha256": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+  "parameters": {
+    "alpha": 1.0,
+    "bigram": 0.5,
+    "unknown": 3.0
+  },
+  "weight": 1,
+  "version": 1
+}
