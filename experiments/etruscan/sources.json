@@ -1,0 +1,131 @@
+{
+ "retrieved": "2026-09-23",
+ "sources": [
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/CIEP_pymupdf.csv",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/CIEP_pymupdf.csv",
+   "sha256": "8ab2d7b7ba1102af4f195cd8d78005f16646aa01efa38e0e11dc1e7c6f350cbc",
+   "bytes": 192745,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/DATA_README.md",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/README.md",
+   "sha256": "5915b175f9fb55bf8f6921fcb345608f91b9d89b550e928a326333161ee059a4",
+   "bytes": 1455,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/ETPNames.txt",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/ETPNames.txt",
+   "sha256": "89ff114c66e96fcebd728c845ee747664a671b86086051ac9e20fdb0f9ab8daf",
+   "bytes": 23545,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/ETPSuff.txt",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/ETPSuff.txt",
+   "sha256": "59f31063cbb0e68f36a8a81b24eba7f0b9527380fb9057ef1059a7fa76eb1e85",
+   "bytes": 584,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/ETPWords.txt",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/ETPWords.txt",
+   "sha256": "43050375d3fee420cefe39cf08c1b792c9337604320badb3e94031db2107d59b",
+   "bytes": 14739,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/ETP_POS.csv",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/ETP_POS.csv",
+   "sha256": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+   "bytes": 164566,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/ETP_fix.csv",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/ETP_fix.csv",
+   "sha256": "8565fb95af147f359dcb43af8e58c36acb0f88cb454d6e3d1d189698db910f42",
+   "bytes": 53350,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/Etruscan.csv",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/Etruscan.csv",
+   "sha256": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a",
+   "bytes": 302495,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/LICENSE",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/LICENSE",
+   "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f",
+   "bytes": 18658,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/README.md",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/README.md",
+   "sha256": "20c9524829f188e878143d3e1519cd5249c5dbde6308eba3ca315a58e60f047b",
+   "bytes": 127,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/data.py",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/data.py",
+   "sha256": "45b893bbd6134b6c752712b1606b535232a9695078ba9594c424e963c327a0be",
+   "bytes": 9091,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "GianlucaVico/Larth-Etruscan-NLP",
+   "revision": "daf4972175f45b48188fe36671db3a0e081e5130",
+   "path": "artifacts/etruscan-sources/larth/utils.py",
+   "url": "https://raw.githubusercontent.com/GianlucaVico/Larth-Etruscan-NLP/daf4972175f45b48188fe36671db3a0e081e5130/Data/utils.py",
+   "sha256": "e6c906f022599b3d70d3caaca4bdb7ca3c6dcd4e2c2f76aba60ced1e12be6c92",
+   "bytes": 4825,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "LIRE (Latin Inscriptions of the Roman Empire)",
+   "revision": "v3.0, Zenodo record 8431452",
+   "path": "artifacts/etruscan-sources/lire/LIRE_v3-0.parquet",
+   "url": "https://zenodo.org/api/records/8431452/files/LIRE_v3-0.parquet/content",
+   "sha256": "1e4b67e8f06898064f823bb25047496e5fc247718723b22da2805bec34d940ce",
+   "bytes": 61952379,
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "LIRE (Latin Inscriptions of the Roman Empire)",
+   "revision": "v3.0, Zenodo record 8431452",
+   "path": "artifacts/etruscan-sources/lire/LI_metadata.csv",
+   "url": "https://zenodo.org/api/records/8431452/files/LI_metadata.csv/content",
+   "sha256": "fb0cf394e7ca4f88b5d74fa730d3de10a37f71dc606efbe4cfe3c7ea400ac465",
+   "bytes": 19694,
+   "license": "CC BY 4.0"
+  }
+ ]
+}

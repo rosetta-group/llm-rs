@@ -1,6 +1,7 @@
 # Etruscan: word meaning from formula context
 
-Status: scope only, branch `etruscan`, 2026-09-23. No data downloaded, nothing run.
+Status: phase 0 done, branch `etruscan`, 2026-09-23. Sources downloaded with the owner's approval
+and pinned in [sources.json](sources.json); counts in [phase0.json](phase0.json). No test run.
 Nothing here is a reading of Etruscan.
 
 ## Why Etruscan is a different task
@@ -90,6 +91,37 @@ appeared for shuffled syllables. Any class signal must vanish when formula order
 The Larth paper ([arXiv 2310.05688](https://arxiv.org/abs/2310.05688)) reports that CIEP and
 ETP use different transliterations and that Larth's normalisation is not reversible. Phase 0
 records both and runs phases 1 to 3 on ETP alone and on ETP + CIEP.
+
+## Phase 0 result (description only)
+
+`python -m experiments.etruscan_phase0`. The open corpus is far smaller than "7,139 texts" suggests.
+
+| | ETP part | CIEP part | Latin epitaph pool (LIRE v3.0) |
+|---|---|---|---|
+| Texts (after joining CIEP lines by CIE number) | 551 | 4,240 | 65,740 |
+| Tokens | 2,433 | 7,356 | 858,317 |
+| Tokens per text | 4.4 | 1.7 | median 11 |
+| Tokens of 12+ letters | 0.9% | 6.2% | |
+| Texts using o, b, d or g (not Etruscan letters) | 2.2% | 7.7% | |
+| Tokens with a gloss in the ETP word list | 78% | 15% | |
+
+1. **Duplicates.** 444 of 7,139 Larth rows are exact repeats; they are dropped.
+2. **CIEP rows are lines, not texts.** One CIE number spans many rows. Joined, the part is 4,240
+   texts, 60% of them one token long.
+3. **CIEP word division is broken.** PDF extraction runs words together (`milarthasarsinaia` for
+   *mi larthas arsinaia*); long tokens are seven times more common than in ETP.
+4. **CIEP holds non-Etruscan text.** CIE 15896 is the Umbrian Iguvine Tables (`ikuvina`,
+   `pesnimu`); 7.7% of CIEP texts use letters Etruscan lacks.
+5. **The clean part is small and mostly glossed.** ETP has 2,433 tokens and 1,173 types; 78% of
+   tokens already have a gloss, because the word list was built from these texts. Unglossed ETP
+   types number about 400, most of them seen once.
+6. **Latin is not a constraint.** The epitaph pool is 350 times the ETP token count, so any
+   Etruscan size can be matched with many independent draws.
+
+Consequence for phase 1: formula context has to be measured at about 2,400 clean tokens (ETP),
+or at about 9,800 noisy tokens with CIEP after re-segmentation and removal of non-Etruscan
+texts. The Latin control is cut to whichever size is chosen. That choice goes into the phase 1
+protocol, frozen before any run.
 
 ## Expected outcome
 

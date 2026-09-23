@@ -1,0 +1,300 @@
+{
+ "larth_rows": 7139,
+ "exact_duplicate_rows_dropped": 444,
+ "glossed_word_list_types": 881,
+ "ETP": {
+  "texts": 551,
+  "texts_with_2plus_tokens": 446,
+  "tokens": 2433,
+  "damaged_tokens": 132,
+  "types": 1173,
+  "hapax_types": 788,
+  "tokens_per_text_mean": 4.42,
+  "token_length_median": 5,
+  "share_tokens_12plus_letters": 0.009,
+  "share_texts_with_o_b_d_g": 0.022,
+  "share_tokens_glossed": 0.783,
+  "glossed_types_attested": 775,
+  "top_20": [
+   [
+    "mi",
+    130
+   ],
+   [
+    "a",
+    32
+   ],
+   [
+    "mini",
+    25
+   ],
+   [
+    "vel",
+    22
+   ],
+   [
+    "laris",
+    18
+   ],
+   [
+    "clan",
+    18
+   ],
+   [
+    "v",
+    18
+   ],
+   [
+    "turce",
+    18
+   ],
+   [
+    "l",
+    16
+   ],
+   [
+    "avils",
+    15
+   ],
+   [
+    "larthal",
+    15
+   ],
+   [
+    "lth",
+    15
+   ],
+   [
+    "c",
+    14
+   ],
+   [
+    "larth",
+    14
+   ],
+   [
+    "muluvanice",
+    11
+   ],
+   [
+    "cn",
+    11
+   ],
+   [
+    "suthi",
+    11
+   ],
+   [
+    "arnth",
+    11
+   ],
+   [
+    "velthur",
+    11
+   ],
+   [
+    "ath",
+    11
+   ]
+  ]
+ },
+ "CIEP": {
+  "texts": 4240,
+  "texts_with_2plus_tokens": 1700,
+  "tokens": 7356,
+  "damaged_tokens": 696,
+  "types": 4691,
+  "hapax_types": 3959,
+  "tokens_per_text_mean": 1.73,
+  "token_length_median": 7.0,
+  "share_tokens_12plus_letters": 0.062,
+  "share_texts_with_o_b_d_g": 0.077,
+  "share_tokens_glossed": 0.145,
+  "glossed_types_attested": 220,
+  "top_20": [
+   [
+    "arnth",
+    71
+   ],
+   [
+    "larthi",
+    61
+   ],
+   [
+    "mi",
+    53
+   ],
+   [
+    "larth",
+    43
+   ],
+   [
+    "arnthus",
+    41
+   ],
+   [
+    "thania",
+    31
+   ],
+   [
+    "caii",
+    31
+   ],
+   [
+    "velia",
+    29
+   ],
+   [
+    "arnthial",
+    29
+   ],
+   [
+    "larthial",
+    24
+   ],
+   [
+    "thana",
+    23
+   ],
+   [
+    "ramthas",
+    17
+   ],
+   [
+    "a",
+    16
+   ],
+   [
+    "lautnitha",
+    15
+   ],
+   [
+    "ch",
+    14
+   ],
+   [
+    "ramtha",
+    13
+   ],
+   [
+    "in",
+    13
+   ],
+   [
+    "larthialisa",
+    13
+   ],
+   [
+    "chae",
+    11
+   ],
+   [
+    "an",
+    11
+   ]
+  ]
+ },
+ "all": {
+  "texts": 4791,
+  "texts_with_2plus_tokens": 2146,
+  "tokens": 9789,
+  "damaged_tokens": 828,
+  "types": 5587,
+  "hapax_types": 4488,
+  "tokens_per_text_mean": 2.04,
+  "token_length_median": 6,
+  "share_tokens_12plus_letters": 0.048,
+  "share_texts_with_o_b_d_g": 0.071,
+  "share_tokens_glossed": 0.309,
+  "glossed_types_attested": 789,
+  "top_20": [
+   [
+    "mi",
+    183
+   ],
+   [
+    "arnth",
+    82
+   ],
+   [
+    "larthi",
+    66
+   ],
+   [
+    "larth",
+    57
+   ],
+   [
+    "a",
+    48
+   ],
+   [
+    "arnthus",
+    41
+   ],
+   [
+    "arnthial",
+    32
+   ],
+   [
+    "thania",
+    32
+   ],
+   [
+    "thana",
+    31
+   ],
+   [
+    "caii",
+    31
+   ],
+   [
+    "velia",
+    30
+   ],
+   [
+    "larthial",
+    28
+   ],
+   [
+    "turce",
+    26
+   ],
+   [
+    "mini",
+    25
+   ],
+   [
+    "vel",
+    24
+   ],
+   [
+    "l",
+    23
+   ],
+   [
+    "laris",
+    22
+   ],
+   [
+    "ramthas",
+    22
+   ],
+   [
+    "larthal",
+    21
+   ],
+   [
+    "clan",
+    20
+   ]
+  ]
+ },
+ "latin_epitaph_pool": {
+  "records": 182853,
+  "epitaphs_nonempty": 65740,
+  "tokens": 858317,
+  "tokens_per_text_median": 11.0,
+  "selection": "type_of_inscription_clean == 'epitaph' or inscr_type == 'tituli sepulcrales' (Christian epitaphs excluded)"
+ }
+}
