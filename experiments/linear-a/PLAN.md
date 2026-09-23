@@ -1,6 +1,6 @@
 # Linear A: adapting the Voynich methods
 
-Status: plan only, 2026-09-23. No Linear A, Linear B or lexicon data is in the repository yet;
+Status: round one complete on branch `linear-a`, 2026-09-23: gate failed, see [REPORT.md](REPORT.md).
 every download below needs the owner's approval first. Nothing here is a reading of Linear A.
 
 ## Why the methods need adapting
