@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from linear_a import arithmetic
+from linear_a import arithmetic, contexts
 from linear_a.matching import BigramNull, Matcher
 from linear_a.spelling import parse_syllabic, render, spell
 
@@ -43,6 +43,22 @@ class LinearATest(unittest.TestCase):
                 "\U00010642\U00010601\U00010111\U00010107")
         rows = arithmetic.check_totals({"HT 13": {"unicode_text": text}})
         self.assertEqual(rows, [{"document": "HT 13", "stated": 21, "sum": 61, "difference": -40}])
+
+    def test_linear_b_line_labels(self):
+        items = contexts.linear_b_line_items(".2        di-ka-ta-jo  /  di-we    OLE    S   1")
+        labelled = contexts.label_line_items(items, first_line=False)
+        self.assertEqual(labelled, [("di-ka-ta-jo", "other"), ("di-we", "entry")])
+        items = contexts.linear_b_line_items(".1   de-u-ki-jo-jo   'me-no'")
+        self.assertEqual(contexts.label_line_items(items, first_line=True),
+                         [("de-u-ki-jo-jo", "header")])
+
+    def test_logogram_label_and_majority(self):
+        items = [("word", "a"), ("logogram", "VIN"), ("word", "b"), ("logogram", "VIR"),
+                 ("number", None)]
+        self.assertEqual(contexts.label_line_items(items, first_line=False),
+                         [("a", "logogram"), ("b", "entry")])
+        self.assertEqual(contexts.type_labels([("x", "entry"), ("x", "other"), ("x", "other")]),
+                         {"x": "other"})
 
 
 if __name__ == "__main__":
