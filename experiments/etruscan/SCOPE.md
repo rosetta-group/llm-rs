@@ -1,7 +1,8 @@
 # Etruscan: word meaning from formula context
 
-Status: phase 0 done, branch `etruscan`, 2026-09-23. Sources downloaded with the owner's approval
-and pinned in [sources.json](sources.json); counts in [phase0.json](phase0.json). No test run.
+Status: round one done, branch `etruscan`, 2026-09-23 ([REPORT.md](REPORT.md)): the gate passed
+narrowly for M2 (44% balanced accuracy on Latin and Etruscan, nulls at 20%), but its KIN and
+LIFE calls are right only 6% of the time. Sources pinned in [sources.json](sources.json).
 Nothing here is a reading of Etruscan.
 
 ## Why Etruscan is a different task

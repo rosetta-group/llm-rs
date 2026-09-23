@@ -18,4 +18,7 @@ gives two rules for choosing a target:
 
 Started next: Rongorongo, scoped in [experiments/rongorongo/SCOPE.md](../experiments/rongorongo/SCOPE.md).
 Etruscan (branch `etruscan`) is scoped as a meaning-class task in
-[experiments/etruscan/SCOPE.md](../experiments/etruscan/SCOPE.md).
+[experiments/etruscan/SCOPE.md](../experiments/etruscan/SCOPE.md). Round one
+([REPORT.md](../experiments/etruscan/REPORT.md)): formula context predicts word class at 44%
+balanced accuracy (chance 20%) on 2,433 Etruscan tokens and on size-matched Latin, but
+rare-class calls are mostly wrong.
