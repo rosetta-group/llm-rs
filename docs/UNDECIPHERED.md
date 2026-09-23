@@ -17,3 +17,5 @@ gives two rules for choosing a target:
 | **Etruscan** and **Meroitic** | Sounds known (scripts read); language only partly understood | thousands of mostly short texts | Possible, different task | The problem is meaning, not decipherment. Distributional methods on formulae could help; there is no key to recover. |
 
 Started next: Rongorongo, scoped in [experiments/rongorongo/SCOPE.md](../experiments/rongorongo/SCOPE.md).
+Etruscan (branch `etruscan`) is scoped as a meaning-class task in
+[experiments/etruscan/SCOPE.md](../experiments/etruscan/SCOPE.md).
