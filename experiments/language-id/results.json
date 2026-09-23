@@ -1,0 +1,198 @@
+{
+  "rows": [
+    {
+      "language": "latin",
+      "excess": {
+        "latin": 0.45274265103701294,
+        "old_french": 1.4920890287618445,
+        "german": 1.7680301188291114,
+        "english": 2.0814298326484595,
+        "italian": 1.7689758650770315
+      },
+      "raw_bits": {
+        "latin": 2.914721397072051,
+        "old_french": 4.075696352268627,
+        "german": 4.474810459064802,
+        "english": 4.873306491068844,
+        "italian": 4.5345106756730384
+      },
+      "oracle_excess": {
+        "latin": -0.0706420755744821,
+        "old_french": 2.4820668808021997,
+        "german": 2.2735644487017765,
+        "english": 2.2583986596655823,
+        "italian": 2.271863952666644
+      },
+      "predicted": "latin",
+      "raw_predicted": "latin",
+      "oracle_predicted": "latin",
+      "true_rank": 1,
+      "margin": 1.0393463777248315,
+      "cap_hits": {
+        "latin": false,
+        "old_french": false,
+        "german": false,
+        "english": false,
+        "italian": false
+      }
+    },
+    {
+      "language": "old_french",
+      "excess": {
+        "latin": 2.413764573161204,
+        "old_french": 0.4633896663567234,
+        "german": 1.7952774438833705,
+        "english": 2.022825803677713,
+        "italian": 1.8731644314490659
+      },
+      "raw_bits": {
+        "latin": 4.875743319196242,
+        "old_french": 3.0469969898635063,
+        "german": 4.502057784119061,
+        "english": 4.814702462098097,
+        "italian": 4.638699242045073
+      },
+      "oracle_excess": {
+        "latin": 4.703176024485309,
+        "old_french": 0.038590391162182325,
+        "german": 2.5833536143077334,
+        "english": 2.4842232541756513,
+        "italian": 2.6289332021531715
+      },
+      "predicted": "old_french",
+      "raw_predicted": "old_french",
+      "oracle_predicted": "old_french",
+      "true_rank": 1,
+      "margin": 1.331887777526647,
+      "cap_hits": {
+        "latin": false,
+        "old_french": false,
+        "german": false,
+        "english": false,
+        "italian": false
+      }
+    },
+    {
+      "language": "german",
+      "excess": {
+        "latin": 2.492643833883345,
+        "old_french": 1.5486274923529981,
+        "german": 0.2724084290682156,
+        "english": 2.1111570049593613,
+        "italian": 1.8913936583970106
+      },
+      "raw_bits": {
+        "latin": 4.954622579918383,
+        "old_french": 4.132234815859781,
+        "german": 2.979188769303906,
+        "english": 4.9030336633797456,
+        "italian": 4.6569284689930175
+      },
+      "oracle_excess": {
+        "latin": 5.218908537904031,
+        "old_french": 3.2121263653438836,
+        "german": -0.07234576303532236,
+        "english": 2.4800561048196856,
+        "italian": 3.3424134698142094
+      },
+      "predicted": "german",
+      "raw_predicted": "german",
+      "oracle_predicted": "german",
+      "true_rank": 1,
+      "margin": 1.2762190632847825,
+      "cap_hits": {
+        "latin": false,
+        "old_french": false,
+        "german": false,
+        "english": false,
+        "italian": false
+      }
+    },
+    {
+      "language": "english",
+      "excess": {
+        "latin": 2.542901117955371,
+        "old_french": 1.5652032097252704,
+        "german": 1.9482790132996035,
+        "english": 0.23331882238745294,
+        "italian": 1.9279159785225435
+      },
+      "raw_bits": {
+        "latin": 5.004879863990409,
+        "old_french": 4.148810533232053,
+        "german": 4.655059353535294,
+        "english": 3.025195480807837,
+        "italian": 4.69345078911855
+      },
+      "oracle_excess": {
+        "latin": 5.340864250472844,
+        "old_french": 3.6381947802188224,
+        "german": 2.2101697941608913,
+        "english": -0.11060801072245097,
+        "italian": 3.6079396443445617
+      },
+      "predicted": "english",
+      "raw_predicted": "english",
+      "oracle_predicted": "english",
+      "true_rank": 1,
+      "margin": 1.3318843873378174,
+      "cap_hits": {
+        "latin": false,
+        "old_french": false,
+        "german": false,
+        "english": false,
+        "italian": false
+      }
+    },
+    {
+      "language": "italian",
+      "excess": {
+        "latin": 2.075845670922575,
+        "old_french": 1.229589391717619,
+        "german": 1.6029820417941334,
+        "english": 1.7311163003589387,
+        "italian": 0.4781278045477877
+      },
+      "raw_bits": {
+        "latin": 4.537824416957613,
+        "old_french": 3.813196715224402,
+        "german": 4.309762382029824,
+        "english": 4.522992958779323,
+        "italian": 3.2436626151437946
+      },
+      "oracle_excess": {
+        "latin": 4.317971229502902,
+        "old_french": 2.5518584171630634,
+        "german": 2.4173761185529985,
+        "english": 2.4424228878342262,
+        "italian": 0.14733978946786586
+      },
+      "predicted": "italian",
+      "raw_predicted": "italian",
+      "oracle_predicted": "italian",
+      "true_rank": 1,
+      "margin": 0.7514615871698314,
+      "cap_hits": {
+        "latin": false,
+        "old_french": false,
+        "german": false,
+        "english": false,
+        "italian": false
+      }
+    }
+  ],
+  "correct": 5,
+  "raw_correct": 5,
+  "oracle_correct": 5,
+  "success": true,
+  "median_margin_when_correct": 1.2762190632847825,
+  "held_out_bits_per_letter": {
+    "latin": 2.461978746035038,
+    "old_french": 2.583607323506783,
+    "german": 2.7067803402356905,
+    "english": 2.7918766584203842,
+    "italian": 2.765534810596007
+  },
+  "prior_letters": 606976,
+  "voynich_used": false
+}

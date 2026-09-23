@@ -54,6 +54,18 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: language-ID control: the true language wins in 5 of 5 Naibbe ciphertexts.**
+The pipeline must not assume Italian for the Voynich text, so this was declared before
+encryption. Five languages (medieval Latin ITTB, Old French, German, English, Italian with
+Compagni) were each encrypted once with Naibbe. Each was decoded under five equal-budget
+order-5 priors (606,976 letters) with round four's shared stages: 25 decodes, no caps hit,
+no download. Score: bits per letter minus the prior's held-out entropy. The true language
+ranked first 5 of 5, with a median margin of 1.28 bits per letter (range 0.75 Italian to 1.33).
+The true-prior decode sits 0.23–0.48 bits above natural text; wrong priors sit 1.2–2.5 above.
+This licenses comparing candidate languages this way for Naibbe-class text. It does not
+establish that Voynich is Naibbe-class or which language it is. A Voynich run remains gated.
+[Report](experiments/language-id/REPORT.md).
+
 **2026-09-23: round five, v3 segmenter in Naibbe recovery: WER 45.8% to 41.5%.**
 Declared and frozen before any passage existed. Eight sealed ciphertext-only cases: four
 fresh Dante and four unused Compagni passages, each with a new key and Naibbe seed. The
