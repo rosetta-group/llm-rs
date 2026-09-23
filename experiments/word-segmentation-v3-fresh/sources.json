@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "url": "https://it.wikisource.org/wiki/Cronica_delle_cose_occorrenti_ne%27_tempi_suoi/Cronaca_di_Dino_Compagni/Libro_I",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-I.html",
+      "sha256": "b8b417fbf27786d14dcc1fe9386f449eab434f23660cab3ead1f8905a9780503",
+      "revision": 3798126,
+      "author": "Dino Compagni",
+      "work": "Cronica, Libro I",
+      "date": "c. 1310-1312",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA. Page revision does not pin transcluded Pagina pages; the archived HTML hash does."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Cronica_delle_cose_occorrenti_ne%27_tempi_suoi/Cronaca_di_Dino_Compagni/Libro_II",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-II.html",
+      "sha256": "5b3266e1d491f522b870d80c951f364191ee6c8dd0be515517763005f86fc999",
+      "revision": 3681106,
+      "author": "Dino Compagni",
+      "work": "Cronica, Libro II",
+      "date": "c. 1310-1312",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA. Page revision does not pin transcluded Pagina pages; the archived HTML hash does."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Cronica_delle_cose_occorrenti_ne%27_tempi_suoi/Cronaca_di_Dino_Compagni/Libro_III",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-III.html",
+      "sha256": "c00650d417153c8bc0b47e967f40a864bbcd5bbcba496c2170b444f2a5f1fc33",
+      "revision": 3798127,
+      "author": "Dino Compagni",
+      "work": "Cronica, Libro III",
+      "date": "c. 1310-1312",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA. Page revision does not pin transcluded Pagina pages; the archived HTML hash does."
+    },
+    {
+      "url": "https://api.github.com/repos/UniversalDependencies/UD_Italian-ParTUT/commits/master",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/partut-commit.json",
+      "sha256": "be6cf567ed201b4da665e7b401aa9d0e0c88b7e31aab3948847424d947f373fa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ParTUT/6ae975aeb16378d9aaf102ecccaf1a083e636b44/it_partut-ud-test.conllu",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/it_partut-ud-test.conllu",
+      "sha256": "6a3f3437fd3ab383ba37122ec84cc1bd53662512f5ff1e80ed306c6b668eb6a2",
+      "revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+      "repository": "UD_Italian-ParTUT",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ParTUT/6ae975aeb16378d9aaf102ecccaf1a083e636b44/it_partut-ud-dev.conllu",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/it_partut-ud-dev.conllu",
+      "sha256": "c6542e547447df403e54f314a61ec9f4a5e1e0d770dbcbdedb5ea8edcb6758fc",
+      "revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+      "repository": "UD_Italian-ParTUT",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ParTUT/6ae975aeb16378d9aaf102ecccaf1a083e636b44/README.md",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/README.md",
+      "sha256": "e70520330daa1156af84fc3895eec783bb9a5649d4478f9e51b193eb8b022f8c",
+      "revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+      "repository": "UD_Italian-ParTUT",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ParTUT/6ae975aeb16378d9aaf102ecccaf1a083e636b44/LICENSE.txt",
+      "path": "artifacts/word-segmentation-v3-fresh/sources/LICENSE.txt",
+      "sha256": "a4a4d0684313d94493e6e0ff0c33e58a1fc4b5a07900b09a009e8a1fa9cf061c",
+      "revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+      "repository": "UD_Italian-ParTUT",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "author_attribution": "Dino Compagni; Wikisource contributors. ParTUT: Manuela Sanguinetti, Cristina Bosco and UD contributors."
+}

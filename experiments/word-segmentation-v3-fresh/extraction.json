@@ -1,0 +1,17 @@
+{
+  "historical_paragraphs": 362,
+  "historical_letters": 163388,
+  "rubrics_removed": 0,
+  "rubric_samples": [],
+  "paragraph_words_min": 19,
+  "paragraph_words_median": 79,
+  "first_paragraph": "quando io incominciai proposi di scrivere il vero delle cose certe che io vidi e udii pero che furono cose notevoli le quali ne loro principi nullo le vide certamente come io e quelle che chiaramente ",
+  "last_paragraph": " falsi guadagni voi siete quelli che nel mondo avete messo ogni malo uso ora vi si ricomincia il mondo a rivolgere addosso lo imperadore con le sue forze vi fara prendere e rubare per mare e per terra",
+  "modern_sentences": 309,
+  "modern_letters": 29117,
+  "partut_splits": [
+    "test",
+    "dev"
+  ],
+  "note": "Recorded before passage construction; no decoder output read."
+}

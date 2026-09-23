@@ -58,6 +58,14 @@ class WordSegmentationV3Tests(unittest.TestCase):
         a, b = dict(order=5, elision=False), dict(order=3, elision=True)
         self.assertEqual(choose([base, row(a, .10, .20, .07), row(b, .10, .20, .07)]), b)
 
+    def test_compagni_extractor_drops_notes_titles_and_page_numbers(self):
+        from experiments.word_segmentation_v3_fresh import extract_compagni
+        html = ('<div id="box_esterno"><p><span class="ws-noexport">[p. 28 modifica]</span></p>'
+                '<p>COMINCIA IL PRIMO LIBRO</p><p>IV\nCome si parti il mondo</p>'
+                f'<p>{BODY}<sup>1</sup> <span class="errata" title="gleli">glieli</span></p></div>')
+        rows, rubrics = extract_compagni(html, 'I')
+        self.assertEqual([r['text'] for r in rows], [BODY + ' glieli']); self.assertEqual(len(rubrics), 1)
+
 
 if __name__ == '__main__':
     unittest.main()
