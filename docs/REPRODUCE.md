@@ -130,6 +130,36 @@ text, deterministic ciphertext, scores, word predictions and the rejection decis
 without rerunning cipher search. The [audit report](../experiments/segmentation-audit/REPORT.md)
 explains how to rerun into a new directory. This is development data, not a fresh test.
 
+## Training-only verse word model
+
+The completed eight-passage test is released. Do not prepare another challenge from
+the same source IDs or alter the frozen files to improve the recorded results.
+With the prior baseline and training sources restored:
+
+```sh
+.venv/bin/python -m experiments.word_segmentation_records restore
+.venv/bin/python -m experiments.word_segmentation_records verify
+.venv/bin/python -m experiments.report_word_segmentation
+```
+
+The verifier checks archive/source hashes and the pre-evaluation commit, reconstructs
+the exact passage selection, and regrades development and fresh saved predictions.
+It does not run a new cipher test. Figures use the pinned matplotlib stack in
+`experiments/audit_report_requirements.txt`. The historical source retains chapter
+rubrics; see [the report](../experiments/word-segmentation-v2/REPORT.md) for the deviation.
+The original model-selection and fresh pipeline commands were:
+
+```text
+word_segmentation_v2 develop
+word_segmentation_v2 freeze
+Commit the method before downloading fresh sources
+word_segmentation_fresh prepare
+word_segmentation_fresh solve
+word_segmentation_fresh evaluate
+```
+
+These are historical stages, not commands to overwrite the released experiment.
+
 ## Object-and-relation pilot
 
 ```sh
@@ -147,7 +177,9 @@ as annotations or send the development gallery as a blind review packet.
 
 Pinned public texts and code, with revisions, hashes and licences, are listed in
 `experiments/sources.json`, `language-sources.json`, `decipherment-sources.json`,
-`segmentation-sources.json`, `standard-decipherment/sources.json` and `verse-prior/sources.json`.
+`segmentation-sources.json`, `standard-decipherment/sources.json`, `verse-prior/sources.json`
+and `word-segmentation-v2/sources.json`.
 Naibbe code and data: Michael A. Greshko (2025), *The Naibbe cipher*, Cryptologia,
 modified MIT licence. Wikisource transcriptions: CC BY-SA. Universal Dependencies
-treebanks: see each manifest. Yale scans: see `data/folios/sources/yale-manifest.json`.
+treebanks: see each manifest; newly archived VIT is **CC BY-NC-SA 3.0**, with its
+README and licence in the archive. Yale scans: see `data/folios/sources/yale-manifest.json`.

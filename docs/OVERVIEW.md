@@ -96,6 +96,14 @@ only a 0.29-point mean character-error improvement, below its declared requireme
 it was rejected without using fresh test passages. These are development diagnostics,
 not additional sealed evaluations.
 
+The next [word-only experiment](../experiments/word-segmentation-v2/REPORT.md) added
+Petrarca training words to the segmenter. Held-out Petrarca word error fell from
+28.5% to 14.0%, but fresh Villani error only fell from 28.4% to 27.3%. That misses
+the predeclared transfer threshold; the candidate was not promoted. Modern VIT
+error fell from 8.5% to 8.4%. The Villani source audit found retained chapter
+rubrics (2.24% of words), so the historical result also carries an extraction caveat.
+The test exposes a word-boundary problem even when every letter is already correct.
+
 Current standing on four sealed 5,200-letter Dante passages (round four):
 
 | Text | Character error | Word error | Round three |

@@ -34,6 +34,13 @@ from word boundaries: perfect letters still give 15.3% word error on historical 
 and 28.5% on Petrarca development verse. A fixed-key reparse improved mean character
 error by only 0.29 points and was rejected before consuming fresh passages.
 
+A [training-only verse word model](experiments/word-segmentation-v2/REPORT.md) then
+cut Petrarca development word error to **14.0%**. On fresh Villani passages it only
+improved **28.4% to 27.3%**; modern VIT improved **8.5% to 8.4%**. The declared
+3-point historical transfer threshold failed, so the old decoder stays the baseline.
+Villani's chapter rubrics survived extraction (2.24% of reference words); this
+deviation is archived, and the test was not silently replaced or selectively regraded.
+
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 
@@ -74,6 +81,6 @@ the git-ignored `artifacts/` folder and are restored from pinned archives; see
 
 Naibbe cipher code and data: Michael A. Greshko (2025), *The Naibbe cipher: a substitution
 cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext*, Cryptologia,
-modified MIT licence. Italian texts: Universal Dependencies treebanks and Wikisource
-transcriptions (CC BY-SA); manifests with revisions, hashes and licences accompany each
+modified MIT licence. Italian texts: Universal Dependencies treebanks (VIT is CC BY-NC-SA
+3.0) and Wikisource transcriptions (CC BY-SA); manifests with revisions, hashes and licences accompany each
 experiment. Manuscript scans: Yale Beinecke Library; see `data/folios/sources/`.

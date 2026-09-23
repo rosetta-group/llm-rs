@@ -1,0 +1,41 @@
+{
+  "post_grading": true,
+  "headings_included": true,
+  "extracted_paragraphs": 73,
+  "heading_paragraphs": 36,
+  "cases": [
+    {
+      "id": "96a04c911d31256dced97237",
+      "heading_source_ids": [
+        "villani-book1-p0011:part0",
+        "villani-book1-p0013:part0"
+      ],
+      "heading_words": 29
+    },
+    {
+      "id": "edcb01044cf3d6d70fe0d871",
+      "heading_source_ids": [
+        "villani-book1-p0037:part0"
+      ],
+      "heading_words": 13
+    },
+    {
+      "id": "d623b480e3bbc53f710c8bd6",
+      "heading_source_ids": [
+        "villani-book1-p0039:part0",
+        "villani-book1-p0041:part0"
+      ],
+      "heading_words": 25
+    },
+    {
+      "id": "2705b4a4b27082ec648e6944",
+      "heading_source_ids": [
+        "villani-book1-p0044:part0",
+        "villani-book1-p0046:part0"
+      ],
+      "heading_words": 40
+    }
+  ],
+  "evaluated_heading_words": 107,
+  "note": "Protocol deviation: ordinary-p chapter rubrics survived. No corrected challenge or selective regrade."
+}

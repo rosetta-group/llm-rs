@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "92be62add03d8e977a7142da65b6cd25b90c2a3de96b36ecfcb2dab0f75e2a01",
+  "files": {
+    "artifacts/word-segmentation-v2/sources/LICENSE.txt": "9b1d1d2f7af8ee97a958ec473fe5da1d4da5056e4bd5bb6e5d49fba7fe554cc9",
+    "artifacts/word-segmentation-v2/sources/README.md": "69e02d088dcbdd46d1744b106c5610fe22a40b7f77207af73a4596b423afab47",
+    "artifacts/word-segmentation-v2/sources/it_vit-ud-test.conllu": "1569c1c28727e1f99d8246c57b0ffa61ae0442747599051bfbd0e63d7081503f",
+    "artifacts/word-segmentation-v2/sources/villani-book1.html": "ebbc535b37555693479bea4716c528293d3a4ac378a6e539e9d6d90cbf1cce73",
+    "artifacts/word-segmentation-v2/sources/vit-commit.json": "377a7f2438565abf67b1779198c53eb6638fab09d75c43b3be0d48ac47b3211e",
+    "artifacts/word-segmentation-v2/public.json": "14eaa0d521ed8786cb8b2024d4ac558665acab6ee9b3ea3926a7154b91bea0bd",
+    "artifacts/word-segmentation-v2/evaluator-only/answers.json": "dc2b659efd83f26304e8f0b374f3f3da94bb148e282d3615ba434a4eea619cdd",
+    "artifacts/word-segmentation-v2/challenge.json": "e3cc70878373f55c675b17d30bdce8ad26a3d4d960899ce3ff9bc400f30b1830",
+    "artifacts/word-segmentation-v2/predictions.json": "6085d5d304cebaa863e44ab2d94112c4dea341ac475c75785bdcf21bdd6f2d0d"
+  },
+  "attribution": "See sources.json and the archived VIT README.md and LICENSE.txt."
+}

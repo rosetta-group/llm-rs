@@ -297,3 +297,21 @@ missing development words directly to a lexicon. Any selected decoder must then 
 compared with the baseline on identical new passages and keys, including a new
 historical author and a newly pinned modern corpus. The recovery gate and the
 closed Voynich mechanism test remain unchanged.
+
+### 2026-09-23: training-only verse word comparison completed
+
+The [word-model comparison](experiments/word-segmentation-v2/REPORT.md) implements
+the preceding next step for perfect-letter segmentation. Three weights were tried;
+weight 1 won development selection and was committed before fresh source preparation.
+Petrarca development WER fell from 28.49% to 14.04%, but fresh Villani only improved
+28.37% to 27.35%, below the declared 3-point transfer threshold. VIT modern WER was
+8.49% to 8.38%. The candidate is not promoted to cipher recovery; no paired cipher
+evaluation was earned. The historical source also retained chapter rubrics (107
+words), a documented deviation from prose-only extraction. Frozen outputs are kept.
+
+Next bounded work: test paragraph-encoded rubric removal in a new extractor version,
+then diagnose missing forms versus incorrect splits on existing development text.
+Declare and freeze any later candidate before new grading; exclude the released
+Villani/VIT source IDs. No further weight sweep, paid model, Naibbe test or Voynich
+mechanism run follows from this result. The image track still needs independent
+text-masked human annotations.

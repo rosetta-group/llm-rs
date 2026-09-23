@@ -54,6 +54,30 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: verse word model passes development, fails fresh transfer threshold.**
+Added only designated Petrarca training poems to the frozen prose segmenter's word
+counts, transitions and vocabulary. Tried weights 1, 4 and 16, with unchanged scoring
+and search. Weight 1 won the declared development selection: historical prose WER
+15.27% to 14.92%, Petrarca 28.49% to 14.04%, modern ISDT unchanged at 6.89%.
+Committed the method, extraction and grading code in `5c86127` before fetching a new
+historical author and modern corpus. Both methods then segmented identical perfect
+letters from four Villani Book I passages and four UD Italian VIT test passages.
+Predictions were saved before reference spaces were opened. Pooled Villani WER was
+28.37% to 27.35%; modern 8.49% to 8.38%. The 1.02-point historical gain misses the
+declared 3-point transfer threshold. No Villani passage meets the 10% word gate;
+two of four modern passages do. Candidate not promoted; round four stays the baseline.
+Post-grading audit found chapter rubrics encoded as ordinary paragraphs: seven
+included rubrics contribute 107/4,783 historical words (2.24%). This deviates from
+the planned prose-only extraction; treat the historical evaluation as a paired
+diagnostic with that caveat, not a clean confirmatory prose test. Frozen outputs
+are preserved; no favourable subset or corrected challenge was substituted. The
+size-based packer also skipped 30 short historical residual paragraphs, with IDs
+recorded. Raw sources, licences, full graded records and graphs are committed;
+VIT is CC BY-NC-SA 3.0. All 120 tests passed. CPU only, no paid compute, no Voynich
+text or new Naibbe case. Next: fix rubric extraction in a new version and diagnose
+missing forms versus incorrect splitting on existing development data before
+another frozen candidate. [Report](experiments/word-segmentation-v2/REPORT.md).
+
 **2026-09-23: segmentation audit separates two bottlenecks; fixed-key reparse rejected.**
 On the three existing 5,200-letter development streams, the frozen word segmenter,
 given perfect letters, has WER **15.3% historical prose, 6.9% modern, 28.5% Petrarca**.

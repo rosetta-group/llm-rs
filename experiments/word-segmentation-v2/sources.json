@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "url": "https://it.wikisource.org/wiki/Nuova_Cronica/Libro_primo",
+      "path": "artifacts/word-segmentation-v2/sources/villani-book1.html",
+      "sha256": "ebbc535b37555693479bea4716c528293d3a4ac378a6e539e9d6d90cbf1cce73",
+      "revision": 3734101,
+      "permanent_url": "https://it.wikisource.org/w/index.php?oldid=3734101",
+      "author": "Giovanni Villani",
+      "work": "Nuova Cronica, Libro primo",
+      "date": "14th century",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA. Retain source/history attribution."
+    },
+    {
+      "url": "https://api.github.com/repos/UniversalDependencies/UD_Italian-VIT/commits/master",
+      "path": "artifacts/word-segmentation-v2/sources/vit-commit.json",
+      "sha256": "377a7f2438565abf67b1779198c53eb6638fab09d75c43b3be0d48ac47b3211e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-VIT/12fc5f682a677e87dac1923903ae954d8441f7b7/it_vit-ud-test.conllu",
+      "path": "artifacts/word-segmentation-v2/sources/it_vit-ud-test.conllu",
+      "sha256": "1569c1c28727e1f99d8246c57b0ffa61ae0442747599051bfbd0e63d7081503f",
+      "revision": "12fc5f682a677e87dac1923903ae954d8441f7b7",
+      "repository": "UD_Italian-VIT",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-VIT/12fc5f682a677e87dac1923903ae954d8441f7b7/README.md",
+      "path": "artifacts/word-segmentation-v2/sources/README.md",
+      "sha256": "69e02d088dcbdd46d1744b106c5610fe22a40b7f77207af73a4596b423afab47",
+      "revision": "12fc5f682a677e87dac1923903ae954d8441f7b7",
+      "repository": "UD_Italian-VIT",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-VIT/12fc5f682a677e87dac1923903ae954d8441f7b7/LICENSE.txt",
+      "path": "artifacts/word-segmentation-v2/sources/LICENSE.txt",
+      "sha256": "9b1d1d2f7af8ee97a958ec473fe5da1d4da5056e4bd5bb6e5d49fba7fe554cc9",
+      "revision": "12fc5f682a677e87dac1923903ae954d8441f7b7",
+      "repository": "UD_Italian-VIT",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "historical_paragraphs": 73,
+  "modern_sentences": 1067,
+  "historical_extraction": "Book I paragraphs in page order, headings/nav/notes dropped; edited transcription, not diplomatic.",
+  "author_attribution": "Giovanni Villani; Wikisource contributors. VIT: Fabio Tamburini, Maria Simi, Cristina Bosco and UD contributors."
+}
