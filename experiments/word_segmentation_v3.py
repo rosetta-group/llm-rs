@@ -1,21 +1,34 @@
-"""Word-segmentation v3 groundwork: rubric-free extraction and a boundary-error diagnosis.
+"""Word-segmentation v3: rubric-free extraction, boundary diagnosis, unknown-word model.
 
-Development diagnosis only. Reads the saved v2 predictions; no segmenter setting is
-chosen here and no fresh text is prepared. Released Villani/VIT records are described
-separately and must never drive a later selection. CPU only.
+`check` and `diagnose` read saved v2 records only. `develop` scores the four declared
+candidates of PROTOCOL.md on development streams; `freeze` records the selection before
+any fresh source is named. Released Villani/VIT records never drive a selection. CPU only.
 """
 import argparse
 from collections import Counter
+import hashlib
+import json
 import re
+import subprocess
+import time
 
 from bs4 import BeautifulSoup
 from experiments.word_segmentation_v2 import ROOT, STATE, BASE, read, write, grade
 from experiments.word_segmentation_fresh import extract_book
+from voynich.data import digest
+from voynich.decipher import normalize
 from voynich.segmentation import Segmenter, boundaries
+from voynich.unknown_words import Spelling, SpellingSegmenter, unknown_rate
 
 V2 = ROOT / 'experiments/word-segmentation-v2'
 OUT = ROOT / 'experiments/word-segmentation-v3'
 ROMAN = re.compile(r'^[IVXLCDM]+$')
+CANDIDATES = [dict(order=3, elision=False), dict(order=3, elision=True),
+              dict(order=5, elision=False), dict(order=5, elision=True)]
+CODE = ['voynich/unknown_words.py', 'voynich/segmentation.py', 'voynich/decipher.py', 'voynich/corpora.py',
+        'voynich/data.py', 'experiments/word_segmentation_v3.py', 'experiments/word_segmentation_v2.py',
+        'experiments/word_segmentation_fresh.py', 'experiments/segmentation_audit.py',
+        'experiments/segmentation.py', 'experiments/historical_sources.py']
 
 
 def is_rubric(text):
@@ -135,10 +148,109 @@ def diagnose():
     return result
 
 
+def morphit_forms():
+    lex = read(ROOT / 'experiments/segmentation-sources.json')['lexicon']
+    if digest(ROOT / lex['path']) != lex['sha256']: raise ValueError('Lexicon drift')
+    forms = {normalize(line.split('\t')[0]) for line in (ROOT / lex['path']).read_text(encoding='latin-1').splitlines()}
+    return {w for w in forms if w and ' ' not in w}
+
+
+def training_tokens():
+    """Unweighted ISDT train and historical prose train, as used to fit the base model."""
+    from experiments.historical_sources import verify as historical
+    from experiments.segmentation import corpus
+    train, _ = corpus('UD_Italian-ISDT', 'train')
+    texts = [normalize(' '.join(r['words'])) for r in train]
+    texts += [normalize(' '.join(r['paragraphs'])) for r in historical() if r['split'] == 'train']
+    return [w for t in texts for w in t.split()]
+
+
+def components(model):
+    """Everything fitted from training data only: the unknown rate and one spelling model per order."""
+    rate = unknown_rate(training_tokens(), morphit_forms())
+    spellings = {order: Spelling(model['lexicon'], order) for order in sorted({c['order'] for c in CANDIDATES})}
+    return rate, spellings
+
+
+def choose(rows):
+    """v2 selection rule: >=3-point historical mean gain, no stream worse by >1 point."""
+    base = rows[0]['grades']
+    def historical(row): return sum(row['grades'][s]['wer'] for s in ('historical', 'verse')) / 2
+    eligible = [r for r in rows[1:] if historical(rows[0]) - historical(r) >= .03
+                and all(r['grades'][s]['wer'] - base[s]['wer'] <= .01 for s in ('historical', 'verse', 'modern'))]
+    if not eligible: return None
+    best = min(eligible, key=lambda r: (historical(r), r['grades']['modern']['wer'], r['candidate']['order'], r['candidate']['elision']))
+    return best['candidate']
+
+
+def develop():
+    if (OUT / 'development.json').exists(): raise FileExistsError('Development recorded')
+    model = read(BASE); lexicon = set(model['lexicon'])
+    v2 = read(V2 / 'development.json'); parameters = v2['parameters']
+    baseline = read(V2 / 'dev-weight-0.json'); refs = v2['references']
+    rate, spellings = components(model)
+    rows = [dict(candidate=None, predictions=baseline['predictions'],
+                 grades={s: grade(baseline['predictions'][s], r) for s, r in refs.items()})]
+    for candidate in CANDIDATES:
+        segmenter = SpellingSegmenter(model, spellings[candidate['order']], rate, candidate['elision'], **parameters)
+        began = time.perf_counter()
+        predictions = {s: segmenter.segment(r.replace(' ', '')) for s, r in refs.items()}
+        rows.append(dict(candidate=candidate, predictions=predictions, seconds=time.perf_counter() - began,
+                         grades={s: grade(predictions[s], r) for s, r in refs.items()}))
+        print(json.dumps(dict(candidate=candidate, wer={s: round(g['wer'], 4) for s, g in rows[-1]['grades'].items()})), flush=True)
+    for row in rows:
+        row['diagnosis'] = {s: {k: v for k, v in classify(row['predictions'][s], r, lexicon).items()
+                                if k not in ('top_splits', 'top_merges')} for s, r in refs.items()}
+    write(OUT / 'development.json', dict(selected=choose(rows), rows=rows, references=refs, parameters=parameters,
+          unknown_rate=rate, spelling_sha256={str(o): m.digest() for o, m in spellings.items()},
+          base_sha256=digest(BASE), protocol_sha256=digest(OUT / 'PROTOCOL.md'),
+          protocol_commit=subprocess.check_output(['git', 'log', '-1', '--format=%H', '--', 'experiments/word-segmentation-v3/PROTOCOL.md'], cwd=ROOT, text=True).strip(),
+          code_sha256={p: digest(ROOT / p) for p in CODE}, development_only=True, voynich_used=False, fresh_text_used=False))
+    print('Selected:', read(OUT / 'development.json')['selected'], flush=True)
+
+
+def freeze():
+    if (OUT / 'freeze.json').exists(): raise FileExistsError('Already frozen')
+    dev = read(OUT / 'development.json')
+    if dev['selected'] is None: raise ValueError('No selected candidate')
+    for p, h in dev['code_sha256'].items():
+        if digest(ROOT / p) != h: raise ValueError('Development code drift: ' + p)
+    if digest(OUT / 'PROTOCOL.md') != dev['protocol_sha256']: raise ValueError('Protocol drift')
+    paths = CODE + ['experiments/word-segmentation-v3/PROTOCOL.md', 'experiments/word-segmentation-v3/development.json',
+                    'experiments/segmentation-sources.json', 'experiments/standard-decipherment/development.json']
+    write(OUT / 'freeze.json', dict(files={p: digest(ROOT / p) for p in paths}, baseline_sha256=digest(BASE),
+          parameters=dev['parameters'], selected=dev['selected'], unknown_rate=dev['unknown_rate'],
+          spelling_sha256=dev['spelling_sha256'][str(dev['selected']['order'])], version=1))
+    print('Freeze written; commit before naming or fetching fresh sources')
+
+
+def verify():
+    """Check the committed freeze and refit the training-only components bit for bit."""
+    f = read(OUT / 'freeze.json')
+    for p, h in list(f['files'].items()) + [('experiments/word-segmentation-v3/freeze.json', digest(OUT / 'freeze.json'))]:
+        if digest(ROOT / p) != h: raise ValueError('Frozen file drift: ' + p)
+        if hashlib.sha256(subprocess.check_output(['git', 'show', 'HEAD:' + p], cwd=ROOT)).hexdigest() != h:
+            raise ValueError('Freeze input not committed: ' + p)
+    if digest(BASE) != f['baseline_sha256']: raise ValueError('Baseline drift')
+    model = read(BASE)
+    if unknown_rate(training_tokens(), morphit_forms()) != f['unknown_rate']: raise ValueError('Unknown rate drift')
+    if Spelling(model['lexicon'], f['selected']['order']).digest() != f['spelling_sha256']: raise ValueError('Spelling drift')
+    dev = read(OUT / 'development.json')
+    if choose(dev['rows']) != f['selected']: raise ValueError('Selection drift')
+    for row in dev['rows']:
+        for s, r in dev['references'].items():
+            if grade(row['predictions'][s], r) != row['grades'][s]: raise ValueError('Development grade drift')
+    return f
+
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(); parser.add_argument('command', choices=['check', 'diagnose'])
-    if parser.parse_args().command == 'check':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('command', choices=['check', 'diagnose', 'develop', 'freeze', 'verify'])
+    command = parser.parse_args().command
+    if command == 'check':
         write(OUT / 'extraction-check.json', extraction_check())
         print(read(OUT / 'extraction-check.json'))
+    elif command == 'verify':
+        print(verify())
     else:
-        diagnose()
+        globals()[command]()
