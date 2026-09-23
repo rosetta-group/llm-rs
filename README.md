@@ -4,7 +4,7 @@ Controlled experiments on whether computational methods can recover meaning from
 Voynich manuscript. The repository contains no translation. It contains a prediction track
 (closed), corpus statistics, three image studies (parked), an active cipher-recovery
 track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
-until grading, and a Linear A track (closed) that applied the same methods to a second
+until grading, and a Linear A track (audited; tested methods retired) that applied the same methods to a second
 undeciphered script.
 
 **Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
@@ -70,7 +70,13 @@ problem: sign sounds are roughly known, the language is not. Five rounds tested 
 matching, tablet position, name lists, seven targeted probes and grammar profiles. Every
 method was checked first on Linear B, which is Greek. The three lexical rounds found Greek in at
 most 10% of Linear B samples against a 90% gate. No round-four probe reached p < 0.007. Round
-five's Hittite profile match also appears for shuffled syllables, so it is an artefact. The track is closed. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
+five's Hittite profile match also appears for shuffled syllables. A
+[2026-09-24 audit](experiments/linear-a-audit/REPORT.md) repaired duplicate-sensitive profiles
+and unreachable Monte Carlo thresholds. The exploratory `-re`/`-ru` → `-ro` pattern now has
+p = 0.0001, but its discovery-selected held-out test still fails (p = 0.1653). Repaired profiles
+still classify shuffled Linear B as Greek. One [sign-only ending model](experiments/linear-a-structure-v2/REPORT.md)
+passes only 4/20 known-answer controls, so Linear A is not scored. These methods are retired;
+this does not prove the corpus has no further usable information. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
 ranks other undeciphered scripts; the next candidate is Rongorongo.
 
 ## Documentation
@@ -79,7 +85,7 @@ ranks other undeciphered scripts; the next candidate is Rongorongo.
 |---|---|
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
-| [docs/LINEAR_A.md](docs/LINEAR_A.md) | The Linear A track: five rounds, why none identified a language |
+| [docs/LINEAR_A.md](docs/LINEAR_A.md) | Linear A: five rounds, repairs and a structural test; no language identified |
 | [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
 | [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze, Linear B, entry word |

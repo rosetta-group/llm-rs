@@ -134,7 +134,7 @@ Remaining word error comes mostly from letter errors. A
 [language-ID control](../experiments/language-id/REPORT.md) encrypted five languages with
 Naibbe; the true language's prior fit best 5 of 5 times.
 
-## Track five: Linear A (closed)
+## Track five: Linear A (audited; tested methods retired)
 
 Linear A is a Bronze Age Cretan script. Most sign sounds are roughly known from Linear B; the
 language is not. So the question became: do Linear A words match some known language more than
@@ -153,7 +153,13 @@ is known.
 The sign values pass a sanity check: 2 of 14 Linear B Cretan place names occur in Linear A,
 against 0.025 by chance. The lexical tests fail because Linear B spelling drops final
 consonants, so 37% of random Linear-A-shaped words match some Greek lemma. Open name lists also
-lack Bronze Age names. No method can identify or rule out a language for Linear A at this size.
+lack Bronze Age names. These tested methods cannot identify or rule out a language for Linear A.
+The [repair audit](../experiments/linear-a-audit/REPORT.md) fixed duplicate-sensitive profiles
+and unreachable thresholds. Luwian and Palaic now pass their own profile controls, but shuffled
+Linear B still classifies as Greek 20/20. The full-set re/ru → ro pattern has exploratory
+p = 0.0001, while the discovery-selected held-out test remains negative at p = 0.1653. A
+[sign-only ending test](../experiments/linear-a-structure-v2/REPORT.md) passes only 4/20
+known-answer controls; Linear A is not scored. These failures do not prove an information limit.
 The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
 scripts, with Rongorongo next.
 

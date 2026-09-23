@@ -244,8 +244,33 @@ refuse to overwrite results, so move the committed files aside first:
 .venv/bin/python -m experiments.linear_a_tlhdig      # results.json
 ```
 
-Round five's post-hoc checks were run interactively; their numbers are in its report only.
-No round ran the `linear-a` stage, because no Linear B control passed the gate.
+Round five's original post-hoc checks were interactive. The repair audit now provides scripted
+versions with fixed seeds; only the historical real-data calls reuse the original seeds. Exact
+agreement with the old interactive shuffle numbers is not expected. Rounds one to three did not
+run their `linear-a` stage; rounds four/five did perform the diagnostic tests in their reports.
+
+Repair audit and structural test (branch `codex/linear-a-audit`):
+
+```sh
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py' -v
+.venv/bin/python -m experiments.linear_a_audit verify
+.venv/bin/python -m experiments.linear_a_structure_v2 verify
+```
+
+Outputs refuse overwrite. For an exact rerun, create a worktree at protocol commit `0fd5f74`
+(audit) or `6504470` (structural v2), attach the pinned sources under `artifacts/`, then run:
+
+```sh
+.venv/bin/python -m experiments.linear_a_audit profiles
+.venv/bin/python -m experiments.linear_a_audit rules
+.venv/bin/python -m experiments.linear_a_audit trade
+.venv/bin/python -m experiments.linear_a_structure_v2 run
+```
+
+The audit hashes the actual TLHdig `forms.json` cache and all 5,932 DĀMOS files, in addition to
+the Linear A corpus and Greek lexicon. Original source licences and download URLs remain in
+the historical manifests. The initial structural driver at `fd3f6b2` aborted before reporting
+scores; v2 adds its missing NumPy import and preserves the original frozen file.
 
 ## Sources and licences
 

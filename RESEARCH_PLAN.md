@@ -5,12 +5,17 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-23
+Updated: 2026-09-24
 
-**Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
+**Linear A audited; tested methods retired (2026-09-24).** Five rounds on branch `linear-a` tested whether these
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
 control samples against a 90% gate; round five's Hittite profile match also holds for shuffled
-syllables. No language was identified or ruled out. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
+syllables. The repair audit on `codex/linear-a-audit` fixes duplicate-sensitive profiles and
+unreachable thresholds: the exploratory re/ru → ro correspondence has p = 0.0001, but its
+discovery-selected held-out result remains negative (p = 0.1653). Profiles still fail the
+shuffle control. One sign-only entry-ending model passes 4/20 known-answer samples versus 18
+required, so Linear A is not scored. No language was identified or ruled out, and no general
+information limit was established. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
 
 **Next candidate: Rongorongo.** Its language (Old Rapa Nui) is known and its corpus (about
 15,000 glyphs) is above the Naibbe recovery threshold, so a known-answer control can be built.
@@ -238,7 +243,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Joint segmentation + EM | Four fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; round four 5.7% Dante with lexicon repair; gate not met; oracle ceiling 0.5%; `experiments/joint-recovery-v4/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
-| Linear A track | Closed 2026-09-23: five rounds; Linear B used as the known-answer control; no language identified; `docs/LINEAR_A.md` |
+| Linear A track | Audited 2026-09-24: profile/threshold repairs and one structural test; tested methods retired, correspondence remains exploratory; no language identified; `docs/LINEAR_A.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

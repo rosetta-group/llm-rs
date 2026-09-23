@@ -1,8 +1,11 @@
-# Linear A: what five rounds found
+# Linear A: five rounds, a repair audit, and one structural test
 
 This page summarises the Linear A track (branch `linear-a`, 2026-09-23). It does not contain a
 translation. It records whether word-matching methods can tell which language Linear A is, and
-why they cannot at present. The track is closed. Round records: [one](../experiments/linear-a/REPORT.md),
+why the tested methods cannot at present. A [repair audit](../experiments/linear-a-audit/REPORT.md)
+and [structural test](../experiments/linear-a-structure-v2/REPORT.md) followed on 2026-09-24.
+These methods are retired; the evidence does not establish a limit on all possible methods.
+Historical round records: [one](../experiments/linear-a/REPORT.md),
 [two](../experiments/linear-a-context/REPORT.md), [three](../experiments/linear-a-names/REPORT.md),
 [four](../experiments/linear-a-probes/REPORT.md), [five](../experiments/linear-a-tlhdig/REPORT.md).
 Rounds one to three were frozen by a `freeze.json`; rounds four and five committed their protocol
@@ -19,7 +22,7 @@ The corpus is small and administrative: 1,884 records, 696 readable word types o
 signs, and 330 of those in *entry* position (a number follows, as for a person or place on a
 list). Every method had to pass first on Linear B, which is Greek, cut to Linear A's size.
 
-## What the data does support
+## What the original data checks support
 
 | Check | Result | Chance |
 |---|---:|---:|
@@ -30,7 +33,7 @@ list). Every method had to pass first on Linear B, which is Greek, cut to Linear
 The assumed sign values reproduce known place names, and about 20 Linear A words survive into
 the Linear B archives beyond chance. These support the values; they say nothing about grammar.
 
-## Why every language test failed
+## Why the original language tests did not identify a language
 
 | Round | Method | Greek found in Linear B control | Needed |
 |---|---|---:|---:|
@@ -58,8 +61,35 @@ came out nearest Hittite in 20 of 20 samples, but so did shuffled Linear A sylla
 comes from syllable and vowel frequencies (cuneiform, like Linear A, rarely shows *o*), not from
 words ([report](../experiments/linear-a-tlhdig/REPORT.md)).
 
-So with open lexicons and this corpus, no lexical test finds Greek where the answer is known.
-None can identify or rule out a language for Linear A. Compute is not the limit: information is.
+The tested lexical methods do not reliably find Greek where the answer is known. Their failure
+does not establish that the corpus lacks information available to other representations or methods.
+
+## Repair audit, 2026-09-24
+
+The original reports and frozen code are preserved. New implementations, protocols, source
+hashes and results are in [the audit](../experiments/linear-a-audit/REPORT.md).
+
+1. **Duplicate words were mistaken for changing endings.** The old profile gives two copies
+   of `ka-ta` 100% prefix and suffix alternation. The repaired profile deduplicates types and
+   samples references without replacement, with exact common length quotas. Luwian now recognises
+   itself 19/20 times and Palaic 20/20 (Palaic uses 164 types). Their original control failures
+   therefore did not establish an information limit.
+2. **The profile still cannot test word structure.** Both real and globally shuffled Linear B
+   classify as Greek 20/20. The corrected negative-control gate fails, so corrected Linear A
+   profiles are not scored. The old Hittite result and shuffle diagnosis are reproducible in code.
+3. **The spelling-correspondence threshold is now reachable.** With 9,999 null draws, the
+   discovery-selected rule's held-out result is p = 0.1653. The pre-named `-re`/`-ru` → `-ro`
+   pattern has 12 pairs against a null mean of 2.9244, p = 0.0001 (zero null exceedances).
+   That is stronger exploratory evidence under this null, not independent confirmation: the
+   complete set was already examined before the original protocol.
+4. **One structural question was tested.** A sign-only ending model predicts whether unseen
+   words precede numbers, compared with a bag-of-signs/length baseline. It retains unknown
+   sign identities and withholds inscriptions and complete word types. Only 4/20 Linear B
+   controls at the target size pass, against 18 required; shuffled controls pass 0/20. Linear A
+   is not scored. This retires that simple ending model, not structural approaches generally.
+
+The separate trade-word control also had an unreachable threshold (50 null draws). Its
+999-draw correction is recorded in the audit report. No repaired result identifies a language.
 
 ## Data and licences
 

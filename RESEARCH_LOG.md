@@ -54,6 +54,36 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-24: Linear A repair audit and one sign-only structural test completed.**
+Branch `codex/linear-a-audit`; protocols and source/code hashes committed before corrected
+runs. Historical code and results remain intact; rounds one to three still verify.
+- Corrected duplicate-sensitive profile features and sampled unique types with exact common
+  length quotas. Luwian self-identification improves from 7/20 to 19/20; Palaic from 0/20 at
+  189 types to 20/20 at 164 types. Other sampling/scaling corrections also changed, so this
+  is not a deduplication-only ablation. Real and shuffled Linear B both identify as Greek
+  20/20; the negative gate fails and corrected Linear A is not scored.
+- Corrected probe 6's unreachable threshold with 9,999 null draws and the original split,
+  discovery stage and random streams. The discovered re → ro rule's held-out result remains
+  negative: 2 pairs versus 0.7265 expected, p = 0.1653. The pre-named re/ru → ro pattern has
+  12 pairs versus 2.9244, zero null exceedances, p = 0.0001. That strengthens an exploratory
+  correspondence under the existing null, not independent confirmation or language identification.
+- Also repaired the trade-word control: 50 null draws could not reach p < 0.05/7. With 999
+  draws per sample, 3/20 pass versus 18 required; gate still fails.
+- Made the old profile's formerly interactive shuffle, pseudo-word, reference-size and o/u
+  diagnostics reproducible with explicit seeds. [Audit report](experiments/linear-a-audit/REPORT.md).
+- Tested one structural question: whether final sign/sign-pair features predict numeric-entry
+  position for unseen types on withheld inscriptions, above a sign-bag/length baseline. Unknown
+  sound values remain sign IDs; damaged runs are excluded. Only 4/20 size-matched Linear B
+  samples pass (required 18); shuffled controls 0/20. Mean balanced-accuracy gain is 0.53 points.
+  Linear A is not scored. [Structural report](experiments/linear-a-structure-v2/REPORT.md).
+- The first structural driver stopped on a missing NumPy import before reporting any score.
+  The import-only v2 was frozen and committed before the run; an added driver test covers it.
+  All 16 focused tests pass. No paid compute or new downloads.
+
+The audited methods are retired. The earlier “information, not compute” conclusion is narrowed:
+these tests fail, but no general information limit was established. The full-set correspondence
+remains an exploratory finding that would need independent evidence for confirmation.
+
 **2026-09-23: Linear A track closed after five rounds; no language identified.**
 Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
 method had to find Greek in Linear B (DĀMOS, 5,932 documents) at Linear A's size first

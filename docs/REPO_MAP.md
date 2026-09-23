@@ -92,6 +92,8 @@ of the fresh evaluation.
 | Scoping after round three | — | `linear-a-next/` (`BACKGROUND.md` research brief, `CORRESPONDENCES.md` exploratory, `SCOPE.md` round-five data) | — |
 | Four: seven probes | `linear_a_probes.py` | `linear-a-probes/` (`lists.json`, `results-1.json` to `results-7.json`) | no probe passed |
 | Five: TLHdig profiles | `linear_a_tlhdig.py` | `linear-a-tlhdig/` | artefact |
+| Repair audit | `linear_a_audit.py` | `linear-a-audit/` | corrected profiles/trade controls fail; full-set correspondence exploratory p = 0.0001 |
+| Sign-only entry endings | `linear_a_structure_v2.py` | `linear-a-structure-v2/` | 4/20 known-answer samples pass; gate failed; uncorrected driver archived in `linear-a-structure/` |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
@@ -122,6 +124,12 @@ enumeration; `test_polish.py` checks the lexical polish; `test_standard_decipher
 checks the beam against exhaustive search and the HMM against exhaustive paths.
 `test_linear_a.py` checks the Linear B spelling rules, the matcher and its null, `ku-ro` sums
 and tablet context labels (`.venv/bin/python -m unittest tests.test_linear_a`).
+
+`linear_a/probes_v2.py` repairs type profiles, unique sampling and Monte Carlo resolution;
+`linear_a/audit.py` enforces source/code freezes and refuses output overwrite;
+`linear_a/structure.py` preserves sign IDs and tests entry endings on unseen types.
+The audit/structural tests run with
+`.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py' -v`.
 
 ## What is not in git
 

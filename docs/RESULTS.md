@@ -77,11 +77,12 @@ Development findings that shaped the rounds (development text only):
 | Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
 
-## Linear A (branch `linear-a`; track closed; summary in [LINEAR_A.md](LINEAR_A.md))
+## Linear A (original rounds and repair audit; summary in [LINEAR_A.md](LINEAR_A.md))
 
 Each method had to find Greek in Linear B (DĀMOS Knossos) at Linear A's size before Linear A was
 run. Rounds one to three failed that control. Rounds four and five found no lead that survived
-their controls. So no Linear A language result exists.
+their controls. The 2026-09-24 audit below supersedes the original threshold and profile
+interpretations. No supported Linear A language identification exists.
 
 | Round | Method | Result (Linear B control: Greek identified) | Record |
 |---|---|---|---|
@@ -92,6 +93,10 @@ their controls. So no Linear A language result exists.
 | Three | entry words against 4 proper-name lists | 0% of 20; failed | [report](../experiments/linear-a-names/REPORT.md) |
 | Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; `-re`/`-ru` → `-ro` 12 pairs vs 3.1 (p = 0.0099, the floor of 100 null runs); Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
 | Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear B → Greek 20 of 20; Linear A → Hittite 20 of 20) but shuffled syllables give Hittite 20 of 20 too; artefact of *o*/*u* and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
+| Profile repair | unique types, common exact lengths, explicit shuffle control | Luwian self-control 19/20, Palaic 20/20 (164 types); real and shuffled Linear B both Greek 20/20, so gate fails | [audit](../experiments/linear-a-audit/REPORT.md) |
+| Correspondence repair | 9,999 null draws; same split and threshold | held-out discovered rule p = 0.1653; pre-named 12 pairs vs 2.9244, p = 0.0001, exploratory only | [audit](../experiments/linear-a-audit/REPORT.md) |
+| Trade-control repair | 999 null draws instead of an unreachable 50-draw test | 3/20 samples pass versus 18 required; gate failed | [audit](../experiments/linear-a-audit/REPORT.md) |
+| Structural test | final sign / sign-pair features predict numeric-entry position on unseen types | 4/20 size-matched Linear B samples pass; required 18; shuffled 0/20; Linear A not scored | [report](../experiments/linear-a-structure-v2/REPORT.md) |
 
 ## Operational
 
