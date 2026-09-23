@@ -1,0 +1,236 @@
+{
+ "retrieved": "2026-09-23",
+ "files": [
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/a.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/a.html",
+   "sha256": "a045731f5c4dc71e93baf1a74c3d6ec0bb2ab720c7cceda124322cc6a9534726",
+   "bytes": 13581,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/b.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/b.html",
+   "sha256": "9e6c21e81cb2647936fdc8c1248fde9268a960c4fb1f8abc76dffce3d4bfff03",
+   "bytes": 10866,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/copy.html",
+   "url": "http://kohaumotu.org/rongorongo_org/copy.html",
+   "sha256": "f1ec12b8e4cf655585b7b50a5c43a216426028f6a8c50b9240a45a892ebf22d4",
+   "bytes": 2961,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/d.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/d.html",
+   "sha256": "0173f56d66a4d5dabbfc6601c333fe57c3770b4cea364e07d979255c41033df8",
+   "bytes": 5949,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/digit.html",
+   "url": "http://kohaumotu.org/rongorongo_org/corpus/digit.html",
+   "sha256": "cbdf06b41acfbc13ab72b3199b2c1e3a3163dcb4945150b9f32b4923b86358b8",
+   "bytes": 4520,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/e.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/e.html",
+   "sha256": "dca8f020d1d7d9f22ba70a719886b384cdec3766f2019767b618287647753134",
+   "bytes": 8813,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/f.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/f.html",
+   "sha256": "9e12f69f52f8ab4b24e61f80ec9eafea431b0dadb4e66afcdc9f5d7ab323d49b",
+   "bytes": 4933,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/g.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/g.html",
+   "sha256": "8bff0680e96061ec555a510263f9af724ee77fe642323429f226d0923eeeb749",
+   "bytes": 7947,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/h.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/h.html",
+   "sha256": "bdd4d0db4eed0a9957aec2c4db6334f56ca6db4268c09e06c52ca2339c04d699",
+   "bytes": 13087,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/i.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/i.html",
+   "sha256": "55ebcefa3c5b8b8cc10180ca43e9f42b969e64e30bed01c79a73b2175a351c45",
+   "bytes": 15864,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/j.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/j.html",
+   "sha256": "a04c68c20e12bc674428bfecb9c9dbaaf6f72b794b4026c2570779bed208bb34",
+   "bytes": 4168,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/k.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/k.html",
+   "sha256": "0e1a3ca3d19636a9625f90d9e13ac50260c589d5ddd498606ab312cb8808ba2d",
+   "bytes": 5538,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/l.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/l.html",
+   "sha256": "12bc89940202cc761e1fe75d4a04654c079e2125016a3398f9c2d56305b8cf8d",
+   "bytes": 4400,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/m.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/m.html",
+   "sha256": "1ef72d569d7e8e28758ee6a1888fcaf5fa429f7b7efe0c3da8d2bfb77a726dc2",
+   "bytes": 4844,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/mamari.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/mamari.html",
+   "sha256": "fadac4783d627b2b7d8df0712c6a3ae71ea209e74ad6c02ae6588a01757b91f9",
+   "bytes": 9754,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/n.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/n.html",
+   "sha256": "7d5e6ab67c2e9b682c30a0ec76e731d97fa37f754ad4e4ff0b7885779dd3aa2c",
+   "bytes": 5692,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/o.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/o.html",
+   "sha256": "144f0c5b8b03c204093842ffe96f30a506abe1fb51fb8f9d97d0597e7d04f6b8",
+   "bytes": 4950,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/p.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/p.html",
+   "sha256": "0113b8e2598980fd4ac8d72420c5cc3dba744667f1a2387cdba844a41aafb451",
+   "bytes": 12910,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/q.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/q.html",
+   "sha256": "7d557713363bd3f59934638a858bf0606a2862c6d309b01cae07a07c9ae1217b",
+   "bytes": 9697,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/r.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/r.html",
+   "sha256": "f30334c17b19fd93eea092bd9f9eb33a60f0469f6fceaffe1c4e5bb26f1b7c65",
+   "bytes": 7050,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/s.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/s.html",
+   "sha256": "053d442a4b9753da74dc5eb036750afdd0d2edb7069e73994d87d51ff8e7c2e7",
+   "bytes": 8683,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/t.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/t.html",
+   "sha256": "19590e1411b9be58df797b1064559417ff66c9ed65336d9d0ec1de641a2f8d19",
+   "bytes": 5364,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/u.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/u.html",
+   "sha256": "cef94b59e1bcc6d7f225892e00d25df232d114bb40bfb293e68536042cda2816",
+   "bytes": 4464,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/v.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/v.html",
+   "sha256": "1de6102270d522e27f3c7b3899d58f24c5e2d05ab3995c67dcf5f7a52c59bd1a",
+   "bytes": 4300,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/w.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/w.html",
+   "sha256": "1bc09cc56b07abc874d9695b46ccb6b7c26eab6c5ea64579529a24b33f5ed944",
+   "bytes": 4193,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/x.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/x.html",
+   "sha256": "78112809ff6226c748af6d69a32edd66d4d615767bcb50edc19dfecc8dd2b09b",
+   "bytes": 4576,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/y.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/y.html",
+   "sha256": "216c538cd9fc0d9e516d1bb0d68f89fe5c2933f3261ce11f22b9f9681a854c18",
+   "bytes": 4178,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/ceipp/z.html",
+   "url": "http://kohaumotu.org/rongorongo_org/translit/z.html",
+   "sha256": "604fff6fbf4661de8ac0e7513e48e2c13927b2c2039285ff008a2ce3a8b70262",
+   "bytes": 4035,
+   "license": "CEIPP: free copying and distribution, non-profit, sources acknowledged (copy.html)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/maori/kongamahingaang00greygoog.txt",
+   "url": "https://archive.org/download/kongamahingaang00greygoog/kongamahingaang00greygoog_djvu.txt",
+   "sha256": "6d0f0c10db8533f11a830f9382c51836358c3b3c2accd13c32d2e9c23c925270",
+   "bytes": 348357,
+   "license": "public domain (19th century)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/maori/kongamoteateame00greygoog.txt",
+   "url": "https://archive.org/download/kongamoteateame00greygoog/kongamoteateame00greygoog_djvu.txt",
+   "sha256": "5c8d3e2110a1ceae4041b646434e3180935f355d09ef61f73acd058d9c4670a7",
+   "bytes": 734844,
+   "license": "public domain (19th century)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/maori/kotekawenatahou00yategoog.txt",
+   "url": "https://archive.org/download/kotekawenatahou00yategoog/kotekawenatahou00yategoog_djvu.txt",
+   "sha256": "3a37d5f0866e9b27afd250fdbdaff0f438126da69187da982f56a8d5e0ac1337",
+   "bytes": 1127297,
+   "license": "public domain (19th century)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/maori/kotepaiperatapua00barl.txt",
+   "url": "https://archive.org/download/kotepaiperatapua00barl/kotepaiperatapua00barl_djvu.txt",
+   "sha256": "c37f8247e97e038e0c7f5ce9b37b7ca3f56bdfcda324556709e394ee140b5942",
+   "bytes": 5904172,
+   "license": "public domain (19th century)"
+  },
+  {
+   "path": "artifacts/rongorongo-sources/rapanui/thomson1891.txt",
+   "url": "https://archive.org/download/cu31924105726222/cu31924105726222_djvu.txt",
+   "sha256": "776fd66130fd239d76d7bee05df756819435c980fbee72d03d86b84abd249c02",
+   "bytes": 305331,
+   "license": "public domain (1891)"
+  }
+ ]
+}
