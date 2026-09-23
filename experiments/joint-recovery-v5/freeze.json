@@ -1,0 +1,45 @@
+{
+  "code_sha256": {
+    "experiments/joint_recovery_v5.py": "12581e3cecac0a8bfee5cf0980f234d6f2a93d382dcabaf840aadec1872eb72f",
+    "voynich/lexical_polish_v3.py": "9a9d2006a11e2be02e8b9822003b29e224e55300c6d6eb868e78299508659437",
+    "voynich/unknown_words.py": "98018d9ee348fb3491614c8b62e1d1ef56a11aeaa6d5dc68cb53751a49021e2e",
+    "experiments/word_segmentation_v3.py": "40f27cd02a66bd7755a5763f856e74b30b4825aa5385c2195c26c6f210816f15",
+    "experiments/word_segmentation_v3_fresh.py": "53f80286ea2474dd45aa4561bf63bdafeec72993e4f745801209ed86e1dda8da",
+    "experiments/joint_recovery_v4.py": "15a87a297836dcd87be4b98a8626a0bdc0e7413652311292bf8edb63c661e0cf",
+    "voynich/lexical_polish.py": "999603a179b2e059fd045a08ab423ce5584f07aa4cbb2d6eb8f86e52522dc0bf",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02"
+  },
+  "inputs": {
+    "experiments/joint-recovery-v5/PROTOCOL.md": "8b26d234bf589923f010f4f3a2c7d49295172b8f1602fb037af28dd00254439a",
+    "experiments/joint-recovery-v4/freeze.json": "30f6279dcc50fb942a1dcc238bc90f37e4161a07c52deab5d30c6957390872c4",
+    "experiments/word-segmentation-v3/freeze.json": "1b7f69d562690b8cfccb1da1df5cc4ef789ddecb3e20359237a222c9ecdb63ab",
+    "experiments/word-segmentation-v3-fresh/evaluated-records.json": "9843f8d419a6ec3fe8e3a526cde5dc790d4b157b6262415d0ce4deac0418a4db",
+    "experiments/word-segmentation-v3-fresh/sources.json": "972a4b84a2ef0572a1339c2ab2b9bc0a09d818ab2c1e756d69ae3b6875ea03ce"
+  },
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 1200,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 1.0,
+    "repair_minimum": 2,
+    "repair_passes": 2
+  },
+  "segmenter_v3": {
+    "order": 5,
+    "elision": true
+  },
+  "case_cap_seconds": 3600,
+  "at": 1790165860.765866
+}
