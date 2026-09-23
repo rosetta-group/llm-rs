@@ -1,0 +1,120 @@
+{
+  "v101": {
+    "tokens": 25768,
+    "types": 6645,
+    "hapax_types": 4730,
+    "hapax_share_of_types": 0.7118133935289691,
+    "near_hapax_tokens": 2691,
+    "flagged_tokens": 45,
+    "uncertain_space_tokens": 2820,
+    "near_hapax_share_of_tokens": 0.10443185346165787,
+    "lines": 2878,
+    "disagreeing_lines": 447
+  },
+  "eva": {
+    "tokens": 24113,
+    "types": 5644,
+    "hapax_types": 3984,
+    "hapax_share_of_types": 0.7058823529411765,
+    "near_hapax_tokens": 1637,
+    "flagged_tokens": 520,
+    "uncertain_space_tokens": 3185,
+    "near_hapax_share_of_tokens": 0.06788869074772944,
+    "lines": 2878,
+    "disagreeing_lines": 447
+  },
+  "eva_substitution_pairs": [
+    {
+      "pair": "eo",
+      "count": 37
+    },
+    {
+      "pair": "oy",
+      "count": 29
+    },
+    {
+      "pair": "ao",
+      "count": 28
+    },
+    {
+      "pair": "sy",
+      "count": 27
+    },
+    {
+      "pair": "fk",
+      "count": 17
+    },
+    {
+      "pair": "nr",
+      "count": 16
+    },
+    {
+      "pair": "dy",
+      "count": 16
+    },
+    {
+      "pair": "ls",
+      "count": 14
+    },
+    {
+      "pair": "dk",
+      "count": 14
+    },
+    {
+      "pair": "ey",
+      "count": 14
+    },
+    {
+      "pair": "cs",
+      "count": 14
+    },
+    {
+      "pair": "kp",
+      "count": 14
+    },
+    {
+      "pair": "lo",
+      "count": 11
+    },
+    {
+      "pair": "ek",
+      "count": 10
+    },
+    {
+      "pair": "es",
+      "count": 10
+    }
+  ],
+  "eva_substitutions": 623,
+  "eva_rare_glyph_near_hapax": 36,
+  "natural_language_controls": {
+    "latin": {
+      "tokens": 25000,
+      "hapax_share_of_types": 0.5074303405572755,
+      "near_hapax_share_of_tokens": 0.00884
+    },
+    "italian": {
+      "tokens": 25000,
+      "hapax_share_of_types": 0.6443728962388409,
+      "near_hapax_share_of_tokens": 0.01492
+    },
+    "old_french": {
+      "tokens": 25000,
+      "hapax_share_of_types": 0.5849979616795761,
+      "near_hapax_share_of_tokens": 0.02632
+    },
+    "german": {
+      "tokens": 25000,
+      "hapax_share_of_types": 0.6982680036463081,
+      "near_hapax_share_of_tokens": 0.01516
+    }
+  },
+  "substitution_review_candidates": 164,
+  "lines_with_certain_space_gap_1": 1365,
+  "shared_loci": 2878,
+  "loci_flagged_by_both": 1182,
+  "frequent_threshold": 5,
+  "pages": 148,
+  "training_pages_only": true,
+  "voynich_decoded": false
+}

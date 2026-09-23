@@ -54,6 +54,16 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: Voynich transcription suspects: near-hapax forms far above natural text.**
+Training pages only, no decoding. In v101, 10.4% of tokens occur once and sit one edit from a
+form seen at least 5 times; in EVA, 6.8%. Equal-size Latin, Italian, Old French and German samples
+give 0.9–2.6%. So most such forms are the manuscript's own variation, not misreadings, and the
+filter must not be used to correct the text. EVA substitution pairs mix visually close glyphs
+(a/o, f/k, k/p, n/r, c/s) with word-ending alternations (o/y, s/y, d/y). v101 and EVA differ by
+2 or more certain-space words on 447 of 2,878 lines. The output is a 164-candidate list, with
+the top 50 given as folio loci for human review against the scans. Also defined: an exclusion
+set for sensitivity checks of any later Voynich scoring. [Report](experiments/voynich-suspects/REPORT.md).
+
 **2026-09-23: language-ID control: the true language wins in 5 of 5 Naibbe ciphertexts.**
 The pipeline must not assume Italian for the Voynich text, so this was declared before
 encryption. Five languages (medieval Latin ITTB, Old French, German, English, Italian with
