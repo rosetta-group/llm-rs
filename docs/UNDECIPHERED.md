@@ -16,4 +16,7 @@ gives two rules for choosing a target:
 | **Cypro-Minoan** and **Cretan hieroglyphs** | Related to Linear A; some values guessed from it | a few hundred short texts each | Poor | Smaller than Linear A, which was already too small. |
 | **Etruscan** and **Meroitic** | Sounds known (scripts read); language only partly understood | thousands of mostly short texts | Possible, different task | The problem is meaning, not decipherment. Distributional methods on formulae could help; there is no key to recover. |
 
-Started next: Rongorongo, scoped in [experiments/rongorongo/SCOPE.md](../experiments/rongorongo/SCOPE.md).
+Rongorongo was tried next ([scope](../experiments/rongorongo/SCOPE.md), [report](../experiments/rongorongo/REPORT.md)).
+A Māori text disguised as signs at the tablets' size (2,600 syllables) was recovered at 65% on
+average (44% worst), against a 90% gate; an earlier study (Rochala 2026) found the same limit with
+a different solver. The tablets are too short for statistical sign-to-syllable recovery.
