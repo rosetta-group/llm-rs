@@ -54,6 +54,22 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: extra spaces come from missing word forms; rubric-free extractor ready.**
+A new v3 extractor drops Wikisource chapter rubrics stored as ordinary paragraphs.
+On the released Villani source it removes exactly the 36 audited rubric paragraphs
+and leaves all 37 body paragraphs unchanged. A diagnosis of the saved v2 baseline
+development predictions (perfect letters) attributes each wrong space. 90% of
+historical extra spaces (83/92), 87% modern and 83% verse fall inside words absent
+from the 407,341-form lexicon; 57 of 64 missing historical forms are split. Released
+Villani is similar (670/762), descriptive only. A labelled oracle that only adds each
+stream's missing forms cuts WER from 15.27% to 2.29% historical, 6.89% to 2.76% modern,
+28.49% to 6.89% verse. Cause: the flat unknown-word cost $15+3\ell$ nats is always
+beaten by a split into known pieces (`melano` 33.0 vs `me la no` 19.4). Elided forms
+merged by `normalize` are a minority (6/64 historical). No setting chosen, no fresh
+text, no downloads, CPU under ten seconds. Next: declare a letter-level unknown-word
+model on training text, then freeze before any new historical author or modern corpus.
+[Diagnosis](experiments/word-segmentation-v3/REPORT.md).
+
 **2026-09-23: verse word model passes development, fails fresh transfer threshold.**
 Added only designated Petrarca training poems to the frozen prose segmenter's word
 counts, transitions and vocabulary. Tried weights 1, 4 and 16, with unchanged scoring

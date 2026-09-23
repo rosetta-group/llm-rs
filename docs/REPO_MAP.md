@@ -55,6 +55,7 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round three | `joint_development_v3.py`, `joint_recovery_v3.py` | `joint-development-v3/` | `joint-recovery-v3/` |
 | Round four | `joint_development_v4.py`, `joint_recovery_v4.py` | `joint-development-v4/` | `joint-recovery-v4/` |
 | Verse word model | `word_segmentation_v2.py`, `word_segmentation_fresh.py`, `word_segmentation_records.py`, `report_word_segmentation.py` | `word-segmentation-v2/development.json` | `word-segmentation-v2/` (perfect letters; extraction caveat) |
+| Word segmentation v3 groundwork | `word_segmentation_v3.py` (rubric-free extractor, boundary diagnosis) | `word-segmentation-v3/diagnosis.json` | not run |
 
 Inside a fresh-evaluation folder: `freeze.json` (hashes, settings, commit), `results.json`
 (per-case metrics), `REPORT.md` (what it means), `evaluated-records.tar.gz` (the sealed

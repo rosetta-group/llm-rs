@@ -1,0 +1,13 @@
+{
+  "source": "artifacts/word-segmentation-v2/sources/villani-book1.html",
+  "released_source": true,
+  "v2_paragraphs": 73,
+  "v3_paragraphs": 37,
+  "rubric_paragraphs_removed": 37,
+  "rubrics_under_extractor_minimum": 1,
+  "dropped_extracted_paragraphs": 36,
+  "audit_heading_paragraphs": 36,
+  "body_paragraphs_unchanged": true,
+  "rubric_words_max": 24,
+  "body_words_min": 60
+}

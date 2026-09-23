@@ -1,0 +1,691 @@
+{
+  "development": {
+    "historical": {
+      "baseline": {
+        "words": 1133,
+        "errors": 173,
+        "wer": 0.1526919682259488,
+        "tp": 1110,
+        "fp": 92,
+        "fn": 22,
+        "precision": 0.9234608985024958,
+        "recall": 0.980565371024735,
+        "f1": 0.9511568123393316,
+        "character_error": 0
+      },
+      "diagnosis": {
+        "words": {
+          "correct": 1039,
+          "merged": 28,
+          "split": 55,
+          "misaligned": 11
+        },
+        "reference_words": 1133,
+        "extra_spaces": {
+          "known_word": 9,
+          "missing_form": 83
+        },
+        "extra_total": 92,
+        "missing_spaces": {
+          "known_token": 16,
+          "unknown_token": 6
+        },
+        "missing_total": 22,
+        "oov_tokens": 64,
+        "oov_types": 51,
+        "oov_tokens_split": 57,
+        "top_splits": [
+          {
+            "reference": "melano",
+            "known": false,
+            "predicted": "me la no",
+            "count": 4
+          },
+          {
+            "reference": "merlino",
+            "known": false,
+            "predicted": "merli no",
+            "count": 4
+          },
+          {
+            "reference": "paulino",
+            "known": false,
+            "predicted": "paul in o",
+            "count": 2
+          },
+          {
+            "reference": "sguardate",
+            "known": false,
+            "predicted": "s guardate",
+            "count": 2
+          },
+          {
+            "reference": "favolatore",
+            "known": false,
+            "predicted": "favola tor e",
+            "count": 2
+          },
+          {
+            "reference": "burchiello",
+            "known": false,
+            "predicted": "bur chi el lo",
+            "count": 2
+          },
+          {
+            "reference": "dire",
+            "known": true,
+            "predicted": "di re",
+            "count": 1
+          },
+          {
+            "reference": "punillo",
+            "known": false,
+            "predicted": "puni l lo",
+            "count": 1
+          },
+          {
+            "reference": "appicciolo",
+            "known": false,
+            "predicted": "a p picciolo",
+            "count": 1
+          },
+          {
+            "reference": "candava",
+            "known": false,
+            "predicted": "c andava",
+            "count": 1
+          },
+          {
+            "reference": "smontoe",
+            "known": false,
+            "predicted": "smonto e",
+            "count": 1
+          },
+          {
+            "reference": "linnocenti",
+            "known": false,
+            "predicted": "l innocenti",
+            "count": 1
+          },
+          {
+            "reference": "dibonarita",
+            "known": false,
+            "predicted": "di bonari t a",
+            "count": 1
+          },
+          {
+            "reference": "aprire",
+            "known": true,
+            "predicted": "aprir e",
+            "count": 1
+          },
+          {
+            "reference": "de",
+            "known": true,
+            "predicted": "d e",
+            "count": 1
+          }
+        ],
+        "top_merges": [
+          {
+            "predicted": "fecela",
+            "known": true,
+            "reference": "fece la",
+            "count": 2
+          },
+          {
+            "predicted": "ed",
+            "known": true,
+            "reference": "e d",
+            "count": 2
+          },
+          {
+            "predicted": "restando",
+            "known": true,
+            "reference": "re stando",
+            "count": 1
+          },
+          {
+            "predicted": "vanagloria",
+            "known": true,
+            "reference": "vana gloria",
+            "count": 1
+          },
+          {
+            "predicted": "rie",
+            "known": true,
+            "reference": "ri e",
+            "count": 1
+          },
+          {
+            "predicted": "lanosi",
+            "known": true,
+            "reference": "lano si",
+            "count": 1
+          },
+          {
+            "predicted": "ciel",
+            "known": true,
+            "reference": "ci e l",
+            "count": 1
+          },
+          {
+            "predicted": "osare",
+            "known": true,
+            "reference": "o sare",
+            "count": 1
+          },
+          {
+            "predicted": "isguardata",
+            "known": true,
+            "reference": "i sguardata",
+            "count": 1
+          },
+          {
+            "predicted": "obligataallonfernoai",
+            "known": false,
+            "reference": "obligata allo nferno ai",
+            "count": 1
+          }
+        ]
+      },
+      "oracle_forms_only": {
+        "words": 1133,
+        "errors": 26,
+        "wer": 0.02294792586054722,
+        "tp": 1123,
+        "fp": 7,
+        "fn": 9,
+        "precision": 0.9938053097345133,
+        "recall": 0.9920494699646644,
+        "f1": 0.9929266136162688,
+        "character_error": 0
+      },
+      "oracle_forms_and_counts": {
+        "words": 1133,
+        "errors": 26,
+        "wer": 0.02294792586054722,
+        "tp": 1123,
+        "fp": 7,
+        "fn": 9,
+        "precision": 0.9938053097345133,
+        "recall": 0.9920494699646644,
+        "f1": 0.9929266136162688,
+        "character_error": 0
+      }
+    },
+    "modern": {
+      "baseline": {
+        "words": 1016,
+        "errors": 70,
+        "wer": 0.0688976377952756,
+        "tp": 999,
+        "fp": 31,
+        "fn": 16,
+        "precision": 0.9699029126213592,
+        "recall": 0.9842364532019704,
+        "f1": 0.9770171149144254,
+        "character_error": 0
+      },
+      "diagnosis": {
+        "words": {
+          "correct": 970,
+          "split": 16,
+          "merged": 23,
+          "misaligned": 7
+        },
+        "reference_words": 1016,
+        "extra_spaces": {
+          "known_word": 4,
+          "missing_form": 27
+        },
+        "extra_total": 31,
+        "missing_spaces": {
+          "known_token": 12,
+          "unknown_token": 4
+        },
+        "missing_total": 16,
+        "oov_tokens": 22,
+        "oov_types": 21,
+        "oov_tokens_split": 19,
+        "top_splits": [
+          {
+            "reference": "salaam",
+            "known": false,
+            "predicted": "sa la a m",
+            "count": 2
+          },
+          {
+            "reference": "sulla",
+            "known": true,
+            "predicted": "sul la",
+            "count": 1
+          },
+          {
+            "reference": "lincendio",
+            "known": false,
+            "predicted": "l incendio",
+            "count": 1
+          },
+          {
+            "reference": "congo",
+            "known": false,
+            "predicted": "con go",
+            "count": 1
+          },
+          {
+            "reference": "micuni",
+            "known": false,
+            "predicted": "mi cun i",
+            "count": 1
+          },
+          {
+            "reference": "apted",
+            "known": false,
+            "predicted": "a pt ed",
+            "count": 1
+          },
+          {
+            "reference": "marthas",
+            "known": false,
+            "predicted": "ma rthas",
+            "count": 1
+          },
+          {
+            "reference": "lisoletta",
+            "known": false,
+            "predicted": "l isoletta",
+            "count": 1
+          },
+          {
+            "reference": "massachusetts",
+            "known": false,
+            "predicted": "massa chusetts",
+            "count": 1
+          },
+          {
+            "reference": "dai",
+            "known": true,
+            "predicted": "da i",
+            "count": 1
+          },
+          {
+            "reference": "slobo",
+            "known": false,
+            "predicted": "s lobo",
+            "count": 1
+          },
+          {
+            "reference": "sere",
+            "known": true,
+            "predicted": "ser e",
+            "count": 1
+          },
+          {
+            "reference": "alledicola",
+            "known": false,
+            "predicted": "alle di cola",
+            "count": 1
+          },
+          {
+            "reference": "larringa",
+            "known": false,
+            "predicted": "l arringa",
+            "count": 1
+          },
+          {
+            "reference": "agli",
+            "known": true,
+            "predicted": "a gli",
+            "count": 1
+          }
+        ],
+        "top_merges": [
+          {
+            "predicted": "essa",
+            "known": true,
+            "reference": "es sa",
+            "count": 2
+          },
+          {
+            "predicted": "spegnerei",
+            "known": true,
+            "reference": "spegnere i",
+            "count": 1
+          },
+          {
+            "predicted": "nordoccidentale",
+            "known": true,
+            "reference": "nord occidentale",
+            "count": 1
+          },
+          {
+            "predicted": "dama",
+            "known": true,
+            "reference": "da ma",
+            "count": 1
+          },
+          {
+            "predicted": "rthasvineyardl",
+            "known": false,
+            "reference": "rthas vineyard l",
+            "count": 1
+          },
+          {
+            "predicted": "as",
+            "known": true,
+            "reference": "a s",
+            "count": 1
+          },
+          {
+            "predicted": "dian",
+            "known": true,
+            "reference": "di an",
+            "count": 1
+          },
+          {
+            "predicted": "mettiamola",
+            "known": true,
+            "reference": "mettiamo la",
+            "count": 1
+          },
+          {
+            "predicted": "saxarubra",
+            "known": false,
+            "reference": "saxa rubra",
+            "count": 1
+          },
+          {
+            "predicted": "sel",
+            "known": true,
+            "reference": "se l",
+            "count": 1
+          }
+        ]
+      },
+      "oracle_forms_only": {
+        "words": 1016,
+        "errors": 28,
+        "wer": 0.027559055118110236,
+        "tp": 1005,
+        "fp": 7,
+        "fn": 10,
+        "precision": 0.9930830039525692,
+        "recall": 0.9901477832512315,
+        "f1": 0.9916132215096202,
+        "character_error": 0
+      },
+      "oracle_forms_and_counts": {
+        "words": 1016,
+        "errors": 28,
+        "wer": 0.027559055118110236,
+        "tp": 1005,
+        "fp": 7,
+        "fn": 10,
+        "precision": 0.9930830039525692,
+        "recall": 0.9901477832512315,
+        "f1": 0.9916132215096202,
+        "character_error": 0
+      }
+    },
+    "verse": {
+      "baseline": {
+        "words": 1204,
+        "errors": 343,
+        "wer": 0.28488372093023256,
+        "tp": 1105,
+        "fp": 161,
+        "fn": 98,
+        "precision": 0.872827804107425,
+        "recall": 0.9185369908561929,
+        "f1": 0.8950992304576751,
+        "character_error": 0
+      },
+      "diagnosis": {
+        "words": {
+          "correct": 968,
+          "misaligned": 53,
+          "merged": 108,
+          "split": 75
+        },
+        "reference_words": 1204,
+        "extra_spaces": {
+          "known_word": 28,
+          "missing_form": 133
+        },
+        "extra_total": 161,
+        "missing_spaces": {
+          "known_token": 54,
+          "unknown_token": 44
+        },
+        "missing_total": 98,
+        "oov_tokens": 123,
+        "oov_types": 114,
+        "oov_tokens_split": 103,
+        "top_splits": [
+          {
+            "reference": "cor",
+            "known": false,
+            "predicted": "c or",
+            "count": 2
+          },
+          {
+            "reference": "mortal",
+            "known": false,
+            "predicted": "morta l",
+            "count": 2
+          },
+          {
+            "reference": "allor",
+            "known": true,
+            "predicted": "al lor",
+            "count": 2
+          },
+          {
+            "reference": "camin",
+            "known": false,
+            "predicted": "ca min",
+            "count": 2
+          },
+          {
+            "reference": "talor",
+            "known": false,
+            "predicted": "tal or",
+            "count": 2
+          },
+          {
+            "reference": "negli",
+            "known": true,
+            "predicted": "ne gli",
+            "count": 2
+          },
+          {
+            "reference": "le",
+            "known": true,
+            "predicted": "l e",
+            "count": 2
+          },
+          {
+            "reference": "honora",
+            "known": false,
+            "predicted": "h onora",
+            "count": 2
+          },
+          {
+            "reference": "io",
+            "known": true,
+            "predicted": "i o",
+            "count": 1
+          },
+          {
+            "reference": "movo",
+            "known": false,
+            "predicted": "mo vo",
+            "count": 1
+          },
+          {
+            "reference": "laudando",
+            "known": false,
+            "predicted": "lauda n do",
+            "count": 1
+          },
+          {
+            "reference": "sincomincia",
+            "known": false,
+            "predicted": "sin comincia",
+            "count": 1
+          },
+          {
+            "reference": "fore",
+            "known": false,
+            "predicted": "fo re",
+            "count": 1
+          },
+          {
+            "reference": "suon",
+            "known": false,
+            "predicted": "su on",
+            "count": 1
+          },
+          {
+            "reference": "ncontro",
+            "known": false,
+            "predicted": "n contro",
+            "count": 1
+          }
+        ],
+        "top_merges": [
+          {
+            "predicted": "del",
+            "known": true,
+            "reference": "de l",
+            "count": 3
+          },
+          {
+            "predicted": "finche",
+            "known": true,
+            "reference": "fin che",
+            "count": 2
+          },
+          {
+            "predicted": "talche",
+            "known": true,
+            "reference": "tal che",
+            "count": 2
+          },
+          {
+            "predicted": "omo",
+            "known": true,
+            "reference": "o mo",
+            "count": 1
+          },
+          {
+            "predicted": "voi",
+            "known": true,
+            "reference": "vo i",
+            "count": 1
+          },
+          {
+            "predicted": "dosin",
+            "known": true,
+            "reference": "do sin",
+            "count": 1
+          },
+          {
+            "predicted": "onde",
+            "known": true,
+            "reference": "on de",
+            "count": 1
+          },
+          {
+            "predicted": "ed",
+            "known": true,
+            "reference": "e d",
+            "count": 1
+          },
+          {
+            "predicted": "riso",
+            "known": true,
+            "reference": "ri so",
+            "count": 1
+          },
+          {
+            "predicted": "sempreverdi",
+            "known": true,
+            "reference": "sempre verdi",
+            "count": 1
+          }
+        ]
+      },
+      "oracle_forms_only": {
+        "words": 1204,
+        "errors": 83,
+        "wer": 0.06893687707641195,
+        "tp": 1168,
+        "fp": 23,
+        "fn": 35,
+        "precision": 0.980688497061293,
+        "recall": 0.970906068162926,
+        "f1": 0.9757727652464494,
+        "character_error": 0
+      },
+      "oracle_forms_and_counts": {
+        "words": 1204,
+        "errors": 81,
+        "wer": 0.06727574750830564,
+        "tp": 1169,
+        "fp": 22,
+        "fn": 34,
+        "precision": 0.9815281276238456,
+        "recall": 0.971737323358271,
+        "f1": 0.9766081871345029,
+        "character_error": 0
+      }
+    }
+  },
+  "released_descriptive": {
+    "historical": {
+      "cases": 4,
+      "reference_words": 4783,
+      "extra_total": 762,
+      "missing_total": 200,
+      "oov_tokens": 496,
+      "oov_tokens_split": 440,
+      "extra_spaces": {
+        "missing_form": 670,
+        "known_word": 92
+      },
+      "missing_spaces": {
+        "known_token": 130,
+        "unknown_token": 70
+      }
+    },
+    "modern": {
+      "cases": 4,
+      "reference_words": 3686,
+      "extra_total": 134,
+      "missing_total": 52,
+      "oov_tokens": 89,
+      "oov_tokens_split": 75,
+      "extra_spaces": {
+        "missing_form": 94,
+        "known_word": 40
+      },
+      "missing_spaces": {
+        "known_token": 40,
+        "unknown_token": 12
+      }
+    }
+  },
+  "model_sha256": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+  "parameters": {
+    "alpha": 1.0,
+    "bigram": 0.5,
+    "unknown": 3.0
+  },
+  "oracle_note": "Oracles insert each stream's own missing forms; ceilings, never a method.",
+  "released_note": "Villani/VIT are released; descriptive only, never for selection.",
+  "development_only": true,
+  "voynich_used": false,
+  "fresh_text_used": false
+}
