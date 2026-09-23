@@ -1,0 +1,394 @@
+{
+ "theta": 0.0,
+ "z_min": 3.0,
+ "sample_size": 692,
+ "mycenaean_pool": 218,
+ "cells": [
+  {
+   "k": 10,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05,
+   "greek_z_median": -1.6713202797016433,
+   "greek_rank_median": 6.0,
+   "winners": {
+    "null": 19,
+    "Egyptian": 1
+   }
+  },
+  {
+   "k": 20,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05,
+   "greek_z_median": -1.1275817511127313,
+   "greek_rank_median": 6.0,
+   "winners": {
+    "null": 19,
+    "Egyptian": 1
+   }
+  },
+  {
+   "k": 40,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05,
+   "greek_z_median": -0.5828717009825611,
+   "greek_rank_median": 4.0,
+   "winners": {
+    "null": 19,
+    "Egyptian": 1
+   }
+  },
+  {
+   "k": 80,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05,
+   "greek_z_median": -0.1971833566270706,
+   "greek_rank_median": 3.0,
+   "winners": {
+    "null": 19,
+    "Egyptian": 1
+   }
+  },
+  {
+   "k": 160,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1,
+   "greek_z_median": 0.7704713575437148,
+   "greek_rank_median": 2.0,
+   "winners": {
+    "null": 18,
+    "Greek": 1,
+    "Egyptian": 1
+   }
+  },
+  {
+   "k": 208,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.15,
+   "greek_z_median": 1.2992236083991509,
+   "greek_rank_median": 1.0,
+   "winners": {
+    "null": 17,
+    "Greek": 2,
+    "Egyptian": 1
+   }
+  }
+ ],
+ "negative_false_winner_rate": 0.1,
+ "negative_winners": {
+  "Ugaritic": 1,
+  "Egyptian": 3
+ },
+ "all_mycenaean_no_noise": {
+  "scores": {
+   "Greek": {
+    "matches": 99,
+    "null_mean": 81.6,
+    "null_sd": 5.777350411544878,
+    "excess_rate": 0.07981651376146792,
+    "z": 3.0117612331821846
+   },
+   "Hittite": {
+    "matches": 5,
+    "null_mean": 7.7,
+    "null_sd": 3.0930028559098792,
+    "excess_rate": -0.012385321100917432,
+    "z": -0.8729380882533107
+   },
+   "Akkadian": {
+    "matches": 1,
+    "null_mean": 3.5,
+    "null_sd": 1.7159383568311668,
+    "excess_rate": -0.011467889908256881,
+    "z": -1.456928793535896
+   },
+   "Ugaritic": {
+    "matches": 47,
+    "null_mean": 42.4,
+    "null_sd": 4.402019738458447,
+    "excess_rate": 0.02110091743119267,
+    "z": 1.0449748691065355
+   },
+   "Hebrew": {
+    "matches": 48,
+    "null_mean": 53.3,
+    "null_sd": 5.869885480616769,
+    "excess_rate": -0.024311926605504575,
+    "z": -0.9029136969539495
+   },
+   "Etruscan": {
+    "matches": 6,
+    "null_mean": 9.2,
+    "null_sd": 3.32665998663324,
+    "excess_rate": -0.014678899082568805,
+    "z": -0.9619257792674426
+   },
+   "Egyptian": {
+    "matches": 55,
+    "null_mean": 49.4,
+    "null_sd": 4.835057163858332,
+    "excess_rate": 0.025688073394495418,
+    "z": 1.158207609593441
+   },
+   "Sumerian": {
+    "matches": 6,
+    "null_mean": 8.9,
+    "null_sd": 3.0713731999438516,
+    "excess_rate": -0.013302752293577984,
+    "z": -0.9442030685339756
+   }
+  },
+  "greek_matches": 99,
+  "matched_with_cited_cognate": 83,
+  "best_form_is_cited_cognate": 0,
+  "examples": [
+   {
+    "linear_b": "a-ke-ro",
+    "greek_form": "a-ke-ro",
+    "headwords": [
+     "ἀγέρρω",
+     "ἀγγέλλον",
+     "ἀγγέλλω"
+    ],
+    "cited": "ángelos"
+   },
+   {
+    "linear_b": "a-ki-re-u",
+    "greek_form": "a-ki-re-u",
+    "headwords": [
+     "Ἀχιλεύς",
+     "Ἀχιλεῦ",
+     "Ἀχιλλεύς"
+    ],
+    "cited": "Akhilleús"
+   },
+   {
+    "linear_b": "a-ko-ra",
+    "greek_form": "a-ko-ra",
+    "headwords": [
+     "ἀγορά",
+     "ἀγοράν",
+     "ἀγοράς"
+    ],
+    "cited": "ăgorā́"
+   },
+   {
+    "linear_b": "a-ko-ro",
+    "greek_form": "a-ko-ro",
+    "headwords": [
+     "ἀγορῶν",
+     "ἀγρόν",
+     "ἀγρός"
+    ],
+    "cited": "agrós"
+   },
+   {
+    "linear_b": "a-ku-ri-jo",
+    "greek_form": "a-ku-ri-jo",
+    "headwords": [
+     "ἀργυρίω",
+     "ἀργυρίων",
+     "ἀργύριον"
+    ],
+    "cited": "ărgŭ́rĭos"
+   },
+   {
+    "linear_b": "a-ku-ro",
+    "greek_form": "a-ku-ro",
+    "headwords": [
+     "ἀγκυλόω",
+     "ἀγκυρῶν",
+     "ἀγκύλος"
+    ],
+    "cited": "árguros"
+   },
+   {
+    "linear_b": "a-ma",
+    "greek_form": "a-ma",
+    "headwords": [
+     "ἀμμά",
+     "ἅλμα",
+     "ἅμα"
+    ],
+    "cited": "ámē"
+   },
+   {
+    "linear_b": "a-ne-mo",
+    "greek_form": "a-ne-mo",
+    "headwords": [
+     "ἀνέμω",
+     "ἀνέμων",
+     "ἄνεμον"
+    ],
+    "cited": "ánemos, “wind”"
+   },
+   {
+    "linear_b": "a-pi-qo-to",
+    "greek_form": "a-pi-ko-to",
+    "headwords": [
+     "ἀφίκοντο"
+    ],
+    "cited": "amphíbrotos"
+   },
+   {
+    "linear_b": "a-re",
+    "greek_form": "a-re",
+    "headwords": [
+     "ἀλεφ",
+     "ἀρή",
+     "ἀρήν"
+    ],
+    "cited": "Árēs"
+   },
+   {
+    "linear_b": "a-re-ka-sa-da-ra",
+    "greek_form": "a-re-ka-sa-da-ra",
+    "headwords": [
+     "Ἀλεξάνδρα"
+    ],
+    "cited": "Ălexắndrā"
+   },
+   {
+    "linear_b": "a-sa-mi-to",
+    "greek_form": "a-sa-mi-to",
+    "headwords": [
+     "ἀσάμινθος"
+    ],
+    "cited": "asáminthos"
+   },
+   {
+    "linear_b": "a3-ti-jo-qo",
+    "greek_form": "a-ti-jo-ko",
+    "headwords": [
+     "Ἀντίοχος"
+    ],
+    "cited": "Aithíops"
+   },
+   {
+    "linear_b": "e-ke",
+    "greek_form": "e-ke",
+    "headwords": [
+     "ἔγχε'",
+     "ἔεργε",
+     "ἔκηε"
+    ],
+    "cited": "ékhō"
+   },
+   {
+    "linear_b": "e-ki-no",
+    "greek_form": "e-ki-no",
+    "headwords": [
+     "ἐχῖνος",
+     "Ἐργῖνος",
+     "Ἐχινῶν"
+    ],
+    "cited": "ekhînos"
+   },
+   {
+    "linear_b": "e-pi",
+    "greek_form": "e-pi",
+    "headwords": [
+     "ἐλπί",
+     "ἐλπίς",
+     "ἐμπίς"
+    ],
+    "cited": "epí"
+   },
+   {
+    "linear_b": "e-ra",
+    "greek_form": "e-ra",
+    "headwords": [
+     "ἐλάα",
+     "ἐλάαν",
+     "ἔλαθ'"
+    ],
+    "cited": "Hḗra"
+   },
+   {
+    "linear_b": "e-re-i",
+    "greek_form": "e-re-i",
+    "headwords": [
+     "ἐλέει",
+     "ἐρέει",
+     "ἐρέειν"
+    ],
+    "cited": "Hélos"
+   },
+   {
+    "linear_b": "e-re-mo",
+    "greek_form": "e-re-mo",
+    "headwords": [
+     "ἐλεήμων",
+     "ἐρήμω",
+     "ἐρήμων"
+    ],
+    "cited": "erêmos"
+   },
+   {
+    "linear_b": "e-re-pa",
+    "greek_form": "e-re-pa",
+    "headwords": [
+     "ἐλέφας"
+    ],
+    "cited": "eléphas"
+   },
+   {
+    "linear_b": "e-ri-ka",
+    "greek_form": "e-ri-ka",
+    "headwords": [
+     "ἕλικα",
+     "ἕλικας",
+     "ἡλίκα"
+    ],
+    "cited": "helíkē"
+   },
+   {
+    "linear_b": "e-ri-nu",
+    "greek_form": "e-ri-nu",
+    "headwords": [
+     "Ἐρινύς"
+    ],
+    "cited": "Erinús"
+   },
+   {
+    "linear_b": "i-je-re-u",
+    "greek_form": "i-je-re-u",
+    "headwords": [
+     "ἱερεύς",
+     "ἱερεῦ"
+    ],
+    "cited": "hiereús"
+   },
+   {
+    "linear_b": "i-je-ro",
+    "greek_form": "i-je-ro",
+    "headwords": [
+     "ἱερόν",
+     "ἱερός",
+     "ἱερώ"
+    ],
+    "cited": "hierós"
+   },
+   {
+    "linear_b": "i-po-no",
+    "greek_form": "i-po-no",
+    "headwords": [
+     "ἰπνόν",
+     "ἰπνός",
+     "ἰπνώ"
+    ],
+    "cited": "ipnós"
+   }
+  ]
+ },
+ "gate": {
+  "passing_k": [],
+  "false_winner_rate": 0.1,
+  "passed": false
+ }
+}

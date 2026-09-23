@@ -1,0 +1,558 @@
+{
+ "lexicon_sizes": {
+  "2": {
+   "Greek": 4976,
+   "Anatolian": 4287,
+   "Levant": 2975,
+   "Babylonia": 607
+  },
+  "3": {
+   "Greek": 4553,
+   "Anatolian": 3896,
+   "Levant": 2640,
+   "Babylonia": 551
+  }
+ },
+ "cells": [
+  {
+   "theta": 0.0,
+   "min_length": 2,
+   "pool": 1192,
+   "size": 330,
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": -0.58,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Greek": -0.49,
+     "Babylonia": -0.6,
+     "Anatolian": -1.12,
+     "Levant": -1.69
+    },
+    {
+     "Babylonia": -0.77,
+     "Levant": -0.83,
+     "Anatolian": -1.5,
+     "Greek": -1.82
+    },
+    {
+     "Babylonia": -0.8,
+     "Anatolian": -1.35,
+     "Greek": -1.8,
+     "Levant": -2.39
+    },
+    {
+     "Greek": -0.34,
+     "Babylonia": -0.5,
+     "Levant": -0.5,
+     "Anatolian": -1.72
+    },
+    {
+     "Babylonia": 0.7,
+     "Anatolian": 0.22,
+     "Levant": 0.0,
+     "Greek": -0.07
+    },
+    {
+     "Babylonia": -0.8,
+     "Greek": -1.21,
+     "Levant": -2.33,
+     "Anatolian": -2.86
+    },
+    {
+     "Levant": -0.44,
+     "Babylonia": -0.6,
+     "Greek": -0.93,
+     "Anatolian": -1.32
+    },
+    {
+     "Anatolian": -0.22,
+     "Babylonia": -1.3,
+     "Greek": -2.05,
+     "Levant": -2.69
+    },
+    {
+     "Babylonia": -0.2,
+     "Levant": -0.65,
+     "Anatolian": -0.9,
+     "Greek": -2.54
+    },
+    {
+     "Anatolian": 0.04,
+     "Levant": -0.15,
+     "Babylonia": -1.12,
+     "Greek": -1.6
+    },
+    {
+     "Greek": -0.32,
+     "Babylonia": -0.5,
+     "Anatolian": -0.7,
+     "Levant": -2.17
+    },
+    {
+     "Anatolian": 0.56,
+     "Babylonia": -0.07,
+     "Greek": -0.47,
+     "Levant": -0.93
+    },
+    {
+     "Babylonia": 0.5,
+     "Greek": 0.02,
+     "Anatolian": 0.0,
+     "Levant": -0.22
+    },
+    {
+     "Anatolian": -0.39,
+     "Greek": -0.46,
+     "Babylonia": -0.5,
+     "Levant": -0.9
+    },
+    {
+     "Babylonia": -0.1,
+     "Anatolian": -0.25,
+     "Levant": -0.58,
+     "Greek": -3.0
+    },
+    {
+     "Babylonia": -0.7,
+     "Anatolian": -1.25,
+     "Greek": -2.21,
+     "Levant": -2.64
+    },
+    {
+     "Greek": -0.26,
+     "Babylonia": -0.4,
+     "Anatolian": -0.59,
+     "Levant": -0.9
+    },
+    {
+     "Levant": -0.45,
+     "Greek": -0.5,
+     "Anatolian": -0.57,
+     "Babylonia": -0.8
+    },
+    {
+     "Babylonia": -1.16,
+     "Greek": -1.22,
+     "Levant": -1.39,
+     "Anatolian": -1.83
+    },
+    {
+     "Babylonia": 0.0,
+     "Levant": -0.53,
+     "Greek": -0.58,
+     "Anatolian": -0.78
+    }
+   ]
+  },
+  {
+   "theta": 0.2,
+   "min_length": 2,
+   "pool": 1192,
+   "size": 330,
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": 0.13,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Greek": 0.13,
+     "Babylonia": -0.82,
+     "Anatolian": -1.78,
+     "Levant": -4.03
+    },
+    {
+     "Levant": 0.58,
+     "Greek": 0.21,
+     "Anatolian": -1.3,
+     "Babylonia": -2.9
+    },
+    {
+     "Greek": 0.99,
+     "Babylonia": -0.66,
+     "Anatolian": -1.27,
+     "Levant": -1.49
+    },
+    {
+     "Greek": 0.67,
+     "Babylonia": -1.0,
+     "Levant": -1.69,
+     "Anatolian": -2.14
+    },
+    {
+     "Greek": 2.56,
+     "Babylonia": -0.92,
+     "Anatolian": -1.4,
+     "Levant": -2.12
+    },
+    {
+     "Levant": -0.33,
+     "Greek": -0.33,
+     "Babylonia": -0.35,
+     "Anatolian": -2.29
+    },
+    {
+     "Greek": 0.29,
+     "Anatolian": -1.39,
+     "Babylonia": -1.6,
+     "Levant": -1.71
+    },
+    {
+     "Babylonia": 0.28,
+     "Greek": -0.02,
+     "Anatolian": -1.09,
+     "Levant": -2.1
+    },
+    {
+     "Babylonia": -0.77,
+     "Greek": -0.91,
+     "Anatolian": -1.15,
+     "Levant": -2.53
+    },
+    {
+     "Babylonia": 1.97,
+     "Greek": 0.13,
+     "Levant": -2.34,
+     "Anatolian": -3.67
+    },
+    {
+     "Babylonia": 0.07,
+     "Greek": -0.04,
+     "Levant": -0.53,
+     "Anatolian": -1.46
+    },
+    {
+     "Greek": 0.13,
+     "Babylonia": -1.13,
+     "Anatolian": -1.2,
+     "Levant": -3.32
+    },
+    {
+     "Greek": 0.14,
+     "Levant": -1.23,
+     "Babylonia": -1.55,
+     "Anatolian": -1.92
+    },
+    {
+     "Greek": 0.66,
+     "Babylonia": -0.9,
+     "Levant": -1.79,
+     "Anatolian": -2.12
+    },
+    {
+     "Greek": 0.25,
+     "Babylonia": -0.6,
+     "Levant": -0.76,
+     "Anatolian": -2.1
+    },
+    {
+     "Greek": -0.05,
+     "Anatolian": -0.95,
+     "Babylonia": -1.8,
+     "Levant": -2.17
+    },
+    {
+     "Greek": 1.2,
+     "Babylonia": 0.35,
+     "Anatolian": -0.04,
+     "Levant": -1.68
+    },
+    {
+     "Greek": -0.61,
+     "Anatolian": -2.11,
+     "Levant": -2.73,
+     "Babylonia": -3.48
+    },
+    {
+     "Greek": -0.09,
+     "Babylonia": -1.11,
+     "Anatolian": -1.12,
+     "Levant": -1.63
+    },
+    {
+     "Greek": -0.42,
+     "Babylonia": -0.51,
+     "Anatolian": -0.58,
+     "Levant": -1.96
+    }
+   ]
+  },
+  {
+   "theta": 0.0,
+   "min_length": 3,
+   "pool": 1080,
+   "size": 214,
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": -0.91,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Babylonia": 0.0,
+     "Levant": -0.1,
+     "Anatolian": -0.45,
+     "Greek": -0.98
+    },
+    {
+     "Anatolian": 0.0,
+     "Babylonia": 0.0,
+     "Levant": -1.0,
+     "Greek": -1.71
+    },
+    {
+     "Babylonia": 0.0,
+     "Greek": -0.52,
+     "Anatolian": -0.66,
+     "Levant": -0.83
+    },
+    {
+     "Anatolian": 0.34,
+     "Greek": 0.04,
+     "Babylonia": 0.0,
+     "Levant": -0.6
+    },
+    {
+     "Babylonia": -0.3,
+     "Anatolian": -1.05,
+     "Greek": -1.17,
+     "Levant": -1.3
+    },
+    {
+     "Babylonia": -0.1,
+     "Levant": -1.06,
+     "Anatolian": -1.57,
+     "Greek": -3.74
+    },
+    {
+     "Babylonia": -0.1,
+     "Greek": -0.21,
+     "Levant": -0.52,
+     "Anatolian": -1.11
+    },
+    {
+     "Babylonia": 0.0,
+     "Anatolian": -0.65,
+     "Greek": -1.12,
+     "Levant": -2.04
+    },
+    {
+     "Babylonia": 0.0,
+     "Anatolian": -0.15,
+     "Levant": -0.46,
+     "Greek": -0.91
+    },
+    {
+     "Babylonia": -0.3,
+     "Greek": -0.48,
+     "Levant": -1.57,
+     "Anatolian": -2.17
+    },
+    {
+     "Babylonia": -0.1,
+     "Anatolian": -0.59,
+     "Levant": -1.9,
+     "Greek": -2.43
+    },
+    {
+     "Greek": 0.26,
+     "Babylonia": -0.1,
+     "Anatolian": -1.08,
+     "Levant": -1.38
+    },
+    {
+     "Babylonia": -0.1,
+     "Greek": -0.36,
+     "Anatolian": -1.37,
+     "Levant": -1.6
+    },
+    {
+     "Anatolian": 0.3,
+     "Babylonia": -0.4,
+     "Levant": -0.9,
+     "Greek": -1.94
+    },
+    {
+     "Babylonia": -0.1,
+     "Anatolian": -0.74,
+     "Levant": -0.85,
+     "Greek": -0.93
+    },
+    {
+     "Babylonia": -0.1,
+     "Greek": -1.77,
+     "Levant": -2.21,
+     "Anatolian": -2.52
+    },
+    {
+     "Babylonia": 0.0,
+     "Greek": -0.17,
+     "Levant": -1.0,
+     "Anatolian": -1.11
+    },
+    {
+     "Babylonia": -0.1,
+     "Greek": -0.45,
+     "Levant": -1.12,
+     "Anatolian": -1.18
+    },
+    {
+     "Babylonia": -0.1,
+     "Greek": -0.5,
+     "Anatolian": -0.7,
+     "Levant": -0.75
+    },
+    {
+     "Babylonia": -0.1,
+     "Anatolian": -0.12,
+     "Levant": -1.19,
+     "Greek": -1.87
+    }
+   ]
+  },
+  {
+   "theta": 0.2,
+   "min_length": 3,
+   "pool": 1080,
+   "size": 214,
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": -0.42,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Babylonia": 0.15,
+     "Anatolian": -0.41,
+     "Greek": -0.42,
+     "Levant": -1.52
+    },
+    {
+     "Greek": 1.8,
+     "Babylonia": -0.1,
+     "Anatolian": -0.17,
+     "Levant": -1.24
+    },
+    {
+     "Anatolian": -0.38,
+     "Levant": -1.42,
+     "Babylonia": -1.54,
+     "Greek": -1.62
+    },
+    {
+     "Babylonia": 0.19,
+     "Greek": -0.12,
+     "Anatolian": -0.14,
+     "Levant": -0.57
+    },
+    {
+     "Greek": 0.23,
+     "Levant": -0.38,
+     "Babylonia": -0.85,
+     "Anatolian": -2.86
+    },
+    {
+     "Babylonia": 0.0,
+     "Greek": -0.29,
+     "Anatolian": -1.6,
+     "Levant": -2.29
+    },
+    {
+     "Babylonia": -0.5,
+     "Greek": -0.5,
+     "Anatolian": -0.54,
+     "Levant": -1.93
+    },
+    {
+     "Greek": -1.09,
+     "Anatolian": -2.04,
+     "Levant": -2.12,
+     "Babylonia": -2.67
+    },
+    {
+     "Babylonia": 0.5,
+     "Anatolian": -0.4,
+     "Greek": -0.75,
+     "Levant": -3.89
+    },
+    {
+     "Greek": 0.24,
+     "Babylonia": -1.45,
+     "Anatolian": -1.72,
+     "Levant": -2.31
+    },
+    {
+     "Greek": -0.65,
+     "Babylonia": -0.87,
+     "Anatolian": -1.09,
+     "Levant": -1.94
+    },
+    {
+     "Babylonia": 0.19,
+     "Greek": -0.77,
+     "Levant": -1.87,
+     "Anatolian": -2.13
+    },
+    {
+     "Greek": -0.22,
+     "Babylonia": -0.28,
+     "Anatolian": -1.38,
+     "Levant": -1.86
+    },
+    {
+     "Babylonia": 1.64,
+     "Greek": 0.15,
+     "Anatolian": -0.83,
+     "Levant": -3.46
+    },
+    {
+     "Babylonia": 0.22,
+     "Levant": -0.28,
+     "Greek": -0.67,
+     "Anatolian": -0.96
+    },
+    {
+     "Babylonia": 0.16,
+     "Greek": -0.03,
+     "Levant": -0.85,
+     "Anatolian": -1.02
+    },
+    {
+     "Babylonia": -0.58,
+     "Greek": -1.19,
+     "Anatolian": -1.44,
+     "Levant": -2.57
+    },
+    {
+     "Greek": 0.59,
+     "Babylonia": -0.26,
+     "Anatolian": -1.27,
+     "Levant": -3.49
+    },
+    {
+     "Anatolian": -0.37,
+     "Greek": -1.31,
+     "Babylonia": -2.58,
+     "Levant": -2.97
+    },
+    {
+     "Babylonia": -0.78,
+     "Greek": -0.84,
+     "Anatolian": -1.33,
+     "Levant": -1.77
+    }
+   ]
+  }
+ ],
+ "chosen": {
+  "theta": 0.0,
+  "min_length": 2
+ }
+}

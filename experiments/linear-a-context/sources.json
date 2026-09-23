@@ -1,0 +1,13 @@
+{
+ "name": "DĀMOS: Database of Mycenaean at Oslo",
+ "url": "https://damos.hf.uio.no/",
+ "endpoint": "https://damos.hf.uio.no/ajaxitem/{id}/",
+ "retrieved": "2026-09-23",
+ "license": "CC BY-NC-SA 4.0 (content)",
+ "ids_listed": 5932,
+ "ids_present": 5932,
+ "missing": [],
+ "filter_sha256": "088b0794b5de39c9fc420bcc4a789e02078b148fb49af86e479d808f31870452",
+ "items_manifest_sha256": "f2f074025c6d93f299f7f80862b220bc0834e9303bfbdb9b718a7389b461859b",
+ "linear_a_and_lexicons": "../linear-a/sources.json"
+}

@@ -194,12 +194,66 @@ See [the pilot report](../data/folios/object-pilot/REPORT.md) for pending text m
 independent reviewer forms and the agreement command. Do not use unfilled templates
 as annotations or send the development gallery as a blind review packet.
 
+## Linear A track (branch `linear-a`)
+
+Sources are not in git. Download them into `artifacts/linear-a-sources/` from the URLs in each
+round's `sources.json`. DĀMOS is crawled at one request per second with
+`python experiments/linear_a_damos_crawl.py` (5,932 documents). The `verify` stage of rounds one
+to three checks frozen code and sources against the recorded hashes and fails on a mismatch.
+Rounds four and five have no `verify`; check their inputs against the four `sources.json` files
+(rounds one, two, three and five) with `shasum -a 256`. Do not rerun the `sources` or `freeze`
+stages: they rewrite committed records. `develop` rewrites `development-results.json`; compare it
+with git. Tests:
+
+```sh
+.venv/bin/python -m unittest tests.test_linear_a
+```
+
+Round one ([report](../experiments/linear-a/REPORT.md)):
+
+```sh
+.venv/bin/python -m experiments.linear_a_development
+.venv/bin/python -m experiments.linear_a_round_one verify
+.venv/bin/python -m experiments.linear_a_round_one control
+.venv/bin/python -m experiments.linear_a_round_one descriptive
+.venv/bin/python -m experiments.linear_a_round_one_report
+```
+
+Round two ([report](../experiments/linear-a-context/REPORT.md)):
+
+```sh
+.venv/bin/python -m experiments.linear_a_context develop
+.venv/bin/python -m experiments.linear_a_context verify
+.venv/bin/python -m experiments.linear_a_context test
+```
+
+Round three ([report](../experiments/linear-a-names/REPORT.md)):
+
+```sh
+.venv/bin/python -m experiments.linear_a_names develop
+.venv/bin/python -m experiments.linear_a_names verify
+.venv/bin/python -m experiments.linear_a_names test
+```
+
+Rounds four and five ([probes](../experiments/linear-a-probes/REPORT.md),
+[TLHdig](../experiments/linear-a-tlhdig/REPORT.md)). These drivers, like `control` and `test` above,
+refuse to overwrite results, so move the committed files aside first:
+
+```sh
+.venv/bin/python -m experiments.linear_a_probes      # results-1.json to results-7.json
+.venv/bin/python -m experiments.linear_a_tlhdig      # results.json
+```
+
+Round five's post-hoc checks were run interactively; their numbers are in its report only.
+No round ran the `linear-a` stage, because no Linear B control passed the gate.
+
 ## Sources and licences
 
 Pinned public texts and code, with revisions, hashes and licences, are listed in
 `experiments/sources.json`, `language-sources.json`, `decipherment-sources.json`,
 `segmentation-sources.json`, `standard-decipherment/sources.json`, `verse-prior/sources.json`
-and `word-segmentation-v2/sources.json`.
+and `word-segmentation-v2/sources.json`. Linear A sources are in `linear-a/`, `linear-a-context/`,
+`linear-a-names/` and `linear-a-tlhdig/sources.json`; licences in [LINEAR_A.md](LINEAR_A.md#data-and-licences).
 Naibbe code and data: Michael A. Greshko (2025), *The Naibbe cipher*, Cryptologia,
 modified MIT licence. Wikisource transcriptions: CC BY-SA. Universal Dependencies
 treebanks: see each manifest; newly archived VIT is **CC BY-NC-SA 3.0**, with its

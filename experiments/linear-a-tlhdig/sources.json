@@ -1,0 +1,31 @@
+{
+ "retrieved": "2026-09-23",
+ "files": [
+  {
+   "path": "artifacts/linear-a-sources/tlhdig/TLHdig_Beta_03.zip",
+   "sha256": "c845a23223bb9461eeb215f5ede0e223c8871473873c6123eadaeb72114fcd36",
+   "bytes": 74449198
+  },
+  {
+   "path": "artifacts/linear-a-sources/peet/essays_aegean_1927.pdf",
+   "sha256": "07e220967082a1dda94b2a33ba622c2f72f4d9c25ec30924463604e3c459543c",
+   "bytes": 36114141
+  },
+  {
+   "path": "artifacts/linear-a-sources/peet/essays_aegean_1927_djvu.txt",
+   "sha256": "eb24f3609f267ccf5cbe21dc211e5d8c4625434ed04b41aa2a339062f79c2ae5",
+   "bytes": 275463
+  }
+ ],
+ "origins": {
+  "TLHdig_Beta_03.zip": {
+   "url": "https://zenodo.org/records/20328284/files/TLHbasisONLINE25_1_ZENODO_Beta_03.zip",
+   "license": "CC BY 4.0 (Zenodo record); site states CC BY-SA"
+  },
+  "essays_aegean_1927.pdf": {
+   "url": "https://archive.org/download/in.ernet.dli.2015.281391/2015.281391.Essays-In.pdf",
+   "license": "public domain (1927; T. E. Peet d. 1934)",
+   "pages_used": "PDF 128-130 = printed 90-92"
+  }
+ }
+}

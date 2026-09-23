@@ -1,0 +1,362 @@
+{
+  "linear": {
+    "mean_polished_cer": {
+      "5200": 0.05615384615384616,
+      "10400": 0.04775641025641025,
+      "20800": 0.05141025641025641
+    },
+    "long_passage_round": false,
+    "table": {
+      "historical": {
+        "5200": {
+          "polished_cer": 0.05134615384615385,
+          "agreement": 0.9393586005830904,
+          "wer_v3": 0.34774933804060015,
+          "lexicon": {
+            "pieces": 313,
+            "true": 273,
+            "spurious": 40,
+            "missing": 39
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.04875,
+          "agreement": 0.9390137146192005,
+          "wer_v3": 0.3909973521624007,
+          "lexicon": {
+            "pieces": 301,
+            "true": 263,
+            "spurious": 38,
+            "missing": 62
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.04451923076923077,
+          "agreement": 0.9441267047954246,
+          "wer_v3": 0.33362598770851626,
+          "lexicon": {
+            "pieces": 323,
+            "true": 274,
+            "spurious": 49,
+            "missing": 60
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "modern": {
+        "5200": {
+          "polished_cer": 0.05596153846153846,
+          "agreement": 0.9379008746355685,
+          "wer_v3": 0.3858267716535433,
+          "lexicon": {
+            "pieces": 302,
+            "true": 270,
+            "spurious": 32,
+            "missing": 48
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.043076923076923075,
+          "agreement": 0.9458710242194339,
+          "wer_v3": 0.3338249754178958,
+          "lexicon": {
+            "pieces": 304,
+            "true": 275,
+            "spurious": 29,
+            "missing": 57
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.05326923076923077,
+          "agreement": 0.9367942513565038,
+          "wer_v3": 0.3824341279799247,
+          "lexicon": {
+            "pieces": 312,
+            "true": 268,
+            "spurious": 44,
+            "missing": 71
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "verse": {
+        "5200": {
+          "polished_cer": 0.061153846153846156,
+          "agreement": 0.9376093294460641,
+          "wer_v3": 0.4543189368770764,
+          "lexicon": {
+            "pieces": 351,
+            "true": 276,
+            "spurious": 75,
+            "missing": 49
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.05144230769230769,
+          "agreement": 0.9401809162532827,
+          "wer_v3": 0.40995548360987455,
+          "lexicon": {
+            "pieces": 320,
+            "true": 275,
+            "spurious": 45,
+            "missing": 55
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.056442307692307694,
+          "agreement": 0.9335679718433788,
+          "wer_v3": 0.4512584898122253,
+          "lexicon": {
+            "pieces": 316,
+            "true": 273,
+            "spurious": 43,
+            "missing": 61
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      }
+    }
+  },
+  "sqrt": {
+    "mean_polished_cer": {
+      "5200": 0.05615384615384616,
+      "10400": 0.031858974358974355,
+      "20800": 0.03246794871794872
+    },
+    "long_passage_round": false,
+    "table": {
+      "historical": {
+        "5200": {
+          "polished_cer": 0.05134615384615385,
+          "agreement": 0.9393586005830904,
+          "wer_v3": 0.34774933804060015,
+          "lexicon": {
+            "pieces": 313,
+            "true": 273,
+            "spurious": 40,
+            "missing": 39
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.03682692307692308,
+          "agreement": 0.9508316311642836,
+          "wer_v3": 0.3036187113857017,
+          "lexicon": {
+            "pieces": 350,
+            "true": 283,
+            "spurious": 67,
+            "missing": 42
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.03375,
+          "agreement": 0.9518991054406805,
+          "wer_v3": 0.2704126426690079,
+          "lexicon": {
+            "pieces": 496,
+            "true": 296,
+            "spurious": 200,
+            "missing": 38
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "modern": {
+        "5200": {
+          "polished_cer": 0.05596153846153846,
+          "agreement": 0.9379008746355685,
+          "wer_v3": 0.3858267716535433,
+          "lexicon": {
+            "pieces": 302,
+            "true": 270,
+            "spurious": 32,
+            "missing": 48
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.02798076923076923,
+          "agreement": 0.9598774438284213,
+          "wer_v3": 0.2335299901671583,
+          "lexicon": {
+            "pieces": 355,
+            "true": 295,
+            "spurious": 60,
+            "missing": 37
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.025673076923076923,
+          "agreement": 0.9584249890013199,
+          "wer_v3": 0.19648682559598493,
+          "lexicon": {
+            "pieces": 486,
+            "true": 305,
+            "spurious": 181,
+            "missing": 34
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "verse": {
+        "5200": {
+          "polished_cer": 0.061153846153846156,
+          "agreement": 0.9376093294460641,
+          "wer_v3": 0.4543189368770764,
+          "lexicon": {
+            "pieces": 351,
+            "true": 276,
+            "spurious": 75,
+            "missing": 49
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "10400": {
+          "polished_cer": 0.03076923076923077,
+          "agreement": 0.9533119346367085,
+          "wer_v3": 0.3213273978146499,
+          "lexicon": {
+            "pieces": 379,
+            "true": 296,
+            "spurious": 83,
+            "missing": 34
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.03798076923076923,
+          "agreement": 0.9485261768587769,
+          "wer_v3": 0.34378745505393526,
+          "lexicon": {
+            "pieces": 479,
+            "true": 301,
+            "spurious": 178,
+            "missing": 33
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      }
+    }
+  },
+  "decision": {
+    "primary": "linear",
+    "long_passage_round": false
+  }
+}

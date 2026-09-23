@@ -1,0 +1,157 @@
+{
+ "spelled": {
+  "ji-sa-ru": [
+   "Yishharu"
+  ],
+  "i-sa-ru": [
+   "Yishharu"
+  ],
+  "na-su-ja": [
+   "Nashuja"
+  ],
+  "na-su": [
+   "Nashuja"
+  ],
+  "ji-ka-sa-ta": [
+   "Yikashata"
+  ],
+  "a-ka-sa-ta": [
+   "Yikashata"
+  ],
+  "ji-di-ni": [
+   "Yidini"
+  ],
+  "a-di-na-i": [
+   "Yidini"
+  ],
+  "pi-na-ru-ti": [
+   "Pinaruti"
+  ],
+  "pi-na-ru-ta": [
+   "Pinaruti"
+  ],
+  "ru-sa": [
+   "Rusa"
+  ],
+  "pa-sa-pi-ra": [
+   "Bansabira"
+  ]
+ },
+ "hits": {
+  "Yikashata": [
+   [
+    "a-ka-nu-za-ti",
+    "a-ka-sa-ta",
+    "stem"
+   ],
+   [
+    "a-ka-ru",
+    "a-ka-sa-ta",
+    "stem"
+   ],
+   [
+    "a-ka-ta",
+    "a-ka-sa-ta",
+    "0.25"
+   ],
+   [
+    "a-ka-ta",
+    "a-ka-sa-ta",
+    "stem"
+   ],
+   [
+    "a-sa-sa-ra",
+    "a-ka-sa-ta",
+    "0.25"
+   ]
+  ],
+  "Nashuja": [
+   [
+    "a-su-ja",
+    "na-su-ja",
+    "0.17"
+   ],
+   [
+    "ja-su",
+    "na-su",
+    "0.25"
+   ],
+   [
+    "na-si",
+    "na-su",
+    "0.25"
+   ]
+  ],
+  "Yidini": [
+   [
+    "a-di-ki-te",
+    "a-di-na-i",
+    "stem"
+   ],
+   [
+    "a-di-ki-te-te",
+    "a-di-na-i",
+    "stem"
+   ],
+   [
+    "a-di-ne",
+    "a-di-na-i",
+    "stem"
+   ],
+   [
+    "ki-di-ni",
+    "ji-di-ni",
+    "0.17"
+   ]
+  ],
+  "Rusa": [
+   [
+    "re-sa",
+    "ru-sa",
+    "0.25"
+   ],
+   [
+    "ru-ma",
+    "ru-sa",
+    "0.25"
+   ],
+   [
+    "ru-na",
+    "ru-sa",
+    "0.25"
+   ],
+   [
+    "ru-ra",
+    "ru-sa",
+    "0.25"
+   ],
+   [
+    "ru-sa",
+    "ru-sa",
+    "0.0"
+   ],
+   [
+    "ru-sa",
+    "ru-sa",
+    "stem"
+   ]
+  ],
+  "Yishharu": [
+   [
+    "i-sa-ri-ke",
+    "i-sa-ru",
+    "stem"
+   ]
+  ],
+  "Bansabira": [
+   [
+    "pa-sa-ri-ja-ma-ru-me",
+    "pa-sa-pi-ra",
+    "stem"
+   ]
+  ]
+ },
+ "names_with_hits": 6,
+ "null_mean": 5.925,
+ "p": 0.6965174129353234
+}

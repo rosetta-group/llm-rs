@@ -1,0 +1,139 @@
+{
+ "theta": 0.0,
+ "min_length": 2,
+ "pool": 721,
+ "size": 330,
+ "greek_identified": 0.0,
+ "other_identified": 0.0,
+ "greek_z_median": -0.64,
+ "winners": {
+  "none": 20
+ },
+ "z": [
+  {
+   "Babylonia": -0.2,
+   "Greek": -0.66,
+   "Levant": -1.72,
+   "Anatolian": -2.04
+  },
+  {
+   "Greek": -0.76,
+   "Babylonia": -0.87,
+   "Anatolian": -1.0,
+   "Levant": -1.44
+  },
+  {
+   "Babylonia": -0.7,
+   "Greek": -1.21,
+   "Anatolian": -1.5,
+   "Levant": -3.02
+  },
+  {
+   "Greek": -0.51,
+   "Anatolian": -1.33,
+   "Babylonia": -1.59,
+   "Levant": -2.68
+  },
+  {
+   "Levant": -0.93,
+   "Greek": -1.17,
+   "Babylonia": -1.28,
+   "Anatolian": -1.69
+  },
+  {
+   "Greek": -0.35,
+   "Babylonia": -0.69,
+   "Levant": -1.62,
+   "Anatolian": -3.72
+  },
+  {
+   "Anatolian": -0.92,
+   "Greek": -1.01,
+   "Babylonia": -1.92,
+   "Levant": -2.18
+  },
+  {
+   "Greek": 0.35,
+   "Babylonia": 0.13,
+   "Anatolian": -0.87,
+   "Levant": -3.82
+  },
+  {
+   "Babylonia": 0.51,
+   "Greek": 0.08,
+   "Anatolian": -0.25,
+   "Levant": -1.38
+  },
+  {
+   "Greek": 0.55,
+   "Babylonia": 0.0,
+   "Anatolian": -1.53,
+   "Levant": -1.72
+  },
+  {
+   "Anatolian": -0.88,
+   "Greek": -1.17,
+   "Babylonia": -1.59,
+   "Levant": -2.29
+  },
+  {
+   "Babylonia": 1.11,
+   "Greek": -0.84,
+   "Levant": -1.42,
+   "Anatolian": -2.08
+  },
+  {
+   "Greek": -0.09,
+   "Babylonia": -0.14,
+   "Levant": -0.15,
+   "Anatolian": -0.86
+  },
+  {
+   "Babylonia": -0.52,
+   "Greek": -0.64,
+   "Anatolian": -1.04,
+   "Levant": -1.06
+  },
+  {
+   "Babylonia": -0.65,
+   "Greek": -0.93,
+   "Anatolian": -2.26,
+   "Levant": -3.12
+  },
+  {
+   "Babylonia": -0.52,
+   "Greek": -0.76,
+   "Levant": -1.8,
+   "Anatolian": -1.93
+  },
+  {
+   "Anatolian": -0.11,
+   "Babylonia": -0.56,
+   "Greek": -0.57,
+   "Levant": -2.51
+  },
+  {
+   "Greek": -0.75,
+   "Babylonia": -0.98,
+   "Levant": -1.7,
+   "Anatolian": -1.87
+  },
+  {
+   "Greek": -0.34,
+   "Babylonia": -0.6,
+   "Anatolian": -1.24,
+   "Levant": -1.98
+  },
+  {
+   "Greek": -0.11,
+   "Anatolian": -1.52,
+   "Levant": -2.13,
+   "Babylonia": -2.6
+  }
+ ],
+ "gate": {
+  "passed": false,
+  "power": 0.9,
+  "false_max": 0.05
+ }
+}

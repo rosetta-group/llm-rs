@@ -1,0 +1,235 @@
+{
+ "libation_words": 113,
+ "tablet_entry_words": 325,
+ "lexicon_sizes": {
+  "Anatolian gods": 763,
+  "Levant gods": 83,
+  "Babylonian gods": 21,
+  "Greek gods": 83
+ },
+ "tests": {
+  "Anatolian gods theta=0.0": {
+   "libation_rate": 0.017699115044247787,
+   "tablet_rate": 0.04,
+   "difference": -0.022300884955752213,
+   "p": 0.8640679660169915,
+   "libation_matches": [
+    [
+     "a-ja",
+     "a-ja",
+     [
+      "Aya"
+     ]
+    ],
+    [
+     "i-da",
+     "i-da",
+     [
+      "Ḫidam"
+     ]
+    ]
+   ]
+  },
+  "Anatolian gods theta=0.2": {
+   "libation_rate": 0.09734513274336283,
+   "tablet_rate": 0.16923076923076924,
+   "difference": -0.07188563648740641,
+   "p": 0.7401299350324838,
+   "libation_matches": [
+    [
+     "a-da-ra",
+     "a-ra-ra",
+     [
+      "Alala"
+     ]
+    ],
+    [
+     "a-ja",
+     "a-ja",
+     [
+      "Aya"
+     ]
+    ],
+    [
+     "a-sa-sa-ra",
+     "i-sa-sa-ra",
+     [
+      "Išḫaššara"
+     ]
+    ],
+    [
+     "a-wa-pi",
+     "a-ta-pi",
+     [
+      "Aštabi"
+     ]
+    ],
+    [
+     "i-da",
+     "i-da",
+     [
+      "Ḫidam"
+     ]
+    ],
+    [
+     "i-da-a",
+     "i-da-ra",
+     [
+      "Indara"
+     ]
+    ],
+    [
+     "i-da-da",
+     "i-da-ra",
+     [
+      "Indara"
+     ]
+    ],
+    [
+     "i-ja-pa",
+     "i-ja-ja",
+     [
+      "Iyaya"
+     ]
+    ],
+    [
+     "u-na-ka",
+     "a-na-ka",
+     [
+      "Ḫanagga"
+     ]
+    ],
+    [
+     "u-na-ka-na",
+     "u-na-ka-ta",
+     [
+      "Unagašta"
+     ]
+    ],
+    [
+     "tu-ru-sa",
+     "tu-ru-ma",
+     [
+      "Turumma"
+     ]
+    ]
+   ]
+  },
+  "Levant gods theta=0.0": {
+   "libation_rate": 0.008849557522123894,
+   "tablet_rate": 0.009230769230769232,
+   "difference": -0.00038121170864533795,
+   "p": 0.5937031484257871,
+   "libation_matches": [
+    [
+     "a-ja",
+     "a-ja",
+     [
+      "Ea"
+     ]
+    ]
+   ]
+  },
+  "Levant gods theta=0.2": {
+   "libation_rate": 0.02654867256637168,
+   "tablet_rate": 0.046153846153846156,
+   "difference": -0.019605173587474475,
+   "p": 0.655672163918041,
+   "libation_matches": [
+    [
+     "a-da-ra",
+     "a-pa-ra",
+     [
+      "Apara"
+     ]
+    ],
+    [
+     "a-ja",
+     "a-ja",
+     [
+      "Ea"
+     ]
+    ],
+    [
+     "a-ta-de",
+     "a-ta-te",
+     [
+      "Astarte"
+     ]
+    ]
+   ]
+  },
+  "Babylonian gods theta=0.0": {
+   "libation_rate": 0.0,
+   "tablet_rate": 0.009230769230769232,
+   "difference": -0.009230769230769232,
+   "p": 1.0,
+   "libation_matches": []
+  },
+  "Babylonian gods theta=0.2": {
+   "libation_rate": 0.008849557522123894,
+   "tablet_rate": 0.015384615384615385,
+   "difference": -0.006535057862491492,
+   "p": 0.7156421789105447,
+   "libation_matches": [
+    [
+     "i-ja-pa",
+     "i-ra-pa",
+     [
+      "Ilaba"
+     ]
+    ]
+   ]
+  },
+  "Greek gods theta=0.0": {
+   "libation_rate": 0.008849557522123894,
+   "tablet_rate": 0.0,
+   "difference": 0.008849557522123894,
+   "p": 0.20939530234882558,
+   "libation_matches": [
+    [
+     "i-ja",
+     "i-ja",
+     [
+      "Ἰά"
+     ]
+    ]
+   ]
+  },
+  "Greek gods theta=0.2": {
+   "libation_rate": 0.008849557522123894,
+   "tablet_rate": 0.0,
+   "difference": 0.008849557522123894,
+   "p": 0.22338830584707647,
+   "libation_matches": [
+    [
+     "i-ja",
+     "i-ja",
+     [
+      "Ἰά"
+     ]
+    ]
+   ]
+  }
+ },
+ "control": {
+  "mycenaean_theonyms": [
+   "a-re",
+   "a-si-wi-ja",
+   "a-te-mi-to",
+   "e-ma-a",
+   "e-ra",
+   "e-ri-nu",
+   "di-we",
+   "di-wo",
+   "di-wo-nu-so",
+   "po-ti-ni-ja",
+   "te-o",
+   "ti-ri-se-ro-e",
+   "wa-na-sa"
+  ],
+  "matches": 3,
+  "null_mean": 2.395,
+  "p": 0.4527363184079602
+ }
+}

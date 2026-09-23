@@ -5,7 +5,16 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-21
+Updated: 2026-09-23
+
+**Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
+methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
+control samples against a 90% gate; round five's Hittite profile match also holds for shuffled
+syllables. No language was identified or ruled out. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
+
+**Next candidate: Rongorongo.** Its language (Old Rapa Nui) is known and its corpus (about
+15,000 glyphs) is above the Naibbe recovery threshold, so a known-answer control can be built.
+Ranking of other scripts: [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md).
 
 **Latest scope change:** the user requested raw folio images and reproducible image
 descriptions. The [image archive and Pixel Layout v1](data/folios/README.md) provide
@@ -229,6 +238,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Joint segmentation + EM | Four fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; round four 5.7% Dante with lexicon repair; gate not met; oracle ceiling 0.5%; `experiments/joint-recovery-v4/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
+| Linear A track | Closed 2026-09-23: five rounds; Linear B used as the known-answer control; no language identified; `docs/LINEAR_A.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

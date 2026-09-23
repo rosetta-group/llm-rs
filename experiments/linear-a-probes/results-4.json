@@ -1,0 +1,828 @@
+{
+ "stems": {
+  "sa-s?": [
+   "sesame"
+  ],
+  "sa-m?": [
+   "sesame"
+  ],
+  "su-m?": [
+   "sesame"
+  ],
+  "ku-m?": [
+   "cumin"
+  ],
+  "ka-m?": [
+   "cumin"
+  ],
+  "ku-r?": [
+   "gold"
+  ],
+  "u-r?": [
+   "gold"
+  ],
+  "ki-t?": [
+   "linen tunic",
+   "terebinth"
+  ],
+  "ku-t?": [
+   "linen tunic"
+  ],
+  "ku-p?": [
+   "cyperus",
+   "cypress"
+  ],
+  "ko-r?": [
+   "coriander"
+  ],
+  "ma-r?": [
+   "fennel"
+  ],
+  "se-r?": [
+   "celery"
+  ],
+  "mi-t?": [
+   "mint"
+  ],
+  "mu-r?": [
+   "myrrh"
+  ],
+  "ka-k?": [
+   "copper",
+   "saffron"
+  ],
+  "a-z?": [
+   "saffron"
+  ],
+  "e-r?": [
+   "ivory"
+  ],
+  "a-k?": [
+   "silver"
+  ],
+  "ka-p?": [
+   "cup",
+   "pot",
+   "silver"
+  ],
+  "mo-r?": [
+   "lead"
+  ],
+  "a-p?": [
+   "lead"
+  ],
+  "ku-w?": [
+   "blue glass"
+  ],
+  "a-n?": [
+   "tin"
+  ],
+  "sa-p?": [
+   "bowl"
+  ],
+  "se-p?": [
+   "bowl"
+  ],
+  "ku-n?": [
+   "emmer"
+  ]
+ },
+ "linear_a_hits": {
+  "sa-s?": [
+   "sa-sa-me",
+   "sa-sa-ra-me"
+  ],
+  "sa-m?": [
+   "sa-ma",
+   "sa-ma-ro",
+   "sa-ma-ti",
+   "sa-mi-da-e"
+  ],
+  "ku-m?": [
+   "ku-ma-ju",
+   "ku-ma-ro",
+   "ku-me-ta",
+   "ku-mi-na-ke"
+  ],
+  "ku-r?": [
+   "ku-ra",
+   "ku-ra-mu",
+   "ku-re",
+   "ku-re-ju",
+   "ku-ro",
+   "ku-ru-ku",
+   "ku-ru-ma"
+  ],
+  "u-r?": [
+   "u-re-wi"
+  ],
+  "ki-t?": [
+   "ki-ta",
+   "ki-ta-i",
+   "ki-ta-ni-te"
+  ],
+  "ku-t?": [
+   "ku-ta",
+   "ku-tu-ko-re"
+  ],
+  "ku-p?": [
+   "ku-pa",
+   "ku-pa-ja",
+   "ku-pi"
+  ],
+  "ko-r?": [
+   "ko-ru"
+  ],
+  "ma-r?": [
+   "ma-re",
+   "ma-re-ri-mi-de",
+   "ma-ri",
+   "ma-ri-re-i",
+   "ma-ru",
+   "ma-ru-a",
+   "ma-ru-me"
+  ],
+  "mi-t?": [
+   "mi-ta",
+   "mi-ti",
+   "mi-tu"
+  ],
+  "mu-r?": [
+   "mu-ru"
+  ],
+  "ka-k?": [
+   "ka-ka",
+   "ka-ka-da",
+   "ka-ka-ru",
+   "ka-ki",
+   "ka-ki-se-nu-ti",
+   "ka-ki-ti",
+   "ka-ku",
+   "ka-ku-ne-te",
+   "ka-ku-pa",
+   "ka-ku-re"
+  ],
+  "a-k?": [
+   "a-ka-nu-za-ti",
+   "a-ka-ru",
+   "a-ka-ta",
+   "a-ki-pi-e-te",
+   "a-ki-ro",
+   "a-ko-a-ne",
+   "a-ku-mi-na"
+  ],
+  "ka-p?": [
+   "ka-pa",
+   "ka-pa-ke",
+   "ka-po-ru"
+  ],
+  "a-p?": [
+   "a-pa",
+   "a-pa-du-pa",
+   "a-pa-ki",
+   "a-pa-ra-ne",
+   "a-pi",
+   "a-pu-na-du"
+  ],
+  "a-n?": [
+   "a-na",
+   "a-na-nu-si-ja-se",
+   "a-ne",
+   "a-nu"
+  ],
+  "sa-p?": [
+   "sa-po",
+   "sa-pu"
+  ],
+  "ku-n?": [
+   "ku-ni",
+   "ku-ni-su",
+   "ku-ni-te"
+  ]
+ },
+ "stems_found": 19,
+ "stems_total": 27,
+ "null_mean": 18.34,
+ "p": 0.4427860696517413,
+ "control_p_median": 0.11764705882352941,
+ "control_share_below_alpha": 0.0,
+ "gordon": [
+  {
+   "linear_a": "ku-ni-su",
+   "gloss": "emmer (kunāšu)",
+   "expected_context": "GRA",
+   "occurrences": [
+    {
+     "document": "HT 10a",
+     "next": [
+      "sa",
+      "ma",
+      "AB03"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "transaction"
+     ]
+    },
+    {
+     "document": "HT 86a",
+     "next": [
+      "A584",
+      "sa",
+      "ru"
+     ],
+     "roles": [
+      "logogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 86b",
+     "next": [
+      "A584",
+      "sa",
+      "ru"
+     ],
+     "roles": [
+      "logogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 95b",
+     "next": [
+      "di",
+      "de",
+      "ru"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    }
+   ],
+   "label": "entry"
+  },
+  {
+   "linear_a": "qa-pa3",
+   "gloss": "cup (kappu)",
+   "expected_context": "vessel list HT 31",
+   "occurrences": [
+    {
+     "document": "HT 102",
+     "next": [
+      "sa",
+      "ra2",
+      "AB120/GRA"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 140",
+     "next": [
+      "A707",
+      "A610",
+      "A707"
+     ],
+     "roles": [
+      "fraction",
+      "logogram",
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 6a",
+     "next": [
+      "da",
+      "ta",
+      "ra"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 6a",
+     "next": [
+      "qe",
+      "A707",
+      "A704"
+     ],
+     "roles": [
+      "syllabogram",
+      "fraction",
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 8b",
+     "next": [
+      "A707",
+      "pa",
+      "ja"
+     ],
+     "roles": [
+      "fraction",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 94a",
+     "next": [
+      "AB100/VIR",
+      "AB86",
+      "A523"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    }
+   ],
+   "label": "header"
+  },
+  {
+   "linear_a": "su-pu",
+   "gloss": "bowl (sp)",
+   "expected_context": "vessel list HT 31",
+   "occurrences": [
+    {
+     "document": "ARKH 2",
+     "next": [
+      "wa",
+      "ru",
+      "mi"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 31",
+     "next": [
+      "A416",
+      "ka",
+      "ro"
+     ],
+     "roles": [
+      "logogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 49a",
+     "next": [
+      "AB67",
+      null,
+      "AB69"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 63",
+     "next": [
+      "*79"
+     ],
+     "roles": [
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 87",
+     "next": [
+      "ku",
+      "ru",
+      "ku"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 8b",
+     "next": [
+      "*188",
+      "*56",
+      "*188"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    }
+   ],
+   "label": "other"
+  },
+  {
+   "linear_a": "ka-ro-pa3",
+   "gloss": "pot (karpu)",
+   "expected_context": "vessel list HT 31",
+   "occurrences": [],
+   "label": null
+  },
+  {
+   "linear_a": "su-pa3-ra",
+   "gloss": "bowl (spl)",
+   "expected_context": "vessel list HT 31",
+   "occurrences": [],
+   "label": null
+  },
+  {
+   "linear_a": "ku-ro",
+   "gloss": "total (kull)",
+   "expected_context": "sum line",
+   "occurrences": [
+    {
+     "document": "HT 100",
+     "next": [
+      "sa",
+      "ra2",
+      "A303"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 102",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 104",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 109",
+     "next": [
+      "a",
+      "ra",
+      "ju"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 110a",
+     "next": [
+      "AB30/FIC",
+      null
+     ],
+     "roles": [
+      "logogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 116b",
+     "next": [
+      "AB120/GRA",
+      "A304",
+      "AB302/OLE"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 117a",
+     "next": [
+      "sa",
+      "ta",
+      "ku"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 118",
+     "next": [
+      "AB67"
+     ],
+     "roles": [
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 119",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 11a",
+     "next": [
+      "a",
+      "su",
+      "ja"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 11b",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 122a",
+     "next": [
+      "ku",
+      "da"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 122b",
+     "next": [
+      "po",
+      "to",
+      "ku"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 122b",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 123a",
+     "next": [
+      "AB122/OLIV",
+      "A707",
+      "A308"
+     ],
+     "roles": [
+      "logogram",
+      "fraction",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 123a",
+     "next": [
+      "A706",
+      "ki",
+      "ro"
+     ],
+     "roles": [
+      "fraction",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 123b",
+     "next": [
+      "ki",
+      "ro"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 127b",
+     "next": [
+      "A307",
+      "AB81",
+      "A572"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 127b",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 13",
+     "next": [
+      "A707"
+     ],
+     "roles": [
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 131b",
+     "next": [
+      "A707"
+     ],
+     "roles": [
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 25b",
+     "next": [
+      "wi",
+      "te",
+      "ro"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 25b",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 27a",
+     "next": [
+      "A303",
+      "A707",
+      "A704"
+     ],
+     "roles": [
+      "logogram",
+      "fraction",
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 39",
+     "next": [
+      "A657",
+      "A564",
+      "A534"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 40",
+     "next": [
+      "ku"
+     ],
+     "roles": [
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 46a",
+     "next": [
+      "A707"
+     ],
+     "roles": [
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 74",
+     "next": [
+      null
+     ],
+     "roles": [
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 85a",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 88",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "HT 89",
+     "next": [
+      "A303",
+      "A707",
+      "A704"
+     ],
+     "roles": [
+      "logogram",
+      "fraction",
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 94a",
+     "next": [
+      "sa",
+      "ra2",
+      "A303"
+     ],
+     "roles": [
+      "syllabogram",
+      "syllabogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "HT 94b",
+     "next": [
+      "AB86",
+      "ra",
+      null
+     ],
+     "roles": [
+      "transaction",
+      "syllabogram",
+      "syllabogram"
+     ]
+    },
+    {
+     "document": "HT 9a",
+     "next": [
+      "A707",
+      "A704"
+     ],
+     "roles": [
+      "fraction",
+      "fraction"
+     ]
+    },
+    {
+     "document": "HT 9b",
+     "next": [],
+     "roles": []
+    },
+    {
+     "document": "PH 31a",
+     "next": [
+      "A513",
+      "AB21/OVIS",
+      "AB21/OVIS"
+     ],
+     "roles": [
+      "logogram",
+      "logogram",
+      "logogram"
+     ]
+    },
+    {
+     "document": "ZA 15b",
+     "next": [
+      "AB131/VIN",
+      "A594"
+     ],
+     "roles": [
+      "logogram",
+      "logogram"
+     ]
+    }
+   ],
+   "label": "entry"
+  }
+ ]
+}

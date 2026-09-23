@@ -1,0 +1,65 @@
+{
+ "note": "Hand-entered from experiments/linear-a-next/BACKGROUND.md (AI-compiled brief, 2026-09-23). Confidence tags: E established, D debated, S speculative, U unverified. Nothing here is a reading.",
+ "kom_el_hetan": {
+  "source": "Edel & Görg 2005; Cline & Stannish 2011, JAEI 3.2 (brief §2a)",
+  "rule": "Egyptian group-writing reduced to consonants: weak signs i, A, y, w as vowel carriers are dropped except initial w; b -> p, S -> s, q -> k, D -> d",
+  "names": [
+   {"egyptian": "i-m-n-y-SA", "skeleton": "mns", "place": "Amnisos", "linear_b": "a-mi-ni-so", "confidence": "E"},
+   {"egyptian": "b-A-y-SA-ti", "skeleton": "pst", "place": "Phaistos", "linear_b": "pa-i-to", "confidence": "E"},
+   {"egyptian": "kA-tw-nA-y", "skeleton": "ktn", "place": "Kydonia", "linear_b": "ku-do-ni-ja", "confidence": "E"},
+   {"egyptian": "kA-n-yw-SA", "skeleton": "kns", "place": "Knossos", "linear_b": "ko-no-so", "confidence": "E"},
+   {"egyptian": "ry-kA-ti", "skeleton": "rkt", "place": "Lyktos", "linear_b": "ru-ki-to", "confidence": "E"},
+   {"egyptian": "kA-ty-i-r", "skeleton": "ktr", "place": "Kythera", "linear_b": "ku-te-ra3", "confidence": "E"},
+   {"egyptian": "sA-i-tA-y", "skeleton": "st", "place": "Siteia?", "linear_b": null, "confidence": "D"},
+   {"egyptian": "wA-iw-r-y", "skeleton": "wr", "place": "Eleia?", "linear_b": null, "confidence": "D"}
+  ]
+ },
+ "keftiu_names": {
+  "source": "BM EA 5647 (Peet 1927); normalised forms from an unsourced online list (brief §2a), not checked against Peet",
+  "confidence": "D/U",
+  "names": [["Yishharu", "Ishharu"], ["Nashuja", "Nasuy"], ["Yikashata", "Akashata"], ["Yidini", "Adinai"],
+            ["Pinaruti", "Pinaruta"], ["Rusa"], ["Bansabira"]]
+ },
+ "mycenaean_theonym_keys": ["god", "goddess", "theonym", "Zeus", "Hermes", "Artemis", "Dionysus", "Poseidon", "Erinys", "Athena", "Hera", "Ares", "Paean", "Enyalios"],
+ "greek_god_keys": ["god", "goddess", "deity"],
+ "libation_types": ["stone_vessel", "stone_object", "metal_object"],
+ "trade_words": {
+  "source": "brief §3 table; Linear B forms E, Semitic forms from standard lexica, some U",
+  "items": [
+   {"concept": "sesame", "linear_b": "sa-sa-ma", "semitic": ["šamaššammū"], "other": ["sumisumi"]},
+   {"concept": "cumin", "linear_b": "ku-mi-no", "semitic": ["kamūnu", "kammōn"]},
+   {"concept": "gold", "linear_b": "ku-ru-so", "semitic": ["ḫurāṣu"]},
+   {"concept": "linen tunic", "linear_b": "ki-to", "semitic": ["kitû", "kuttōnet"]},
+   {"concept": "cyperus", "linear_b": "ku-pa-ro", "semitic": []},
+   {"concept": "cypress", "linear_b": "ku-pa-ri-se-ja", "semitic": []},
+   {"concept": "terebinth", "linear_b": "ki-ta-no", "semitic": []},
+   {"concept": "coriander", "linear_b": "ko-ri-ja-do-no", "semitic": []},
+   {"concept": "fennel", "linear_b": "ma-ra-tu-wo", "semitic": []},
+   {"concept": "celery", "linear_b": "se-ri-no", "semitic": []},
+   {"concept": "mint", "linear_b": "mi-ta", "semitic": []},
+   {"concept": "myrrh", "linear_b": null, "semitic": ["murru"]},
+   {"concept": "saffron", "linear_b": null, "semitic": ["karkōm", "azupirānu"]},
+   {"concept": "ivory", "linear_b": "e-re-pa", "semitic": []},
+   {"concept": "silver", "linear_b": "a-ku-ro", "semitic": ["kaspu"]},
+   {"concept": "lead", "linear_b": "mo-ri-wo-do", "semitic": ["abāru"]},
+   {"concept": "copper", "linear_b": "ka-ko", "semitic": []},
+   {"concept": "blue glass", "linear_b": "ku-wa-no", "semitic": []},
+   {"concept": "tin", "linear_b": null, "semitic": ["annaku"]},
+   {"concept": "cup", "linear_b": null, "semitic": ["kappu"]},
+   {"concept": "bowl", "linear_b": null, "semitic": ["sappu", "sēpel"]},
+   {"concept": "pot", "linear_b": null, "semitic": ["karpu"]},
+   {"concept": "emmer", "linear_b": null, "semitic": ["kunāšu"]}
+  ]
+ },
+ "gordon_proposals": {
+  "source": "Gordon 1966 (brief §3); confidence S/D",
+  "items": [
+   {"linear_a": "ku-ni-su", "gloss": "emmer (kunāšu)", "expected_context": "GRA"},
+   {"linear_a": "qa-pa3", "gloss": "cup (kappu)", "expected_context": "vessel list HT 31"},
+   {"linear_a": "su-pu", "gloss": "bowl (sp)", "expected_context": "vessel list HT 31"},
+   {"linear_a": "ka-ro-pa3", "gloss": "pot (karpu)", "expected_context": "vessel list HT 31"},
+   {"linear_a": "su-pa3-ra", "gloss": "bowl (spl)", "expected_context": "vessel list HT 31"},
+   {"linear_a": "ku-ro", "gloss": "total (kull)", "expected_context": "sum line"}
+  ]
+ }
+}

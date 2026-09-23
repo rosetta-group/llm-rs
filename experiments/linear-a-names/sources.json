@@ -1,0 +1,53 @@
+{
+ "retrieved": "2026-09-23",
+ "files": [
+  {
+   "path": "artifacts/linear-a-sources/names/laman_names.csv",
+   "sha256": "b13771f95979259ee9a0f8ef339836f809ba46314eec0a1afcc99fde6fb96973"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/aemw/ugarit/gloss-qpn.json",
+   "sha256": "82c2d774a38715510d0c874a0d6f59f8c895a6f17c35363c3a0455989e8cb1c2"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/aemw/amarna/gloss-qpn.json",
+   "sha256": "b2e5174a897f161ee9c2891375f220edd5501565c69a2278a4c81927c976c9c6"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/aemw/alalakh/idrimi/gloss-qpn.json",
+   "sha256": "c85f1f7d052b7c6db02660e0d25c81e9e8576488d2f90237fb30d4fa955466ab"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/rimanum/gloss-qpn.json",
+   "sha256": "1755cbd56096627f6b13186e389da21c14ec60a55b127545523688d9209bd43a"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/aemw/amarna/metadata.json",
+   "sha256": "5c96dda74d1196f2b8df2b57c0c5f0f156a218de961a902b32ea8ad065d83513"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/aemw/ugarit/metadata.json",
+   "sha256": "93272fcad4f643ad02c2383f64a1757c056440b364696f124a6e0eade8719d60"
+  },
+  {
+   "path": "artifacts/linear-a-sources/names/rimanum/metadata.json",
+   "sha256": "f400da100e6ef2d7b3d2688dc9dbe5f24b3500450fb32a91656ecd0ff3823c1a"
+  }
+ ],
+ "origins": {
+  "laman_names.csv": {
+   "url": "https://laman.hittites.org/export/search/?",
+   "license": "CC BY-SA 4.0 (Akman, Cammarosano, Kryszeń)"
+  },
+  "aemw-*.zip, rimanum.zip": {
+   "url": "https://oracc.museum.upenn.edu/json/",
+   "license": "CC0 (Oracc metadata.json)"
+  },
+  "Greek names": {
+   "source": "../linear-a/sources.json (Wiktionary Ancient Greek)"
+  },
+  "DĀMOS": {
+   "source": "../linear-a-context/sources.json"
+  }
+ }
+}

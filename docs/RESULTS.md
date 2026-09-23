@@ -45,6 +45,10 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 | Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |
 | Segmentation | frozen lexicon segmenter on exact letters, 24 fresh passages | WER 6.1% modern, 39.9% historical | [report](../experiments/segmentation/REPORT.md) |
 | Verse word model | exact letters, 4 fresh Villani + 4 VIT passages; paired baseline | Villani WER 28.37% → 27.35%; VIT 8.49% → 8.38%; misses 3-point transfer threshold; historical rubrics retained in error (2.24% of words) | [report and caveat](../experiments/word-segmentation-v2/REPORT.md) |
+| Length-aware lexicon (dev) | thresholds scaled linearly (primary) or by √length; 10,400 / 20,800 letters | linear 4.78% / 5.14% (fails); √ 3.19% / 3.25% vs unscaled 3.39% / 4.18% | [report](../experiments/length-scaling-v2/REPORT.md) |
+| Length scaling (dev) | round four on 5,200 / 10,400 / 20,800-letter prefixes of 3 dev texts | mean CER 5.62% → 3.39% → 4.18%; spurious pieces 32–75 → 295–408 at 20,800; rule not met | [report](../experiments/length-scaling/REPORT.md) |
+| Voynich transcription suspects | training pages, v101 and EVA, 25k-token natural controls | near-hapax 10.4% / 6.8% of tokens vs 0.9–2.6% natural; 447/2,878 lines differ by ≥ 2 words | [report](../experiments/voynich-suspects/REPORT.md) |
+| Language-ID control | 5 Naibbe ciphertexts (Latin, Old French, German, English, Italian) × 5 equal priors | true language ranks first 5/5; median margin 1.28 bits/letter; Italian smallest (0.75) | [report](../experiments/language-id/REPORT.md) |
 | Round five (v3 segmenter in Naibbe) | ciphertext only, 8 sealed cases (4 Dante, 4 Compagni), paired arms | CER 5.63% unchanged; WER 45.81% → 41.46% segmentation only (8/8 improve), 41.69% with v3 polish; gate failed | [report](../experiments/joint-recovery-v5/REPORT.md) |
 | v3 unknown-word model | exact letters, 4 fresh Compagni + 4 ParTUT passages; paired baseline | Compagni WER 24.01% → 17.46%; ParTUT 7.23% → 6.05%; transfer threshold passed; 10% word gate not met | [report](../experiments/word-segmentation-v3-fresh/REPORT.md) |
 | Codebook-free v0 | annealing, mean score, 1,200–1,800 letters | modern substitution ok; historical selection fails; Naibbe 300%+ CER | [report](../experiments/codebook-free/REPORT.md) |
@@ -73,6 +77,22 @@ Development findings that shaped the rounds (development text only):
 | Extra spaces are missing word forms | 83–90% of extra spaces fall inside lexicon-missing words; adding them (oracle) gives historical WER 2.29% | [diagnosis](../experiments/word-segmentation-v3/REPORT.md) |
 | Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
+
+## Linear A (branch `linear-a`; track closed; summary in [LINEAR_A.md](LINEAR_A.md))
+
+Each method had to find Greek in Linear B (DĀMOS Knossos) at Linear A's size before Linear A was
+run. Rounds one to three failed that control. Rounds four and five found no lead that survived
+their controls. So no Linear A language result exists.
+
+| Round | Method | Result (Linear B control: Greek identified) | Record |
+|---|---|---|---|
+| Anchors | Linear B Cretan toponyms in Linear A; `ku-ro` totals | 2 of 14 found, chance 0.025; 8 of 37 totals exact | [report](../experiments/linear-a/REPORT.md) |
+| One | lexicon match, Linear B spelling, 8 languages | 10% of draws; gate 90%; failed | [report](../experiments/linear-a/REPORT.md) |
+| Two | lexicon match plus name–position agreement | 0% of 20; failed | [report](../experiments/linear-a-context/REPORT.md) |
+| Shared words (exploratory) | Linear A types also in Linear B | 94 against 72.7 by chance (max 88); no gate | [report](../experiments/linear-a-context/REPORT.md) |
+| Three | entry words against 4 proper-name lists | 0% of 20; failed | [report](../experiments/linear-a-names/REPORT.md) |
+| Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; `-re`/`-ru` → `-ro` 12 pairs vs 3.1 (p = 0.0099, the floor of 100 null runs); Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
+| Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear B → Greek 20 of 20; Linear A → Hittite 20 of 20) but shuffled syllables give Hittite 20 of 20 too; artefact of *o*/*u* and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
 
 ## Operational
 

@@ -1,0 +1,78 @@
+{
+ "discovery": [
+  {
+   "rule": "final:re->ro",
+   "pairs": 5,
+   "null": 1.22,
+   "z": 3.3005863240251996
+  }
+ ],
+ "confirmation_pooled": 2,
+ "confirmation_null_mean": 0.78,
+ "confirmation_p": 0.15841584158415842,
+ "per_rule": [
+  {
+   "rule": "final:re->ro",
+   "confirmation_pairs": 2,
+   "confirmation_null": 0.78,
+   "p": 0.15841584158415842
+  }
+ ],
+ "confirmed_rules": [],
+ "pre_named": {
+  "pairs": 12,
+  "null_mean": 3.12,
+  "p": 0.009900990099009901,
+  "note": "seen before the protocol"
+ },
+ "pre_named_pairs": [
+  [
+   "a-du-re",
+   "a-du-ro"
+  ],
+  [
+   "a-ka-ru",
+   "a-ka-ro"
+  ],
+  [
+   "a-ta-re",
+   "a-ta-ro"
+  ],
+  [
+   "a-ti-ru",
+   "a-ti-ro"
+  ],
+  [
+   "di-de-ru",
+   "di-de-ro"
+  ],
+  [
+   "ka-ka-ru",
+   "ka-ka-ro"
+  ],
+  [
+   "ka-sa-ru",
+   "ka-sa-ro"
+  ],
+  [
+   "ka-ta-re",
+   "ka-ta-ro"
+  ],
+  [
+   "ke-ku-re",
+   "ke-ku-ro"
+  ],
+  [
+   "pa-ja-re",
+   "pa-ja-ro"
+  ],
+  [
+   "ta-ta-re",
+   "ta-ta-ro"
+  ],
+  [
+   "te-ja-re",
+   "te-ja-ro"
+  ]
+ ]
+}

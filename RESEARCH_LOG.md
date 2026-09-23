@@ -54,6 +54,73 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: Linear A track closed after five rounds; no language identified.**
+Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
+method had to find Greek in Linear B (DĀMOS, 5,932 documents) at Linear A's size first
+(696 readable word types). Sign values pass a sanity check: 2 of 14 Linear B Cretan place names
+occur in Linear A, chance 0.025. Summary: [docs/LINEAR_A.md](docs/LINEAR_A.md).
+- Round one, whole-language lexicons under Linear B spelling: Greek found in 10% of control
+  draws against a 90% gate. 37% of random Linear-A-shaped words match some Greek lemma.
+  [Report](experiments/linear-a/REPORT.md).
+- Round two, plus name-versus-tablet-position agreement: 0% of 20 on Knossos.
+  [Report](experiments/linear-a-context/REPORT.md).
+- Round three, entry words against four proper-name lists: 0% of 20; only 9 of 32 Mycenaean
+  names are in the classical list. [Report](experiments/linear-a-names/REPORT.md).
+- Round four, seven targeted probes: none below p = 0.007. `-re`/`-ru` → `-ro` gives 12 pairs
+  against 3.1 (p = 0.0099), but 100 null runs could not reach 0.007 and the rule was seen before
+  the protocol. [Report](experiments/linear-a-probes/REPORT.md).
+- Round five, grammar profiles against TLHdig languages: gate passed, Linear A → Hittite 20 of 20.
+  Shuffled syllables also go to Hittite 20 of 20, so the match reflects syllable and *o*/*u*
+  frequencies, not words. [Report](experiments/linear-a-tlhdig/REPORT.md).
+
+No method can identify or rule out a language for Linear A at this size. The limits are the
+spelling, the corpus and the name lists, not compute. CPU only; downloads approved by the owner.
+Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
+([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
+
+**2026-09-23: length-aware lexicon: linear scaling fails; square root levels off at ~3.2% CER.**
+Declared before running. Count thresholds (candidate, prune, repair) and the refine/polish caps
+were scaled with length. Linear scaling (primary) gave a mean CER of 4.78% at 10,400 and 5.14%
+at 20,800, so the rule was not met. It removes spurious pieces (43–49) but misses 60–71 true
+ones. Square-root scaling (secondary) gave 3.19% and 3.25%, against unscaled 3.39% and 4.18%.
+It removes the long-text breakdown but stops improving; modern at 20,800 is 2.57% CER and
+19.6% WER. A single count threshold trades missing against spurious pieces. Next: a
+discriminator not based on counts (length-aware concatenation test, or context reparse),
+against the square-root baseline. CPU, about 2 h in six processes. No cap hit.
+[Report](experiments/length-scaling-v2/REPORT.md).
+
+**2026-09-23: length scaling: 10,400 letters cuts Naibbe CER 40%; 20,800 fails on lexicon growth.**
+Development only; round four unchanged; three texts; nested 5,200 / 10,400 / 20,800-letter prefixes.
+Mean polished CER was 5.62%, then 3.39%, then 4.18%. The declared rule (20,800 at most half of 5,200)
+is not met, so no sealed long round follows. The cause: absolute count thresholds admit frequent
+concatenations as pieces. Spurious pieces grew from 32–75 to 295–408, and split tokens read as one
+whole piece became the main error. Refinement's fixed 300 s cap was also hit at 20,800 (declared
+confound). Missing true pieces fell from about 45 to about 20. Next: a length-aware lexicon
+(thresholds and refine cap scaled with length) under the same rule. CPU, 80 min in three processes.
+[Report](experiments/length-scaling/REPORT.md).
+
+**2026-09-23: Voynich transcription suspects: near-hapax forms far above natural text.**
+Training pages only, no decoding. In v101, 10.4% of tokens occur once and sit one edit from a
+form seen at least 5 times; in EVA, 6.8%. Equal-size Latin, Italian, Old French and German samples
+give 0.9–2.6%. So most such forms are the manuscript's own variation, not misreadings, and the
+filter must not be used to correct the text. EVA substitution pairs mix visually close glyphs
+(a/o, f/k, k/p, n/r, c/s) with word-ending alternations (o/y, s/y, d/y). v101 and EVA differ by
+2 or more certain-space words on 447 of 2,878 lines. The output is a 164-candidate list, with
+the top 50 given as folio loci for human review against the scans. Also defined: an exclusion
+set for sensitivity checks of any later Voynich scoring. [Report](experiments/voynich-suspects/REPORT.md).
+
+**2026-09-23: language-ID control: the true language wins in 5 of 5 Naibbe ciphertexts.**
+The pipeline must not assume Italian for the Voynich text, so this was declared before
+encryption. Five languages (medieval Latin ITTB, Old French, German, English, Italian with
+Compagni) were each encrypted once with Naibbe. Each was decoded under five equal-budget
+order-5 priors (606,976 letters) with round four's shared stages: 25 decodes, no caps hit,
+no download. Score: bits per letter minus the prior's held-out entropy. The true language
+ranked first 5 of 5, with a median margin of 1.28 bits per letter (range 0.75 Italian to 1.33).
+The true-prior decode sits 0.23–0.48 bits above natural text; wrong priors sit 1.2–2.5 above.
+This licenses comparing candidate languages this way for Naibbe-class text. It does not
+establish that Voynich is Naibbe-class or which language it is. A Voynich run remains gated.
+[Report](experiments/language-id/REPORT.md).
+
 **2026-09-23: round five, v3 segmenter in Naibbe recovery: WER 45.8% to 41.5%.**
 Declared and frozen before any passage existed. Eight sealed ciphertext-only cases: four
 fresh Dante and four unused Compagni passages, each with a new key and Naibbe seed. The
@@ -504,6 +571,9 @@ explains why its 128-character reference differs from the earlier 2.3321 mean.
    lexicon, not the model. Letters are not words: word error stays above 38%.
 5. **Voynich meaning remains unvalidated.** No verified Voynich word, passage translation,
    or controlled image association has been produced. Corpus resemblance is not a language label.
+6. **The same methods cannot name Linear A's language.** Lexical tests find Greek in at most 10%
+   of Linear B control samples at Linear A's size; the one profile match (Hittite) also holds for
+   shuffled syllables. [Summary](docs/LINEAR_A.md).
 
 The validation set contains 29 pages from 15 folio groups, with an uneven A/B mix.
 The GC representation is v101; the independent ZL transcription is EVA. Timm and Naibbe

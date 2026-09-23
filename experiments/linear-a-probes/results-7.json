@@ -1,0 +1,2367 @@
+{
+ "rules_used": [
+  "re->ro",
+  "ru->ro"
+ ],
+ "carried": 114,
+ "agreement": 65,
+ "null_mean": 58.2114,
+ "p": 0.12788721127887212,
+ "long_words": [
+  {
+   "linear_a": "a-du-re",
+   "linear_b": "a-du-ro",
+   "la_label": "header",
+   "la_documents": [
+    "KH 4"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ka-ru",
+   "linear_b": "a-ka-ro",
+   "la_label": "header",
+   "la_documents": [
+    "HT 2",
+    "HT 86a",
+    "HT 86b"
+   ],
+   "lb_label": "logogram",
+   "lb_series": {
+    "Sc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ki-ro",
+   "linear_b": "a-ki-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ARKH 4b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Da": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ro-te",
+   "linear_b": "a-ro-te",
+   "la_label": "other",
+   "la_documents": [
+    "CR Zg 4"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "La": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "a-ta-re",
+   "linear_b": "a-ta-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 8"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "An": 1,
+    "Jn": 1
+   },
+   "lb_sites": {
+    "PY": 2
+   }
+  },
+  {
+   "linear_a": "a-ti-ru",
+   "linear_b": "a-ti-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 4a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "i-ja-te",
+   "linear_b": "i-ja-te",
+   "la_label": "other",
+   "la_documents": [
+    "PH Zb 4"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Eq": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "i-ta-ja",
+   "linear_b": "i-ta-ja",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 28a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Od": 1,
+    "Ap": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "da-i-pi-ta",
+   "linear_b": "da-i-pi-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 10a",
+    "ZA 8"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "da-ma-te",
+   "linear_b": "da-ma-te",
+   "la_label": "header",
+   "la_documents": [
+    "KY Za 2"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "En": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "di-de-ru",
+   "linear_b": "di-de-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 86a",
+    "HT 95a",
+    "HT 95b"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dv": 1,
+    "Dl": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ka-ka-ru",
+   "linear_b": "ka-ka-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 118",
+    "HT 122b",
+    "HT 93a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ka-sa-ru",
+   "linear_b": "ka-sa-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Dv": 1,
+    "C-": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ka-ta-re",
+   "linear_b": "ka-ta-ro",
+   "la_label": "other",
+   "la_documents": [
+    "KH 41"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Xg": 1,
+    "As": 1,
+    "Z-": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "ke-ku-re",
+   "linear_b": "ke-ku-ro",
+   "la_label": "other",
+   "la_documents": [
+    "HT 20"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1,
+    "Mn": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ke-ra-ja",
+   "linear_b": "ke-ra-ja",
+   "la_label": "other",
+   "la_documents": [
+    "HT 3"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-da-ro",
+   "linear_b": "ki-da-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a",
+    "HT 47a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "E-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-ri-ta",
+   "linear_b": "ki-ri-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 114a",
+    "HT 121"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ld": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "pa-i-to",
+   "linear_b": "pa-i-to",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 120",
+    "HT 97a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Da": 12,
+    "Dd": 5,
+    "Db": 5,
+    "Dv": 5
+   },
+   "lb_sites": {
+    "KN": 53
+   }
+  },
+  {
+   "linear_a": "pa-ja-re",
+   "linear_b": "pa-ja-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 29",
+    "HT 88",
+    "HT 8b",
+    "ZA 10b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "pa-ra-ne",
+   "linear_b": "pa-ra-ne",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 115a",
+    "HT 115b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "se-to-i-ja",
+   "linear_b": "se-to-i-ja",
+   "la_label": "other",
+   "la_documents": [
+    "PR Za 1"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Do": 4,
+    "As": 3,
+    "X-": 3,
+    "Dq": 2
+   },
+   "lb_sites": {
+    "KN": 22
+   }
+  },
+  {
+   "linear_a": "su-ki-ri-ta",
+   "linear_b": "su-ki-ri-ta",
+   "la_label": "header",
+   "la_documents": [
+    "PH Wa 32"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Db": 2,
+    "Df": 1,
+    "Dv": 1,
+    "Da": 1
+   },
+   "lb_sites": {
+    "KN": 6
+   }
+  },
+  {
+   "linear_a": "ta-na-ti",
+   "linear_b": "ta-na-ti",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10b",
+    "HT 49a",
+    "HT 7a",
+    "HT 98a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Uf": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ta-ta-re",
+   "linear_b": "ta-ta-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "PK 1"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Xd": 1,
+    "Eb": 1,
+    "Eo": 1,
+    "Ep": 1
+   },
+   "lb_sites": {
+    "PY": 3,
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "te-ja-re",
+   "linear_b": "te-ja-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "X-": 2,
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  }
+ ],
+ "table": [
+  {
+   "linear_a": "a-du",
+   "linear_b": "a-du",
+   "la_label": "header",
+   "la_documents": [
+    "HT 133",
+    "HT 85a",
+    "HT 86a",
+    "HT 88",
+    "HT 92",
+    "HT 95b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1,
+    "L-": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "a-du-re",
+   "linear_b": "a-du-ro",
+   "la_label": "header",
+   "la_documents": [
+    "KH 4"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ja",
+   "linear_b": "a-ja",
+   "la_label": "header",
+   "la_documents": [
+    "PE Zc 4",
+    "SY Za 2"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ka-ru",
+   "linear_b": "a-ka-ro",
+   "la_label": "header",
+   "la_documents": [
+    "HT 2",
+    "HT 86a",
+    "HT 86b"
+   ],
+   "lb_label": "logogram",
+   "lb_series": {
+    "Sc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ki-ro",
+   "linear_b": "a-ki-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ARKH 4b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Da": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ma",
+   "linear_b": "a-ma",
+   "la_label": "header",
+   "la_documents": [
+    "HS Zg 1",
+    "MA 1b",
+    "ZA 7b"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "F-": 3,
+    "E-": 3,
+    "X-": 1,
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 8
+   }
+  },
+  {
+   "linear_a": "a-mi",
+   "linear_b": "a-mi",
+   "la_label": "header",
+   "la_documents": [
+    "KH 102",
+    "PH 14b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Fh": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ne",
+   "linear_b": "a-ne",
+   "la_label": "header",
+   "la_documents": [
+    "THE Zb 3"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ag": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-nu",
+   "linear_b": "a-nu",
+   "la_label": "header",
+   "la_documents": [
+    "PE Zb"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Vs": 2,
+    "U-": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "a-pi",
+   "linear_b": "a-pi",
+   "la_label": "header",
+   "la_documents": [
+    "KN Ze 16"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "X-": 1,
+    "Ta": 1,
+    "F-": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "a-ra",
+   "linear_b": "a-ra",
+   "la_label": "other",
+   "la_documents": [
+    "ARKH 1a",
+    "HT 87",
+    "KH 79+89"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Wb": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-re",
+   "linear_b": "a-re",
+   "la_label": "header",
+   "la_documents": [
+    "THE Zb 4"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Fp": 1,
+    "Mc": 1,
+    "X-": 1,
+    "Xd": 1
+   },
+   "lb_sites": {
+    "KN": 4,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "a-ri",
+   "linear_b": "a-ri",
+   "la_label": "other",
+   "la_documents": [
+    "HT 141",
+    "PH 6"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Wa": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "a-ro-te",
+   "linear_b": "a-ro-te",
+   "la_label": "other",
+   "la_documents": [
+    "CR Zg 4"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "La": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "a-ru",
+   "linear_b": "a-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 49a",
+    "HT 9a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "La": 1,
+    "Ta": 1,
+    "L-": 1
+   },
+   "lb_sites": {
+    "PY": 2,
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ta",
+   "linear_b": "a-ta",
+   "la_label": "header",
+   "la_documents": [
+    "KH 39",
+    "SY Za 8"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "An": 2,
+    "Ai": 1
+   },
+   "lb_sites": {
+    "PY": 2,
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "a-ta-re",
+   "linear_b": "a-ta-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 8"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "An": 1,
+    "Jn": 1
+   },
+   "lb_sites": {
+    "PY": 2
+   }
+  },
+  {
+   "linear_a": "a-ti-ru",
+   "linear_b": "a-ti-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 4a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "e-ka",
+   "linear_b": "e-ka",
+   "la_label": "other",
+   "la_documents": [
+    "PE 1"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Cn": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "i-ja",
+   "linear_b": "i-ja",
+   "la_label": "other",
+   "la_documents": [
+    "CR (?)Zf1",
+    "KN Za 10"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Xd": 1,
+    "X-": 1,
+    "Ap": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "i-ja-te",
+   "linear_b": "i-ja-te",
+   "la_label": "other",
+   "la_documents": [
+    "PH Zb 4"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Eq": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "i-ka",
+   "linear_b": "i-ka",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 102",
+    "HT 91"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "i-na",
+   "linear_b": "i-na",
+   "la_label": "header",
+   "la_documents": [
+    "PE Zg 6"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Eb": 1,
+    "Ep": 1
+   },
+   "lb_sites": {
+    "PY": 2
+   }
+  },
+  {
+   "linear_a": "i-pi",
+   "linear_b": "i-pi",
+   "la_label": "other",
+   "la_documents": [
+    "PK Za 8"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Cn": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "i-ta-ja",
+   "linear_b": "i-ta-ja",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 28a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Od": 1,
+    "Ap": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "u-su",
+   "linear_b": "u-su",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "u-ta",
+   "linear_b": "u-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 103"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "u-te",
+   "linear_b": "u-te",
+   "la_label": "header",
+   "la_documents": [
+    "VRY Zb 3"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Sc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "da-i-pi-ta",
+   "linear_b": "da-i-pi-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 10a",
+    "ZA 8"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "da-ma-te",
+   "linear_b": "da-ma-te",
+   "la_label": "header",
+   "la_documents": [
+    "KY Za 2"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "En": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "da-ra",
+   "linear_b": "da-ra",
+   "la_label": "entry",
+   "la_documents": [
+    "PH 7b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1,
+    "Ge": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "da-re",
+   "linear_b": "da-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10a",
+    "HT 10b",
+    "HT 122b",
+    "HT 7a",
+    "HT 85a",
+    "KH 104"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Av": 1,
+    "As": 1,
+    "Dk": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "di-de",
+   "linear_b": "di-de",
+   "la_label": "other",
+   "la_documents": [
+    "HT 86b"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "di-de-ru",
+   "linear_b": "di-de-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 86a",
+    "HT 95a",
+    "HT 95b"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dv": 1,
+    "Dl": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "di-ki",
+   "linear_b": "di-ki",
+   "la_label": "entry",
+   "la_documents": [
+    "ZA 27"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Dv": 1,
+    "Xd": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ja-re",
+   "linear_b": "ja-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "ARKH 1b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vs": 1,
+    "Xn": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ja-ti",
+   "linear_b": "ja-ti",
+   "la_label": "other",
+   "la_documents": [
+    "PS Za 2"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Z-": 1
+   },
+   "lb_sites": {
+    "TI": 1
+   }
+  },
+  {
+   "linear_a": "ka-ka",
+   "linear_b": "ka-ka",
+   "la_label": "entry",
+   "la_documents": [
+    "PK 1"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Z-": 2,
+    "R-": 1,
+    "F-": 1,
+    "Of": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "KH": 2,
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "ka-ka-ru",
+   "linear_b": "ka-ka-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 118",
+    "HT 122b",
+    "HT 93a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ka-na",
+   "linear_b": "ka-na",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 123+124b",
+    "HT 23a"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Ve": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ka-ne",
+   "linear_b": "ka-ne",
+   "la_label": "logogram",
+   "la_documents": [
+    "ARKH 3a",
+    "KH 47"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ft": 1
+   },
+   "lb_sites": {
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "ka-pa",
+   "linear_b": "ka-pa",
+   "la_label": "header",
+   "la_documents": [
+    "HT 102",
+    "HT 105",
+    "HT 140",
+    "HT 6a",
+    "HT 8b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Ft": 8,
+    "Ua": 1,
+    "Un": 1,
+    "Xn": 1
+   },
+   "lb_sites": {
+    "TH": 8,
+    "PY": 3,
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ka-ra",
+   "linear_b": "ka-ra",
+   "la_label": "other",
+   "la_documents": [
+    "HT 139"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "De": 8,
+    "Db": 6,
+    "Uf": 5,
+    "Da": 4
+   },
+   "lb_sites": {
+    "KN": 38,
+    "PY": 2,
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "ka-ru",
+   "linear_b": "ka-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 111a",
+    "HT 75",
+    "HT 97a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Fh": 1,
+    "Ub": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ka-sa",
+   "linear_b": "ka-sa",
+   "la_label": "header",
+   "la_documents": [
+    "HT 111a",
+    "KE 1"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dv": 1,
+    "X-": 1,
+    "Cn": 1,
+    "Gp": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "PY": 1,
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "ka-sa-ru",
+   "linear_b": "ka-sa-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Dv": 1,
+    "C-": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ka-si",
+   "linear_b": "ka-si",
+   "la_label": "header",
+   "la_documents": [
+    "HT Wa 1027"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Ft": 5,
+    "Fq": 1
+   },
+   "lb_sites": {
+    "TH": 6
+   }
+  },
+  {
+   "linear_a": "ka-ta-re",
+   "linear_b": "ka-ta-ro",
+   "la_label": "other",
+   "la_documents": [
+    "KH 41"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Xg": 1,
+    "As": 1,
+    "Z-": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "ka-ti",
+   "linear_b": "ka-ti",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 63"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Tn": 1,
+    "Z-": 1,
+    "Ce": 1
+   },
+   "lb_sites": {
+    "PY": 1,
+    "MY": 1,
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ke-ku-re",
+   "linear_b": "ke-ku-ro",
+   "la_label": "other",
+   "la_documents": [
+    "HT 20"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1,
+    "Mn": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ke-pu",
+   "linear_b": "ke-pu",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 9a",
+    "HT 9b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Ap": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ke-ra-ja",
+   "linear_b": "ke-ra-ja",
+   "la_label": "other",
+   "la_documents": [
+    "HT 3"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-da-ro",
+   "linear_b": "ki-da-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a",
+    "HT 47a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "E-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-ri-ta",
+   "linear_b": "ki-ri-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 114a",
+    "HT 121"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ld": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-ro",
+   "linear_b": "ki-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a",
+    "HT 123+124a",
+    "HT 123+124b",
+    "HT 15",
+    "HT 30",
+    "HT 34"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-ru",
+   "linear_b": "ki-ro",
+   "la_label": "header",
+   "la_documents": [
+    "MI Zb 1"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ki-ta",
+   "linear_b": "ki-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 29"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Bk": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ko-ru",
+   "linear_b": "ko-ru",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 23a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Sk": 4,
+    "Fq": 2
+   },
+   "lb_sites": {
+    "KN": 4,
+    "TH": 2
+   }
+  },
+  {
+   "linear_a": "ku-ka",
+   "linear_b": "ku-ka",
+   "la_label": "other",
+   "la_documents": [
+    "KH 99"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Oe": 1
+   },
+   "lb_sites": {
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "ku-pa",
+   "linear_b": "ku-pa",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 110a",
+    "KH 29",
+    "ZA 11a",
+    "ZA 11b"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ku-re",
+   "linear_b": "ku-re",
+   "la_label": "other",
+   "la_documents": [
+    "HT 39",
+    "HT 53b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Ch": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ku-ro",
+   "linear_b": "ku-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 100",
+    "HT 102",
+    "HT 104",
+    "HT 109",
+    "HT 110a",
+    "HT 116b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Fq": 3,
+    "U-": 1,
+    "Ea": 1,
+    "As": 1
+   },
+   "lb_sites": {
+    "TH": 3,
+    "KN": 2,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ku-ta",
+   "linear_b": "ku-ta",
+   "la_label": "other",
+   "la_documents": [
+    "HT 115b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 2
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ma-di",
+   "linear_b": "ma-di",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 118",
+    "HT 3",
+    "HT 69",
+    "HT 85b",
+    "HT 97a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Db": 1,
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "ma-re",
+   "linear_b": "ma-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 55a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Cn": 3,
+    "Dc": 1,
+    "V-": 1,
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 3,
+    "PY": 3
+   }
+  },
+  {
+   "linear_a": "ma-ri",
+   "linear_b": "ma-ri",
+   "la_label": "other",
+   "la_documents": [
+    "HT 128a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "X-": 2,
+    "Dl": 2,
+    "Ga": 1
+   },
+   "lb_sites": {
+    "KN": 5
+   }
+  },
+  {
+   "linear_a": "ma-ru",
+   "linear_b": "ma-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Cn": 3,
+    "Dc": 1,
+    "V-": 1,
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 3,
+    "PY": 3
+   }
+  },
+  {
+   "linear_a": "mi-ja",
+   "linear_b": "mi-ja",
+   "la_label": "header",
+   "la_documents": [
+    "SY Za 5"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 2
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "mi-ka",
+   "linear_b": "mi-ka",
+   "la_label": "other",
+   "la_documents": [
+    "HT 135a"
+   ],
+   "lb_label": "logogram",
+   "lb_series": {
+    "Fn": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "mi-ta",
+   "linear_b": "mi-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 128a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Ge": 4
+   },
+   "lb_sites": {
+    "MY": 4
+   }
+  },
+  {
+   "linear_a": "mi-ti",
+   "linear_b": "mi-ti",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 61"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Dl": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ni-ta",
+   "linear_b": "ni-ta",
+   "la_label": "header",
+   "la_documents": [
+    "ARKH 4a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ap": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "nu-se",
+   "linear_b": "nu-se",
+   "la_label": "other",
+   "la_documents": [
+    "KN Wb 33"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 2
+   },
+   "lb_sites": {
+    "KN": 1,
+    "TI": 1
+   }
+  },
+  {
+   "linear_a": "pa-i-to",
+   "linear_b": "pa-i-to",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 120",
+    "HT 97a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Da": 12,
+    "Dd": 5,
+    "Db": 5,
+    "Dv": 5
+   },
+   "lb_sites": {
+    "KN": 53
+   }
+  },
+  {
+   "linear_a": "pa-de",
+   "linear_b": "pa-de",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 122a",
+    "HT 9a",
+    "HT 9b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Fp": 2,
+    "C-": 1,
+    "Ga": 1,
+    "Fs": 1
+   },
+   "lb_sites": {
+    "KN": 5
+   }
+  },
+  {
+   "linear_a": "pa-ja",
+   "linear_b": "pa-ja",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 41a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Uf": 1,
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "pa-ja-re",
+   "linear_b": "pa-ja-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 29",
+    "HT 88",
+    "HT 8b",
+    "ZA 10b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "pa-ra-ne",
+   "linear_b": "pa-ra-ne",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 115a",
+    "HT 115b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "pa-re",
+   "linear_b": "pa-re",
+   "la_label": "other",
+   "la_documents": [
+    "HT 4"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Sc": 2,
+    "Dl": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "pa-ta",
+   "linear_b": "pa-ta",
+   "la_label": "other",
+   "la_documents": [
+    "KH 79+89"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1,
+    "Cn": 1,
+    "Fq": 1,
+    "L-": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "PY": 1,
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "pi-ka",
+   "linear_b": "pi-ka",
+   "la_label": "header",
+   "la_documents": [
+    "KH Wc 2123"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Z-": 1
+   },
+   "lb_sites": {
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "pu-ko",
+   "linear_b": "pu-ko",
+   "la_label": "other",
+   "la_documents": [
+    "HT 31"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Dv": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "pu-ra",
+   "linear_b": "pu-ra",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 116a",
+    "KN 54",
+    "ZA 6a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Bk": 1,
+    "Vs": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "pu-re",
+   "linear_b": "pu-ro",
+   "la_label": "header",
+   "la_documents": [
+    "PK Za 28",
+    "PK Za 8"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ab": 24,
+    "Ad": 18,
+    "Cn": 6,
+    "Tn": 6
+   },
+   "lb_sites": {
+    "PY": 63
+   }
+  },
+  {
+   "linear_a": "re-ja",
+   "linear_b": "re-ja",
+   "la_label": "header",
+   "la_documents": [
+    "PK Za 16",
+    "TRA Zb 1"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "L-": 2,
+    "Ai": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "re-ta",
+   "linear_b": "re-ta",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 125b"
+   ],
+   "lb_label": "logogram",
+   "lb_series": {
+    "B-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "re-za",
+   "linear_b": "re-za",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 13",
+    "HT 88",
+    "KH 86"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Fq": 1
+   },
+   "lb_sites": {
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "ri-ja",
+   "linear_b": "ri-ja",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 55b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ro-ka",
+   "linear_b": "ro-ka",
+   "la_label": "header",
+   "la_documents": [
+    "SY Za 11"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Oe": 1
+   },
+   "lb_sites": {
+    "MY": 1
+   }
+  },
+  {
+   "linear_a": "ru-na",
+   "linear_b": "ru-na",
+   "la_label": "entry",
+   "la_documents": [
+    "KN 2"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1,
+    "Un": 1
+   },
+   "lb_sites": {
+    "KN": 1,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "sa-ma",
+   "linear_b": "sa-ma",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10a",
+    "HT 52a",
+    "HT 6b",
+    "ZA 10b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "V-": 1,
+    "X-": 1,
+    "Dk": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "sa-ri",
+   "linear_b": "sa-ri",
+   "la_label": "other",
+   "la_documents": [
+    "ZA 21b"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "An": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "se-to-i-ja",
+   "linear_b": "se-to-i-ja",
+   "la_label": "other",
+   "la_documents": [
+    "PR Za 1"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "Do": 4,
+    "As": 3,
+    "X-": 3,
+    "Dq": 2
+   },
+   "lb_sites": {
+    "KN": 22
+   }
+  },
+  {
+   "linear_a": "si-ka",
+   "linear_b": "si-ka",
+   "la_label": "header",
+   "la_documents": [
+    "HT Wa 1014",
+    "HT Wa 1015",
+    "HT Wa 1016",
+    "HT Wa 1017",
+    "HT Wa 1018",
+    "HT Wa 1028"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ai": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "si-ma",
+   "linear_b": "si-ma",
+   "la_label": "header",
+   "la_documents": [
+    "PH Zb 4"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "En": 1,
+    "Eo": 1
+   },
+   "lb_sites": {
+    "PY": 2
+   }
+  },
+  {
+   "linear_a": "si-pu",
+   "linear_b": "si-pu",
+   "la_label": "header",
+   "la_documents": [
+    "HT Zb 161"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "si-ra",
+   "linear_b": "si-ra",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 49a"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1,
+    "B-": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "su-ki-ri-ta",
+   "linear_b": "su-ki-ri-ta",
+   "la_label": "header",
+   "la_documents": [
+    "PH Wa 32"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Db": 2,
+    "Df": 1,
+    "Dv": 1,
+    "Da": 1
+   },
+   "lb_sites": {
+    "KN": 6
+   }
+  },
+  {
+   "linear_a": "ta-ke",
+   "linear_b": "ta-ke",
+   "la_label": "other",
+   "la_documents": [
+    "ZA 21a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Un": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "ta-na-ti",
+   "linear_b": "ta-na-ti",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 10b",
+    "HT 49a",
+    "HT 7a",
+    "HT 98a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Uf": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ta-ra",
+   "linear_b": "ta-ra",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 89"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Xd": 1,
+    "Ai": 1,
+    "Am": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "ta-ta-re",
+   "linear_b": "ta-ta-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "PK 1"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Xd": 1,
+    "Eb": 1,
+    "Eo": 1,
+    "Ep": 1
+   },
+   "lb_sites": {
+    "PY": 3,
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "te-ja",
+   "linear_b": "te-ja",
+   "la_label": "header",
+   "la_documents": [
+    "PYR Zb 5"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "te-ja-re",
+   "linear_b": "te-ja-ro",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 117a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "X-": 2,
+    "V-": 1
+   },
+   "lb_sites": {
+    "KN": 3
+   }
+  },
+  {
+   "linear_a": "te-ke",
+   "linear_b": "te-ke",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 85a"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ta": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "te-te",
+   "linear_b": "te-te",
+   "la_label": "header",
+   "la_documents": [
+    "ZA 23"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "So": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "ti-ma",
+   "linear_b": "ti-ma",
+   "la_label": "header",
+   "la_documents": [
+    "HT Zf (HM767)"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "Vc": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "to-me",
+   "linear_b": "to-me",
+   "la_label": "entry",
+   "la_documents": [
+    "PE 2"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "Ep": 1
+   },
+   "lb_sites": {
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "to-sa",
+   "linear_b": "to-sa",
+   "la_label": "header",
+   "la_documents": [
+    "PK Za 16"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "X-": 9,
+    "Ld": 4,
+    "L-": 3,
+    "Dp": 3
+   },
+   "lb_sites": {
+    "KN": 29,
+    "PY": 6,
+    "TH": 1
+   }
+  },
+  {
+   "linear_a": "tu-ma",
+   "linear_b": "tu-ma",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 94b"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1
+   },
+   "lb_sites": {
+    "KN": 1
+   }
+  },
+  {
+   "linear_a": "wa-ja",
+   "linear_b": "wa-ja",
+   "la_label": "other",
+   "la_documents": [
+    "KN Ze 44"
+   ],
+   "lb_label": "other",
+   "lb_series": {
+    "L-": 1,
+    "X-": 1,
+    "An": 1
+   },
+   "lb_sites": {
+    "KN": 2,
+    "PY": 1
+   }
+  },
+  {
+   "linear_a": "wa-te",
+   "linear_b": "wa-te",
+   "la_label": "logogram",
+   "la_documents": [
+    "TEL Zb 1"
+   ],
+   "lb_label": "header",
+   "lb_series": {
+    "X-": 1,
+    "Fh": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "wi-du",
+   "linear_b": "wi-du",
+   "la_label": "entry",
+   "la_documents": [
+    "HT 5"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "As": 1,
+    "Vs": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  },
+  {
+   "linear_a": "wi-ja",
+   "linear_b": "wi-ja",
+   "la_label": "header",
+   "la_documents": [
+    "PH 18a"
+   ],
+   "lb_label": "entry",
+   "lb_series": {
+    "U-": 1,
+    "Cf": 1
+   },
+   "lb_sites": {
+    "KN": 2
+   }
+  }
+ ]
+}

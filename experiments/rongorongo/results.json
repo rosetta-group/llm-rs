@@ -1,0 +1,368 @@
+{
+ "train_syllables": 2420833,
+ "held_out_syllables": {
+  "narrative": 134292,
+  "song": 223767
+ },
+ "cells": [
+  {
+   "size": 1300,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 44,
+   "accuracy": 0.8076923076923077,
+   "log_likelihood": -3993.8858702794237,
+   "seconds": 23.1
+  },
+  {
+   "size": 1300,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 52,
+   "accuracy": 0.553076923076923,
+   "log_likelihood": -4143.948017846099,
+   "seconds": 23.2
+  },
+  {
+   "size": 1300,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 43,
+   "accuracy": 0.4869230769230769,
+   "log_likelihood": -3833.695641737448,
+   "seconds": 22.7
+  },
+  {
+   "size": 1300,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 50,
+   "accuracy": 0.5815384615384616,
+   "log_likelihood": -3988.7535551301303,
+   "seconds": 24.4
+  },
+  {
+   "size": 1300,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 45,
+   "accuracy": 0.38076923076923075,
+   "log_likelihood": -4213.243008608558,
+   "seconds": 23.0
+  },
+  {
+   "size": 1300,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 54,
+   "accuracy": 0.4584615384615385,
+   "log_likelihood": -4376.00587920981,
+   "seconds": 22.9
+  },
+  {
+   "size": 1300,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 44,
+   "accuracy": 0.7446153846153846,
+   "log_likelihood": -3990.4505409343365,
+   "seconds": 22.6
+  },
+  {
+   "size": 1300,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 50,
+   "accuracy": 0.5461538461538461,
+   "log_likelihood": -4134.492429045314,
+   "seconds": 22.4
+  },
+  {
+   "size": 2600,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 44,
+   "accuracy": 0.845,
+   "log_likelihood": -7918.785285543425,
+   "seconds": 43.7
+  },
+  {
+   "size": 2600,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 53,
+   "accuracy": 0.8396153846153847,
+   "log_likelihood": -8333.23409150862,
+   "seconds": 30.9
+  },
+  {
+   "size": 2600,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 47,
+   "accuracy": 0.43884615384615383,
+   "log_likelihood": -7901.4802917807965,
+   "seconds": 27.7
+  },
+  {
+   "size": 2600,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 57,
+   "accuracy": 0.8453846153846154,
+   "log_likelihood": -7957.57413928146,
+   "seconds": 32.2
+  },
+  {
+   "size": 2600,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 48,
+   "accuracy": 0.4973076923076923,
+   "log_likelihood": -8479.162534659383,
+   "seconds": 44.7
+  },
+  {
+   "size": 2600,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 58,
+   "accuracy": 0.6034615384615385,
+   "log_likelihood": -9059.785122586552,
+   "seconds": 45.3
+  },
+  {
+   "size": 2600,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 45,
+   "accuracy": 0.8276923076923077,
+   "log_likelihood": -7990.074564421716,
+   "seconds": 49.6
+  },
+  {
+   "size": 2600,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 55,
+   "accuracy": 0.7973076923076923,
+   "log_likelihood": -8350.211533468699,
+   "seconds": 143.7
+  },
+  {
+   "size": 5200,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 46,
+   "accuracy": 0.6826923076923077,
+   "log_likelihood": -15963.69292258182,
+   "seconds": 383.0
+  },
+  {
+   "size": 5200,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 54,
+   "accuracy": 0.8023076923076923,
+   "log_likelihood": -16595.023858224467,
+   "seconds": 160.1
+  },
+  {
+   "size": 5200,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 48,
+   "accuracy": 0.87,
+   "log_likelihood": -15921.990444311205,
+   "seconds": 218.8
+  },
+  {
+   "size": 5200,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 58,
+   "accuracy": 0.8765384615384615,
+   "log_likelihood": -16550.840645011795,
+   "seconds": 125.9
+  },
+  {
+   "size": 5200,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 49,
+   "accuracy": 0.6740384615384616,
+   "log_likelihood": -16927.271049436753,
+   "seconds": 70.6
+  },
+  {
+   "size": 5200,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 59,
+   "accuracy": 0.6576923076923077,
+   "log_likelihood": -17538.26622809819,
+   "seconds": 54.9
+  },
+  {
+   "size": 5200,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 46,
+   "accuracy": 0.8517307692307692,
+   "log_likelihood": -16097.763493097256,
+   "seconds": 52.9
+  },
+  {
+   "size": 5200,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 55,
+   "accuracy": 0.8761538461538462,
+   "log_likelihood": -16809.579539965736,
+   "seconds": 53.3
+  },
+  {
+   "size": 8000,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 49,
+   "accuracy": 0.827875,
+   "log_likelihood": -24575.40005763383,
+   "seconds": 81.5
+  },
+  {
+   "size": 8000,
+   "genre": "narrative",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 59,
+   "accuracy": 0.828,
+   "log_likelihood": -26302.734437636227,
+   "seconds": 81.9
+  },
+  {
+   "size": 8000,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 48,
+   "accuracy": 0.895,
+   "log_likelihood": -24505.86827522843,
+   "seconds": 83.4
+  },
+  {
+   "size": 8000,
+   "genre": "narrative",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 58,
+   "accuracy": 0.89325,
+   "log_likelihood": -25810.77390657274,
+   "seconds": 82.6
+  },
+  {
+   "size": 8000,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "one-to-one",
+   "sign_types": 49,
+   "accuracy": 0.7105,
+   "log_likelihood": -26117.860785649664,
+   "seconds": 134.1
+  },
+  {
+   "size": 8000,
+   "genre": "song",
+   "start": 0.4,
+   "variant": "homophones",
+   "sign_types": 59,
+   "accuracy": 0.77125,
+   "log_likelihood": -26992.35401196326,
+   "seconds": 172.2
+  },
+  {
+   "size": 8000,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "one-to-one",
+   "sign_types": 48,
+   "accuracy": 0.91175,
+   "log_likelihood": -24430.903140520284,
+   "seconds": 174.2
+  },
+  {
+   "size": 8000,
+   "genre": "song",
+   "start": 0.7,
+   "variant": "homophones",
+   "sign_types": 57,
+   "accuracy": 0.913,
+   "log_likelihood": -25631.950154179623,
+   "seconds": 159.5
+  }
+ ],
+ "summary": {
+  "1300 one-to-one": {
+   "mean": 0.605,
+   "min": 0.38076923076923075
+  },
+  "1300 homophones": {
+   "mean": 0.5348076923076923,
+   "min": 0.4584615384615385
+  },
+  "2600 one-to-one": {
+   "mean": 0.6522115384615385,
+   "min": 0.43884615384615383
+  },
+  "2600 homophones": {
+   "mean": 0.7714423076923076,
+   "min": 0.6034615384615385
+  },
+  "5200 one-to-one": {
+   "mean": 0.7696153846153846,
+   "min": 0.6740384615384616
+  },
+  "5200 homophones": {
+   "mean": 0.8031730769230768,
+   "min": 0.6576923076923077
+  },
+  "8000 one-to-one": {
+   "mean": 0.8362812500000001,
+   "min": 0.7105
+  },
+  "8000 homophones": {
+   "mean": 0.851375,
+   "min": 0.77125
+  }
+ },
+ "gate": {
+  "size": 2600,
+  "accuracy": 0.9,
+  "passed": false
+ }
+}

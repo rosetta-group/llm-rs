@@ -1,0 +1,871 @@
+{
+ "sample_size": 696,
+ "mainland_types": 2630,
+ "mainland_labels": {
+  "entry": 1192,
+  "other": 985,
+  "header": 338,
+  "logogram": 115
+ },
+ "linear_a_labels": {
+  "other": 178,
+  "header": 170,
+  "entry": 330,
+  "logogram": 18
+ },
+ "cells": [
+  {
+   "theta": 0.0,
+   "rule": "any",
+   "greek_identified": 0.05,
+   "other_identified": 0.0,
+   "greek_z_median": 0.6411849007223263,
+   "winners": {
+    "Greek": 1,
+    "none": 19
+   },
+   "z": [
+    {
+     "Greek": 3.38,
+     "Etruscan": 1.5,
+     "Akkadian": 0.86,
+     "Sumerian": 0.7,
+     "Hittite": 0.29,
+     "Egyptian": 0.25,
+     "Hebrew": 0.11,
+     "Ugaritic": -1.63
+    },
+    {
+     "Greek": 2.8,
+     "Hittite": 2.12,
+     "Sumerian": 1.72,
+     "Egyptian": 0.44,
+     "Hebrew": 0.31,
+     "Etruscan": -0.03,
+     "Akkadian": -0.99,
+     "Ugaritic": -1.22
+    },
+    {
+     "Sumerian": 1.04,
+     "Egyptian": 0.38,
+     "Greek": 0.2,
+     "Hebrew": 0.03,
+     "Etruscan": -0.65,
+     "Ugaritic": -0.74,
+     "Akkadian": -2.02,
+     "Hittite": -2.38
+    },
+    {
+     "Egyptian": 0.89,
+     "Akkadian": 0.59,
+     "Sumerian": 0.34,
+     "Hittite": 0.27,
+     "Hebrew": 0.01,
+     "Etruscan": -0.02,
+     "Greek": -0.37,
+     "Ugaritic": -0.85
+    },
+    {
+     "Egyptian": 1.24,
+     "Akkadian": 0.93,
+     "Sumerian": 0.68,
+     "Greek": 0.64,
+     "Hebrew": -0.28,
+     "Etruscan": -1.18,
+     "Ugaritic": -1.74,
+     "Hittite": -1.99
+    },
+    {
+     "Sumerian": 1.74,
+     "Greek": 0.2,
+     "Hittite": 0.11,
+     "Akkadian": -0.9,
+     "Ugaritic": -0.94,
+     "Etruscan": -1.26,
+     "Hebrew": -1.46,
+     "Egyptian": -2.07
+    },
+    {
+     "Hittite": 1.4,
+     "Greek": 1.37,
+     "Akkadian": 1.34,
+     "Etruscan": 0.22,
+     "Egyptian": 0.08,
+     "Hebrew": -0.11,
+     "Sumerian": -1.66,
+     "Ugaritic": -1.9
+    },
+    {
+     "Sumerian": 1.18,
+     "Egyptian": 1.14,
+     "Greek": 1.08,
+     "Hittite": 0.56,
+     "Etruscan": 0.27,
+     "Akkadian": -0.31,
+     "Hebrew": -0.31,
+     "Ugaritic": -1.82
+    },
+    {
+     "Akkadian": 1.72,
+     "Greek": 1.08,
+     "Hittite": 0.8,
+     "Etruscan": 0.34,
+     "Sumerian": 0.31,
+     "Hebrew": 0.17,
+     "Egyptian": 0.08,
+     "Ugaritic": -1.61
+    },
+    {
+     "Greek": 2.32,
+     "Sumerian": 1.09,
+     "Hebrew": 0.21,
+     "Hittite": 0.15,
+     "Etruscan": -0.28,
+     "Egyptian": -0.67,
+     "Akkadian": -0.99,
+     "Ugaritic": -2.19
+    },
+    {
+     "Greek": 2.98,
+     "Hebrew": 0.96,
+     "Hittite": 0.08,
+     "Etruscan": -0.15,
+     "Egyptian": -0.15,
+     "Sumerian": -0.7,
+     "Ugaritic": -1.08,
+     "Akkadian": -1.35
+    },
+    {
+     "Hebrew": 1.49,
+     "Hittite": 0.75,
+     "Egyptian": 0.69,
+     "Sumerian": 0.33,
+     "Greek": -0.09,
+     "Ugaritic": -0.12,
+     "Akkadian": -0.29,
+     "Etruscan": -0.84
+    },
+    {
+     "Sumerian": 1.92,
+     "Egyptian": 1.03,
+     "Greek": 0.64,
+     "Hebrew": 0.47,
+     "Etruscan": 0.18,
+     "Akkadian": -0.36,
+     "Ugaritic": -1.13,
+     "Hittite": -1.68
+    },
+    {
+     "Hebrew": 1.5,
+     "Greek": 1.26,
+     "Akkadian": 0.13,
+     "Egyptian": -0.96,
+     "Sumerian": -1.09,
+     "Hittite": -1.18,
+     "Etruscan": -1.37,
+     "Ugaritic": -1.71
+    },
+    {
+     "Hebrew": 1.77,
+     "Egyptian": 1.31,
+     "Akkadian": 1.23,
+     "Etruscan": -0.52,
+     "Ugaritic": -0.68,
+     "Sumerian": -0.84,
+     "Greek": -1.48,
+     "Hittite": -2.4
+    },
+    {
+     "Akkadian": 0.41,
+     "Hebrew": 0.41,
+     "Sumerian": 0.36,
+     "Greek": 0.23,
+     "Ugaritic": 0.14,
+     "Etruscan": -0.42,
+     "Egyptian": -1.46,
+     "Hittite": -2.21
+    },
+    {
+     "Egyptian": 1.53,
+     "Greek": 0.85,
+     "Hittite": 0.57,
+     "Hebrew": -0.27,
+     "Sumerian": -0.44,
+     "Akkadian": -0.98,
+     "Ugaritic": -1.12,
+     "Etruscan": -1.7
+    },
+    {
+     "Sumerian": 2.04,
+     "Hebrew": 0.65,
+     "Akkadian": 0.1,
+     "Etruscan": -0.36,
+     "Greek": -0.5,
+     "Egyptian": -0.87,
+     "Hittite": -1.67,
+     "Ugaritic": -2.09
+    },
+    {
+     "Egyptian": 1.48,
+     "Hebrew": 1.14,
+     "Akkadian": 1.03,
+     "Ugaritic": 0.56,
+     "Sumerian": 0.55,
+     "Hittite": 0.24,
+     "Etruscan": 0.02,
+     "Greek": -0.99
+    },
+    {
+     "Hebrew": 2.65,
+     "Sumerian": 1.03,
+     "Etruscan": 0.97,
+     "Egyptian": 0.75,
+     "Ugaritic": -0.08,
+     "Greek": -0.78,
+     "Akkadian": -1.36,
+     "Hittite": -2.56
+    }
+   ]
+  },
+  {
+   "theta": 0.0,
+   "rule": "majority",
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": 0.2561963414345788,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Egyptian": 0.75,
+     "Greek": 0.14,
+     "Etruscan": 0.11,
+     "Ugaritic": -0.11,
+     "Hebrew": -0.68,
+     "Sumerian": -1.26,
+     "Akkadian": -1.6,
+     "Hittite": -1.88
+    },
+    {
+     "Hebrew": 1.24,
+     "Etruscan": 0.76,
+     "Akkadian": 0.26,
+     "Sumerian": 0.2,
+     "Hittite": -0.27,
+     "Ugaritic": -0.63,
+     "Greek": -0.71,
+     "Egyptian": -1.41
+    },
+    {
+     "Hebrew": 0.93,
+     "Greek": 0.86,
+     "Etruscan": 0.26,
+     "Sumerian": -0.16,
+     "Egyptian": -0.26,
+     "Ugaritic": -1.33,
+     "Akkadian": -1.4,
+     "Hittite": -1.56
+    },
+    {
+     "Hebrew": 0.98,
+     "Ugaritic": 0.96,
+     "Etruscan": 0.76,
+     "Sumerian": 0.56,
+     "Greek": 0.12,
+     "Egyptian": 0.01,
+     "Akkadian": -0.3,
+     "Hittite": -1.38
+    },
+    {
+     "Etruscan": 2.03,
+     "Hittite": 1.34,
+     "Hebrew": 1.13,
+     "Greek": 0.88,
+     "Sumerian": 0.03,
+     "Egyptian": 0.02,
+     "Akkadian": -1.18,
+     "Ugaritic": -1.79
+    },
+    {
+     "Etruscan": 1.32,
+     "Hittite": 0.63,
+     "Greek": 0.12,
+     "Akkadian": -0.28,
+     "Egyptian": -0.42,
+     "Sumerian": -0.55,
+     "Hebrew": -0.72,
+     "Ugaritic": -1.62
+    },
+    {
+     "Hittite": 1.14,
+     "Hebrew": 0.45,
+     "Etruscan": 0.37,
+     "Akkadian": 0.28,
+     "Sumerian": 0.11,
+     "Greek": -0.32,
+     "Egyptian": -0.56,
+     "Ugaritic": -1.0
+    },
+    {
+     "Sumerian": 0.65,
+     "Etruscan": 0.3,
+     "Hebrew": -0.1,
+     "Akkadian": -0.84,
+     "Hittite": -0.98,
+     "Egyptian": -1.32,
+     "Ugaritic": -1.52,
+     "Greek": -1.75
+    },
+    {
+     "Sumerian": 0.38,
+     "Greek": 0.3,
+     "Akkadian": -0.19,
+     "Hittite": -0.34,
+     "Hebrew": -0.76,
+     "Etruscan": -0.86,
+     "Egyptian": -1.21,
+     "Ugaritic": -1.83
+    },
+    {
+     "Hebrew": 1.85,
+     "Greek": 1.55,
+     "Etruscan": 0.95,
+     "Sumerian": 0.68,
+     "Ugaritic": 0.18,
+     "Hittite": -0.27,
+     "Akkadian": -0.36,
+     "Egyptian": -0.4
+    },
+    {
+     "Greek": 1.47,
+     "Sumerian": 0.4,
+     "Hebrew": 0.3,
+     "Egyptian": 0.09,
+     "Etruscan": -0.05,
+     "Ugaritic": -0.47,
+     "Akkadian": -0.68,
+     "Hittite": -1.2
+    },
+    {
+     "Greek": 0.84,
+     "Sumerian": 0.28,
+     "Hebrew": -0.06,
+     "Etruscan": -0.24,
+     "Egyptian": -0.58,
+     "Ugaritic": -0.63,
+     "Akkadian": -1.18,
+     "Hittite": -1.49
+    },
+    {
+     "Etruscan": 2.1,
+     "Sumerian": 0.85,
+     "Greek": 0.77,
+     "Akkadian": -0.07,
+     "Hebrew": -0.11,
+     "Hittite": -0.5,
+     "Egyptian": -0.97,
+     "Ugaritic": -2.48
+    },
+    {
+     "Sumerian": 2.24,
+     "Etruscan": 1.51,
+     "Hittite": 0.36,
+     "Greek": 0.21,
+     "Ugaritic": -0.27,
+     "Akkadian": -0.29,
+     "Hebrew": -0.31,
+     "Egyptian": -0.42
+    },
+    {
+     "Etruscan": 1.37,
+     "Sumerian": 1.32,
+     "Akkadian": 0.77,
+     "Hittite": 0.5,
+     "Greek": 0.48,
+     "Hebrew": 0.11,
+     "Ugaritic": -1.29,
+     "Egyptian": -1.81
+    },
+    {
+     "Hebrew": 2.22,
+     "Sumerian": 1.61,
+     "Greek": 0.19,
+     "Ugaritic": -0.54,
+     "Egyptian": -0.66,
+     "Hittite": -0.66,
+     "Etruscan": -0.72,
+     "Akkadian": -1.3
+    },
+    {
+     "Hebrew": 1.39,
+     "Sumerian": 1.06,
+     "Greek": 0.96,
+     "Hittite": -0.18,
+     "Etruscan": -0.19,
+     "Egyptian": -0.4,
+     "Akkadian": -1.05,
+     "Ugaritic": -2.1
+    },
+    {
+     "Greek": 0.74,
+     "Hebrew": 0.27,
+     "Sumerian": 0.05,
+     "Akkadian": -0.01,
+     "Egyptian": -0.26,
+     "Etruscan": -0.32,
+     "Hittite": -0.62,
+     "Ugaritic": -1.94
+    },
+    {
+     "Hittite": 0.99,
+     "Sumerian": 0.07,
+     "Greek": 0.06,
+     "Akkadian": 0.01,
+     "Hebrew": -0.38,
+     "Egyptian": -0.51,
+     "Etruscan": -0.62,
+     "Ugaritic": -1.78
+    },
+    {
+     "Etruscan": 1.14,
+     "Sumerian": 0.97,
+     "Akkadian": 0.57,
+     "Hittite": 0.31,
+     "Hebrew": 0.0,
+     "Greek": -0.13,
+     "Egyptian": -0.35,
+     "Ugaritic": -1.73
+    }
+   ]
+  },
+  {
+   "theta": 0.2,
+   "rule": "any",
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": 0.7278461333572578,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Sumerian": 0.91,
+     "Etruscan": 0.74,
+     "Egyptian": 0.55,
+     "Akkadian": -0.19,
+     "Greek": -0.37,
+     "Hittite": -0.38,
+     "Hebrew": -0.58,
+     "Ugaritic": -1.25
+    },
+    {
+     "Sumerian": 2.53,
+     "Egyptian": 1.51,
+     "Greek": 1.35,
+     "Hittite": 0.75,
+     "Etruscan": 0.71,
+     "Ugaritic": 0.04,
+     "Hebrew": -1.41,
+     "Akkadian": -2.34
+    },
+    {
+     "Etruscan": 1.21,
+     "Greek": 0.64,
+     "Sumerian": 0.18,
+     "Hittite": -0.17,
+     "Egyptian": -0.34,
+     "Ugaritic": -0.61,
+     "Akkadian": -1.09,
+     "Hebrew": -2.46
+    },
+    {
+     "Egyptian": 1.17,
+     "Sumerian": 0.85,
+     "Greek": 0.74,
+     "Hebrew": 0.36,
+     "Akkadian": 0.29,
+     "Ugaritic": -0.25,
+     "Hittite": -0.98,
+     "Etruscan": -1.12
+    },
+    {
+     "Sumerian": 1.31,
+     "Egyptian": 1.01,
+     "Greek": 0.48,
+     "Hebrew": -0.06,
+     "Etruscan": -0.43,
+     "Ugaritic": -0.95,
+     "Akkadian": -1.41,
+     "Hittite": -1.72
+    },
+    {
+     "Etruscan": 1.26,
+     "Sumerian": 0.96,
+     "Egyptian": 0.83,
+     "Greek": 0.53,
+     "Hebrew": -0.5,
+     "Akkadian": -0.93,
+     "Ugaritic": -1.06,
+     "Hittite": -1.42
+    },
+    {
+     "Greek": 1.72,
+     "Egyptian": 1.67,
+     "Sumerian": 1.61,
+     "Hebrew": -0.14,
+     "Etruscan": -0.3,
+     "Hittite": -0.76,
+     "Ugaritic": -1.36,
+     "Akkadian": -2.05
+    },
+    {
+     "Greek": 1.76,
+     "Egyptian": 1.51,
+     "Etruscan": 0.87,
+     "Akkadian": 0.58,
+     "Sumerian": 0.54,
+     "Hittite": 0.06,
+     "Ugaritic": -0.69,
+     "Hebrew": -0.82
+    },
+    {
+     "Hebrew": 1.25,
+     "Greek": 1.06,
+     "Egyptian": 0.55,
+     "Etruscan": 0.53,
+     "Sumerian": 0.02,
+     "Akkadian": -0.41,
+     "Hittite": -0.82,
+     "Ugaritic": -1.7
+    },
+    {
+     "Sumerian": 1.86,
+     "Etruscan": 1.29,
+     "Egyptian": 1.19,
+     "Hittite": 1.0,
+     "Greek": 0.95,
+     "Akkadian": 0.11,
+     "Hebrew": 0.09,
+     "Ugaritic": -0.55
+    },
+    {
+     "Sumerian": 1.2,
+     "Greek": 1.03,
+     "Etruscan": 0.73,
+     "Hebrew": 0.6,
+     "Hittite": 0.56,
+     "Akkadian": -0.39,
+     "Ugaritic": -0.46,
+     "Egyptian": -1.04
+    },
+    {
+     "Egyptian": 1.07,
+     "Greek": 0.68,
+     "Akkadian": 0.43,
+     "Etruscan": 0.38,
+     "Sumerian": 0.2,
+     "Hebrew": -0.01,
+     "Hittite": -0.68,
+     "Ugaritic": -1.88
+    },
+    {
+     "Etruscan": 2.44,
+     "Hittite": 1.09,
+     "Egyptian": 0.94,
+     "Akkadian": 0.93,
+     "Sumerian": 0.74,
+     "Greek": 0.3,
+     "Hebrew": -0.68,
+     "Ugaritic": -1.72
+    },
+    {
+     "Sumerian": 2.18,
+     "Hittite": -0.09,
+     "Etruscan": -0.12,
+     "Ugaritic": -0.78,
+     "Greek": -0.8,
+     "Akkadian": -1.11,
+     "Hebrew": -1.14,
+     "Egyptian": -1.89
+    },
+    {
+     "Sumerian": 1.3,
+     "Egyptian": 0.54,
+     "Greek": 0.39,
+     "Etruscan": 0.26,
+     "Hittite": -0.42,
+     "Hebrew": -0.9,
+     "Ugaritic": -1.67,
+     "Akkadian": -1.68
+    },
+    {
+     "Greek": 1.85,
+     "Sumerian": 1.49,
+     "Egyptian": 1.38,
+     "Hittite": 0.72,
+     "Etruscan": 0.53,
+     "Hebrew": -0.31,
+     "Akkadian": -1.2,
+     "Ugaritic": -2.99
+    },
+    {
+     "Etruscan": 2.11,
+     "Sumerian": 1.23,
+     "Greek": 1.1,
+     "Egyptian": 0.91,
+     "Ugaritic": 0.13,
+     "Akkadian": 0.0,
+     "Hebrew": -0.29,
+     "Hittite": -1.08
+    },
+    {
+     "Greek": 0.8,
+     "Hittite": 0.29,
+     "Etruscan": -0.07,
+     "Ugaritic": -0.13,
+     "Sumerian": -0.36,
+     "Hebrew": -0.83,
+     "Egyptian": -0.88,
+     "Akkadian": -1.19
+    },
+    {
+     "Greek": 0.47,
+     "Etruscan": -0.19,
+     "Hittite": -0.29,
+     "Sumerian": -0.42,
+     "Akkadian": -0.67,
+     "Egyptian": -1.27,
+     "Hebrew": -1.46,
+     "Ugaritic": -2.25
+    },
+    {
+     "Sumerian": 1.52,
+     "Hittite": 1.07,
+     "Hebrew": 0.86,
+     "Greek": 0.71,
+     "Akkadian": 0.63,
+     "Etruscan": 0.63,
+     "Egyptian": 0.32,
+     "Ugaritic": -0.23
+    }
+   ]
+  },
+  {
+   "theta": 0.2,
+   "rule": "majority",
+   "greek_identified": 0.0,
+   "other_identified": 0.0,
+   "greek_z_median": 0.5047297711319565,
+   "winners": {
+    "none": 20
+   },
+   "z": [
+    {
+     "Egyptian": 1.06,
+     "Etruscan": 1.05,
+     "Hittite": 0.41,
+     "Hebrew": 0.16,
+     "Sumerian": -0.1,
+     "Greek": -0.68,
+     "Akkadian": -1.07,
+     "Ugaritic": -1.21
+    },
+    {
+     "Hittite": 2.43,
+     "Akkadian": 1.36,
+     "Egyptian": 1.31,
+     "Greek": 1.27,
+     "Etruscan": 1.12,
+     "Sumerian": 0.59,
+     "Ugaritic": -0.58,
+     "Hebrew": -1.84
+    },
+    {
+     "Egyptian": 0.92,
+     "Greek": 0.79,
+     "Akkadian": 0.13,
+     "Sumerian": 0.07,
+     "Etruscan": -0.5,
+     "Hittite": -0.69,
+     "Hebrew": -1.35,
+     "Ugaritic": -2.03
+    },
+    {
+     "Ugaritic": 0.69,
+     "Greek": 0.58,
+     "Egyptian": 0.22,
+     "Hittite": -0.06,
+     "Etruscan": -0.11,
+     "Sumerian": -0.45,
+     "Akkadian": -1.13,
+     "Hebrew": -1.9
+    },
+    {
+     "Sumerian": 0.97,
+     "Etruscan": 0.92,
+     "Akkadian": -0.29,
+     "Greek": -0.32,
+     "Hittite": -0.53,
+     "Ugaritic": -0.6,
+     "Hebrew": -0.81,
+     "Egyptian": -0.95
+    },
+    {
+     "Sumerian": 0.85,
+     "Egyptian": 0.27,
+     "Greek": -0.03,
+     "Etruscan": -0.13,
+     "Hittite": -0.72,
+     "Ugaritic": -1.31,
+     "Hebrew": -1.67,
+     "Akkadian": -2.14
+    },
+    {
+     "Etruscan": 1.58,
+     "Sumerian": 0.84,
+     "Akkadian": 0.57,
+     "Hittite": -0.05,
+     "Egyptian": -0.23,
+     "Hebrew": -0.36,
+     "Greek": -0.75,
+     "Ugaritic": -1.74
+    },
+    {
+     "Sumerian": 1.56,
+     "Etruscan": 1.19,
+     "Greek": 0.64,
+     "Egyptian": 0.19,
+     "Ugaritic": -0.23,
+     "Hittite": -0.35,
+     "Akkadian": -0.47,
+     "Hebrew": -0.75
+    },
+    {
+     "Akkadian": 1.44,
+     "Sumerian": 0.83,
+     "Greek": 0.46,
+     "Hittite": 0.27,
+     "Etruscan": 0.16,
+     "Hebrew": -0.65,
+     "Egyptian": -1.12,
+     "Ugaritic": -1.73
+    },
+    {
+     "Etruscan": 1.3,
+     "Sumerian": -0.19,
+     "Egyptian": -0.21,
+     "Greek": -0.26,
+     "Akkadian": -0.3,
+     "Hittite": -0.54,
+     "Ugaritic": -0.59,
+     "Hebrew": -2.5
+    },
+    {
+     "Sumerian": 1.73,
+     "Greek": 1.43,
+     "Hittite": 1.31,
+     "Egyptian": 0.42,
+     "Etruscan": -0.1,
+     "Hebrew": -1.03,
+     "Akkadian": -1.23,
+     "Ugaritic": -1.39
+    },
+    {
+     "Egyptian": 2.2,
+     "Sumerian": 1.31,
+     "Etruscan": 0.66,
+     "Akkadian": -0.2,
+     "Hebrew": -0.35,
+     "Greek": -1.23,
+     "Ugaritic": -1.64,
+     "Hittite": -1.71
+    },
+    {
+     "Etruscan": 1.06,
+     "Sumerian": 0.14,
+     "Egyptian": 0.1,
+     "Hittite": -0.87,
+     "Akkadian": -1.01,
+     "Greek": -1.13,
+     "Hebrew": -1.27,
+     "Ugaritic": -1.54
+    },
+    {
+     "Sumerian": 0.43,
+     "Greek": 0.12,
+     "Akkadian": 0.01,
+     "Hittite": -0.12,
+     "Etruscan": -0.15,
+     "Egyptian": -0.87,
+     "Ugaritic": -1.34,
+     "Hebrew": -1.82
+    },
+    {
+     "Sumerian": 0.85,
+     "Greek": 0.49,
+     "Hittite": -0.25,
+     "Egyptian": -0.29,
+     "Ugaritic": -0.64,
+     "Hebrew": -1.2,
+     "Etruscan": -1.26,
+     "Akkadian": -3.12
+    },
+    {
+     "Greek": 0.51,
+     "Hittite": 0.01,
+     "Etruscan": -0.39,
+     "Ugaritic": -0.72,
+     "Egyptian": -0.85,
+     "Sumerian": -0.9,
+     "Akkadian": -1.66,
+     "Hebrew": -2.1
+    },
+    {
+     "Greek": 1.38,
+     "Sumerian": 0.98,
+     "Hittite": 0.9,
+     "Ugaritic": 0.81,
+     "Akkadian": 0.15,
+     "Etruscan": -0.4,
+     "Hebrew": -1.05,
+     "Egyptian": -1.34
+    },
+    {
+     "Sumerian": 2.36,
+     "Etruscan": 1.69,
+     "Greek": 1.6,
+     "Hittite": 0.12,
+     "Hebrew": -0.94,
+     "Egyptian": -0.97,
+     "Akkadian": -1.12,
+     "Ugaritic": -1.36
+    },
+    {
+     "Etruscan": 1.27,
+     "Egyptian": 0.95,
+     "Greek": 0.91,
+     "Hittite": 0.63,
+     "Hebrew": 0.44,
+     "Sumerian": 0.34,
+     "Ugaritic": -0.4,
+     "Akkadian": -0.52
+    },
+    {
+     "Sumerian": 1.18,
+     "Greek": 1.02,
+     "Ugaritic": 0.08,
+     "Etruscan": -0.04,
+     "Egyptian": -0.09,
+     "Hittite": -0.51,
+     "Akkadian": -0.74,
+     "Hebrew": -1.01
+    }
+   ]
+  }
+ ],
+ "chosen": {
+  "theta": 0.0,
+  "rule": "any"
+ }
+}
