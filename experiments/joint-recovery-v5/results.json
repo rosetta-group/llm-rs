@@ -1,0 +1,396 @@
+{
+  "summary": {
+    "all": {
+      "A": {
+        "cases": 8,
+        "cer": 0.05627068775285031,
+        "wer": 0.4580902671169788,
+        "gate_passes": 0
+      },
+      "B": {
+        "cases": 8,
+        "cer": 0.05627068775285031,
+        "wer": 0.4145942073482755,
+        "gate_passes": 0
+      },
+      "C": {
+        "cases": 8,
+        "cer": 0.05806362633321074,
+        "wer": 0.4169481117592877,
+        "gate_passes": 0
+      }
+    },
+    "dante": {
+      "A": {
+        "cases": 4,
+        "cer": 0.057423301247095646,
+        "wer": 0.4549725920125294,
+        "gate_passes": 0
+      },
+      "B": {
+        "cases": 4,
+        "cer": 0.057423301247095646,
+        "wer": 0.4048551292090838,
+        "gate_passes": 0
+      },
+      "C": {
+        "cases": 4,
+        "cer": 0.05908293423111575,
+        "wer": 0.4081832419733751,
+        "gate_passes": 0
+      }
+    },
+    "compagni": {
+      "A": {
+        "cases": 4,
+        "cer": 0.05518625920142761,
+        "wer": 0.46150546858245767,
+        "gate_passes": 0
+      },
+      "B": {
+        "cases": 4,
+        "cer": 0.05518625920142761,
+        "wer": 0.425262706412181,
+        "gate_passes": 0
+      },
+      "C": {
+        "cases": 4,
+        "cer": 0.05710461744367611,
+        "wer": 0.42654943169633286,
+        "gate_passes": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "009252b552b86382",
+      "dataset": "dante",
+      "characters": 5220,
+      "words": 1259,
+      "A": {
+        "character_errors": 331,
+        "word_errors": 619,
+        "cer": 0.06340996168582376,
+        "wer": 0.49166004765687055,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 331,
+        "word_errors": 547,
+        "cer": 0.06340996168582376,
+        "wer": 0.4344718030182685,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 329,
+        "word_errors": 534,
+        "cer": 0.06302681992337164,
+        "wer": 0.42414614773629866,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 33,
+        "C": 40
+      },
+      "refine_cap_hit": false,
+      "seconds": 495.0620859579649
+    },
+    {
+      "id": "0efb7e2361b1f4b1",
+      "dataset": "compagni",
+      "characters": 5591,
+      "words": 1138,
+      "A": {
+        "character_errors": 327,
+        "word_errors": 531,
+        "cer": 0.05848685387229476,
+        "wer": 0.46660808435852374,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 327,
+        "word_errors": 510,
+        "cer": 0.05848685387229476,
+        "wer": 0.44815465729349735,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 342,
+        "word_errors": 503,
+        "cer": 0.06116973707744589,
+        "wer": 0.44200351493848855,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 41,
+        "C": 41
+      },
+      "refine_cap_hit": false,
+      "seconds": 535.7646222920157
+    },
+    {
+      "id": "46690b31771975fb",
+      "dataset": "compagni",
+      "characters": 5748,
+      "words": 1204,
+      "A": {
+        "character_errors": 286,
+        "word_errors": 579,
+        "cer": 0.04975643702157272,
+        "wer": 0.4808970099667774,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 286,
+        "word_errors": 522,
+        "cer": 0.04975643702157272,
+        "wer": 0.4335548172757475,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 299,
+        "word_errors": 538,
+        "cer": 0.05201809324982603,
+        "wer": 0.446843853820598,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 23,
+        "C": 24
+      },
+      "refine_cap_hit": false,
+      "seconds": 526.3814561660402
+    },
+    {
+      "id": "6b16156be917c09d",
+      "dataset": "compagni",
+      "characters": 5433,
+      "words": 1147,
+      "A": {
+        "character_errors": 254,
+        "word_errors": 481,
+        "cer": 0.046751334437695566,
+        "wer": 0.41935483870967744,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 254,
+        "word_errors": 415,
+        "cer": 0.046751334437695566,
+        "wer": 0.3618134263295554,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 249,
+        "word_errors": 410,
+        "cer": 0.04583103257868581,
+        "wer": 0.35745422842197033,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 19,
+        "C": 24
+      },
+      "refine_cap_hit": false,
+      "seconds": 399.04671483300626
+    },
+    {
+      "id": "97c3ad04e3c66fb0",
+      "dataset": "dante",
+      "characters": 5300,
+      "words": 1278,
+      "A": {
+        "character_errors": 371,
+        "word_errors": 615,
+        "cer": 0.07,
+        "wer": 0.4812206572769953,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 371,
+        "word_errors": 546,
+        "cer": 0.07,
+        "wer": 0.4272300469483568,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 371,
+        "word_errors": 544,
+        "cer": 0.07,
+        "wer": 0.42566510172143973,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 30,
+        "C": 37
+      },
+      "refine_cap_hit": false,
+      "seconds": 803.490188332973
+    },
+    {
+      "id": "9c39f99f110c96ed",
+      "dataset": "dante",
+      "characters": 5354,
+      "words": 1299,
+      "A": {
+        "character_errors": 268,
+        "word_errors": 586,
+        "cer": 0.0500560328726186,
+        "wer": 0.45111624326404925,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 268,
+        "word_errors": 507,
+        "cer": 0.0500560328726186,
+        "wer": 0.3903002309468822,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 299,
+        "word_errors": 525,
+        "cer": 0.05584609637654091,
+        "wer": 0.40415704387990764,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 34,
+        "C": 40
+      },
+      "refine_cap_hit": false,
+      "seconds": 498.2342599160038
+    },
+    {
+      "id": "bd602c0096e25c35",
+      "dataset": "dante",
+      "characters": 5215,
+      "words": 1272,
+      "A": {
+        "character_errors": 241,
+        "word_errors": 504,
+        "cer": 0.04621284755512944,
+        "wer": 0.39622641509433965,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 241,
+        "word_errors": 468,
+        "cer": 0.04621284755512944,
+        "wer": 0.36792452830188677,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 247,
+        "word_errors": 482,
+        "cer": 0.0473633748801534,
+        "wer": 0.3789308176100629,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 23,
+        "C": 25
+      },
+      "refine_cap_hit": false,
+      "seconds": 444.1970875830157
+    },
+    {
+      "id": "f56ce18d0655170b",
+      "dataset": "compagni",
+      "characters": 5643,
+      "words": 1174,
+      "A": {
+        "character_errors": 370,
+        "word_errors": 561,
+        "cer": 0.06556796030480241,
+        "wer": 0.4778534923339012,
+        "gate": false
+      },
+      "B": {
+        "character_errors": 370,
+        "word_errors": 536,
+        "cer": 0.06556796030480241,
+        "wer": 0.4565587734241908,
+        "gate": false
+      },
+      "C": {
+        "character_errors": 390,
+        "word_errors": 538,
+        "cer": 0.06911217437533226,
+        "wer": 0.45826235093696766,
+        "gate": false
+      },
+      "polish_cap_hit": {
+        "A": false,
+        "C": false
+      },
+      "polish_changes": {
+        "A": 32,
+        "C": 33
+      },
+      "refine_cap_hit": false,
+      "seconds": 535.1581162910443
+    }
+  ],
+  "primary_passed": true,
+  "naibbe_gate": false,
+  "challenge": {
+    "public_sha256": "458ceeff0706569373b2df94d886f563c2c61167ac7e2b6d1ea8cd7e0d104361",
+    "answers_sha256": "cd2dc5ddc775ae410093a10e3fc7879c721ff84c30bd139b3b01a410da08a49f",
+    "freeze_sha256": "70d3070c1856e8ee70dae9018ec5558bb2cf46be3a23be0c7358c0bdc4ef9352",
+    "head_commit": "e70b6285de332855dd1659ab67b4da4ca7b3e680",
+    "cases": 8,
+    "compagni_rejected_ids": [
+      "compagni-I-p0046:part0",
+      "compagni-I-p0047:part0",
+      "compagni-I-p0048:part0",
+      "compagni-I-p0049:part0",
+      "compagni-I-p0050:part0",
+      "compagni-I-p0051:part0",
+      "compagni-I-p0052:part0",
+      "compagni-I-p0053:part0",
+      "compagni-I-p0054:part0"
+    ],
+    "compagni_released_paragraphs": 274,
+    "letters": [
+      5220,
+      5300,
+      5215,
+      5354,
+      5643,
+      5748,
+      5591,
+      5433
+    ],
+    "at": 1790165875.935092
+  },
+  "predictions_sha256": "51e25794629b6670dbdcfa193f65c99d7c94f55480f66ce9daa45dfd35c3a4dd",
+  "voynich_run": false
+}

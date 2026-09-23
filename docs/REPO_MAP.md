@@ -31,6 +31,7 @@ Where things live and which files are frozen. Paths are relative to the reposito
 | `segmentation.py` | Lexicon word segmenter (Viterbi with word transitions) | segmentation, rounds 1–4 |
 | `verse_word_model.py` | Training-only verse augmentation; fresh transfer threshold failed | word-segmentation-v2 |
 | `unknown_words.py` | Letter n-gram unknown-word cost, Good–Turing rate, elision join | word-segmentation-v3 |
+| `lexical_polish_v3.py` | Polish cost under the v3 segmenter (round five arm C; not adopted) | round five |
 | `variable_units.py` | Variable-length key beam, iterated local search, annealing, piece induction | rounds 1–4 |
 | `joint_segments.py` | Joint segmentation-and-decipherment EM (latent parses, role emissions) | rounds 1–4 |
 | `joint_segments_v2.py` | Same EM with a candidate-lexicon override and usage pruning | rounds 2–4 |
@@ -56,6 +57,7 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round three | `joint_development_v3.py`, `joint_recovery_v3.py` | `joint-development-v3/` | `joint-recovery-v3/` |
 | Round four | `joint_development_v4.py`, `joint_recovery_v4.py` | `joint-development-v4/` | `joint-recovery-v4/` |
 | Verse word model | `word_segmentation_v2.py`, `word_segmentation_fresh.py`, `word_segmentation_records.py`, `report_word_segmentation.py` | `word-segmentation-v2/development.json` | `word-segmentation-v2/` (perfect letters; extraction caveat) |
+| Round five | `joint_recovery_v5.py` (paired A/B/C segmenter arms) | round-four development | `joint-recovery-v5/` |
 | Word segmentation v3 | `word_segmentation_v3.py` (rubric-free extractor, diagnosis, unknown-word selection), `word_segmentation_v3_fresh.py` | `word-segmentation-v3/development.json` | `word-segmentation-v3-fresh/` (Compagni, ParTUT; transfer passed) |
 
 Inside a fresh-evaluation folder: `freeze.json` (hashes, settings, commit), `results.json`

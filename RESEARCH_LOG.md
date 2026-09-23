@@ -54,6 +54,18 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: round five, v3 segmenter in Naibbe recovery: WER 45.8% to 41.5%.**
+Declared and frozen before any passage existed. Eight sealed ciphertext-only cases: four
+fresh Dante and four unused Compagni passages, each with a new key and Naibbe seed. The
+round-four stages were shared. Arms: A round four; B A's letters with v3 segmentation; C
+v3 in polish and segmentation. Pooled: A 5.63% CER / 45.81% WER, B 5.63% / 41.46%, C
+5.81% / 41.69%. The primary C-vs-A endpoint passed (−4.12 WER points, +0.18 CER). The
+gain is all segmentation. B improves all 8 cases, and the v3 polish cost worsens CER in 5 of 8.
+Adopt v3 for segmentation only. Round four's letter error reproduces on new text. No
+case passes the 1%/10% gate, and no cap was hit. CPU, 71 min. Remaining word error comes
+mostly from letter errors; the candidate lexicon is still the limit.
+[Report](experiments/joint-recovery-v5/REPORT.md).
+
 **2026-09-23: v3 segmenter passes fresh transfer on a new author; word gate not met.**
 With the user's approval, Dino Compagni's *Cronica* (Wikisource) and UD Italian ParTUT
 were pinned after the method freeze and before any passage existed (`bf5dc9a`). ParTUT

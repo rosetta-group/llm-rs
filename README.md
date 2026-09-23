@@ -48,6 +48,12 @@ author, Dino Compagni, perfect-letter word error fell **24.0% to 17.5%**. Modern
 fell **7.2% to 6.0%**. This passes the declared 3-point transfer threshold, the first
 segmenter to do so. The 10% per-passage word gate is still not met.
 
+[Round five](experiments/joint-recovery-v5/REPORT.md) put the v3 segmenter into full
+ciphertext-only Naibbe recovery on eight new sealed passages (Dante and Compagni).
+Letter error is unchanged at **5.6%**. Word error falls **45.8% to 41.5%** from segmentation
+alone, and all 8 cases improve. Using v3 in the polish stage too does not help letters.
+Remaining word error is mostly caused by letter errors.
+
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 
