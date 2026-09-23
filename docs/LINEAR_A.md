@@ -45,6 +45,11 @@ the Linear B archives beyond chance. These support the values; they say nothing 
    Greek name list; Linear B entry words match Greek names *less* often than chance words do
    (6.5% against 8.1%).
 
+A fourth round tried seven targeted probes (Egyptian and Keftiu names, gods, trade words, name
+profiles, spelling rules, role transfer); none passed its threshold
+([report](../experiments/linear-a-probes/REPORT.md)). Greek scribes turning Minoan `-re`/`-ru` names
+into `-ro` gives 12 pairs against 3.1 by chance, supported but not confirmed.
+
 So with open lexicons and this corpus, no lexical test finds Greek where the answer is known.
 None can identify or rule out a language for Linear A. Compute is not the limit: information is.
 
