@@ -1,0 +1,18 @@
+{
+ "files": {
+  "linear_a/spelling.py": "408d205443ba61c878c564377d6ea5c2cd89b09fade18502f872a77fcce81d1b",
+  "linear_a/lexicons.py": "feaf93b46ba3e5fa68ba5381e40ea3c252fd8aa10d78d697e905574630eb66b4",
+  "linear_a/names.py": "e2be79773b3aee3cff8d96dbd49a2e6c0805c1c9f6b1debfa5b4e3876e2d89c5",
+  "linear_a/matching.py": "0d212112447485776e08c3240e7e366c6e2307cf57fa297f74230959624a80ef",
+  "linear_a/contexts.py": "b0164be2917519ee27de17d94c66d1d61ed05d2a1bd84d12fad985c97fd93232",
+  "linear_a/controls.py": "33bcb30b1304369e952cda2fd9c5c58e8239585d1ba6421cc19214644f96648d",
+  "linear_a/corpus.py": "26a0fea45f347ce8626b1cc999a317c88d6bd0c71e333342a3b73516760c9ae2",
+  "experiments/linear_a_context.py": "c97e37d25a1d746624f7ff23fafbd21505d11ebaa906989e8606f5b7a3016bfb",
+  "experiments/linear_a_names.py": "5011e1f196fbadcf271945c717e2a2a5b8a33a71d4fdee9857510cf4d5da8fea",
+  "experiments/linear-a-names/PROTOCOL.md": "3ece8d3aa8f32fa165c80752a9000d13355b198c52d671a011bc7c44889553b4",
+  "experiments/linear-a-names/sources.json": "51bd294eec1c51a443edece46b0d0aa67a3a7cf332452cc6c996e8db8cafcca0",
+  "experiments/linear-a-names/development-results.json": "ccec8f14aeff753987596450fcf5bd9c560b18a5e90002911a2c724cef7f3d4d"
+ },
+ "theta": 0.0,
+ "min_length": 2
+}
