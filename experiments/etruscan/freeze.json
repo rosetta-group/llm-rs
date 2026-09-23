@@ -1,0 +1,29 @@
+{
+ "frozen": "2026-09-23",
+ "files": {
+  "etruscan/__init__.py": "e32ef14af6fb40b3e1aa62b51c4e1b1bc1fa2354edd5af70d531366676c00b0f",
+  "etruscan/corpus.py": "564bb78af76dc0d6c7b34685fb812a7a42ac826ca9be8d75da90f599b45ba48a",
+  "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
+  "etruscan/context.py": "0be2ef3ecaeb1540d74e3deb1bf389f0a6324f6f6d2a503d5b600332f9ab1a04",
+  "linear_a/controls.py": "33bcb30b1304369e952cda2fd9c5c58e8239585d1ba6421cc19214644f96648d",
+  "experiments/etruscan_round_one.py": "3a0eee292182bf0a4a704c993c8285cd9f032d21382a39c365bf1ea1fecfb26b",
+  "experiments/etruscan/PROTOCOL.md": "73c05e404f04f732e50db8f900dd617c02771c54488b1be8aba9fd653cdcb553",
+  "experiments/etruscan/sources.json": "1348619f3b9346feb77569c4f1c8d81b0787ddd2c2b5c498bd6274e0d4ba40f0"
+ },
+ "sources": {
+  "artifacts/etruscan-sources/larth/CIEP_pymupdf.csv": "8ab2d7b7ba1102af4f195cd8d78005f16646aa01efa38e0e11dc1e7c6f350cbc",
+  "artifacts/etruscan-sources/larth/DATA_README.md": "5915b175f9fb55bf8f6921fcb345608f91b9d89b550e928a326333161ee059a4",
+  "artifacts/etruscan-sources/larth/ETPNames.txt": "89ff114c66e96fcebd728c845ee747664a671b86086051ac9e20fdb0f9ab8daf",
+  "artifacts/etruscan-sources/larth/ETPSuff.txt": "59f31063cbb0e68f36a8a81b24eba7f0b9527380fb9057ef1059a7fa76eb1e85",
+  "artifacts/etruscan-sources/larth/ETPWords.txt": "43050375d3fee420cefe39cf08c1b792c9337604320badb3e94031db2107d59b",
+  "artifacts/etruscan-sources/larth/ETP_POS.csv": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+  "artifacts/etruscan-sources/larth/ETP_fix.csv": "8565fb95af147f359dcb43af8e58c36acb0f88cb454d6e3d1d189698db910f42",
+  "artifacts/etruscan-sources/larth/Etruscan.csv": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a",
+  "artifacts/etruscan-sources/larth/LICENSE": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f",
+  "artifacts/etruscan-sources/larth/README.md": "20c9524829f188e878143d3e1519cd5249c5dbde6308eba3ca315a58e60f047b",
+  "artifacts/etruscan-sources/larth/data.py": "45b893bbd6134b6c752712b1606b535232a9695078ba9594c424e963c327a0be",
+  "artifacts/etruscan-sources/larth/utils.py": "e6c906f022599b3d70d3caaca4bdb7ca3c6dcd4e2c2f76aba60ced1e12be6c92",
+  "artifacts/etruscan-sources/lire/LIRE_v3-0.parquet": "1e4b67e8f06898064f823bb25047496e5fc247718723b22da2805bec34d940ce",
+  "artifacts/etruscan-sources/lire/LI_metadata.csv": "fb0cf394e7ca4f88b5d74fa730d3de10a37f71dc606efbe4cfe3c7ea400ac465"
+ }
+}

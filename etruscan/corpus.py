@@ -23,11 +23,26 @@ def normalise(word):
     return MARKS.sub("", word)
 
 
-def tokens(text):
-    """Word tokens of one line; a token containing ``-`` or a digit is kept but marked damaged."""
+ROMAN = re.compile(r"[IVXLC]+")
+
+
+def tokens(text, numerals=False):
+    """Word tokens of one line; a token containing ``-`` or a digit is kept but marked damaged.
+
+    With ``numerals``, an upper-case Roman numeral becomes ``N:<numeral>`` before lower-casing,
+    so that ``XV`` is not read as a word and ``ci`` ("three") is not read as a numeral.
+    A single ``L`` or ``C`` is left as a word: it is usually an abbreviated name.
+    """
     if not isinstance(text, str):
         return []
-    return [w for w in (normalise(t) for t in SEPARATORS.split(text)) if w]
+    out = []
+    for raw in SEPARATORS.split(text):
+        bare = MARKS.sub("", raw)
+        if numerals and ROMAN.fullmatch(bare) and (len(bare) > 1 or bare in "IVX"):
+            out.append("N:" + bare.lower())
+        elif word := normalise(raw):
+            out.append(word)
+    return out
 
 
 def damaged(token):
@@ -46,15 +61,15 @@ def load_rows(path=LARTH / "Etruscan.csv"):
     return rows
 
 
-def texts(rows):
+def texts(rows, numerals=False):
     """``[(source, id, [tokens])]``. ETP rows are whole texts; CIEP rows are lines, joined by CIE number in line order."""
     out = []
     for _, row in rows[rows.source == "ETP"].iterrows():
-        out.append(("ETP", row.ID, tokens(row.Etruscan)))
+        out.append(("ETP", row.ID, tokens(row.Etruscan, numerals)))
     ciep = rows[rows.source == "CIEP"].copy()
     ciep["line"] = ciep["key"].astype(str).str.extract(r"(\d+)")[0].astype(float)
     for cid, group in ciep.sort_values(["ID", "line"], kind="stable").groupby("ID", sort=False):
-        out.append(("CIEP", cid, [t for text in group.Etruscan for t in tokens(text)]))
+        out.append(("CIEP", cid, [t for text in group.Etruscan for t in tokens(text, numerals)]))
     return out
 
 
