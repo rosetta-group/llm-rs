@@ -1,0 +1,149 @@
+{
+ "retrieved": "2026-09-23",
+ "sources": [
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/CREDITS.md",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/CREDITS.md",
+   "sha256": "d8c623da1bffddf4f796f88f78d309540020cd8440512e396b34d14fd40aed5c",
+   "bytes": 7196,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/LICENSE",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/LICENSE",
+   "sha256": "8860dcf34a6c9566da204b896093753195eff3c0a41082f2e70af34063ec5a56",
+   "bytes": 7359,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/LICENSE-NOTICE.md",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/linear_a/data/LICENSE-NOTICE.md",
+   "sha256": "6e32820dac91f6944a0c8101728f232af707555294f41048031425e5f98f53f0",
+   "bytes": 2250,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/PROVENANCE.json",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/linear_a/data/PROVENANCE.json",
+   "sha256": "43ec0796e36275b7833a70b0f31b3cb46b68ca7a559a35fce5830c6165c3b8b9",
+   "bytes": 28500,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/README.md",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/README.md",
+   "sha256": "478055450599bb6bb0921408a421bdbc69d98e353e465f6938e96a1f052449fe",
+   "bytes": 20320,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/corpus.json",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/linear_a/data/corpus.json",
+   "sha256": "34b2d7d65c1377367e9a393cfa4004f6f9101f4ee5eea9f9b1a2ba830466ff59",
+   "bytes": 1539988,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "Navarre-AI/linear-a",
+   "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+   "path": "artifacts/linear-a-sources/navarre/signs.json",
+   "url": "https://raw.githubusercontent.com/Navarre-AI/linear-a/3a83a327505bd5e01c41f05185fdcd74a40fb062/linear_a/data/signs.json",
+   "sha256": "7af75c6e5ee15e44d749222d6c6cebb09b9f9f0369b3dd5b6430451314a95387",
+   "bytes": 273181,
+   "license": "CC BY 4.0; SigLA-derived fields CC BY-NC-SA 4.0 (see LICENSE)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Akkadian",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Akkadian.jsonl",
+   "url": "https://kaikki.org/dictionary/Akkadian/kaikki.org-dictionary-Akkadian.jsonl",
+   "sha256": "dbcf0550254ab96967132c6463125cdbfa9d4d11b2b2c854ff5cebeb76599b99",
+   "bytes": 2886067,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Ancient Greek",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/AncientGreek.jsonl",
+   "url": "https://kaikki.org/dictionary/Ancient%20Greek/kaikki.org-dictionary-AncientGreek.jsonl",
+   "sha256": "725fae40d6daac0841c8cf5ba125a6ab66635d4964a6dbdba7370571c6b466eb",
+   "bytes": 401107810,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Egyptian",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Egyptian.jsonl",
+   "url": "https://kaikki.org/dictionary/Egyptian/kaikki.org-dictionary-Egyptian.jsonl",
+   "sha256": "a279519a1fed94e791e66cbc38887776ee711f40f21afa2ee9777ae4995a1ce6",
+   "bytes": 17356227,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Etruscan",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Etruscan.jsonl",
+   "url": "https://kaikki.org/dictionary/Etruscan/kaikki.org-dictionary-Etruscan.jsonl",
+   "sha256": "8adb469598c643a56ba4ebeccc7ec671064a848603fb9321f0919692ac5d5666",
+   "bytes": 634796,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Hebrew",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Hebrew.jsonl",
+   "url": "https://kaikki.org/dictionary/Hebrew/kaikki.org-dictionary-Hebrew.jsonl",
+   "sha256": "f784486dec30f5281b1815aa6daca80025c70b745c8f8246a9fe5181bb8077ed",
+   "bytes": 58475400,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Hittite",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Hittite.jsonl",
+   "url": "https://kaikki.org/dictionary/Hittite/kaikki.org-dictionary-Hittite.jsonl",
+   "sha256": "e8f0bbb4d204e695972d335a7cbb63b627b95d3366da43c54ae7f55ade63c1b0",
+   "bytes": 4384837,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Mycenaean Greek",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/MycenaeanGreek.jsonl",
+   "url": "https://kaikki.org/dictionary/Mycenaean%20Greek/kaikki.org-dictionary-MycenaeanGreek.jsonl",
+   "sha256": "79a5ba4504be14861f6e5230b9935234fb0f779de5fe873e1f87e16b789f65c6",
+   "bytes": 677606,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Sumerian",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Sumerian.jsonl",
+   "url": "https://kaikki.org/dictionary/Sumerian/kaikki.org-dictionary-Sumerian.jsonl",
+   "sha256": "592d5d16f7b84ae53f5a831e361c1a4237a2a7117bbf27903b4957142b69cdd8",
+   "bytes": 2297280,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  },
+  {
+   "name": "kaikki.org Wiktionary extract: Ugaritic",
+   "revision": "kaikki.org build of 2026-09-20 (Last-Modified header)",
+   "path": "artifacts/linear-a-sources/kaikki/Ugaritic.jsonl",
+   "url": "https://kaikki.org/dictionary/Ugaritic/kaikki.org-dictionary-Ugaritic.jsonl",
+   "sha256": "014b30d7d9e10ef9a48adf946f692c1d100deecc93148ca6895ad8aca2ec7e32",
+   "bytes": 1459781,
+   "license": "CC BY-SA 4.0 and GFDL (Wiktionary)"
+  }
+ ]
+}
