@@ -78,6 +78,17 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-23: length-aware lexicon: linear scaling fails; square root levels off at ~3.2% CER.**
+Declared before running. Count thresholds (candidate, prune, repair) and the refine/polish caps
+were scaled with length. Linear scaling (primary) gave a mean CER of 4.78% at 10,400 and 5.14%
+at 20,800, so the rule was not met. It removes spurious pieces (43–49) but misses 60–71 true
+ones. Square-root scaling (secondary) gave 3.19% and 3.25%, against unscaled 3.39% and 4.18%.
+It removes the long-text breakdown but stops improving; modern at 20,800 is 2.57% CER and
+19.6% WER. A single count threshold trades missing against spurious pieces. Next: a
+discriminator not based on counts (length-aware concatenation test, or context reparse),
+against the square-root baseline. CPU, about 2 h in six processes. No cap hit.
+[Report](experiments/length-scaling-v2/REPORT.md).
+
 **2026-09-23: length scaling: 10,400 letters cuts Naibbe CER 40%; 20,800 fails on lexicon growth.**
 Development only; round four unchanged; three texts; nested 5,200 / 10,400 / 20,800-letter prefixes.
 Mean polished CER was 5.62%, then 3.39%, then 4.18%. The declared rule (20,800 at most half of 5,200)

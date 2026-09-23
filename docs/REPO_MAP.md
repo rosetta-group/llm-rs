@@ -75,6 +75,7 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round three | `joint_development_v3.py`, `joint_recovery_v3.py` | `joint-development-v3/` | `joint-recovery-v3/` |
 | Round four | `joint_development_v4.py`, `joint_recovery_v4.py` | `joint-development-v4/` | `joint-recovery-v4/` |
 | Verse word model | `word_segmentation_v2.py`, `word_segmentation_fresh.py`, `word_segmentation_records.py`, `report_word_segmentation.py` | `word-segmentation-v2/development.json` | `word-segmentation-v2/` (perfect letters; extraction caveat) |
+| Length-aware lexicon | `length_scaling_v2.py` | `length-scaling-v2/` (development) | — |
 | Length scaling | `length_scaling.py` | `length-scaling/` (development) | — |
 | Voynich suspects | `voynich_suspects.py` | — | `voynich-suspects/` (training pages) |
 | Language-ID control | `language_id.py` | — | `language-id/` (5/5 correct) |

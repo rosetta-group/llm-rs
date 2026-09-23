@@ -1,0 +1,93 @@
+{
+  "source": "historical",
+  "rule": "sqrt",
+  "seed": 7000,
+  "rows": [
+    {
+      "letters": 10400,
+      "settings": {
+        "minimum": 8,
+        "prune_usage": 4.242640687119286,
+        "repair_minimum": 3,
+        "repair_usage_floor": 1.4142135623730951,
+        "refine_cap": 600.0,
+        "polish_cap": 2400.0
+      },
+      "tokens": 6854,
+      "refined_cer": 0.03721153846153846,
+      "polished_cer": 0.03682692307692308,
+      "agreement": 0.9508316311642836,
+      "misparsed": {
+        "whole->split": 116,
+        "split->split": 143,
+        "split->whole": 78
+      },
+      "tokens_correct": 0.9508316311642836,
+      "letters_in_correct_tokens": 9842,
+      "wrong_letters_in_correct_tokens": 44,
+      "error_rate_in_correct_tokens": 0.004470636049583418,
+      "letters_in_misparsed_tokens": 558,
+      "share_of_letters_misparsed": 0.053653846153846156,
+      "lexicon": {
+        "pieces": 350,
+        "true": 283,
+        "spurious": 67,
+        "missing": 42
+      },
+      "wer_v3": 0.3036187113857017,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 1949.170326667023
+    },
+    {
+      "letters": 20800,
+      "settings": {
+        "minimum": 12,
+        "prune_usage": 6.0,
+        "repair_minimum": 4,
+        "repair_usage_floor": 2.0,
+        "refine_cap": 1200.0,
+        "polish_cap": 4800.0
+      },
+      "tokens": 13638,
+      "refined_cer": 0.03586538461538462,
+      "polished_cer": 0.03375,
+      "agreement": 0.9518991054406805,
+      "misparsed": {
+        "split->whole": 231,
+        "split->split": 256,
+        "whole->split": 169
+      },
+      "tokens_correct": 0.9518991054406805,
+      "letters_in_correct_tokens": 19657,
+      "wrong_letters_in_correct_tokens": 23,
+      "error_rate_in_correct_tokens": 0.001170066642926184,
+      "letters_in_misparsed_tokens": 1143,
+      "share_of_letters_misparsed": 0.05495192307692308,
+      "lexicon": {
+        "pieces": 496,
+        "true": 296,
+        "spurious": 200,
+        "missing": 38
+      },
+      "wer_v3": 0.2704126426690079,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 4282.1886710419785
+    }
+  ],
+  "protocol_sha256": "2d91daf96e6402096dbb3cddafea2b08abf67b4c03f76bd7f7f04a7793e1454a",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790200790.5641248
+}
