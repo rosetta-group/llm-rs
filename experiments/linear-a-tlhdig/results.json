@@ -1,0 +1,196 @@
+{
+ "list_sizes": {
+  "Greek": 41194,
+  "Hittite": 22114,
+  "Luwian": 963,
+  "Palaic": 375,
+  "Hurrian": 6980,
+  "Hattic": 2382,
+  "Akkadian": 5004
+ },
+ "control_1": {
+  "Hittite": {
+   "nearest": {
+    "Hittite": 20
+   },
+   "sample_size": 300,
+   "passed": true
+  },
+  "Luwian": {
+   "nearest": {
+    "Hurrian": 13,
+    "Luwian": 7
+   },
+   "sample_size": 300,
+   "passed": false
+  },
+  "Palaic": {
+   "nearest": {
+    "Hurrian": 20
+   },
+   "sample_size": 189,
+   "passed": false
+  },
+  "Hurrian": {
+   "nearest": {
+    "Hurrian": 20
+   },
+   "sample_size": 300,
+   "passed": true
+  },
+  "Hattic": {
+   "nearest": {
+    "Hattic": 18,
+    "Hittite": 2
+   },
+   "sample_size": 300,
+   "passed": true
+  },
+  "Akkadian": {
+   "nearest": {
+    "Akkadian": 20
+   },
+   "sample_size": 300,
+   "passed": true
+  }
+ },
+ "control_2": {
+  "Greek": 20
+ },
+ "control_2_passed": true,
+ "linear_a": {
+  "Hittite": 20
+ },
+ "linear_a_entry": {
+  "Hittite": 20
+ },
+ "lead": "Hittite",
+ "keftiu": {
+  "skeletons": {
+   "ꜣšḥr": "sr",
+   "Nsy": "ns",
+   "ꜣkš": "ks",
+   "ꜣkšt": "kst",
+   "ꜣdm": "tm",
+   "Pnrt": "pnrt",
+   "Rs": "rs",
+   "Bndbr": "pntpr",
+   "ỉknw": "knw"
+  },
+  "hits": {
+   "ꜣšḥr": [
+    "a-je-sa",
+    "a-ra",
+    "a-ra-ju",
+    "a-re",
+    "a-ri",
+    "a-ri-ja",
+    "a-ru",
+    "a-sa-ra",
+    "a-se",
+    "a-se-ja",
+    "a-si",
+    "a-su-ja"
+   ],
+   "Nsy": [
+    "a-je-sa",
+    "a-na",
+    "a-ne",
+    "a-nu",
+    "a-se",
+    "a-se-ja",
+    "a-si",
+    "a-su-ja",
+    "e-na-si",
+    "i-na",
+    "i-se",
+    "i-si"
+   ],
+   "ꜣkš": [
+    "e-ka",
+    "i-ka",
+    "i-ki",
+    "u-ki",
+    "ja-ke",
+    "ja-ki",
+    "ja-ku",
+    "ka-a-si",
+    "ka-je",
+    "ka-ju",
+    "ka-sa",
+    "ka-si"
+   ],
+   "ꜣkšt": [
+    "a-ka-ta",
+    "i-ku-ta",
+    "u-ke-ti",
+    "ja-ku-ti-e",
+    "ka-di",
+    "ka-si-a-te",
+    "ka-ti",
+    "ka-ti-ju",
+    "ke-si-te",
+    "ke-ti",
+    "ke-tu",
+    "ki-da"
+   ],
+   "ꜣdm": [
+    "a-da",
+    "a-de",
+    "a-du",
+    "a-ta",
+    "a-tu",
+    "i-da",
+    "i-da-a",
+    "i-da-mi",
+    "i-de",
+    "i-di",
+    "i-ja-te",
+    "i-ta-ja"
+   ],
+   "Pnrt": [
+    "a-pu-na-du",
+    "pa-i-to",
+    "pa-da",
+    "pa-de",
+    "pa-na-tu",
+    "pa-ri-de",
+    "pa-ta",
+    "pi-ta-ja",
+    "pu-de"
+   ],
+   "Rs": [
+    "a-je-sa",
+    "a-ra",
+    "a-ra-ju",
+    "a-re",
+    "a-ri",
+    "a-ri-ja",
+    "a-ri-su",
+    "a-ru",
+    "a-se",
+    "a-se-ja",
+    "a-si",
+    "a-su-ja"
+   ],
+   "Bndbr": [
+    "a-pa-du-pa"
+   ],
+   "ỉknw": []
+  },
+  "hit_counts": {
+   "ꜣšḥr": 38,
+   "Nsy": 24,
+   "ꜣkš": 14,
+   "ꜣkšt": 17,
+   "ꜣdm": 40,
+   "Pnrt": 9,
+   "Rs": 34,
+   "Bndbr": 1,
+   "ỉknw": 0
+  },
+  "names_with_hits": 8,
+  "null_mean": 7.375,
+  "p": 0.35323383084577115
+ }
+}

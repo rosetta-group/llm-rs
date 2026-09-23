@@ -88,6 +88,7 @@ run. None did, so no Linear A language result exists.
 | One | lexicon match, Linear B spelling, 8 languages | 10% of draws; gate 90%; failed | [report](../experiments/linear-a/REPORT.md) |
 | Two | lexicon match plus name–position agreement | 0% of 20; failed | [report](../experiments/linear-a-context/REPORT.md) |
 | Three | entry words against 4 proper-name lists | 0% of 20; failed | [report](../experiments/linear-a-names/REPORT.md) |
+| Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear A → Hittite 20 of 20) but shuffled syllables give the same; artefact of o/u and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
 | Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
 
 ## Operational

@@ -50,6 +50,11 @@ profiles, spelling rules, role transfer); none passed its threshold
 ([report](../experiments/linear-a-probes/REPORT.md)). Greek scribes turning Minoan `-re`/`-ru` names
 into `-ro` gives 12 pairs against 3.1 by chance, supported but not confirmed.
 
+A fifth round compared grammar profiles with Anatolian and Hurrian running text (TLHdig). Linear A
+came out nearest Hittite in 20 of 20 samples, but so did shuffled Linear A syllables; the match
+comes from syllable and vowel frequencies (cuneiform, like Linear A, rarely shows *o*), not from
+words ([report](../experiments/linear-a-tlhdig/REPORT.md)).
+
 So with open lexicons and this corpus, no lexical test finds Greek where the answer is known.
 None can identify or rule out a language for Linear A. Compute is not the limit: information is.
 
