@@ -48,6 +48,30 @@ and `evaluate` refuse to overwrite existing outputs.
 6. `freeze`, commit, `verify`, `prepare`, `solve`, `evaluate`, `REPORT.md`, update `RESEARCH_LOG.md`,
    `README.md`, `docs/RESULTS.md`; archive records; commit.
 
+## Language-test rounds (Linear A and after)
+
+Linear A rounds follow the same cycle, with a known-answer control in place of sealed passages:
+
+```text
+develop     tune on development text only (mainland Linear B, synthetic controls)
+freeze      hash code, sources and settings into freeze.json; commit
+control     run the frozen method on the known-answer text (Knossos Linear B) at the target's size
+gate        pass only if the known language wins in >= 90% of samples and a wrong one in <= 5%
+target      run on the undeciphered text only if the gate passed
+report      REPORT.md, then the log and docs/RESULTS.md
+```
+
+Two lessons from the [Linear A reports](LINEAR_A.md) apply to every such round:
+
+1. **Include a shuffled-syllable negative control in every profile test.** Round five's Hittite
+   match passed its gate, but shuffled Linear A syllables matched Hittite 20 of 20 too
+   ([report](../experiments/linear-a-tlhdig/REPORT.md)). Without the control it would have looked
+   like a lead.
+2. **Make sure the null can reach the threshold.** With $n$ null runs the smallest possible
+   p-value is about $1/(n+1)$. Round four used 100 runs, so its floor was 0.0099 and its threshold
+   p < 0.007 was unreachable ([report](../experiments/linear-a-probes/REPORT.md)). Use at least
+   $1/p_{\text{threshold}}$ runs, for example 1,000 for 0.007.
+
 ## Writing
 
 Reports follow one shape: what was done (bullets), why (two sentences), results (tables, then

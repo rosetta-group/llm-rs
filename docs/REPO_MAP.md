@@ -11,10 +11,11 @@ Where things live and which files are frozen. Paths are relative to the reposito
 | `RESEARCH_LOG.md` | Chronological research record; long, append-only, every experiment and its limits |
 | `RESEARCH_PLAN.md` | Research gates and status per work item |
 | `voynich/` | Library code: data preparation, models, decoders, evaluation |
+| `linear_a/` | Library code of the Linear A track; kept apart so no Voynich round imports or hashes it |
 | `experiments/` | One driver script and one folder per experiment; protocols, results, reports |
 | `tests/` | Unit tests (`python -m unittest discover -s tests`) |
 | `data/folios/` | Archived Voynich scans and pixel descriptions (tracked, ~120 MB) |
-| `artifacts/` | Large or private working files: raw corpora, fitted priors, sealed answers. Git-ignored, hashed in freezes |
+| `artifacts/` | Large or private working files: raw corpora, fitted priors, sealed answers, Linear A sources. Git-ignored, hashed in freezes |
 | `training_run_outputs/` | Model weights and curves from the closed prediction track. Git-ignored |
 
 ## Library (`voynich/`)
@@ -42,6 +43,23 @@ Where things live and which files are frozen. Paths are relative to the reposito
 "Frozen by" means a committed `freeze.json` records the file's hash; changing the file
 breaks `verify` for that round. Add new behaviour in a new module instead.
 
+## Linear A library (`linear_a/`)
+
+| Module | Purpose | Frozen by |
+|---|---|---|
+| `spelling.py` | Syllable tuples; Linear B spelling rules for alphabetic words | Linear A rounds 1–3 |
+| `corpus.py` | Readable Linear A words from the pinned Navarre-AI collation | rounds 1–3 |
+| `lexicons.py` | Candidate-language lexicons from Wiktionary (kaikki) extracts | rounds 1–3 |
+| `matching.py` | Syllable edit distance and lexical match score against a phonotactic null | rounds 1–3 |
+| `controls.py` | Known-answer samples: Linear B signal words mixed with Linear A-like noise | rounds 1–3 |
+| `anchors.py`, `arithmetic.py` | Cretan toponym check; `ku-ro` total check | round 1 |
+| `lexicons_v2.py` | Lexicons with a proper-name flag per form | round 2 |
+| `contexts.py` | Word context labels (entry, logogram, header, other) for Linear A and DĀMOS | rounds 2–3 |
+| `context_test.py` | Name-versus-position agreement statistic and permutation null | round 2 |
+| `names.py` | Proper-name lexicons: Greek, LAMAN Anatolian, Oracc Levant and Babylonia | round 3 |
+| `probes.py` | The seven round-four probes, including the grammar profile | — (protocol committed) |
+| `tlhdig.py` | Word forms by language tag from TLHdig Beta 0.3 | — (protocol committed) |
+
 ## Experiments (`experiments/`)
 
 Each recovery round has a driver, a development folder and a fresh-evaluation folder.
@@ -62,6 +80,22 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Language-ID control | `language_id.py` | — | `language-id/` (5/5 correct) |
 | Round five | `joint_recovery_v5.py` (paired A/B/C segmenter arms) | round-four development | `joint-recovery-v5/` |
 | Word segmentation v3 | `word_segmentation_v3.py` (rubric-free extractor, diagnosis, unknown-word selection), `word_segmentation_v3_fresh.py` | `word-segmentation-v3/development.json` | `word-segmentation-v3-fresh/` (Compagni, ParTUT; transfer passed) |
+
+Linear A rounds have one driver and one record folder each. The Linear B control plays the role
+of the fresh evaluation.
+
+| Round | Driver(s) | Record folder | Outcome |
+|---|---|---|---|
+| One: lexicon match | `linear_a_development.py`, `linear_a_round_one.py`, `linear_a_round_one_report.py` | `linear-a/` (also `PLAN.md`, the track plan) | control failed |
+| Two: tablet position | `linear_a_damos_crawl.py` (DĀMOS download), `linear_a_context.py` | `linear-a-context/` | control failed |
+| Three: name lists | `linear_a_names.py` | `linear-a-names/` | control failed |
+| Scoping after round three | — | `linear-a-next/` (`BACKGROUND.md` research brief, `CORRESPONDENCES.md` exploratory, `SCOPE.md` round-five data) | — |
+| Four: seven probes | `linear_a_probes.py` | `linear-a-probes/` (`lists.json`, `results-1.json` to `results-7.json`) | no probe passed |
+| Five: TLHdig profiles | `linear_a_tlhdig.py` | `linear-a-tlhdig/` | artefact |
+
+Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
+`development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
+five hold `PROTOCOL.md`, their results and `REPORT.md`; five also has `sources.json`.
 
 Inside a fresh-evaluation folder: `freeze.json` (hashes, settings, commit), `results.json`
 (per-case metrics), `REPORT.md` (what it means), `evaluated-records.tar.gz` (the sealed
@@ -86,9 +120,14 @@ Other folders:
 One file per component. `test_joint.py` checks the joint EM against brute-force
 enumeration; `test_polish.py` checks the lexical polish; `test_standard_decipherment.py`
 checks the beam against exhaustive search and the HMM against exhaustive paths.
+`test_linear_a.py` checks the Linear B spelling rules, the matcher and its null, `ku-ro` sums
+and tablet context labels (`.venv/bin/python -m unittest tests.test_linear_a`).
 
 ## What is not in git
 
 `artifacts/` holds raw corpora (restorable from the pinned tarballs), fitted priors
 (refittable from pinned texts, hashed in freezes), sealed answers and predictions (released
 in `evaluated-records.tar.gz` after grading), and prediction-track model files.
+`artifacts/linear-a-sources/` holds the Linear A track's downloads: `navarre/` (Linear A corpus),
+`kaikki/` (Wiktionary lexicons), `damos/` (5,932 Linear B documents), `names/` (LAMAN and Oracc),
+`tlhdig/` (TLHdig Beta 0.3) and `peet/` (Peet 1927 scan). Each round's `sources.json` hashes them.

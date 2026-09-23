@@ -77,19 +77,21 @@ Development findings that shaped the rounds (development text only):
 | Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
 
-## Linear A (branch `linear-a`; summary in [LINEAR_A.md](LINEAR_A.md))
+## Linear A (branch `linear-a`; track closed; summary in [LINEAR_A.md](LINEAR_A.md))
 
 Each method had to find Greek in Linear B (DĀMOS Knossos) at Linear A's size before Linear A was
-run. None did, so no Linear A language result exists.
+run. Rounds one to three failed that control. Rounds four and five found no lead that survived
+their controls. So no Linear A language result exists.
 
-| Round | Method | Linear B control: Greek identified | Record |
+| Round | Method | Result (Linear B control: Greek identified) | Record |
 |---|---|---|---|
-| Anchors | Linear B Cretan toponyms in Linear A | 2 of 14 found; chance 0.025 | [report](../experiments/linear-a/REPORT.md) |
+| Anchors | Linear B Cretan toponyms in Linear A; `ku-ro` totals | 2 of 14 found, chance 0.025; 8 of 37 totals exact | [report](../experiments/linear-a/REPORT.md) |
 | One | lexicon match, Linear B spelling, 8 languages | 10% of draws; gate 90%; failed | [report](../experiments/linear-a/REPORT.md) |
 | Two | lexicon match plus name–position agreement | 0% of 20; failed | [report](../experiments/linear-a-context/REPORT.md) |
+| Shared words (exploratory) | Linear A types also in Linear B | 94 against 72.7 by chance (max 88); no gate | [report](../experiments/linear-a-context/REPORT.md) |
 | Three | entry words against 4 proper-name lists | 0% of 20; failed | [report](../experiments/linear-a-names/REPORT.md) |
-| Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear A → Hittite 20 of 20) but shuffled syllables give the same; artefact of o/u and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
-| Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
+| Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; `-re`/`-ru` → `-ro` 12 pairs vs 3.1 (p = 0.0099, the floor of 100 null runs); Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
+| Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear B → Greek 20 of 20; Linear A → Hittite 20 of 20) but shuffled syllables give Hittite 20 of 20 too; artefact of *o*/*u* and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
 
 ## Operational
 

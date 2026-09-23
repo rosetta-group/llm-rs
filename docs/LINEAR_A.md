@@ -1,9 +1,12 @@
-# Linear A: what three frozen rounds found
+# Linear A: what five rounds found
 
 This page summarises the Linear A track (branch `linear-a`, 2026-09-23). It does not contain a
 translation. It records whether word-matching methods can tell which language Linear A is, and
-why they cannot at present. Round records: [one](../experiments/linear-a/REPORT.md),
-[two](../experiments/linear-a-context/REPORT.md), [three](../experiments/linear-a-names/REPORT.md).
+why they cannot at present. The track is closed. Round records: [one](../experiments/linear-a/REPORT.md),
+[two](../experiments/linear-a-context/REPORT.md), [three](../experiments/linear-a-names/REPORT.md),
+[four](../experiments/linear-a-probes/REPORT.md), [five](../experiments/linear-a-tlhdig/REPORT.md).
+Rounds one to three were frozen by a `freeze.json`; rounds four and five committed their protocol
+and lists before any run.
 
 ## The question, and how it differs from Voynich
 
@@ -62,4 +65,7 @@ None can identify or rule out a language for Linear A. Compute is not the limit:
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).
 Linear B: DĀMOS, 5,932 documents (CC BY-NC-SA 4.0). Lexicons: Wiktionary via kaikki.org (CC BY-SA),
-LAMAN (CC BY-SA 4.0), Oracc (CC0). Results derived from SigLA and DĀMOS carry CC BY-NC-SA 4.0.
+LAMAN (CC BY-SA 4.0), Oracc (CC0). Running text: TLHdig Beta 0.3 (Zenodo 20328284, CC BY 4.0).
+Keftiu names: Peet 1927, *Essays in Aegean Archaeology* (public domain). Results derived from SigLA
+and DĀMOS carry CC BY-NC-SA 4.0. All sources sit in `artifacts/linear-a-sources/` (git-ignored) and
+are hashed in each round's `sources.json`.

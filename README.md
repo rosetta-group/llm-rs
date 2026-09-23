@@ -2,9 +2,10 @@
 
 Controlled experiments on whether computational methods can recover meaning from the
 Voynich manuscript. The repository contains no translation. It contains a prediction track
-(closed), corpus statistics, three image studies (parked), and an active cipher-recovery
+(closed), corpus statistics, three image studies (parked), an active cipher-recovery
 track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
-until grading.
+until grading, and a Linear A track (closed) that applied the same methods to a second
+undeciphered script.
 
 **Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
 [docs/RESULTS.md](docs/RESULTS.md) for every number with its record.
@@ -18,6 +19,7 @@ until grading.
 | Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
 | Can a solver break a Voynich-style cipher without its codebook? | Partly: about 94 letters in 100 on sealed 5,200-letter Dante passages; words about half wrong; pass mark not met | [round four](experiments/joint-recovery-v4/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
+| Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 
 Latest sealed recovery results (Naibbe cipher, codebook-free):
 
@@ -63,14 +65,24 @@ Naibbe-class or name its language.
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 
+The [Linear A track](docs/LINEAR_A.md) (branch `linear-a`, 2026-09-23) reverses the Voynich
+problem: sign sounds are roughly known, the language is not. Five rounds tested lexicon
+matching, tablet position, name lists, seven targeted probes and grammar profiles. Every
+method was checked first on Linear B, which is Greek. The three lexical rounds found Greek in at
+most 10% of Linear B samples against a 90% gate. No round-four probe reached p < 0.007. Round
+five's Hittite profile match also appears for shuffled syllables, so it is an artefact. The track is closed. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
+ranks other undeciphered scripts; the next candidate is Rongorongo.
+
 ## Documentation
 
 | Page | For |
 |---|---|
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
+| [docs/LINEAR_A.md](docs/LINEAR_A.md) | The Linear A track: five rounds, why none identified a language |
+| [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
-| [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze |
+| [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze, Linear B, entry word |
 | [docs/CONVENTIONS.md](docs/CONVENTIONS.md) | How a round is frozen, sealed, graded and reported |
 | [docs/REPRODUCE.md](docs/REPRODUCE.md) | Setup and every command |
 | [docs/COMMIT_MAP.md](docs/COMMIT_MAP.md) | Old to new commit hashes after the one history rewrite |
@@ -102,4 +114,6 @@ Naibbe cipher code and data: Michael A. Greshko (2025), *The Naibbe cipher: a su
 cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext*, Cryptologia,
 modified MIT licence. Italian texts: Universal Dependencies treebanks (VIT is CC BY-NC-SA
 3.0) and Wikisource transcriptions (CC BY-SA); manifests with revisions, hashes and licences accompany each
-experiment. Manuscript scans: Yale Beinecke Library; see `data/folios/sources/`.
+experiment. Manuscript scans: Yale Beinecke Library; see `data/folios/sources/`. Linear A and
+Linear B data (SigLA via Navarre-AI, DĀMOS, TLHdig, LAMAN, Oracc): see
+[docs/LINEAR_A.md](docs/LINEAR_A.md#data-and-licences).

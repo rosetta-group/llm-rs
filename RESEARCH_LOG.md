@@ -54,6 +54,30 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: Linear A track closed after five rounds; no language identified.**
+Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
+method had to find Greek in Linear B (DĀMOS, 5,932 documents) at Linear A's size first
+(696 readable word types). Sign values pass a sanity check: 2 of 14 Linear B Cretan place names
+occur in Linear A, chance 0.025. Summary: [docs/LINEAR_A.md](docs/LINEAR_A.md).
+- Round one, whole-language lexicons under Linear B spelling: Greek found in 10% of control
+  draws against a 90% gate. 37% of random Linear-A-shaped words match some Greek lemma.
+  [Report](experiments/linear-a/REPORT.md).
+- Round two, plus name-versus-tablet-position agreement: 0% of 20 on Knossos.
+  [Report](experiments/linear-a-context/REPORT.md).
+- Round three, entry words against four proper-name lists: 0% of 20; only 9 of 32 Mycenaean
+  names are in the classical list. [Report](experiments/linear-a-names/REPORT.md).
+- Round four, seven targeted probes: none below p = 0.007. `-re`/`-ru` → `-ro` gives 12 pairs
+  against 3.1 (p = 0.0099), but 100 null runs could not reach 0.007 and the rule was seen before
+  the protocol. [Report](experiments/linear-a-probes/REPORT.md).
+- Round five, grammar profiles against TLHdig languages: gate passed, Linear A → Hittite 20 of 20.
+  Shuffled syllables also go to Hittite 20 of 20, so the match reflects syllable and *o*/*u*
+  frequencies, not words. [Report](experiments/linear-a-tlhdig/REPORT.md).
+
+No method can identify or rule out a language for Linear A at this size. The limits are the
+spelling, the corpus and the name lists, not compute. CPU only; downloads approved by the owner.
+Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
+([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
+
 **2026-09-23: length scaling: 10,400 letters cuts Naibbe CER 40%; 20,800 fails on lexicon growth.**
 Development only; round four unchanged; three texts; nested 5,200 / 10,400 / 20,800-letter prefixes.
 Mean polished CER was 5.62%, then 3.39%, then 4.18%. The declared rule (20,800 at most half of 5,200)
@@ -536,6 +560,9 @@ explains why its 128-character reference differs from the earlier 2.3321 mean.
    lexicon, not the model. Letters are not words: word error stays above 38%.
 5. **Voynich meaning remains unvalidated.** No verified Voynich word, passage translation,
    or controlled image association has been produced. Corpus resemblance is not a language label.
+6. **The same methods cannot name Linear A's language.** Lexical tests find Greek in at most 10%
+   of Linear B control samples at Linear A's size; the one profile match (Hittite) also holds for
+   shuffled syllables. [Summary](docs/LINEAR_A.md).
 
 The validation set contains 29 pages from 15 folio groups, with an uneven A/B mix.
 The GC representation is v101; the independent ZL transcription is EVA. Timm and Naibbe

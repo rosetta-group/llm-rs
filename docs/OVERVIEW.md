@@ -4,6 +4,7 @@ This repository tests whether computational methods can recover meaning from the
 manuscript, a 15th-century book written in an unknown script. It does not contain a
 translation. It contains a sequence of controlled experiments, each frozen before it was
 graded, that narrow down what kind of method could work and what would count as evidence.
+A fifth track applied the same methods to Linear A, a second undeciphered script.
 
 Read this page first. The [results table](RESULTS.md) has every number; the
 [research log](../RESEARCH_LOG.md) is the full chronological record.
@@ -111,7 +112,7 @@ unknown words with a letter-level spelling model instead. On a new author, Dino 
 word error fell from 24.0% to 17.5%, and modern ParTUT fell from 7.2% to 6.0%. This passes
 the declared transfer threshold, but no historical passage reaches 10% word error.
 
-Current standing on four sealed 5,200-letter Dante passages (round four):
+Round four, on four sealed 5,200-letter Dante passages:
 
 | Text | Character error | Word error | Round three |
 |---|---:|---:|---:|
@@ -126,14 +127,46 @@ list were repaired from the ciphertext alone: frequent two-letter strings that h
 as one-letter pieces, and rare-letter pieces that never passed the frequency threshold. Dante
 error halved. Modern Italian was not re-run: the test corpus is used up after three rounds.
 
-## What is known, in five sentences
+[Round five](../experiments/joint-recovery-v5/REPORT.md) is the current standing. It put the
+v3 segmenter into full recovery on eight new sealed passages (four Dante, four Compagni).
+Character error stayed at 5.63%; word error fell from 45.8% to 41.5%, and all 8 cases improved.
+Remaining word error comes mostly from letter errors. A
+[language-ID control](../experiments/language-id/REPORT.md) encrypted five languages with
+Naibbe; the true language's prior fit best 5 of 5 times.
+
+## Track five: Linear A (closed)
+
+Linear A is a Bronze Age Cretan script. Most sign sounds are roughly known from Linear B; the
+language is not. So the question became: do Linear A words match some known language more than
+chance allows? The corpus has 696 readable word types. Every method had to find Greek first in
+Linear B (DĀMOS, 5,932 documents), cut to Linear A's size. Linear B is Greek, so the answer there
+is known.
+
+| Round | Method | Linear B control | Record |
+|---|---|---|---|
+| One | whole-language lexicons, Linear B spelling | Greek found in 10% of draws; gate 90% | [report](../experiments/linear-a/REPORT.md) |
+| Two | as one, plus name versus tablet position | 0% | [report](../experiments/linear-a-context/REPORT.md) |
+| Three | entry words against proper-name lists | 0% | [report](../experiments/linear-a-names/REPORT.md) |
+| Four | seven targeted probes (Egyptian, Keftiu, gods, trade, profiles, spelling rules, roles) | no probe below p = 0.007; god and trade-word controls failed | [report](../experiments/linear-a-probes/REPORT.md) |
+| Five | grammar profiles against Hittite, Hurrian and other TLHdig languages | passed, but Linear A's Hittite match also holds for shuffled syllables | [report](../experiments/linear-a-tlhdig/REPORT.md) |
+
+The sign values pass a sanity check: 2 of 14 Linear B Cretan place names occur in Linear A,
+against 0.025 by chance. The lexical tests fail because Linear B spelling drops final
+consonants, so 37% of random Linear-A-shaped words match some Greek lemma. Open name lists also
+lack Bronze Age names. No method can identify or rule out a language for Linear A at this size.
+The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
+scripts, with Rongorongo next.
+
+## What is known, in six sentences
 
 Voynich text has real structure, and prediction alone cannot say what kind. Word-length
 clustering rules out the simplest cipher of a European language. Nothing yet links text to
-pictures beyond scribe and layout. A codebook-free solver can now recover about nine letters
-in ten of a Voynich-style cipher when given 5,000 letters of it and the right language. No
+pictures beyond scribe and layout. A codebook-free solver can now recover about 94 letters
+in 100 of a Voynich-style cipher when given 5,000 letters of it and the right language. No
 Voynich word, passage or image link has been established, and the manuscript's own reserved
-test pages have never been scored.
+test pages have never been scored. For Linear A, lexical tests cannot find Greek even in Linear
+B at Linear A's size, and the one profile match also appears for shuffled syllables, so no
+language has been identified or ruled out.
 
 ## Rules the project follows
 
