@@ -86,3 +86,26 @@ def glossed_words(path=LARTH / "ETP_POS.csv"):
             glosses = []
         out.setdefault(normalise(row.Etruscan), (row.POS, glosses))
     return out
+
+
+def _bag(words):
+    import collections
+    return collections.Counter(w[2:] if w.startswith("N:") else w for w in words)
+
+
+def dedupe_within_id(texts, threshold=0.8):
+    """Drop a text whose word multiset overlaps an earlier text with the same ID by Jaccard >= ``threshold``.
+
+    Texts with different IDs are kept even when identical: short ownership texts such as
+    ``mi larices`` recur on different objects. Returns ``(kept, dropped count)``.
+    """
+    kept, seen, dropped = [], {}, 0
+    for source, tid, words in texts:
+        bag = _bag(words)
+        earlier = seen.setdefault((source, tid), [])
+        if bag and any(sum((bag & b).values()) / sum((bag | b).values()) >= threshold for b in earlier):
+            dropped += 1
+            continue
+        earlier.append(bag)
+        kept.append((source, tid, words))
+    return kept, dropped
