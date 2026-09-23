@@ -1,0 +1,1386 @@
+{
+ "linear_a_readable_types": 692,
+ "lexicon_sizes": {
+  "Greek": 34472,
+  "Hittite": 314,
+  "Akkadian": 544,
+  "Ugaritic": 728,
+  "Hebrew": 6822,
+  "Etruscan": 289,
+  "Egyptian": 906,
+  "Sumerian": 416
+ },
+ "settings": {
+  "thetas": [
+   0.0,
+   0.2,
+   0.25,
+   0.34
+  ],
+  "ks": [
+   10,
+   20,
+   40,
+   80,
+   160
+  ],
+  "draws": 20,
+  "null_draws": 40,
+  "null_repeats": 10,
+  "mutation_rate": 0.2,
+  "z_min": 3.0,
+  "power": 0.9,
+  "min_syllables": 2
+ },
+ "cells": [
+  {
+   "truth": "Greek",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Greek",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Greek",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Greek",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Greek",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Greek",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.15
+  },
+  {
+   "truth": "Greek",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Greek",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.15,
+   "any_winner": 0.25
+  },
+  {
+   "truth": "Greek",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Greek",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.6,
+   "any_winner": 0.75
+  },
+  {
+   "truth": "Greek",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.8,
+   "any_winner": 0.85
+  },
+  {
+   "truth": "Greek",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Greek",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.7,
+   "any_winner": 0.7
+  },
+  {
+   "truth": "Hittite",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hittite",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Hittite",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hittite",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.35,
+   "any_winner": 0.35
+  },
+  {
+   "truth": "Hittite",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Hittite",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hittite",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.65,
+   "any_winner": 0.65
+  },
+  {
+   "truth": "Hittite",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Hittite",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Hittite",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.95,
+   "any_winner": 0.95
+  },
+  {
+   "truth": "Hittite",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Akkadian",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Akkadian",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Akkadian",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.25,
+   "any_winner": 0.35
+  },
+  {
+   "truth": "Akkadian",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Akkadian",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.2,
+   "any_winner": 0.2
+  },
+  {
+   "truth": "Akkadian",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Akkadian",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Akkadian",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.95,
+   "any_winner": 0.95
+  },
+  {
+   "truth": "Akkadian",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.75,
+   "any_winner": 0.75
+  },
+  {
+   "truth": "Akkadian",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.35,
+   "any_winner": 0.35
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.3,
+   "any_winner": 0.3
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Ugaritic",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hebrew",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hebrew",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hebrew",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hebrew",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.6,
+   "any_winner": 0.6
+  },
+  {
+   "truth": "Hebrew",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.2,
+   "any_winner": 0.2
+  },
+  {
+   "truth": "Hebrew",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Hebrew",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Hebrew",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Hebrew",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.9,
+   "any_winner": 0.9
+  },
+  {
+   "truth": "Hebrew",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.75,
+   "any_winner": 0.75
+  },
+  {
+   "truth": "Hebrew",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.4,
+   "any_winner": 0.4
+  },
+  {
+   "truth": "Etruscan",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Etruscan",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Etruscan",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.45,
+   "any_winner": 0.45
+  },
+  {
+   "truth": "Etruscan",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Etruscan",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.75,
+   "any_winner": 0.75
+  },
+  {
+   "truth": "Etruscan",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.2,
+   "any_winner": 0.2
+  },
+  {
+   "truth": "Etruscan",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.2
+  },
+  {
+   "truth": "Etruscan",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Etruscan",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.3,
+   "any_winner": 0.3
+  },
+  {
+   "truth": "Egyptian",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Egyptian",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Egyptian",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.3,
+   "any_winner": 0.3
+  },
+  {
+   "truth": "Egyptian",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.65,
+   "any_winner": 0.7
+  },
+  {
+   "truth": "Egyptian",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Egyptian",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Egyptian",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Egyptian",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.55,
+   "any_winner": 0.55
+  },
+  {
+   "truth": "Egyptian",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.15,
+   "any_winner": 0.15
+  },
+  {
+   "truth": "Egyptian",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 10,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 10,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 10,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 10,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Sumerian",
+   "k": 20,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 20,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 20,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 20,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Sumerian",
+   "k": 40,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.05,
+   "any_winner": 0.15
+  },
+  {
+   "truth": "Sumerian",
+   "k": 40,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 40,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 40,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 80,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 0.7,
+   "any_winner": 0.7
+  },
+  {
+   "truth": "Sumerian",
+   "k": 80,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.2,
+   "any_winner": 0.2
+  },
+  {
+   "truth": "Sumerian",
+   "k": 80,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.1,
+   "any_winner": 0.1
+  },
+  {
+   "truth": "Sumerian",
+   "k": 80,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  },
+  {
+   "truth": "Sumerian",
+   "k": 160,
+   "theta": 0.0,
+   "draws": 20,
+   "correct": 1.0,
+   "any_winner": 1.0
+  },
+  {
+   "truth": "Sumerian",
+   "k": 160,
+   "theta": 0.2,
+   "draws": 20,
+   "correct": 0.95,
+   "any_winner": 0.95
+  },
+  {
+   "truth": "Sumerian",
+   "k": 160,
+   "theta": 0.25,
+   "draws": 20,
+   "correct": 0.95,
+   "any_winner": 0.95
+  },
+  {
+   "truth": "Sumerian",
+   "k": 160,
+   "theta": 0.34,
+   "draws": 20,
+   "correct": 0.0,
+   "any_winner": 0.05
+  }
+ ],
+ "selection": {
+  "0.0": {
+   "k_star": {
+    "Greek": 320,
+    "Hittite": 80,
+    "Akkadian": 80,
+    "Ugaritic": 160,
+    "Hebrew": 160,
+    "Etruscan": 80,
+    "Egyptian": 160,
+    "Sumerian": 160
+   },
+   "mean_log2_k_star": 7.071928094887363,
+   "false_winner_rate": 0.0,
+   "false_winners": []
+  },
+  "0.2": {
+   "k_star": {
+    "Greek": 320,
+    "Hittite": 160,
+    "Akkadian": 160,
+    "Ugaritic": 320,
+    "Hebrew": 160,
+    "Etruscan": 160,
+    "Egyptian": 320,
+    "Sumerian": 160
+   },
+   "mean_log2_k_star": 7.696928094887363,
+   "false_winner_rate": 0.0,
+   "false_winners": []
+  },
+  "0.25": {
+   "k_star": {
+    "Greek": 160,
+    "Hittite": 160,
+    "Akkadian": 320,
+    "Ugaritic": 320,
+    "Hebrew": 320,
+    "Etruscan": 160,
+    "Egyptian": 320,
+    "Sumerian": 160
+   },
+   "mean_log2_k_star": 7.821928094887362,
+   "false_winner_rate": 0.025,
+   "false_winners": [
+    "Ugaritic"
+   ]
+  },
+  "0.34": {
+   "k_star": {
+    "Greek": 320,
+    "Hittite": 320,
+    "Akkadian": 320,
+    "Ugaritic": 320,
+    "Hebrew": 320,
+    "Etruscan": 320,
+    "Egyptian": 320,
+    "Sumerian": 320
+   },
+   "mean_log2_k_star": 8.321928094887362,
+   "false_winner_rate": 0.05,
+   "false_winners": [
+    "Hebrew",
+    "Ugaritic"
+   ]
+  }
+ },
+ "chosen_theta": 0.0,
+ "seconds": 575
+}

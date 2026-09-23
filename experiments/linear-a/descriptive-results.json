@@ -1,0 +1,317 @@
+{
+ "ku_ro": {
+  "lines": 37,
+  "exact": 8,
+  "within_one": 10,
+  "rows": [
+   {
+    "document": "HT 100",
+    "stated": 97,
+    "sum": 93,
+    "difference": 4
+   },
+   {
+    "document": "HT 102",
+    "stated": 1060,
+    "sum": 1070,
+    "difference": -10
+   },
+   {
+    "document": "HT 104",
+    "stated": 95,
+    "sum": 94,
+    "difference": 1
+   },
+   {
+    "document": "HT 109",
+    "stated": 129,
+    "sum": 8,
+    "difference": 121
+   },
+   {
+    "document": "HT 110a",
+    "stated": 100,
+    "sum": 21,
+    "difference": 79
+   },
+   {
+    "document": "HT 116b",
+    "stated": 100,
+    "sum": 0,
+    "difference": 100
+   },
+   {
+    "document": "HT 117a",
+    "stated": 10,
+    "sum": 10,
+    "difference": 0
+   },
+   {
+    "document": "HT 118",
+    "stated": 30,
+    "sum": 50,
+    "difference": -20
+   },
+   {
+    "document": "HT 119",
+    "stated": 160,
+    "sum": 158,
+    "difference": 2
+   },
+   {
+    "document": "HT 11a",
+    "stated": 10,
+    "sum": 6,
+    "difference": 4
+   },
+   {
+    "document": "HT 11b",
+    "stated": 180,
+    "sum": 180,
+    "difference": 0
+   },
+   {
+    "document": "HT 122a",
+    "stated": 31,
+    "sum": 22,
+    "difference": 9
+   },
+   {
+    "document": "HT 122b",
+    "stated": 65,
+    "sum": 15,
+    "difference": 50
+   },
+   {
+    "document": "HT 122b",
+    "stated": 97,
+    "sum": 0,
+    "difference": 97
+   },
+   {
+    "document": "HT 123+124a",
+    "stated": 93,
+    "sum": 118,
+    "difference": -25
+   },
+   {
+    "document": "HT 123+124a",
+    "stated": 25,
+    "sum": 0,
+    "difference": 25
+   },
+   {
+    "document": "HT 123+124b",
+    "stated": 20,
+    "sum": 27,
+    "difference": -7
+   },
+   {
+    "document": "HT 127b",
+    "stated": 156,
+    "sum": 13,
+    "difference": 143
+   },
+   {
+    "document": "HT 127b",
+    "stated": 292,
+    "sum": 136,
+    "difference": 156
+   },
+   {
+    "document": "HT 13",
+    "stated": 130,
+    "sum": 130,
+    "difference": 0
+   },
+   {
+    "document": "HT 131b",
+    "stated": 452,
+    "sum": 32,
+    "difference": 420
+   },
+   {
+    "document": "HT 25b",
+    "stated": 16,
+    "sum": 0,
+    "difference": 16
+   },
+   {
+    "document": "HT 25b",
+    "stated": 52,
+    "sum": 52,
+    "difference": 0
+   },
+   {
+    "document": "HT 27a",
+    "stated": 335,
+    "sum": 322,
+    "difference": 13
+   },
+   {
+    "document": "HT 39",
+    "stated": 100,
+    "sum": 28,
+    "difference": 72
+   },
+   {
+    "document": "HT 46a",
+    "stated": 43,
+    "sum": 1,
+    "difference": 42
+   },
+   {
+    "document": "HT 67",
+    "stated": 420,
+    "sum": 0,
+    "difference": 420
+   },
+   {
+    "document": "HT 74",
+    "stated": 20,
+    "sum": 0,
+    "difference": 20
+   },
+   {
+    "document": "HT 85a",
+    "stated": 66,
+    "sum": 66,
+    "difference": 0
+   },
+   {
+    "document": "HT 88",
+    "stated": 6,
+    "sum": 39,
+    "difference": -33
+   },
+   {
+    "document": "HT 89",
+    "stated": 87,
+    "sum": 87,
+    "difference": 0
+   },
+   {
+    "document": "HT 94a",
+    "stated": 110,
+    "sum": 111,
+    "difference": -1
+   },
+   {
+    "document": "HT 94b",
+    "stated": 5,
+    "sum": 5,
+    "difference": 0
+   },
+   {
+    "document": "HT 9a",
+    "stated": 31,
+    "sum": 29,
+    "difference": 2
+   },
+   {
+    "document": "HT 9b",
+    "stated": 24,
+    "sum": 24,
+    "difference": 0
+   },
+   {
+    "document": "PH (?)31a",
+    "stated": 1,
+    "sum": 5,
+    "difference": -4
+   },
+   {
+    "document": "ZA 15b",
+    "stated": 78,
+    "sum": 3,
+    "difference": 75
+   }
+  ]
+ },
+ "toponyms": {
+  "toponyms": 14,
+  "hits": {
+   "pa-i-to": {
+    "place": "Phaistos",
+    "exact": [
+     "pa-i-to"
+    ],
+    "inside": []
+   },
+   "ko-no-so": {
+    "place": "Knossos",
+    "exact": [],
+    "inside": []
+   },
+   "a-mi-ni-so": {
+    "place": "Amnisos",
+    "exact": [],
+    "inside": []
+   },
+   "ku-do-ni-ja": {
+    "place": "Kydonia",
+    "exact": [],
+    "inside": []
+   },
+   "tu-ri-so": {
+    "place": "Tylissos",
+    "exact": [],
+    "inside": []
+   },
+   "su-ki-ri-ta": {
+    "place": "Sybrita",
+    "exact": [],
+    "inside": []
+   },
+   "ru-ki-to": {
+    "place": "Lyktos",
+    "exact": [],
+    "inside": []
+   },
+   "ra-to": {
+    "place": "Lato",
+    "exact": [],
+    "inside": []
+   },
+   "u-ta-no": {
+    "place": "Itanos",
+    "exact": [],
+    "inside": []
+   },
+   "se-to-i-ja": {
+    "place": "Setoia",
+    "exact": [
+     "se-to-i-ja"
+    ],
+    "inside": []
+   },
+   "tu-ni-ja": {
+    "place": "Tunia",
+    "exact": [],
+    "inside": []
+   },
+   "di-ka-ta": {
+    "place": "Dikte",
+    "exact": [],
+    "inside": []
+   },
+   "da-wo": {
+    "place": "Dawos",
+    "exact": [],
+    "inside": []
+   },
+   "e-ko-so": {
+    "place": "Eksos",
+    "exact": [],
+    "inside": []
+   }
+  },
+  "observed_exact": 2,
+  "observed_exact_or_inside": 2,
+  "null_exact_mean": 0.025,
+  "null_any_mean": 0.085,
+  "p_exact": 0.0,
+  "p_any": 0.0,
+  "null_repeats": 200
+ }
+}

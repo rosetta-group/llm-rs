@@ -1,0 +1,36 @@
+{
+ "files": {
+  "linear_a/__init__.py": "72f14f823005d4533379a9a1dea1c5cfc5dbfd6d1aded30fa037468d269a1c67",
+  "linear_a/spelling.py": "408d205443ba61c878c564377d6ea5c2cd89b09fade18502f872a77fcce81d1b",
+  "linear_a/lexicons.py": "feaf93b46ba3e5fa68ba5381e40ea3c252fd8aa10d78d697e905574630eb66b4",
+  "linear_a/matching.py": "0d212112447485776e08c3240e7e366c6e2307cf57fa297f74230959624a80ef",
+  "linear_a/controls.py": "33bcb30b1304369e952cda2fd9c5c58e8239585d1ba6421cc19214644f96648d",
+  "linear_a/corpus.py": "26a0fea45f347ce8626b1cc999a317c88d6bd0c71e333342a3b73516760c9ae2",
+  "linear_a/anchors.py": "d64e702ea0393780119943ec7f0a0e386b0691182e7d6f3e59b7b282b3687854",
+  "linear_a/arithmetic.py": "c3169668f86386d63cdd9dc9c7952cb59dd46599f88bf95cbfb9d5b1ad676a3e",
+  "experiments/linear_a_development.py": "b057fa8af73166c5998e43adc44c2c7ae94c481001d1bd43c9f3978f59b4f86b",
+  "experiments/linear_a_round_one.py": "2a67d0513e64663a585a110075f382819a4553c4e5bd9c255ec8942c0da89e23",
+  "experiments/linear-a/PROTOCOL.md": "43f9c2a00db21bf7de7984b17f614a429c3790783f2b60f573163989f59bd35d",
+  "experiments/linear-a/sources.json": "bb6cfcf7adddb451884755d9cc0d1a04d2ae81d58191f3c1ba416f6da0b70775",
+  "experiments/linear-a/development-results.json": "a735920e0d92957a1c68b5ebfc94e11d70b510780243468d7774708e1526a2e3"
+ },
+ "sources": {
+  "artifacts/linear-a-sources/navarre/CREDITS.md": "d8c623da1bffddf4f796f88f78d309540020cd8440512e396b34d14fd40aed5c",
+  "artifacts/linear-a-sources/navarre/LICENSE": "8860dcf34a6c9566da204b896093753195eff3c0a41082f2e70af34063ec5a56",
+  "artifacts/linear-a-sources/navarre/LICENSE-NOTICE.md": "6e32820dac91f6944a0c8101728f232af707555294f41048031425e5f98f53f0",
+  "artifacts/linear-a-sources/navarre/PROVENANCE.json": "43ec0796e36275b7833a70b0f31b3cb46b68ca7a559a35fce5830c6165c3b8b9",
+  "artifacts/linear-a-sources/navarre/README.md": "478055450599bb6bb0921408a421bdbc69d98e353e465f6938e96a1f052449fe",
+  "artifacts/linear-a-sources/navarre/corpus.json": "34b2d7d65c1377367e9a393cfa4004f6f9101f4ee5eea9f9b1a2ba830466ff59",
+  "artifacts/linear-a-sources/navarre/signs.json": "7af75c6e5ee15e44d749222d6c6cebb09b9f9f0369b3dd5b6430451314a95387",
+  "artifacts/linear-a-sources/kaikki/Akkadian.jsonl": "dbcf0550254ab96967132c6463125cdbfa9d4d11b2b2c854ff5cebeb76599b99",
+  "artifacts/linear-a-sources/kaikki/AncientGreek.jsonl": "725fae40d6daac0841c8cf5ba125a6ab66635d4964a6dbdba7370571c6b466eb",
+  "artifacts/linear-a-sources/kaikki/Egyptian.jsonl": "a279519a1fed94e791e66cbc38887776ee711f40f21afa2ee9777ae4995a1ce6",
+  "artifacts/linear-a-sources/kaikki/Etruscan.jsonl": "8adb469598c643a56ba4ebeccc7ec671064a848603fb9321f0919692ac5d5666",
+  "artifacts/linear-a-sources/kaikki/Hebrew.jsonl": "f784486dec30f5281b1815aa6daca80025c70b745c8f8246a9fe5181bb8077ed",
+  "artifacts/linear-a-sources/kaikki/Hittite.jsonl": "e8f0bbb4d204e695972d335a7cbb63b627b95d3366da43c54ae7f55ade63c1b0",
+  "artifacts/linear-a-sources/kaikki/MycenaeanGreek.jsonl": "79a5ba4504be14861f6e5230b9935234fb0f779de5fe873e1f87e16b789f65c6",
+  "artifacts/linear-a-sources/kaikki/Sumerian.jsonl": "592d5d16f7b84ae53f5a831e361c1a4237a2a7117bbf27903b4957142b69cdd8",
+  "artifacts/linear-a-sources/kaikki/Ugaritic.jsonl": "014b30d7d9e10ef9a48adf946f692c1d100deecc93148ca6895ad8aca2ec7e32"
+ },
+ "theta": 0.0
+}
