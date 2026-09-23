@@ -4,7 +4,7 @@ from experiments.voynich_suspects import neighbours, near_hapax_rate
 
 class SuspectTests(unittest.TestCase):
     def test_neighbours_are_exactly_one_edit(self):
-        self.assertEqual(neighbours('dairn', ['daiin', 'dain', 'chedy']), ['daiin'])
+        self.assertEqual(neighbours('dairn', ['daiin', 'dain', 'chedy', 'dy']), ['daiin', 'dain'])
         self.assertEqual(neighbours('daiin', ['daiin']), [])
 
     def test_near_hapax_rate(self):
