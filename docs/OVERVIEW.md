@@ -104,6 +104,13 @@ error fell from 8.5% to 8.4%. The Villani source audit found retained chapter
 rubrics (2.24% of words), so the historical result also carries an extraction caveat.
 The test exposes a word-boundary problem even when every letter is already correct.
 
+A diagnosis then showed that most wrong spaces sit inside words missing from the
+segmenter's lexicon. The flat unknown-word penalty always loses to a split into known
+pieces. The [v3 segmenter](../experiments/word-segmentation-v3-fresh/REPORT.md) scores
+unknown words with a letter-level spelling model instead. On a new author, Dino Compagni,
+word error fell from 24.0% to 17.5%, and modern ParTUT fell from 7.2% to 6.0%. This passes
+the declared transfer threshold, but no historical passage reaches 10% word error.
+
 Current standing on four sealed 5,200-letter Dante passages (round four):
 
 | Text | Character error | Word error | Round three |

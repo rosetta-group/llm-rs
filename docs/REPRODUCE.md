@@ -171,7 +171,14 @@ Development only; reads the saved v2 predictions and the released Villani source
 .venv/bin/python -m experiments.word_segmentation_v3 verify
 ```
 
-`verify` checks the committed freeze and refits the training-only unknown rate and
+The fresh Compagni/ParTUT test is released; restore and check it with:
+
+```sh
+.venv/bin/python -m experiments.word_segmentation_v3_fresh restore
+.venv/bin/python -m experiments.word_segmentation_v3_fresh verify
+```
+
+`verify` (v3) checks the committed freeze and refits the training-only unknown rate and
 spelling model (about 25 s, 0.5 GB). See [the report](../experiments/word-segmentation-v3/REPORT.md).
 
 ## Object-and-relation pilot

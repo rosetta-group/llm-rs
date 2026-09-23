@@ -1,0 +1,150 @@
+{
+  "post_grading": true,
+  "descriptive_only": true,
+  "rows": {
+    "historical/baseline": {
+      "counts": {
+        "extra_total": 626,
+        "missing_total": 132,
+        "oov_tokens": 411,
+        "oov_tokens_split": 381,
+        "extra_missing_form": 570,
+        "extra_known_word": 56,
+        "missing_known_token": 102,
+        "missing_unknown_token": 30
+      },
+      "top_splits": [
+        "giano -> gia no x29",
+        "erono -> ero no x21",
+        "fusse -> fu ss e x9",
+        "perche -> per che x9",
+        "cominciorono -> comincio ron o x8",
+        "feciono -> feci o no x5",
+        "dino -> di no x4",
+        "niccola -> nicc o la x4",
+        "presono -> preso no x3",
+        "darezzo -> d arezzo x3",
+        "richiesono -> richie sono x3",
+        "sanesi -> san e si x3"
+      ],
+      "top_merges": [
+        "ed <- e d x5",
+        "noi <- no i x5",
+        "mai <- ma i x4",
+        "eredi <- ere di x4",
+        "non <- no n x3",
+        "ad <- a d x2",
+        "era <- e ra x2",
+        "malfare <- mal fare x2"
+      ]
+    },
+    "historical/v3": {
+      "counts": {
+        "extra_total": 391,
+        "missing_total": 124,
+        "oov_tokens": 411,
+        "oov_tokens_split": 286,
+        "extra_missing_form": 344,
+        "extra_known_word": 47,
+        "missing_known_token": 76,
+        "missing_unknown_token": 48
+      },
+      "top_splits": [
+        "giano -> gia no x27",
+        "erono -> e rono x15",
+        "fusse -> fu ss e x9",
+        "cominciorono -> comincio rono x8",
+        "perche -> per che x7",
+        "feciono -> fe ciono x5",
+        "iacopo -> iaco po x4",
+        "presono -> preso no x3",
+        "richiesono -> richie sono x3",
+        "sanesi -> san e si x3",
+        "gonfaloniere -> gonfaloni ere x3",
+        "maleficii -> malefici i x3"
+      ],
+      "top_merges": [
+        "noi <- no i x8",
+        "ed <- e d x5",
+        "mai <- ma i x4",
+        "eredi <- ere di x4",
+        "non <- no n x2",
+        "malfare <- mal fare x2",
+        "egli <- e gli x2",
+        "primato <- prima to x1"
+      ]
+    },
+    "modern/baseline": {
+      "counts": {
+        "extra_total": 145,
+        "missing_total": 20,
+        "oov_tokens": 74,
+        "oov_tokens_split": 69,
+        "extra_missing_form": 107,
+        "extra_known_word": 38,
+        "missing_known_token": 17,
+        "missing_unknown_token": 3
+      },
+      "top_splits": [
+        "micelio -> mi ce li o x10",
+        "ai -> a i x5",
+        "resi -> re si x4",
+        "dalladesione -> dal ladesione x4",
+        "delladesione -> del ladesione x4",
+        "preadesione -> pr e adesione x2",
+        "micelio -> mice li o x2",
+        "suoli -> suo li x2",
+        "miceliale -> mice li al e x2",
+        "attribuzionecondividi -> attribuzione condividi x1",
+        "allopera -> al lopera x1",
+        "commerciabilita -> commerci abilita x1"
+      ],
+      "top_merges": [
+        "sottoforma <- sotto forma x2",
+        "dalla <- d alla x1",
+        "lunione <- l unione x1",
+        "larmonizzazione <- l armonizzazione x1",
+        "parolechiave <- parole chiave x1",
+        "accessoria <- accessori a x1",
+        "divoto <- di voto x1",
+        "avendo <- a vendo x1"
+      ]
+    },
+    "modern/v3": {
+      "counts": {
+        "extra_total": 117,
+        "missing_total": 26,
+        "oov_tokens": 74,
+        "oov_tokens_split": 49,
+        "extra_missing_form": 79,
+        "extra_known_word": 38,
+        "missing_known_token": 18,
+        "missing_unknown_token": 8
+      },
+      "top_splits": [
+        "micelio -> mi ce li o x10",
+        "ai -> a i x5",
+        "resi -> re si x4",
+        "dalladesione -> dal ladesione x4",
+        "delladesione -> del ladesione x4",
+        "micelio -> mice li o x2",
+        "suoli -> suo li x2",
+        "miceliale -> mi celiale x2",
+        "attribuzionecondividi -> attribuzione condividi x1",
+        "allopera -> al lopera x1",
+        "od -> o d x1",
+        "erica -> e rica x1"
+      ],
+      "top_merges": [
+        "sottoforma <- sotto forma x2",
+        "dalla <- d alla x1",
+        "proponesia <- propone sia x1",
+        "incidentiaerei <- incidenti aerei x1",
+        "lunione <- l unione x1",
+        "larmonizzazione <- l armonizzazione x1",
+        "parolechiave <- parole chiave x1",
+        "accessoria <- accessori a x1"
+      ]
+    }
+  }
+}

@@ -41,6 +41,13 @@ improved **28.4% to 27.3%**; modern VIT improved **8.5% to 8.4%**. The declared
 Villani's chapter rubrics survived extraction (2.24% of reference words); this
 deviation is archived, and the test was not silently replaced or selectively regraded.
 
+The [v3 segmenter](experiments/word-segmentation-v3-fresh/REPORT.md) replaces the flat
+unknown-word penalty with a letter-level spelling model. Most wrong spaces fell inside
+words missing from the lexicon, so this targets them. On fresh passages from a new
+author, Dino Compagni, perfect-letter word error fell **24.0% to 17.5%**. Modern ParTUT
+fell **7.2% to 6.0%**. This passes the declared 3-point transfer threshold, the first
+segmenter to do so. The 10% per-passage word gate is still not met.
+
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 

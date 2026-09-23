@@ -5,7 +5,10 @@ The solver sees dense letters and opaque IDs only; references stay evaluator-onl
 both methods' predictions are saved. No stage reads decoder scores to choose text. CPU only.
 """
 import argparse
+import gzip
+import hashlib
 import json
+import tarfile
 from pathlib import Path
 import re
 import secrets
@@ -195,7 +198,60 @@ def evaluate():
                           transfer_passed=transfer, word_gate_passed=result['word_gate_passed'])))
 
 
+def state_files():
+    return sorted(RAW.glob('*')) + [STATE / p for p in ('public.json', 'challenge.json', 'predictions.json', 'evaluator-only/answers.json')]
+
+
+def archive():
+    target = OUT / 'fresh-sources.tar.gz'
+    if target.exists(): raise FileExistsError('Archive already exists')
+    with target.open('wb') as raw, gzip.GzipFile(fileobj=raw, mode='wb', mtime=0, filename='') as zipped:
+        with tarfile.open(fileobj=zipped, mode='w') as tar:
+            for path in state_files():
+                info = tar.gettarinfo(str(path), arcname=str(path.relative_to(ROOT)))
+                info.uid = info.gid = info.mtime = 0; info.uname = info.gname = ''; info.mode = 0o644
+                with path.open('rb') as handle: tar.addfile(info, handle)
+    write(OUT / 'archive.json', dict(archive_sha256=digest(target), files={str(p.relative_to(ROOT)): digest(p) for p in state_files()}))
+
+
+def restore():
+    manifest = read(OUT / 'archive.json'); target = OUT / 'fresh-sources.tar.gz'
+    if digest(target) != manifest['archive_sha256']: raise ValueError('Archive drift')
+    with tarfile.open(target) as tar:
+        if set(tar.getnames()) != set(manifest['files']): raise ValueError('Unexpected archive members')
+        for member in tar:
+            path = (ROOT / member.name).resolve()
+            if not member.isfile() or not path.is_relative_to(STATE.resolve()): raise ValueError('Unsafe member')
+            data = tar.extractfile(member).read()
+            if hashlib.sha256(data).hexdigest() != manifest['files'][member.name]: raise ValueError('Member drift')
+            if path.exists() and path.read_bytes() != data: raise ValueError('Refusing to replace changed data: ' + member.name)
+            path.parent.mkdir(parents=True, exist_ok=True); path.write_bytes(data)
+
+
+def verify():
+    """Check archive, sources, sealed challenge and freeze commit order; regrade every case."""
+    f = frozen(); manifest = read(OUT / 'archive.json')
+    if digest(OUT / 'fresh-sources.tar.gz') != manifest['archive_sha256']: raise ValueError('Archive drift')
+    for path, expected in manifest['files'].items():
+        if digest(ROOT / path) != expected: raise ValueError('Working data drift: ' + path)
+    for r in read(OUT / 'sources.json')['files']:
+        if digest(ROOT / r['path']) != r['sha256']: raise ValueError('Source drift')
+    c = check_challenge(); result = read(OUT / 'results.json')
+    if result['challenge'] != c or digest(STATE / 'predictions.json') != result['predictions_sha256']: raise ValueError('Result drift')
+    subprocess.check_call(['git', 'merge-base', '--is-ancestor', '85531e7', c['head_commit']], cwd=ROOT)
+    if subprocess.check_output(['git', 'show', c['head_commit'] + ':experiments/word-segmentation-v3-fresh/sources.json'], cwd=ROOT) != (OUT / 'sources.json').read_bytes():
+        raise ValueError('Sources not committed before passage construction')
+    answers = {r['id']: r for r in read(STATE / 'evaluator-only/answers.json')}
+    predictions = {r['id']: r for r in read(STATE / 'predictions.json')['rows']}
+    for case in result['cases']:
+        for m in ('baseline', 'v3'):
+            if grade(predictions[case['id']][m], answers[case['id']]['plaintext']) != case[m]: raise ValueError('Grade drift')
+    return dict(verified=True, cases=len(result['cases']), transfer_passed=result['transfer_passed'],
+                word_gate_passed=result['word_gate_passed'], selected=f['selected'])
+
+
 if __name__ == '__main__':
-    p = argparse.ArgumentParser(); p.add_argument('command', choices=['fetch', 'check', 'prepare', 'solve', 'evaluate'])
+    p = argparse.ArgumentParser()
+    p.add_argument('command', choices=['fetch', 'check', 'prepare', 'solve', 'evaluate', 'archive', 'restore', 'verify'])
     command = p.parse_args().command
     print({'fetch': fetch_sources, 'check': check}.get(command, lambda: globals()[command]())())

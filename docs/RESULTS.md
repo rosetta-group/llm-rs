@@ -45,6 +45,7 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 | Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |
 | Segmentation | frozen lexicon segmenter on exact letters, 24 fresh passages | WER 6.1% modern, 39.9% historical | [report](../experiments/segmentation/REPORT.md) |
 | Verse word model | exact letters, 4 fresh Villani + 4 VIT passages; paired baseline | Villani WER 28.37% → 27.35%; VIT 8.49% → 8.38%; misses 3-point transfer threshold; historical rubrics retained in error (2.24% of words) | [report and caveat](../experiments/word-segmentation-v2/REPORT.md) |
+| v3 unknown-word model | exact letters, 4 fresh Compagni + 4 ParTUT passages; paired baseline | Compagni WER 24.01% → 17.46%; ParTUT 7.23% → 6.05%; transfer threshold passed; 10% word gate not met | [report](../experiments/word-segmentation-v3-fresh/REPORT.md) |
 | Codebook-free v0 | annealing, mean score, 1,200–1,800 letters | modern substitution ok; historical selection fails; Naibbe 300%+ CER | [report](../experiments/codebook-free/REPORT.md) |
 | Standard methods | MDL selection, Nuhn beam, BK&K HMM, prose prior | 7/8 substitution and homophonic controls exact; Naibbe still 300%+ | [report](../experiments/standard-decipherment/REPORT.md) |
 | Joint EM, round one | latent parses, role emissions, 5,200 letters | CER 12.5% modern, 33.5% Dante; WER 58% / 87% | [report](../experiments/joint-recovery/REPORT.md) |
@@ -68,6 +69,8 @@ Development findings that shaped the rounds (development text only):
 | Lower thresholds and global admission fail | candidate threshold 3: 12.0%; complements for every token: 17.2% | same |
 | Perfect letters do not fix historical word boundaries | development WER 15.3% historical prose, 6.9% modern, 28.5% Petrarca | [segmentation audit](../experiments/segmentation-audit/REPORT.md) |
 | Fixed-key context reparse rejected | paired mean CER 4.97% → 4.67%, below the predeclared 1-point improvement; WER 37.3% → 36.0%; no fresh evaluation | same |
+| Extra spaces are missing word forms | 83–90% of extra spaces fall inside lexicon-missing words; adding them (oracle) gives historical WER 2.29% | [diagnosis](../experiments/word-segmentation-v3/REPORT.md) |
+| Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
 
 ## Operational

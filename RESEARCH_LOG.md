@@ -54,6 +54,20 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: v3 segmenter passes fresh transfer on a new author; word gate not met.**
+With the user's approval, Dino Compagni's *Cronica* (Wikisource) and UD Italian ParTUT
+were pinned after the method freeze and before any passage existed (`bf5dc9a`). ParTUT
+test was too short, so dev was appended; this deviation is recorded. Four passages per
+source, perfect letters, paired with the round-four baseline, predictions saved before
+grading. Compagni WER fell 24.01% to 17.46% (−6.55); ParTUT 7.23% to 6.05%. All eight
+passages improved. The 3-point transfer threshold passed. No Compagni passage reaches
+10% WER, so the word gate is not met. Post-grading attribution: 344 of 391 remaining
+extra spaces are inside missing forms. Recurring archaic forms dominate (`giano` ×27,
+`erono` ×15, `-orono` verbs); the spelling model is mostly modern Morph-it types. This
+licenses a separately declared paired Naibbe comparison with only the segmenter changed.
+Compagni and ParTUT are now released. CPU, about 40 s; about 1 MB downloaded.
+[Report](experiments/word-segmentation-v3-fresh/REPORT.md).
+
 **2026-09-23: letter-level unknown-word model passes development; frozen.**
 Declared four candidates and committed them before scoring (`5d58648`). Each replaces
 the flat unknown cost with $-\log p_{unk} - \log P_{spell}(w)$. $P_{spell}$ is a

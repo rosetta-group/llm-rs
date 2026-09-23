@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "6457e07a7a95d8770b74fb7b22d2788bba75cc0cbae16bd84949711bdad7eecf",
+  "files": {
+    "artifacts/word-segmentation-v3-fresh/sources/LICENSE.txt": "a4a4d0684313d94493e6e0ff0c33e58a1fc4b5a07900b09a009e8a1fa9cf061c",
+    "artifacts/word-segmentation-v3-fresh/sources/README.md": "e70520330daa1156af84fc3895eec783bb9a5649d4478f9e51b193eb8b022f8c",
+    "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-I.html": "b8b417fbf27786d14dcc1fe9386f449eab434f23660cab3ead1f8905a9780503",
+    "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-II.html": "5b3266e1d491f522b870d80c951f364191ee6c8dd0be515517763005f86fc999",
+    "artifacts/word-segmentation-v3-fresh/sources/compagni-libro-III.html": "c00650d417153c8bc0b47e967f40a864bbcd5bbcba496c2170b444f2a5f1fc33",
+    "artifacts/word-segmentation-v3-fresh/sources/it_partut-ud-dev.conllu": "c6542e547447df403e54f314a61ec9f4a5e1e0d770dbcbdedb5ea8edcb6758fc",
+    "artifacts/word-segmentation-v3-fresh/sources/it_partut-ud-test.conllu": "6a3f3437fd3ab383ba37122ec84cc1bd53662512f5ff1e80ed306c6b668eb6a2",
+    "artifacts/word-segmentation-v3-fresh/sources/partut-commit.json": "be6cf567ed201b4da665e7b401aa9d0e0c88b7e31aab3948847424d947f373fa",
+    "artifacts/word-segmentation-v3-fresh/public.json": "fc47475a8c69fb759c2872416ee4bde7a6f3523924ccb36e5c15a7081595331d",
+    "artifacts/word-segmentation-v3-fresh/challenge.json": "4505748f3d28a4c8b98d386751a66823af57f05bfe64d6dc88ad5d8e4313a634",
+    "artifacts/word-segmentation-v3-fresh/predictions.json": "3b98923f4eae9a42ac9aa04b56f61effd477a4d815aa4ddef110cc64330f50cb",
+    "artifacts/word-segmentation-v3-fresh/evaluator-only/answers.json": "1c93ee37183afa197c7588e1b475afa2a7990e095b43f00027561ce6d4d4ca6d"
+  }
+}
