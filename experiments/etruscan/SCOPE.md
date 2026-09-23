@@ -1,9 +1,10 @@
 # Etruscan: word meaning from formula context
 
-Status: round one done, branch `etruscan`, 2026-09-23 ([REPORT.md](REPORT.md)): the gate passed
-narrowly for M2 (44% balanced accuracy on Latin and Etruscan, nulls at 20%), but its KIN and
-LIFE calls are right only 6% of the time. Sources pinned in [sources.json](sources.json).
-Nothing here is a reading of Etruscan.
+Status: stopped after round two, branch `etruscan`, 2026-09-24. Round one
+([REPORT.md](REPORT.md)): M2 passes the gate narrowly (44% balanced accuracy, nulls 20%), and
+still passes on deduplicated texts (45%). Round two ([fresh test](../etruscan-fresh/REPORT.md))
+fails: 28% on words glossed only in Wiktionary (chance 25%, p = 0.18), because unglossed words
+sit among unglossed neighbours. Phase 6 not run. Sources pinned in [sources.json](sources.json).
 
 ## Why Etruscan is a different task
 

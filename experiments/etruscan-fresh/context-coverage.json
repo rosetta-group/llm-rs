@@ -1,0 +1,16 @@
+{
+ "fresh_items": {
+  "n": 49,
+  "median_freq": 1.0,
+  "share_hapax": 0.73,
+  "labelled_neighbour_share": 0.24,
+  "no_neighbour_share": 0.06
+ },
+ "etp_labelled_types": {
+  "n": 772,
+  "median_freq": 1.0,
+  "share_hapax": 0.64,
+  "labelled_neighbour_share": 0.82,
+  "no_neighbour_share": 0.0
+ }
+}

@@ -21,4 +21,6 @@ Etruscan (branch `etruscan`) is scoped as a meaning-class task in
 [experiments/etruscan/SCOPE.md](../experiments/etruscan/SCOPE.md). Round one
 ([REPORT.md](../experiments/etruscan/REPORT.md)): formula context predicts word class at 44%
 balanced accuracy (chance 20%) on 2,433 Etruscan tokens and on size-matched Latin, but
-rare-class calls are mostly wrong.
+rare-class calls are mostly wrong. Round two ([REPORT.md](../experiments/etruscan-fresh/REPORT.md))
+fails the fresh test on words ETP does not gloss (28%, chance 25%): their neighbours are
+unglossed too. Stopped.
