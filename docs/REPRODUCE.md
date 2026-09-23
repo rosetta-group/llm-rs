@@ -160,7 +160,7 @@ word_segmentation_fresh evaluate
 
 These are historical stages, not commands to overwrite the released experiment.
 
-## Word segmentation v3 groundwork
+## Word segmentation v3
 
 Development only; reads the saved v2 predictions and the released Villani source
 (restore it first with `word_segmentation_records restore`).
@@ -168,9 +168,11 @@ Development only; reads the saved v2 predictions and the released Villani source
 ```sh
 .venv/bin/python -m experiments.word_segmentation_v3 check
 .venv/bin/python -m experiments.word_segmentation_v3 diagnose
+.venv/bin/python -m experiments.word_segmentation_v3 verify
 ```
 
-See [the diagnosis](../experiments/word-segmentation-v3/REPORT.md).
+`verify` checks the committed freeze and refits the training-only unknown rate and
+spelling model (about 25 s, 0.5 GB). See [the report](../experiments/word-segmentation-v3/REPORT.md).
 
 ## Object-and-relation pilot
 

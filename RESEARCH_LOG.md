@@ -54,6 +54,19 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: letter-level unknown-word model passes development; frozen.**
+Declared four candidates and committed them before scoring (`5d58648`). Each replaces
+the flat unknown cost with $-\log p_{unk} - \log P_{spell}(w)$. $P_{spell}$ is a
+Witten–Bell letter n-gram (order 3 or 5) on lexicon types. $p_{unk} = 2.34\%$ is a
+training-only Good–Turing rate. An optional rule joins elided prefixes. The selected
+candidate, order 5 with elision, takes perfect-letter WER from 15.27% to 8.65% on
+historical prose, 28.49% to 20.68% on Petrarca and 6.89% to 5.61% on modern ISDT. All
+four candidates were eligible. Prose extra spaces fall from 92 to 39. These are
+development numbers on the diagnosed streams, not transfer. Frozen before any fresh
+source is named. Next: the protocol's fresh test on a new historical author and a
+new modern corpus, which needs the user's choice and a download. CPU, 24 s.
+[Report](experiments/word-segmentation-v3/REPORT.md).
+
 **2026-09-23: extra spaces come from missing word forms; rubric-free extractor ready.**
 A new v3 extractor drops Wikisource chapter rubrics stored as ordinary paragraphs.
 On the released Villani source it removes exactly the 36 audited rubric paragraphs

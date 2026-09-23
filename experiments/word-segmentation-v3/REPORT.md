@@ -1,6 +1,6 @@
-# Word segmentation v3 groundwork: rubric-free extraction and extra-space diagnosis
+# Word segmentation v3: rubric-free extraction, extra-space diagnosis, unknown-word model
 
-Development diagnosis, 2026-09-23. CPU only, under ten seconds. No fresh text,
+Development work, 2026-09-23. CPU only. No fresh text,
 downloads, cipher decoding, Voynich text or setting selection. The frozen v2 files
 are unchanged. Code: `experiments/word_segmentation_v3.py`.
 
@@ -59,19 +59,45 @@ It splits 89% of missing historical forms instead. The missing forms are mostly 
 modern and 29 of 123 verse missing forms are an elided prefix plus a known word
 (`linnocenti`, `lincendio`, `sagghiaccia`).
 
+## 3. Development selection of a letter-level unknown-word model
+
+Declared in [PROTOCOL.md](PROTOCOL.md) and committed (`5d58648`) before scoring. Each
+candidate replaces the flat cost with $-\log p_{\text{unk}} - \log P_{\text{spell}}(w)$.
+The training-only Good–Turing rate is $p_{\text{unk}} = 2.34\%$, about 3.8 nats.
+Perfect letters, same three streams, WER ([development.json](development.json)):
+
+| Candidate | Historical prose | Petrarca verse | Modern ISDT | Extra / missing spaces (prose) |
+|---|---:|---:|---:|---:|
+| Baseline, flat $15+3\ell$ | 15.27% | 28.49% | 6.89% | 92 / 22 |
+| Order 3 | 10.86% | 24.58% | 6.30% | 40 / 36 |
+| Order 3 + elision | 10.50% | 23.92% | 5.71% | 38 / 36 |
+| Order 5 | 9.27% | 22.09% | 6.40% | 43 / 24 |
+| **Order 5 + elision (selected)** | **8.65%** | **20.68%** | **5.61%** | 39 / 24 |
+
+All four candidates are eligible. The selected one improves the historical mean by 7.2
+points (the rule needs 3), and no stream worsens. Extra spaces in prose fall from 92 to
+39. Missing spaces stay about level at 24. Verse remains far from the 10% gate: 100 extra
+and 76 missing spaces. All candidates together took about 3 seconds of segmentation;
+fitting took 24 seconds and 0.5 GB of memory. The selection is frozen in
+[freeze.json](freeze.json). `verify` refits the rate and the spelling model and
+checks their digests.
+
+These are development numbers on the streams that motivated the diagnosis. They are
+not a transfer result. The fresh test in the protocol decides whether the gain holds
+on an unseen historical author.
+
 ## Implication
 
-The next candidate should change the unknown-word model, not the vocabulary weights.
-One example: score unknown words with a letter n-gram spelling model trained on
-training word types, plus one unknown-rate constant, replacing the flat $15 + 3\ell$.
-Elision could be a second declared component. Declare the candidates and the selection
-rule before scoring the development streams, and set any constant on training text
-only. A fresh test then needs a new historical author and a new modern corpus. Villani
-and VIT are released and excluded.
+The diagnosis pointed to the unknown-word model, and section 3 confirms it on development
+text. The next step is the protocol's fresh test: a new historical prose author and a new
+modern corpus, named and pinned before download. Villani and VIT are released and excluded.
 
 Reproduce:
 
 ```sh
 .venv/bin/python -m experiments.word_segmentation_v3 check
 .venv/bin/python -m experiments.word_segmentation_v3 diagnose
+.venv/bin/python -m experiments.word_segmentation_v3 verify
 ```
+
+`develop` and `freeze` refuse to overwrite their records.

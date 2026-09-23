@@ -1,0 +1,32 @@
+{
+  "files": {
+    "voynich/unknown_words.py": "98018d9ee348fb3491614c8b62e1d1ef56a11aeaa6d5dc68cb53751a49021e2e",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db",
+    "voynich/corpora.py": "c9869572ca3d3ed0666afd451c19d8bb85e591815c5526b62987fab9224c9839",
+    "voynich/data.py": "df239427067a2717cceae3fc3308946f8c38b2ab8208e4e2840fb4d0a7584768",
+    "experiments/word_segmentation_v3.py": "40f27cd02a66bd7755a5763f856e74b30b4825aa5385c2195c26c6f210816f15",
+    "experiments/word_segmentation_v2.py": "5cfee8e5b7ac370742b4fbdd3a2c550773ca91e0eef3316886496659ac8acf6c",
+    "experiments/word_segmentation_fresh.py": "c10f80d2e60eec416d56bd765413470b8b604c78eebdff0b988f9c2a92382e19",
+    "experiments/segmentation_audit.py": "8bca3c05566cd0d75cc3c14e638b2a24dd5362608a3e58f6a94d8ee3d2449596",
+    "experiments/segmentation.py": "67761646e6ccc4506f33a5cf0cb9ca4fd24ee5d992216db185f5acc7299849c8",
+    "experiments/historical_sources.py": "53b3617ba0f3a5a117497e92e827f7b75fa2b675072347de772dd4be67256020",
+    "experiments/word-segmentation-v3/PROTOCOL.md": "06ec0138ca342bb0f3be715268fb7bc45c3408e073f56f79798044e838b87302",
+    "experiments/word-segmentation-v3/development.json": "713d117c8d83b4ca55f181a7852ffc5afc81b7f60302228b39654bf82809c937",
+    "experiments/segmentation-sources.json": "d3b05f4a54cb9ce4d64bbd7fed96b1015856b6381baea95d520a05072e2e7964",
+    "experiments/standard-decipherment/development.json": "21619a30936b5a460978390584d4e23f7eb8a4c3b3349eb10d848dbd34eb88a7"
+  },
+  "baseline_sha256": "c5af8906f760df1bf8fbfa8870d33471a9a7a0cec14efe8c8c9f48db2e41d59f",
+  "parameters": {
+    "alpha": 1.0,
+    "bigram": 0.5,
+    "unknown": 3.0
+  },
+  "selected": {
+    "order": 5,
+    "elision": true
+  },
+  "unknown_rate": 0.02335904917035101,
+  "spelling_sha256": "40f59498e7e4a3ccea0a72f5ccf6f2925f0d41bf2a116c7894ef98271a6b6394",
+  "version": 1
+}
