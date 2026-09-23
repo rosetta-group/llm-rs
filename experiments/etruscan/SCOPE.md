@@ -79,14 +79,14 @@ phase 6  predictions for unglossed words, ranked by confidence, reported as hypo
 The shuffled-order control comes from the Linear A lesson: round five's Hittite match also
 appeared for shuffled syllables. Any class signal must vanish when formula order is destroyed.
 
-## Data (not yet downloaded; needs the owner's approval)
+## Data (downloaded 2026-09-23 with approval; hashes in [sources.json](sources.json))
 
 | Data | Source | Licence | Size | Note |
 |---|---|---|---|---|
 | Etruscan texts | [Larth](https://github.com/GianlucaVico/Larth-Etruscan-NLP) `Data/Etruscan.csv` | CC BY 4.0 | 302 KB; 7,139 texts (561 ETP, 6,578 CIEP) | CIEP part was extracted from PDF and is noisy; ETP part is clean |
 | Etruscan word list with glosses | Larth `Data/ETPWords.txt`, `ETPNames.txt`, `ETPSuff.txt`, `ETP_POS.csv` | CC BY 4.0 | 15 KB, 24 KB, 1 KB, 165 KB | 1,122 words, 956 glossed, 54 grammatical features |
-| Latin control | [LIRE](https://zenodo.org/records/5074774) (EDH + EDCS aggregate), epitaphs only | CC BY 4.0 (v1.0.0) | 585 MB geojson | larger versions exist; pin one version at download |
-| Fresh-test glosses | kaikki.org Wiktionary Etruscan extract | CC BY-SA | small | same pipeline as the Linear A lexicons |
+| Latin control | [LIRE v3.0](https://zenodo.org/records/8431452) (EDH + EDCS aggregate), epitaphs only | CC BY 4.0 | 62 MB parquet | same records as the 474 MB geojson; Larth pinned at `daf4972` |
+| Fresh-test glosses | kaikki.org Wiktionary Etruscan extract | CC BY-SA | small | not downloaded; needs approval before phase 5 |
 
 The Larth paper ([arXiv 2310.05688](https://arxiv.org/abs/2310.05688)) reports that CIEP and
 ETP use different transliterations and that Larth's normalisation is not reversible. Phase 0
