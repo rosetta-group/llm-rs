@@ -1,0 +1,132 @@
+{
+  "source": "modern",
+  "seed": 7000,
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 1200,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 1.0,
+    "repair_minimum": 2,
+    "repair_passes": 2
+  },
+  "rows": [
+    {
+      "letters": 5200,
+      "tokens": 3430,
+      "refined_cer": 0.06019230769230769,
+      "polished_cer": 0.05596153846153846,
+      "agreement": 0.9379008746355685,
+      "misparsed": {
+        "split->split": 78,
+        "whole->split": 86,
+        "split->whole": 49
+      },
+      "tokens_correct": 0.9379008746355685,
+      "letters_in_correct_tokens": 4860,
+      "wrong_letters_in_correct_tokens": 46,
+      "error_rate_in_correct_tokens": 0.009465020576131687,
+      "letters_in_misparsed_tokens": 340,
+      "share_of_letters_misparsed": 0.06538461538461539,
+      "lexicon": {
+        "pieces": 302,
+        "true": 270,
+        "spurious": 32,
+        "missing": 48
+      },
+      "wer_v3": 0.3858267716535433,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 426.26784183399286,
+      "cap_seconds": 3600.0
+    },
+    {
+      "letters": 10400,
+      "tokens": 6854,
+      "refined_cer": 0.03182692307692308,
+      "polished_cer": 0.0275,
+      "agreement": 0.9587102421943391,
+      "misparsed": {
+        "split->split": 134,
+        "split->whole": 104,
+        "whole->split": 45
+      },
+      "tokens_correct": 0.9587102421943391,
+      "letters_in_correct_tokens": 9879,
+      "wrong_letters_in_correct_tokens": 29,
+      "error_rate_in_correct_tokens": 0.002935519789452374,
+      "letters_in_misparsed_tokens": 521,
+      "share_of_letters_misparsed": 0.050096153846153846,
+      "lexicon": {
+        "pieces": 459,
+        "true": 308,
+        "spurious": 151,
+        "missing": 24
+      },
+      "wer_v3": 0.23254670599803343,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 890.759031750029,
+      "cap_seconds": 7200.0
+    },
+    {
+      "letters": 20800,
+      "tokens": 13638,
+      "refined_cer": 0.04033653846153846,
+      "polished_cer": 0.038365384615384614,
+      "agreement": 0.9491860976682798,
+      "misparsed": {
+        "split->split": 283,
+        "split->whole": 362,
+        "whole->split": 48
+      },
+      "tokens_correct": 0.9491860976682798,
+      "letters_in_correct_tokens": 19462,
+      "wrong_letters_in_correct_tokens": 12,
+      "error_rate_in_correct_tokens": 0.0006165861679169664,
+      "letters_in_misparsed_tokens": 1338,
+      "share_of_letters_misparsed": 0.06432692307692307,
+      "lexicon": {
+        "pieces": 724,
+        "true": 316,
+        "spurious": 408,
+        "missing": 23
+      },
+      "wer_v3": 0.24065244667503136,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": true,
+        "polish": false
+      },
+      "seconds": 3380.411410041037,
+      "cap_seconds": 14400.0
+    }
+  ],
+  "protocol_sha256": "542b6c4c33abe8cee1dc1b18d28ade6f350728d2f673bf48ccf4a06c6566ab78",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790194181.0723488
+}

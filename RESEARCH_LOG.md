@@ -54,6 +54,16 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-23: length scaling: 10,400 letters cuts Naibbe CER 40%; 20,800 fails on lexicon growth.**
+Development only; round four unchanged; three texts; nested 5,200 / 10,400 / 20,800-letter prefixes.
+Mean polished CER was 5.62%, then 3.39%, then 4.18%. The declared rule (20,800 at most half of 5,200)
+is not met, so no sealed long round follows. The cause: absolute count thresholds admit frequent
+concatenations as pieces. Spurious pieces grew from 32–75 to 295–408, and split tokens read as one
+whole piece became the main error. Refinement's fixed 300 s cap was also hit at 20,800 (declared
+confound). Missing true pieces fell from about 45 to about 20. Next: a length-aware lexicon
+(thresholds and refine cap scaled with length) under the same rule. CPU, 80 min in three processes.
+[Report](experiments/length-scaling/REPORT.md).
+
 **2026-09-23: Voynich transcription suspects: near-hapax forms far above natural text.**
 Training pages only, no decoding. In v101, 10.4% of tokens occur once and sit one edit from a
 form seen at least 5 times; in EVA, 6.8%. Equal-size Latin, Italian, Old French and German samples
