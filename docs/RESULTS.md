@@ -77,6 +77,18 @@ Development findings that shaped the rounds (development text only):
 | Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
 
+## Linear A (branch `linear-a`; summary in [LINEAR_A.md](LINEAR_A.md))
+
+Each method had to find Greek in Linear B (DĀMOS Knossos) at Linear A's size before Linear A was
+run. None did, so no Linear A language result exists.
+
+| Round | Method | Linear B control: Greek identified | Record |
+|---|---|---|---|
+| Anchors | Linear B Cretan toponyms in Linear A | 2 of 14 found; chance 0.025 | [report](../experiments/linear-a/REPORT.md) |
+| One | lexicon match, Linear B spelling, 8 languages | 10% of draws; gate 90%; failed | [report](../experiments/linear-a/REPORT.md) |
+| Two | lexicon match plus name–position agreement | 0% of 20; failed | [report](../experiments/linear-a-context/REPORT.md) |
+| Three | entry words against 4 proper-name lists | 0% of 20; failed | [report](../experiments/linear-a-names/REPORT.md) |
+
 ## Operational
 
 | Item | Status | Record |
