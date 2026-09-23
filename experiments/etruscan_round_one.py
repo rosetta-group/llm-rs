@@ -45,13 +45,15 @@ def latin_draw(pool_by_length, lengths, labelled_share, rng):
     texts = []
     used = collections.defaultdict(set)
     for n in lengths:
-        pool = pool_by_length[n]
+        # No Latin epitaph of this length (one ETP text of 208 tokens): shortest longer one, truncated.
+        m = n if pool_by_length[n] else min(k for k in pool_by_length if k > n)
+        pool = pool_by_length[m]
         while True:
             j = int(rng.integers(len(pool)))
-            if j not in used[n]:
-                used[n].add(j)
+            if j not in used[m]:
+                used[m].add(j)
                 break
-        texts.append([classes.latin_type(w) for w in pool[j]])
+        texts.append([classes.latin_type(w) for w in pool[j][:n]])
     labels = {}
     for t in sorted({t for text in texts for t in text}):
         raw = t[2:].upper() if t.startswith("N:") else t

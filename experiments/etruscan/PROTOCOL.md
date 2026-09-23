@@ -79,6 +79,13 @@ cannot be a null. The gate now uses the corpus-wide shuffle, which destroys cont
 frequencies and text lengths (synthetic: 0.00 to 0.20). The within-text shuffle is still
 reported, as a measure of what word order adds.
 
+## Amendment, 2026-09-23, after a crash and before any result
+
+The first run stopped while drawing Latin, before any score was computed or written: one ETP
+text has 208 tokens and no Latin epitaph has exactly that length. For a length with no Latin
+epitaph, the draw now takes the shortest longer epitaph and keeps its first n tokens. This
+affects 1 of 551 texts per draw. Re-frozen in freeze.json.
+
 ## Also reported, not gated
 
 - **Anchors (scope phase 1):** leave one word out, seed with every other labelled ETP type,

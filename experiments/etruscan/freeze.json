@@ -6,8 +6,8 @@
   "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
   "etruscan/context.py": "0be2ef3ecaeb1540d74e3deb1bf389f0a6324f6f6d2a503d5b600332f9ab1a04",
   "linear_a/controls.py": "33bcb30b1304369e952cda2fd9c5c58e8239585d1ba6421cc19214644f96648d",
-  "experiments/etruscan_round_one.py": "3a0eee292182bf0a4a704c993c8285cd9f032d21382a39c365bf1ea1fecfb26b",
-  "experiments/etruscan/PROTOCOL.md": "73c05e404f04f732e50db8f900dd617c02771c54488b1be8aba9fd653cdcb553",
+  "experiments/etruscan_round_one.py": "35437a6c40b9c3973785ab46cf0a978b035cd963a62805d7615379a52a533328",
+  "experiments/etruscan/PROTOCOL.md": "1f8de42276c31a3e37d397a9a2a7d97658f90da5af518589a3210745ae7a1fd3",
   "experiments/etruscan/sources.json": "1348619f3b9346feb77569c4f1c8d81b0787ddd2c2b5c498bd6274e0d4ba40f0"
  },
  "sources": {
@@ -25,5 +25,6 @@
   "artifacts/etruscan-sources/larth/utils.py": "e6c906f022599b3d70d3caaca4bdb7ca3c6dcd4e2c2f76aba60ced1e12be6c92",
   "artifacts/etruscan-sources/lire/LIRE_v3-0.parquet": "1e4b67e8f06898064f823bb25047496e5fc247718723b22da2805bec34d940ce",
   "artifacts/etruscan-sources/lire/LI_metadata.csv": "fb0cf394e7ca4f88b5d74fa730d3de10a37f71dc606efbe4cfe3c7ea400ac465"
- }
+ },
+ "amended": "2026-09-23: Latin draw for lengths with no exact match"
 }
