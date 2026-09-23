@@ -20,3 +20,6 @@ Rongorongo was tried next ([scope](../experiments/rongorongo/SCOPE.md), [report]
 A Māori text disguised as signs at the tablets' size (2,600 syllables) was recovered at 65% on
 average (44% worst), against a 90% gate; an earlier study (Rochala 2026) found the same limit with
 a different solver. The tablets are too short for statistical sign-to-syllable recovery.
+
+Proto-Elamite is scoped next, as blind recovery of number systems validated on proto-cuneiform:
+[experiments/proto-elamite/SCOPE.md](../experiments/proto-elamite/SCOPE.md).
