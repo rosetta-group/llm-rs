@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 1200,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 1.0,
+    "repair_minimum": 2,
+    "repair_passes": 2
+  },
+  "prior_letters": 606976,
+  "held_out_bits_per_letter": {
+    "latin": 2.461978746035038,
+    "old_french": 2.583607323506783,
+    "german": 2.7067803402356905,
+    "english": 2.7918766584203842,
+    "italian": 2.765534810596007
+  },
+  "prior_sha256": {
+    "latin": "2851e3a3943970aa853f4cb5f167ae50936d59b0661cb45a0340587399bc6fa5",
+    "old_french": "20e5c63695777d8842e32d7913e68e3ba064cdd0bc630f36c1ce564f29bb249c",
+    "german": "0fe529254f0466076b68a66963d9906bc049e32a73c7842842e1690ad9e43b60",
+    "english": "8152538dd8e3a2f4a559dbdbc70ee2d78af323d7100a9f7b0a593b9b0bbf5db1",
+    "italian": "fdd113994b3158152872ba192b1fabbac6aa934f1caeafb2d44d6c80d06537d2"
+  },
+  "code_sha256": {
+    "experiments/language_id.py": "dddd49c2094c8cef165df88c0312c7b1a9b703692494960c2faeabbb13282f82",
+    "experiments/joint_recovery_v4.py": "15a87a297836dcd87be4b98a8626a0bdc0e7413652311292bf8edb63c661e0cf",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "voynich/joint_segments_v2.py": "9af72d52809033f70cb06a647f6006ec6bdd922456d02505501f6781ea06ce2a",
+    "voynich/lexicon_repair.py": "56b1c158983fab5a39afc6bc4e11e2b6d9dc23589a05c92b0276c93dee272681",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/decipher.py": "5a091f9dc79e1e754ef91a25c68e8dd28dd51acdab5eeca1e140e2812b21f6db"
+  },
+  "protocol_sha256": "2bbb89a67188b3ad4d65aeeda65631e3dc035dc73f9d39ec43b7eab8e8c13742",
+  "sources_sha256": "7f827578b4d2c6b79b82da3289ab216bf049cac6be7d258d32f4a327286d244c",
+  "case_cap_seconds": 3600,
+  "at": 1790166633.856361
+}
