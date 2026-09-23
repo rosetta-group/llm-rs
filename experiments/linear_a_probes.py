@@ -134,7 +134,7 @@ def probe_2():
     observed = hits(la_words)
     null = [len(hits(c)) for c in probes.null_corpora(la_words, rng(2), NULL_RUNS)]
     result = {"spelled": {render(k): v for k, v in variants.items()},
-              "hits": {k: sorted(set(map(tuple, v))) for k, v in observed.items()},
+              "hits": {k: sorted({tuple(map(str, x)) for x in v}) for k, v in observed.items()},
               "names_with_hits": len(observed), "null_mean": float(np.mean(null)),
               "p": probes.upper_p(len(observed), null)}
     write(2, result)
