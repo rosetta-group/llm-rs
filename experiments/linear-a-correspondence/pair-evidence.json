@@ -1,0 +1,4788 @@
+[
+  {
+    "historical_pair": [
+      "a-du-re",
+      "a-du-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "KH 4",
+        "url": "https://sigla.phis.me/document/KH%204/index-word.html",
+        "words": [
+          "a-du-re",
+          "[?]"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "A306",
+            "role": "logogram",
+            "reading": "A306",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "A303",
+            "role": "logogram",
+            "reading": "A303",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          }
+        ],
+        "unicode_text": "𐘇𐘬𐘙𐝫\n𐝫𐙚𐄊\n𐙗𐝁𐝫\n𐝫\n𐝫",
+        "conflicts": [],
+        "gorila_ref": "3, p. 28",
+        "parent_object": null,
+        "accepted": []
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "3930",
+        "document": "KN Bk(-) 9695",
+        "url": "https://damos.hf.uio.no/3930",
+        "raw": "a3-du-ṛọ[",
+        "line": ".2        a3-du-ṛọ[",
+        "notes": "¥ KT6: Subseries change ¥<br>¥ KT6: Set change ¥",
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "a-ka-ru",
+      "a-ka-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "HT 2",
+        "url": "https://sigla.phis.me/document/HT%202/index-word.html",
+        "words": [
+          "a-ka-ru",
+          "ki-re-ta-na"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "A610",
+            "role": "logogram",
+            "reading": "A610",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "A609",
+            "role": "logogram",
+            "reading": "A609",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "A613",
+            "role": "logogram",
+            "reading": "A613",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "A610",
+            "role": "logogram",
+            "reading": "A610",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "A609",
+            "role": "logogram",
+            "reading": "A609",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘇𐘾𐘘𐄁𐜋𐄑𐝫\n𐝫𐜊𐄐𐄍\n𐜎𐄉𐝫\n𐝫𐘸𐘙𐘳𐘅𐜋𐄔𐄊𐝫\n𐝫𐜊𐄓𐄍\n𐄇",
+        "conflicts": [],
+        "gorila_ref": "1, p. 4",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "a",
+              "ka",
+              "ru"
+            ],
+            "document": "HT 2",
+            "line_number": 1,
+            "line": "𐘇𐘾𐘘𐄁𐜋𐄑𐝫",
+            "sign_ids": [
+              "AB08",
+              "AB77",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "parent_object": "HT 2"
+          }
+        ]
+      },
+      {
+        "document": "HT 86a",
+        "url": "https://sigla.phis.me/document/HT%2086a/index-word.html",
+        "words": [
+          "a-ka-ru",
+          "ku-ni-su",
+          "sa-ru",
+          "di-de-ru",
+          "qa-ra2-wa",
+          "a-du",
+          "da-me",
+          "mi-nu-te"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "A584",
+            "role": "logogram",
+            "reading": "A584",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB54",
+            "role": "syllabogram",
+            "reading": "wa",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB13",
+            "role": "syllabogram",
+            "reading": "me",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "A580",
+            "role": "logogram",
+            "reading": "A580",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB31",
+            "role": "erasure",
+            "reading": "AB31",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘇𐘾𐘘𐄁\n𐙂𐘝𐘲𐛷𐄑\n𐘞𐘘𐄑\n𐘆𐘦𐘘𐄑\n𐘌𐘽𐘮𐄐\n—\n𐘇𐘬𐄁\n𐘀𐘋𐛳𐄑\n𐘻𐘯𐘃𐄑",
+        "conflicts": [],
+        "gorila_ref": "1, p. 148",
+        "parent_object": "HT 86",
+        "accepted": [
+          {
+            "word": [
+              "a",
+              "ka",
+              "ru"
+            ],
+            "document": "HT 86a",
+            "line_number": 1,
+            "line": "𐘇𐘾𐘘𐄁",
+            "sign_ids": [
+              "AB08",
+              "AB77",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "parent_object": "HT 86"
+          }
+        ]
+      },
+      {
+        "document": "HT 86b",
+        "url": "https://sigla.phis.me/document/HT%2086b/index-word.html",
+        "words": [
+          "a-ka-ru",
+          "ku-ni-su",
+          "sa-ru",
+          "di-de"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "A584",
+            "role": "logogram",
+            "reading": "A584",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 11,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 14,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          }
+        ],
+        "unicode_text": "𐘇𐘾𐘘𐄁\n𐙂𐘝𐘲𐛷𐄑\n𐘞𐘘𐄑\n𐘆𐘦",
+        "conflicts": [],
+        "gorila_ref": "1, p. 148",
+        "parent_object": "HT 86",
+        "accepted": [
+          {
+            "word": [
+              "a",
+              "ka",
+              "ru"
+            ],
+            "document": "HT 86b",
+            "line_number": 1,
+            "line": "𐘇𐘾𐘘𐄁",
+            "sign_ids": [
+              "AB08",
+              "AB77",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "parent_object": "HT 86"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "220",
+        "document": "KN Sc(-) 233",
+        "url": "https://damos.hf.uio.no/220",
+        "raw": "]a-qa-ro",
+        "line": "        ]a-qa-ro     TUN  [",
+        "notes": "Þ KT6: Scribal hand change Þ",
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "a-ta-re",
+      "a-ta-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "a",
+          "ta",
+          "re"
+        ],
+        [
+          "a",
+          "ta",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "ZA 8",
+        "url": "https://sigla.phis.me/document/ZA%208/index-word.html",
+        "words": [
+          "ki-ra",
+          "a-ta-re",
+          "ku-tu-ko-re",
+          "a-ri-ni-ta",
+          "ta-i-nu-ma-pa",
+          "ma-ka-i-se",
+          "da-i-pi-ta",
+          "ka-i-ro"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB60",
+            "role": "syllabogram",
+            "reading": "ra",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB30",
+            "role": "logogram",
+            "reading": "AB30/FIC",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB69",
+            "role": "syllabogram",
+            "reading": "tu",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB70",
+            "role": "syllabogram",
+            "reading": "ko",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB39",
+            "role": "syllabogram",
+            "reading": "pi",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘸𐘴𐄁\n𐘇𐘳𐘙𐄁𐘝𐝆\n𐙂𐘹𐘺𐘙𐝂𐝂\n𐘇𐘭𐘝𐘳𐄇𐝫𐝁𐝁\n𐘳𐘚𐘯𐙁𐘂𐝆\n𐙁𐘾𐘚𐘈𐄈𐝃𐝆\n𐘀𐘚𐘢𐘳𐄈𐝆\n𐘾𐘚𐘁𐄊𐝁𐝁",
+        "conflicts": [],
+        "gorila_ref": "3, p. 164",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "a",
+              "ta",
+              "re"
+            ],
+            "document": "ZA 8",
+            "line_number": 2,
+            "line": "𐘇𐘳𐘙𐄁𐘝𐝆",
+            "sign_ids": [
+              "AB08",
+              "AB59",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                3,
+                4,
+                5
+              ]
+            ],
+            "parent_object": "ZA 8"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "4327",
+        "document": "PY An(6) 35",
+        "url": "https://damos.hf.uio.no/4327",
+        "raw": "a-ta-ro",
+        "line": ".5        a-ta-ro  ,  tu-ru-pte-ri-ja  ,  o-no",
+        "notes": null,
+        "accepted": true
+      },
+      {
+        "id": "4685",
+        "document": "PY Jn(1) 415",
+        "url": "https://damos.hf.uio.no/4685",
+        "raw": "a3-ta-ro",
+        "line": ".2        re-u-ko-ro-o-pu2-ru   AES   M   5   a3-ta-ro      AES   M   5",
+        "notes": "JOIN€(Melena 1992-3a). (SMITH, J. 1992-1993. The Pylos Jn Series. Minos 1992-3, p. 167 ff.): .10: possibly reconstructed as <i>ẹ-te-re-ro</i>, traces of <i>e</i> visible in break",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "a-ti-ru",
+      "a-ti-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "a",
+          "ti",
+          "ru"
+        ],
+        [
+          "a",
+          "ti",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "ZA 4a",
+        "url": "https://sigla.phis.me/document/ZA%204a/index-word.html",
+        "words": [
+          "pi-[?]-se",
+          "ja-to-ja",
+          "a-ti-ru",
+          "ja-pa",
+          "tu-me-se",
+          "qe-si-*79-e",
+          "i-nu-ma-re",
+          "si-pi-ki",
+          "e-*82",
+          "ka-di"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB38",
+            "role": "logogram",
+            "reading": "AB38",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB39",
+            "role": "syllabogram",
+            "reading": "pi",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 4,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB05",
+            "role": "syllabogram",
+            "reading": "to",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB69",
+            "role": "syllabogram",
+            "reading": "tu",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB13",
+            "role": "syllabogram",
+            "reading": "me",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB78",
+            "role": "syllabogram",
+            "reading": "qe",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB41",
+            "role": "syllabogram",
+            "reading": "si",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB79",
+            "role": "syllabogram",
+            "reading": "*79",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB38",
+            "role": "syllabogram",
+            "reading": "e",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB28b",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB41",
+            "role": "syllabogram",
+            "reading": "si",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB39",
+            "role": "syllabogram",
+            "reading": "pi",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB38",
+            "role": "syllabogram",
+            "reading": "e",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB82",
+            "role": "syllabogram",
+            "reading": "*82",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐝫\n𐝫\n𐝫𐘡𐝫\n𐝫𐘢𐝫𐄁𐝫𐘈𐝫𐝫𐄋\n𐘱𐘄𐘱𐝫𐝫𐄉𐝫\n𐘇𐘠𐘘𐄊\n𐘱𐘂𐄇𐝫\n𐝫𐄁𐝫𐘹𐘋𐘈𐄐𐄎\n𐘿𐘤𐙀𐘡𐄊\n𐘛𐘯𐙁𐘙𐄐𐄉\n𐘤𐘢𐘸𐄋\n𐘡𐙃𐄔\n𐘾𐘆𐄉",
+        "conflicts": [],
+        "gorila_ref": "3, p. 148",
+        "parent_object": "ZA 4",
+        "accepted": [
+          {
+            "word": [
+              "a",
+              "ti",
+              "ru"
+            ],
+            "document": "ZA 4a",
+            "line_number": 6,
+            "line": "𐘇𐘠𐘘𐄊",
+            "sign_ids": [
+              "AB08",
+              "AB37",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                8,
+                9,
+                10
+              ]
+            ],
+            "parent_object": "ZA 4"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "1171",
+        "document": "KN Dc(-) 1272",
+        "url": "https://damos.hf.uio.no/1171",
+        "raw": "a-ti-ro",
+        "line": ".B        a-ti-ro  , / e-ko-so  ,           o   OVIS:m   71",
+        "notes": "¥ KT6: Subseries change ¥",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "di-de-ru",
+      "di-de-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "di",
+          "de",
+          "ru"
+        ],
+        [
+          "di",
+          "de",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "HT 86a",
+        "url": "https://sigla.phis.me/document/HT%2086a/index-word.html",
+        "words": [
+          "a-ka-ru",
+          "ku-ni-su",
+          "sa-ru",
+          "di-de-ru",
+          "qa-ra2-wa",
+          "a-du",
+          "da-me",
+          "mi-nu-te"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "A584",
+            "role": "logogram",
+            "reading": "A584",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB54",
+            "role": "syllabogram",
+            "reading": "wa",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB13",
+            "role": "syllabogram",
+            "reading": "me",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "A580",
+            "role": "logogram",
+            "reading": "A580",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB31",
+            "role": "erasure",
+            "reading": "AB31",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘇𐘾𐘘𐄁\n𐙂𐘝𐘲𐛷𐄑\n𐘞𐘘𐄑\n𐘆𐘦𐘘𐄑\n𐘌𐘽𐘮𐄐\n—\n𐘇𐘬𐄁\n𐘀𐘋𐛳𐄑\n𐘻𐘯𐘃𐄑",
+        "conflicts": [],
+        "gorila_ref": "1, p. 148",
+        "parent_object": "HT 86",
+        "accepted": [
+          {
+            "word": [
+              "di",
+              "de",
+              "ru"
+            ],
+            "document": "HT 86a",
+            "line_number": 4,
+            "line": "𐘆𐘦𐘘𐄑",
+            "sign_ids": [
+              "AB07",
+              "AB45",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                10,
+                11,
+                12
+              ]
+            ],
+            "parent_object": "HT 86"
+          }
+        ]
+      },
+      {
+        "document": "HT 95a",
+        "url": "https://sigla.phis.me/document/HT%2095a/index-word.html",
+        "words": [
+          "da-du-ma-ta",
+          "da-me",
+          "mi-nu-te",
+          "sa-ru",
+          "ku-ni-[?]",
+          "di-de-ru-qe-ra2-u"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB120",
+            "role": "logogram",
+            "reading": "AB120/GRA",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB13",
+            "role": "syllabogram",
+            "reading": "me",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 16,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB78",
+            "role": "syllabogram",
+            "reading": "qe",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 23,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 24,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 25,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 26,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          }
+        ],
+        "unicode_text": "𐘀𐘬𐙁𐘳𐄁𐙉\n𐘀𐘋𐄐\n𐘻𐘯𐘃𐄐\n𐘞𐘘𐄑\n𐙂𐘝𐘲𐄐\n𐘆𐘦𐘘𐄐\n𐘿𐘽𐘉𐄍",
+        "conflicts": [],
+        "gorila_ref": "1, p. 166",
+        "parent_object": "HT 95",
+        "accepted": []
+      },
+      {
+        "document": "HT 95b",
+        "url": "https://sigla.phis.me/document/HT%2095b/index-word.html",
+        "words": [
+          "a-du",
+          "sa-ru",
+          "da-za",
+          "mi-nu-te",
+          "ku-ni-su",
+          "di-de-ru",
+          "qe-ra2-u"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": null,
+            "role": "logogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 6,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB17",
+            "role": "syllabogram",
+            "reading": "za",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB78",
+            "role": "syllabogram",
+            "reading": "qe",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘇𐘬𐄁\n𐘞𐘘𐄐\n𐝫𐄁𐝫\n𐘀𐘋𐄐\n𐘻𐘯𐘃𐄐\n𐙂𐘝𐘲𐄐\n𐘆𐘦𐘘𐄐\n𐘿𐘽𐘉𐄐",
+        "conflicts": [
+          {
+            "field": "w",
+            "ours": "da-za",
+            "theirs": "da-me",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB017 (za), glyph layer AB013 (me)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10600 AB001 da, U+1060B AB013 me",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 3 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "gorila_ref": "1, p. 166",
+        "parent_object": "HT 95",
+        "accepted": [
+          {
+            "word": [
+              "di",
+              "de",
+              "ru"
+            ],
+            "document": "HT 95b",
+            "line_number": 7,
+            "line": "𐘆𐘦𐘘𐄐",
+            "sign_ids": [
+              "AB07",
+              "AB45",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                14,
+                15,
+                16
+              ]
+            ],
+            "parent_object": "HT 95"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "1343",
+        "document": "KN Dv(-) 1504",
+        "url": "https://damos.hf.uio.no/1343",
+        "raw": "di-de-ro",
+        "line": ".B        di-de-ro  /  ẹ[                           ]   vac.                   [",
+        "notes": null,
+        "accepted": true
+      },
+      {
+        "id": "3339",
+        "document": "KN Dl(-) 9016",
+        "url": "https://damos.hf.uio.no/3339",
+        "raw": "]̣di-de-ro",
+        "line": ".B        ]̣di-de-ro  /  tu-ni-ja                          ki   OVIS   2̣2                 [",
+        "notes": "€MADRID: additional note",
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "ka-ka-ru",
+      "ka-ka-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "qa",
+          "qa",
+          "ru"
+        ],
+        [
+          "qa",
+          "qa",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "HT 118",
+        "url": "https://sigla.phis.me/document/HT%20118/index-word.html",
+        "words": [
+          "ma-di",
+          "qa-qa-ru",
+          "a-ri-su",
+          "ri-ru-ma",
+          "ku-ro"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB85",
+            "role": "logogram",
+            "reading": "AB85/SUS",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "A516",
+            "role": "transaction",
+            "reading": "A516",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB67",
+            "role": "logogram",
+            "reading": "AB67",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB67",
+            "role": "logogram",
+            "reading": "AB67",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB67",
+            "role": "logogram",
+            "reading": "AB67",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB67",
+            "role": "logogram",
+            "reading": "AB67",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐙄𐄁𐛀𐄁\n𐙁𐘆𐄐𐄋\n𐘸𐄐\n𐘌𐘌𐘘𐄌\n𐘸𐄊\n𐘇𐘭𐘲𐄊\n𐘸𐄇\n𐘭𐘘𐙁𐄐\n𐙂𐘁𐄒\n𐘸𐄐𐄋𐝫",
+        "conflicts": [],
+        "gorila_ref": "1, p. 200",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "qa",
+              "qa",
+              "ru"
+            ],
+            "document": "HT 118",
+            "line_number": 4,
+            "line": "𐘌𐘌𐘘𐄌",
+            "sign_ids": [
+              "AB16",
+              "AB16",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                6,
+                7,
+                8
+              ]
+            ],
+            "parent_object": "HT 118"
+          }
+        ]
+      },
+      {
+        "document": "HT 122b",
+        "url": "https://sigla.phis.me/document/HT%20122b/index-word.html",
+        "words": [
+          "je-di",
+          "A306-ki-ta2",
+          "[?]",
+          "a-ra-ju-u-de-za",
+          "qa-qa-ru",
+          "da-re",
+          "ku-ro",
+          "po-to-ku-ro"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB46",
+            "role": "syllabogram",
+            "reading": "je",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "A346",
+            "role": "transaction",
+            "reading": "A346",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB100",
+            "role": "logogram",
+            "reading": "AB100/VIR",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "A306",
+            "role": "syllabogram",
+            "reading": "A306",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB66",
+            "role": "syllabogram",
+            "reading": "ta2",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 9,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB60",
+            "role": "syllabogram",
+            "reading": "ra",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB17",
+            "role": "syllabogram",
+            "reading": "za",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB07",
+            "role": "logogram",
+            "reading": "AB07",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB11",
+            "role": "syllabogram",
+            "reading": "po",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB05",
+            "role": "syllabogram",
+            "reading": "to",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘧𐘆𐄁𐚆𐄁𐙇𐝫\n𐝫𐙚𐘸𐘷𐄍𐝫\n𐝫𐘇𐘴𐘶𐘉𐘦𐘍𐄈\n𐘌𐘌𐘘𐄈\n𐘆𐄈\n𐘀𐘙𐄈\n𐙂𐘁𐄕𐄋\n𐘊𐘄𐙂𐘁𐄘𐄍",
+        "conflicts": [],
+        "gorila_ref": "1, p. 206",
+        "parent_object": "HT 122",
+        "accepted": [
+          {
+            "word": [
+              "qa",
+              "qa",
+              "ru"
+            ],
+            "document": "HT 122b",
+            "line_number": 4,
+            "line": "𐘌𐘌𐘘𐄈",
+            "sign_ids": [
+              "AB16",
+              "AB16",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                15,
+                16,
+                17
+              ]
+            ],
+            "parent_object": "HT 122"
+          }
+        ]
+      },
+      {
+        "document": "HT 93a",
+        "url": "https://sigla.phis.me/document/HT%2093a/index-word.html",
+        "words": [
+          "*56-ni-na",
+          "di-ri-na",
+          "ki-di-ni",
+          "a-se",
+          "sa-ra2",
+          "qa-qa-ru",
+          "*100-i",
+          "de-ju-ku",
+          "o-ti-[?]",
+          "da-ri-da",
+          "*56-ni-na",
+          "pa-se-ja",
+          "[?]-ka"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "A577",
+            "role": "logogram",
+            "reading": "A577",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "A515",
+            "role": "logogram",
+            "reading": "A515",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "A502",
+            "role": "logogram",
+            "reading": "A502",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "A706",
+            "role": "fraction",
+            "reading": "A706",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "A517",
+            "role": "logogram",
+            "reading": "A517",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "A704",
+            "role": "fraction",
+            "reading": "A704",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "A517",
+            "role": "logogram",
+            "reading": "A517",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB100",
+            "role": "syllabogram",
+            "reading": "*100",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 31,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 32,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 33,
+            "type": "AB61",
+            "role": "syllabogram",
+            "reading": "o",
+            "certain": true
+          },
+          {
+            "n": 34,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 35,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 36,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 37,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 38,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 39,
+            "type": "A406",
+            "role": "logogram",
+            "reading": "A406",
+            "certain": true
+          },
+          {
+            "n": 40,
+            "type": "A343",
+            "role": "logogram",
+            "reading": "A343",
+            "certain": true
+          },
+          {
+            "n": 41,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 42,
+            "type": "AB30",
+            "role": "syllabogram",
+            "reading": "ni",
+            "certain": true
+          },
+          {
+            "n": 43,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 44,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 45,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 46,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 47,
+            "type": "AB100",
+            "role": "logogram",
+            "reading": "AB100/VIR",
+            "certain": true
+          },
+          {
+            "n": 48,
+            "type": "A705",
+            "role": "fraction",
+            "reading": "A705",
+            "certain": true
+          },
+          {
+            "n": 49,
+            "type": null,
+            "role": "syllabogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 50,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘰𐘝𐘅𐄁𐙉𐘰𐄁𐚿𐄐𐄈\n𐘆𐘭𐘅𐄁𐚴𐄓𐄉𐝆\n𐘸𐘆𐘝𐄋𐝆𐝅\n𐘇𐘈𐄁𐘚𐛭𐄑𐄌𐝕\n𐘞𐘽𐄑\n𐘌𐘌𐘘𐄁𐘚𐛭𐄋\n𐙇𐘚𐄌\n𐘦𐘶𐙂𐄇𐝆\n𐘵𐘠𐝫𐄁𐄉\n𐘀𐘭𐘀𐚦𐄈\n𐚃𐄈\n𐘰𐘝𐘅𐝫\n𐝫𐘂𐘈𐘱𐄑\n𐙇𐄐𐝄𐝫\n𐝫𐘾𐄊",
+        "conflicts": [],
+        "gorila_ref": "1, p. 160",
+        "parent_object": "HT 93",
+        "accepted": [
+          {
+            "word": [
+              "qa",
+              "qa",
+              "ru"
+            ],
+            "document": "HT 93a",
+            "line_number": 6,
+            "line": "𐘌𐘌𐘘𐄁𐘚𐛭𐄋",
+            "sign_ids": [
+              "AB16",
+              "AB16",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                23,
+                24,
+                25
+              ]
+            ],
+            "parent_object": "HT 93"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "552",
+        "document": "KN As(1) 604",
+        "url": "https://damos.hf.uio.no/552",
+        "raw": "qa-qa-ro",
+        "line": ".3        ]te-so   'wi-na-to'     VIR   1     te-ṇạ-ja-so[       VIR]  1̣   qa-qa-ro   'pu-so'   VIR   1",
+        "notes": "JOIN€CoMIK4",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "ka-sa-ru",
+      "ka-sa-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "ka",
+          "sa",
+          "ru"
+        ],
+        [
+          "ka",
+          "sa",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "HT 10b",
+        "url": "https://sigla.phis.me/document/HT%2010b/index-word.html",
+        "words": [
+          "u-ti",
+          "da-re",
+          "ta-ri-na",
+          "A312-ta",
+          "ka-sa-ru",
+          "ta-na-ti"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 4,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 6,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 11,
+            "type": "A312",
+            "role": "syllabogram",
+            "reading": "A312",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 18,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "A704",
+            "role": "fraction",
+            "reading": "A704",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘉𐘠𐄇\n𐘀𐘙𐄈\n𐘳𐘭𐘅𐄐𐄋\n𐙢𐘳𐄌𐝆\n𐘾𐘞𐘘𐄌\n𐘳𐘅𐘠𐄏𐝃",
+        "conflicts": [],
+        "gorila_ref": "1, p. 20",
+        "parent_object": "HT 10",
+        "accepted": [
+          {
+            "word": [
+              "ka",
+              "sa",
+              "ru"
+            ],
+            "document": "HT 10b",
+            "line_number": 5,
+            "line": "𐘾𐘞𐘘𐄌",
+            "sign_ids": [
+              "AB77",
+              "AB31",
+              "AB26"
+            ],
+            "sign_numbers": [
+              [
+                14,
+                15,
+                16
+              ]
+            ],
+            "parent_object": "HT 10"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "1313",
+        "document": "KN Dv(-) 1450",
+        "url": "https://damos.hf.uio.no/1313",
+        "raw": "ka-sa-ro",
+        "line": ".B        ka-sa-ro  /  vest.[",
+        "notes": null,
+        "accepted": true
+      },
+      {
+        "id": "843",
+        "document": "KN C-(2) 912",
+        "url": "https://damos.hf.uio.no/843",
+        "raw": "ka-sa-ro",
+        "line": ".8        ka-sa-ro  , / a-da-wa-si-jo                             OVIS:m   60",
+        "notes": "¥ KT6: Set change ¥",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "ka-ta-re",
+      "ka-ta-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "KH 41",
+        "url": "https://sigla.phis.me/document/KH%2041/index-word.html",
+        "words": [
+          "ka-ta-re"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐝫𐄉\n𐝫𐘾𐘳𐘙𐝫\n𐝫",
+        "conflicts": [],
+        "gorila_ref": "3, p. 68",
+        "parent_object": null,
+        "accepted": []
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "2832",
+        "document": "KN Xg(-) 8101",
+        "url": "https://damos.hf.uio.no/2832",
+        "raw": "ka-ta-ro",
+        "line": ".1        ]su-ra  ,  ka-ta-ro  ,  ku-ri-sa-to  ,  ra-wi[",
+        "notes": "¥ KT6: Subseries change ¥",
+        "accepted": true
+      },
+      {
+        "id": "552",
+        "document": "KN As(1) 604",
+        "url": "https://damos.hf.uio.no/552",
+        "raw": "ka-ṭạ2-ṛọ",
+        "line": ".1        ]   e-re-dwo-ẹ  ,  ka-ṭạ2-ṛọ   'si-ṛạ-so'   VIR   1     e-ri-ta-qi-jo  , / ka-mo   'VIR   1'",
+        "notes": "JOIN€CoMIK4",
+        "accepted": false
+      },
+      {
+        "id": "5735",
+        "document": "MY Z-(-) 202",
+        "url": "https://damos.hf.uio.no/5735",
+        "raw": "ka-ta-ro",
+        "line": "        ]e-ra , ka-ta-ro",
+        "notes": "€Sacconi(1974)<br>\n©Chronology from Zurbach(2006)©",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "ke-ku-re",
+      "ke-ku-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "HT 20",
+        "url": "https://sigla.phis.me/document/HT%2020/index-word.html",
+        "words": [
+          "pa-ro-su",
+          "ku-ma-ju",
+          "qe-ku-re",
+          "sa-re-ju"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "A704",
+            "role": "fraction",
+            "reading": "A704",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB78",
+            "role": "syllabogram",
+            "reading": "qe",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB07",
+            "role": "logogram",
+            "reading": "AB07",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB22m",
+            "role": "logogram",
+            "reading": "AB22/CAP",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "A705",
+            "role": "fraction",
+            "reading": "A705",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "A705",
+            "role": "fraction",
+            "reading": "A705",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB54",
+            "role": "logogram",
+            "reading": "AB54/TELA",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "A704",
+            "role": "fraction",
+            "reading": "A704",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "A684",
+            "role": "logogram",
+            "reading": "A684",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘂𐘁𐘲𐄁\n𐙂𐙁𐘶𐝃\n𐘿𐙂𐘙𐄁𐘆𐝆\n𐘑𐝄\n𐘞𐘙𐘶𐝄\n𐘮𐝃\n𐜇𐝆",
+        "conflicts": [],
+        "gorila_ref": "1, p. 42",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "qe",
+              "ku",
+              "re"
+            ],
+            "document": "HT 20",
+            "line_number": 3,
+            "line": "𐘿𐙂𐘙𐄁𐘆𐝆",
+            "sign_ids": [
+              "AB78",
+              "AB81",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                8,
+                9,
+                10
+              ]
+            ],
+            "parent_object": "HT 20"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "2558",
+        "document": "KN Vc(5) 7656",
+        "url": "https://damos.hf.uio.no/2558",
+        "raw": "ke-ku-ṛọ[",
+        "line": "        ke-ku-ṛọ[",
+        "notes": "¥ KT6: Series change ¥<br>¥ KT6: Subseries change ¥<br>¥ KT6: Set change ¥<br>Þ KT6: Scribal hand change Þ",
+        "accepted": false
+      },
+      {
+        "id": "4770",
+        "document": "PY Mn(1) 162",
+        "url": "https://damos.hf.uio.no/4770",
+        "raw": "ke-ku-ṛọ",
+        "line": ".7        pa-ro  ,  ke-ku-ṛọ   *146   4",
+        "notes": "JOIN€(Melena 1994-5b). No physical contact, but probably ony one line is missing (another entry with <i>*146 4?</i>)<br>\nPTT3: + 1011, Archives and PTT2: [+] 1011",
+        "accepted": false
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "pa-ja-re",
+      "pa-ja-ro"
+    ],
+    "strict_pairs": [
+      [
+        [
+          "pa",
+          "ja",
+          "re"
+        ],
+        [
+          "pa",
+          "ja",
+          "ro"
+        ]
+      ]
+    ],
+    "linear_a": [
+      {
+        "document": "HT 29",
+        "url": "https://sigla.phis.me/document/HT%2029/index-word.html",
+        "words": [
+          "ru-ma-ta",
+          "pa-ja-re",
+          "di-ja-i",
+          "sa-A323-mi",
+          "A340-ki-ta",
+          "a-re-da-i",
+          "ka-du-ma-ne"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": null,
+            "role": "logogram",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 5,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 9,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 12,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "A323",
+            "role": "syllabogram",
+            "reading": "A323",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "A340",
+            "role": "syllabogram",
+            "reading": "A340",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB67",
+            "role": "erasure",
+            "reading": "AB67",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB59",
+            "role": "erasure",
+            "reading": "AB59",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB41",
+            "role": "erasure",
+            "reading": "AB41",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 26,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 30,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 31,
+            "type": "AB24",
+            "role": "syllabogram",
+            "reading": "ne",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘘𐙁𐘳𐄈𐝫\n𐝫𐄁𐄇\n𐘂𐘱𐘙𐄈𐝫\n𐝫𐘆𐘱𐘚𐄈\n𐘞𐙯𐘻𐄇\n𐝫𐄁𐝫𐘸𐘳𐄈\n𐘇𐘙𐘀𐘚𐄈\n𐘾𐘬𐙁𐘗𐄇",
+        "conflicts": [],
+        "gorila_ref": "1, p. 60",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "pa",
+              "ja",
+              "re"
+            ],
+            "document": "HT 29",
+            "line_number": 3,
+            "line": "𐘂𐘱𐘙𐄈𐝫",
+            "sign_ids": [
+              "AB03",
+              "AB57",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                5,
+                6,
+                7
+              ]
+            ],
+            "parent_object": "HT 29"
+          }
+        ]
+      },
+      {
+        "document": "HT 88",
+        "url": "https://sigla.phis.me/document/HT%2088/index-word.html",
+        "words": [
+          "a-du",
+          "re-za",
+          "ki-ki-na",
+          "ki-ro",
+          "ku-*56-*56",
+          "ka-ju",
+          "ku-*56-nu",
+          "pa-ja-re",
+          "sa-ma-ro",
+          "da-ta-re",
+          "ku-ro"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "A568",
+            "role": "logogram",
+            "reading": "A568",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": null,
+            "role": "erasure",
+            "reading": null,
+            "certain": false
+          },
+          {
+            "n": 6,
+            "type": "AB17",
+            "role": "syllabogram",
+            "reading": "za",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB31",
+            "role": "logogram",
+            "reading": "AB31",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 31,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘇𐘬𐛧𐄑\n𐘙𐘍𐄌\n𐘝𐄁𐘸𐘸𐘅𐄍\n𐘸𐘁𐄁\n𐙂𐘰𐘰𐄇\n𐘾𐘶𐄇\n𐙂𐘰𐘯𐄇\n𐘂𐘱𐘙𐄇\n𐘞𐙁𐘁𐄇\n𐘀𐘳𐘙𐄇\n𐙂𐘁𐄌",
+        "conflicts": [],
+        "gorila_ref": "1, p. 152",
+        "parent_object": null,
+        "accepted": [
+          {
+            "word": [
+              "pa",
+              "ja",
+              "re"
+            ],
+            "document": "HT 88",
+            "line_number": 8,
+            "line": "𐘂𐘱𐘙𐄇",
+            "sign_ids": [
+              "AB03",
+              "AB57",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                21,
+                22,
+                23
+              ]
+            ],
+            "parent_object": "HT 88"
+          }
+        ]
+      },
+      {
+        "document": "HT 8b",
+        "url": "https://sigla.phis.me/document/HT%208b/index-word.html",
+        "words": [
+          "su-pu2-*188",
+          "*56-*188",
+          "qa-A310-i",
+          "ka-pa",
+          "pa-ja-re"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB29",
+            "role": "syllabogram",
+            "reading": "pu2",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB188",
+            "role": "syllabogram",
+            "reading": "*188",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB188",
+            "role": "syllabogram",
+            "reading": "*188",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB16",
+            "role": "syllabogram",
+            "reading": "qa",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "A310",
+            "role": "syllabogram",
+            "reading": "A310",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "A704",
+            "role": "fraction",
+            "reading": "A704",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "A705",
+            "role": "fraction",
+            "reading": "A705",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "A705",
+            "role": "fraction",
+            "reading": "A705",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "A565",
+            "role": "logogram",
+            "reading": "A565",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "A707",
+            "role": "fraction",
+            "reading": "A707",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘲𐘜𐙓𐄇\n—\n𐄋\n𐘰𐙓𐄈\n𐘌𐙠𐘚𐄇𐝃𐝄\n𐘾𐘂𐝆\n𐘂𐘱𐘙𐄇𐝄\n𐛥𐝆\n𐝆",
+        "conflicts": [],
+        "gorila_ref": "1, p. 16",
+        "parent_object": "HT 8",
+        "accepted": [
+          {
+            "word": [
+              "pa",
+              "ja",
+              "re"
+            ],
+            "document": "HT 8b",
+            "line_number": 7,
+            "line": "𐘂𐘱𐘙𐄇𐝄",
+            "sign_ids": [
+              "AB03",
+              "AB57",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                14,
+                15,
+                16
+              ]
+            ],
+            "parent_object": "HT 8"
+          }
+        ]
+      },
+      {
+        "document": "ZA 10b",
+        "url": "https://sigla.phis.me/document/ZA%2010b/index-word.html",
+        "words": [
+          "wa-A362",
+          "du-re-za-se",
+          "u-*49",
+          "ma-za",
+          "ma-ki-de-te",
+          "sa-ma",
+          "a-de",
+          "a-mi-ta",
+          "ra2-ro-re",
+          "pa-ja-re",
+          "ka-ku-ne-te"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB54",
+            "role": "syllabogram",
+            "reading": "wa",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "A362",
+            "role": "syllabogram",
+            "reading": "A362",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB51",
+            "role": "syllabogram",
+            "reading": "du",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB17",
+            "role": "syllabogram",
+            "reading": "za",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB09",
+            "role": "syllabogram",
+            "reading": "se",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB131b",
+            "role": "logogram",
+            "reading": "AB131/VIN",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB49",
+            "role": "syllabogram",
+            "reading": "*49",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB17",
+            "role": "syllabogram",
+            "reading": "za",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB45",
+            "role": "syllabogram",
+            "reading": "de",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB08",
+            "role": "syllabogram",
+            "reading": "a",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB76",
+            "role": "syllabogram",
+            "reading": "ra2",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB03",
+            "role": "syllabogram",
+            "reading": "pa",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB57",
+            "role": "syllabogram",
+            "reading": "ja",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 31,
+            "type": "AB24",
+            "role": "syllabogram",
+            "reading": "ne",
+            "certain": true
+          },
+          {
+            "n": 32,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 33,
+            "type": "AB59",
+            "role": "logogram",
+            "reading": "AB59",
+            "certain": true
+          },
+          {
+            "n": 34,
+            "type": "AB51",
+            "role": "logogram",
+            "reading": "AB51",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐘮𐚖𐄈\n𐘬𐘙𐘍𐘈𐙎𐄋\n𐘉𐘪𐄌\n𐙁𐘍𐄋\n𐙁𐘸𐘦𐘃𐄋\n𐘞𐙁𐄋\n𐘇𐘦𐄊\n𐘇𐘻𐘳𐄉\n𐘽𐘁𐘙𐄈\n𐘂𐘱𐘙𐄇\n𐘾𐙂𐘗𐘃𐝆\n𐘳𐄈\n𐘬𐄇𐝫",
+        "conflicts": [],
+        "gorila_ref": "3, p. 168",
+        "parent_object": "ZA 10",
+        "accepted": [
+          {
+            "word": [
+              "pa",
+              "ja",
+              "re"
+            ],
+            "document": "ZA 10b",
+            "line_number": 10,
+            "line": "𐘂𐘱𐘙𐄇",
+            "sign_ids": [
+              "AB03",
+              "AB57",
+              "AB27"
+            ],
+            "sign_numbers": [
+              [
+                26,
+                27,
+                28
+              ]
+            ],
+            "parent_object": "ZA 10"
+          }
+        ]
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "1355",
+        "document": "KN As(2) 1519",
+        "url": "https://damos.hf.uio.no/1355",
+        "raw": "pa-ja-ro",
+        "line": ".6        pa-ja-ro               VIR   1",
+        "notes": null,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "ta-ta-re",
+      "ta-ta-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "PK 1",
+        "url": "https://sigla.phis.me/document/PK%201/index-word.html",
+        "words": [
+          "ne-ti",
+          "ka-qa",
+          "a-du-za",
+          "ta2-ta-re",
+          "ta2-ti-te",
+          "o-ka-mi-za-si-i-na",
+          "o-te-ja",
+          "ra-na-tu-su",
+          "ni-mi",
+          "tu-su",
+          "ma-ti-za-i-te",
+          "ma-te-ti",
+          "ma-ka-i-ta"
+        ],
+        "signs": null,
+        "unicode_text": "𐘤𐝫𐄁𐝫𐘗𐘠𐄇\n𐘾𐘌𐄈\n—\n𐘇𐘬𐘍𐄇\n𐘷𐘳𐘙𐄇\n—\n𐘷𐘠𐘃𐄇\n𐘵𐘾𐘻𐘍𐘤𐘚𐘅𐄇\n—\n𐘵𐘃𐘱𐄇\n—\n𐘴𐘅𐘹𐘲𐄇\n𐘝𐘻𐄇\n—\n𐘹𐘲𐄇\n𐙁𐘠𐘍𐘚𐘃𐄇\n—\n𐙁𐘃𐘠𐄇\n𐙁𐘾𐘚𐘳𐄇",
+        "conflicts": [],
+        "gorila_ref": "1, p. 280",
+        "parent_object": null,
+        "accepted": []
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "3150",
+        "document": "KN Xd(-) 8605",
+        "url": "https://damos.hf.uio.no/3150",
+        "raw": "]̣̣ta-ta-ṛọ[",
+        "line": "        ]̣̣ta-ta-ṛọ[",
+        "notes": "Þ KT6: Scribal hand change Þ",
+        "accepted": false
+      },
+      {
+        "id": "4517",
+        "document": "PY Eb(-) 874",
+        "url": "https://damos.hf.uio.no/4517",
+        "raw": "ta-ta-ro",
+        "line": ".A        ta-ta-ro  e-ke-qe  o-na-to  ]ke-ke-me-na  ,  ko-to-na[   ]",
+        "notes": null,
+        "accepted": true
+      },
+      {
+        "id": "4564",
+        "document": "PY Eo(-) 224",
+        "url": "https://damos.hf.uio.no/4564",
+        "raw": "ta-ta-ro",
+        "line": ".7        po-so-re-ja  ,  te-o-jo  ,  do-e-ra  ,  e-ke-qe  ,  o-na-to  ,  pa-ro  ,  ta-ta-ro                   GRA        T   1   V   3",
+        "notes": "READ€(Bennett 1992): two dividers appear after <i>do-e-ra</i>, unless the extra mark is a serif of the <i>-ra</i>",
+        "accepted": true
+      },
+      {
+        "id": "4576",
+        "document": "PY Ep(-) 301",
+        "url": "https://damos.hf.uio.no/4576",
+        "raw": "ta-ta-ro",
+        "line": ".6        ta-ta-ro  ,  o-na-to  ,  e-ke  ,  pa-ro  ,  da-mo  ,  ke-ke-me-na  ,  ko-to-na  ,  to-so  pe-ṃọ[   GRA   V   3",
+        "notes": ".11: #<i>to<-so></i># DĀMOS: 2a: NB: <i>ko-to-no-    -o-ko</i> registered as one word in the wordlist.",
+        "accepted": true
+      },
+      {
+        "id": "554",
+        "document": "KN As(1) 607",
+        "url": "https://damos.hf.uio.no/554",
+        "raw": "ta-ta-ro",
+        "line": ".2                ]1      ta-ta-ro     VIR   1",
+        "notes": null,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "historical_pair": [
+      "te-ja-re",
+      "te-ja-ro"
+    ],
+    "strict_pairs": [],
+    "linear_a": [
+      {
+        "document": "HT 117a",
+        "url": "https://sigla.phis.me/document/HT%20117a/index-word.html",
+        "words": [
+          "ma-ka-ri-te",
+          "ki-ro",
+          "u-mi-na-si",
+          "u-su",
+          "mi-tu",
+          "ku-ra-mu",
+          "ma-ru",
+          "ku-*56-nu",
+          "tu-ju-ma",
+          "u-di-mi",
+          "mi-ru-ta-ra-re",
+          "te-*56-re",
+          "na-da-re",
+          "ku-ro",
+          "sa-ta",
+          "ku-ku-da-ra",
+          "ko-sa-i-ti",
+          "da-mi-nu",
+          "da-ne-ku-ti",
+          "ki-da-ro"
+        ],
+        "signs": [
+          {
+            "n": 1,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 2,
+            "type": "AB77",
+            "role": "syllabogram",
+            "reading": "ka",
+            "certain": true
+          },
+          {
+            "n": 3,
+            "type": "AB53",
+            "role": "syllabogram",
+            "reading": "ri",
+            "certain": true
+          },
+          {
+            "n": 4,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 5,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 6,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 7,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 8,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 9,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 10,
+            "type": "AB41",
+            "role": "syllabogram",
+            "reading": "si",
+            "certain": true
+          },
+          {
+            "n": 11,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 12,
+            "type": "AB58",
+            "role": "syllabogram",
+            "reading": "su",
+            "certain": true
+          },
+          {
+            "n": 13,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 14,
+            "type": "AB69",
+            "role": "syllabogram",
+            "reading": "tu",
+            "certain": true
+          },
+          {
+            "n": 15,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 16,
+            "type": "AB60",
+            "role": "syllabogram",
+            "reading": "ra",
+            "certain": true
+          },
+          {
+            "n": 17,
+            "type": "AB23",
+            "role": "syllabogram",
+            "reading": "mu",
+            "certain": true
+          },
+          {
+            "n": 18,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 19,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 20,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 21,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 22,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 23,
+            "type": "AB69",
+            "role": "syllabogram",
+            "reading": "tu",
+            "certain": true
+          },
+          {
+            "n": 24,
+            "type": "AB65",
+            "role": "syllabogram",
+            "reading": "ju",
+            "certain": true
+          },
+          {
+            "n": 25,
+            "type": "AB80",
+            "role": "syllabogram",
+            "reading": "ma",
+            "certain": true
+          },
+          {
+            "n": 26,
+            "type": "AB10",
+            "role": "syllabogram",
+            "reading": "u",
+            "certain": true
+          },
+          {
+            "n": 27,
+            "type": "AB07",
+            "role": "syllabogram",
+            "reading": "di",
+            "certain": true
+          },
+          {
+            "n": 28,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 29,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 30,
+            "type": "AB26",
+            "role": "syllabogram",
+            "reading": "ru",
+            "certain": true
+          },
+          {
+            "n": 31,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 32,
+            "type": "AB60",
+            "role": "syllabogram",
+            "reading": "ra",
+            "certain": true
+          },
+          {
+            "n": 33,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 34,
+            "type": "AB04",
+            "role": "syllabogram",
+            "reading": "te",
+            "certain": true
+          },
+          {
+            "n": 35,
+            "type": "AB56",
+            "role": "syllabogram",
+            "reading": "*56",
+            "certain": true
+          },
+          {
+            "n": 36,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 37,
+            "type": "AB06",
+            "role": "syllabogram",
+            "reading": "na",
+            "certain": true
+          },
+          {
+            "n": 38,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 39,
+            "type": "AB27",
+            "role": "syllabogram",
+            "reading": "re",
+            "certain": true
+          },
+          {
+            "n": 40,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 41,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          },
+          {
+            "n": 42,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 43,
+            "type": "AB59",
+            "role": "syllabogram",
+            "reading": "ta",
+            "certain": true
+          },
+          {
+            "n": 44,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 45,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 46,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 47,
+            "type": "AB60",
+            "role": "syllabogram",
+            "reading": "ra",
+            "certain": true
+          },
+          {
+            "n": 48,
+            "type": "AB70",
+            "role": "syllabogram",
+            "reading": "ko",
+            "certain": true
+          },
+          {
+            "n": 49,
+            "type": "AB31",
+            "role": "syllabogram",
+            "reading": "sa",
+            "certain": true
+          },
+          {
+            "n": 50,
+            "type": "AB28",
+            "role": "syllabogram",
+            "reading": "i",
+            "certain": true
+          },
+          {
+            "n": 51,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 52,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 53,
+            "type": "AB73",
+            "role": "syllabogram",
+            "reading": "mi",
+            "certain": true
+          },
+          {
+            "n": 54,
+            "type": "AB55",
+            "role": "syllabogram",
+            "reading": "nu",
+            "certain": true
+          },
+          {
+            "n": 55,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 56,
+            "type": "AB24",
+            "role": "syllabogram",
+            "reading": "ne",
+            "certain": true
+          },
+          {
+            "n": 57,
+            "type": "AB81",
+            "role": "syllabogram",
+            "reading": "ku",
+            "certain": true
+          },
+          {
+            "n": 58,
+            "type": "AB37",
+            "role": "syllabogram",
+            "reading": "ti",
+            "certain": true
+          },
+          {
+            "n": 59,
+            "type": "AB67",
+            "role": "syllabogram",
+            "reading": "ki",
+            "certain": true
+          },
+          {
+            "n": 60,
+            "type": "AB01",
+            "role": "syllabogram",
+            "reading": "da",
+            "certain": true
+          },
+          {
+            "n": 61,
+            "type": "AB02",
+            "role": "syllabogram",
+            "reading": "ro",
+            "certain": true
+          }
+        ],
+        "unicode_text": "𐙁𐘾𐘭𐘃𐄁𐘸𐘁𐄁𐘉𐘻𐘅𐘤𐄁\n𐘉𐘲𐄇\n𐘻𐘹𐄇\n𐙂𐘴𐘕𐄇\n𐙁𐘘𐄇\n𐙂𐘰𐘯𐄇\n𐘹𐘶𐙁𐄇\n𐘉𐘆𐘻𐄇\n𐘻𐘘𐘳𐘴𐘙𐄇\n𐘃𐘱𐘙𐄇\n𐘅𐘀𐘙𐄇\n𐙂𐘁𐄐\n—\n𐘞𐘳𐄁\n𐙂𐙂𐘀𐘴𐄇\n𐘺𐘞𐘚𐘠𐄇\n𐘀𐘻𐘯𐄇\n𐘀𐘗𐙂𐘠𐄇\n𐘸𐘀𐘁𐄇",
+        "conflicts": [
+          {
+            "field": "w",
+            "ours": "te-*56-re",
+            "theirs": "te-ja-re",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB056 (*56), glyph layer AB057 (ja)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10603 AB004 te, U+10631 AB057 ja, U+10619 AB027 re",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 12 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "gorila_ref": "1, p. 196",
+        "parent_object": "HT 117",
+        "accepted": []
+      }
+    ],
+    "linear_b": [
+      {
+        "id": "1860",
+        "document": "KN X-(-) 5525",
+        "url": "https://damos.hf.uio.no/1860",
+        "raw": "]te-ja-ro",
+        "line": ".1        ]te-ja-ro     1̣[",
+        "notes": null,
+        "accepted": false
+      },
+      {
+        "id": "3190",
+        "document": "KN X-(-) 8661",
+        "url": "https://damos.hf.uio.no/3190",
+        "raw": "ṭẹ-j̣ạ-ṛọ",
+        "line": ".B        ]vest.  /  ṭẹ-j̣ạ-ṛọ   [",
+        "notes": null,
+        "accepted": false
+      },
+      {
+        "id": "443",
+        "document": "KN V-(3) 479",
+        "url": "https://damos.hf.uio.no/443",
+        "raw": "te-ja-ṛọ",
+        "line": ".3        o-du            1      te-ja-ṛọ   1                                                       [",
+        "notes": "@for the mismatch between the find place of the pieces see the note in ScribesCnossos p. 25@",
+        "accepted": false
+      }
+    ]
+  }
+]
