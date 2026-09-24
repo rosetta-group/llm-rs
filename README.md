@@ -95,6 +95,10 @@ supports `te-ja-re` provisionally; the conflicting source reading remains preser
 Shared headers and entries offer an administrative-role lead, but no parentage formula was
 identified. All 49 focused tests pass; no Linear A meaning-recovery model was fitted.
 
+The [HT7 follow-up](experiments/linear-a-qi-tu-ne/REPORT.md) confirms `qi-tu-ne 1` in the
+photograph and edition, against its unnumbered headings on HT87/117. A person's name and
+an occupational/group label can both fit that contrast, so its meaning remains unresolved.
+
 ## Documentation
 
 | Page | For |

@@ -99,6 +99,7 @@ of the fresh evaluation.
 | Source-checked account benchmark | `linear_a_account_benchmark.py` | `linear-a-account-benchmark/` (quantities, source labels, relative units, source reviews) | nine development accounts; two strict balances; no A score |
 | Kinship feasibility | `linear_a_kinship.py` | `linear-a-kinship/` (known B controls, literal markers, graphic shapes and role review) | named vs unnamed relatives; no A kinship inference |
 | Person-slot source audit | `linear_a_person_slots.py` | `linear-a-person-slots/` (43-row inventory, source decisions, rival interpretations, exact concordance) | 2 objects; edition-supported reading overlay; no kinship formula |
+| Qi-tu-ne role contrast | `linear_a_qi_tu_ne.py` | `linear-a-qi-tu-ne/` (HT7 source inventory, 3 reviewed cases, rival assignments) | heading/count contrast confirmed; semantic class unresolved |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and

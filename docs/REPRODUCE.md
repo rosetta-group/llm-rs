@@ -342,3 +342,16 @@ are not model predictions. Dynamic source HTML may change, so exact reproduction
 the archived snapshots, not a fresh web fetch. Full chapter access was via web text extraction;
 no local chapter PDF is claimed. The concordance's object keys need catalogue-alias review
 before use as independent units; see its `CONCORDANCE_REVIEW.md`.
+
+### Qi-tu-ne heading/count comparison (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_qi_tu_ne verify
+```
+
+In a fresh checkout at freeze commit `9d47059` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_qi_tu_ne run`. The two generated files contain
+the HT7 inventory table and descriptive counts; no semantic model is fitted. The driver
+reuses the unchanged person-slot validator and checks all three exact occurrence identities
+and sign sequences. All 49 existing focused tests pass; no new linguistic validation is
+implied. Archived photos, HTML and comparison scans are listed in the source manifest.

@@ -1,0 +1,36 @@
+{
+  "scope": "Supplied development annotations; no automatic semantic classification",
+  "physical_objects": 1,
+  "faces": 2,
+  "logical_rows": 8,
+  "kinds": {
+    "header": 1,
+    "lexical_count": 7
+  },
+  "by_face": {
+    "HT 7a": {
+      "header": 1,
+      "lexical_count": 5
+    },
+    "HT 7b": {
+      "lexical_count": 2
+    }
+  },
+  "inferred_kinship_edges": 0,
+  "independent_expert_review": false,
+  "comparison": {
+    "word": "qi-tu-ne",
+    "signs": [
+      "AB21f",
+      "AB69",
+      "AB24"
+    ],
+    "reviewed_occurrences": 3,
+    "reviewed_objects": 3,
+    "supplied_roles": {
+      "count_associated": 1,
+      "list_heading": 2
+    },
+    "note": "Role labels are supplied source annotations, not model predictions."
+  }
+}

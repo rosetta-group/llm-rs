@@ -162,11 +162,26 @@ sound-correspondence lead. HT85b has eight counted words and three logograms, no
 `qa-A310-i` has count 1 on HT85b but 3 on HT122a, so a one-unit entry does not certify a person.
 
 Repeated headers and `di-ki-se` connect HT87/117, but no parentage formula distinguishes
-kinship from occupation, responsibility or place affiliation. The next bounded check is
-`qi-tu-ne` as header versus counted entry, starting with image collation of HT7b. Literal
+kinship from occupation, responsibility or place affiliation. This led to the completed
+`qi-tu-ne` heading/count comparison below. Literal
 concordances are source-key counts, not independently deduplicated physical objects:
 PH31a and PH(?)31a share museum inventory HM1609. All 49 focused tests and seven freezes
 verify; no semantic classifier was fitted. Independent review of the manual inventory is pending.
+
+## Qi-tu-ne heading/count comparison, 2026-09-24
+
+The [HT7 follow-up](../experiments/linear-a-qi-tu-ne/REPORT.md) confirms `qi-tu-ne 1` on
+HT7b .1 in the photograph, drawing and published transcription. It is the same sign sequence,
+AB21f–AB69–AB24, that occurs in the HT87/117b headings. Three reviewed occurrences therefore
+show one count-associated use and two heading uses on three physical objects. HT7a has VIR;
+whether its personnel unit carries onto face b remains an assumption. Overwriting is preserved.
+
+The contrast rejects exclusive unnumbered-heading use, but it cannot choose a semantic class:
+a counted person can head a group under their responsibility, while an occupational class can
+be counted through one member and head a list of members. Place/institution and household
+readings also remain possible. No parentage or gender label follows. Before further semantic
+modelling, use source-labelled known-language controls that distinguish names and categories
+despite shared positional roles. All 49 focused tests and eight follow-up freezes pass.
 
 ## Data and licences
 

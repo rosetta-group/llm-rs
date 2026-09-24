@@ -767,3 +767,25 @@ Source roles and repeated contexts must be checked before a parent-child model r
 in the pinned HT7b text; image collation of HT7b could establish that role contrast. The
 inventory still needs independent epigraphic review. No gender, translation, statistical
 significance or recovery claim follows, and no previous failed gate was reopened.
+
+## 2026-09-24: qi-tu-ne heading/count contrast confirmed
+
+**What was done**
+
+- Collated HT7a/b against GORILA I pp.14–15 photographs, drawings, transcriptions and
+  apparatus. Confirmed qi-tu-ne 1 on HT7b .1; the front's qe-ti VIR supplies personnel
+  context but does not automatically establish a unit for the reverse.
+- Rechecked HT87/117b headings. Froze an eight-row HT7 inventory, three occurrence cases
+  and explicit rival assignments at `9d47059`, then generated descriptive summaries.
+- Confirmed AB21f–AB69–AB24 across three objects: one count-associated occurrence and
+  two headings. Preserved overwritten-text qualifications and physical-object grouping.
+- Passed 49 focused tests and verified eight freezes. [Report](experiments/linear-a-qi-tu-ne/REPORT.md).
+
+**Why:** the newly verified count tests the earlier heading-based category hypothesis.
+It establishes role mobility, but both a responsible person's name and an occupational
+class can produce the observed count/heading pattern.
+
+**Decision:** no semantic winner or parentage label. Retain the contrast as a counterexample
+to assigning name/category labels from position alone. A known-language name-versus-category
+control is needed before further semantic modelling; more unlabelled repetitions alone do
+not distinguish these rivals. No old frozen input, failed gate or concurrent Etruscan file changed.
