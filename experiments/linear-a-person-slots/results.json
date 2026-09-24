@@ -1,0 +1,37 @@
+{
+  "scope": "Supplied development annotations; no automatic semantic classification",
+  "physical_objects": 2,
+  "faces": 4,
+  "logical_rows": 43,
+  "kinds": {
+    "header": 5,
+    "lexical_count": 32,
+    "total": 2,
+    "logogram_count": 3,
+    "separator": 1
+  },
+  "by_face": {
+    "HT 85a": {
+      "header": 1,
+      "lexical_count": 7,
+      "total": 1
+    },
+    "HT 85b": {
+      "header": 1,
+      "lexical_count": 8,
+      "logogram_count": 3
+    },
+    "HT 117a": {
+      "header": 2,
+      "lexical_count": 15,
+      "total": 1,
+      "separator": 1
+    },
+    "HT 117b": {
+      "header": 1,
+      "lexical_count": 2
+    }
+  },
+  "inferred_kinship_edges": 0,
+  "independent_expert_review": false
+}

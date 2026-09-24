@@ -148,6 +148,26 @@ per-occurrence source annotations. No kinship meaning follows. Name-slot substit
 a research direction; it needs independently reviewed person/designation slots and more
 known-language controls. All 44 focused Linear A tests pass.
 
+## HT85/117 person-slot source audit, 2026-09-24
+
+The [follow-up audit](../experiments/linear-a-person-slots/REPORT.md) reads the full
+Davis–Valério chapter and checks GORILA images/transcriptions against live SigLA. Its
+43-row inventory covers four faces of two objects: 32 counted word entries, three counted
+logograms, five headers, two totals and one divider. HT117's 17 word entries remain possible
+people/designations, without certified name or gender labels.
+
+The edition supports `te-ja-re` provisionally, while SigLA's conflicting `te-*56-re` remains
+in the frozen source. This supplies a documented working reading, not a retest of the failed
+sound-correspondence lead. HT85b has eight counted words and three logograms, not eleven names.
+`qa-A310-i` has count 1 on HT85b but 3 on HT122a, so a one-unit entry does not certify a person.
+
+Repeated headers and `di-ki-se` connect HT87/117, but no parentage formula distinguishes
+kinship from occupation, responsibility or place affiliation. The next bounded check is
+`qi-tu-ne` as header versus counted entry, starting with image collation of HT7b. Literal
+concordances are source-key counts, not independently deduplicated physical objects:
+PH31a and PH(?)31a share museum inventory HM1609. All 49 focused tests and seven freezes
+verify; no semantic classifier was fitted. Independent review of the manual inventory is pending.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).

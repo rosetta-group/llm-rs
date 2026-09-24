@@ -98,6 +98,7 @@ of the fresh evaluation.
 | Accounting-program feasibility | `linear_a_ledger.py` | `linear-a-ledger/` (opaque inputs, coverage, source review, protocol and follow-on benchmark plan) | not evaluable: 7 KN objects vs 33 A; no real-data fit |
 | Source-checked account benchmark | `linear_a_account_benchmark.py` | `linear-a-account-benchmark/` (quantities, source labels, relative units, source reviews) | nine development accounts; two strict balances; no A score |
 | Kinship feasibility | `linear_a_kinship.py` | `linear-a-kinship/` (known B controls, literal markers, graphic shapes and role review) | named vs unnamed relatives; no A kinship inference |
+| Person-slot source audit | `linear_a_person_slots.py` | `linear-a-person-slots/` (43-row inventory, source decisions, rival interpretations, exact concordance) | 2 objects; edition-supported reading overlay; no kinship formula |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and

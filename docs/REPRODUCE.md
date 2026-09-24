@@ -326,3 +326,19 @@ Source locations, hashes and access limitations are in each experiment's `source
 The account benchmark requires the local book scan; the kinship freeze also pins Killen's
 PDF and every DĀMOS item. Etruscan review hashes document a concurrent prototype snapshot;
 its mutable files are not executable dependencies and were not changed.
+
+### HT85/117 person-slot source audit (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_person_slots verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite now contains 49 tests. To regenerate the three descriptive outputs, use
+a fresh checkout at freeze commit `74610d3` with the pinned local corpus and source snapshots
+attached, then run `.venv/bin/python -m experiments.linear_a_person_slots run`. The driver
+refuses overwrite. Manual inventory and source-review inputs are frozen; generated counts
+are not model predictions. Dynamic source HTML may change, so exact reproduction requires
+the archived snapshots, not a fresh web fetch. Full chapter access was via web text extraction;
+no local chapter PDF is claimed. The concordance's object keys need catalogue-alias review
+before use as independent units; see its `CONCORDANCE_REVIEW.md`.

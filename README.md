@@ -89,6 +89,12 @@ accounts, and one dimension negative. A [parentage feasibility check](experiment
 adds named and unnamed-relative controls; its two apparent Linear A word-pair hits contain
 non-name signs. Neither development result licenses a Linear A translation.
 
+A [source audit of HT85/117](experiments/linear-a-person-slots/REPORT.md) now records 43 rows
+on two tablets, separating 32 counted words from three counted logograms. The edition
+supports `te-ja-re` provisionally; the conflicting source reading remains preserved.
+Shared headers and entries offer an administrative-role lead, but no parentage formula was
+identified. All 49 focused tests pass; no Linear A meaning-recovery model was fitted.
+
 ## Documentation
 
 | Page | For |

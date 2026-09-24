@@ -101,6 +101,7 @@ interpretations. No supported Linear A language identification exists.
 | Accounting-program feasibility | opaque word-triggered integer sums/balances, whole-object folds | not evaluable: 7 eligible KN objects vs 33 A; no natural-data fits or permutations; 30-object synthetic recovery is only a software test | [report](../experiments/linear-a-ledger/REPORT.md) |
 | Source-checked accounting development | nine annotated accounts, exact units, published functions | eight objects; two strict balances, six uncertain/incomplete, one dimension negative; no A scoring | [report](../experiments/linear-a-account-benchmark/REPORT.md) |
 | Parentage feasibility | five B fixtures; literal markers and ordered A shapes | 48 graphic rows on 22 A objects; two pair-shaped hits contain non-name signs; no semantic inference | [report](../experiments/linear-a-kinship/REPORT.md) |
+| Person-slot source audit | HT85/117 images, edition and contextual comparisons | 43 rows on 2 objects; 32 counted words, 3 counted logograms; provisional te-ja-re reading; no parentage formula | [report](../experiments/linear-a-person-slots/REPORT.md) |
 
 ## Operational
 

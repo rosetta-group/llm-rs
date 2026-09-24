@@ -743,3 +743,27 @@ turning conditional arithmetic or repeated names into translations.
 objects. No real-data word-function learner was fitted. The kinship inventory is descriptive,
 not a recovery gate; the Etruscan prototype supplies name spans and morphology unavailable
 for these Linear A candidates. No paid compute or edits to the concurrent Etruscan branch.
+
+## 2026-09-24: HT85/117 person-slot source audit
+
+**What was done**
+
+- Read the full Davis–Valério chapter and inspected GORILA photos, facsimiles and
+  transcriptions for both target tablets, plus contextual HT87/88/122a transcriptions.
+- Froze the manual inventory and descriptive code at `74610d3`: 43 logical rows on four
+  faces of two objects; 32 counted words, three counted logograms and eight other rows.
+  HT117 contributes 17 possible individual/designation entries, without gold name labels.
+- Recorded an edition-supported preference for `te-ja-re`, preserving SigLA's conflicting
+  `te-*56-re` and all earlier frozen inputs. Reviewed four structural leads against
+  occupation, ownership/responsibility, place and kinship. No parentage formula identified.
+- Passed 49 focused tests and verified all seven follow-up freezes. Literal concordance
+  review found a catalogue alias: PH31a and PH(?)31a share HM1609. Raw source-key counts
+  must not become independent-object support. [Report](experiments/linear-a-person-slots/REPORT.md).
+
+**Why:** numeral 1 does not certify a name: qa-A310-i has count 1 on HT85b and 3 on HT122a.
+Source roles and repeated contexts must be checked before a parent-child model receives labels.
+
+**Next discriminating check:** qi-tu-ne is a reviewed header on HT87/117 but a counted entry
+in the pinned HT7b text; image collation of HT7b could establish that role contrast. The
+inventory still needs independent epigraphic review. No gender, translation, statistical
+significance or recovery claim follows, and no previous failed gate was reopened.
