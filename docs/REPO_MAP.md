@@ -75,6 +75,8 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round three | `joint_development_v3.py`, `joint_recovery_v3.py` | `joint-development-v3/` | `joint-recovery-v3/` |
 | Round four | `joint_development_v4.py`, `joint_recovery_v4.py` | `joint-development-v4/` | `joint-recovery-v4/` |
 | Verse word model | `word_segmentation_v2.py`, `word_segmentation_fresh.py`, `word_segmentation_records.py`, `report_word_segmentation.py` | `word-segmentation-v2/development.json` | `word-segmentation-v2/` (perfect letters; extraction caveat) |
+| Word segmentation v4 | `word_segmentation_v4.py`, `word_segmentation_v4_fresh.py`, `voynich/unknown_words_v4.py` | `word-segmentation-v4/` | `word-segmentation-v4-fresh/` (not promoted) |
+| ParTUT overlap audit | `partut_overlap_audit.py` | — | `partut-overlap-audit.json` |
 | Naibbe near-duplicate grid | `naibbe_near_duplicates.py` | — | `naibbe-near-duplicates/` |
 | Round six | `joint_recovery_v6.py` | `length-scaling-v3/` | `joint-recovery-v6/` |
 | Reparse and glue candidates | `length_scaling_v3.py`, `voynich/lexicon_repair_v2.py` (rejected) | `length-scaling-v3/` (development) | — |

@@ -1,4 +1,14 @@
-# Round six: context reparse halves Naibbe letter error on sealed 20,800-letter text (1.78%); gate not met
+# Round six: context reparse halves Naibbe letter error on sealed 20,800-letter historical text (1.83%); gate not met
+
+> **Correction, 2026-09-24, post-grading audit ([partut-overlap-audit.json](../partut-overlap-audit.json)).**
+> The two modern cases are invalid. 97.1% of their letters are sentences that appear verbatim in
+> UD_Italian-ISDT **train**. ISDT train fits the character prior and the segmenter's word counts, so
+> this is training leakage. 1,753 of ParTUT train's 1,781 sentences are in ISDT train. The 20-word
+> overlap check missed them because most are shorter than 20 words. The earlier statement that "no
+> model has used any ParTUT split" was wrong for train.
+> **Valid result, four historical cases (Dante and Compagni):** S 3.85% CER / 34.05% WER, R **1.83%** /
+> **26.80%**. The primary endpoint still passes on these alone (−2.02 points). The six-case figures
+> below are kept as recorded and are superseded by these.
 
 Evaluated 2026-09-24. Six sealed ciphertext-only cases, CPU, about 80 minutes each in six parallel
 processes. No cap was hit. No Voynich text. Protocol and code are in `9f87b88`, freeze in `f73032a`,

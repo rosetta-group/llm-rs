@@ -1,0 +1,113 @@
+{
+  "word-segmentation-v3-fresh": {
+    "cases": [
+      {
+        "id": "33c6c61ed8e1be49195d8d61",
+        "sentences": 41,
+        "letter_share": {
+          "not in ISDT": 0.5254590194964982,
+          "test": 0.4745409805035018
+        }
+      },
+      {
+        "id": "2763d1ebb72bd0d7c312ccb7",
+        "sentences": 54,
+        "letter_share": {
+          "not in ISDT": 0.5633220593761744,
+          "test": 0.43667794062382564
+        }
+      },
+      {
+        "id": "5e780e969e40d224921c8528",
+        "sentences": 53,
+        "letter_share": {
+          "not in ISDT": 0.6175853518977684,
+          "test": 0.3824146481022315
+        }
+      },
+      {
+        "id": "a935791efb32a4f38431111d",
+        "sentences": 97,
+        "letter_share": {
+          "test": 0.021639218690157027,
+          "not in ISDT": 0.11987744159325929,
+          "dev": 0.8584833397165836
+        }
+      }
+    ],
+    "pooled_letter_share": {
+      "not in ISDT": 0.4574276222116754,
+      "test": 0.3298054105363075,
+      "dev": 0.21276696725201708
+    },
+    "isdt_train_share": 0.0
+  },
+  "joint-recovery-v6": {
+    "cases": [
+      {
+        "id": "2aee538bf0979b62",
+        "sentences": 294,
+        "letter_share": {
+          "train": 0.9862214142187351,
+          "not in ISDT": 0.013778585781264951
+        }
+      },
+      {
+        "id": "bf04b96142c76e31",
+        "sentences": 307,
+        "letter_share": {
+          "not in ISDT": 0.043808242866749926,
+          "train": 0.9561917571332501
+        }
+      }
+    ],
+    "pooled_letter_share": {
+      "train": 0.9712368168744008,
+      "not in ISDT": 0.028763183125599234
+    },
+    "isdt_train_share": 0.9712368168744008
+  },
+  "word-segmentation-v4-fresh": {
+    "cases": [
+      {
+        "id": "add6219f803e7395350145aa",
+        "sentences": 75,
+        "letter_share": {
+          "train": 0.949412656309208,
+          "not in ISDT": 0.050587343690791965
+        }
+      },
+      {
+        "id": "d45bb45fed97864f6e43e374",
+        "sentences": 75,
+        "letter_share": {
+          "train": 0.9855990783410138,
+          "not in ISDT": 0.014400921658986175
+        }
+      },
+      {
+        "id": "3a82ee21b263a080d1b57d85",
+        "sentences": 73,
+        "letter_share": {
+          "train": 0.9522622699386503,
+          "not in ISDT": 0.047737730061349695
+        }
+      },
+      {
+        "id": "757d7a225de2e1e1e751f9b4",
+        "sentences": 68,
+        "letter_share": {
+          "train": 1.0
+        }
+      }
+    ],
+    "pooled_letter_share": {
+      "train": 0.9718651813767495,
+      "not in ISDT": 0.0281348186232505
+    },
+    "isdt_train_share": 0.9718651813767495
+  },
+  "partut_train_sentences": 1781,
+  "partut_train_in_isdt": 1753,
+  "partut_train_in_isdt_train": 1753
+}

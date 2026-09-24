@@ -60,6 +60,15 @@ protocol:
 
 Compagni and ParTUT (test and dev) are now released and are excluded from future hidden tests.
 
+## Post-grading caveat, 2026-09-24
+
+A later audit ([partut-overlap-audit.json](../partut-overlap-audit.json)) found that 54% of the
+ParTUT modern letters here are sentences also in UD_Italian-ISDT: 33.0% in ISDT test and 21.3% in ISDT
+dev. None are in ISDT train, which fits the models, so this is not training leakage. But ISDT dev was
+the modern development stream, and ISDT test was released by earlier rounds. So the modern half is not
+fully fresh. The transfer decision rests on the historical Compagni result (−6.55 points), which is
+unaffected. The modern condition (no worse than +1 point) passed with a 1.18-point improvement.
+
 ## Records and reproduction
 
 `sources.json`, `extraction.json`, `NOTES.md`, `results.json`, `evaluated-records.json`,

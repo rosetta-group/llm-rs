@@ -78,6 +78,23 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: correction: ParTUT train is ISDT training text; round-six modern cases invalid.**
+Post-grading audit: 1,753 of ParTUT train's 1,781 sentences appear verbatim in UD_Italian-ISDT
+train, which fits the character prior and the segmenter. The modern passages of round six and
+the v4 fresh test are 97% such sentences. The 20-word overlap check missed them because most
+are under 20 words. The earlier claim that no model had used ParTUT was wrong for train. Round
+six on its four historical cases alone: S 3.85% / 34.1%, R 1.83% / 26.8%. The primary endpoint
+still passes. The v3 fresh modern half overlaps ISDT test and dev (54% of letters), not train;
+it is recorded as a caveat. Future passages must reject verbatim sentences from fitting corpora
+of any length. [Audit](experiments/partut-overlap-audit.json).
+
+**2026-09-24: word segmentation v4 (historical spelling mix): development passes, fresh misses by 0.05.**
+Development: historical prose WER 8.65% → 6.80%, verse 20.68% → 14.95%, modern 5.61% → 5.71%.
+Frozen, then tested on a new author, Sacchetti (*Trecentonovelle* II–XL). WER went from 8.82% to
+6.87%, a 1.95-point drop against the 2-point threshold, so v4 is not promoted. Four of four
+passages are now at or below 10%. The modern half is invalid (ISDT leakage).
+[Report](experiments/word-segmentation-v4-fresh/REPORT.md).
+
 **2026-09-24: Naibbe reaches the Voynich near-duplicate rate only with heavy letter pairing.**
 Declared grid: 5 plaintext languages × RESPACING {9, 17, 27} × deck {56, 78} × space removal
 {0, 0.03, 0.10}, two seeds each. 16 of 90 configurations reach the EVA figure (8.33%), all at
