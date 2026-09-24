@@ -103,6 +103,7 @@ interpretations. No supported Linear A language identification exists.
 | Parentage feasibility | five B fixtures; literal markers and ordered A shapes | 48 graphic rows on 22 A objects; two pair-shaped hits contain non-name signs; no semantic inference | [report](../experiments/linear-a-kinship/REPORT.md) |
 | Person-slot source audit | HT85/117 images, edition and contextual comparisons | 43 rows on 2 objects; 32 counted words, 3 counted logograms; provisional te-ja-re reading; no parentage formula | [report](../experiments/linear-a-person-slots/REPORT.md) |
 | Qi-tu-ne role contrast | HT7 image collation against HT87/117 headings | 3 reviewed occurrences on 3 objects: 1 count-associated, 2 headings; person/category distinction unresolved | [report](../experiments/linear-a-qi-tu-ne/REPORT.md) |
+| Name/designation control | 38 source-labelled Linear B cases on 19 objects; whole-object holdout | layout recall 37.4%, coverage 39.4%; feature ceiling 84.9%; 0/177 evaluable negatives pass; gate failed, no A scoring | [report](../experiments/linear-b-person-role/REPORT.md) |
 
 ## Operational
 

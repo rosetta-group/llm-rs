@@ -789,3 +789,29 @@ class can produce the observed count/heading pattern.
 to assigning name/category labels from position alone. A known-language name-versus-category
 control is needed before further semantic modelling; more unlabelled repetitions alone do
 not distinguish these rivals. No old frozen input, failed gate or concurrent Etruscan file changed.
+
+## 2026-09-24: Linear B name/designation structural control failed
+
+**What was done**
+
+- Built a curated challenge with 38 source-labelled cases on 19 objects: 19 personal names
+  and 19 occupation/title/group/status designations. Inspected the printed source, retained
+  DĀMOS text, recorded exclusions and source discrepancies, and separated anonymous features
+  from the gold key. Labels still lack independent modern specialist adjudication.
+- Froze code, sources, labels, settings and eight new tests at `2574eef` before scoring.
+  Used whole-object holdout and one normalized vote per training object/signature.
+- Primary layout: 37.4% balanced recall, 39.4% coverage, 95.1% weighted conditional accuracy;
+  raw 15 correct, one wrong, 22 abstentions. Recall and coverage fail the 90% thresholds.
+  Forced-majority layout recall is 57.4%; the in-sample feature ceiling is 84.9%.
+- Ran 199 whole-object label-swap negatives: 177 evaluable, zero passes, 22 excluded by
+  representation requirements. Passed 57 focused tests and verified all nine follow-up
+  freezes. [Report](experiments/linear-b-person-role/REPORT.md).
+
+**Why:** known personal names and occupational labels can have identical role, quantity,
+position and repetition features. The name o-wo-to on PY An 261 is misclassified from five
+unanimously designation-labelled supporting objects; training agreement does not certify meaning.
+
+**Decision:** retire this structural classifier for semantic transfer. No Linear A was scored,
+no parentage/gender inference was made, and no earlier failed gate or frozen input changed.
+Any next experiment needs additional evidence, such as relational frames and morphology, plus
+known-language tests separating parentage from ownership/responsibility and occupation.

@@ -60,6 +60,9 @@ breaks `verify` for that round. Add new behaviour in a new module instead.
 | `probes.py` | The seven round-four probes, including the grammar profile | — (protocol committed) |
 | `tlhdig.py` | Word forms by language tag from TLHdig Beta 0.3 | — (protocol committed) |
 
+`linear_a/person_role_control.py` supplies object-held-out structural classification, balanced
+metrics, feature ceilings and block-label negatives; frozen by `linear-b-person-role`.
+
 ## Experiments (`experiments/`)
 
 Each recovery round has a driver, a development folder and a fresh-evaluation folder.
@@ -100,6 +103,7 @@ of the fresh evaluation.
 | Kinship feasibility | `linear_a_kinship.py` | `linear-a-kinship/` (known B controls, literal markers, graphic shapes and role review) | named vs unnamed relatives; no A kinship inference |
 | Person-slot source audit | `linear_a_person_slots.py` | `linear-a-person-slots/` (43-row inventory, source decisions, rival interpretations, exact concordance) | 2 objects; edition-supported reading overlay; no kinship formula |
 | Qi-tu-ne role contrast | `linear_a_qi_tu_ne.py` | `linear-a-qi-tu-ne/` (HT7 source inventory, 3 reviewed cases, rival assignments) | heading/count contrast confirmed; semantic class unresolved |
+| Name/designation control | `linear_b_person_role.py` | `linear-b-person-role/` (38 source cases, anonymous features, held-out predictions, 199 negatives) | curated development; failed 90% gate; no Linear A scoring |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and

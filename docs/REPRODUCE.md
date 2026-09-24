@@ -355,3 +355,20 @@ the HT7 inventory table and descriptive counts; no semantic model is fitted. The
 reuses the unchanged person-slot validator and checks all three exact occurrence identities
 and sign sequences. All 49 existing focused tests pass; no new linguistic validation is
 implied. Archived photos, HTML and comparison scans are listed in the source manifest.
+
+### Linear B name versus designation control (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_person_role verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 57 tests. In a fresh checkout at freeze commit `2574eef` with the
+pinned local book scan and 19 DĀMOS item files attached, run
+`.venv/bin/python -m experiments.linear_b_person_role run`. The driver validates source hashes,
+manual target spans, derived public features and gold labels, then writes an exclusive result
+file. The [report](../experiments/linear-b-person-role/REPORT.md) also gives an in-memory exact
+comparison against the archived result, without deleting or overwriting outputs. There is no
+Linear A scoring stage. The 38 labelled cases are curated development annotations; the 199
+seeded negatives swap whole objects, and 22 fail representation preflight. Source changes or
+new labels require a new experiment, not edits to this freeze.

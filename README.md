@@ -93,11 +93,17 @@ A [source audit of HT85/117](experiments/linear-a-person-slots/REPORT.md) now re
 on two tablets, separating 32 counted words from three counted logograms. The edition
 supports `te-ja-re` provisionally; the conflicting source reading remains preserved.
 Shared headers and entries offer an administrative-role lead, but no parentage formula was
-identified. All 49 focused tests pass; no Linear A meaning-recovery model was fitted.
+identified. That audit passed 49 focused tests; no Linear A meaning-recovery model was fitted.
 
 The [HT7 follow-up](experiments/linear-a-qi-tu-ne/REPORT.md) confirms `qi-tu-ne 1` in the
 photograph and edition, against its unnumbered headings on HT87/117. A person's name and
 an occupational/group label can both fit that contrast, so its meaning remains unresolved.
+
+The [known-language control](experiments/linear-b-person-role/REPORT.md) now tests 38 source-labelled
+Linear B cases on 19 tablets. Layout, quantity, order and repetition give only **37.4% balanced
+recall** at **39.4% coverage**. Identical feature signatures occur in both classes, limiting any
+deterministic rule using those features to **84.9%** on this curated sample, below the 90% gate.
+No Linear A was scored. All 57 focused tests and nine follow-up freezes pass.
 
 ## Documentation
 

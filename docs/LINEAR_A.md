@@ -183,6 +183,31 @@ readings also remain possible. No parentage or gender label follows. Before furt
 modelling, use source-labelled known-language controls that distinguish names and categories
 despite shared positional roles. All 49 focused tests and eight follow-up freezes pass.
 
+
+## Name versus designation control, 2026-09-24
+
+The [known-language control](../experiments/linear-b-person-role/REPORT.md) freezes 38
+source-labelled cases on 19 Linear B objects before evaluation (`2574eef`). Its 19 personal
+names and 19 designation cases include both classes in headings and counted entries. Roles,
+entry boundaries and quantity bins are supplied, while spelling, morphology, site and series
+are hidden. Each held-out object excludes all its faces from training; every training object
+supplies one vote per exact signature, irrespective of roster length.
+
+The primary layout rule achieves 37.4% class/object-balanced recall, 39.4% coverage and
+95.1% weighted conditional accuracy: 15 correct, one wrong, 22 abstentions. Recall and coverage
+fail their 90% gates. The forced-majority diagnostic reaches only 57.4% recall. A name and an
+occupation can share all four features (role, quantity, position, repetition); these collisions
+put the in-sample deterministic ceiling at 84.9%, below the gate even with perfect fitting.
+This is a limit of the declared features on this sample, not all linguistic methods.
+
+Zero of 177 evaluable whole-object label-swap negatives pass; 22 of the 199 draws lack the
+required class/role representation. The negative-control gate passes, the positive one fails.
+No Linear A is scored and no parentage/gender label follows. Labels derive from Ventris &
+Chadwick (1956) and modern DĀMOS transcriptions, without independent specialist adjudication;
+this is a curated development challenge. Further work needs new evidence such as relational
+frames and morphology with known-language rival controls. All 57 focused tests and nine
+follow-up freezes pass; earlier results remain unchanged.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).
