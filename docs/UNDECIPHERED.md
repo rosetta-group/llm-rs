@@ -27,4 +27,9 @@ ratio N14 = 10 N01 blind on proto-cuneiform but missed the grain ratio
 passed its proto-cuneiform gate. On Proto-Elamite it recovered N14 = 10 N01 (11 tablets) and
 N14 = 6 N01 (9 tablets) from the tablets' own sums
 ([report](../experiments/proto-elamite-joint/REPORT.md)). These are the textbook ratios, confirmed
-without assuming them; no sign other than a numeral is read.
+without assuming them; no sign other than a numeral is read. Round three tried to link object
+signs to the two systems but could label only 15 control tablets and failed its gate
+([report](../experiments/proto-elamite-signs/REPORT.md)). Round four labelled tablets with held-out
+fits and passed its barley control (p = 0.018). On Proto-Elamite, 10 of 11 tablets that need the grain
+ratio carry the proposed grain signs M288, M036 or M297, against 1 of 8 counting tablets (p = 0.0012).
+Animal and people signs did not separate ([report](../experiments/proto-elamite-signs-loo/REPORT.md)).

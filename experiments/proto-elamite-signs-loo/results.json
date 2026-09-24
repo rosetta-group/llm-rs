@@ -1,0 +1,2386 @@
+{
+ "control": {
+  "labels": {
+   "counting": 14,
+   "None": 110,
+   "capacity": 9
+  },
+  "gate_test": {
+   "group": [
+    "SZE"
+   ],
+   "towards": "capacity",
+   "with_group": {
+    "capacity": 5,
+    "counting": 1
+   },
+   "tablets": {
+    "capacity": 9,
+    "counting": 14
+   },
+   "p": 0.018306636155606407
+  },
+  "C1": {
+   "group": [
+    "SAL",
+    "UDU"
+   ],
+   "towards": "counting",
+   "with_group": {
+    "counting": 4,
+    "capacity": 1
+   },
+   "tablets": {
+    "counting": 14,
+    "capacity": 9
+   },
+   "p": 0.32723112128146453
+  },
+  "tablets": [
+   {
+    "designation": "ATU 6, pl. 078, W 15897,a2",
+    "label": "counting"
+   },
+   {
+    "designation": "W 20274,006",
+    "label": null
+   },
+   {
+    "designation": "ATU 7, pl. 040, W 20274,15",
+    "label": null
+   },
+   {
+    "designation": "ATU 7, pl. 043, W 20274,36",
+    "label": null
+   },
+   {
+    "designation": "ATU 7, pl. 043, W 20274,37",
+    "label": null
+   },
+   {
+    "designation": "IM 134285",
+    "label": null
+   },
+   {
+    "designation": "W 20274,074",
+    "label": null
+   },
+   {
+    "designation": "IM 074311",
+    "label": null
+   },
+   {
+    "designation": "ATU 7, pl. 087, W 22112",
+    "label": null
+   },
+   {
+    "designation": "BagM 22, 058, W 23950",
+    "label": null
+   },
+   {
+    "designation": "BagM 22, 091, W 24008,20",
+    "label": null
+   },
+   {
+    "designation": "MSVO 1, 013",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 1, 017",
+    "label": null
+   },
+   {
+    "designation": "MSVO 1, 038",
+    "label": null
+   },
+   {
+    "designation": "MSVO 1, 068",
+    "label": null
+   },
+   {
+    "designation": "MSVO 1, 122",
+    "label": null
+   },
+   {
+    "designation": "MSVO 1, 208",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 06",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 24",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 3, 28",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 3, 35",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 42",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 47",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 49",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 3, 58",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 61",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 62",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 3, 64",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 3, 68",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 70",
+    "label": null
+   },
+   {
+    "designation": "MSVO 3, 85",
+    "label": "capacity"
+   },
+   {
+    "designation": "Duroc-Danner 2",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 03",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 20",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 41",
+    "label": "capacity"
+   },
+   {
+    "designation": "MSVO 4, 45",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 48",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 58",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 67",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 74",
+    "label": null
+   },
+   {
+    "designation": "MSVO 4, 79",
+    "label": null
+   },
+   {
+    "designation": "MS 2357",
+    "label": null
+   },
+   {
+    "designation": "MS 2358",
+    "label": null
+   },
+   {
+    "designation": "MS 2398",
+    "label": null
+   },
+   {
+    "designation": "MS 2433",
+    "label": null
+   },
+   {
+    "designation": "MS 2440",
+    "label": null
+   },
+   {
+    "designation": "MS 2441",
+    "label": null
+   },
+   {
+    "designation": "MS 2442",
+    "label": null
+   },
+   {
+    "designation": "MS 2443",
+    "label": null
+   },
+   {
+    "designation": "MS 2446",
+    "label": null
+   },
+   {
+    "designation": "MS 2497",
+    "label": null
+   },
+   {
+    "designation": "MS 2500",
+    "label": null
+   },
+   {
+    "designation": "MS 2504",
+    "label": "counting"
+   },
+   {
+    "designation": "MS 2505",
+    "label": null
+   },
+   {
+    "designation": "MS 2509",
+    "label": null
+   },
+   {
+    "designation": "MS 2514",
+    "label": null
+   },
+   {
+    "designation": "MS 2696",
+    "label": null
+   },
+   {
+    "designation": "MS 2697",
+    "label": null
+   },
+   {
+    "designation": "MS 2842",
+    "label": null
+   },
+   {
+    "designation": "MS 2843",
+    "label": null
+   },
+   {
+    "designation": "MS 2965",
+    "label": null
+   },
+   {
+    "designation": "MS 3002",
+    "label": null
+   },
+   {
+    "designation": "CDLJ 2009/4 §4",
+    "label": null
+   },
+   {
+    "designation": "MS 3885",
+    "label": "counting"
+   },
+   {
+    "designation": "MS 3887",
+    "label": null
+   },
+   {
+    "designation": "MS 4540",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 046",
+    "label": null
+   },
+   {
+    "designation": "MS 3155",
+    "label": "counting"
+   },
+   {
+    "designation": "CUSAS 01, 157",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 030",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 140",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 018",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 072",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 045",
+    "label": "counting"
+   },
+   {
+    "designation": "CUSAS 01, 178",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 047",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 168",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 080",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 063",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 01, 181",
+    "label": "counting"
+   },
+   {
+    "designation": "CUSAS 31, 068",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 107",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 022",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 111",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 025",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 058",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 026",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 21, 082",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 147",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 054",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 070",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 134",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, 143",
+    "label": null
+   },
+   {
+    "designation": "CUSAS 31, add198",
+    "label": null
+   },
+   {
+    "designation": "Kress 299",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 013, W 6710,a",
+    "label": "counting"
+   },
+   {
+    "designation": "ATU 5, pl. 013, W 6710,e",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 015, W 6756,c",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 032, W 8405",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 038, W 9123,ac",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 056, W 9393,b",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 059, W 9578,g",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 059, W 9578,h",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 070, W 9579,bv",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 072, W 9579,ci",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 072, W 9579,cl",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 076, W 9579,dr",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 076, W 9579,du",
+    "label": "counting"
+   },
+   {
+    "designation": "ATU 5, pl. 077, W 9579,dy",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 078, W 9579,dz",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 080, W 9655,o",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 081, W 9655,s",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 082, W 9655,ac",
+    "label": null
+   },
+   {
+    "designation": "ATU 5, pl. 082, W 9655,ad",
+    "label": "counting"
+   },
+   {
+    "designation": "ATU 5, pl. 102, W 9656,ef",
+    "label": "counting"
+   },
+   {
+    "designation": "ATU 5, pl. 103, W 9656,em",
+    "label": null
+   },
+   {
+    "designation": "ATU 6, pl. 002, W 10593",
+    "label": null
+   },
+   {
+    "designation": "ATU 6, pl. 028, W 13946,d",
+    "label": null
+   },
+   {
+    "designation": "ATU 6, pl. 083, W 15897,c21",
+    "label": "capacity"
+   },
+   {
+    "designation": "ATU 7, pl. 018, W 19416,a",
+    "label": null
+   },
+   {
+    "designation": "IM 064849",
+    "label": "counting"
+   },
+   {
+    "designation": "IM 064850",
+    "label": null
+   },
+   {
+    "designation": "IM 064852",
+    "label": null
+   },
+   {
+    "designation": "W 20423",
+    "label": null
+   },
+   {
+    "designation": "IM 073463",
+    "label": null
+   },
+   {
+    "designation": "IM 073472",
+    "label": null
+   },
+   {
+    "designation": "IM 074213",
+    "label": "counting"
+   },
+   {
+    "designation": "IM 134635",
+    "label": "counting"
+   },
+   {
+    "designation": "IM 074343",
+    "label": null
+   },
+   {
+    "designation": "IM 074290",
+    "label": null
+   },
+   {
+    "designation": "IM 074292",
+    "label": null
+   },
+   {
+    "designation": "IM 074293",
+    "label": "counting"
+   },
+   {
+    "designation": "W 21300,6",
+    "label": null
+   }
+  ]
+ },
+ "gate": true,
+ "target": {
+  "labels": {
+   "None": 91,
+   "counting": 8,
+   "capacity": 11
+  },
+  "test_grain": {
+   "group": [
+    "M036",
+    "M288",
+    "M297"
+   ],
+   "towards": "capacity",
+   "with_group": {
+    "capacity": 10,
+    "counting": 1
+   },
+   "tablets": {
+    "capacity": 11,
+    "counting": 8
+   },
+   "p": 0.0011775290413061311,
+   "passed": true
+  },
+  "test_beings": {
+   "group": [
+    "M006",
+    "M124",
+    "M346",
+    "M362",
+    "M367",
+    "M376",
+    "M388"
+   ],
+   "towards": "counting",
+   "with_group": {
+    "counting": 5,
+    "capacity": 6
+   },
+   "tablets": {
+    "counting": 8,
+    "capacity": 11
+   },
+   "p": 0.5505675954592363,
+   "passed": false
+  },
+  "tablets": [
+   {
+    "designation": "MDP 06, 203",
+    "label": null,
+    "signs": [
+     "1(N14)",
+     "M009",
+     "M036",
+     "M057",
+     "M096",
+     "M128",
+     "M153",
+     "M157",
+     "M228",
+     "M260",
+     "M263",
+     "M264",
+     "M266",
+     "M288",
+     "M296",
+     "M297",
+     "M302",
+     "M305",
+     "M340",
+     "M354",
+     "M372",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 204",
+    "label": null,
+    "signs": [
+     "M033",
+     "M066",
+     "M101",
+     "M124",
+     "M157",
+     "M193",
+     "M218",
+     "M219",
+     "M263",
+     "M305",
+     "M317",
+     "M346",
+     "M371",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 06, 211",
+    "label": null,
+    "signs": [
+     "1(N01",
+     "1(N14)",
+     "2(N1",
+     "4(N1",
+     "9(N1",
+     "M036",
+     "M131",
+     "M157",
+     "M260",
+     "M351",
+     "M370"
+    ]
+   },
+   {
+    "designation": "MDP 06, 212",
+    "label": "counting",
+    "signs": [
+     "M004",
+     "M057",
+     "M101",
+     "M139",
+     "M157",
+     "M218",
+     "M343",
+     "M346",
+     "M352",
+     "M371",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 214",
+    "label": "capacity",
+    "signs": [
+     "M038",
+     "M048",
+     "M057",
+     "M066",
+     "M097",
+     "M102",
+     "M124",
+     "M131",
+     "M136",
+     "M157",
+     "M175",
+     "M203",
+     "M217",
+     "M218",
+     "M219",
+     "M263",
+     "M288",
+     "M296",
+     "M297",
+     "M305",
+     "M320",
+     "M327",
+     "M352",
+     "M365",
+     "M381"
+    ]
+   },
+   {
+    "designation": "MDP 06, 217",
+    "label": null,
+    "signs": [
+     "M054",
+     "M056",
+     "M075",
+     "M111",
+     "M218",
+     "M288",
+     "M348",
+     "M365",
+     "M384",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 06, 220",
+    "label": "capacity",
+    "signs": [
+     "M038",
+     "M157",
+     "M195",
+     "M218",
+     "M288"
+    ]
+   },
+   {
+    "designation": "MDP 06, 223",
+    "label": null,
+    "signs": [
+     "M007",
+     "M054",
+     "M128",
+     "M153",
+     "M157",
+     "M288",
+     "M342",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 227",
+    "label": null,
+    "signs": [
+     "M004",
+     "M032",
+     "M035",
+     "M038",
+     "M039",
+     "M131",
+     "M154",
+     "M157",
+     "M175",
+     "M218",
+     "M288",
+     "M297",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 236",
+    "label": null,
+    "signs": [
+     "M009",
+     "M054",
+     "M122",
+     "M153",
+     "M157",
+     "M288",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 251",
+    "label": null,
+    "signs": [
+     "1(N24)",
+     "M004",
+     "M036",
+     "M057",
+     "M096",
+     "M097",
+     "M111",
+     "M152",
+     "M157",
+     "M218",
+     "M230",
+     "M240",
+     "M242",
+     "M260",
+     "M297",
+     "M305",
+     "M318",
+     "M347",
+     "M371",
+     "M377",
+     "M383",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 253",
+    "label": "counting",
+    "signs": [
+     "M004",
+     "M057",
+     "M066",
+     "M096",
+     "M106",
+     "M153",
+     "M218",
+     "M242",
+     "M249",
+     "M288",
+     "M327",
+     "M332",
+     "M342",
+     "M346",
+     "M370",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 06, 262",
+    "label": null,
+    "signs": [
+     "2(N1",
+     "M038",
+     "M157",
+     "M288",
+     "M305"
+    ]
+   },
+   {
+    "designation": "MDP 06, 353",
+    "label": "counting",
+    "signs": [
+     "M001",
+     "M004",
+     "M009",
+     "M033",
+     "M038",
+     "M048",
+     "M066",
+     "M096",
+     "M097",
+     "M103",
+     "M124",
+     "M131",
+     "M145",
+     "M146",
+     "M157",
+     "M209",
+     "M218",
+     "M259",
+     "M305",
+     "M320",
+     "M325",
+     "M338",
+     "M346",
+     "M371",
+     "M386",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 356",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M004",
+     "M036",
+     "M039",
+     "M057",
+     "M066",
+     "M097",
+     "M103",
+     "M111",
+     "M149",
+     "M157",
+     "M195",
+     "M218",
+     "M259",
+     "M263",
+     "M297",
+     "M305",
+     "M312",
+     "M320",
+     "M332",
+     "M343",
+     "M347",
+     "M354",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 360",
+    "label": null,
+    "signs": [
+     "M029",
+     "M038",
+     "M046",
+     "M131",
+     "M136",
+     "M145",
+     "M149",
+     "M157",
+     "M374",
+     "M387",
+     "M388",
+     "M500"
+    ]
+   },
+   {
+    "designation": "MDP 06, 368",
+    "label": "capacity",
+    "signs": [
+     "M157",
+     "M218",
+     "M243",
+     "M292",
+     "M297"
+    ]
+   },
+   {
+    "designation": "MDP 06, 375",
+    "label": null,
+    "signs": [
+     "1(N14)",
+     "1(N30D)",
+     "M036",
+     "M039",
+     "M051",
+     "M110",
+     "M111",
+     "M136",
+     "M146",
+     "M157",
+     "M203",
+     "M218",
+     "M250",
+     "M251",
+     "M260",
+     "M264",
+     "M269",
+     "M297",
+     "M304",
+     "M347",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 378",
+    "label": null,
+    "signs": [
+     "M124",
+     "M157",
+     "M217",
+     "M288",
+     "M377"
+    ]
+   },
+   {
+    "designation": "MDP 06, 385",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M032",
+     "M036",
+     "M096",
+     "M131",
+     "M218",
+     "M263",
+     "M266",
+     "M305",
+     "M309",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 06, 388",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M036",
+     "M054",
+     "M103",
+     "M111",
+     "M122",
+     "M157",
+     "M263",
+     "M265",
+     "M297",
+     "M323",
+     "M354",
+     "M384",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 06, 389",
+    "label": null,
+    "signs": [
+     "M005",
+     "M048",
+     "M056",
+     "M110",
+     "M288",
+     "M302",
+     "M371",
+     "M380",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 17, 003",
+    "label": "counting",
+    "signs": [
+     "M014",
+     "M032",
+     "M131",
+     "M157",
+     "M310",
+     "M348",
+     "M376"
+    ]
+   },
+   {
+    "designation": "MDP 17, 012",
+    "label": null,
+    "signs": [
+     "M122",
+     "M195",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 017",
+    "label": null,
+    "signs": [
+     "3(N01)",
+     "M009",
+     "M059",
+     "M075",
+     "M136",
+     "M214",
+     "M286",
+     "M327",
+     "M342",
+     "M351",
+     "M365",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 023",
+    "label": "capacity",
+    "signs": [
+     "M024",
+     "M033",
+     "M048",
+     "M054",
+     "M057",
+     "M097",
+     "M175",
+     "M218",
+     "M219",
+     "M259",
+     "M262",
+     "M288",
+     "M371",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 17, 025",
+    "label": null,
+    "signs": [
+     "M153",
+     "M286",
+     "M346",
+     "M367",
+     "M376",
+     "M382"
+    ]
+   },
+   {
+    "designation": "MDP 17, 031",
+    "label": "capacity",
+    "signs": [
+     "M001",
+     "M003",
+     "M004",
+     "M051",
+     "M066",
+     "M080",
+     "M101",
+     "M102",
+     "M131",
+     "M145",
+     "M153",
+     "M157",
+     "M207",
+     "M209",
+     "M218",
+     "M248",
+     "M288",
+     "M320",
+     "M332",
+     "M338",
+     "M371",
+     "M387",
+     "M388",
+     "M462"
+    ]
+   },
+   {
+    "designation": "MDP 17, 032",
+    "label": null,
+    "signs": [
+     "M175",
+     "M288",
+     "M325",
+     "M341",
+     "M391"
+    ]
+   },
+   {
+    "designation": "MDP 17, 040",
+    "label": null,
+    "signs": [
+     "M054",
+     "M105",
+     "M254",
+     "M260",
+     "M304",
+     "M324",
+     "M365",
+     "M377",
+     "M385"
+    ]
+   },
+   {
+    "designation": "MDP 17, 042",
+    "label": null,
+    "signs": [
+     "M001",
+     "M036",
+     "M105",
+     "M297",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 044",
+    "label": null,
+    "signs": [
+     "M004",
+     "M024",
+     "M066",
+     "M072",
+     "M096",
+     "M097",
+     "M098",
+     "M101",
+     "M102",
+     "M115",
+     "M124",
+     "M136",
+     "M141",
+     "M151",
+     "M217",
+     "M218",
+     "M228",
+     "M240",
+     "M291",
+     "M315",
+     "M372",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 17, 047",
+    "label": null,
+    "signs": [
+     "1(N30C",
+     "1(N30D",
+     "M002",
+     "M057",
+     "M136",
+     "M240",
+     "M243",
+     "M263",
+     "M305",
+     "M332",
+     "M371",
+     "M379",
+     "M386"
+    ]
+   },
+   {
+    "designation": "MDP 17, 061",
+    "label": null,
+    "signs": [
+     "M024",
+     "M059",
+     "M251",
+     "M260",
+     "M297",
+     "M304",
+     "M354",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 066",
+    "label": null,
+    "signs": [
+     "M088",
+     "M136",
+     "M365"
+    ]
+   },
+   {
+    "designation": "MDP 17, 067",
+    "label": "capacity",
+    "signs": [
+     "M054",
+     "M066",
+     "M153",
+     "M157",
+     "M262",
+     "M288",
+     "M305",
+     "M342",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 17, 069",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M036",
+     "M106",
+     "M153",
+     "M288",
+     "M354",
+     "M379"
+    ]
+   },
+   {
+    "designation": "MDP 17, 076",
+    "label": null,
+    "signs": [
+     "1(N24",
+     "1(N39B",
+     "1(N39B)",
+     "1(N39C)",
+     "M010",
+     "M036",
+     "M103",
+     "M246",
+     "M248",
+     "M260",
+     "M261",
+     "M297",
+     "M346",
+     "M380",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 118",
+    "label": null,
+    "signs": [
+     "M054",
+     "M080",
+     "M105",
+     "M325",
+     "M384"
+    ]
+   },
+   {
+    "designation": "MDP 17, 153",
+    "label": "capacity",
+    "signs": [
+     "M066",
+     "M096",
+     "M099",
+     "M106",
+     "M124",
+     "M131",
+     "M217",
+     "M218",
+     "M219",
+     "M227",
+     "M240",
+     "M254",
+     "M259",
+     "M288",
+     "M327",
+     "M352",
+     "M371",
+     "M372",
+     "M386",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 17, 228",
+    "label": null,
+    "signs": [
+     "1(N30C",
+     "1(N39C)",
+     "M036",
+     "M062",
+     "M081",
+     "M124",
+     "M288",
+     "M305",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 17, 246",
+    "label": null,
+    "signs": [
+     "M054",
+     "M057",
+     "M058",
+     "M066",
+     "M096",
+     "M097",
+     "M099",
+     "M157",
+     "M218",
+     "M223",
+     "M242",
+     "M288",
+     "M297",
+     "M301",
+     "M352",
+     "M371"
+    ]
+   },
+   {
+    "designation": "MDP 17, 441",
+    "label": null,
+    "signs": [
+     "M056",
+     "M288",
+     "M367"
+    ]
+   },
+   {
+    "designation": "MDP 26, 004",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M001",
+     "M024",
+     "M032",
+     "M036",
+     "M038",
+     "M080",
+     "M111",
+     "M157",
+     "M221",
+     "M226",
+     "M260",
+     "M265",
+     "M297",
+     "M340",
+     "M354",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 009",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M021",
+     "M036",
+     "M039",
+     "M057",
+     "M157",
+     "M219",
+     "M248",
+     "M263",
+     "M296",
+     "M297"
+    ]
+   },
+   {
+    "designation": "MDP 26, 021",
+    "label": null,
+    "signs": [
+     "M001",
+     "M029",
+     "M051",
+     "M157",
+     "M176",
+     "M203",
+     "M217",
+     "M248",
+     "M297",
+     "M346",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 023",
+    "label": null,
+    "signs": [
+     "M010",
+     "M032",
+     "M139",
+     "M157",
+     "M288",
+     "M348"
+    ]
+   },
+   {
+    "designation": "MDP 26, 047",
+    "label": null,
+    "signs": [
+     "1(N14)",
+     "M069",
+     "M072",
+     "M260",
+     "M288",
+     "M327",
+     "M346",
+     "M351"
+    ]
+   },
+   {
+    "designation": "MDP 26, 065",
+    "label": "capacity",
+    "signs": [
+     "M001",
+     "M041",
+     "M297",
+     "M327"
+    ]
+   },
+   {
+    "designation": "MDP 26, 067",
+    "label": null,
+    "signs": [
+     "M010",
+     "M056",
+     "M111",
+     "M288",
+     "M305",
+     "M327",
+     "M365"
+    ]
+   },
+   {
+    "designation": "MDP 26, 079",
+    "label": "counting",
+    "signs": [
+     "M041",
+     "M054",
+     "M059",
+     "M136",
+     "M240",
+     "M318",
+     "M357"
+    ]
+   },
+   {
+    "designation": "MDP 26, 084",
+    "label": null,
+    "signs": [
+     "M054",
+     "M061",
+     "M288",
+     "M305"
+    ]
+   },
+   {
+    "designation": "MDP 26, 096",
+    "label": "capacity",
+    "signs": [
+     "M066",
+     "M139",
+     "M218",
+     "M263",
+     "M288",
+     "M302",
+     "M315",
+     "M352",
+     "M377",
+     "M380",
+     "M388",
+     "M461"
+    ]
+   },
+   {
+    "designation": "MDP 26, 115",
+    "label": null,
+    "signs": [
+     "M010",
+     "M056",
+     "M136",
+     "M157",
+     "M365",
+     "M471"
+    ]
+   },
+   {
+    "designation": "MDP 26, 118",
+    "label": null,
+    "signs": [
+     "M056",
+     "M136",
+     "M195",
+     "M286",
+     "M305",
+     "M384",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 125",
+    "label": null,
+    "signs": [
+     "1(N14)",
+     "M005",
+     "M036",
+     "M218",
+     "M246",
+     "M260",
+     "M297",
+     "M305",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 137",
+    "label": null,
+    "signs": [
+     "1(N24)",
+     "M009",
+     "M210",
+     "M260",
+     "M297",
+     "M354",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 150",
+    "label": null,
+    "signs": [
+     "M006",
+     "M054",
+     "M136",
+     "M209",
+     "M293",
+     "M305",
+     "M339",
+     "M341"
+    ]
+   },
+   {
+    "designation": "MDP 26, 151",
+    "label": null,
+    "signs": [
+     "M001",
+     "M006",
+     "M136",
+     "M210",
+     "M328",
+     "M341",
+     "M365",
+     "M447"
+    ]
+   },
+   {
+    "designation": "MDP 26, 159",
+    "label": null,
+    "signs": [
+     "1(N14",
+     "5(N1",
+     "M006",
+     "M054",
+     "M059",
+     "M157",
+     "M297",
+     "M327",
+     "M354",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 207",
+    "label": null,
+    "signs": [
+     "M297",
+     "M314"
+    ]
+   },
+   {
+    "designation": "MDP 26, 226",
+    "label": null,
+    "signs": [
+     "M049",
+     "M096",
+     "M134",
+     "M218",
+     "M259",
+     "M263",
+     "M288",
+     "M305",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 230",
+    "label": null,
+    "signs": [
+     "M057",
+     "M102",
+     "M124",
+     "M131",
+     "M217",
+     "M218",
+     "M288",
+     "M293",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 231",
+    "label": null,
+    "signs": [
+     "M029",
+     "M036",
+     "M054",
+     "M111",
+     "M128",
+     "M203",
+     "M218",
+     "M221",
+     "M260",
+     "M263",
+     "M265",
+     "M266",
+     "M297",
+     "M323",
+     "M347",
+     "M377",
+     "M387",
+     "M388",
+     "M390"
+    ]
+   },
+   {
+    "designation": "MDP 26, 234",
+    "label": "counting",
+    "signs": [
+     "M105",
+     "M136",
+     "M265",
+     "M304",
+     "M354",
+     "M387",
+     "M391"
+    ]
+   },
+   {
+    "designation": "MDP 26, 235",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "M036",
+     "M051",
+     "M297",
+     "M304",
+     "M340"
+    ]
+   },
+   {
+    "designation": "MDP 26, 258",
+    "label": null,
+    "signs": [
+     "M106",
+     "M260",
+     "M263",
+     "M288",
+     "M304"
+    ]
+   },
+   {
+    "designation": "MDP 26, 279",
+    "label": null,
+    "signs": [
+     "M057",
+     "M218",
+     "M230",
+     "M242",
+     "M288",
+     "M347",
+     "M372"
+    ]
+   },
+   {
+    "designation": "MDP 26, 291",
+    "label": null,
+    "signs": [
+     "M001",
+     "M057",
+     "M153",
+     "M157",
+     "M218",
+     "M224",
+     "M226",
+     "M243",
+     "M259",
+     "M263",
+     "M292",
+     "M386",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 292",
+    "label": null,
+    "signs": [
+     "M038",
+     "M149",
+     "M157",
+     "M243",
+     "M260",
+     "M263",
+     "M292",
+     "M373",
+     "M377"
+    ]
+   },
+   {
+    "designation": "MDP 26, 293",
+    "label": null,
+    "signs": [
+     "M004",
+     "M057",
+     "M066",
+     "M157",
+     "M205",
+     "M218",
+     "M263",
+     "M292",
+     "M304",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 296",
+    "label": null,
+    "signs": [
+     "M010",
+     "M157",
+     "M284",
+     "M288",
+     "M319"
+    ]
+   },
+   {
+    "designation": "MDP 26, 299",
+    "label": null,
+    "signs": [
+     "M001",
+     "M004",
+     "M036",
+     "M131",
+     "M157",
+     "M158",
+     "M218",
+     "M219",
+     "M243",
+     "M263",
+     "M297",
+     "M382",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 302",
+    "label": null,
+    "signs": [
+     "M157",
+     "M158",
+     "M218",
+     "M288"
+    ]
+   },
+   {
+    "designation": "MDP 26, 304",
+    "label": null,
+    "signs": [
+     "1(N30D)",
+     "2(N14",
+     "2(N39B",
+     "M036",
+     "M054",
+     "M157",
+     "M175",
+     "M223",
+     "M265",
+     "M297",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 311",
+    "label": null,
+    "signs": [
+     "1(N14",
+     "1(N24",
+     "1(N30C",
+     "1(N30D)",
+     "1(N39B",
+     "M036",
+     "M048",
+     "M054",
+     "M111",
+     "M122",
+     "M145",
+     "M153",
+     "M157",
+     "M218",
+     "M265",
+     "M296",
+     "M297",
+     "M301",
+     "M323",
+     "M340",
+     "M347",
+     "M356",
+     "M371",
+     "M372",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 314",
+    "label": null,
+    "signs": [
+     "M066",
+     "M157",
+     "M218",
+     "M219",
+     "M263",
+     "M352",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 319",
+    "label": "capacity",
+    "signs": [
+     "1(N30D)",
+     "M036",
+     "M054",
+     "M157",
+     "M297"
+    ]
+   },
+   {
+    "designation": "MDP 26, 323",
+    "label": null,
+    "signs": [
+     "M165",
+     "M246",
+     "M297",
+     "M312"
+    ]
+   },
+   {
+    "designation": "MDP 26, 324",
+    "label": null,
+    "signs": [
+     "1(N39C)",
+     "2(N01",
+     "M036",
+     "M263",
+     "M288",
+     "M297",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 326",
+    "label": null,
+    "signs": [
+     "M009",
+     "M033",
+     "M038",
+     "M047",
+     "M099",
+     "M131",
+     "M157",
+     "M218",
+     "M243",
+     "M259",
+     "M263",
+     "M292",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 340",
+    "label": null,
+    "signs": [
+     "M009",
+     "M096",
+     "M243",
+     "M254",
+     "M263",
+     "M297",
+     "M305",
+     "M316",
+     "M327",
+     "M342",
+     "M347",
+     "M371",
+     "M377"
+    ]
+   },
+   {
+    "designation": "MDP 26, 344",
+    "label": null,
+    "signs": [
+     "M004",
+     "M131",
+     "M157",
+     "M205",
+     "M218",
+     "M243",
+     "M263",
+     "M292",
+     "M327",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26, 363",
+    "label": null,
+    "signs": [
+     "1(N24",
+     "1(N30C",
+     "M014",
+     "M016",
+     "M036",
+     "M081",
+     "M277",
+     "M311"
+    ]
+   },
+   {
+    "designation": "MDP 26, 399",
+    "label": null,
+    "signs": [
+     "M010",
+     "M015",
+     "M030",
+     "M043",
+     "M044",
+     "M054",
+     "M059",
+     "M136",
+     "M175",
+     "M188",
+     "M384"
+    ]
+   },
+   {
+    "designation": "MDP 26, 419",
+    "label": "capacity",
+    "signs": [
+     "M075",
+     "M122",
+     "M384",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 426",
+    "label": null,
+    "signs": [
+     "7(N1",
+     "M155",
+     "M188",
+     "M208",
+     "M304",
+     "M367",
+     "M384",
+     "M385",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26, 442",
+    "label": null,
+    "signs": [
+     "M009",
+     "M054",
+     "M059",
+     "M136",
+     "M151",
+     "M210",
+     "M219",
+     "M220",
+     "M243",
+     "M289"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 0295",
+    "label": null,
+    "signs": [
+     "M054",
+     "M145",
+     "M153",
+     "M157",
+     "M288",
+     "M371",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 4752",
+    "label": null,
+    "signs": [
+     "M054",
+     "M057",
+     "M066",
+     "M153",
+     "M157",
+     "M288",
+     "M340",
+     "M342",
+     "M352",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 4766",
+    "label": null,
+    "signs": [
+     "2(N30C",
+     "M036",
+     "M096",
+     "M111",
+     "M145",
+     "M157",
+     "M218",
+     "M251",
+     "M262",
+     "M263",
+     "M265",
+     "M271",
+     "M296",
+     "M297",
+     "M320",
+     "M323",
+     "M371",
+     "M384",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 4771",
+    "label": null,
+    "signs": [
+     "M054",
+     "M265",
+     "M286",
+     "M288",
+     "M297",
+     "M340",
+     "M354",
+     "M393",
+     "M401"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 4773",
+    "label": null,
+    "signs": [
+     "M054",
+     "M153",
+     "M157",
+     "M221",
+     "M288",
+     "M340",
+     "M342",
+     "M387",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 4802",
+    "label": null,
+    "signs": [
+     "M054",
+     "M145",
+     "M153",
+     "M157",
+     "M288",
+     "M340",
+     "M342",
+     "M372",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 5036",
+    "label": null,
+    "signs": [
+     "M002",
+     "M009",
+     "M157",
+     "M263",
+     "M264",
+     "M288",
+     "M297",
+     "M302",
+     "M387"
+    ]
+   },
+   {
+    "designation": "MDP 26S, 5200",
+    "label": null,
+    "signs": [
+     "M038",
+     "M195",
+     "M206"
+    ]
+   },
+   {
+    "designation": "MDP 31, 003",
+    "label": null,
+    "signs": [
+     "M096",
+     "M288",
+     "n"
+    ]
+   },
+   {
+    "designation": "MDP 31, 008",
+    "label": null,
+    "signs": [
+     "M059"
+    ]
+   },
+   {
+    "designation": "MDP 31, 020",
+    "label": null,
+    "signs": [
+     "M039",
+     "M157",
+     "M218",
+     "M288"
+    ]
+   },
+   {
+    "designation": "MDP 31, 039",
+    "label": null,
+    "signs": [
+     "M136",
+     "M290",
+     "M297",
+     "M327",
+     "M349",
+     "M353",
+     "M365",
+     "M388"
+    ]
+   },
+   {
+    "designation": "MDP 31, 041",
+    "label": null,
+    "signs": [
+     "M010",
+     "M153",
+     "M288",
+     "M377"
+    ]
+   },
+   {
+    "designation": "MDP 31, 043",
+    "label": null,
+    "signs": [
+     "M004",
+     "M049",
+     "M054",
+     "M057",
+     "M066",
+     "M099",
+     "M101",
+     "M102",
+     "M109",
+     "M124",
+     "M128",
+     "M131",
+     "M139",
+     "M175",
+     "M203",
+     "M204",
+     "M218",
+     "M223",
+     "M242",
+     "M288",
+     "M297",
+     "M352",
+     "M371",
+     "M388",
+     "M410"
+    ]
+   },
+   {
+    "designation": "CahDAFI 8, 94 14",
+    "label": null,
+    "signs": [
+     "1(n",
+     "M243",
+     "M297",
+     "M365"
+    ]
+   },
+   {
+    "designation": "SE 124",
+    "label": "counting",
+    "signs": [
+     "M046",
+     "M054",
+     "M072",
+     "M207",
+     "M370",
+     "M373"
+    ]
+   },
+   {
+    "designation": "SE 125",
+    "label": "counting",
+    "signs": [
+     "M001",
+     "M125",
+     "M175",
+     "M248",
+     "M252",
+     "M310",
+     "M365",
+     "M376",
+     "M387"
+    ]
+   },
+   {
+    "designation": "Kadmos 24, 006 fig. 2",
+    "label": null,
+    "signs": [
+     "1(n",
+     "M041",
+     "M057",
+     "M072",
+     "M136",
+     "M206",
+     "M348",
+     "M351",
+     "M365",
+     "M383"
+    ]
+   },
+   {
+    "designation": "Kadmos 24, 008 fig. 4",
+    "label": null,
+    "signs": [
+     "M001",
+     "M054",
+     "M125",
+     "M152",
+     "M260",
+     "M374"
+    ]
+   },
+   {
+    "designation": "RA 050, 202 07",
+    "label": null,
+    "signs": [
+     "M051",
+     "M243",
+     "M288",
+     "M297",
+     "M324",
+     "M327",
+     "M374",
+     "M393",
+     "M512"
+    ]
+   },
+   {
+    "designation": "RA 050, 202 08",
+    "label": null,
+    "signs": [
+     "1(N24)",
+     "M002",
+     "M036",
+     "M157",
+     "M260",
+     "M297",
+     "M343"
+    ]
+   },
+   {
+    "designation": "Yahya 02",
+    "label": null,
+    "signs": [
+     "M001",
+     "M044",
+     "M056",
+     "M219",
+     "M489"
+    ]
+   }
+  ]
+ }
+}

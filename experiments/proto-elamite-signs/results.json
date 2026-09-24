@@ -1,0 +1,84 @@
+{
+ "control": {
+  "labels": {
+   "counting": 11,
+   "capacity": 4
+  },
+  "gate_test": {
+   "towards": "capacity",
+   "with_group": {
+    "capacity": 0,
+    "counting": 0
+   },
+   "tablets": {
+    "capacity": 4,
+    "counting": 11
+   },
+   "p": 1.0
+  },
+  "signs": {
+   "BA": {
+    "counting": 4,
+    "capacity": 2
+   },
+   "EN": {
+    "counting": 5,
+    "capacity": 1
+   },
+   "AN": {
+    "counting": 3,
+    "capacity": 1
+   },
+   "NUN": {
+    "counting": 4
+   },
+   "SZITA": {
+    "counting": 2,
+    "capacity": 2
+   },
+   "MAR": {
+    "capacity": 1,
+    "counting": 3
+   },
+   "A": {
+    "counting": 4
+   },
+   "GAL": {
+    "counting": 2,
+    "capacity": 1
+   },
+   "DUB": {
+    "capacity": 2,
+    "counting": 1
+   },
+   "E2": {
+    "capacity": 2,
+    "counting": 1
+   },
+   "SANGA": {
+    "capacity": 1,
+    "counting": 2
+   },
+   "PA": {
+    "capacity": 1,
+    "counting": 2
+   },
+   "SZU": {
+    "counting": 2,
+    "capacity": 1
+   },
+   "PAP": {
+    "counting": 2,
+    "capacity": 1
+   },
+   "SAL": {
+    "counting": 3
+   },
+   "SILA4": {
+    "counting": 2,
+    "capacity": 1
+   }
+  }
+ },
+ "gate": false
+}
