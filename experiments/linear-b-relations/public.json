@@ -1,0 +1,161 @@
+[
+  {
+    "id": "r001",
+    "object": "5622",
+    "sequence": [
+      "N",
+      "W001",
+      "Q"
+    ]
+  },
+  {
+    "id": "r002",
+    "object": "5622",
+    "sequence": [
+      "N",
+      "W001",
+      "Q"
+    ]
+  },
+  {
+    "id": "r003",
+    "object": "5582",
+    "sequence": [
+      "N",
+      "W002"
+    ]
+  },
+  {
+    "id": "r004",
+    "object": "4315",
+    "sequence": [
+      "N",
+      "N",
+      "W003"
+    ]
+  },
+  {
+    "id": "r005",
+    "object": "4365",
+    "sequence": [
+      "N",
+      "W003"
+    ]
+  },
+  {
+    "id": "r006",
+    "object": "4694",
+    "sequence": [
+      "N",
+      "W003",
+      "Q"
+    ]
+  },
+  {
+    "id": "r007",
+    "object": "4353",
+    "sequence": [
+      "N",
+      "N"
+    ]
+  },
+  {
+    "id": "r008",
+    "object": "757",
+    "sequence": [
+      "N",
+      "W004"
+    ]
+  },
+  {
+    "id": "r009",
+    "object": "4543",
+    "sequence": [
+      "N",
+      "N",
+      "W005"
+    ]
+  },
+  {
+    "id": "r010",
+    "object": "4681",
+    "sequence": [
+      "W005",
+      "N"
+    ]
+  },
+  {
+    "id": "r011",
+    "object": "4689",
+    "sequence": [
+      "W005",
+      "N"
+    ]
+  },
+  {
+    "id": "r012",
+    "object": "4695",
+    "sequence": [
+      "N",
+      "W005"
+    ]
+  },
+  {
+    "id": "r013",
+    "object": "754",
+    "sequence": [
+      "N",
+      "W006"
+    ]
+  },
+  {
+    "id": "r014",
+    "object": "4311",
+    "sequence": [
+      "N",
+      "W007"
+    ]
+  },
+  {
+    "id": "r015",
+    "object": "4309",
+    "sequence": [
+      "N",
+      "W008"
+    ]
+  },
+  {
+    "id": "r016",
+    "object": "4313",
+    "sequence": [
+      "N",
+      "W008"
+    ]
+  },
+  {
+    "id": "r017",
+    "object": "5622",
+    "sequence": [
+      "N",
+      "N",
+      "Q"
+    ]
+  },
+  {
+    "id": "r018",
+    "object": "5562",
+    "sequence": [
+      "N",
+      "N",
+      "Q"
+    ]
+  },
+  {
+    "id": "r019",
+    "object": "4694",
+    "sequence": [
+      "N",
+      "N"
+    ]
+  }
+]
