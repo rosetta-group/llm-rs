@@ -78,6 +78,15 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: fresh modern Italian source pinned: UD_Italian-PUD (1,000 sentences, 101,598 letters).**
+News and Wikipedia sentences translated into Italian for the CoNLL 2017 parallel treebank, CC BY-SA 3.0,
+pinned at a fixed commit. Audit: none of the 1,000 sentences appears verbatim in any split of ISDT,
+ParTUT or VIT or in any released passage. None shares a 20-word run with fitting, development or
+released text, and none shares even an 8-word run with ISDT. The same check flags every ParTUT train
+sentence (positive control). All 1,000 are eligible. Limits: translated text, mostly from English,
+and one source. That is enough for about 19 segmentation passages or 4 cipher cases of 20,800 letters.
+[Manifest](experiments/modern-fresh-sources.json).
+
 **2026-09-24: correction: ParTUT train is ISDT training text; round-six modern cases invalid.**
 Post-grading audit: 1,753 of ParTUT train's 1,781 sentences appear verbatim in UD_Italian-ISDT
 train, which fits the character prior and the segmenter. The modern passages of round six and
