@@ -1,0 +1,71 @@
+{
+  "code_sha256": {
+    "experiments/joint_recovery_v6.py": "2ad3c60c74332378f6497734fee704db99e8f972ec4a4eacf7d90698ed325225",
+    "experiments/length_scaling_v2.py": "82e6eb00a046011dd573ea2214ea2d7d7dc7a384e704ff4dc8578242cb30a5fc",
+    "experiments/length_scaling_v3.py": "0f729081b3e00711cd9ba44adff9215516b10c16bf84e00e7e61a5f260faf0a2",
+    "voynich/context_reparse.py": "0ab2dffcb24725125ca2c7cf13f61ae332fcd3f19ff7415b631c3dcdadf144f7",
+    "voynich/lexicon_repair.py": "56b1c158983fab5a39afc6bc4e11e2b6d9dc23589a05c92b0276c93dee272681",
+    "voynich/lexical_polish.py": "999603a179b2e059fd045a08ab423ce5584f07aa4cbb2d6eb8f86e52522dc0bf",
+    "voynich/unknown_words.py": "98018d9ee348fb3491614c8b62e1d1ef56a11aeaa6d5dc68cb53751a49021e2e",
+    "experiments/joint_recovery_v4.py": "15a87a297836dcd87be4b98a8626a0bdc0e7413652311292bf8edb63c661e0cf",
+    "experiments/word_segmentation_v3_fresh.py": "53f80286ea2474dd45aa4561bf63bdafeec72993e4f745801209ed86e1dda8da"
+  },
+  "inputs": {
+    "experiments/joint-recovery-v6/PROTOCOL.md": "f4fa1c8eec912ab155f488642872fe31f82f2db2392604369cbf86647a114c17",
+    "experiments/joint-recovery-v4/freeze.json": "30f6279dcc50fb942a1dcc238bc90f37e4161a07c52deab5d30c6957390872c4",
+    "experiments/word-segmentation-v3/freeze.json": "1b7f69d562690b8cfccb1da1df5cc4ef789ddecb3e20359237a222c9ecdb63ab",
+    "experiments/length-scaling-v3/summary.json": "c8c416a0752bbeca310d9ed4e6680f1cc6ce6b85e382e5a20b89a7a7d518c35e"
+  },
+  "base_settings": {
+    "minimum": 6,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 3.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 300,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 1200,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 1.0,
+    "repair_minimum": 2,
+    "repair_passes": 2
+  },
+  "scaling": "sqrt",
+  "letters": 20800,
+  "settings": {
+    "minimum": 12,
+    "joint_restarts": 4,
+    "joint_iterations": 60,
+    "prune_usage": 6.0,
+    "refine_kicks": 30,
+    "refine_kick_size": 6,
+    "refine_cap": 1200.0,
+    "seed": 3,
+    "verse_weight": 3,
+    "polish_weight": 1.0,
+    "polish_radius": 30,
+    "polish_shortlist": 5,
+    "polish_sweeps": 3,
+    "polish_cap": 4800.0,
+    "repair_theta": 5.0,
+    "repair_usage_floor": 2.0,
+    "repair_minimum": 4,
+    "repair_passes": 2
+  },
+  "reparse": {
+    "rounds": 2,
+    "width": 128
+  },
+  "segmenter_v3": {
+    "order": 5,
+    "elision": true
+  },
+  "partut_revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+  "at": 1790208810.325996
+}
