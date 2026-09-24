@@ -1,0 +1,35 @@
+{
+  "files": {
+    "experiments/linear-b-person-role/PROTOCOL.md": "fc75bad684d6a346dbc30ea795632358d170ce897a7f6d17fb4ee1e018d038ad",
+    "experiments/linear-b-person-role/cases.json": "fdc4da66fb91395c87ef5ee6c307d1d064fd6f0de0034bd7ad85d3585f10648d",
+    "experiments/linear-b-person-role/labels.json": "2cc176783323e84e45ecbe22946a0864f2c38820b63316256c28b64b31cc55c4",
+    "experiments/linear-b-person-role/public.json": "6a32fe21995cb92027f2b781e73e29ed87f8a2427bff36ebc2d19817886200e3",
+    "experiments/linear-b-person-role/sources.json": "ab367efbb8a6ca4da37198bd599441ccd47c702e5b2e3652137c00c83e4fac9a",
+    "experiments/linear_b_person_role.py": "54370d019f5b4a241b30b397f67845198af6a858c4d7156c93c74863b0cdff34",
+    "linear_a/audit.py": "227030f4e5a9d62a598aace756b8bd67e540e930d0f8529d8137cf5602e41fad",
+    "linear_a/person_role_control.py": "dc74d9091846d11a62c432cef3238b487209aded00ad1a9356545634afaa404c",
+    "tests/test_linear_a_person_role.py": "77dbdae5705c2afb468d1da74fb4216f945c39c7bce88673757b125d6c7d4b90"
+  },
+  "sources": {
+    "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+    "artifacts/linear-a-sources/damos/items/1352.json": "413c318cc2c02c0d8ced6809aa123f029305bc9867050a25e17229aa0999bcdc",
+    "artifacts/linear-a-sources/damos/items/1353.json": "39803bc6b4cd9dc1d0641b7d9f9955fb3cc3ab44f37e9ba360673224eeaa46ac",
+    "artifacts/linear-a-sources/damos/items/4309.json": "862e46e27fe2e058726ec7293ece0f62dac99a64617711b3809e4aac10219cc3",
+    "artifacts/linear-a-sources/damos/items/4311.json": "2a0cd87a52fc0e19b8e91421699148f774eab12002b1479e75e73cf983ba2fa6",
+    "artifacts/linear-a-sources/damos/items/4313.json": "cfa312f9f197ff803a4f74b9cf70afa22ae863bf1a428c246a88af919728295e",
+    "artifacts/linear-a-sources/damos/items/4323.json": "68f9925686505d29f586b97a4f7f08eaa75270e86bcce5f295ed1b8df97452df",
+    "artifacts/linear-a-sources/damos/items/4325.json": "71b03e68e8a1e80d79bb51d95e7a42690c077e8842c9ec89c0aeaa4b86f71240",
+    "artifacts/linear-a-sources/damos/items/4327.json": "c645e4331e8e99b21e750cbc4ff4f59cb72ea80ef3e0553c93ffdd6acddd79ff",
+    "artifacts/linear-a-sources/damos/items/4329.json": "743fbc59606c39c2b71157aaa9743e08f99e0d5cc29da5c2f5dedd0372e6bc78",
+    "artifacts/linear-a-sources/damos/items/4336.json": "af76da5fa855e47ace5ca45ee175b5dde535b754cb926a852b76eb91f73d22bf",
+    "artifacts/linear-a-sources/damos/items/4339.json": "260312dd8b0144b77d25fe8364160629bb8b849308c847a1ac8ae3204bd84c70",
+    "artifacts/linear-a-sources/damos/items/4340.json": "c94325b6659f52423a14127cb9573e66ba7cc15aa01d4c2223197ab8bdd04697",
+    "artifacts/linear-a-sources/damos/items/4345.json": "df48ef6b8cd981663d1b60cd46018a25b685155ecc1c4fbbd5668f1fab8397be",
+    "artifacts/linear-a-sources/damos/items/4355.json": "5a21b90842d60e2a3ef7a08fa01d2cc635a8a1b868c9b5e8c8ed9f2bc79642fd",
+    "artifacts/linear-a-sources/damos/items/4690.json": "109b52586ee39632964a5089c7a4271303497f853a0e2cef5124c12d0ba40281",
+    "artifacts/linear-a-sources/damos/items/5562.json": "de09221e1f2561a3f1697ff2eb949a91b00cfb05de127ea66a9e885f6bb30b9b",
+    "artifacts/linear-a-sources/damos/items/60.json": "2a22bf886fdb25f83e3a862f2f0e34a99907b7011c63315d717ea093131f84b8",
+    "artifacts/linear-a-sources/damos/items/754.json": "387a3a19282be66e960f8c9fbd9af3024adaf4a52e4ea383102ccdad8004d2b2",
+    "artifacts/linear-a-sources/damos/items/757.json": "98b1e4bb8e576ac9221591024a82a49c5a48e77809d3c62cbb4625ddbe8d1ece"
+  }
+}

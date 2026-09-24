@@ -1,0 +1,1164 @@
+{
+  "annotation_status": "Curated development challenge; source review by one investigator, no independent modern expert adjudication.",
+  "attribution": "DĀMOS transcriptions: CC BY-NC-SA 4.0. Label rationales paraphrase Ventris & Chadwick (1956), 1959 reprint; no book scans redistributed.",
+  "selection": "Small source-supported challenge including counterexamples; maximum two uncomplicated names from each long roster. Not a random or exhaustive corpus sample.",
+  "exclusions": [
+    "Unresolved name/title entries: damaged initial [•~]si-re-u in KN As 1517; ma-ra-te-u in PY An 657; ka-sa-to in PY An 39.",
+    "Places, ethnics, deities, children/kinship terms; uncertainty about their semantic identity is not resolved by position.",
+    "Damaged target strings and doubtful count-one occurrences in KN Am 821; multiple-quantity names ke-re-no and o-ri-ko in MY Au 102.",
+    "Unselected faces and rows remain available for literal repetition only; no further label claims."
+  ],
+  "cases": [
+    {
+      "id": "c001",
+      "object": "o001",
+      "damos_id": 60,
+      "document": "KN Ai(1) 63",
+      "target": "pe-se-ro-jo",
+      "label": "PERSON",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".a        pe-se-ro-jo   ,   e-e-si",
+      "entry_span": [
+        10,
+        34
+      ],
+      "entry_text": "pe-se-ro-jo   ,   e-e-si",
+      "entry_words": [
+        "pe-se-ro-jo",
+        "e-e-si"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        165
+      ],
+      "label_source_pdf_pages": [
+        204
+      ],
+      "label_rationale": "Source identifies an inflected personal name (Psellos). The relation of the listed people to him is disputed.",
+      "notes": "Do not infer a family or ownership relation from the personal-name label."
+    },
+    {
+      "id": "c002",
+      "object": "o002",
+      "damos_id": 757,
+      "document": "KN Ai(-) 824",
+      "target": "a-pi-qo-i-ta",
+      "label": "PERSON",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".1        a-pi-qo-i-ta  /  do-e-ra     MUL   32     ko-wa  ,  me-zo-e   5     ko-wa me-wi-jo-e   15",
+      "entry_span": [
+        10,
+        24
+      ],
+      "entry_text": "a-pi-qo-i-ta  ",
+      "entry_words": [
+        "a-pi-qo-i-ta"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        162,
+        164
+      ],
+      "label_source_pdf_pages": [
+        201,
+        203
+      ],
+      "label_rationale": "Source identifies Amphiphoitas as a personal name and argues against an adjectival reading.",
+      "notes": "Book siglum Ak 824; current DĀMOS Ai(-) 824. The slash separates the superscribed name from the group entry."
+    },
+    {
+      "id": "c003",
+      "object": "o002",
+      "damos_id": 757,
+      "document": "KN Ai(-) 824",
+      "target": "do-e-ra",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".1        a-pi-qo-i-ta  /  do-e-ra     MUL   32     ko-wa  ,  me-zo-e   5     ko-wa me-wi-jo-e   15",
+      "entry_span": [
+        27,
+        52
+      ],
+      "entry_text": "do-e-ra     MUL   32     ",
+      "entry_words": [
+        "do-e-ra"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        162,
+        164
+      ],
+      "label_source_pdf_pages": [
+        201,
+        203
+      ],
+      "label_rationale": "Source translates the designation as female slaves.",
+      "notes": "Quantity 32 attaches to the group, not the preceding heading name."
+    },
+    {
+      "id": "c004",
+      "object": "o003",
+      "damos_id": 754,
+      "document": "KN Am(2) 821",
+      "target": "ko-pe-re-u",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".2        si-ja-du-we  ,  ṭạ-ṛạ  ,  / i-je[-re-]u  ,  po-me  ,  e-ne-ka  ,  'o-pa'  X  VIR  1  //  ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+      "entry_span": [
+        103,
+        156
+      ],
+      "entry_text": "ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+      "entry_words": [
+        "ko-pe-re-u",
+        "e-qe-ta",
+        "e-ki-'si-jo'"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        168,
+        169
+      ],
+      "label_source_pdf_pages": [
+        207,
+        208
+      ],
+      "label_rationale": "Source names Kopreus and identifies his title as follower (hequetas).",
+      "notes": "Book As 821; DĀMOS Am(2) 821. The intact final VIR 1 entry is used; other entries have doubtful readings."
+    },
+    {
+      "id": "c005",
+      "object": "o003",
+      "damos_id": 754,
+      "document": "KN Am(2) 821",
+      "target": "e-qe-ta",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".2        si-ja-du-we  ,  ṭạ-ṛạ  ,  / i-je[-re-]u  ,  po-me  ,  e-ne-ka  ,  'o-pa'  X  VIR  1  //  ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+      "entry_span": [
+        103,
+        156
+      ],
+      "entry_text": "ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+      "entry_words": [
+        "ko-pe-re-u",
+        "e-qe-ta",
+        "e-ki-'si-jo'"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        168,
+        169
+      ],
+      "label_source_pdf_pages": [
+        207,
+        208
+      ],
+      "label_rationale": "Source names Kopreus and identifies his title as follower (hequetas).",
+      "notes": "Book As 821; DĀMOS Am(2) 821. The intact final VIR 1 entry is used; other entries have doubtful readings."
+    },
+    {
+      "id": "c006",
+      "object": "o004",
+      "damos_id": 1352,
+      "document": "KN As(2) 1516",
+      "target": "a-ra-da-jo",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".3        a-ra-da-jo   VIR   1     pi-ja-si-ro   VIR   1      ḍạ-ṇạ[   ]     VIR   1",
+      "entry_span": [
+        10,
+        35
+      ],
+      "entry_text": "a-ra-da-jo   VIR   1     ",
+      "entry_words": [
+        "a-ra-da-jo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        171
+      ],
+      "label_source_pdf_pages": [
+        210
+      ],
+      "label_rationale": "Source identifies this portion as a roster of personal names.",
+      "notes": ""
+    },
+    {
+      "id": "c007",
+      "object": "o004",
+      "damos_id": 1352,
+      "document": "KN As(2) 1516",
+      "target": "pi-ja-si-ro",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".3        a-ra-da-jo   VIR   1     pi-ja-si-ro   VIR   1      ḍạ-ṇạ[   ]     VIR   1",
+      "entry_span": [
+        35,
+        62
+      ],
+      "entry_text": "pi-ja-si-ro   VIR   1      ",
+      "entry_words": [
+        "pi-ja-si-ro"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        171
+      ],
+      "label_source_pdf_pages": [
+        210
+      ],
+      "label_rationale": "Source identifies this portion as a roster of personal names.",
+      "notes": ""
+    },
+    {
+      "id": "c008",
+      "object": "o005",
+      "damos_id": 1353,
+      "document": "KN As(2) 1517",
+      "target": "a-di-nwa-ta",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".2        [•~]si-re-u            1     a-di-nwa-ta     1",
+      "entry_span": [
+        39,
+        56
+      ],
+      "entry_text": "a-di-nwa-ta     1",
+      "entry_words": [
+        "a-di-nwa-ta"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        172
+      ],
+      "label_source_pdf_pages": [
+        211
+      ],
+      "label_rationale": "Source treats this list as personal names, explicitly reserving doubt for the excluded first damaged entry.",
+      "notes": ""
+    },
+    {
+      "id": "c009",
+      "object": "o005",
+      "damos_id": 1353,
+      "document": "KN As(2) 1517",
+      "target": "ti-qa-jo",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".3        [•]-sa-ta                 1     ti-qa-jo              1",
+      "entry_span": [
+        42,
+        65
+      ],
+      "entry_text": "ti-qa-jo              1",
+      "entry_words": [
+        "ti-qa-jo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        172
+      ],
+      "label_source_pdf_pages": [
+        211
+      ],
+      "label_rationale": "Source treats this list as personal names; this intact target is outside the excluded first damaged entry.",
+      "notes": ""
+    },
+    {
+      "id": "c010",
+      "object": "o006",
+      "damos_id": 4311,
+      "document": "PY Ae(1) 134",
+      "target": "ke-ro-wo",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".b        ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+      "entry_span": [
+        10,
+        96
+      ],
+      "entry_text": "ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+      "entry_words": [
+        "ke-ro-wo",
+        "po-me",
+        "a-si-ja-ti-ja",
+        "o-pi",
+        "ta-ra-ma-o",
+        "qe-to-ro-po-pi"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        169
+      ],
+      "label_source_pdf_pages": [
+        208
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c011",
+      "object": "o006",
+      "damos_id": 4311,
+      "document": "PY Ae(1) 134",
+      "target": "po-me",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".b        ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+      "entry_span": [
+        10,
+        96
+      ],
+      "entry_text": "ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+      "entry_words": [
+        "ke-ro-wo",
+        "po-me",
+        "a-si-ja-ti-ja",
+        "o-pi",
+        "ta-ra-ma-o",
+        "qe-to-ro-po-pi"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        169
+      ],
+      "label_source_pdf_pages": [
+        208
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c012",
+      "object": "o007",
+      "damos_id": 4309,
+      "document": "PY Ae(1) 108",
+      "target": "qo-te-ro",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".b        qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+      "entry_span": [
+        10,
+        91
+      ],
+      "entry_text": "qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+      "entry_words": [
+        "qo-te-ro",
+        "a3-ki-pa-ta",
+        "o-pi",
+        "ta-ra-ma-ta-o",
+        "qe[-to-ro-po-pi"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        170
+      ],
+      "label_source_pdf_pages": [
+        209
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c013",
+      "object": "o007",
+      "damos_id": 4309,
+      "document": "PY Ae(1) 108",
+      "target": "a3-ki-pa-ta",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".b        qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+      "entry_span": [
+        10,
+        91
+      ],
+      "entry_text": "qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+      "entry_words": [
+        "qo-te-ro",
+        "a3-ki-pa-ta",
+        "o-pi",
+        "ta-ra-ma-ta-o",
+        "qe[-to-ro-po-pi"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        170
+      ],
+      "label_source_pdf_pages": [
+        209
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c014",
+      "object": "o008",
+      "damos_id": 4313,
+      "document": "PY Ae(1) 264",
+      "target": "pi-ra-jo",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": "        pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+      "entry_span": [
+        8,
+        97
+      ],
+      "entry_text": "pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+      "entry_words": [
+        "pi-ra-jo",
+        "a3-ki-pa-ta",
+        "su-ra-te",
+        "du-ni-jo",
+        "me-tu-ra",
+        "su-ra-se"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        169
+      ],
+      "label_source_pdf_pages": [
+        208
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c015",
+      "object": "o008",
+      "damos_id": 4313,
+      "document": "PY Ae(1) 264",
+      "target": "a3-ki-pa-ta",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": "        pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+      "entry_span": [
+        8,
+        97
+      ],
+      "entry_text": "pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+      "entry_words": [
+        "pi-ra-jo",
+        "a3-ki-pa-ta",
+        "su-ra-te",
+        "du-ni-jo",
+        "me-tu-ra",
+        "su-ra-se"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        169
+      ],
+      "label_source_pdf_pages": [
+        208
+      ],
+      "label_rationale": "Source explicitly pairs the named individual with shepherd/goatherd occupation.",
+      "notes": "The count is shared entry context. Book ai- versus DĀMOS a3- notation is retained. Surrounding uncertain words/logograms are not repaired or labelled."
+    },
+    {
+      "id": "c016",
+      "object": "o009",
+      "damos_id": 4327,
+      "document": "PY An(6) 35",
+      "target": "to-ko-do-mo",
+      "label": "DESIGNATION",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".1           to-ko-do-mo  ,  de-me-o-te",
+      "entry_span": [
+        13,
+        39
+      ],
+      "entry_text": "to-ko-do-mo  ,  de-me-o-te",
+      "entry_words": [
+        "to-ko-do-mo",
+        "de-me-o-te"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        174
+      ],
+      "label_source_pdf_pages": [
+        213
+      ],
+      "label_rationale": "Source identifies the group as masons.",
+      "notes": ""
+    },
+    {
+      "id": "c017",
+      "object": "o010",
+      "damos_id": 4340,
+      "document": "PY An(-) 292",
+      "target": "si-to-ko-wo",
+      "label": "DESIGNATION",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".1        si-to-ko-wo",
+      "entry_span": [
+        10,
+        21
+      ],
+      "entry_text": "si-to-ko-wo",
+      "entry_words": [
+        "si-to-ko-wo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        166
+      ],
+      "label_source_pdf_pages": [
+        205
+      ],
+      "label_rationale": "Source interprets the header as an occupational grain-measuring designation. The exact gloss is not a target label.",
+      "notes": ""
+    },
+    {
+      "id": "c018",
+      "object": "o011",
+      "damos_id": 4323,
+      "document": "PY An(4) 1",
+      "target": "e-re-ta",
+      "label": "DESIGNATION",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".1        e-re-ta  ,  pe-re-u-ro-na-de  , / i-jo-te",
+      "entry_span": [
+        10,
+        51
+      ],
+      "entry_text": "e-re-ta  ,  pe-re-u-ro-na-de  , / i-jo-te",
+      "entry_words": [
+        "e-re-ta",
+        "pe-re-u-ro-na-de",
+        "i-jo-te"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        183,
+        185,
+        186
+      ],
+      "label_source_pdf_pages": [
+        222,
+        224,
+        225
+      ],
+      "label_rationale": "Source identifies rowers in the heading; destination/body place labels are excluded.",
+      "notes": ""
+    },
+    {
+      "id": "c019",
+      "object": "o012",
+      "damos_id": 4325,
+      "document": "PY An(-) 18",
+      "target": "to-ko-do-mo",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".6        te-re-ne-we  ,  to-ko-do-mo   a-pe-o   VIR   1",
+      "entry_span": [
+        10,
+        56
+      ],
+      "entry_text": "te-re-ne-we  ,  to-ko-do-mo   a-pe-o   VIR   1",
+      "entry_words": [
+        "te-re-ne-we",
+        "to-ko-do-mo",
+        "a-pe-o"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        182
+      ],
+      "label_source_pdf_pages": [
+        221
+      ],
+      "label_rationale": "Source identifies the occupational term masons in a missing-worker entry.",
+      "notes": ""
+    },
+    {
+      "id": "c020",
+      "object": "o012",
+      "damos_id": 4325,
+      "document": "PY An(-) 18",
+      "target": "te-ko-to-na-pe",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".7        i-na-ne                  VIR   1       te-ko-to-na-pe   1",
+      "entry_span": [
+        49,
+        67
+      ],
+      "entry_text": "te-ko-to-na-pe   1",
+      "entry_words": [
+        "te-ko-to-na-pe"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        182
+      ],
+      "label_source_pdf_pages": [
+        221
+      ],
+      "label_rationale": "Source interprets the compound as carpenter plus an absence expression. It is retained as a designation/status phrase.",
+      "notes": "No lemmatization into te-ko-to. Earlier intact occurrence has damaged quantity; literal repetition still counts."
+    },
+    {
+      "id": "c021",
+      "object": "o013",
+      "damos_id": 4339,
+      "document": "PY An(-) 261",
+      "target": "a-pi-jo-to",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".7        a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_span": [
+        10,
+        77
+      ],
+      "entry_text": "a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_words": [
+        "a-pi-jo-to",
+        "ke-ro-si-ja",
+        "o-wo-to"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        172,
+        173
+      ],
+      "label_source_pdf_pages": [
+        211,
+        212
+      ],
+      "label_rationale": "Source distinguishes the inflected leader name, group/institution term, and individual name in this formula.",
+      "notes": "Book An 22 [261]+857; DĀMOS An 261 contains the joined record and reverse. The precise gerousia institution gloss is not asserted. Count 1 is entry context, not a count of each word."
+    },
+    {
+      "id": "c022",
+      "object": "o013",
+      "damos_id": 4339,
+      "document": "PY An(-) 261",
+      "target": "ke-ro-si-ja",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".7        a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_span": [
+        10,
+        77
+      ],
+      "entry_text": "a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_words": [
+        "a-pi-jo-to",
+        "ke-ro-si-ja",
+        "o-wo-to"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        172,
+        173
+      ],
+      "label_source_pdf_pages": [
+        211,
+        212
+      ],
+      "label_rationale": "Source distinguishes the inflected leader name, group/institution term, and individual name in this formula.",
+      "notes": "Book An 22 [261]+857; DĀMOS An 261 contains the joined record and reverse. The precise gerousia institution gloss is not asserted. Count 1 is entry context, not a count of each word."
+    },
+    {
+      "id": "c023",
+      "object": "o013",
+      "damos_id": 4339,
+      "document": "PY An(-) 261",
+      "target": "o-wo-to",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".7        a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_span": [
+        10,
+        77
+      ],
+      "entry_text": "a-pi-jo-to  ,       ke-ro-si-ja  ,  o-wo-to                 VIR   1",
+      "entry_words": [
+        "a-pi-jo-to",
+        "ke-ro-si-ja",
+        "o-wo-to"
+      ],
+      "target_index": 2,
+      "label_source_printed_pages": [
+        172,
+        173
+      ],
+      "label_source_pdf_pages": [
+        211,
+        212
+      ],
+      "label_rationale": "Source distinguishes the inflected leader name, group/institution term, and individual name in this formula.",
+      "notes": "Book An 22 [261]+857; DĀMOS An 261 contains the joined record and reverse. The precise gerousia institution gloss is not asserted. Count 1 is entry context, not a count of each word."
+    },
+    {
+      "id": "c024",
+      "object": "o014",
+      "damos_id": 4329,
+      "document": "PY An(-) 39",
+      "target": "pu-ka-wo",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".1          pu-ka-wo   X                VIR   16",
+      "entry_span": [
+        12,
+        48
+      ],
+      "entry_text": "pu-ka-wo   X                VIR   16",
+      "entry_words": [
+        "pu-ka-wo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        180,
+        181
+      ],
+      "label_source_pdf_pages": [
+        219,
+        220
+      ],
+      "label_rationale": "Source lists an occupational class, tentatively interpreted as fire-kindlers. Exact occupation is not scored.",
+      "notes": ""
+    },
+    {
+      "id": "c025",
+      "object": "o014",
+      "damos_id": 4329,
+      "document": "PY An(-) 39",
+      "target": "a-to-po-qo",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".11      e-]ṭọ-wo-ko  ,  VIR   4   a-to-po-qo   VIR   3",
+      "entry_span": [
+        37,
+        57
+      ],
+      "entry_text": "a-to-po-qo   VIR   3",
+      "entry_words": [
+        "a-to-po-qo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        180,
+        181
+      ],
+      "label_source_pdf_pages": [
+        219,
+        220
+      ],
+      "label_rationale": "Source identifies bakers.",
+      "notes": ""
+    },
+    {
+      "id": "c026",
+      "object": "o014",
+      "damos_id": 4329,
+      "document": "PY An(-) 39",
+      "target": "a-ko-so-ta",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "none",
+      "raw_line": ".5        a-ko-so-ta  ,             VIR",
+      "entry_span": [
+        10,
+        39
+      ],
+      "entry_text": "a-ko-so-ta  ,             VIR",
+      "entry_words": [
+        "a-ko-so-ta"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        181
+      ],
+      "label_source_pdf_pages": [
+        220
+      ],
+      "label_rationale": "Source identifies this reverse entry with a personal name attested elsewhere.",
+      "notes": "VIR appears without a numeral. No inferred count of one; distinguish reverse .5 from front .5 by target."
+    },
+    {
+      "id": "c027",
+      "object": "o015",
+      "damos_id": 4336,
+      "document": "PY An(-) 207",
+      "target": "ke-ra-me-we",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".7        ṛẹ-ka[-ta]-ne  ,  ke-ra-me-we     VIR   2",
+      "entry_span": [
+        10,
+        53
+      ],
+      "entry_text": "ṛẹ-ka[-ta]-ne  ,  ke-ra-me-we     VIR   2",
+      "entry_words": [
+        "ṛẹ-ka[-ta]-ne",
+        "ke-ra-me-we"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        182,
+        183
+      ],
+      "label_source_pdf_pages": [
+        221,
+        222
+      ],
+      "label_rationale": "Source identifies potters.",
+      "notes": "Preceding doubtful place term retained as a slot; target and quantity 2 are intact."
+    },
+    {
+      "id": "c028",
+      "object": "o015",
+      "damos_id": 4336,
+      "document": "PY An(-) 207",
+      "target": "ku-ru-so-wo-ko",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".10      a-nu-wa  ,  ku-ru-so-wo-ko        VIR   4",
+      "entry_span": [
+        9,
+        50
+      ],
+      "entry_text": "a-nu-wa  ,  ku-ru-so-wo-ko        VIR   4",
+      "entry_words": [
+        "a-nu-wa",
+        "ku-ru-so-wo-ko"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        182,
+        183
+      ],
+      "label_source_pdf_pages": [
+        221,
+        222
+      ],
+      "label_rationale": "Source identifies goldsmiths.",
+      "notes": ""
+    },
+    {
+      "id": "c029",
+      "object": "o016",
+      "damos_id": 4345,
+      "document": "PY An(5) 427",
+      "target": "da-ko-ro",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".1           a-pu2-we  ,  da-ko-ro        VIR   5   e-ri-no-ẉọ[-te            VIR",
+      "entry_span": [
+        13,
+        52
+      ],
+      "entry_text": "a-pu2-we  ,  da-ko-ro        VIR   5   ",
+      "entry_words": [
+        "a-pu2-we",
+        "da-ko-ro"
+      ],
+      "target_index": 1,
+      "label_source_printed_pages": [
+        180
+      ],
+      "label_source_pdf_pages": [
+        219
+      ],
+      "label_rationale": "Source identifies an occupational/service class, tentatively temple servants. Exact gloss is not scored.",
+      "notes": ""
+    },
+    {
+      "id": "c030",
+      "object": "o016",
+      "damos_id": 4345,
+      "document": "PY An(5) 427",
+      "target": "a-to-po-qo",
+      "label": "DESIGNATION",
+      "role": "entry",
+      "quantity": "many",
+      "raw_line": ".3        a-to-po-qo     VIR   2   pi-[•]-te  ,  pu-ka-wo     VIR   3   [",
+      "entry_span": [
+        10,
+        35
+      ],
+      "entry_text": "a-to-po-qo     VIR   2   ",
+      "entry_words": [
+        "a-to-po-qo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        180
+      ],
+      "label_source_pdf_pages": [
+        219
+      ],
+      "label_rationale": "Source identifies bakers.",
+      "notes": ""
+    },
+    {
+      "id": "c031",
+      "object": "o017",
+      "damos_id": 5562,
+      "document": "MY Au(-) 102",
+      "target": "na-su-to",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".2        na-su-to                                             VIR 1",
+      "entry_span": [
+        10,
+        68
+      ],
+      "entry_text": "na-su-to                                             VIR 1",
+      "entry_words": [
+        "na-su-to"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        179
+      ],
+      "label_source_pdf_pages": [
+        218
+      ],
+      "label_rationale": "Source identifies a list of male personal names, with explicit uncertainty over other multiple-number entries.",
+      "notes": ""
+    },
+    {
+      "id": "c032",
+      "object": "o017",
+      "damos_id": 5562,
+      "document": "MY Au(-) 102",
+      "target": "mo-i-da",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".8        mo-i-da                                              VIR 1",
+      "entry_span": [
+        10,
+        68
+      ],
+      "entry_text": "mo-i-da                                              VIR 1",
+      "entry_words": [
+        "mo-i-da"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        179
+      ],
+      "label_source_pdf_pages": [
+        218
+      ],
+      "label_rationale": "Source identifies a list of male personal names, with explicit uncertainty over other multiple-number entries.",
+      "notes": ""
+    },
+    {
+      "id": "c033",
+      "object": "o017",
+      "damos_id": 5562,
+      "document": "MY Au(-) 102",
+      "target": "a-to-po-qo",
+      "label": "DESIGNATION",
+      "role": "footer",
+      "quantity": "unknown",
+      "raw_line": ".14       a-to-po-qo      [        ]  vac.",
+      "entry_span": [
+        10,
+        42
+      ],
+      "entry_text": "a-to-po-qo      [        ]  vac.",
+      "entry_words": [
+        "a-to-po-qo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        179
+      ],
+      "label_source_pdf_pages": [
+        218
+      ],
+      "label_rationale": "Source identifies the baker designation written below the name list.",
+      "notes": "Damage after target; unknown quantity, not zero or one. Footer is a supplied layout annotation."
+    },
+    {
+      "id": "c034",
+      "object": "o018",
+      "damos_id": 4690,
+      "document": "PY Jn(2) 658",
+      "target": "ka-ke-we",
+      "label": "DESIGNATION",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".1            ka-ke-we ,   ta-ra-si-j̣ạ   ,    ẹ-ko-si",
+      "entry_span": [
+        14,
+        56
+      ],
+      "entry_text": "ka-ke-we ,   ta-ra-si-j̣ạ   ,    ẹ-ko-si",
+      "entry_words": [
+        "ka-ke-we",
+        "ta-ra-si-j̣ạ",
+        "ẹ-ko-si"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        355
+      ],
+      "label_source_pdf_pages": [
+        394
+      ],
+      "label_rationale": "Source identifies smiths receiving bronze allocations.",
+      "notes": ""
+    },
+    {
+      "id": "c035",
+      "object": "o018",
+      "damos_id": 4690,
+      "document": "PY Jn(2) 658",
+      "target": "ma-ka-wo",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".3        ma-ka-wo   1     AES   Ṃ   5̣   pi-ro-ne-ta   1      AES   M   5",
+      "entry_span": [
+        10,
+        43
+      ],
+      "entry_text": "ma-ka-wo   1     AES   Ṃ   5̣   ",
+      "entry_words": [
+        "ma-ka-wo"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        355
+      ],
+      "label_source_pdf_pages": [
+        394
+      ],
+      "label_rationale": "Source identifies the listed smiths by personal name.",
+      "notes": "The numeral 1 precedes the bronze quantity AES M 5; doubtful metal amount is not used as headcount."
+    },
+    {
+      "id": "c036",
+      "object": "o018",
+      "damos_id": 4690,
+      "document": "PY Jn(2) 658",
+      "target": "pi-ro-ne-ta",
+      "label": "PERSON",
+      "role": "entry",
+      "quantity": "one",
+      "raw_line": ".3        ma-ka-wo   1     AES   Ṃ   5̣   pi-ro-ne-ta   1      AES   M   5",
+      "entry_span": [
+        43,
+        75
+      ],
+      "entry_text": "pi-ro-ne-ta   1      AES   M   5",
+      "entry_words": [
+        "pi-ro-ne-ta"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        355
+      ],
+      "label_source_pdf_pages": [
+        394
+      ],
+      "label_rationale": "Source identifies the listed smiths by personal name.",
+      "notes": "The numeral 1 is distinct from the bronze allocation AES M 5."
+    },
+    {
+      "id": "c037",
+      "object": "o019",
+      "damos_id": 4355,
+      "document": "PY An(3) 657",
+      "target": "ma-re-wo",
+      "label": "PERSON",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".2        ma-re-wo  ,  o-ka  ,  o-wi-to-no  ,",
+      "entry_span": [
+        10,
+        45
+      ],
+      "entry_text": "ma-re-wo  ,  o-ka  ,  o-wi-to-no  ,",
+      "entry_words": [
+        "ma-re-wo",
+        "o-ka",
+        "o-wi-to-no"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        185,
+        188,
+        189
+      ],
+      "label_source_pdf_pages": [
+        224,
+        227,
+        228
+      ],
+      "label_rationale": "Source identifies the inflected personal name of the section commander (Maleus).",
+      "notes": "Section heading, not whole-tablet heading. No claim about names/titles among following companions."
+    },
+    {
+      "id": "c038",
+      "object": "o019",
+      "damos_id": 4355,
+      "document": "PY An(3) 657",
+      "target": "ne-da-wa-ta-o",
+      "label": "PERSON",
+      "role": "heading",
+      "quantity": "none",
+      "raw_line": ".6        ne-da-wa-ta-o  ,  o-ka  ,  e-ke-me-de  ,",
+      "entry_span": [
+        10,
+        50
+      ],
+      "entry_text": "ne-da-wa-ta-o  ,  o-ka  ,  e-ke-me-de  ,",
+      "entry_words": [
+        "ne-da-wa-ta-o",
+        "o-ka",
+        "e-ke-me-de"
+      ],
+      "target_index": 0,
+      "label_source_printed_pages": [
+        185,
+        188,
+        189
+      ],
+      "label_source_pdf_pages": [
+        224,
+        227,
+        228
+      ],
+      "label_rationale": "Source identifies the inflected personal name of the section commander (Nedwatas).",
+      "notes": "Section heading; exclude the ambiguous ma-ra-te-u in the following row."
+    }
+  ]
+}
