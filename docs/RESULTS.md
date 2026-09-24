@@ -98,6 +98,15 @@ their controls. So no Linear A language result exists.
 | Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; `-re`/`-ru` → `-ro` 12 pairs vs 3.1 (p = 0.0099, the floor of 100 null runs); Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
 | Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear B → Greek 20 of 20; Linear A → Hittite 20 of 20) but shuffled syllables give Hittite 20 of 20 too; artefact of *o*/*u* and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
 
+## Proto-Elamite (number systems, validated on proto-cuneiform)
+
+| Round | Method | Control (proto-cuneiform) | Proto-Elamite | Record |
+|---|---|---|---|---|
+| One | two-sign tablets solved for the N14/N01 ratio | 10 recovered (p = 0.001); 6 missed; gate failed | not run | [report](../experiments/proto-elamite/REPORT.md) |
+| Two | joint search, 3 latent systems | sexagesimal and capacity values exact; gate passed | N14 = 10 (11 tablets) and 6 (9 tablets) recovered blind | [report](../experiments/proto-elamite-joint/REPORT.md) |
+| Three | object signs by strict arithmetic label | 15 tablets labelled; gate failed | not run | [report](../experiments/proto-elamite-signs/REPORT.md) |
+| Four | object signs by held-out system label | barley on capacity tablets, p = 0.018 | grain signs M288/M036/M297 on 10 of 11 capacity vs 1 of 8 counting tablets, p = 0.0012; people/animal signs p = 0.55 | [report](../experiments/proto-elamite-signs-loo/REPORT.md) |
+
 ## Operational
 
 | Item | Status | Record |
