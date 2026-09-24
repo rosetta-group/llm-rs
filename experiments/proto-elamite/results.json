@@ -1,0 +1,65 @@
+{
+ "counts": {
+  "proto-cuneiform": {
+   "administrative": 7001,
+   "clean": 3710,
+   "usable": 174
+  },
+  "proto-elamite": {
+   "administrative": 1616,
+   "clean": 798,
+   "usable": 128
+  }
+ },
+ "control_N14_N01": {
+  "pair": "N14/N01",
+  "tablets": 31,
+  "support": {
+   "10": 10,
+   "9": 3,
+   "11": 2,
+   "15": 2,
+   "6": 2,
+   "7": 1
+  },
+  "top": 10,
+  "p_top": 0.000999000999000999,
+  "second": 9,
+  "p_second": 0.26073926073926074,
+  "null_max_mean": 2.173,
+  "examples": {
+   "10": [
+    "MS 2504",
+    "MS 3155",
+    "CUSAS 01, 181",
+    "ATU 5, pl. 013, W 6710,a",
+    "ATU 5, pl. 076, W 9579,du"
+   ],
+   "9": [
+    "CUSAS 31, 046",
+    "CUSAS 31, 022",
+    "ATU 5, pl. 082, W 9655,ac"
+   ],
+   "11": [
+    "W 20274,006",
+    "MSVO 4, 20"
+   ]
+  }
+ },
+ "control_subsample_size": 33,
+ "control_subsample_hits": 0,
+ "gate": false,
+ "control_other_pairs": [
+  {
+   "pair": "N01/N57",
+   "tablets": 13,
+   "support": {},
+   "top": null,
+   "p_top": 1.0,
+   "second": null,
+   "p_second": 1.0,
+   "null_max_mean": 0.854,
+   "examples": {}
+  }
+ ]
+}

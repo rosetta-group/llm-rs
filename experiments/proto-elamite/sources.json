@@ -1,0 +1,492 @@
+{
+ "retrieved": "2026-09-24",
+ "api": "https://cdli.earth/search?period=<Proto-Elamite|Uruk III|Uruk IV>&limit=100 (following Link rel=next)",
+ "license": "CDLI terms: re-use under common academic practice with credit to CDLI; images non-commercial",
+ "files": [
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-001.json",
+   "sha256": "2212ed0b6d3298fbb66afdb3af2dd501a23ce13ab08ea8ceaf45fac2222aa527",
+   "bytes": 450682
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-002.json",
+   "sha256": "908b65720272f6d2e668b4b6e95fb1bc2dcf98e70d09f3da44e104f78c3a654c",
+   "bytes": 307167
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-003.json",
+   "sha256": "c72b28e7576aec83b9bcc6487cf6d0297a671a37e0895634c6c37bd0220c54af",
+   "bytes": 265734
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-004.json",
+   "sha256": "2502c93d513c515f17a292f409571ea54f9b653cfc0a4394a90103fbf00db0a0",
+   "bytes": 283021
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-005.json",
+   "sha256": "e3d222e41580f7ab4b9ea335bd8b40b5ab7507f263709c4277ebd148d0174f34",
+   "bytes": 267081
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-006.json",
+   "sha256": "7e2a0820d125e04d8de8d0d7ef4f1307d5c6999e6978336217dd2f5e79bba104",
+   "bytes": 247201
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-007.json",
+   "sha256": "4eb4a7475a61263d7711f7a09116da332675baf7456a0460143b581cd500d780",
+   "bytes": 752986
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-008.json",
+   "sha256": "29ee29727fbc992bcd2e70b183e7893fffa258cca4ca904127d53e357fbf1f84",
+   "bytes": 1241390
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-009.json",
+   "sha256": "9afb8dd8045a0b370ff358dfe7cfc4aa1d77d9b43cd6a4711fd2b8adf02c8652",
+   "bytes": 1223626
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-010.json",
+   "sha256": "0d05c14d2b6d9774d489fdf99189cc064613f5c3708501fbe4f0a087faf27386",
+   "bytes": 1232696
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-011.json",
+   "sha256": "78e6e8122d88308f3fc05944c7d67f4d754b86605d0b29c3f0251ade2b62fc91",
+   "bytes": 1239490
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-012.json",
+   "sha256": "ca175b1d8794d6eccf672d671583656a94dea7d93c8839a929025c5b041cd9f9",
+   "bytes": 585925
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-013.json",
+   "sha256": "79ab4c50585048bc847118a3acb41dcf6290f57245dff54b16084cc5806ff4d1",
+   "bytes": 261716
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-014.json",
+   "sha256": "17ef9b03084375e9ce59f6f73ecdb6ba41b198999adcbc2d19b72f913ab4ed1b",
+   "bytes": 414345
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-015.json",
+   "sha256": "5d10b0dfe66d8592aa22b968b548a066315c5c1bfa3a6cd9886bbb5bd7e3002e",
+   "bytes": 506961
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-016.json",
+   "sha256": "3eecbe3881045fceafceef75f53ed3ddf00bd8cb63da577be5c85aec7bf7e2d4",
+   "bytes": 278466
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-017.json",
+   "sha256": "694abad76a7d2674234ea7f1be1b3028a709962eba9c72c71dca583013392ff7",
+   "bytes": 853392
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/proto-elamite/page-018.json",
+   "sha256": "e060333a0fad5c8e0de08740c606b33ed1a88375f588fa07956a739cbae947b1",
+   "bytes": 347498
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-001.json",
+   "sha256": "9b933b6cddd6536541b87a7f80935912fcfeb30365b7ce431c714164377b4b38",
+   "bytes": 806222
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-002.json",
+   "sha256": "0969d3793fd93eda848fd5c17a6a07231525a29771f3e2d86f6fb09d8d1e23b3",
+   "bytes": 1022548
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-003.json",
+   "sha256": "a4602a2af2e643a186f6f197401febcd465cc0ec44c14e83e855ffe5c9a1d8e8",
+   "bytes": 1599287
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-004.json",
+   "sha256": "a069ab14e96ab3c8e29345b38df74818bf39c84c68c138036d987d3e1f6f0f51",
+   "bytes": 1599013
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-005.json",
+   "sha256": "710b714eeff1398940cde256bc18a5e687e2b091a20deb4423a7103d70efe37c",
+   "bytes": 1417578
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-006.json",
+   "sha256": "606b3fd9b4ef5f7086b10b2cdf5f3b7204309e06123ac5aa1b9e09ce1d6e25b1",
+   "bytes": 1461027
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-007.json",
+   "sha256": "ce75a265acf712c1a9b0e85dcbfe6cf0063f070222d5e22ddc37f0470b47c820",
+   "bytes": 844357
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-008.json",
+   "sha256": "c07d8d43b3ee6e60a1b3a5c9a244b98029d6af68fbe6d38383beb556baedade0",
+   "bytes": 257918
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-009.json",
+   "sha256": "3b55407dca654c29711b948c7fe375c4ba1fba425cdef2ee888cb85d708c847e",
+   "bytes": 258968
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-010.json",
+   "sha256": "919cd21c0ac13328c0e3211e343b176e8de0bb36262f344236ab01fe4807639f",
+   "bytes": 283879
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-011.json",
+   "sha256": "5fe0ae33ea610e5566c52409bfd0b68aa17773de97f89ce30f43956051d10e62",
+   "bytes": 277250
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-012.json",
+   "sha256": "e2e0e1a76152e40851a9766fad6b00b888935d472c0953146985ea2c97ed2643",
+   "bytes": 882527
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-013.json",
+   "sha256": "1c0d8d4a4fde576271405b9a1d6f8b94725b2aa1a2de8dc9083ec159d99dc25d",
+   "bytes": 812436
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-014.json",
+   "sha256": "340a90e690b921e1fd9f9e767c12d3cebcf6601811779c64b2742d3830e358ad",
+   "bytes": 886441
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-015.json",
+   "sha256": "446c2336f8e22ab07fb97965b467d25519dfc663fb5a67c1b119e1c54be9df10",
+   "bytes": 1411307
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-016.json",
+   "sha256": "8bb4e4e8f628c16ba5c3bd03fa902bd2f30bf81009beb819a535415e350958ff",
+   "bytes": 1442633
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-017.json",
+   "sha256": "d9cf8ec1a74579b23a20ba82fcd497c51b57a3af6df693633edf1dbacee2c6cc",
+   "bytes": 1257309
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-018.json",
+   "sha256": "0bfb8980bb81be2e02e1ebc86b5270fc5417ab4cf5a9c79c99da013ddf11d240",
+   "bytes": 1203591
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-019.json",
+   "sha256": "99235e7770e24e3fe94e9bf7db0bdd0a563032de393a5f6202b9f06e2ba41a1d",
+   "bytes": 971481
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-020.json",
+   "sha256": "3813ea001f72a47553fce10e014f1f26ac9d18451b383eeb57433800d31b1862",
+   "bytes": 960010
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-021.json",
+   "sha256": "14485c266e59d7f7db8dd13bbfe661607267defdea8301290a17606d9edbc611",
+   "bytes": 727969
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-022.json",
+   "sha256": "b608fbeb48e41b75cb94df3c178d546e3fa97a995217d8799c11f1de26c2a0a9",
+   "bytes": 995365
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-023.json",
+   "sha256": "6bba296b86fd2d4eb1371c82f05fff04977092eb2d2876f2e78e92b437efe857",
+   "bytes": 1435721
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-024.json",
+   "sha256": "a51607e4b1f4498c716f4bb6c221f3766ef49024feedbd7801295cdf4de1a96e",
+   "bytes": 1442712
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-025.json",
+   "sha256": "e5d70ee511e0142164f5839f981c3aaede0e9c071c8911f153b937875dcc09c7",
+   "bytes": 1086275
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-026.json",
+   "sha256": "7928961d34c1367ee03f7d635e85e7a041cb5b3004d5aee4b5b496b4054490ae",
+   "bytes": 784245
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-027.json",
+   "sha256": "d0bbd6fe411132e726b600aab70d0c132d1859587eba66199c576fb66b650d1d",
+   "bytes": 1289674
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-028.json",
+   "sha256": "540ec4eb6d5890eef7fdf9e4e7138d699a34929d9b86956a10b8550d0f011f6d",
+   "bytes": 1497395
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-029.json",
+   "sha256": "e07704690eab9cc6c0eafbce21648f63ec97222980f24bd6dd71fc0c8f3f43b6",
+   "bytes": 1517900
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-030.json",
+   "sha256": "dfe2e5f7fa562944aea068feb55f2f037bd8e7c8f31f9f7bc877d2b566846156",
+   "bytes": 940535
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-031.json",
+   "sha256": "d16339e09b1c691bff40d39eaeb979a8bc004aaf6c05b2417fb4a9deeeccb5ab",
+   "bytes": 1159043
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-032.json",
+   "sha256": "c78b4d546fcd02b5f416d4b41775aa9a7403e66f82cdc6842ce41074b795cdaa",
+   "bytes": 1230781
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-033.json",
+   "sha256": "4ab085437066cdc6add80b775e2b35e84753b05948b241c0d068e3a282aa0294",
+   "bytes": 646660
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-034.json",
+   "sha256": "bf203600a5d89d9f0b3e5ef90024a86578013e056c28a7d290cd6076233385a6",
+   "bytes": 578043
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-035.json",
+   "sha256": "646a32a6c6ed45c49ef46668babdc5f7502bdfc2bd1fb27e377f45b365d26c72",
+   "bytes": 369184
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-036.json",
+   "sha256": "dd5d1474fdabcdfd40fdfd80eedbd0244fd47cad43248c21218c7d24ae0682a6",
+   "bytes": 309576
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-037.json",
+   "sha256": "7d87a5a4aa02de9841843d9ddbb58da7113442a76e4d97e0407ffda8c8be1790",
+   "bytes": 346769
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-038.json",
+   "sha256": "9700434bc283e9a48e7ab2f1f30bfd7f6629fd0d0a9b3f5eca40ba031eabb9ab",
+   "bytes": 301818
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-039.json",
+   "sha256": "19532d79ca9aa2e569e5505ccda0ef5792eaf0bf6c6c7095ca3385926baa7406",
+   "bytes": 292665
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-040.json",
+   "sha256": "9966e712a30423386979355fd33da99f48de6630fe3f3140b5c9b9ff51f78196",
+   "bytes": 379842
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-041.json",
+   "sha256": "f0f7b9364bac4cdce5c9076c264b3c6e5aa443d4e1300429f06fa2de7c01f1cf",
+   "bytes": 293493
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-042.json",
+   "sha256": "767cd84da6940a8ba07ecae5ee5ad2b299c8fb229b1fc2d3b9f5f62d86128e13",
+   "bytes": 220803
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-043.json",
+   "sha256": "5674cffdcc43ce22e6223cb8cb39ec8bc380f8bfea165d9988459e0e4225b0ac",
+   "bytes": 269487
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-044.json",
+   "sha256": "49d5df3067e0e79babcf7c7795bfccb14a9224e2d2a19410e91d897e616c74b5",
+   "bytes": 507956
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-045.json",
+   "sha256": "e66f872b711a6d2244c66c1aafcc9be3935ede5a06314bca144f0ced558b06d9",
+   "bytes": 1106351
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-046.json",
+   "sha256": "962d9e1e46f2a9f3106635367ae96c12effab7bff2dffba15f611cf1d6425c72",
+   "bytes": 609882
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-047.json",
+   "sha256": "ddb5649d758f4e44197bc7741469f1c3c6778a5b059b04f3c4eefe8fd54587ce",
+   "bytes": 195167
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-048.json",
+   "sha256": "558ca0bfcf95c17630c62deb41c34b924a8ab247f3cff3f38aee92c6a5ce369b",
+   "bytes": 231354
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-049.json",
+   "sha256": "b47a7cce5b7681d03621b39843e08c3c7d66298596fd80aff43afaaf1f0d40cd",
+   "bytes": 434892
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-050.json",
+   "sha256": "777d11d83af1afd9f23da3a1b2bc775235f6a78b530c1f3b3c398945e741cfd0",
+   "bytes": 316266
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-051.json",
+   "sha256": "a06b50b4d9ab1d49113575b9c8a7d276861d11e028f384793fe2b25eb7cb518b",
+   "bytes": 262556
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-052.json",
+   "sha256": "7158ec70b115ef4840c5dc14be2d2dd62815f986ea84e0aebaf500309717bd40",
+   "bytes": 909791
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-053.json",
+   "sha256": "bb9ab357ec87d3748d339519b39af5f103c47531e667c2e9be92bffee6679a50",
+   "bytes": 830840
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-054.json",
+   "sha256": "082bcc96dd41222d0c4e0556bffa06a824b5b3591a4e83c12f3a2849937be5aa",
+   "bytes": 727937
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-055.json",
+   "sha256": "b6e92dd50a8755dd8fac824afb7f3d3a5e45b5c9ba408002595b9a5fed4e669c",
+   "bytes": 791522
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-056.json",
+   "sha256": "e63ad373e1d4c9a1ec40990d1620f1d436e501393b1f651e9932582f355bf4b8",
+   "bytes": 241256
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-057.json",
+   "sha256": "c1df31cbce2c368b043a016950299481619f648c67d5fb1813f2ab4c000fd160",
+   "bytes": 347873
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-058.json",
+   "sha256": "665e9accf3b8fd6a9f19fa84daa83bac4e2567ab7b2fe4210cfff0cdf0caeff6",
+   "bytes": 205405
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-059.json",
+   "sha256": "c9e09bc33df61779ab2bf0e4529cf0979179ed7368f4e89e1932190ffa92892e",
+   "bytes": 208700
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iii/page-060.json",
+   "sha256": "6dcbf37f8a3e2624d4c5d12b6879b0f1cc4a27998d9b35eda49a18cf3998faef",
+   "bytes": 127495
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-001.json",
+   "sha256": "9cd0a5042b6a7b5381cca18abc016469275214a9c5bb92b2648abf15106a2148",
+   "bytes": 474817
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-002.json",
+   "sha256": "502ebdc437a7060fafa601881ec2044d2f0a35a960c7747122581d5f3296c33e",
+   "bytes": 330772
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-003.json",
+   "sha256": "ba76a0675e15971a133a3a25446a0784845752f16725166fa15db134cf5aeb60",
+   "bytes": 341462
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-004.json",
+   "sha256": "21f7a61175c9d9f8ce7b27bcd6c132119e1acefaa3418032d6113c11754d7726",
+   "bytes": 363305
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-005.json",
+   "sha256": "2104a8a61c392f76e94e134e4103067a8cc95cf303d5a49a1e7994367d1488a7",
+   "bytes": 357180
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-006.json",
+   "sha256": "bf44972a6a1e62bd781cbbd49cb0731f013b9fea202157277256fd3ae8557759",
+   "bytes": 357375
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-007.json",
+   "sha256": "71a26397a36db45239f032c02491eae1e3ca98bd202b43a181c4a3b63d7f73ab",
+   "bytes": 345769
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-008.json",
+   "sha256": "9fe498c9033303659f99f0d841ee7fa77b5ab25cce6dbfc785650d06e04897b9",
+   "bytes": 304882
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-009.json",
+   "sha256": "821b5e6fc25b144de69a5e48dbc8fa9590b500275ab2282105ac5255a46b018b",
+   "bytes": 325856
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-010.json",
+   "sha256": "2e631aa4b84d11cdd188bea013cd1a8f3fa0bbb6d0ac3242ba36e0bfb847550d",
+   "bytes": 696089
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-011.json",
+   "sha256": "2ee88d698b1852e606099ed044b0b1efe3ca9c55adb41e50082d60539959459a",
+   "bytes": 878337
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-012.json",
+   "sha256": "185109dfa75583877d6ddf25ef9a4d348d5631202c618d6a995cc8c96c1cb356",
+   "bytes": 827613
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-013.json",
+   "sha256": "aefc8bdeddc57d28babe8c9981bb491d95d565f12bad8cf4170bc986c26c13c7",
+   "bytes": 885013
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-014.json",
+   "sha256": "2397842257d4cc58e98e7dae145c5637829b43af1c2ff164717cc85de0fadb26",
+   "bytes": 913377
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-015.json",
+   "sha256": "a40ef38ef86132f0e85f537ad27480dae25a37d57c13877cc3dc7537d6c8f640",
+   "bytes": 1309439
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-016.json",
+   "sha256": "68a07a0e131a512c6ac79e88570e7b0ae8efb780407b55b7c7b458066dde7158",
+   "bytes": 1464701
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-017.json",
+   "sha256": "0f532244665dd5f26e86e79526e2aef38da38093bfbcba067068ea67513ab1f0",
+   "bytes": 1470595
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-018.json",
+   "sha256": "b788efd7f8b3e626c9a57e892efd901396631023c18a9677b359c024f7c90e6f",
+   "bytes": 995371
+  },
+  {
+   "path": "artifacts/proto-elamite-sources/uruk-iv/page-019.json",
+   "sha256": "c6d0b0ae1f56b25f101330caa3162717fe3378f39de49f6ccc2ee29bbd53aaff",
+   "bytes": 271032
+  }
+ ]
+}
