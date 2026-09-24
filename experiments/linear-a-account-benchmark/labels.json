@@ -1,0 +1,93 @@
+[
+  {
+    "id": "PY-Jn845",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      55,
+      118,
+      356
+    ],
+    "annotation": "Eight separate allocations M1 N2, two per line; row aggregation is arithmetic only. .7 headcount and .10-.13 unallocated smiths excluded by commodity and section. Damage to the first name does not damage its quantity."
+  },
+  {
+    "id": "KN-As1517",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      118,
+      172
+    ],
+    "annotation": "Source describes the first roster and its total; missing VIR in individual entries is supplied by the roster context, explicitly discussed on p.172. Subsequent roster and reverse excluded. Edition reads to-sa; pinned DAMOS reads to-so. Numerical test does not adjudicate that lexical discrepancy."
+  },
+  {
+    "id": "KN-As1516-section1",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      118,
+      171
+    ],
+    "annotation": "p.171 distinguishes three sections and excludes first MAN in each section. Row .2 contains a gap; retained incompleteness. .4 contains restored [1]; .10 opens a broken stretch. Do not repair quantities to match 31."
+  },
+  {
+    "id": "KN-As1516-section2",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      118,
+      171
+    ],
+    "annotation": "First MAN of .12 excluded as directed by edition p.171; second retained. Restored [1] in .14 remains uncertain. Both sections belong to one object, never separate independent samples."
+  },
+  {
+    "id": "PY-Jn658",
+    "function": "sum_with_published_error",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      118,
+      355
+    ],
+    "annotation": "Sixteen surviving non-erased allocations; exclude erased seventeenth M5 in .10 and erased 5 in .11. Edition independently calls total an apparent error for L2 M20. Modern doubtful M/5 marks retained; mismatch is conditional on transcribed readings, not a strict certain-text result."
+  },
+  {
+    "id": "MY-Fo101",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      55,
+      118,
+      218
+    ],
+    "annotation": "Whole allocation section .1-.10; blanks .11-.14 do not sever published total .15. DAMOS damaged V1 cells and uncertain oil adjunct retained; The damaged V cell on .5 is marked uncertain independently of its certain S cell. Source edition restores quantities. No strict completeness assertion."
+  },
+  {
+    "id": "KN-Fp1",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      55,
+      118
+    ],
+    "annotation": "Included because p.118 explicitly names Fp1 as summation. DAMOS .6/.7 have right-edge breaks. Visible amounts need not exhaust the account. .7-.10 inherit OLE within the published oil account, not globally."
+  },
+  {
+    "id": "KN-F51",
+    "function": "sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      55,
+      118
+    ],
+    "annotation": "Recto aggregate and reverse itemization identified as summation on p.118. Retain uncertain Z3 and right-edge break. Modern HORD assignment retained. No cross-commodity conversion."
+  },
+  {
+    "id": "PY-Fr1184-negative",
+    "function": "specified_amount_not_item_sum",
+    "source": "Ventris & Chadwick 1956 (1959 reprint)",
+    "printed_pages": [
+      217
+    ],
+    "annotation": "Edition p.217 calls 18 oil units a repaid quantity and 38 the jars. to-so occurs, but supplies no itemized additive total. Book uses older designation Gn1184; DAMOS Fr1184. Never add containers to oil volume."
+  }
+]

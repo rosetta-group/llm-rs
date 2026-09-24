@@ -1,0 +1,24 @@
+{
+  "files": {
+    "experiments/linear-a-account-benchmark/PROTOCOL.md": "960446d49a2a5418a7e9df357631e836bad4daf5def933a5cb9a263d447de61d",
+    "experiments/linear-a-account-benchmark/inputs.json": "7a32e83f2c69fafd0515f24566be0267c97e47d5e7a4fd86ae923798c2f3effe",
+    "experiments/linear-a-account-benchmark/labels.json": "162cc8b7654589d2da7da8256c16692dd468d750502fabe705a82405469fada5",
+    "experiments/linear-a-account-benchmark/source-review.json": "3af8dd7e49fe29892879894cac1dc5a2f70ad65907be38309266cbb8265b6fb8",
+    "experiments/linear-a-account-benchmark/sources.json": "159bede659ccccc04ea86e9d11b91b3d0b3e9321cbec7d4e8d770772fbef9de4",
+    "experiments/linear_a_account_benchmark.py": "be8be1ca44128997d723be899592f399990c6e2b8d76d8d408af6445565b27fd",
+    "linear_a/account_benchmark.py": "3ce4287927f450d66d39b8e0035079953aa1249d18031176c32af9892b010e6e",
+    "linear_a/audit.py": "227030f4e5a9d62a598aace756b8bd67e540e930d0f8529d8137cf5602e41fad",
+    "tests/test_linear_a_account_benchmark.py": "fd2b3a8d4e946cc80035bbabefcad316e2400f4353dce3a204c0fed0453d92e2"
+  },
+  "sources": {
+    "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+    "artifacts/linear-a-sources/damos/items/1.json": "ebb576fd2ab452b8d19d52fd7c6c1f97d34bc624cb00822c25debaa7a430eee9",
+    "artifacts/linear-a-sources/damos/items/1352.json": "413c318cc2c02c0d8ced6809aa123f029305bc9867050a25e17229aa0999bcdc",
+    "artifacts/linear-a-sources/damos/items/1353.json": "39803bc6b4cd9dc1d0641b7d9f9955fb3cc3ab44f37e9ba360673224eeaa46ac",
+    "artifacts/linear-a-sources/damos/items/4626.json": "ca7c10cd360745cdb5fdc1fa98864b4de41803b97f82bcdde10e9b0c15cccf04",
+    "artifacts/linear-a-sources/damos/items/4690.json": "109b52586ee39632964a5089c7a4271303497f853a0e2cef5124c12d0ba40281",
+    "artifacts/linear-a-sources/damos/items/4698.json": "55c878584b26f1fe7f97a6fd93e681cd016e8ee2fd03448de0d28520c7389bbf",
+    "artifacts/linear-a-sources/damos/items/48.json": "c2f21373cc24fbad75fa4b8b7b0905e3ef064a35b6339ea31956183d9f223f22",
+    "artifacts/linear-a-sources/damos/items/5570.json": "5e9d668dfc5229f147957181168aa20fc60f90865c4e7699a39f3a4c4cda2a4c"
+  }
+}
