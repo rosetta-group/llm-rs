@@ -80,6 +80,11 @@ passes only 4/20 known-answer controls, so Linear A is not scored. These methods
 this does not prove the corpus has no further usable information. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
 ranks other undeciphered scripts; the next candidate is Rongorongo.
 
+A new [accounting-program pilot](experiments/linear-a-ledger/REPORT.md) tests a different
+route: infer functions from quantities and layout. The first parser yields seven eligible
+Knossos objects versus 33 Linear A objects, so the control is not evaluable and neither corpus
+is fitted. The next requirement is a source-checked benchmark with units and account boundaries.
+
 ## Documentation
 
 | Page | For |

@@ -1,0 +1,19 @@
+{
+  "status": "not_evaluable",
+  "preflight": {
+    "passed": false,
+    "reasons": [
+      "Fewer than 10 eligible control objects; even total-positive coverage cannot reach 10.",
+      "Cannot sample the target number of control objects without replacement."
+    ],
+    "control_eligible_objects": 7,
+    "target_eligible_objects": 33
+  },
+  "commit": "8793ad632752419ed4ef654e6413492cfc74de10",
+  "python": "3.12.9",
+  "numpy": "1.26.4",
+  "control": null,
+  "negative_control": null,
+  "linear_a": null,
+  "note": "No fitting, test predictions or null permutations were run. This is a coverage failure, not evidence against arithmetic structure."
+}

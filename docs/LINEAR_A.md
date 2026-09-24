@@ -111,6 +111,25 @@ new source adjudication or independent context-compatible attestations, not anot
 of these exposed words. The audit uses 208 strict A types and 2,984 B types of length >=3;
 its conservative filters also reduce coverage and power. No language is identified.
 
+## Accounting-program pilot, 2026-09-24
+
+The [new pilot](../experiments/linear-a-ledger/REPORT.md) uses anonymous words to choose among
+fixed arithmetic operations on commodity-specific integer quantities. It passes software
+checks on synthetic accounts, including prediction on unseen objects and target-number hiding.
+All 34 focused Linear A tests pass.
+
+The natural-data preflight is **not evaluable**: the strict parser yields seven eligible
+Knossos objects, below the minimum ten and insufficient for the 33-object A target. Neither
+natural corpus was fitted and no null simulations ran. This is a source-representation and
+coverage limit, not evidence against accounting structure. Units, fractions and damaged-name
+lines need a source-checked parser/benchmark before a meaningful control is possible.
+
+The older ku-ro check's 8/37 matches use integer parts only. HT 13's displayed 130=130 does
+not check the complete quantities because fraction signs were ignored. The new pilot treats
+fractions as barriers; it does not solve their values or claim a new word meaning. The
+[follow-on benchmark plan](../experiments/linear-a-ledger/BENCHMARK_PLAN.md) specifies the
+needed quantities, source-supported boundaries, units and evaluator function labels.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).

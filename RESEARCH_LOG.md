@@ -680,3 +680,40 @@ are not independent readings. This audit does not disprove individual loans or i
 language. Preserve the six pairs as unresolved observations. Reopen only with new source
 adjudication or independent dated/context-compatible evidence, not another split or ending
 sweep on exposed words. No paid compute was used and no further statistical rerun is scheduled.
+
+## 2026-09-24: accounting-program feasibility pilot completed
+
+**Question:** can anonymous words choose arithmetic operations that predict quantities on
+unseen physical tablets? Pattern name: the tablet as a program.
+
+**What was done**
+
+- Implemented commodity-specific integer vectors, sum-before, sum-after and balance-before
+  programs, opaque word IDs, five whole-object folds, independent-object support, conflicting
+  rule abstention and quantity-shuffled refitting controls. Target quantities are never read
+  by the prediction expressions. Units/fractions/damage are barriers, not silently ignored.
+- Archived source extraction, exclusion reasons, evaluator vocabulary and seven source-review
+  candidates. Coverage was inspected before the freeze; no arithmetic fits or success scores
+  were inspected. Frozen at `8793ad6`; the subsequent run returns not_evaluable.
+- Found 7 eligible KN control objects (34 rows), 30 other-B development objects (150 rows),
+  and 33 A objects (134 rows). The control cannot reach the minimum 10 objects or match the
+  33-object target without replacement. No real-data fitting or null simulations were run.
+- Passed all 34 focused Linear A tests, including ten new ledger tests. A 30-object synthetic
+  case recovers its hidden total marker and predicts all held-out-object totals; this is a
+  software check, not linguistic power evidence. Earlier repair, structural and correspondence
+  freezes remain valid. [Report](experiments/linear-a-ledger/REPORT.md).
+
+**Why:** the arithmetic route needs trustworthy quantities, boundaries and control cases before
+it can support a function claim. This is a parser/coverage limitation, not a failed test of
+arithmetic structure. The accounting approach remains open.
+
+**Correction to the motivating example:** HT 13's old 130=130 result compared integer parts;
+its source contains fractions in entries and the total. The old code explicitly documented
+that limitation, but my earlier recommendation did not explain it. It is not a verification
+of the full quantities. The old frozen result is preserved and the current summaries clarify it.
+
+**Next:** build the [source-checked account benchmark](experiments/linear-a-ledger/BENCHMARK_PLAN.md):
+separate uncertainty in names from quantities, cite unit conversions, justify account boundaries
+and label functions independently. A to-so/to-sa token alone is not a verified sum equation.
+Keep inspected objects in development; do not lower the gate or duplicate cases to force a pass.
+No language claim, paid compute or further real-data scoring was made in this pilot.

@@ -166,6 +166,11 @@ remains unusual (p = .0011). These failures do not prove an information limit.
 The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
 scripts, with Rongorongo next.
 
+A separate [accounting-program pilot](../experiments/linear-a-ledger/REPORT.md) now asks whether
+quantities and layout can ground word functions. Its conservative integer parser yields seven
+eligible Knossos objects versus 33 A objects; the preflight stops before fitting. Arithmetic
+inference remains open, pending a source-checked benchmark with units and account boundaries.
+
 ## What is known, in six sentences
 
 Voynich text has real structure, and prediction alone cannot say what kind. Word-length

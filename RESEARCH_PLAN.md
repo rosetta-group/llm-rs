@@ -19,6 +19,12 @@ shuffle control. One sign-only entry-ending model passes 4/20 known-answer sampl
 required, so Linear A is not scored. No language was identified or ruled out, and no general
 information limit was established. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
 
+**Accounting route opened (2026-09-24).** The tablet-as-a-program integer pilot is complete
+as a feasibility check: only seven eligible KN control objects versus 33 A objects under its
+strict parser. It returns not_evaluable before fitting or permutation tests; this does not
+retire arithmetic inference. Next: [source-checked account benchmark](experiments/linear-a-ledger/BENCHMARK_PLAN.md),
+with explicit units, row grouping and function labels. Keep inspected accounts in development.
+
 **Next candidate: Rongorongo.** Its language (Old Rapa Nui) is known and its corpus (about
 15,000 glyphs) is above the Naibbe recovery threshold, so a known-answer control can be built.
 Ranking of other scripts: [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md).
@@ -246,6 +252,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
 | Linear A track | Audited 2026-09-24: profile/threshold repairs, structural test and 12-pair source audit; specific correspondence lead fails strict onset control (p = .1605), archived; no language identified; `docs/LINEAR_A.md` |
+| Linear A accounting | Integer pilot built; coverage preflight not evaluable (7 KN objects vs 33 A); no real-data fit; source-checked account benchmark needed; `experiments/linear-a-ledger/REPORT.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

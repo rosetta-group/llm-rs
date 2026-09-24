@@ -285,6 +285,18 @@ inventories. In a clean worktree at `75128e8` with pinned sources attached, run
 9,999-draw comparisons. The released run refuses overwrite. `prepare` is extraction-only;
 its three outputs are already frozen, so regenerate only in a scratch copy and compare hashes.
 
+Accounting-program feasibility pilot (protocol commit `8793ad6`):
+
+```sh
+.venv/bin/python -m experiments.linear_a_ledger verify
+```
+
+In a clean worktree at `8793ad6` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_ledger run`. The released inputs reproduce the
+coverage preflight's not_evaluable outcome; no natural-data fits or permutations run. Source
+extraction (`prepare`) is separate from learning and refuses to overwrite its frozen outputs.
+The 10 new ledger tests run as part of the focused 34-test Linear A suite above.
+
 ## Sources and licences
 
 Pinned public texts and code, with revisions, hashes and licences, are listed in

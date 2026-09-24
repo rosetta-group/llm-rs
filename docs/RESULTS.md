@@ -98,6 +98,7 @@ interpretations. No supported Linear A language identification exists.
 | Trade-control repair | 999 null draws instead of an unreachable 50-draw test | 3/20 samples pass versus 18 required; gate failed | [audit](../experiments/linear-a-audit/REPORT.md) |
 | Structural test | final sign / sign-pair features predict numeric-entry position on unseen types | 4/20 size-matched Linear B samples pass; required 18; shuffled 0/20; Linear A not scored | [report](../experiments/linear-a-structure-v2/REPORT.md) |
 | Correspondence source audit | all 12 pairs checked; literal signs, intact readings; preserve stems and ending counts | 6 pairs survive; length null p = .0011, length + final onset p = .1605; required both, specific adaptation lead archived | [report](../experiments/linear-a-correspondence/REPORT.md) |
+| Accounting-program feasibility | opaque word-triggered integer sums/balances, whole-object folds | not evaluable: 7 eligible KN objects vs 33 A; no natural-data fits or permutations; 30-object synthetic recovery is only a software test | [report](../experiments/linear-a-ledger/REPORT.md) |
 
 ## Operational
 
