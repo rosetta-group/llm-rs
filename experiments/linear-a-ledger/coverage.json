@@ -1,0 +1,71 @@
+{
+  "linear_b_control": {
+    "records": 4228,
+    "eligible_objects": 7,
+    "eligible_rows": 34,
+    "numeric_lines": 321,
+    "barriers": {
+      "damage_or_unsupported_notation": 8193,
+      "measurement_unit": 120,
+      "blank": 66,
+      "commodity_without_quantity": 29,
+      "repeated_quantity_key": 50,
+      "text_heading": 157,
+      "multiple_unquantified_commodities": 32
+    },
+    "fold_objects": {
+      "0": 0,
+      "1": 4,
+      "2": 2,
+      "3": 1,
+      "4": 0
+    }
+  },
+  "linear_b_development": {
+    "records": 1704,
+    "eligible_objects": 30,
+    "eligible_rows": 150,
+    "numeric_lines": 418,
+    "barriers": {
+      "repeated_quantity_key": 121,
+      "damage_or_unsupported_notation": 4214,
+      "text_heading": 394,
+      "measurement_unit": 477,
+      "multiple_unquantified_commodities": 34,
+      "blank": 384,
+      "commodity_without_quantity": 38
+    },
+    "fold_objects": {
+      "0": 3,
+      "1": 13,
+      "2": 4,
+      "3": 3,
+      "4": 7
+    }
+  },
+  "linear_a": {
+    "records": 212,
+    "eligible_objects": 33,
+    "eligible_rows": 134,
+    "numeric_lines": 286,
+    "barriers": {
+      "damage_or_unsupported_notation": 599,
+      "text_heading": 36,
+      "fraction": 110,
+      "commodity_without_quantity": 13,
+      "multiple_unquantified_commodities": 3
+    },
+    "fold_objects": {
+      "0": 9,
+      "1": 7,
+      "2": 7,
+      "3": 6,
+      "4": 4
+    }
+  },
+  "linear_a_rejected_records": {
+    "not_tablet": 1395,
+    "source_conflict_or_uncertain_sign": 204,
+    "no_sign_layer": 73
+  }
+}

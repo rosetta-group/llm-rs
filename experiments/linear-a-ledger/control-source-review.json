@@ -1,0 +1,1337 @@
+[
+  {
+    "id": "1355",
+    "group": "KN:1519",
+    "source": {
+      "collectionid": 1,
+      "numbering": 13540,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN As(2) 1519 + fr. (101)",
+      "richheading": "KN As(2) 1519 + fr. (101)",
+      "heading_short": "KN As(2) 1519",
+      "tablenumber": 1519,
+      "tablenumber2": "1519",
+      "clsf_uncertain": null,
+      "series": "A",
+      "subseries": "s",
+      "set": "2",
+      "set_ordine": 20,
+      "vasewriter": null,
+      "content": ".0                          sup. mut.\n.1                          ]           VIR   1\n.2        i-we-ro                VIR   1\n.3        ne-o-to                VIR   1\n.4        qa-ti-ja                VIR   1\n.5        o-pi-si-jo             VIR   1\n.6        pa-ja-ro               VIR   1\n.7        ki-ke-ro               VIR   1\n.8        i-to                        VIR   1\n.9                    vac.\n.10                  vac.\n.11      ṃạ-ri-ne-wo  ,  wo-i-ko-de\n.12      to-so                   VIR   10\n.13                  vac.\n.14                  vac.\n.15                       inf. mut.",
+      "richcontent": ".0                          sup. mut.\n.1                          ]           VIR   1\n.2        i-we-ro                VIR   1\n.3        ne-o-to                VIR   1\n.4        qa-ti-ja                VIR   1\n.5        o-pi-si-jo             VIR   1\n.6        pa-ja-ro               VIR   1\n.7        ki-ke-ro               VIR   1\n.8        i-to                        VIR   1\n.9                    vac.\n.10                  vac.\n.11      ṃạ-ri-ne-wo  ,  wo-i-ko-de\n.12      to-so                   VIR   10\n.13                  vac.\n.14                  vac.\n.15                       inf. mut.",
+      "notes": null,
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "LM IIIA2 or LM IIIB",
+      "chronogroup": 120,
+      "old_notes20526": null,
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "J2",
+      "find_area": "KN, J2",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/1355",
+      "permalink2": "https://damos.hf.uio.no/just/1355",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "Hall of Colonnades",
+      "area_and_name": "J2 = Hall of Colonnades",
+      "find_place2": "J3?",
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2680\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951320\" target=\"_blank\">TM: 951320</a></li></ul>",
+      "trismegistos": "951320",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2022-06-12 17:17:55",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN As 1519.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/2680\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN As 1519.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "A",
+      "subseriessicura": "s",
+      "setsicuro": "2",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "101",
+      "newhand2": null,
+      "handpreptt3": "101",
+      "heading_nojoin": "KN As(2) 1519    (J2;101)",
+      "heading_join": "KN As(2) 1519 + fr. (J2;101)",
+      "heading_short_new": "KN As 1519(2)",
+      "hand_easy": "101",
+      "richcontent_prove": ".0                          sup. mut.\n.1                          ]           <small style=\"font-size: 75%\">VIR</small>   1\n.2        i-we-ro                <small style=\"font-size: 75%\">VIR</small>   1\n.3        ne-o-to                <small style=\"font-size: 75%\">VIR</small>   1\n.4        qa-ti-ja                <small style=\"font-size: 75%\">VIR</small>   1\n.5        o-pi-si-jo             <small style=\"font-size: 75%\">VIR</small>   1\n.6        pa-ja-ro               <small style=\"font-size: 75%\">VIR</small>   1\n.7        ki-ke-ro               <small style=\"font-size: 75%\">VIR</small>   1\n.8        i-to                        <small style=\"font-size: 75%\">VIR</small>   1\n.9                    vac.\n.10                  vac.\n.11      ṃạ-ri-ne-wo  ,  wo-i-ko-de\n.12      to-so                   <small style=\"font-size: 75%\">VIR</small>   10\n.13                  vac.\n.14                  vac.\n.15                       inf. mut.",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2680\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951320\" target=\"_blank\">TM: 951320</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2680\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "1355"
+    },
+    "parsed_lines": [
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 1
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 2
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W29c3a46138c550f4af79"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 3
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W7fb3e5d6259c7709b222"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 4
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W0318df0e186a016a004d"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 5
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wbf02be48c46a81fee656"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 6
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wc72b1bbed22850eb2a6b"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 7
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W67f9c33046d085fe8ac3"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 8
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W6b38a3c5fff9d421a880"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 9
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 10
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 11
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 12
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W4a6f724017846277077c"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 10
+        },
+        "line_number": 13
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 14
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 15
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 16
+      }
+    ]
+  },
+  {
+    "id": "1358",
+    "group": "KN:1522",
+    "source": {
+      "collectionid": 1,
+      "numbering": 13570,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN Uf 1522 (-)",
+      "richheading": "KN Uf 1522 (-)",
+      "heading_short": "KN Uf(-) 1522",
+      "tablenumber": 1522,
+      "tablenumber2": "1522",
+      "clsf_uncertain": null,
+      "series": "U",
+      "subseries": "f",
+      "set": "-",
+      "set_ordine": 1,
+      "vasewriter": null,
+      "content": ".1        te-ro-ri-jo            DA   1\n.2        pu2-to                  DA   1\n.3        me-ta-no-re        DA   1\n.4        mi-ni-so               DA   1\n.5        e-ke-da-mo         DA   1\n.6                    ]vest.[             ] 1̣\n.7                                      ]DA   1\n.8                 vac.\n.9                 vac.\n.10               vac.\n.11               vac.\n.12               vac.\n.13               vac.\n.14               vac.\n.15               vac.\n.16               vac.",
+      "richcontent": ".1        te-ro-ri-jo            DA   1\n.2        pu2-to                  DA   1\n.3        me-ta-no-re        DA   1\n.4        mi-ni-so               DA   1\n.5        e-ke-da-mo         DA   1\n.6                    ]vest.[             ] 1̣\n.7                                      ]DA   1\n.8                 vac.\n.9                 vac.\n.10               vac.\n.11               vac.\n.12               vac.\n.13               vac.\n.14               vac.\n.15               vac.\n.16               vac.",
+      "notes": null,
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "-",
+      "chronogroup": 130,
+      "old_notes20526": null,
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "J3",
+      "find_area": "KN, J3",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/1358",
+      "permalink2": "https://damos.hf.uio.no/just/1358",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "Corridor of Sword Tablets",
+      "area_and_name": "J3 = Corridor of Sword Tablets",
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/638\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/953800\" target=\"_blank\">TM: 953800</a></li></ul>",
+      "trismegistos": "953800",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2022-06-12 17:17:55",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN Uf 1522.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/638\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN Uf 1522.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "U",
+      "subseriessicura": "f",
+      "setsicuro": "-",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "-",
+      "newhand2": null,
+      "handpreptt3": "-",
+      "heading_nojoin": "KN Uf(-) 1522    (J3;-)",
+      "heading_join": "KN Uf(-) 1522 (J3;-)",
+      "heading_short_new": "KN Uf 1522(-)",
+      "hand_easy": "-",
+      "richcontent_prove": ".1        te-ro-ri-jo            DA   1\n.2        pu2-to                  DA   1\n.3        me-ta-no-re        DA   1\n.4        mi-ni-so               DA   1\n.5        e-ke-da-mo         DA   1\n.6                    ]vest.[             ] 1̣\n.7                                      ]DA   1\n.8                 vac.\n.9                 vac.\n.10               vac.\n.11               vac.\n.12               vac.\n.13               vac.\n.14               vac.\n.15               vac.\n.16               vac.",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/638\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/953800\" target=\"_blank\">TM: 953800</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/638\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "1358"
+    },
+    "parsed_lines": [
+      {
+        "kind": "row",
+        "words": [
+          "W95de1414c1aa15a3aa68"
+        ],
+        "quantity": {
+          "C41a556b383130a3c9afd": 1
+        },
+        "line_number": 1
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wdaa974412dd84a50edf1"
+        ],
+        "quantity": {
+          "C41a556b383130a3c9afd": 1
+        },
+        "line_number": 2
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W75bcddb0ed8d32eba850"
+        ],
+        "quantity": {
+          "C41a556b383130a3c9afd": 1
+        },
+        "line_number": 3
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W69415b7e1cb5dde4b463"
+        ],
+        "quantity": {
+          "C41a556b383130a3c9afd": 1
+        },
+        "line_number": 4
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W5975c197c3c0b9f4edcc"
+        ],
+        "quantity": {
+          "C41a556b383130a3c9afd": 1
+        },
+        "line_number": 5
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 6
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 7
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 8
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 9
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 10
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 11
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 12
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 13
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 14
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 15
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 16
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "group": "KN:40",
+    "source": {
+      "collectionid": 1,
+      "numbering": 360,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN As 40 + 5093 (101)",
+      "richheading": "KN As 40 + 5093 (101)",
+      "heading_short": "KN As(-) 40",
+      "tablenumber": 40,
+      "tablenumber2": "40",
+      "clsf_uncertain": null,
+      "series": "A",
+      "subseries": "s",
+      "set": "-",
+      "set_ordine": 1,
+      "vasewriter": null,
+      "content": ".0                sup. mut.\n.1        ọ-[                 ]  ,  ḳọ-ṇọ-so     VIR [\n.2        a-to   , /  da-*22-to                VIR   1\n.3        zo-do-so  , /   da-*22-to       VIR   1\n.4        a-sa-ro  , /    da-*22-to         VIR   1\n.5        ko-so  , /    da-*22-to            VIR   1\n.6        su-ke-re  , /   se-to-i-ja         VIR   1\n.7                vac.\n.8                vac.\n.9        ]ṭọ-so                 VIR     10\n.10                   ]     vac.",
+      "richcontent": ".0                sup. mut.\n.1        ọ-[                 ]  ,  ḳọ-ṇọ-so     VIR [\n.2        a-to   , /  da-*22-to                VIR   1\n.3        zo-do-so  , /   da-*22-to       VIR   1\n.4        a-sa-ro  , /    da-*22-to         VIR   1\n.5        ko-so  , /    da-*22-to            VIR   1\n.6        su-ke-re  , /   se-to-i-ja         VIR   1\n.7                vac.\n.8                vac.\n.9        ]ṭọ-so                 VIR     10\n.10                   ]     vac.",
+      "notes": "traces of erasure, including erased earlier ruling. Verso ruled but not inscribed",
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "LM IIIA2 or LM IIIB",
+      "chronogroup": 120,
+      "old_notes20526": "traces of erasure, including erased earlier ruling. Verso ruled but not inscribed",
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "B2",
+      "find_area": "KN, B2",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/37",
+      "permalink2": "https://damos.hf.uio.no/just/37",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "S.W. Pillar Room (= B3)",
+      "area_and_name": "B2 = S.W. Pillar Room (= B3)",
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2667\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951288\" target=\"_blank\">TM: 951288</a></li></ul>",
+      "trismegistos": "951288",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2026-05-20 14:39:51",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN As 40.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/2667\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN As 40.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "A",
+      "subseriessicura": "s",
+      "setsicuro": "-",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "101",
+      "newhand2": null,
+      "handpreptt3": "101",
+      "heading_nojoin": "KN As(-) 40    (B2;101)",
+      "heading_join": "KN As(-) 40 + 5093 (B2;101)",
+      "heading_short_new": "KN As 40(-)",
+      "hand_easy": "101",
+      "richcontent_prove": ".0                sup. mut.\n.1        ọ-[                 ]  ,  ḳọ-ṇọ-so     <small style=\"font-size: 75%\">VIR</small> [\n.2        a-to   , /  da-*22-to                <small style=\"font-size: 75%\">VIR</small>   1\n.3        zo-do-so  , /   da-*22-to       <small style=\"font-size: 75%\">VIR</small>   1\n.4        a-sa-ro  , /    da-*22-to         <small style=\"font-size: 75%\">VIR</small>   1\n.5        ko-so  , /    da-*22-to            <small style=\"font-size: 75%\">VIR</small>   1\n.6        su-ke-re  , /   se-to-i-ja         <small style=\"font-size: 75%\">VIR</small>   1\n.7                vac.\n.8                vac.\n.9        ]ṭọ-so                 <small style=\"font-size: 75%\">VIR</small>     10\n.10                   ]     vac.",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2667\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951288\" target=\"_blank\">TM: 951288</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2667\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "37"
+    },
+    "parsed_lines": [
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 1
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 2
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W36258e80bf340d1be566",
+          "W3dfcf8510870b1adc7cd"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 3
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W3dfcf8510870b1adc7cd",
+          "Wfe96b6a769581fdab3d3"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 4
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W74f37c78b7ff2adc9b75",
+          "W3dfcf8510870b1adc7cd"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 5
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W3dfcf8510870b1adc7cd",
+          "W0e1b835b3c603499103c"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 6
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wb8f77125d4a00185b136",
+          "W42369a8fe01a47b7e2ff"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 7
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 8
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 9
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 10
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 11
+      }
+    ]
+  },
+  {
+    "id": "476",
+    "group": "KN:520",
+    "source": {
+      "collectionid": 1,
+      "numbering": 4750,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN L 520 (-)",
+      "richheading": "KN L 520 (-)\n\n ",
+      "heading_short": "KN L-(-) 520",
+      "tablenumber": 520,
+      "tablenumber2": "520",
+      "clsf_uncertain": null,
+      "series": "L",
+      "subseries": "-",
+      "set": "-",
+      "set_ordine": 1,
+      "vasewriter": null,
+      "content": ".1          do-ti-ja  ,            LANA   18     pe-re-ke   *164   3\n.2        ka-ma                   LANA   12                         *164   2\n.3        sa-mu-ta-jo         LANA   24                         *164   4",
+      "richcontent": ".1          do-ti-ja  ,            LANA   18     pe-re-ke   *164   3\n.2        ka-ma                   LANA   12                         *164   2\n.3        sa-mu-ta-jo         LANA   24                         *164   4",
+      "notes": null,
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "-",
+      "chronogroup": 130,
+      "old_notes20526": null,
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "-",
+      "find_area": "-",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/476",
+      "permalink2": "https://damos.hf.uio.no/just/476",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": "plaster cast replica",
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": null,
+      "area_and_name": null,
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/4270\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"http://sirarthurevans.ashmus.ox.ac.uk/images/high/An1910_222_o.jpg\" target=\"_blank\">Image of plaster cast replica (Ashmolean museum)</a></li><li><a href=\"https://www.trismegistos.org/text/952935\" target=\"_blank\">TM: 952935</a></li></ul>",
+      "trismegistos": "952935",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": "http://sirarthurevans.ashmus.ox.ac.uk/images/ptm/An1910_222_o/An1910_222_o.ptm",
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2022-06-12 17:17:55",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN L- 520.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": "<ul><li><a href=\"http://sirarthurevans.ashmus.ox.ac.uk/images/high/An1910_222_o.jpg\" target=\"_blank\">image of plaster cast replica (Ashmolean museum)</a></li></ul>",
+      "liberlinks": "https://liber.cnr.it/tablet/view/4270\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN L- 520.jpg\" target=\"_blank\">Image from LiBER</a></li><li><a href=\"http://sirarthurevans.ashmus.ox.ac.uk/images/high/An1910_222_o.jpg\" target=\"_blank\">image of plaster cast replica (Ashmolean museum)</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "L",
+      "subseriessicura": "-",
+      "setsicuro": "-",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "-",
+      "newhand2": null,
+      "handpreptt3": "-",
+      "heading_nojoin": "KN L-(-) 520    (-;-)",
+      "heading_join": "KN L-(-) 520 (-;-)",
+      "heading_short_new": "KN L- 520(-)",
+      "hand_easy": "-",
+      "richcontent_prove": ".1          do-ti-ja  ,            <small style=\"font-size: 75%\">LANA</small>   18     pe-re-ke   *164   3\n.2        ka-ma                   <small style=\"font-size: 75%\">LANA</small>   12                         *164   2\n.3        sa-mu-ta-jo         <small style=\"font-size: 75%\">LANA</small>   24                         *164   4",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/4270\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"http://sirarthurevans.ashmus.ox.ac.uk/images/high/An1910_222_o.jpg\" target=\"_blank\">Image of plaster cast replica (Ashmolean museum)</a></li><li><a href=\"https://www.trismegistos.org/text/952935\" target=\"_blank\">TM: 952935</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/4270\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"http://sirarthurevans.ashmus.ox.ac.uk/images/high/An1910_222_o.jpg\" target=\"_blank\">Image of plaster cast replica (Ashmolean museum)</a></li></ul>",
+      "id": "476"
+    },
+    "parsed_lines": [
+      {
+        "kind": "row",
+        "words": [
+          "Wa09e979d77af4a9ac7a6",
+          "Weefde746eeeb4276bd2f"
+        ],
+        "quantity": {
+          "C7ff75e37a334e30d262a": 18,
+          "C8184e4e05d44c3938c02": 3
+        },
+        "line_number": 1
+      },
+      {
+        "kind": "row",
+        "words": [
+          "We0da88207408b48aff5c"
+        ],
+        "quantity": {
+          "C7ff75e37a334e30d262a": 12,
+          "C8184e4e05d44c3938c02": 2
+        },
+        "line_number": 2
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wea6eca0458bc8e3695fb"
+        ],
+        "quantity": {
+          "C7ff75e37a334e30d262a": 24,
+          "C8184e4e05d44c3938c02": 4
+        },
+        "line_number": 3
+      }
+    ]
+  },
+  {
+    "id": "731",
+    "group": "KN:798",
+    "source": {
+      "collectionid": 1,
+      "numbering": 7300,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN B 798 (107)",
+      "richheading": "KN B 798 (107)",
+      "heading_short": "KN B-(-) 798",
+      "tablenumber": 798,
+      "tablenumber2": "798",
+      "clsf_uncertain": null,
+      "series": "B",
+      "subseries": "-",
+      "set": "-",
+      "set_ordine": 1,
+      "vasewriter": null,
+      "content": "                sup. mut.\n.1                 ]-ḳọ    [\n.2        ḳẹ-sa-do-ro           ṾỊṚ[\n.3        a-ke-ta                    VIR[\n.4        ạ-na-qo-ta             VIR   6\n.5        ko-ma-we-ta         VIR   2\n.6        pe-qo-no                VIR   1\n.7        ra-wo-qo-no         VIR   1\n.8        ko-a-ta                    VIR   2\n.9        ku-ni-ta                  VIR   3\n.10      o-pi-te-u-ke-we   VIR   2\n.11      i-se-we-ri-jo         VIR   3",
+      "richcontent": "                sup. mut.\n.1                 ]-ḳọ    [\n.2        ḳẹ-sa-do-ro           ṾỊṚ[\n.3        a-ke-ta                    VIR[\n.4        ạ-na-qo-ta             VIR   6\n.5        ko-ma-we-ta         VIR   2\n.6        pe-qo-no                VIR   1\n.7        ra-wo-qo-no         VIR   1\n.8        ko-a-ta                    VIR   2\n.9        ku-ni-ta                  VIR   3\n.10      o-pi-te-u-ke-we   VIR   2\n.11      i-se-we-ri-jo         VIR   3",
+      "notes": null,
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "LM IIIA1 or LM IIIA2 or LM IIIB",
+      "chronogroup": 110,
+      "old_notes20526": null,
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "I3: NEP",
+      "find_area": "KN, I3: NEP",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/731",
+      "permalink2": "https://damos.hf.uio.no/just/731",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "N. Entrance Passage (NEP): Area of Bull Relief",
+      "area_and_name": "I3: NEP = N. Entrance Passage (NEP): Area of Bull Relief",
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2706\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951325\" target=\"_blank\">TM: 951325</a></li></ul>",
+      "trismegistos": "951325",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2022-06-12 17:17:55",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN B- 798.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/2706\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN B 798.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "B",
+      "subseriessicura": "-",
+      "setsicuro": "-",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "107",
+      "newhand2": null,
+      "handpreptt3": "107",
+      "heading_nojoin": "KN B-(-) 798    (I3: NEP;107)",
+      "heading_join": "KN B-(-) 798 (I3: NEP;107)",
+      "heading_short_new": "KN B- 798(-)",
+      "hand_easy": "107",
+      "richcontent_prove": "                sup. mut.\n.1                 ]-ḳọ    [\n.2        ḳẹ-sa-do-ro           ṾỊṚ[\n.3        a-ke-ta                    <small style=\"font-size: 75%\">VIR</small>[\n.4        ạ-na-qo-ta             <small style=\"font-size: 75%\">VIR</small>   6\n.5        ko-ma-we-ta         <small style=\"font-size: 75%\">VIR</small>   2\n.6        pe-qo-no                <small style=\"font-size: 75%\">VIR</small>   1\n.7        ra-wo-qo-no         <small style=\"font-size: 75%\">VIR</small>   1\n.8        ko-a-ta                    <small style=\"font-size: 75%\">VIR</small>   2\n.9        ku-ni-ta                  <small style=\"font-size: 75%\">VIR</small>   3\n.10      o-pi-te-u-ke-we   <small style=\"font-size: 75%\">VIR</small>   2\n.11      i-se-we-ri-jo         <small style=\"font-size: 75%\">VIR</small>   3",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2706\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951325\" target=\"_blank\">TM: 951325</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2706\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "731"
+    },
+    "parsed_lines": [
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 1
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 2
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 3
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 4
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 5
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W6dcd82a2a32cfbc5a819"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 2
+        },
+        "line_number": 6
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W1e4f0ad58a046b484615"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 7
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wc6f621f95ca0864e6948"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 1
+        },
+        "line_number": 8
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W6daff56d059c1fe362c2"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 2
+        },
+        "line_number": 9
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W4c72b562b24d9a3c34bd"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 3
+        },
+        "line_number": 10
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W5bc2a5889328cdbc5ebe"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 2
+        },
+        "line_number": 11
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W3d08f53044edac7c3a87"
+        ],
+        "quantity": {
+          "C03f65c205df3896bfb4c": 3
+        },
+        "line_number": 12
+      }
+    ]
+  },
+  {
+    "id": "833",
+    "group": "KN:902",
+    "source": {
+      "collectionid": 1,
+      "numbering": 8320,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN C 902 (201)",
+      "richheading": "KN C 902 (201)",
+      "heading_short": "KN C-(-) 902",
+      "tablenumber": 902,
+      "tablenumber2": "902",
+      "clsf_uncertain": null,
+      "series": "C",
+      "subseries": "-",
+      "set": "-",
+      "set_ordine": 1,
+      "vasewriter": null,
+      "content": ".0              sup. mut.\n.1        mi-ru-ro  /  si-pe-we                    BOS        ne   *170   12\n.2        o-du-ru-wi-jo  /  ko-re-te            BOS        ne   *170   12\n.3        wa-to  /  ḳọ-re-te     BOS   ne  *170   12  //  wa-to  /  da-nu-wo   'BOS'   *170   12\n.4        si-ra-ro  /  ko-re-te                       BOS   1   ne   *170   12\n.5        *56-ko-we  /  e-ra-ne                   BOS   1   ne   *170   12\n.6        o-du-ru-we  /  u-wo-qe-we        BOS   1   ne   *170   12\n.7        ri-jo-no  /  ko-re-te                       BOS   1   ne   *170   12\n.8        ru-ki-ti-jo                                         BOS   1   ne   *170   12\n.9        a-pa-ta-wa  /  ko-re-te                 BOS   1   ne   *170   12\n.10      ku-ta-i-to  /  ko-re-te                   BOS   1   ne   *170   12\n.11      re-ri-jo  /  e-re-ta                          BOS   1   ne   *170   12\n.12           ] wa-to  /  we-re-ẉẹ                BOS   1   ne   *170   12\n.13            inf. mut.\nv.",
+      "richcontent": ".0              sup. mut.\n.1        mi-ru-ro  /  si-pe-we                    BOS        ne   *170   12\n.2        o-du-ru-wi-jo  /  ko-re-te            BOS        ne   *170   12\n.3        wa-to  /  ḳọ-re-te     BOS   ne  *170   12  //  wa-to  /  da-nu-wo   'BOS'   *170   12\n.4        si-ra-ro  /  ko-re-te                       BOS   1   ne   *170   12\n.5        *56-ko-we  /  e-ra-ne                   BOS   1   ne   *170   12\n.6        o-du-ru-we  /  u-wo-qe-we        BOS   1   ne   *170   12\n.7        ri-jo-no  /  ko-re-te                       BOS   1   ne   *170   12\n.8        ru-ki-ti-jo                                         BOS   1   ne   *170   12\n.9        a-pa-ta-wa  /  ko-re-te                 BOS   1   ne   *170   12\n.10      ku-ta-i-to  /  ko-re-te                   BOS   1   ne   *170   12\n.11      re-ri-jo  /  e-re-ta                          BOS   1   ne   *170   12\n.12           ] wa-to  /  we-re-ẉẹ                BOS   1   ne   *170   12\n.13            inf. mut.\nv.",
+      "notes": "v.: ruled but uninscribed",
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "LM IIIA1 or LM IIIA2 or LM IIIB",
+      "chronogroup": 110,
+      "old_notes20526": "v.: ruled but uninscribed",
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "I3: NEP",
+      "find_area": "KN, I3: NEP",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/833",
+      "permalink2": "https://damos.hf.uio.no/just/833",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "N. Entrance Passage (NEP): Area of Bull Relief",
+      "area_and_name": "I3: NEP = N. Entrance Passage (NEP): Area of Bull Relief",
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2776\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951409\" target=\"_blank\">TM: 951409</a></li></ul>",
+      "trismegistos": "951409",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2026-05-20 14:39:51",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN C- 902.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/2776\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN C 902.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "C",
+      "subseriessicura": "-",
+      "setsicuro": "-",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "201",
+      "newhand2": null,
+      "handpreptt3": "201",
+      "heading_nojoin": "KN C-(-) 902    (I3: NEP;201)",
+      "heading_join": "KN C-(-) 902 (I3: NEP;201)",
+      "heading_short_new": "KN C- 902(-)",
+      "hand_easy": "201",
+      "richcontent_prove": ".0              sup. mut.\n.1        mi-ru-ro  /  si-pe-we                    <small style=\"font-size: 75%\">BOS</small>        ne   *170   12\n.2        o-du-ru-wi-jo  /  ko-re-te            <small style=\"font-size: 75%\">BOS</small>        ne   *170   12\n.3        wa-to  /  ḳọ-re-te     <small style=\"font-size: 75%\">BOS</small>   ne  *170   12  //  wa-to  /  da-nu-wo   '<small style=\"font-size: 75%\">BOS</small>'   *170   12\n.4        si-ra-ro  /  ko-re-te                       <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.5        *56-ko-we  /  e-ra-ne                   <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.6        o-du-ru-we  /  u-wo-qe-we        <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.7        ri-jo-no  /  ko-re-te                       <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.8        ru-ki-ti-jo                                         <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.9        a-pa-ta-wa  /  ko-re-te                 <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.10      ku-ta-i-to  /  ko-re-te                   <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.11      re-ri-jo  /  e-re-ta                          <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.12           ] wa-to  /  we-re-ẉẹ                <small style=\"font-size: 75%\">BOS</small>   1   ne   *170   12\n.13            inf. mut.\nv.",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2776\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951409\" target=\"_blank\">TM: 951409</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2776\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "833"
+    },
+    "parsed_lines": [
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 1
+      },
+      {
+        "kind": "barrier",
+        "reason": "multiple_unquantified_commodities",
+        "line_number": 2
+      },
+      {
+        "kind": "barrier",
+        "reason": "multiple_unquantified_commodities",
+        "line_number": 3
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 4
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W9a2f76b8a18784ba780a",
+          "Wcb58e4600bf0142cbe4a",
+          "Wd36290eff977aa32633c"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 5
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 6
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wcb58e4600bf0142cbe4a",
+          "Wfa2bb4cc545be9b42c65",
+          "W55066bc31da3bcdde88c"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 7
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W9a2f76b8a18784ba780a",
+          "Wcb58e4600bf0142cbe4a",
+          "We4c09297b747782d9966"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 8
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wcb58e4600bf0142cbe4a",
+          "W5823e8fe95f63eefac2a"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 9
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W875a90f245d77cc12418",
+          "W9a2f76b8a18784ba780a",
+          "Wcb58e4600bf0142cbe4a"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 10
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W9a2f76b8a18784ba780a",
+          "W88c80f878e4815bb8cfc",
+          "Wcb58e4600bf0142cbe4a"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 11
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W86e55cbf534557597c70",
+          "Wcb58e4600bf0142cbe4a",
+          "W521f571409656afe3931"
+        ],
+        "quantity": {
+          "C546e1dc9e3ce428e946e": 1,
+          "C6d9ea63a8e8bae6cf5a1": 12
+        },
+        "line_number": 12
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 13
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 14
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 15
+      }
+    ]
+  },
+  {
+    "id": "842",
+    "group": "KN:911",
+    "source": {
+      "collectionid": 1,
+      "numbering": 8410,
+      "lost": 0,
+      "themes": null,
+      "heading": "KN C(2) 911 (111)",
+      "richheading": "KN C<em>(2)</em> 911 (111)",
+      "heading_short": "KN C-(2) 911",
+      "tablenumber": 911,
+      "tablenumber2": "911",
+      "clsf_uncertain": null,
+      "series": "C",
+      "subseries": "-",
+      "set": "2",
+      "set_ordine": 20,
+      "vasewriter": null,
+      "content": ".1                 ma-mi-di-zo  /  pi-ri-to-jo                                      OVIS:f     40[\n.2        [•~•]-ro  ,  da-nu-wo                                                        OVIS:f     100[\n.3        po-ri-wo  , / su-ki-ri-ta-jo  ,  wo-we-u                         CAP:m    180\n.4        ja-ru  , / pa-ta-ti-jo  ,  do-e-ro  ,                                      CAP:f      230\n.5        a-du-po-to  , / qi-ko-we-e  ,  do-e-ro  ,                         CAP:f      90\n.6        qa-di-ja  , / po-ku-te-ro  ,  da-mo  ,  'do-e-ro'             CAP:f      70\n.7        da-[•~• / ]po-ku-ta                                                           CAP:f      130\n.8        ra-ẉạ-ṇị  , / po-ku-ta  ,  ra-ri-di-jo                                OVIS:m  190\n.9        o-mi-ri-so  , / ṭạ-so  ,  do-e-ro                                         OVIS:m  50\n.10      [•~•]-so /  a-pi-me-de-o  ,  po-ku-ta  'ra-ri-di-jo'    OVIS:f    140\n.11      ku-jo-[  /   ]ṭạ-so  ,  //  do-e-ro                                      OVIS:f    100\n.12      a-*56-da-ṛọ /   ka-ta-mi-j̣ọ  ,  ḍọ-ẹ-ṛọ                          OVIS:x[\n.13      a-ra-ko , / ra-ṛị-ḍị-jo  ,  ḍọ-ẹ-ṛọ                                     OVIS:m  100[\n.14                                  vac.\n.15                                  vac.\n.16                                  vac.",
+      "richcontent": ".1                 ma-mi-di-zo  /  pi-ri-to-jo                                      OVIS:f     40[\n.2        [•~•]-ro  ,  da-nu-wo                                                        OVIS:f     100[\n.3        po-ri-wo  , / su-ki-ri-ta-jo  ,  wo-we-u                         CAP:m    180\n.4        ja-ru  , / pa-ta-ti-jo  ,  do-e-ro  ,                                      CAP:f      230\n.5        a-du-po-to  , / qi-ko-we-e  ,  do-e-ro  ,                         CAP:f      90\n.6        qa-di-ja  , / po-ku-te-ro  ,  da-mo  ,  'do-e-ro'             CAP:f      70\n.7        da-[•~• / ]po-ku-ta                                                           CAP:f      130\n.8        ra-ẉạ-ṇị  , / po-ku-ta  ,  ra-ri-di-jo                                OVIS:m  190\n.9        o-mi-ri-so  , / ṭạ-so  ,  do-e-ro                                         OVIS:m  50\n.10      [•~•]-so /  a-pi-me-de-o  ,  po-ku-ta  'ra-ri-di-jo'    OVIS:<em>f</em>    140\n.11      ku-jo-[  /   ]ṭạ-so  ,  //  do-e-ro                                      OVIS:f    100\n.12      a-*56-da-ṛọ /   ka-ta-mi-j̣ọ  ,  ḍọ-ẹ-ṛọ                          OVIS:x[\n.13      a-ra-ko , / ra-ṛị-ḍị-jo  ,  ḍọ-ẹ-ṛọ                                     OVIS:m  100[\n.14                                  vac.\n.15                                  vac.\n.16                                  vac.",
+      "notes": "€MYKENAIKACORR<br>¥ KT6: Set change ¥",
+      "provenience": null,
+      "year": null,
+      "context": null,
+      "chronology1": "LM IIIA1 or LM IIIA2 or LM IIIB",
+      "chronogroup": 110,
+      "old_notes20526": "€MYKENAIKACORR<br>¥ KT6: Set change ¥",
+      "comment": null,
+      "location": "HM",
+      "inventory": null,
+      "area_code": "I3: NEP",
+      "find_area": "KN, I3: NEP",
+      "find_place": null,
+      "permalink1": "https://damos.hf.uio.no/842",
+      "permalink2": "https://damos.hf.uio.no/just/842",
+      "image_verso": null,
+      "image_latinf": null,
+      "image_notes": null,
+      "seal": null,
+      "seal2": null,
+      "seal_image": null,
+      "object": "tablet",
+      "material": "clay",
+      "theme": null,
+      "find_area_name": "N. Entrance Passage (NEP): Area of Bull Relief",
+      "area_and_name": "I3: NEP = N. Entrance Passage (NEP): Area of Bull Relief",
+      "find_place2": null,
+      "find_place3": null,
+      "previousItemNumber": null,
+      "previousItemNumber2": null,
+      "previousItemNumber3": null,
+      "image": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2779\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951440\" target=\"_blank\">TM: 951440</a></li></ul>",
+      "trismegistos": "951440",
+      "arachne": null,
+      "calibra": null,
+      "simili_join": null,
+      "event": null,
+      "image_RTIV": null,
+      "image_RTIV_verso": null,
+      "image_RTIV_latinf": null,
+      "checked": null,
+      "timestamp": "2026-05-20 14:39:51",
+      "image2": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN C- 911.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "ishort": "KN",
+      "image3": null,
+      "liberlinks": "https://liber.cnr.it/tablet/view/2779\" target=\"_blank\">Image at LiBER",
+      "image_preliber": "<ul><li><a href=\"https://liber.cnr.it/static/img/tablets/KN/KN C 911.jpg\" target=\"_blank\">Image from LiBER</a></li></ul>",
+      "sicurezza": null,
+      "newset": null,
+      "newser": null,
+      "newsub": null,
+      "unclass": null,
+      "newhand": null,
+      "unhand": null,
+      "seriessicura": "C",
+      "subseriessicura": "-",
+      "setsicuro": "2",
+      "check": null,
+      "newhead": null,
+      "hand_easy_old": "111",
+      "newhand2": null,
+      "handpreptt3": "111",
+      "heading_nojoin": "KN C-(2) 911    (I3: NEP;111)",
+      "heading_join": "KN C-(2) 911 (I3: NEP;111)",
+      "heading_short_new": "KN C- 911(2)",
+      "hand_easy": "111",
+      "richcontent_prove": ".1                 ma-mi-di-zo  /  pi-ri-to-jo                                      <small style=\"font-size: 75%\">OVIS</small>:f     40[\n.2        [•~•]-ro  ,  da-nu-wo                                                        <small style=\"font-size: 75%\">OVIS</small>:f     100[\n.3        po-ri-wo  , / su-ki-ri-ta-jo  ,  wo-we-u                         <small style=\"font-size: 75%\">CAP</small>:m    180\n.4        ja-ru  , / pa-ta-ti-jo  ,  do-e-ro  ,                                      <small style=\"font-size: 75%\">CAP</small>:f      230\n.5        a-du-po-to  , / qi-ko-we-e  ,  do-e-ro  ,                         <small style=\"font-size: 75%\">CAP</small>:f      90\n.6        qa-di-ja  , / po-ku-te-ro  ,  da-mo  ,  'do-e-ro'             <small style=\"font-size: 75%\">CAP</small>:f      70\n.7        da-[•~• / ]po-ku-ta                                                           <small style=\"font-size: 75%\">CAP</small>:f      130\n.8        ra-ẉạ-ṇị  , / po-ku-ta  ,  ra-ri-di-jo                                <small style=\"font-size: 75%\">OVIS</small>:m  190\n.9        o-mi-ri-so  , / ṭạ-so  ,  do-e-ro                                         <small style=\"font-size: 75%\">OVIS</small>:m  50\n.10      [•~•]-so /  a-pi-me-de-o  ,  po-ku-ta  'ra-ri-di-jo'    <small style=\"font-size: 75%\">OVIS</small>:<em>f</em>    140\n.11      ku-jo-[  /   ]ṭạ-so  ,  //  do-e-ro                                      <small style=\"font-size: 75%\">OVIS</small>:f    100\n.12      a-*56-da-ṛọ /   ka-ta-mi-j̣ọ  ,  ḍọ-ẹ-ṛọ                          <small style=\"font-size: 75%\">OVIS</small>:x[\n.13      a-ra-ko , / ra-ṛị-ḍị-jo  ,  ḍọ-ẹ-ṛọ                                     <small style=\"font-size: 75%\">OVIS</small>:m  100[\n.14                                  vac.\n.15                                  vac.\n.16                                  vac.",
+      "tprova": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2779\" target=\"_blank\">Image at LiBER</a></li><li><a href=\"https://www.trismegistos.org/text/951440\" target=\"_blank\">TM: 951440</a></li></ul>",
+      "imagebeforeTM": "<ul><li><a href=\"https://liber.cnr.it/tablet/view/2779\" target=\"_blank\">Image at LiBER</a></li></ul>",
+      "id": "842"
+    },
+    "parsed_lines": [
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 1
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 2
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W1c316966ad6cffb55a6e",
+          "We84c0360ef0af7ec8f04",
+          "Wef08d0f0bc0ee8fdcac6"
+        ],
+        "quantity": {
+          "C831b08ed090fd3e3dfef": 180
+        },
+        "line_number": 3
+      },
+      {
+        "kind": "row",
+        "words": [
+          "W3c7725515499e23574fc",
+          "Wfc93eb3ee65839c0db33",
+          "W8d45722a523800c4335a"
+        ],
+        "quantity": {
+          "C1e3364f9c2b15f61af4d": 230
+        },
+        "line_number": 4
+      },
+      {
+        "kind": "row",
+        "words": [
+          "Wd12efce00994c49f0b95",
+          "W3c7725515499e23574fc",
+          "Wf3e06e8ae5a1db9a3bba"
+        ],
+        "quantity": {
+          "C1e3364f9c2b15f61af4d": 90
+        },
+        "line_number": 5
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 6
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 7
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 8
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 9
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 10
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 11
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 12
+      },
+      {
+        "kind": "barrier",
+        "reason": "damage_or_unsupported_notation",
+        "line_number": 13
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 14
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 15
+      },
+      {
+        "kind": "barrier",
+        "reason": "blank",
+        "line_number": 16
+      }
+    ]
+  }
+]
