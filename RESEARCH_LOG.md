@@ -78,6 +78,14 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: context admission of rare pieces fails: ~1,000 admitted, 2–3% true, CER triples.**
+Declared before running. After the reparse, a new piece was admitted for rare tokens when its best
+letter saved at least 10 bits of context and choice cost. Result: 832–1,597 pieces admitted per
+text, only 18–33 true. Missing true units rose to 61–81. Mean CER went 1.79% → 6.24% at RESPACING
+17 and 3.30% → 9.99% at 9. Not adopted. With about 4,000 candidates × 23 letters, a 10-bit bar is
+passed by chance, and the prior rewards typical letters over correct ones. A retry would need a
+search-aware cost and a held-out check. [Report](experiments/length-scaling-v5/REPORT.md).
+
 **2026-09-24: pruning cleans the lexicon without much gain; heavy pairing doubles decoder error.**
 Development at 20,800 letters. Post-reparse pruning cut spurious pieces from 178–200 to 3–6 but
 moved mean CER only from 1.79% to 1.63%, below the declared 0.3-point bar, so it is not adopted.

@@ -1,0 +1,67 @@
+{
+  "mean": {
+    "17": {
+      "baseline": 0.017868589743589746,
+      "admission": 0.06243589743589744
+    },
+    "9": {
+      "baseline": 0.03298076923076923,
+      "admission": 0.09991987179487179
+    }
+  },
+  "adopted": false,
+  "table": {
+    "17": {
+      "historical": {
+        "baseline": 0.017740384615384616,
+        "admission": 0.05110576923076923,
+        "wer": 0.2908252853380158,
+        "admitted": 1061,
+        "admitted_true": 24,
+        "missing_true_units": 61
+      },
+      "modern": {
+        "baseline": 0.013076923076923076,
+        "admission": 0.04572115384615385,
+        "wer": 0.23086574654956085,
+        "admitted": 832,
+        "admitted_true": 28,
+        "missing_true_units": 61
+      },
+      "verse": {
+        "baseline": 0.02278846153846154,
+        "admission": 0.09048076923076923,
+        "wer": 0.4328805433479824,
+        "admitted": 1148,
+        "admitted_true": 18,
+        "missing_true_units": 66
+      }
+    },
+    "9": {
+      "historical": {
+        "baseline": 0.03355769230769231,
+        "admission": 0.10423076923076922,
+        "wer": 0.41725197541703246,
+        "admitted": 1484,
+        "admitted_true": 33,
+        "missing_true_units": 72
+      },
+      "modern": {
+        "baseline": 0.03177884615384615,
+        "admission": 0.0876923076923077,
+        "wer": 0.38996235884567126,
+        "admitted": 1350,
+        "admitted_true": 29,
+        "missing_true_units": 81
+      },
+      "verse": {
+        "baseline": 0.03360576923076923,
+        "admission": 0.10783653846153846,
+        "wer": 0.4756292449061127,
+        "admitted": 1597,
+        "admitted_true": 31,
+        "missing_true_units": 76
+      }
+    }
+  }
+}

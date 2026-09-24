@@ -45,6 +45,7 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 | Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |
 | Segmentation | frozen lexicon segmenter on exact letters, 24 fresh passages | WER 6.1% modern, 39.9% historical | [report](../experiments/segmentation/REPORT.md) |
 | Verse word model | exact letters, 4 fresh Villani + 4 VIT passages; paired baseline | Villani WER 28.37% → 27.35%; VIT 8.49% → 8.38%; misses 3-point transfer threshold; historical rubrics retained in error (2.24% of words) | [report and caveat](../experiments/word-segmentation-v2/REPORT.md) |
+| Context admission of rare pieces (dev) | 20,800 letters, RESPACING 17 and 9 | CER 1.79% → 6.24% and 3.30% → 9.99%; 832–1,597 admitted, 2–3% true: rejected | [report](../experiments/length-scaling-v5/REPORT.md) |
 | Post-reparse pruning (dev) | 20,800 letters, 3 dev texts | CER 1.79% → 1.63% (not adopted); spurious pieces 178–200 → 3–6, missing unchanged 33–38 | [report](../experiments/length-scaling-v4/REPORT.md) |
 | Decoder at RESPACING 9 (dev) | same texts, 75% of letters paired | mean CER 3.30% (vs 1.79% at 17); missing pieces 52–56 | same |
 | Word segmentation v4 (historical spelling) | dev, then fresh Sacchetti (4 passages); modern half invalid | dev prose 8.65% → 6.80%, verse 20.68% → 14.95%; Sacchetti 8.82% → 6.87% (−1.95, threshold 2): not promoted | [report](../experiments/word-segmentation-v4-fresh/REPORT.md) |
