@@ -1,0 +1,15 @@
+{
+  "branch": "codex/voynich-rejection",
+  "final_verification_pending": true,
+  "freeze_commit": "839bfad",
+  "freeze_sha256": "f3fb84abc64ed3ea7b3f62372d10589bae1739a7b7b77600f310f07330332c5a",
+  "legacy_decoder_stage_equivalence_test": "tests.test_rejection_transfer.IntegrityTests.test_exporting_key_does_not_change_legacy_decoder_stages",
+  "protocol_committed_before_challenge": true,
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "failed": 0,
+    "passed": 167,
+    "seconds": 12.818
+  },
+  "worktree": "/Users/giuseppe.castegnetti/code/gc/llm-rs-voynich-rejection"
+}
