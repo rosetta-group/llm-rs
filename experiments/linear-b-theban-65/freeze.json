@@ -1,0 +1,31 @@
+{
+  "files": {
+    "experiments/linear-b-theban-65/PROTOCOL.md": "c1a8643a18beb2de038f17d0e60f248cd531d2f4b525cc7eefe580dd16d2a7c1",
+    "experiments/linear-b-theban-65/cases.json": "c61f951019bcc33e7017b289aca519d331657fd6417c06764ad18c551995ea10",
+    "experiments/linear-b-theban-65/quantities.json": "92b9ef614ad1536131ef1492b62e59dbe45820e1e025d46b325230d708217586",
+    "experiments/linear-b-theban-65/sources.json": "eb2c8e82664d2b30ae5ff52aed3c16a9caa9266b74a52faa74999933ee5806af",
+    "experiments/linear_b_theban_65.py": "6edf4a3601f7198afcc43222d5d7d6b1d4f8aeec387f3eb14f27c98e4f6f73f5",
+    "linear_a/audit.py": "227030f4e5a9d62a598aace756b8bd67e540e930d0f8529d8137cf5602e41fad",
+    "linear_a/theban_65.py": "fee34538ec72719b3e3e976f3bf548308fab7c39f1444c58210b76048d880930",
+    "tests/test_linear_a_theban_65.py": "8ab83970b651e8c44c60d185b05ebb8a5a5b2a8ea66331ecbf9e94c940af1f7b"
+  },
+  "sources": {
+    "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+    "artifacts/linear-a-sources/damos/items/2.json": "53f1aac33adf1f94ac6a65e2715b820867b4cabc1023581037c39f8f6e233c6d",
+    "artifacts/linear-a-sources/damos/items/5012.json": "98a7bd2c9ddbcc901df966f15f1b8b4f74afa034d56c9dc44de95ad271ecf75a",
+    "artifacts/linear-a-sources/damos/items/5235.json": "5ba454234cae277b36c3a904b4402293476e4624f10fa9b30c4260b5e3e16c4a",
+    "artifacts/linear-a-sources/damos/items/5239.json": "5f00f2bba18490eeb91c2c0c2c18e81d34af8d0b8b002f71f538542d5d27e0f7",
+    "artifacts/linear-a-sources/damos/items/5240.json": "f2f096480ee0b552ec5ca734e56a2fe7a9c599c7f252d48c252be2120128ed76",
+    "artifacts/linear-a-sources/damos/items/5250.json": "8cbad44a43e5d7765ce2814aeb40c7814ca9d23b925bb19390b67a28f6baa575",
+    "artifacts/linear-a-sources/damos/items/5252.json": "d9a2f721d0c8e705aaa604d20a031e0ac7796163ccf7762841e1636a66126bf0",
+    "artifacts/linear-a-sources/damos/items/5258.json": "539fd2280f3d8ff3b646ac8bfaa173104e7208bf6f8879bf032bbd35c930c798",
+    "artifacts/linear-a-sources/damos/items/5261.json": "d0d2a364586bedf8148656b97f185b7a40f92f56dfd52a0ed97eb0a305b6c53d",
+    "artifacts/linear-a-sources/damos/items/5262.json": "85e5f63271c419edea3549bb39957cfc7f5942dadb6675a977a31b392e707ec9",
+    "artifacts/linear-a-sources/damos/items/5375.json": "d8f07282d822b7b4c17a0405127d82fd3e8a12961c138f9aa7fa51306e9d6db4",
+    "artifacts/linear-a-sources/damos/items/5409.json": "e17cc90d7edbeeeabafa1c72fa8d43bfddb622b3f4c929779fda8dc5be8b896f",
+    "artifacts/linear-a-sources/damos/items/5410.json": "ecf4fdf1db14604541030d638ebaf0cacb03e776ff191e6206d932737a1bacfb",
+    "artifacts/linear-a-sources/theban-65/james-2002.pdf": "bd2d3094b3e106ac73f698709f1c0f4e2ac06d12ff5b604be8ce5af96244c494",
+    "artifacts/linear-a-sources/theban-65/james-gredos.pdf": "ce5932b47f204c5722d628bbe9f82ff64a8e4778f82d6c17dda9068434b865c1",
+    "artifacts/linear-a-sources/theban-65/palaima-2003.pdf": "a8a98241e41b291fb12f172315e8d0e5a19e4203a48b54682c262bed58ed0fca"
+  }
+}
