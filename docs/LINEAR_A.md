@@ -1,10 +1,14 @@
-# Linear A: five rounds, a repair audit, and one structural test
+# Linear A: language tests, accounting, kinship and source audits
 
-This page summarises the Linear A track (branch `linear-a`, 2026-09-23). It does not contain a
-translation. It records whether word-matching methods can tell which language Linear A is, and
-why the tested methods cannot at present. A [repair audit](../experiments/linear-a-audit/REPORT.md)
-and [structural test](../experiments/linear-a-structure-v2/REPORT.md) followed on 2026-09-24.
-These methods are retired; the evidence does not establish a limit on all possible methods.
+**Stopped at the user's request, 2026-09-24.** The [final closeout](LINEAR_A_CLOSEOUT.md)
+records conclusions, verification and conditional reopening requirements. No further work is
+queued. Earlier “next” suggestions below and in experiment reports are historical, superseded
+by that decision. They do not authorize another search or experiment.
+
+This page preserves the chronology of the original `linear-a` rounds (2026-09-23) and
+`codex/linear-a-audit` follow-ups (2026-09-24). It contains no translation. Failed controls
+retire the tested methods; they do not establish a limit on all possible methods.
+
 Historical round records: [one](../experiments/linear-a/REPORT.md),
 [two](../experiments/linear-a-context/REPORT.md), [three](../experiments/linear-a-names/REPORT.md),
 [four](../experiments/linear-a-probes/REPORT.md), [five](../experiments/linear-a-tlhdig/REPORT.md).
@@ -232,9 +236,8 @@ argument binding unresolved. Four family cases describe unnamed children, two ha
 binding, and one permits a wider-lineage reading; zero directed edges were inferred.
 
 Sources and code were frozen at 095dbdc before scoring. All 66 focused tests and ten follow-up
-freezes pass. No Linear A scoring or Etruscan modification occurred. The next bounded source
-question is the Theban attached-u-jo versus *65/FAR comparison, requiring edition and quantity
-review; an ending match alone cannot resolve it.
+freezes pass. No Linear A scoring or Etruscan modification occurred. This led to the Theban
+attached-u-jo versus *65/FAR comparison below; an ending match alone cannot resolve it.
 
 
 ## Theban *65/FAR source audit, 2026-09-24
@@ -280,5 +283,6 @@ Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC 
 Linear B: DĀMOS, 5,932 documents (CC BY-NC-SA 4.0). Lexicons: Wiktionary via kaikki.org (CC BY-SA),
 LAMAN (CC BY-SA 4.0), Oracc (CC0). Running text: TLHdig Beta 0.3 (Zenodo 20328284, CC BY 4.0).
 Keftiu names: Peet 1927, *Essays in Aegean Archaeology* (public domain). Results derived from SigLA
-and DĀMOS carry CC BY-NC-SA 4.0. All sources sit in `artifacts/linear-a-sources/` (git-ignored) and
-are hashed in each round's `sources.json`.
+and DĀMOS carry CC BY-NC-SA 4.0. Locally archived sources sit in `artifacts/linear-a-sources/` (git-ignored) and
+are hashed in the relevant manifests/freezes. Web-only readings are identified in source notes;
+no local PDF or complete automatic restoration is claimed for those sources.

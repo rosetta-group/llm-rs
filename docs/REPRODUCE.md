@@ -404,3 +404,48 @@ sources attached; it refuses an existing output. The [report](../experiments/lin
 contains an in-memory comparison that reproduces the archive without modifying it. Original
 TOP surfaces and the AGS response were not obtained. Duhoux is web-only, with frozen manual
 notes rather than a locally hashed PDF. No semantic scoring or previous freeze changes occur.
+
+### Linear A closeout verification
+
+The [track is stopped](LINEAR_A_CLOSEOUT.md). These read-only checks validate the archived
+software and provenance; they do not run a new semantic experiment or overwrite results.
+Run from the repository root with the pinned local source snapshots attached.
+
+```sh
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+.venv/bin/python - <<'PY'
+import hashlib
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+rounds = (
+    'linear_a_audit', 'linear_a_structure_v2', 'linear_a_correspondence',
+    'linear_a_ledger', 'linear_a_account_benchmark', 'linear_a_kinship',
+    'linear_a_person_slots', 'linear_a_qi_tu_ne', 'linear_b_person_role',
+    'linear_b_relations', 'linear_b_theban_65',
+)
+for name in rounds:
+    subprocess.run([sys.executable, '-m', f'experiments.{name}', 'verify'], check=True)
+manifest = json.loads(Path('experiments/linear-b-theban-images/sources.json').read_text())
+for source in manifest['files']:
+    path = Path(source['path'])
+    actual = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual != source['sha256']:
+        raise ValueError(f'Source hash mismatch: {path}')
+print(f'{len(rounds)} follow-up freezes and {len(manifest["files"])} image-review sources verified')
+PY
+```
+
+Closing result: **74 focused tests, 11 follow-up freezes and eight image-review source hashes
+pass**. The earlier per-round test counts above describe those rounds, not the final suite.
+The image review has no new computational freeze, generated measurement or semantic labels.
+Its [report](../experiments/linear-b-theban-images/REPORT.md) and
+[unsent acquisition packet](../experiments/linear-b-theban-images/ACQUISITION.md) preserve the
+source-access limit. Original full-context target images and the full AGS reply were not obtained.
+
+A git checkout alone is insufficient: preserve the git-ignored corpus, scans and HTML snapshots
+at the manifest paths. Dynamic pages or unavailable scans may prevent byte-identical redownloads.
+Web-only literature has manual review notes, not a claimed local PDF. Existing drivers refuse
+overwrite; use the documented freeze checkout and pinned inputs for any authorized reproduction.

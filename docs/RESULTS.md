@@ -77,7 +77,10 @@ Development findings that shaped the rounds (development text only):
 | Letter-level unknown-word cost fixes much of it | development WER 15.27% → 8.65% prose, 28.49% → 20.68% verse, 6.89% → 5.61% modern | same |
 | Training-only verse words help held-out Petrarca | WER 28.49% → 14.04%, historical prose 15.27% → 14.92%, modern unchanged at 6.89%; weight 1 selected before fresh sources fetched | [word model](../experiments/word-segmentation-v2/REPORT.md) |
 
-## Linear A (original rounds and repair audit; summary in [LINEAR_A.md](LINEAR_A.md))
+## Linear A (stopped, 2026-09-24)
+
+The [closeout](LINEAR_A_CLOSEOUT.md) covers all follow-ups; [LINEAR_A.md](LINEAR_A.md) preserves
+the chronology. Work stopped at the user's request. No further search or experiment is queued.
 
 Each method had to find Greek in Linear B (DĀMOS Knossos) at Linear A's size before Linear A was
 run. Rounds one to three failed that control. Rounds four and five found no lead that survived

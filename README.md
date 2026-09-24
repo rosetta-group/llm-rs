@@ -4,7 +4,7 @@ Controlled experiments on whether computational methods can recover meaning from
 Voynich manuscript. The repository contains no translation. It contains a prediction track
 (closed), corpus statistics, three image studies (parked), an active cipher-recovery
 track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
-until grading, and a Linear A track (audited; tested methods retired) that applied the same methods to a second
+until grading, and a Linear A track (stopped on 2026-09-24; final audit archived) that applied the same methods to a second
 undeciphered script.
 
 **Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
@@ -19,7 +19,7 @@ undeciphered script.
 | Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
 | Can a solver break a Voynich-style cipher without its codebook? | Partly: about 94 letters in 100 on sealed 5,200-letter Dante passages; words about half wrong; pass mark not met | [round four](experiments/joint-recovery-v4/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
-| Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
+| Can these methods tell which language Linear A is? | No. Lexical tests cannot reliably find Greek even in Linear B at Linear A's size (696 readable word types); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 
 Latest sealed recovery results (Naibbe cipher, codebook-free):
 
@@ -65,64 +65,17 @@ Naibbe-class or name its language.
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 
-The [Linear A track](docs/LINEAR_A.md) (branch `linear-a`, 2026-09-23) reverses the Voynich
-problem: sign sounds are roughly known, the language is not. Five rounds tested lexicon
-matching, tablet position, name lists, seven targeted probes and grammar profiles. Every
-method was checked first on Linear B, which is Greek. The three lexical rounds found Greek in at
-most 10% of Linear B samples against a 90% gate. No round-four probe reached p < 0.007. Round
-five's Hittite profile match also appears for shuffled syllables. A
-[2026-09-24 audit](experiments/linear-a-audit/REPORT.md) repaired duplicate-sensitive profiles
-and unreachable Monte Carlo thresholds. A subsequent [source audit](experiments/linear-a-correspondence/REPORT.md)
-reduces the 12 exploratory `-re`/`-ru` → `-ro` pairs to six. These fail the stricter test
-preserving final onsets (p = 0.1605), so the specific adaptation lead is archived. Repaired profiles
-still classify shuffled Linear B as Greek. One [sign-only ending model](experiments/linear-a-structure-v2/REPORT.md)
-passes only 4/20 known-answer controls, so Linear A is not scored. These methods are retired;
-this does not prove the corpus has no further usable information. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
-ranks other undeciphered scripts; the next candidate is Rongorongo.
+The **Linear A work is stopped at the user's request (2026-09-24)**. The
+[final closeout](docs/LINEAR_A_CLOSEOUT.md) records the original five rounds, repaired tests,
+accounting and name-slot audits, son/daughter controls and the Theban image-access limit.
+The repairs fixed real defects, but no tested method supports a new Linear A translation,
+language identification or parentage edge. No general information limit was established.
 
-A new [accounting-program pilot](experiments/linear-a-ledger/REPORT.md) tests a different
-route: infer functions from quantities and layout. The first parser yields seven eligible
-Knossos objects versus 33 Linear A objects, so the control is not evaluable and neither corpus
-is fitted. A [source-checked development benchmark](experiments/linear-a-account-benchmark/REPORT.md)
-now supplies nine accounts on eight objects: two strict balances, six uncertain/incomplete
-accounts, and one dimension negative. A [parentage feasibility check](experiments/linear-a-kinship/REPORT.md)
-adds named and unnamed-relative controls; its two apparent Linear A word-pair hits contain
-non-name signs. Neither development result licenses a Linear A translation.
-
-A [source audit of HT85/117](experiments/linear-a-person-slots/REPORT.md) now records 43 rows
-on two tablets, separating 32 counted words from three counted logograms. The edition
-supports `te-ja-re` provisionally; the conflicting source reading remains preserved.
-Shared headers and entries offer an administrative-role lead, but no parentage formula was
-identified. That audit passed 49 focused tests; no Linear A meaning-recovery model was fitted.
-
-The [HT7 follow-up](experiments/linear-a-qi-tu-ne/REPORT.md) confirms `qi-tu-ne 1` in the
-photograph and edition, against its unnumbered headings on HT87/117. A person's name and
-an occupational/group label can both fit that contrast, so its meaning remains unresolved.
-
-The [known-language control](experiments/linear-b-person-role/REPORT.md) now tests 38 source-labelled
-Linear B cases on 19 tablets. Layout, quantity, order and repetition give only **37.4% balanced
-recall** at **39.4% coverage**. Identical feature signatures occur in both classes, limiting any
-deterministic rule using those features to **84.9%** on this curated sample, below the 90% gate.
-No Linear A was scored. That control passed 57 focused tests and nine follow-up freezes.
-
-
-The [relational follow-up](experiments/linear-b-relations/REPORT.md) adds 19 expressions on
-16 Linear B tablets and seven unresolved source cases. It adds three intact `i-*65` son
-expressions omitted by the earlier search; repeated-form recognition reaches **50% family recall**, but
-the primary exact-construction control abstains on all 19 cases for lack of independent
-support. Recognition and child/parent assignment remain separate: no family edges or Linear A
-meanings were inferred. All 66 focused tests and ten follow-up freezes pass.
-
-
-The [Theban *65/FAR audit](experiments/linear-b-theban-65/REPORT.md) retains son and commodity
-readings across 13 selected objects. It finds three discrepancies in a published quantity table;
-neither of the two selected incomplete accounts can adjudicate the readings. Original tablet
-surfaces remain the next evidence needed. No family edge or Linear A meaning is inferred;
-74 focused tests and 11 follow-up freezes pass.
-
-The [image search](experiments/linear-b-theban-images/REPORT.md) reached its stopping point:
-no full-context target images were obtained. Later scholarship qualifies Fq236's spacing
-argument. This lead is **parked pending the specified scans**; no further semantic test ran.
+The final source search obtained no full-context images of the four target Theban objects.
+The scan-request packet is archived and unsent; further searches and experiments are parked.
+Closing verification: 74 focused tests, 11 follow-up freezes and eight image-review source
+hashes. The [chronological summary](docs/LINEAR_A.md) and [results table](docs/RESULTS.md)
+retain the detailed evidence. This stop applies only to the Linear A work and its B controls.
 
 ## Documentation
 
@@ -130,7 +83,8 @@ argument. This lead is **parked pending the specified scans**; no further semant
 |---|---|
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
-| [docs/LINEAR_A.md](docs/LINEAR_A.md) | Linear A: five rounds, repairs and a structural test; no language identified |
+| [docs/LINEAR_A_CLOSEOUT.md](docs/LINEAR_A_CLOSEOUT.md) | Final Linear A handoff, conclusions, limits and stopping conditions |
+| [docs/LINEAR_A.md](docs/LINEAR_A.md) | Linear A: original rounds, repairs, accounting, kinship and Theban source audits |
 | [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
 | [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze, Linear B, entry word |

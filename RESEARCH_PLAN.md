@@ -7,27 +7,21 @@
 
 Updated: 2026-09-24
 
-**Linear A audited; tested methods retired (2026-09-24).** Five rounds on branch `linear-a` tested whether these
-methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
-control samples against a 90% gate; round five's Hittite profile match also holds for shuffled
-syllables. The repair audit on `codex/linear-a-audit` fixes duplicate-sensitive profiles and
-unreachable thresholds. The subsequent source audit reduces 12 re/ru → ro pairs to six;
-the test preserving final onsets fails (p = 0.1605), so that statistical adaptation lead is
-archived. The simpler length-conditioned test still passes (p = 0.0011); broader overlap
-and individual loans remain unresolved. Profiles still fail the
-shuffle control. One sign-only entry-ending model passes 4/20 known-answer samples versus 18
-required, so Linear A is not scored. No language was identified or ruled out, and no general
-information limit was established. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
+**Linear A stopped at the user's request (2026-09-24).** The repair audit, accounting
+benchmark, person-slot review, son/daughter controls and Theban source/image checks are complete.
+No new Linear A translation, language identification, parentage edge or gender assignment was
+established. No further experiment or source search is queued. The [final closeout](docs/LINEAR_A_CLOSEOUT.md)
+supersedes earlier “next” items in this track's historical plans and reports; frozen files stay intact.
 
-**Accounting route opened (2026-09-24).** The tablet-as-a-program integer pilot is complete
-as a feasibility check: only seven eligible KN control objects versus 33 A objects under its
-strict parser. It returns not_evaluable before fitting or permutation tests; this does not
-retire arithmetic inference. Next: [source-checked account benchmark](experiments/linear-a-ledger/BENCHMARK_PLAN.md),
-with explicit units, row grouping and function labels. Keep inspected accounts in development.
+The accounting pilot was not evaluable (7 eligible KN objects versus 33 A); its completed
+source-checked benchmark has 9 accounts, including 2 strict balances. Name/designation balanced recall
+was 37.4%, and the primary relational control abstained on all 19 cases. The Theban image lead
+is parked: the [scan-request packet](experiments/linear-b-theban-images/ACQUISITION.md) is unsent.
+Reopening requires an explicit user request and new evidence or a distinct falsifiable method.
+The failures do not establish a general information limit.
 
-**Next candidate: Rongorongo.** Its language (Old Rapa Nui) is known and its corpus (about
-15,000 glyphs) is above the Naibbe recovery threshold, so a known-answer control can be built.
-Ranking of other scripts: [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md).
+[Other-script scoping](docs/UNDECIPHERED.md) is historical context, not a next task scheduled
+by this closeout. Concurrent Etruscan and Voynich work is outside this stopping decision.
 
 **Latest scope change:** the user requested raw folio images and reproducible image
 descriptions. The [image archive and Pixel Layout v1](data/folios/README.md) provide

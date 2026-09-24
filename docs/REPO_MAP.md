@@ -8,6 +8,7 @@ Where things live and which files are frozen. Paths are relative to the reposito
 |---|---|
 | `README.md` | Entry point: what this is, headline results, where to go next |
 | `docs/` | Human-facing documentation (this folder) |
+| `docs/LINEAR_A_CLOSEOUT.md` | Final handoff for the stopped Linear A track; report index, limits and reopening conditions |
 | `RESEARCH_LOG.md` | Chronological research record; long, append-only, every experiment and its limits |
 | `RESEARCH_PLAN.md` | Research gates and status per work item |
 | `voynich/` | Library code: data preparation, models, decoders, evaluation |
@@ -87,8 +88,9 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round five | `joint_recovery_v5.py` (paired A/B/C segmenter arms) | round-four development | `joint-recovery-v5/` |
 | Word segmentation v3 | `word_segmentation_v3.py` (rubric-free extractor, diagnosis, unknown-word selection), `word_segmentation_v3_fresh.py` | `word-segmentation-v3/development.json` | `word-segmentation-v3-fresh/` (Compagni, ParTUT; transfer passed) |
 
-Linear A rounds have one driver and one record folder each. The Linear B control plays the role
-of the fresh evaluation.
+Linear A computational rounds have one driver and one record folder each. Linear B supplies
+known-language controls; the later manually curated source cases are development material,
+not independently blinded fresh evaluations. This track is stopped; historical plans are not a queue.
 
 | Round | Driver(s) | Record folder | Outcome |
 |---|---|---|---|
@@ -108,6 +110,8 @@ of the fresh evaluation.
 | Qi-tu-ne role contrast | `linear_a_qi_tu_ne.py` | `linear-a-qi-tu-ne/` (HT7 source inventory, 3 reviewed cases, rival assignments) | heading/count contrast confirmed; semantic class unresolved |
 | Name/designation control | `linear_b_person_role.py` | `linear-b-person-role/` (38 source cases, anonymous features, held-out predictions, 199 negatives) | curated development; failed 90% gate; no Linear A scoring |
 | Relational family-reference control | `linear_b_relations.py` | `linear-b-relations/` (19 scored fragments, 7 unresolved cases, 59 retrieval hits, 199 negatives) | form reuse partly transfers; primary coverage fails; no inferred edges |
+| Theban *65/FAR audit | `linear_b_theban_65.py` | `linear-b-theban-65/` (13 objects, conditional quantities, competing readings) | 3 conversion discrepancies; no eligible closed account or semantic scoring |
+| Theban image review | — (manual source review; no new freeze) | `linear-b-theban-images/` (`REPORT.md`, `sources.json`, unsent `ACQUISITION.md`) | full-context target images not obtained; parked |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
@@ -168,3 +172,8 @@ spellings. Each has its own committed freeze; neither is a semantic recovery mod
 `experiments/linear_b_theban_65.py` freezes and validates 13 selected source objects; its records
 are in `experiments/linear-b-theban-65/`. The source interpretation stays explicit and disputed;
 no classifier or Linear A scoring stage exists. Eight arithmetic/uncertainty tests accompany it.
+
+The final image-review record is manual: it pins eight local sources but adds no executable
+experiment. Additional PDFs and HTML snapshots live under `artifacts/linear-a-sources/` as
+listed by each follow-up manifest. Exact reproduction needs the pinned snapshots; not all
+material can be restored by fresh downloads. Web-only literature is explicitly identified.

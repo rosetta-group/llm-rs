@@ -890,3 +890,26 @@ from deciding the reading. The later literature narrows what the proposed check 
 **Decision:** park this image-dependent lead until full-context scans arrive. Do not rerun the
 same source searches or treat transcription whitespace as a photograph. No Linear A transfer,
 family edge or gender inference follows. No external request was sent.
+
+## 2026-09-24: Linear A final write-up and stop
+
+**What was done**
+
+- Added [the final closeout](docs/LINEAR_A_CLOSEOUT.md), covering all five original rounds,
+  the repair audit, accounting and person-slot work, son/daughter controls and Theban source
+  reviews. Documented both unreachable statistical tests, their repairs and the remaining failures.
+- Updated README, plan, overview, Linear A chronology, results, repository map, reproduction
+  instructions and other-script scoping. Corrected “700 words” to 696 readable word types and
+  removed claims that failed methods prove a universal corpus-size or information limit.
+- Marked earlier Linear A “next” items as superseded. Preserved the unsent scan-request packet,
+  explicit source-access limits and conditions for any separately requested reopening.
+- Passed all 74 focused tests, verified 11 follow-up freezes and all eight local image-review
+  source hashes. This closeout changes documentation only; code, frozen inputs and outputs stay
+  intact. No new model, source search, translation, parentage edge or gender label was produced.
+
+**Why:** the user requested a complete repository write-up and a stop. The handoff distinguishes
+completed work, failed gates and unresolved evidence without treating them as an active queue.
+
+**Decision:** stop the Linear A track and its associated Linear B follow-ups here. No further
+experiment or search is queued by this task. Concurrent Etruscan and Voynich work is outside
+this decision; historical experiment reports remain unchanged.

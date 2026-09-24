@@ -134,7 +134,7 @@ Remaining word error comes mostly from letter errors. A
 [language-ID control](../experiments/language-id/REPORT.md) encrypted five languages with
 Naibbe; the true language's prior fit best 5 of 5 times.
 
-## Track five: Linear A (audited; tested methods retired)
+## Track five: Linear A (stopped, 2026-09-24)
 
 Linear A is a Bronze Age Cretan script. Most sign sounds are roughly known from Linear B; the
 language is not. So the question became: do Linear A words match some known language more than
@@ -163,13 +163,23 @@ known-answer controls; Linear A is not scored. A subsequent [source audit](../ex
 retains six of the 12 correspondence pairs. Their specific final-vowel pattern fails the
 onset-conditioned null (p = .1605), so that adaptation lead is archived; simpler stem overlap
 remains unusual (p = .0011). These failures do not prove an information limit.
-The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
-scripts, with Rongorongo next.
+The [chronological summary](LINEAR_A.md) has the details. The [final closeout](LINEAR_A_CLOSEOUT.md)
+records the user's decision to stop; no further Linear A work is queued.
 
-A separate [accounting-program pilot](../experiments/linear-a-ledger/REPORT.md) now asks whether
-quantities and layout can ground word functions. Its conservative integer parser yields seven
-eligible Knossos objects versus 33 A objects; the preflight stops before fitting. Arithmetic
-inference remains open, pending a source-checked benchmark with units and account boundaries.
+The [accounting pilot](../experiments/linear-a-ledger/REPORT.md) was not evaluable: seven
+eligible Knossos objects versus 33 A objects. Its completed [development benchmark](../experiments/linear-a-account-benchmark/REPORT.md)
+contains nine accounts on eight objects, including two strict balances. Source audits of
+HT85/117 and `qi-tu-ne` establish graphic/counting roles without distinguishing personal names
+from categories. The [name/designation control](../experiments/linear-b-person-role/REPORT.md)
+reaches only 37.4% balanced recall; the [relational control](../experiments/linear-b-relations/REPORT.md)
+abstains on all 19 primary cases. No Linear A parentage or gender inference follows.
+
+The [Theban audit](../experiments/linear-b-theban-65/REPORT.md) preserves competing son and
+commodity readings, finds three published quantity-conversion discrepancies, and has no eligible
+closed account to decide between them. The [image search](../experiments/linear-b-theban-images/REPORT.md)
+obtained no full-context target images. That lead and its unsent scan-request packet are parked.
+The closing checks pass 74 focused tests, 11 follow-up freezes and eight source hashes; these
+verify software and provenance, not a decipherment. Other research tracks are outside this stop.
 
 ## What is known, in six sentences
 
