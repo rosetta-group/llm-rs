@@ -1,0 +1,60 @@
+{
+  "source": "historical",
+  "candidate": "prune",
+  "seed": 7000,
+  "row": {
+    "letters": 20800,
+    "candidate": "prune",
+    "tokens": 13638,
+    "paired_share": 0.5251503152954978,
+    "refined_cer": 0.01826923076923077,
+    "polished_cer": 0.016490384615384615,
+    "agreement": 0.9644376008212348,
+    "misparsed": {
+      "split->split": 266,
+      "whole->split": 181,
+      "split->whole": 38
+    },
+    "lexicon": {
+      "pieces": 299,
+      "true": 296,
+      "spurious": 3,
+      "missing": 38
+    },
+    "wer_v3": 0.2054433713784021,
+    "reparse_rounds": [
+      {
+        "changed_parses": 194,
+        "refine_cap_hit": false
+      },
+      {
+        "changed_parses": 17,
+        "refine_cap_hit": false
+      }
+    ],
+    "pruned_from": 496,
+    "pruned_to": 299,
+    "second_rounds": [
+      {
+        "changed_parses": 57,
+        "refine_cap_hit": false
+      },
+      {
+        "changed_parses": 0,
+        "refine_cap_hit": false
+      }
+    ],
+    "rerun_cap_hit": false,
+    "cap_hits": {
+      "first": false,
+      "second": false,
+      "repair": false,
+      "polish": false
+    },
+    "seconds": 5987.821744665969
+  },
+  "protocol_sha256": "7d654a10a3d431d2d07c9667140d3d3ed16bb390ca976bae1599231f22317276",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790237693.645602
+}

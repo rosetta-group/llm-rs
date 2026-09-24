@@ -78,6 +78,15 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: pruning cleans the lexicon without much gain; heavy pairing doubles decoder error.**
+Development at 20,800 letters. Post-reparse pruning cut spurious pieces from 178–200 to 3–6 but
+moved mean CER only from 1.79% to 1.63%, below the declared 0.3-point bar, so it is not adopted.
+The 33–38 missing true pieces are now the letter bottleneck. The unchanged reparse pipeline on
+RESPACING-9 ciphertext (75% of letters paired, the only Naibbe setting matching the Voynich
+near-duplicate rate) gives 3.30% CER and 25–37% WER, against 1.79% at RESPACING 17. Missing
+pieces rise to 52–56. Next: admit rare true pieces by context, and develop at RESPACING 9.
+[Report](experiments/length-scaling-v4/REPORT.md).
+
 **2026-09-24: fresh modern Italian source pinned: UD_Italian-PUD (1,000 sentences, 101,598 letters).**
 News and Wikipedia sentences translated into Italian for the CoNLL 2017 parallel treebank, CC BY-SA 3.0,
 pinned at a fixed commit. Audit: none of the 1,000 sentences appears verbatim in any split of ISDT,

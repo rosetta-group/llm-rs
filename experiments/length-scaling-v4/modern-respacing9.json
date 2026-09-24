@@ -1,0 +1,47 @@
+{
+  "source": "modern",
+  "candidate": "respacing9",
+  "seed": 7000,
+  "row": {
+    "letters": 20800,
+    "candidate": "respacing9",
+    "tokens": 11906,
+    "paired_share": 0.74701831009575,
+    "refined_cer": 0.03514423076923077,
+    "polished_cer": 0.03177884615384615,
+    "agreement": 0.9393583067360994,
+    "misparsed": {
+      "whole->split": 326,
+      "split->whole": 45,
+      "split->split": 351
+    },
+    "lexicon": {
+      "pieces": 554,
+      "true": 284,
+      "spurious": 270,
+      "missing": 55
+    },
+    "wer_v3": 0.2529485570890841,
+    "reparse_rounds": [
+      {
+        "changed_parses": 304,
+        "refine_cap_hit": false
+      },
+      {
+        "changed_parses": 27,
+        "refine_cap_hit": false
+      }
+    ],
+    "cap_hits": {
+      "first": false,
+      "second": false,
+      "repair": false,
+      "polish": false
+    },
+    "seconds": 5524.188073000056
+  },
+  "protocol_sha256": "7d654a10a3d431d2d07c9667140d3d3ed16bb390ca976bae1599231f22317276",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790237230.406015
+}
