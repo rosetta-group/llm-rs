@@ -1,0 +1,28 @@
+{
+  "files": {
+    "voynich/unknown_words.py": "98018d9ee348fb3491614c8b62e1d1ef56a11aeaa6d5dc68cb53751a49021e2e",
+    "voynich/unknown_words_v4.py": "0fecf6332ad6ab136377fa2072adeb94992fc4131911befc25ea2cbccecac81c",
+    "voynich/segmentation.py": "19b5105aa76c1e7d829ec3fd5bc9db2d10fb2a21746cafa81b53dff46ffa9a02",
+    "experiments/word_segmentation_v4.py": "a609ff1bcfcb326e3acfb41d5a34da1ba0828a48e4969d12587e67e7b8d93704",
+    "experiments/word_segmentation_v3.py": "40f27cd02a66bd7755a5763f856e74b30b4825aa5385c2195c26c6f210816f15",
+    "experiments/historical_sources.py": "53b3617ba0f3a5a117497e92e827f7b75fa2b675072347de772dd4be67256020",
+    "experiments/verse_sources.py": "02d06d63d1a6f2ad5987eaa37128257586ed8ea09e8b9e137ddc9d89db854497",
+    "experiments/word_segmentation_v4_fresh.py": "09bae970cc8af9f85ac281a5b1b48d887877819535e152102210584045fa9f41",
+    "experiments/word-segmentation-v4/PROTOCOL.md": "87c5bc01c8562ddf77381c40fe1c44cef2fc3f6fd915a212879167bd5d314641",
+    "experiments/word-segmentation-v4/development.json": "057187a2fed7140873de4abeaec569ba82554947bf4686f0adad0b9e94e78eb1",
+    "experiments/word-segmentation-v3/freeze.json": "1b7f69d562690b8cfccb1da1df5cc4ef789ddecb3e20359237a222c9ecdb63ab"
+  },
+  "selected": "mix",
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "historical_spelling_sha256": "01dc7ae92e59d2db8dc193f9ce867352947fae4e7ac2da9b98778b795daa73dd",
+  "lexicon_spelling_sha256": "40f59498e7e4a3ccea0a72f5ccf6f2925f0d41bf2a116c7894ef98271a6b6394",
+  "fresh_plan": {
+    "historical": "Franco Sacchetti, Il Trecentonovelle, Wikisource, novelle I-XL in numerical order",
+    "modern": "UD Italian ParTUT train sentences not released by round six",
+    "transfer_threshold": "historical pooled WER at least 2 points below v3; modern no more than 1 point worse"
+  },
+  "version": 1
+}
