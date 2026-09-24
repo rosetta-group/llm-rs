@@ -1,0 +1,15 @@
+{
+  "historical_paragraphs": 49,
+  "historical_letters": 113730,
+  "rubrics_removed": 39,
+  "rubric_samples": [
+    "Lo re Federigo di Cicilia è trafitto con una bella storia da ser Mazzeo speziale di Palermo.",
+    "Parcittadino da Linari vagliatore si fa uomo di corte, e va a vedere lo re Adoardo d’Inghilterra, il qual, lodandolo, ha da lui molte pugna, e poi, biasimandolo, riceve dono.",
+    "Messer Bernabò signore di Melano comanda a uno abate che lo chiarisca di quattro cose impossibili; di che uno mugnaio, vestitosi de’ panni dello abate, per lui le chiarisce in forma che rimane abate e l’abate rimane mugnaio.",
+    "Castruccio Interminelli, avendo un suo famiglio disfatto in uno muro il giglio dell’arma fiorentina, essendo per combattere, lo fa combattere con un fante che avea l’arma del giglio nel palvese, ed è morto.",
+    "Marchese Aldobrandino domanda al Basso della Penna qualche nuovo uccello da tenere in gabbia, il Basso fa fare una gabbia, ed entrovi è portato a lui."
+  ],
+  "first_paragraph": "di valoroso e gentile animo fu il re federigo di cicilia nel cui tempo fu uno speziale in palermo chiamato ser mazzeo il quale avea per consuetudine ogni anno al tempo de cederni con una sua zazzera p",
+  "modern_sentences": 1180,
+  "note": "Recorded before passage construction; no decoder output read."
+}

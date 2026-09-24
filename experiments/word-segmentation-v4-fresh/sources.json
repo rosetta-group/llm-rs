@@ -1,0 +1,402 @@
+{
+  "files": [
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/II",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-002.html",
+      "sha256": "a888258cb6c135b49ea54e1f7140d3c7b3d9257d4a24fe60de7e0c27fdc7f428",
+      "novella": 2,
+      "revision": 3703404,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, II",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/III",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-003.html",
+      "sha256": "6f2e854fc8b5004fc52e470b2144402d5758aa7ce60997bb82e254fa36a1c7bf",
+      "novella": 3,
+      "revision": 3703405,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, III",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/IV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-004.html",
+      "sha256": "169a763d3ae3cd8a146c7d80cc66a5199a86a9a57acf3b84e46bb96b5ec046c8",
+      "novella": 4,
+      "revision": 3703406,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, IV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/V",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-005.html",
+      "sha256": "2023960b799fca30f0b0befc476e24934a975eef8f818d6d0a7a8b2fcd9d638f",
+      "novella": 5,
+      "revision": 3703445,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, V",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/VI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-006.html",
+      "sha256": "fb927d92ad67623787661a972f84f4599ba5b014ee0400bba8dcbfd34927f95f",
+      "novella": 6,
+      "revision": 3703446,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, VI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/VII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-007.html",
+      "sha256": "d9b0278261dec65a38a4377c3e7e8c6e62629a9e3638848bc1a59a023b96c802",
+      "novella": 7,
+      "revision": 3703447,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, VII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/VIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-008.html",
+      "sha256": "44ec162c13e13c9391ed56cb6742c5ef4ab5a2f2374b0ffd92e69e78b4974ee6",
+      "novella": 8,
+      "revision": 3703448,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, VIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/IX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-009.html",
+      "sha256": "fe49c5d50ccadb9d9ebbb7bfe1d74c11147a0ba94b138bd702abb419be2c174f",
+      "novella": 9,
+      "revision": 3703407,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, IX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/X",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-010.html",
+      "sha256": "27be17a52a10f5b8167bdc4a87860ae54f6a5251ec6d50575b48ade6a5025d0d",
+      "novella": 10,
+      "revision": 3703449,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, X",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-011.html",
+      "sha256": "2743f5577ca649bf41fc97e7202b8d11798df015ad0bf436873f82651ed226c3",
+      "novella": 11,
+      "revision": 3703457,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-012.html",
+      "sha256": "f655d6b250907b7c938ae7e479705208b0f8ae00937aa8de12cf74e3ef6285e0",
+      "novella": 12,
+      "revision": 3703458,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-013.html",
+      "sha256": "cf2ce724e719cf5b48b0079c3890816a92596e9d01b44cc886c135da74127f03",
+      "novella": 13,
+      "revision": 3703459,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XIV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-014.html",
+      "sha256": "72480603623f3fdc2b187f185ccbe5aa3416943371b50a2cac71c064a07ff324",
+      "novella": 14,
+      "revision": 3703460,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XIV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-015.html",
+      "sha256": "48aeb07d64941e2e4990e1c1855fc01fd3ccbe0a20bf10dd44cadb2acd38e8fd",
+      "novella": 15,
+      "revision": 3703469,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XVI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-016.html",
+      "sha256": "0892a37cea66bb10c4a8aadd8137b5c838befb72a5d245a47a1e4a5e703c7371",
+      "novella": 16,
+      "revision": 3703470,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XVI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XVII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-017.html",
+      "sha256": "823fc9da8cf3f0b824f4bb765b65d7ce805862c518e72e9d30b501349fd703e6",
+      "novella": 17,
+      "revision": 3703471,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XVII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XVIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-018.html",
+      "sha256": "e3825d6d825905b71b5324bf8b1ffb3a7bc9cbc230c834fcf55623d3ea9cb523",
+      "novella": 18,
+      "revision": 3703472,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XVIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XIX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-019.html",
+      "sha256": "e70f56df23326a2324b09b4d07a9d2943aee9fe4c5fb071dd3c54c9fcf79b512",
+      "novella": 19,
+      "revision": 3703461,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XIX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-020.html",
+      "sha256": "e0cb83f468ce483a395588dc58c01d8f207284d288e692945d0e4f82ecd095d7",
+      "novella": 20,
+      "revision": 3703473,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-021.html",
+      "sha256": "73d3637be8f2ec324f238ec3e0a3a5868126eb0f5dfc92d15cee2e7676298485",
+      "novella": 21,
+      "revision": 3703474,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-022.html",
+      "sha256": "1ae6bffcab9430602c72108c46253ed96102a11a0410efe778c8bfc7b1848f7a",
+      "novella": 22,
+      "revision": 3703475,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-023.html",
+      "sha256": "c901d5132c8155fc70ce74eb12e6cd261c3f0740e78c7e613c2f2ad6a83fc555",
+      "novella": 23,
+      "revision": 3703476,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXIV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-024.html",
+      "sha256": "ec3707679941f896d964cecac2e445f39b434657f82df70268f25881c7b88c4b",
+      "novella": 24,
+      "revision": 3703477,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXIV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-025.html",
+      "sha256": "a1774860df345af9dbc120fadb98c428e52d084476d6d75cf8df07afc2ff4db5",
+      "novella": 25,
+      "revision": 3703480,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXVI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-026.html",
+      "sha256": "3b7211c19f72be8d77f813b784564ffa2ca6e4aac27d592d891050cce8e06927",
+      "novella": 26,
+      "revision": 3703481,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXVI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXVII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-027.html",
+      "sha256": "315ebffab707fd12cd60ea8add76db8b6daf7c03b7eddc5467eea4d432e491bc",
+      "novella": 27,
+      "revision": 3703482,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXVII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXVIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-028.html",
+      "sha256": "0d0734182b98b32bd8f8583115c8ec06ec8cb6148acd4a705ec9b0be9e3ed188",
+      "novella": 28,
+      "revision": 3703483,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXVIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXIX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-029.html",
+      "sha256": "68fe9766dd40d02ff514512ef985effa92c4b0e32e1e68c9dd281861f2b1a835",
+      "novella": 29,
+      "revision": 3703479,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXIX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-030.html",
+      "sha256": "0ac3d0a1684d219cd3f05d261ec43775ec9083786897bbef6fd61a6d65ea73ca",
+      "novella": 30,
+      "revision": 3703484,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-031.html",
+      "sha256": "bac884bbe5ec581059f7220c7f768f72dddaed2d0b26b1a48ff6f79c4eb5a776",
+      "novella": 31,
+      "revision": 3703485,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-032.html",
+      "sha256": "a2961602646948ef9a40da302d448febd23d1ffd3dac1942705615e7b69dcacf",
+      "novella": 32,
+      "revision": 3703486,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-033.html",
+      "sha256": "97f8f84a816408816daf0f11e9eef0b5eb0840b4ff072ddc742252cf67b32744",
+      "novella": 33,
+      "revision": 3703487,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXIV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-034.html",
+      "sha256": "fecbaf60c87c130e9d520dc69867d813f04930c3f1b591593d1c1fed7698fda4",
+      "novella": 34,
+      "revision": 3703488,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXIV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXV",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-035.html",
+      "sha256": "0fb6585f93ed41480e6a5de99f400722b5851b87f548344a71b85042db9fb7cd",
+      "novella": 35,
+      "revision": 3703490,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXV",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXVI",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-036.html",
+      "sha256": "44abaa5e04d5b47cd876f3d292cb4144c254f3dee7c4526a0d003f8defc5f52d",
+      "novella": 36,
+      "revision": 3703491,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXVI",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXVII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-037.html",
+      "sha256": "84a3371634df1cdccf6945fab714a2cbd894b6764d416e656ec7430a2846825c",
+      "novella": 37,
+      "revision": 3703492,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXVII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXVIII",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-038.html",
+      "sha256": "78a383ac0356db59ac6ae166668707539c2d8ac4f8cdf00eb6eacae5214aaa57",
+      "novella": 38,
+      "revision": 3703493,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXVIII",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XXXIX",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-039.html",
+      "sha256": "6bc949a8cd6bf3f351c0e39df48f01490ba50e7ffd040f2b62c46bd5078fdb16",
+      "novella": 39,
+      "revision": 3703489,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XXXIX",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    },
+    {
+      "url": "https://it.wikisource.org/wiki/Il_Trecentonovelle/XL",
+      "path": "artifacts/word-segmentation-v4-fresh/sources/sacchetti-040.html",
+      "sha256": "ae2e783a8c12e59da050f744efafd2b84b29cdd37b2e6b7aa87c046f69a7d28c",
+      "novella": 40,
+      "revision": 3703462,
+      "author": "Franco Sacchetti",
+      "work": "Il Trecentonovelle, XL",
+      "license": "Public-domain original; Wikisource transcription CC BY-SA."
+    }
+  ],
+  "missing_novelle": [
+    1
+  ],
+  "partut_train": {
+    "path": "artifacts/joint-recovery-v6/sources/it_partut-ud-train.conllu",
+    "sha256": "576ecef59bedbd740c6c8744af25726d5d279afac3555fa6a37c50ec7db1324d"
+  },
+  "attribution": "Franco Sacchetti; Wikisource contributors. ParTUT: Sanguinetti, Bosco and UD contributors (CC BY-NC-SA 4.0)."
+}
