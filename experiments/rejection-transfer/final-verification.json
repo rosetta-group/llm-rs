@@ -1,0 +1,32 @@
+{
+  "round": "rejection-transfer",
+  "freeze_commit": "839bfadc61e4c5b01d275f6b54a506a0744c23bf",
+  "freeze_sha256": "f3fb84abc64ed3ea7b3f62372d10589bae1739a7b7b77600f310f07330332c5a",
+  "challenge_sha256": "684fb7491362c51ad919cc79caafc0f2ca2c99528286bf51f77d5e0bef961aa8",
+  "freeze_committed_before_challenge": true,
+  "frozen_inputs_and_code_verified": true,
+  "archive_sha256": "5f2085c61ac9f4c497c15afd37ca725de9f9c738dbc06e79841254e9a143b653",
+  "results_sha256": "be7b766b68eadcf4800c6f087413c49caa0c538719c0e4000ff7e70372bd5e70",
+  "replay": {
+    "round": "rejection-transfer",
+    "released_inputs": 1,
+    "replayed_keys": 5,
+    "source_passages_reproduced": 2,
+    "challenge_generation_reproduces": true,
+    "transfer_reproduces": true,
+    "decisions_reproduce": true,
+    "true_language_cer_reproduces": true,
+    "unused_answers_opened": false
+  },
+  "source_sentences_checked": 109,
+  "source_overlap_check": "normalized exact plus 8-word overlap against frozen exclusions and retained source sentences",
+  "unused_answers_opened": false,
+  "voynich_used": false,
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "passed": 169,
+    "failed": 0,
+    "seconds": 12.222
+  },
+  "verifier_sha256": "2f3661fbd01761c2fd645169efe5e1b96c1652b2df8dc01931ad599a523d606e"
+}

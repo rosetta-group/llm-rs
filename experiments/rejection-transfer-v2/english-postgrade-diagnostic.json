@@ -1,0 +1,22 @@
+{
+  "gate_changed": false,
+  "post_grading_diagnostic": true,
+  "rows": [
+    {
+      "decode_penalty": 0.35408814291585644,
+      "decoded_excess": 0.5843378748666015,
+      "id": "ac509f9bcb4669d89733",
+      "language": "english",
+      "plaintext_excess": 0.23024973195074505,
+      "role": "fit"
+    },
+    {
+      "decode_penalty": 0.5135011701171974,
+      "decoded_excess": 0.3736994392212898,
+      "id": "ac509f9bcb4669d89733",
+      "language": "english",
+      "plaintext_excess": -0.13980173089590764,
+      "role": "transfer"
+    }
+  ]
+}

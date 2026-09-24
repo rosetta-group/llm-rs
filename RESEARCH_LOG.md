@@ -54,6 +54,28 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-25: rejection and fixed-key transfer screen stopped inconclusively.**
+Both freezes were committed before their challenges. The first attempt hit three
+wrong-prior refinement caps on its English positive. A fresh resource-repair round
+excluded those graded source IDs, retained thresholds and priors, and increased the
+refinement allowance from 300 to 1,200 seconds with two Numba threads per worker.
+It completed three of ten blocks: genuine ciphers accepted 2/3; shuffled and absent
+language controls rejected 3/3 each; copy/mutate rejected 2/3, with the third
+inconclusive because English and German refinements hit their caps. The true language
+won fit and transfer on all three positives. Transfer CER: English 6.91%, Italian
+5.85%, Latin 9.37%. English failed only the fixed 0.50 fit ceiling (actual 0.584).
+Forty-five fits used 8.884 worker-hours. This is a cap stop, not a statistical pass or
+aggregate-budget exhaustion. Best-ranked copying keys covered only 54–60% of transfer
+tokens, motivating a stronger control. Eight conclusive negative decisions share
+three keys; they are not eight independent replications. The remaining seven blocks
+were not run or released. No Voynich text was used. [Report](experiments/rejection-transfer-v2/REPORT.md).
+
+The user then authorized three follow-ups: decision calibration, frequency-preserving
+copying controls and a cheaper refiner. Their [development protocol](experiments/rejection-followups/PROTOCOL.md)
+uses released cases only and retains the manuscript gate. Earlier suggestions to
+continue unconstrained Naibbe tuning are superseded by this bounded control work.
+
+
 **2026-09-23: Linear A track closed after five rounds; no language identified.**
 Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
 method had to find Greek in Linear B (DĀMOS, 5,932 documents) at Linear A's size first

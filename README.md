@@ -19,11 +19,11 @@ The full Voynich account (methods, sealed results, corrections, mechanism checks
 | Is Voynich text predictable? | Yes, but shuffled and synthetic controls are predictable to the same degree; prediction cannot detect meaning | [prediction report](experiments/report-completed/REPORT.md) |
 | Is it a simple cipher of a European language? | Not with its word spaces kept: adjacent word lengths cluster in Voynich and anti-cluster in Romance languages | [corpus statistics](experiments/language-comparison/REPORT.md) |
 | Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
-| Can a solver break a Voynich-style cipher without its codebook? | Partly: about 94 letters in 100 on sealed 5,200-letter Dante passages; words about half wrong; pass mark not met | [round four](experiments/joint-recovery-v4/REPORT.md) |
+| Can a solver break a Voynich-style cipher without its codebook? | Partly: 1.83% character error and 26.8% word error on four sealed historical passages of about 20,800 letters; pass mark not met | [round six](experiments/joint-recovery-v6/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 | Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 
-Latest sealed recovery results (Naibbe cipher, codebook-free):
+Earlier short-passage recovery results (Naibbe cipher, codebook-free; round six below):
 
 | Text | Round four | Round three | Round two | Round one |
 |---|---:|---:|---:|---:|
@@ -69,6 +69,15 @@ pipeline does not simply assume Italian. It encrypted Latin, Old French, German,
 Italian with Naibbe and decoded each under all five priors. The true language fit best
 **5 of 5** times, by 0.75–1.33 bits per letter. This does not show that the Voynich text is
 Naibbe-class or name its language.
+
+A [rejection and fixed-key transfer screen](experiments/rejection-transfer-v2/REPORT.md)
+now tests the missing "none of these" decision. On its first three fresh passage/key
+pairs, English, Italian and Latin each rank first on both passages; the acceptance
+rule admits Italian and Latin but rejects English because its fit score exceeds the
+fixed ceiling. Transfer character errors are **6.91%, 5.85% and 9.37%**, respectively.
+These controls use the five-language short-passage decoder, not round six. The report
+records the negative controls and resource stop; the next priority is calibrated
+rejection and affordable control searches, with the manuscript gate unchanged.
 
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.

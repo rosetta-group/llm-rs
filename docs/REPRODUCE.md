@@ -55,6 +55,35 @@ standard methods) keep their own drivers with the same stage names:
 `standard_decipherment_audit` checks it; `standard_decipherment_report` redraws its figures
 (needs matplotlib).
 
+## Rejection and fixed-key transfer screen
+
+The [first attempt](../experiments/rejection-transfer/REPORT.md) stopped on refinement
+caps. The [resource-repair attempt](../experiments/rejection-transfer-v2/REPORT.md)
+keeps the same decoder and thresholds, with a larger refinement allowance and two
+Numba threads per worker. These commands verify the existing records; they do not
+fit a new key or open unused challenge answers:
+
+```sh
+.venv/bin/python -m experiments.rejection_transfer verify
+.venv/bin/python -m experiments.rejection_transfer_v2 verify
+.venv/bin/python -m experiments.verify_rejection_records rejection-transfer
+.venv/bin/python -m experiments.verify_rejection_records rejection-transfer-v2
+.venv/bin/python -m unittest tests.test_rejection_transfer tests.test_rejection_transfer_v2 -v
+```
+
+The replay verifier reads each committed `evaluated-records.tar.gz` directly. It
+reconstructs graded ciphertext from pinned source sentences and saved seeds, checks
+sealed-key hashes, repeats transfer with fixed keys, and recomputes decisions and
+true-language character errors. Frozen external sources and priors must be present
+at the paths in each `freeze.json`; the archive alone is not a self-contained runtime.
+
+Historical stage order was `sources`, `freeze`, commit, `prepare`, `run`, `report`
+under `experiments.rejection_transfer` or `experiments.rejection_transfer_v2`.
+Creation stages refuse overwrites. Any future experiment needs a new driver, freeze,
+and fresh keys/passages. Exclude the consumed source IDs from **both** attempts,
+listed in `experiments/rejection-transfer-v2/released-source-ids.json`, as well as all
+earlier training and graded material. Unrun cases were not graded or released.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:

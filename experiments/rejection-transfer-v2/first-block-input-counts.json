@@ -1,0 +1,48 @@
+{
+  "diagnostic_only": true,
+  "rows": [
+    {
+      "glyphs": 20342,
+      "kind": "positive",
+      "role": "fit",
+      "tokens": 3427,
+      "types": 1552
+    },
+    {
+      "glyphs": 19761,
+      "kind": "positive",
+      "role": "transfer",
+      "tokens": 3385,
+      "types": 1549
+    },
+    {
+      "glyphs": 20342,
+      "kind": "shuffle",
+      "role": "fit",
+      "tokens": 3427,
+      "types": 1552
+    },
+    {
+      "glyphs": 19761,
+      "kind": "shuffle",
+      "role": "transfer",
+      "tokens": 3385,
+      "types": 1549
+    },
+    {
+      "glyphs": 20925,
+      "kind": "copy",
+      "role": "fit",
+      "tokens": 3427,
+      "types": 1064
+    },
+    {
+      "glyphs": 20323,
+      "kind": "copy",
+      "role": "transfer",
+      "tokens": 3385,
+      "types": 1057
+    }
+  ],
+  "settings_changed": false
+}

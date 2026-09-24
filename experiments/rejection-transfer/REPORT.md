@@ -59,3 +59,7 @@ The old language-ID decoder and its default Naibbe spacing were tested. The newe
 ```
 
 Driver subcommands: `sources`, `freeze`, commit, `prepare`, `run`, `report`. Creation and grading refuse overwrites. `run` resumes verified per-input checkpoints. Archive contains only graded answers; unrun answers remain evaluator-only.
+
+Final archive replay and source audit passed; all 169 tests passed. See
+[final verification](final-verification.json), which completes the pending checks
+in the earlier pre-run `verification.json`. The capped outcomes remain inconclusive.

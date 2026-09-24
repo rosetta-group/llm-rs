@@ -42,6 +42,8 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 
 | Round | Setup | Result | Record |
 |---|---|---|---|
+| Rejection + fixed-key transfer (resource repair) | 3 of 10 planned source/key blocks, 45 fits; old five-language decoder | positives accepted 2/3; shuffle rejected 3/3; absent language rejected 3/3; copy rejected 2/3 plus 1 inconclusive; 8.884 fit-worker h; stopped on refinement caps | [report](../experiments/rejection-transfer-v2/REPORT.md) |
+| Rejection + fixed-key transfer (first attempt) | first English positive, 5 fits | English wins both rankings; wrong-language refinement caps make positive and absent-language decisions inconclusive | [report](../experiments/rejection-transfer/REPORT.md) |
 | Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |
 | Segmentation | frozen lexicon segmenter on exact letters, 24 fresh passages | WER 6.1% modern, 39.9% historical | [report](../experiments/segmentation/REPORT.md) |
 | Verse word model | exact letters, 4 fresh Villani + 4 VIT passages; paired baseline | Villani WER 28.37% → 27.35%; VIT 8.49% → 8.38%; misses 3-point transfer threshold; historical rubrics retained in error (2.24% of words) | [report and caveat](../experiments/word-segmentation-v2/REPORT.md) |

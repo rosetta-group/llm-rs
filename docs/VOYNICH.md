@@ -189,6 +189,26 @@ amounts of text. The true language fit best **5 of 5** times, by 0.75–1.33 bit
 pipeline can compare candidate languages without assuming one. That doesn't make any of these five the
 manuscript's language.
 
+### Rejection and transfer with a fixed key
+
+The [control screen](../experiments/rejection-transfer-v2/REPORT.md) asks whether the
+five-language decoder can answer "none of these" and apply a learned key to a fresh
+passage without changing it. Each shuffled or copy/mutate control gets its own full
+five-prior search. Removing the true language supplies a third, paired negative.
+
+On the first three fresh pairs, the true language wins both rankings in 3/3 cases.
+The fixed rule accepts Italian and Latin, but rejects English solely because its
+fit excess is 0.584 bits per letter against the 0.50 ceiling. English transfer excess
+is 0.374, with 6.91% character error; Italian and Latin transfer errors are 5.85% and
+9.37%. Thus the English false rejection is a score-calibration problem on this case,
+despite its key transferring. This does not establish a calibrated alternative rule.
+
+The [first attempt](../experiments/rejection-transfer/REPORT.md) stopped because three
+wrong-language refinements hit their caps. Its already graded passages were excluded
+before the fresh resource-repair freeze. Both attempts retain their original records;
+the cap stop is not counted as a correct rejection. See the new report for actual
+negative denominators, resource accounting and limits. No manuscript text was used.
+
 ### Near-duplicate words: a mechanical signature
 
 A **near-hapax** is a word seen once that is one glyph away from a word seen at least 5 times.
@@ -246,6 +266,7 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 
 | Item | Why | Cost |
 |---|---|---|
+| Calibrate rejection and benchmark a cheaper refiner first | genuine English failed the fixed fit ceiling; exhaustive swap scoring makes controls expensive | development on released cases, then a new frozen budget |
 | Admit missing true pieces without false ones | the letter bottleneck (33–38 missing at RESPACING 17, 52–56 at 9) | about 2 h CPU per development run |
 | Develop and test at RESPACING 9 | the only Naibbe regime that matches the manuscript | same |
 | Historical spelling model, retry | v4 missed by 0.05 points; needs a new author and its own protocol | minutes |

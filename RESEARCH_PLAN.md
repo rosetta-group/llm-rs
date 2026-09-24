@@ -5,7 +5,20 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-23
+Updated: 2026-09-25
+
+**Voynich priority, 2026-09-25: calibrated rejection and affordable controls.** The
+[frozen screen](experiments/rejection-transfer-v2/REPORT.md) stopped inconclusively
+on refinement caps after three source/key blocks. It accepted 2/3 genuine ciphers,
+rejected 3/3 shuffled and 3/3 absent-language controls, and rejected 2/3 copy/mutate
+controls with one inconclusive. English was missed only by the fit-score ceiling;
+its key transferred with 6.91% character error. Forty-five fits cost 8.884 fit-worker
+hours. The user authorized [three development follow-ups](experiments/rejection-followups/PROTOCOL.md):
+calibrate the decision on released cases, strengthen the copying control, and
+reduce refiner cost with equivalence checks. No threshold is changed retrospectively.
+Any confirmation needs new sources/keys and a separately frozen, costed study.
+The translation gate and reserved manuscript test remain unchanged. The
+[first capped attempt](experiments/rejection-transfer/REPORT.md) stays separate.
 
 **Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
