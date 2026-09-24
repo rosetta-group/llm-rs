@@ -106,6 +106,7 @@ their controls. So no Linear A language result exists.
 | Two | joint search, 3 latent systems | sexagesimal and capacity values exact; gate passed | N14 = 10 (11 tablets) and 6 (9 tablets) recovered blind | [report](../experiments/proto-elamite-joint/REPORT.md) |
 | Three | object signs by strict arithmetic label | 15 tablets labelled; gate failed | not run | [report](../experiments/proto-elamite-signs/REPORT.md) |
 | Four | object signs by held-out system label | barley on capacity tablets, p = 0.018 | grain signs M288/M036/M297 on 10 of 11 capacity vs 1 of 8 counting tablets, p = 0.0012; people/animal signs p = 0.55 | [report](../experiments/proto-elamite-signs-loo/REPORT.md) |
+| Five (exploratory) | constant quantity ratios between consecutive entries, 46 pairs | no control available | only survivor is a ratio of 1 (repeated amounts); no exchange rate found | [report](../experiments/proto-elamite-ratios/REPORT.md) |
 
 ## Operational
 

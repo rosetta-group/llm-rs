@@ -33,3 +33,4 @@ signs to the two systems but could label only 15 control tablets and failed its 
 fits and passed its barley control (p = 0.018). On Proto-Elamite, 10 of 11 tablets that need the grain
 ratio carry the proposed grain signs M288, M036 or M297, against 1 of 8 counting tablets (p = 0.0012).
 Animal and people signs did not separate ([report](../experiments/proto-elamite-signs-loo/REPORT.md)).
+An exploratory round five found no fixed exchange ratio between entries ([report](../experiments/proto-elamite-ratios/REPORT.md)).
