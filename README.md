@@ -9,6 +9,8 @@ undeciphered script.
 
 **Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
 [docs/RESULTS.md](docs/RESULTS.md) for every number with its record.
+The full Voynich account (methods, sealed results, corrections, mechanism checks, open items) is
+[docs/VOYNICH.md](docs/VOYNICH.md).
 
 ## Where things stand
 

@@ -7,7 +7,8 @@ graded, that narrow down what kind of method could work and what would count as 
 A fifth track applied the same methods to Linear A, a second undeciphered script.
 
 Read this page first. The [results table](RESULTS.md) has every number; the
-[research log](../RESEARCH_LOG.md) is the full chronological record.
+[research log](../RESEARCH_LOG.md) is the full chronological record. The complete Voynich account,
+including round six, the corrections and the mechanism checks, is [VOYNICH.md](VOYNICH.md).
 
 ## The question, and why it is hard
 

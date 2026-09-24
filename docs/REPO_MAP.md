@@ -81,6 +81,7 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Fresh modern source | `modern_fresh_sources.py` | — | `modern-fresh-sources.json` (UD_Italian-PUD, all 1,000 eligible) |
 | ParTUT overlap audit | `partut_overlap_audit.py` | — | `partut-overlap-audit.json` |
 | Naibbe near-duplicate grid | `naibbe_near_duplicates.py` | — | `naibbe-near-duplicates/` |
+| Voynich summary | — | — | `docs/VOYNICH.md` (whole-track account) |
 | Round six | `joint_recovery_v6.py` | `length-scaling-v3/` | `joint-recovery-v6/` |
 | Reparse and glue candidates | `length_scaling_v3.py`, `voynich/lexicon_repair_v2.py` (rejected) | `length-scaling-v3/` (development) | — |
 | Length-aware lexicon | `length_scaling_v2.py` | `length-scaling-v2/` (development) | — |
