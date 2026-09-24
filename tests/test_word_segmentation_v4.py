@@ -19,6 +19,14 @@ class MixtureTests(unittest.TestCase):
         with self.assertRaises(ValueError): MixtureSegmenter(model, [a, a], [.7, .7], .05)
         with self.assertRaises(ValueError): MixtureSegmenter(model, [a, a], [1., 0.], .05)
 
+    def test_sacchetti_extractor_drops_italic_argument(self):
+        from experiments.word_segmentation_v4_fresh import extract_sacchetti, roman
+        body = ' '.join(['parola'] * 10)
+        html = f'<div id="box_esterno"><p><i>Lo re Federigo di Cicilia e trafitto con una storia</i></p><p>{body} <i>detto</i></p></div>'
+        rows, rubrics = extract_sacchetti(html, 2)
+        self.assertEqual([r['text'] for r in rows], [body + ' detto']); self.assertEqual(len(rubrics), 1)
+        self.assertEqual((roman(4), roman(39), roman(40)), ('IV', 'XXXIX', 'XL'))
+
 
 if __name__ == '__main__':
     unittest.main()
