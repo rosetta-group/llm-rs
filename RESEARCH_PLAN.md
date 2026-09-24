@@ -339,3 +339,17 @@ Declare and freeze any later candidate before new grading; exclude the released
 Villani/VIT source IDs. No further weight sweep, paid model, Naibbe test or Voynich
 mechanism run follows from this result. The image track still needs independent
 text-masked human annotations.
+
+### 2026-09-24: Linear A account and kinship development fixtures completed
+
+The [account benchmark](experiments/linear-a-account-benchmark/REPORT.md) adds nine cases on
+eight objects with published boundaries and exact units. Only two sum accounts are strictly
+evaluable. Expand with independently reviewed quantities, totals and balances; keep inspected
+objects in development. The 33-object matched-control requirement is unchanged.
+
+The [kinship feasibility check](experiments/linear-a-kinship/REPORT.md) identifies the
+unnamed-relative pattern as a better starting representation than requiring two explicit
+names. Before semantic recovery, audit person/designation slots in HT85/117, resolve the
+HT117 *56/ja source conflict, and expand independent Linear B positive and relation-negative
+controls. A label such as CHILD_OF requires entity evidence and direction, not a numeral 1,
+a repeated word or an assumed Greek/Etruscan ending. No further automatic score is scheduled.

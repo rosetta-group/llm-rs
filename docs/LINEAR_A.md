@@ -130,6 +130,24 @@ fractions as barriers; it does not solve their values or claim a new word meanin
 [follow-on benchmark plan](../experiments/linear-a-ledger/BENCHMARK_PLAN.md) specifies the
 needed quantities, source-supported boundaries, units and evaluator function labels.
 
+## Source-checked accounts and parentage feasibility, 2026-09-24
+
+The [account benchmark](../experiments/linear-a-account-benchmark/REPORT.md) contains nine
+accounts on eight objects, with published boundaries/function labels and exact relative units.
+Two balance strictly; six require uncertain readings or incomplete text; one oil/jar negative
+is dimensionally incompatible. Conditional readings give five balances and three mismatches,
+including the published PY Jn658 error. This is supplied-boundary development, not function
+recovery or a replacement for the 33-object control. All inspected objects remain development.
+
+The [parentage check](../experiments/linear-a-kinship/REPORT.md) supplies five source-backed
+Linear B fixtures on three objects. It distinguishes a named child-parent relation from
+“X and daughter”, where the child is unnamed. The Etruscan prototype depends on supplied name
+spans and morphology, neither established for these Linear A slots. A strict graphic scan
+finds 48 rows on 22 objects; both apparent two-word rows contain a transaction/logogram in
+per-occurrence source annotations. No kinship meaning follows. Name-slot substitution remains
+a research direction; it needs independently reviewed person/designation slots and more
+known-language controls. All 44 focused Linear A tests pass.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).

@@ -99,6 +99,8 @@ interpretations. No supported Linear A language identification exists.
 | Structural test | final sign / sign-pair features predict numeric-entry position on unseen types | 4/20 size-matched Linear B samples pass; required 18; shuffled 0/20; Linear A not scored | [report](../experiments/linear-a-structure-v2/REPORT.md) |
 | Correspondence source audit | all 12 pairs checked; literal signs, intact readings; preserve stems and ending counts | 6 pairs survive; length null p = .0011, length + final onset p = .1605; required both, specific adaptation lead archived | [report](../experiments/linear-a-correspondence/REPORT.md) |
 | Accounting-program feasibility | opaque word-triggered integer sums/balances, whole-object folds | not evaluable: 7 eligible KN objects vs 33 A; no natural-data fits or permutations; 30-object synthetic recovery is only a software test | [report](../experiments/linear-a-ledger/REPORT.md) |
+| Source-checked accounting development | nine annotated accounts, exact units, published functions | eight objects; two strict balances, six uncertain/incomplete, one dimension negative; no A scoring | [report](../experiments/linear-a-account-benchmark/REPORT.md) |
+| Parentage feasibility | five B fixtures; literal markers and ordered A shapes | 48 graphic rows on 22 A objects; two pair-shaped hits contain non-name signs; no semantic inference | [report](../experiments/linear-a-kinship/REPORT.md) |
 
 ## Operational
 

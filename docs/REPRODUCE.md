@@ -308,3 +308,21 @@ Naibbe code and data: Michael A. Greshko (2025), *The Naibbe cipher*, Cryptologi
 modified MIT licence. Wikisource transcriptions: CC BY-SA. Universal Dependencies
 treebanks: see each manifest; newly archived VIT is **CC BY-NC-SA 3.0**, with its
 README and licence in the archive. Yale scans: see `data/folios/sources/yale-manifest.json`.
+
+
+### Source-checked accounts and kinship feasibility (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_account_benchmark verify
+.venv/bin/python -m experiments.linear_a_kinship verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 44 tests. Each driver also supports `run`, with exclusive output
+creation; reproduce in a fresh checkout without the generated results files. Do not overwrite
+the released outputs or recreate the committed freezes. Account inputs and functions are
+manual development annotations; kinship controls are gold examples, not model predictions.
+Source locations, hashes and access limitations are in each experiment's `sources.json`.
+The account benchmark requires the local book scan; the kinship freeze also pins Killen's
+PDF and every DĀMOS item. Etruscan review hashes document a concurrent prototype snapshot;
+its mutable files are not executable dependencies and were not changed.

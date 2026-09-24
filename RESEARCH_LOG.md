@@ -717,3 +717,29 @@ separate uncertainty in names from quantities, cite unit conversions, justify ac
 and label functions independently. A to-so/to-sa token alone is not a verified sum equation.
 Keep inspected objects in development; do not lower the gate or duplicate cases to force a pass.
 No language claim, paid compute or further real-data scoring was made in this pilot.
+
+## 2026-09-24: source-checked accounts and parentage feasibility
+
+**What was done**
+
+- Built and froze a nine-account/eight-object development benchmark at `f048a56`, with
+  source-supported boundaries, function labels, commodity inheritance and exact units.
+  Strict arithmetic: two balances, six uncertain/incomplete, one dimension negative.
+  Conditional readings: five balances, three mismatches, one dimension negative. The
+  PY Jn658 mismatch is independently discussed by the edition. [Report](experiments/linear-a-account-benchmark/REPORT.md).
+- Built five parentage/pairing/collective-children controls on three Linear B objects;
+  froze descriptive inventories at `1c3dd37`. “X and daughter” needs an unnamed participant,
+  unlike a two-name CHILD_OF template. Concurrent Etruscan files were inspected read-only.
+- Counted 48 graphic Linear A rows on 22 objects; the two pair-shaped rows are transaction/
+  logogram ambiguities, not personal-name pairs. No kinship label was inferred. HT117a
+  remains excluded for its explicit *56/ja conflict. [Report](experiments/linear-a-kinship/REPORT.md).
+- Passed 44 focused tests, including seven exact-account and three ordered-inventory tests.
+
+**Why:** source evidence must distinguish damaged names from damaged quantities, and personal
+names from ordinary graphic slots. These development fixtures support further work without
+turning conditional arithmetic or repeated names into translations.
+
+**Limits:** the accounting control still lacks 33 matched objects and ten function-positive
+objects. No real-data word-function learner was fitted. The kinship inventory is descriptive,
+not a recovery gate; the Etruscan prototype supplies name spans and morphology unavailable
+for these Linear A candidates. No paid compute or edits to the concurrent Etruscan branch.

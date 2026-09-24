@@ -83,7 +83,11 @@ ranks other undeciphered scripts; the next candidate is Rongorongo.
 A new [accounting-program pilot](experiments/linear-a-ledger/REPORT.md) tests a different
 route: infer functions from quantities and layout. The first parser yields seven eligible
 Knossos objects versus 33 Linear A objects, so the control is not evaluable and neither corpus
-is fitted. The next requirement is a source-checked benchmark with units and account boundaries.
+is fitted. A [source-checked development benchmark](experiments/linear-a-account-benchmark/REPORT.md)
+now supplies nine accounts on eight objects: two strict balances, six uncertain/incomplete
+accounts, and one dimension negative. A [parentage feasibility check](experiments/linear-a-kinship/REPORT.md)
+adds named and unnamed-relative controls; its two apparent Linear A word-pair hits contain
+non-name signs. Neither development result licenses a Linear A translation.
 
 ## Documentation
 

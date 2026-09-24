@@ -96,6 +96,8 @@ of the fresh evaluation.
 | Sign-only entry endings | `linear_a_structure_v2.py` | `linear-a-structure-v2/` | 4/20 known-answer samples pass; gate failed; uncorrected driver archived in `linear-a-structure/` |
 | Correspondence source audit | `linear_a_correspondence.py` | `linear-a-correspondence/` (12-pair evidence, literal inventories, frozen protocol and conditional nulls) | 6 strict pairs; onset-conditioned p = .1605, specific adaptation lead archived |
 | Accounting-program feasibility | `linear_a_ledger.py` | `linear-a-ledger/` (opaque inputs, coverage, source review, protocol and follow-on benchmark plan) | not evaluable: 7 KN objects vs 33 A; no real-data fit |
+| Source-checked account benchmark | `linear_a_account_benchmark.py` | `linear-a-account-benchmark/` (quantities, source labels, relative units, source reviews) | nine development accounts; two strict balances; no A score |
+| Kinship feasibility | `linear_a_kinship.py` | `linear-a-kinship/` (known B controls, literal markers, graphic shapes and role review) | named vs unnamed relatives; no A kinship inference |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
@@ -145,3 +147,7 @@ in `evaluated-records.tar.gz` after grading), and prediction-track model files.
 `artifacts/linear-a-sources/` holds the Linear A track's downloads: `navarre/` (Linear A corpus),
 `kaikki/` (Wiktionary lexicons), `damos/` (5,932 Linear B documents), `names/` (LAMAN and Oracc),
 `tlhdig/` (TLHdig Beta 0.3) and `peet/` (Peet 1927 scan). Each round's `sources.json` hashes them.
+
+`linear_a/account_benchmark.py` performs exact unit arithmetic on source-annotated development
+accounts. `linear_a/kinship_inventory.py` preserves ordered graphic slots and literal marker
+spellings. Each has its own committed freeze; neither is a semantic recovery model.
