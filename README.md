@@ -85,6 +85,7 @@ ranks other undeciphered scripts; the next candidate is Rongorongo.
 |---|---|
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
+| [docs/FOUR_SCRIPTS.md](docs/FOUR_SCRIPTS.md) | Cross-script write-up: Voynich, Linear A, Rongorongo, Proto-Elamite, and the known-answer rule |
 | [docs/LINEAR_A.md](docs/LINEAR_A.md) | The Linear A track: five rounds, why none identified a language |
 | [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
