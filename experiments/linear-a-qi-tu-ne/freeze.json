@@ -1,0 +1,27 @@
+{
+  "files": {
+    "experiments/linear-a-qi-tu-ne/PROTOCOL.md": "681d09e9c26ab324135e5cc9e718d86b252eb765814249a7ea1ddead76e40677",
+    "experiments/linear-a-qi-tu-ne/cases.json": "9f74cc98ab946bffaead065c3928e77968e13432b665c90d4f0b2bf68ccb42bc",
+    "experiments/linear-a-qi-tu-ne/inventory.json": "10e8325b4a2f570758dec2383e88e112bbccddb73320ff6f97c133231e14a9d3",
+    "experiments/linear-a-qi-tu-ne/rivals.json": "1c2c6118ffdbc9a7f4a0ea0a080e3eba925fd38da41c125a23b4dd759f6f8695",
+    "experiments/linear-a-qi-tu-ne/sources.json": "43756369bd5f6abb4c3363255419e484e2d4ebb5b9026b229e74a27d0b0a0280",
+    "experiments/linear_a_qi_tu_ne.py": "4f0a478c5b421b0d02ed8ef2efea4609cf0e36d416ba0b7b6fc0afc82d9800be",
+    "linear_a/audit.py": "227030f4e5a9d62a598aace756b8bd67e540e930d0f8529d8137cf5602e41fad",
+    "linear_a/corpus.py": "26a0fea45f347ce8626b1cc999a317c88d6bd0c71e333342a3b73516760c9ae2",
+    "linear_a/person_slots.py": "6db543d6db77ee20c79a769cff8a7d9222ceea4f950a6032b04dcbd926cefe00",
+    "linear_a/spelling.py": "408d205443ba61c878c564377d6ea5c2cd89b09fade18502f872a77fcce81d1b"
+  },
+  "sources": {
+    "artifacts/linear-a-sources/navarre/corpus.json": "34b2d7d65c1377367e9a393cfa4004f6f9101f4ee5eea9f9b1a2ba830466ff59",
+    "artifacts/linear-a-sources/person-slots/gorila-173.jpg": "e36ca472fdb3395f68841958c087386cf5cab18abfd52f9182d1b372c8951960",
+    "artifacts/linear-a-sources/person-slots/gorila-235.jpg": "362e9a5269236ab3efabd1b96e97f0137fe4517ce6b5ec30f9ec4dd2a0aa494f",
+    "artifacts/linear-a-sources/qi-tu-ne/HT-7a-index-word.html": "d4b69d7f00dc2373edf30b243707dd05e251e523a9cca163a3c2d25b4a302bbe",
+    "artifacts/linear-a-sources/qi-tu-ne/HT-7a.png": "85253330dffae1adbffb673c3940278aa61febec0c8d2948709856cd50d6a8db",
+    "artifacts/linear-a-sources/qi-tu-ne/HT-7b-index-word.html": "480d3e135e474b76362a1cf1f32e73cfbe55af21a1678be2d26d60fb2d8a47f3",
+    "artifacts/linear-a-sources/qi-tu-ne/HT-7b.png": "425a2daeda9b4154e4b4660b85642f15b8cef93c8445a3e4d5c9015f5831b47c",
+    "artifacts/linear-a-sources/qi-tu-ne/gorila-50.html": "8d259880db1261ecd95ff736692e9ccd4dc378a5f004f85516c039d233fbed8f",
+    "artifacts/linear-a-sources/qi-tu-ne/gorila-50.jpg": "eb10a94c6b103bc98a8d63a3c85a08d92829f5813e1c0e47feb1298f4b0b0dd3",
+    "artifacts/linear-a-sources/qi-tu-ne/gorila-51.html": "7cf7a2064bc0f9ca3f5f41ad44ecd49330c336094a36ebb1c20172e9065cb4a3",
+    "artifacts/linear-a-sources/qi-tu-ne/gorila-51.jpg": "813113a8662164a61451da0013b29e64bc56488ea489725f75c79a666e98c04c"
+  }
+}

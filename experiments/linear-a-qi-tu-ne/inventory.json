@@ -1,0 +1,463 @@
+{
+  "scope": "Manual HT7 source audit; lexical_count means word with associated numeral, not certified personal name",
+  "faces": {
+    "HT 7a": {
+      "object": "HT 7",
+      "museum_inventory": "HM 10",
+      "gorila_volume": 1,
+      "printed_pages": [
+        14,
+        15
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/qi-tu-ne/gorila-50.jpg",
+        "artifacts/linear-a-sources/qi-tu-ne/gorila-51.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%207a/index-word.html",
+      "erased_sign_n": [],
+      "edition_overwriting": "GORILA p.15: re in .4 and te in .5 written over erased text.",
+      "source_metadata": {
+        "parent_object": "HT 7",
+        "face_count": 3,
+        "scribe": "HT Scribe 11",
+        "gorila_scribe": "11 HT",
+        "gorila_ref": "1, p. 14"
+      },
+      "face_count_note": "Source face_count=3 includes an object-level container; only faces a/b are inventoried."
+    },
+    "HT 7b": {
+      "object": "HT 7",
+      "museum_inventory": "HM 10",
+      "gorila_volume": 1,
+      "printed_pages": [
+        14,
+        15
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/qi-tu-ne/gorila-50.jpg",
+        "artifacts/linear-a-sources/qi-tu-ne/gorila-51.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%207b/index-word.html",
+      "erased_sign_n": [],
+      "edition_overwriting": "GORILA p.15: face b lines 1–2 written over erased text; underlying text not reconstructed.",
+      "source_metadata": {
+        "parent_object": "HT 7",
+        "face_count": 3,
+        "scribe": "HT Scribe 11",
+        "gorila_scribe": "11 HT",
+        "gorila_ref": "1, p. 14"
+      },
+      "face_count_note": "Source face_count=3 includes an object-level container; only faces a/b are inventoried."
+    }
+  },
+  "rows": [
+    {
+      "id": "HT7a:01",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 1,
+      "physical_line": "1",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "qe-ti · AB100 (VIR)",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        0
+      ],
+      "source_words": [
+        "qe-ti"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB78",
+          "role": "syllabogram",
+          "reading": "qe",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB37",
+          "role": "syllabogram",
+          "reading": "ti",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "AB100",
+          "role": "logogram",
+          "reading": "AB100/VIR",
+          "certain": true
+        }
+      ],
+      "raw": "𐘿𐘠𐄁𐙇",
+      "entity_hypothesis": "header with personnel sign",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Personnel sign on this face. Unit inheritance onto face b is not established."
+    },
+    {
+      "id": "HT7a:02",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 2,
+      "physical_line": "2",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 3,
+      "quantity_status": "published reading",
+      "working_reading": "i-ru-ja",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        1
+      ],
+      "source_words": [
+        "i-ru-ja"
+      ],
+      "sign_n": [
+        4,
+        5,
+        6
+      ],
+      "source_signs": [
+        {
+          "n": 4,
+          "type": "AB28",
+          "role": "syllabogram",
+          "reading": "i",
+          "certain": true
+        },
+        {
+          "n": 5,
+          "type": "AB26",
+          "role": "syllabogram",
+          "reading": "ru",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "AB57",
+          "role": "syllabogram",
+          "reading": "ja",
+          "certain": true
+        }
+      ],
+      "raw": "𐘚𐘘𐘱𐄉",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT7a:03",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 3,
+      "physical_line": "3",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 4,
+      "quantity_status": "published reading",
+      "working_reading": "du-ja",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        2
+      ],
+      "source_words": [
+        "du-ja"
+      ],
+      "sign_n": [
+        7,
+        8
+      ],
+      "source_signs": [
+        {
+          "n": 7,
+          "type": "AB51",
+          "role": "syllabogram",
+          "reading": "du",
+          "certain": true
+        },
+        {
+          "n": 8,
+          "type": "AB57",
+          "role": "syllabogram",
+          "reading": "ja",
+          "certain": true
+        }
+      ],
+      "raw": "𐘬𐘱𐄊",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT7a:04",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 4,
+      "physical_line": "4",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ta-na-ti",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        3
+      ],
+      "source_words": [
+        "ta-na-ti"
+      ],
+      "sign_n": [
+        9,
+        10,
+        11
+      ],
+      "source_signs": [
+        {
+          "n": 9,
+          "type": "AB59",
+          "role": "syllabogram",
+          "reading": "ta",
+          "certain": true
+        },
+        {
+          "n": 10,
+          "type": "AB06",
+          "role": "syllabogram",
+          "reading": "na",
+          "certain": true
+        },
+        {
+          "n": 11,
+          "type": "AB37",
+          "role": "syllabogram",
+          "reading": "ti",
+          "certain": true
+        }
+      ],
+      "raw": "𐘳𐘅𐘠𐄇",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT7a:05",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 5,
+      "physical_line": "4–5",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "da-re",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        4
+      ],
+      "source_words": [
+        "da-re"
+      ],
+      "sign_n": [
+        12,
+        13
+      ],
+      "source_signs": [
+        {
+          "n": 12,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 13,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘙𐄇",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "GORILA records overwriting; no erased signs are reconstructed."
+    },
+    {
+      "id": "HT7a:06",
+      "document": "HT 7a",
+      "object": "HT 7",
+      "logical_row": 6,
+      "physical_line": "5",
+      "edition_page": 15,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "te-tu",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        5
+      ],
+      "source_words": [
+        "te-tu"
+      ],
+      "sign_n": [
+        14,
+        15
+      ],
+      "source_signs": [
+        {
+          "n": 14,
+          "type": "AB04",
+          "role": "syllabogram",
+          "reading": "te",
+          "certain": true
+        },
+        {
+          "n": 15,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        }
+      ],
+      "raw": "𐘃𐘹𐄇",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "GORILA records overwriting; no erased signs are reconstructed."
+    },
+    {
+      "id": "HT7b:01",
+      "document": "HT 7b",
+      "object": "HT 7",
+      "logical_row": 1,
+      "physical_line": "1",
+      "edition_page": 15,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "qi-tu-ne",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        0
+      ],
+      "source_words": [
+        "qi-tu-ne"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB21f",
+          "role": "syllabogram",
+          "reading": "qi",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "AB24",
+          "role": "syllabogram",
+          "reading": "ne",
+          "certain": true
+        }
+      ],
+      "raw": "𐘐𐘹𐘗𐄇",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Readable text over erasure (GORILA p.15). No independent unit sign on this face."
+    },
+    {
+      "id": "HT7b:02",
+      "document": "HT 7b",
+      "object": "HT 7",
+      "logical_row": 2,
+      "physical_line": "2",
+      "edition_page": 15,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 2,
+      "quantity_status": "published reading",
+      "working_reading": "da-ru-A329",
+      "alternatives": [],
+      "reading_status": "no recorded disagreement; edition qualifications preserved",
+      "word_indices": [
+        1
+      ],
+      "source_words": [
+        "da-ru-A329"
+      ],
+      "sign_n": [
+        4,
+        5,
+        6
+      ],
+      "source_signs": [
+        {
+          "n": 4,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 5,
+          "type": "AB26",
+          "role": "syllabogram",
+          "reading": "ru",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "A329",
+          "role": "syllabogram",
+          "reading": "A329",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘘𐙵𐄈",
+      "entity_hypothesis": "possible person or group/category/responsibility/place label; unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Readable text over erasure (GORILA p.15). No independent unit sign on this face."
+    }
+  ]
+}
