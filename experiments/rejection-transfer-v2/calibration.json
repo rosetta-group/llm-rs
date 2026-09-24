@@ -1,0 +1,35 @@
+{
+  "coverage": 0.95,
+  "excess_ceiling": 0.5,
+  "fresh_test_used": false,
+  "margin": 0.25,
+  "null_calibration": false,
+  "positives": [
+    {
+      "excess": 0.45274265103701294,
+      "language": "latin",
+      "margin": 1.0393463777248315
+    },
+    {
+      "excess": 0.4633896663567234,
+      "language": "old_french",
+      "margin": 1.331887777526647
+    },
+    {
+      "excess": 0.2724084290682156,
+      "language": "german",
+      "margin": 1.2762190632847825
+    },
+    {
+      "excess": 0.23331882238745294,
+      "language": "english",
+      "margin": 1.3318843873378174
+    },
+    {
+      "excess": 0.4781278045477877,
+      "language": "italian",
+      "margin": 0.7514615871698314
+    }
+  ],
+  "source": "released language-id pilot, now development evidence"
+}

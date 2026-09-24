@@ -1,0 +1,145 @@
+{
+  "counts": {
+    "english": {
+      "excluded": {
+        "empty": 6,
+        "overlap": 79,
+        "previously_graded_source_id": 109
+      },
+      "letters": [
+        5267,
+        5210,
+        5237,
+        5228
+      ],
+      "passages": 4,
+      "reserved_sentences": 399
+    },
+    "german": {
+      "excluded": {
+        "overlap": 2
+      },
+      "letters": [
+        5255,
+        5215,
+        5325,
+        5242
+      ],
+      "passages": 4,
+      "reserved_sentences": 319
+    },
+    "italian": {
+      "excluded": {},
+      "letters": [
+        5218,
+        5278,
+        5304,
+        5230
+      ],
+      "passages": 4,
+      "reserved_sentences": 191
+    },
+    "latin": {
+      "excluded": {
+        "overlap": 37
+      },
+      "letters": [
+        5230,
+        5200,
+        5344,
+        5232
+      ],
+      "passages": 4,
+      "reserved_sentences": 260
+    },
+    "old_french": {
+      "excluded": {
+        "overlap": 62
+      },
+      "letters": [
+        5204,
+        5247,
+        5216,
+        5200
+      ],
+      "passages": 4,
+      "reserved_sentences": 694
+    }
+  },
+  "exclusion_inputs": {
+    "artifacts/codebook-free/evaluator-only/answers.json": "942d65ff4a1b8602372c015614a6e03e7dc411e79615f3c71c69842e1e3655ab",
+    "artifacts/decipherment/evaluator-only/answers.json": "2391cbd315c4175816c49acf2fd3894bba42d7f66f287b30265c552bf05bc1cb",
+    "artifacts/joint-recovery-v2/evaluator-only/answers.json": "06081bc102f93b3d1ec237b5745f446df980f1f6fcf3dafde4776ca2922a7f09",
+    "artifacts/joint-recovery-v3/evaluator-only/answers.json": "a782f3fd90520fdfb8bf4bedac7a44cdba3cc8ebaf342dd72bfc2e1d5558b996",
+    "artifacts/joint-recovery-v4/evaluator-only/answers.json": "67780bbb0fb564ec5a5dda7d8c4c3bcc9f73ebcdc69a146892fabeb68b3086d5",
+    "artifacts/joint-recovery-v5/evaluator-only/answers.json": "cd2dc5ddc775ae410093a10e3fc7879c721ff84c30bd139b3b01a410da08a49f",
+    "artifacts/joint-recovery-v6/evaluator-only/answers.json": "c72a81ecc112ba1fe2697f20ce8dac2709b67745acac61e8bca10ef647dd3eab",
+    "artifacts/joint-recovery/evaluator-only/answers.json": "0235e4f5c5776c65cdab11f4a12f5440f0243c2b48410e4a254ba6c52bef8df6",
+    "artifacts/language-id/evaluator-only/answers.json": "9902061e1b4f5e577f039df4921444769184761fcf012596534034a43a3e932c",
+    "artifacts/language-sources/UD_Ancient_Greek-Perseus/grc_perseus-ud-train.conllu": "d7471c9b91bcd975848fa5d9b65c31f1fc48a597ed3667796968a82c6d098a7e",
+    "artifacts/language-sources/UD_Arabic-PADT/ar_padt-ud-train.conllu": "f0b56962b340f5325bb5d293f47717522e706112c19029e82c225355c6d65e85",
+    "artifacts/language-sources/UD_English-EWT/en_ewt-ud-train.conllu": "d68e06122a702464c613076523d56740f047e5bbe89dd90ec32737e04d952143",
+    "artifacts/language-sources/UD_Finnish-TDT/fi_tdt-ud-train.conllu": "07217d128d3752e61f1249c1e57de402ca17b31d2fba479d4f857ff78e28b40d",
+    "artifacts/language-sources/UD_French-GSD/fr_gsd-ud-train.conllu": "4b9a87b1b7e6e7003219df1d3ccca87ffaca0f00a6055b12b1857df5373589d2",
+    "artifacts/language-sources/UD_German-GSD/de_gsd-ud-train.conllu": "6cb1b600029292fb7bf60531a1d6d7824544791d732c0f7abae8102a2ac337bf",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-dev.conllu": "1bc7dda04c58a4d87e2e6607a0e612462b87e7da6dde56be610d3749521af744",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+    "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+    "artifacts/language-sources/UD_Latin-ITTB/la_ittb-ud-train.conllu": "0f0aded3ec3f697cdb8dc2294d213bdc951b127a5bc3d2114be22cd730cac5b8",
+    "artifacts/language-sources/UD_Latin-Perseus/la_perseus-ud-train.conllu": "49d2e3813fc34595fe8cf569f263df4396e4b21aba9429fcdb0eea3ae09e64fa",
+    "artifacts/language-sources/UD_Old_French-PROFITEROLE/fro_profiterole-ud-train.conllu": "e8dee1e24558ac998c1cc136cafad81883190eb4cb58f3ebdfea101877c2aedc",
+    "artifacts/rejection-transfer/released-answers.json": "2afb51a8a8279bd210142be267f853ae0e49f2da63cb84570cdf4f0b7fa04b17",
+    "artifacts/segmentation/evaluator-only/answers.json": "674a4e340468d18926d49a615ef33a66daf31f9eeda53b6832082a9898ad7941",
+    "artifacts/standard-decipherment/evaluator-only/answers.json": "52b02426298ece36cd8939afb30a4fb940bf527cf0990c4514530407d55ee170"
+  },
+  "files": [
+    {
+      "language": "latin",
+      "license": "CC BY-NC-SA 3.0",
+      "path": "artifacts/rejection-transfer-v2/sources/la_ittb-ud-test.conllu",
+      "repository": "UD_Latin-ITTB",
+      "revision": "50140a44dcf8c54dbca3a2be59f62c2a519057f2",
+      "sha256": "b25d8f12a7f483ff6152ce3b3724aabafffc1336103526229c919808f9de5f1e",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Latin-ITTB/50140a44dcf8c54dbca3a2be59f62c2a519057f2/la_ittb-ud-test.conllu"
+    },
+    {
+      "language": "old_french",
+      "license": "CC BY-NC-SA 3.0",
+      "path": "artifacts/rejection-transfer-v2/sources/fro_profiterole-ud-test.conllu",
+      "repository": "UD_Old_French-PROFITEROLE",
+      "revision": "669e5aa53d8edd68404151678235d6b4bd5dffe9",
+      "sha256": "0f55fec2f8c13a32747a9be9b10688e5d0ae8d53a13ab4f381ec459d531e2319",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Old_French-PROFITEROLE/669e5aa53d8edd68404151678235d6b4bd5dffe9/fro_profiterole-ud-test.conllu"
+    },
+    {
+      "language": "german",
+      "license": "CC BY-SA 4.0",
+      "path": "artifacts/rejection-transfer-v2/sources/de_gsd-ud-test.conllu",
+      "repository": "UD_German-GSD",
+      "revision": "81d8c3612a88f5867fd089e9c0a5466ef230078b",
+      "sha256": "595070aa50b706a91dc66f17c296f7a9a25cbc75269f177c27680fb1c21528ab",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_German-GSD/81d8c3612a88f5867fd089e9c0a5466ef230078b/de_gsd-ud-test.conllu"
+    },
+    {
+      "language": "english",
+      "license": "CC BY-SA 4.0",
+      "path": "artifacts/rejection-transfer-v2/sources/en_ewt-ud-test.conllu",
+      "repository": "UD_English-EWT",
+      "revision": "b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c",
+      "sha256": "fa024f43dc5da3c5ac02563bc9bd0e974f46cbb1560823976a8f342a37dc494a",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_English-EWT/b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c/en_ewt-ud-test.conllu"
+    },
+    {
+      "language": "italian",
+      "license": "CC BY-SA 3.0",
+      "path": "artifacts/modern-fresh/sources/it_pud-ud-test.conllu",
+      "repository": "UD_Italian-PUD",
+      "revision": "71d932aa096368331ba2fd9bc906ec8dd853da8e",
+      "sha256": "ad5d302bdfd05194155d9ad43dc54c3cb915076d66b3eb6ef33eca9a11f1372a",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-PUD/71d932aa096368331ba2fd9bc906ec8dd853da8e/it_pud-ud-test.conllu"
+    }
+  ],
+  "historical_manifest_sha256": "d7470b54dee6645f607a2e487081f35d9a6bd4ce1fea050f800997e9e9b745f3",
+  "sentence_policy": "normalized exact plus 8-word overlap"
+}
