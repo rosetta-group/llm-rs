@@ -1,0 +1,1472 @@
+{
+ "pairs_tested": 89,
+ "alpha": 0.0005617977528089888,
+ "rows": [
+  {
+   "pair": "M003 -> M054",
+   "tablets": 6,
+   "with_quantities": 3,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "13/8",
+     1
+    ],
+    [
+     "17/8",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 112"
+   ]
+  },
+  {
+   "pair": "M005 -> M305",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M024 -> M371",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M036 -> M297",
+   "tablets": 6,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M036 -> M387",
+   "tablets": 8,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M038 -> M288",
+   "tablets": 6,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "8",
+     1
+    ],
+    [
+     "5",
+     1
+    ],
+    [
+     "70/3",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 262"
+   ]
+  },
+  {
+   "pair": "M054 -> M072",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "3",
+     1
+    ],
+    [
+     "5",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.1165,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 390"
+   ]
+  },
+  {
+   "pair": "M054 -> M288",
+   "tablets": 6,
+   "with_quantities": 3,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1/2",
+     2
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 2.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 316 + 322 + 324 + MDP 26S, 335 + Sb 15247",
+    "MDP 26, 099"
+   ]
+  },
+  {
+   "pair": "M054 -> M373",
+   "tablets": 5,
+   "with_quantities": 5,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1",
+     2
+    ],
+    [
+     "1/2",
+     1
+    ],
+    [
+     "2",
+     1
+    ]
+   ],
+   "null_mean": 2.039,
+   "p": 0.7091454272863568,
+   "survives": false,
+   "examples": [
+    "MDP 06, 316 + 322 + 324 + MDP 26S, 335 + Sb 15247",
+    "MDP 17, 112"
+   ]
+  },
+  {
+   "pair": "M056 -> M288",
+   "tablets": 14,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "2/3",
+     1
+    ],
+    [
+     "16/25",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 26, 122"
+   ]
+  },
+  {
+   "pair": "M057 -> M288",
+   "tablets": 6,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M059 -> M054",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "2",
+     1
+    ],
+    [
+     "16/9",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 26, 079"
+   ]
+  },
+  {
+   "pair": "M059 -> M288",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M072 -> M046",
+   "tablets": 5,
+   "with_quantities": 5,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1",
+     2
+    ],
+    [
+     "5/2",
+     1
+    ],
+    [
+     "11/6",
+     1
+    ]
+   ],
+   "null_mean": 1.185,
+   "p": 0.1854072963518241,
+   "survives": false,
+   "examples": [
+    "MDP 06, 5007",
+    "MDP 26S, 4763"
+   ]
+  },
+  {
+   "pair": "M072 -> M387",
+   "tablets": 5,
+   "with_quantities": 3,
+   "support": 1,
+   "top_ratios": [
+    [
+     "2",
+     1
+    ],
+    [
+     "10",
+     1
+    ],
+    [
+     "6",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 243"
+   ]
+  },
+  {
+   "pair": "M106 -> M009",
+   "tablets": 6,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/9",
+     1
+    ],
+    [
+     "1/16",
+     1
+    ],
+    [
+     "1/12",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 085"
+   ]
+  },
+  {
+   "pair": "M124 -> M218",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/2",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 252"
+   ]
+  },
+  {
+   "pair": "M124 -> M263",
+   "tablets": 5,
+   "with_quantities": 3,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1",
+     2
+    ],
+    [
+     "5/3",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 0.0004997501249375312,
+   "survives": false,
+   "examples": [
+    "MDP 17, 094",
+    "MDP 17, 292"
+   ]
+  },
+  {
+   "pair": "M124 -> M288",
+   "tablets": 14,
+   "with_quantities": 3,
+   "support": 1,
+   "top_ratios": [
+    [
+     "10",
+     1
+    ],
+    [
+     "6",
+     1
+    ],
+    [
+     "23/2",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 153"
+   ]
+  },
+  {
+   "pair": "M124 -> M367",
+   "tablets": 5,
+   "with_quantities": 5,
+   "support": 3,
+   "top_ratios": [
+    [
+     "1",
+     3
+    ],
+    [
+     "2/3",
+     1
+    ],
+    [
+     "1/2",
+     1
+    ]
+   ],
+   "null_mean": 1.9865,
+   "p": 0.11944027986006997,
+   "survives": false,
+   "examples": [
+    "MDP 17, 292",
+    "MDP 26, 214",
+    "MDP 31, 044"
+   ]
+  },
+  {
+   "pair": "M124 -> M370",
+   "tablets": 6,
+   "with_quantities": 4,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1",
+     2
+    ],
+    [
+     "2",
+     2
+    ]
+   ],
+   "null_mean": 2.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 246 + 269+ 302 + 332",
+    "MDP 17, 292"
+   ]
+  },
+  {
+   "pair": "M124 -> M376",
+   "tablets": 6,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M124 -> M387",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M124 -> M388",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/2",
+     1
+    ],
+    [
+     "7/6",
+     1
+    ],
+    [
+     "11/6",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 120"
+   ]
+  },
+  {
+   "pair": "M136 -> M056",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M153 -> M346",
+   "tablets": 5,
+   "with_quantities": 3,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/22",
+     1
+    ],
+    [
+     "1/14",
+     1
+    ],
+    [
+     "1/2",
+     1
+    ]
+   ],
+   "null_mean": 1.5045,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 337"
+   ]
+  },
+  {
+   "pair": "M157 -> M005",
+   "tablets": 7,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M038",
+   "tablets": 12,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M124",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M195",
+   "tablets": 6,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M288",
+   "tablets": 10,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M292",
+   "tablets": 6,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M297",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M319",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M340",
+   "tablets": 9,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M387",
+   "tablets": 15,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M388",
+   "tablets": 18,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> M391",
+   "tablets": 6,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M157 -> |M195+M057|",
+   "tablets": 25,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M218 -> M288",
+   "tablets": 8,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "13/3",
+     1
+    ],
+    [
+     "21/5",
+     1
+    ],
+    [
+     "1/2",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 277"
+   ]
+  },
+  {
+   "pair": "M243 -> M297",
+   "tablets": 7,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M247 -> M376",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M263 -> M036",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M263 -> M297",
+   "tablets": 7,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M263 -> M387",
+   "tablets": 11,
+   "with_quantities": 7,
+   "support": 2,
+   "top_ratios": [
+    [
+     "2/3",
+     2
+    ],
+    [
+     "1",
+     2
+    ],
+    [
+     "3",
+     1
+    ]
+   ],
+   "null_mean": 2.244,
+   "p": 0.8685657171414293,
+   "survives": false,
+   "examples": [
+    "MDP 06, 357",
+    "MDP 17, 095"
+   ]
+  },
+  {
+   "pair": "M264 -> M263",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "1/2",
+     1
+    ],
+    [
+     "1/3",
+     1
+    ]
+   ],
+   "null_mean": 1.4575,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 094"
+   ]
+  },
+  {
+   "pair": "M269 -> M106",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "9",
+     1
+    ],
+    [
+     "10",
+     1
+    ],
+    [
+     "6",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 085"
+   ]
+  },
+  {
+   "pair": "M288 -> M010",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M288 -> M124",
+   "tablets": 13,
+   "with_quantities": 5,
+   "support": 5,
+   "top_ratios": [
+    [
+     "1",
+     5
+    ]
+   ],
+   "null_mean": 3.0,
+   "p": 0.0004997501249375312,
+   "survives": true,
+   "examples": [
+    "MDP 06, 246 + 269+ 302 + 332",
+    "MDP 06, 316 + 322 + 324 + MDP 26S, 335 + Sb 15247",
+    "MDP 17, 292",
+    "MDP 26S, 0339",
+    "MDP 26S, 5011"
+   ]
+  },
+  {
+   "pair": "M288 -> M371",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M288 -> M387",
+   "tablets": 8,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M288 -> M388",
+   "tablets": 8,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "11/15",
+     1
+    ],
+    [
+     "7/11",
+     1
+    ],
+    [
+     "1/2",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 4997"
+   ]
+  },
+  {
+   "pair": "M305 -> M056",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M305 -> M288",
+   "tablets": 11,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M305 -> M387",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M305 -> |M036+1(N30D)|",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 3,
+   "top_ratios": [
+    [
+     "5",
+     3
+    ],
+    [
+     "7/3",
+     1
+    ],
+    [
+     "3",
+     1
+    ]
+   ],
+   "null_mean": 1.1165,
+   "p": 0.0004997501249375312,
+   "survives": false,
+   "examples": [
+    "MDP 06, 355",
+    "MDP 26S, 4790",
+    "MDP 31, 015"
+   ]
+  },
+  {
+   "pair": "M321 -> M005",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "2",
+     1
+    ],
+    [
+     "3/2",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.217,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 201"
+   ]
+  },
+  {
+   "pair": "M340 -> M288",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1/2",
+     2
+    ]
+   ],
+   "null_mean": 2.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 26S, 4802",
+    "MDP 26S, 4803"
+   ]
+  },
+  {
+   "pair": "M346 -> M006",
+   "tablets": 7,
+   "with_quantities": 5,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1/6",
+     2
+    ],
+    [
+     "10/3",
+     1
+    ],
+    [
+     "16/5",
+     1
+    ]
+   ],
+   "null_mean": 2.5235,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 161",
+    "MDP 17, 301"
+   ]
+  },
+  {
+   "pair": "M346 -> M367",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "4",
+     1
+    ],
+    [
+     "6",
+     1
+    ],
+    [
+     "1/16",
+     1
+    ]
+   ],
+   "null_mean": 1.2395,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 078"
+   ]
+  },
+  {
+   "pair": "M346 -> M387",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "2",
+     1
+    ],
+    [
+     "5/3",
+     1
+    ],
+    [
+     "13/16",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 328"
+   ]
+  },
+  {
+   "pair": "M354 -> M297",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M354 -> M387",
+   "tablets": 6,
+   "with_quantities": 4,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1/2",
+     2
+    ],
+    [
+     "9",
+     1
+    ],
+    [
+     "7",
+     1
+    ]
+   ],
+   "null_mean": 1.3365,
+   "p": 0.33683158420789605,
+   "survives": false,
+   "examples": [
+    "MDP 17, 061",
+    "MDP 26S, 4762"
+   ]
+  },
+  {
+   "pair": "M362 -> M346",
+   "tablets": 7,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "2/13",
+     1
+    ],
+    [
+     "2/9",
+     1
+    ]
+   ],
+   "null_mean": 1.115,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 096 + 325 + 380"
+   ]
+  },
+  {
+   "pair": "M367 -> M006",
+   "tablets": 5,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/3",
+     1
+    ],
+    [
+     "1/4",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.3425,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 096 + 325 + 380"
+   ]
+  },
+  {
+   "pair": "M367 -> M346",
+   "tablets": 12,
+   "with_quantities": 9,
+   "support": 2,
+   "top_ratios": [
+    [
+     "1",
+     2
+    ],
+    [
+     "3/5",
+     2
+    ],
+    [
+     "2",
+     2
+    ]
+   ],
+   "null_mean": 2.225,
+   "p": 0.9085457271364318,
+   "survives": false,
+   "examples": [
+    "MDP 17, 025",
+    "MDP 26, 437"
+   ]
+  },
+  {
+   "pair": "M371 -> M124",
+   "tablets": 5,
+   "with_quantities": 3,
+   "support": 3,
+   "top_ratios": [
+    [
+     "1",
+     3
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 0.0004997501249375312,
+   "survives": false,
+   "examples": [
+    "MDP 06, 246 + 269+ 302 + 332",
+    "MDP 17, 279",
+    "MDP 31, 030"
+   ]
+  },
+  {
+   "pair": "M376 -> M124",
+   "tablets": 7,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M376 -> M203",
+   "tablets": 7,
+   "with_quantities": 4,
+   "support": 1,
+   "top_ratios": [
+    [
+     "4/3",
+     1
+    ],
+    [
+     "10/3",
+     1
+    ],
+    [
+     "2",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 215"
+   ]
+  },
+  {
+   "pair": "M377 -> M218",
+   "tablets": 6,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1/22",
+     1
+    ],
+    [
+     "1/14",
+     1
+    ],
+    [
+     "4/7",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 073"
+   ]
+  },
+  {
+   "pair": "M387 -> M036",
+   "tablets": 11,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M387 -> M054",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "2/3",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 124"
+   ]
+  },
+  {
+   "pair": "M387 -> M124",
+   "tablets": 5,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "15/17",
+     1
+    ],
+    [
+     "23/25",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 094"
+   ]
+  },
+  {
+   "pair": "M387 -> M263",
+   "tablets": 10,
+   "with_quantities": 6,
+   "support": 3,
+   "top_ratios": [
+    [
+     "2/3",
+     3
+    ],
+    [
+     "1/2",
+     1
+    ],
+    [
+     "1/3",
+     1
+    ]
+   ],
+   "null_mean": 2.4305,
+   "p": 0.4307846076961519,
+   "survives": false,
+   "examples": [
+    "MDP 17, 081 + 347",
+    "MDP 17, 094",
+    "MDP 17, 125"
+   ]
+  },
+  {
+   "pair": "M387 -> M288",
+   "tablets": 13,
+   "with_quantities": 4,
+   "support": 3,
+   "top_ratios": [
+    [
+     "1/2",
+     3
+    ],
+    [
+     "33/5",
+     1
+    ],
+    [
+     "21/5",
+     1
+    ]
+   ],
+   "null_mean": 2.0,
+   "p": 0.0004997501249375312,
+   "survives": false,
+   "examples": [
+    "MDP 06, 223",
+    "MDP 06, 365",
+    "MDP 26S, 0295"
+   ]
+  },
+  {
+   "pair": "M387 -> M297",
+   "tablets": 11,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M387 -> M305",
+   "tablets": 9,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "3/5",
+     1
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 06, 204"
+   ]
+  },
+  {
+   "pair": "M387 -> M346",
+   "tablets": 6,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "7/4",
+     1
+    ],
+    [
+     "1/4",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 26, 216"
+   ]
+  },
+  {
+   "pair": "M387 -> M370",
+   "tablets": 5,
+   "with_quantities": 3,
+   "support": 3,
+   "top_ratios": [
+    [
+     "1",
+     3
+    ]
+   ],
+   "null_mean": 3.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 120",
+    "MDP 17, 368",
+    "CahDAFI 1, 58 02"
+   ]
+  },
+  {
+   "pair": "M388 -> M054",
+   "tablets": 6,
+   "with_quantities": 2,
+   "support": 1,
+   "top_ratios": [
+    [
+     "1",
+     1
+    ],
+    [
+     "3",
+     1
+    ],
+    [
+     "5",
+     1
+    ]
+   ],
+   "null_mean": 1.0,
+   "p": 1.0,
+   "survives": false,
+   "examples": [
+    "MDP 17, 112"
+   ]
+  },
+  {
+   "pair": "M388 -> M066",
+   "tablets": 6,
+   "with_quantities": 4,
+   "support": 3,
+   "top_ratios": [
+    [
+     "1",
+     3
+    ],
+    [
+     "1/2",
+     1
+    ]
+   ],
+   "null_mean": 2.3205,
+   "p": 0.32083958020989506,
+   "survives": false,
+   "examples": [
+    "MDP 17, 234",
+    "MDP 17, 446",
+    "CahDAFI 1, 58 01"
+   ]
+  },
+  {
+   "pair": "M388 -> M218",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M388 -> M288",
+   "tablets": 9,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M388 -> M387",
+   "tablets": 5,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "M391 -> M288",
+   "tablets": 5,
+   "with_quantities": 1,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "|M036+1(N30D)| -> M297",
+   "tablets": 10,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "|M195+M057| -> M288",
+   "tablets": 7,
+   "with_quantities": 7,
+   "support": 3,
+   "top_ratios": [
+    [
+     "5/3",
+     3
+    ],
+    [
+     "1",
+     2
+    ],
+    [
+     "1/3",
+     2
+    ]
+   ],
+   "null_mean": 1.853,
+   "p": 0.11094452773613193,
+   "survives": false,
+   "examples": [
+    "MDP 26, 030",
+    "MDP 26, 031",
+    "MDP 26, 043"
+   ]
+  },
+  {
+   "pair": "|M327+M342| -> M157",
+   "tablets": 7,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  },
+  {
+   "pair": "|M370 -> M288",
+   "tablets": 7,
+   "with_quantities": 0,
+   "p": null,
+   "survives": false
+  }
+ ],
+ "survivors": [
+  "M288 -> M124"
+ ]
+}
