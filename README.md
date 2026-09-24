@@ -103,7 +103,15 @@ The [known-language control](experiments/linear-b-person-role/REPORT.md) now tes
 Linear B cases on 19 tablets. Layout, quantity, order and repetition give only **37.4% balanced
 recall** at **39.4% coverage**. Identical feature signatures occur in both classes, limiting any
 deterministic rule using those features to **84.9%** on this curated sample, below the 90% gate.
-No Linear A was scored. All 57 focused tests and nine follow-up freezes pass.
+No Linear A was scored. That control passed 57 focused tests and nine follow-up freezes.
+
+
+The [relational follow-up](experiments/linear-b-relations/REPORT.md) adds 19 expressions on
+16 Linear B tablets and seven unresolved source cases. It adds three intact `i-*65` son
+expressions omitted by the earlier search; repeated-form recognition reaches **50% family recall**, but
+the primary exact-construction control abstains on all 19 cases for lack of independent
+support. Recognition and child/parent assignment remain separate: no family edges or Linear A
+meanings were inferred. All 66 focused tests and ten follow-up freezes pass.
 
 ## Documentation
 

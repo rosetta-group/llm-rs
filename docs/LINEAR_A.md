@@ -208,6 +208,34 @@ this is a curated development challenge. Further work needs new evidence such as
 frames and morphology with known-language rival controls. All 57 focused tests and nine
 follow-up freezes pass; earlier results remain unchanged.
 
+
+## Relational family-reference control, 2026-09-24
+
+The [relational follow-up](../experiments/linear-b-relations/REPORT.md) adds 19 source-labelled
+expressions on 16 objects, with names/name-derived spans, clause boundaries, line joins and
+terminal -qe segmentation supplied. Seven FAMILY cases occur on six objects; 12 OTHER cases
+cover service, occupation and ordinary co-listing. Seven unresolved cases stay outside scoring.
+FAMILY includes patronymics; it does not itself identify an immediate parent-child edge.
+
+The form-only diagnostic recognizes the three intact i-*65 expressions from other objects,
+reaching 50% family recall and 41.7% balanced recall. It misses the daughter forms and calls
+the masked patronymic OTHER. The primary ordered frame/form rule abstains on all 19 cases:
+11 signatures are unseen, eight have only one supporting object, and two were required.
+The gate fails coverage. All 196 evaluable label-swap negatives also abstain everywhere;
+zero negative passes therefore provide no semantic validation. Three draws fail representation.
+
+The expanded corpus retrieval records 59 hits: 12 intact exact forms, 22 intact attached-tail
+candidates and 25 uncertain-text candidates. It repairs the earlier search's omission of
+literal i-*65/i-*65-qe without making an exhaustive kinship census or changing old frozen outputs.
+MY Au102 i-jo-qe and KN Vs1523 i-jo remain disputed. MY Oe106's daughter reference leaves
+argument binding unresolved. Four family cases describe unnamed children, two have disputed
+binding, and one permits a wider-lineage reading; zero directed edges were inferred.
+
+Sources and code were frozen at 095dbdc before scoring. All 66 focused tests and ten follow-up
+freezes pass. No Linear A scoring or Etruscan modification occurred. The next bounded source
+question is the Theban attached-u-jo versus *65/FAR comparison, requiring edition and quantity
+review; an ending match alone cannot resolve it.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).

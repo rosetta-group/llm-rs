@@ -372,3 +372,20 @@ comparison against the archived result, without deleting or overwriting outputs.
 Linear A scoring stage. The 38 labelled cases are curated development annotations; the 199
 seeded negatives swap whole objects, and 22 fail representation preflight. Source changes or
 new labels require a new experiment, not edits to this freeze.
+
+### Relational family-reference control (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_relations verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 66 tests. `095dbdc` freezes the 19-case control, seven unresolved
+reviews, code, settings and 5,932 corpus snapshots before scoring. A fresh checkout of that
+commit with pinned sources attached can run `.venv/bin/python -m experiments.linear_b_relations run`.
+The driver refuses existing result/inventory files and checks corpus membership as well as hashes.
+The [report](../experiments/linear-b-relations/REPORT.md) supplies an exact in-memory rerun
+comparison without archive mutation. Duhoux was read through web text extraction; no local PDF
+is claimed. The study measures family-reference recognition with supplied names and segmentation,
+not directed edge recovery. Neither the exact-form retrieval nor attached-tail candidates are
+an exhaustive list of kinship expressions, and neither is a Linear A semantic test.

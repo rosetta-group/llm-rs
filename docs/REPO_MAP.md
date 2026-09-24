@@ -63,6 +63,9 @@ breaks `verify` for that round. Add new behaviour in a new module instead.
 `linear_a/person_role_control.py` supplies object-held-out structural classification, balanced
 metrics, feature ceilings and block-label negatives; frozen by `linear-b-person-role`.
 
+`linear_a/relation_control.py` supplies source-span validation, opaque relational fragments,
+whole-object validation and uncertainty-preserving marker retrieval; frozen by `linear-b-relations`.
+
 ## Experiments (`experiments/`)
 
 Each recovery round has a driver, a development folder and a fresh-evaluation folder.
@@ -104,6 +107,7 @@ of the fresh evaluation.
 | Person-slot source audit | `linear_a_person_slots.py` | `linear-a-person-slots/` (43-row inventory, source decisions, rival interpretations, exact concordance) | 2 objects; edition-supported reading overlay; no kinship formula |
 | Qi-tu-ne role contrast | `linear_a_qi_tu_ne.py` | `linear-a-qi-tu-ne/` (HT7 source inventory, 3 reviewed cases, rival assignments) | heading/count contrast confirmed; semantic class unresolved |
 | Name/designation control | `linear_b_person_role.py` | `linear-b-person-role/` (38 source cases, anonymous features, held-out predictions, 199 negatives) | curated development; failed 90% gate; no Linear A scoring |
+| Relational family-reference control | `linear_b_relations.py` | `linear-b-relations/` (19 scored fragments, 7 unresolved cases, 59 retrieval hits, 199 negatives) | form reuse partly transfers; primary coverage fails; no inferred edges |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and

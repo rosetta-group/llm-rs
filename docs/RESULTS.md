@@ -104,6 +104,7 @@ interpretations. No supported Linear A language identification exists.
 | Person-slot source audit | HT85/117 images, edition and contextual comparisons | 43 rows on 2 objects; 32 counted words, 3 counted logograms; provisional te-ja-re reading; no parentage formula | [report](../experiments/linear-a-person-slots/REPORT.md) |
 | Qi-tu-ne role contrast | HT7 image collation against HT87/117 headings | 3 reviewed occurrences on 3 objects: 1 count-associated, 2 headings; person/category distinction unresolved | [report](../experiments/linear-a-qi-tu-ne/REPORT.md) |
 | Name/designation control | 38 source-labelled Linear B cases on 19 objects; whole-object holdout | layout recall 37.4%, coverage 39.4%; feature ceiling 84.9%; 0/177 evaluable negatives pass; gate failed, no A scoring | [report](../experiments/linear-b-person-role/REPORT.md) |
+| Relational family-reference control | 19 expressions on 16 B objects; 7 unresolved source cases | form-only family recall 50%; primary exact frames 0/19 calls; 3 intact i-*65 expressions added; no predicted edges or A scoring | [report](../experiments/linear-b-relations/REPORT.md) |
 
 ## Operational
 

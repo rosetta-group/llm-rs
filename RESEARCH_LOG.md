@@ -815,3 +815,33 @@ unanimously designation-labelled supporting objects; training agreement does not
 no parentage/gender inference was made, and no earlier failed gate or frozen input changed.
 Any next experiment needs additional evidence, such as relational frames and morphology, plus
 known-language tests separating parentage from ownership/responsibility and occupation.
+
+## 2026-09-24: Relational family-reference control and expanded son inventory
+
+**What was done**
+
+- Reviewed Hiller (1989), Duhoux (2007), Godart (2024) and the Oe106 translation disagreement.
+  Added 19 scored expressions on 16 objects, with seven unresolved cases outside gold.
+  Supplied onomastic spans, fragment boundaries, cross-line joins and terminal -qe segmentation;
+  hid spellings, Greek meanings, grammatical case, gender and argument roles from the learner.
+- Froze code, cases, source PDFs and all 5,932 DĀMOS snapshots at `095dbdc` before scoring.
+  The expanded literal inventory adds three intact i-*65/i-*65-qe occurrences and preserves
+  two doubtful counterparts separately. Overall retrieval: 59 hits, including 22 intact
+  attached-tail candidates and 25 uncertain-text candidates. These are not semantic labels.
+- Form-only diagnostic: 50% family recall, 41.7% balanced recall, 50% coverage; seven correct,
+  one wrong, 11 abstentions. The primary ordered frame/form control abstains on all 19 cases:
+  11 unseen patterns, eight supported by only one other object, where two were required.
+- Gate failed. Zero of 196 evaluable negatives pass, but all abstain because structural support
+  is absent; that negative result is uninformative. Three of 199 swaps fail representation.
+  Passed 66 focused tests, verified ten freezes and reproduced results/inventory exactly.
+  [Report](experiments/linear-b-relations/REPORT.md).
+
+**Why:** relational wording adds evidence absent from position alone, but recognizing a family
+expression does not determine its participants. MY Oe106's named person can be read as daughter
+or parent; the anonymous two-name patronymic also collides with ordinary co-listing.
+
+**Decision:** no parentage edges or Linear A meanings inferred. Four supplied family cases have
+an unnamed child, two have disputed binding, and one has a lineage qualification. MY Au102
+and KN Vs1523 readings remain unresolved. Further controls need independently supported repeated
+constructions; the next source question is the Theban attached-u-jo versus *65/FAR comparison.
+Earlier frozen inputs, failed gates and concurrent Etruscan files remain unchanged.
