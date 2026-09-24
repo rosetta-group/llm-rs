@@ -21,5 +21,10 @@ A Māori text disguised as signs at the tablets' size (2,600 syllables) was reco
 average (44% worst), against a 90% gate; an earlier study (Rochala 2026) found the same limit with
 a different solver. The tablets are too short for statistical sign-to-syllable recovery.
 
-Proto-Elamite is scoped next, as blind recovery of number systems validated on proto-cuneiform:
-[experiments/proto-elamite/SCOPE.md](../experiments/proto-elamite/SCOPE.md).
+Proto-Elamite ([scope](../experiments/proto-elamite/SCOPE.md)): round one recovered the counting
+ratio N14 = 10 N01 blind on proto-cuneiform but missed the grain ratio
+([report](../experiments/proto-elamite/REPORT.md)). Round two searched three systems jointly and
+passed its proto-cuneiform gate. On Proto-Elamite it recovered N14 = 10 N01 (11 tablets) and
+N14 = 6 N01 (9 tablets) from the tablets' own sums
+([report](../experiments/proto-elamite-joint/REPORT.md)). These are the textbook ratios, confirmed
+without assuming them; no sign other than a numeral is read.
