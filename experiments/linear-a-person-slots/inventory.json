@@ -1,0 +1,2351 @@
+{
+  "scope": "Manual development source audit, not independent gold",
+  "faces": {
+    "HT 85a": {
+      "object": "HT 85",
+      "gorila_volume": 1,
+      "printed_pages": [
+        130,
+        131
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/person-slots/gorila-166.jpg",
+        "artifacts/linear-a-sources/person-slots/gorila-167.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%2085a/index-word.html",
+      "erased_sign_n": [],
+      "source_metadata": {
+        "scribe": "HT Scribe 9",
+        "gorila_scribe": "3 HT",
+        "gorila_ref": "1, p. 146"
+      }
+    },
+    "HT 85b": {
+      "object": "HT 85",
+      "gorila_volume": 1,
+      "printed_pages": [
+        132,
+        133
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/person-slots/gorila-168.jpg",
+        "artifacts/linear-a-sources/person-slots/gorila-169.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%2085b/index-word.html",
+      "erased_sign_n": [
+        15,
+        16,
+        17
+      ],
+      "source_metadata": {
+        "scribe": "HT Scribe 9",
+        "gorila_scribe": "3 HT",
+        "gorila_ref": "1, p. 146"
+      }
+    },
+    "HT 117a": {
+      "object": "HT 117",
+      "gorila_volume": 1,
+      "printed_pages": [
+        196,
+        197
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/person-slots/gorila-232.jpg",
+        "artifacts/linear-a-sources/person-slots/gorila-233.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%20117a/index-word.html",
+      "erased_sign_n": [],
+      "source_metadata": {
+        "scribe": "HT Scribe 9",
+        "gorila_scribe": "9 HT",
+        "gorila_ref": "1, p. 196"
+      }
+    },
+    "HT 117b": {
+      "object": "HT 117",
+      "gorila_volume": 1,
+      "printed_pages": [
+        198,
+        199
+      ],
+      "edition_scans": [
+        "artifacts/linear-a-sources/person-slots/gorila-234.jpg",
+        "artifacts/linear-a-sources/person-slots/gorila-235.jpg"
+      ],
+      "sigla_url": "https://sigla.phis.me/document/HT%20117b/index-word.html",
+      "erased_sign_n": [],
+      "source_metadata": {
+        "scribe": "HT Scribe 9",
+        "gorila_scribe": "9 HT",
+        "gorila_ref": "1, p. 196"
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "HT85a:01",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 1,
+      "physical_line": "1",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "a-du · A638 · AB100 (VIR)",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        0
+      ],
+      "source_words": [
+        "a-du"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB08",
+          "role": "syllabogram",
+          "reading": "a",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB51",
+          "role": "syllabogram",
+          "reading": "du",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "A638",
+          "role": "transaction",
+          "reading": "A638",
+          "certain": true
+        },
+        {
+          "n": 4,
+          "type": "AB100",
+          "role": "transaction",
+          "reading": "AB100",
+          "certain": true
+        }
+      ],
+      "raw": "𐘇𐘬𐄁𐜠𐄁𐙇𐄁",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Source roles are transaction signs; VIR supports a personnel context."
+    },
+    {
+      "id": "HT85a:02",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 2,
+      "physical_line": "2",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 12,
+      "quantity_status": "published reading",
+      "working_reading": "da-ri-da",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        1
+      ],
+      "source_words": [
+        "da-ri-da"
+      ],
+      "sign_n": [
+        5,
+        6,
+        7
+      ],
+      "source_signs": [
+        {
+          "n": 5,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "AB53",
+          "role": "syllabogram",
+          "reading": "ri",
+          "certain": true
+        },
+        {
+          "n": 7,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘭𐘀𐄐𐄈",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:03",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 3,
+      "physical_line": "2",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 12,
+      "quantity_status": "published reading",
+      "working_reading": "*56-ni",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        2
+      ],
+      "source_words": [
+        "*56-ni"
+      ],
+      "sign_n": [
+        8,
+        9
+      ],
+      "source_signs": [
+        {
+          "n": 8,
+          "type": "AB56",
+          "role": "syllabogram",
+          "reading": "*56",
+          "certain": true
+        },
+        {
+          "n": 9,
+          "type": "AB30",
+          "role": "syllabogram",
+          "reading": "ni",
+          "certain": true
+        }
+      ],
+      "raw": "𐘰𐘝𐄐𐄈",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:04",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 4,
+      "physical_line": "3",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 6,
+      "quantity_status": "published reading",
+      "working_reading": "u-A325-za",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        3
+      ],
+      "source_words": [
+        "u-A325-za"
+      ],
+      "sign_n": [
+        10,
+        11,
+        12
+      ],
+      "source_signs": [
+        {
+          "n": 10,
+          "type": "AB10",
+          "role": "syllabogram",
+          "reading": "u",
+          "certain": true
+        },
+        {
+          "n": 11,
+          "type": "A325",
+          "role": "syllabogram",
+          "reading": "A325",
+          "certain": true
+        },
+        {
+          "n": 12,
+          "type": "AB17",
+          "role": "syllabogram",
+          "reading": "za",
+          "certain": true
+        }
+      ],
+      "raw": "𐘉𐙱𐘍𐄌",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:05",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 5,
+      "physical_line": "3–4",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 24,
+      "quantity_status": "published reading",
+      "working_reading": "da-si-*118",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        4
+      ],
+      "source_words": [
+        "da-si-*118"
+      ],
+      "sign_n": [
+        13,
+        14,
+        15
+      ],
+      "source_signs": [
+        {
+          "n": 13,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 14,
+          "type": "AB41",
+          "role": "syllabogram",
+          "reading": "si",
+          "certain": true
+        },
+        {
+          "n": 15,
+          "type": "AB118",
+          "role": "syllabogram",
+          "reading": "*118",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘤𐙈𐄑𐄊",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:06",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 6,
+      "physical_line": "4",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 5,
+      "quantity_status": "published reading",
+      "working_reading": "ku-*79-ni",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        5
+      ],
+      "source_words": [
+        "ku-*79-ni"
+      ],
+      "sign_n": [
+        16,
+        17,
+        18
+      ],
+      "source_signs": [
+        {
+          "n": 16,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 17,
+          "type": "AB79",
+          "role": "syllabogram",
+          "reading": "*79",
+          "certain": true
+        },
+        {
+          "n": 18,
+          "type": "AB30",
+          "role": "syllabogram",
+          "reading": "ni",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐙀𐘝𐄋",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:07",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 7,
+      "physical_line": "5",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 3,
+      "quantity_status": "published reading",
+      "working_reading": "te-ke",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        6
+      ],
+      "source_words": [
+        "te-ke"
+      ],
+      "sign_n": [
+        19,
+        20
+      ],
+      "source_signs": [
+        {
+          "n": 19,
+          "type": "AB04",
+          "role": "syllabogram",
+          "reading": "te",
+          "certain": true
+        },
+        {
+          "n": 20,
+          "type": "AB44",
+          "role": "syllabogram",
+          "reading": "ke",
+          "certain": true
+        }
+      ],
+      "raw": "𐘃𐘥𐄉",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:08",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 8,
+      "physical_line": "5",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "lexical_count",
+      "quantity": 4,
+      "quantity_status": "published reading",
+      "working_reading": "da-re",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        7
+      ],
+      "source_words": [
+        "da-re"
+      ],
+      "sign_n": [
+        21,
+        22
+      ],
+      "source_signs": [
+        {
+          "n": 21,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 22,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘙𐄊",
+      "entity_hypothesis": "group label; person/place/occupation/responsibility unresolved",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85a:09",
+      "document": "HT 85a",
+      "object": "HT 85",
+      "logical_row": 9,
+      "physical_line": "6",
+      "edition_page": 131,
+      "section": "a",
+      "kind": "total",
+      "quantity": 66,
+      "quantity_status": "published reading",
+      "working_reading": "ku-ro",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        8
+      ],
+      "source_words": [
+        "ku-ro"
+      ],
+      "sign_n": [
+        23,
+        24
+      ],
+      "source_signs": [
+        {
+          "n": 23,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 24,
+          "type": "AB02",
+          "role": "syllabogram",
+          "reading": "ro",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐘁𐝫𐝫𐄕𐄌",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Published total 66; damaged surface retained. GORILA rejects an apparent extra unit as accidental."
+    },
+    {
+      "id": "HT85b:01",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 1,
+      "physical_line": "1",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "ki-ki-ra-ja",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        0
+      ],
+      "source_words": [
+        "ki-ki-ra-ja"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "AB60",
+          "role": "syllabogram",
+          "reading": "ra",
+          "certain": true
+        },
+        {
+          "n": 4,
+          "type": "AB57",
+          "role": "syllabogram",
+          "reading": "ja",
+          "certain": true
+        }
+      ],
+      "raw": "𐘸𐘸𐘴𐘱𐄁",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:02",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 2,
+      "physical_line": "1–2",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ki-re-ta2",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        1
+      ],
+      "source_words": [
+        "ki-re-ta2"
+      ],
+      "sign_n": [
+        5,
+        6,
+        7
+      ],
+      "source_signs": [
+        {
+          "n": 5,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        },
+        {
+          "n": 7,
+          "type": "AB66",
+          "role": "syllabogram",
+          "reading": "ta2",
+          "certain": true
+        }
+      ],
+      "raw": "𐘸𐘙𐘷𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:03",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 3,
+      "physical_line": "2",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "qe-ka",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        2
+      ],
+      "source_words": [
+        "qe-ka"
+      ],
+      "sign_n": [
+        8,
+        9
+      ],
+      "source_signs": [
+        {
+          "n": 8,
+          "type": "AB78",
+          "role": "syllabogram",
+          "reading": "qe",
+          "certain": true
+        },
+        {
+          "n": 9,
+          "type": "AB77",
+          "role": "syllabogram",
+          "reading": "ka",
+          "certain": true
+        }
+      ],
+      "raw": "𐘿𐘾𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:04",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 4,
+      "physical_line": "2",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "logogram_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "AB03",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [],
+      "source_words": [],
+      "sign_n": [
+        10
+      ],
+      "source_signs": [
+        {
+          "n": 10,
+          "type": "AB03",
+          "role": "logogram",
+          "reading": "AB03",
+          "certain": true
+        }
+      ],
+      "raw": "𐘂𐄇",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "pa: subordinate to qe-ka in the published interpretation."
+    },
+    {
+      "id": "HT85b:05",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 5,
+      "physical_line": "2–3",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "te-tu-[?]",
+      "alternatives": [
+        "te-tu"
+      ],
+      "reading_status": "damage; uncertain whether any sign is missing",
+      "word_indices": [
+        3
+      ],
+      "source_words": [
+        "te-tu-[?]"
+      ],
+      "sign_n": [
+        11,
+        12,
+        13
+      ],
+      "source_signs": [
+        {
+          "n": 11,
+          "type": "AB04",
+          "role": "syllabogram",
+          "reading": "te",
+          "certain": true
+        },
+        {
+          "n": 12,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        },
+        {
+          "n": 13,
+          "type": null,
+          "role": "syllabogram",
+          "reading": null,
+          "certain": false
+        }
+      ],
+      "raw": "𐘃𐘹𐝫𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "GORILA p.133 says the gap may contain no missing sign; do not delete uncertainty."
+    },
+    {
+      "id": "HT85b:06",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 6,
+      "physical_line": "3",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "logogram_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "AB77",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [],
+      "source_words": [],
+      "sign_n": [
+        14
+      ],
+      "source_signs": [
+        {
+          "n": 14,
+          "type": "AB77",
+          "role": "logogram",
+          "reading": "AB77",
+          "certain": true
+        }
+      ],
+      "raw": "𐘾𐄇",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "ka: follows te-tu; GORILA records overwriting in this area."
+    },
+    {
+      "id": "HT85b:07",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 7,
+      "physical_line": "3",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "logogram_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "AB07",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [],
+      "source_words": [],
+      "sign_n": [
+        18
+      ],
+      "source_signs": [
+        {
+          "n": 18,
+          "type": "AB07",
+          "role": "logogram",
+          "reading": "AB07",
+          "certain": true
+        }
+      ],
+      "raw": "𐘆𐄇",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "di: follows te-tu; erased AB07/AB09/AB54 retained separately."
+    },
+    {
+      "id": "HT85b:08",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 8,
+      "physical_line": "3",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "me-za",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        4
+      ],
+      "source_words": [
+        "me-za"
+      ],
+      "sign_n": [
+        19,
+        20
+      ],
+      "source_signs": [
+        {
+          "n": 19,
+          "type": "AB13",
+          "role": "syllabogram",
+          "reading": "me",
+          "certain": true
+        },
+        {
+          "n": 20,
+          "type": "AB17",
+          "role": "syllabogram",
+          "reading": "za",
+          "certain": true
+        }
+      ],
+      "raw": "𐘋𐘍𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:09",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 9,
+      "physical_line": "4",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "re-di-se",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        5
+      ],
+      "source_words": [
+        "re-di-se"
+      ],
+      "sign_n": [
+        21,
+        22,
+        23
+      ],
+      "source_signs": [
+        {
+          "n": 21,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        },
+        {
+          "n": 22,
+          "type": "AB07",
+          "role": "syllabogram",
+          "reading": "di",
+          "certain": true
+        },
+        {
+          "n": 23,
+          "type": "AB09",
+          "role": "syllabogram",
+          "reading": "se",
+          "certain": true
+        }
+      ],
+      "raw": "𐘙𐘆𐘈𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:10",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 10,
+      "physical_line": "4–5",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "wa-du-ni-mi",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        6
+      ],
+      "source_words": [
+        "wa-du-ni-mi"
+      ],
+      "sign_n": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "source_signs": [
+        {
+          "n": 24,
+          "type": "AB54",
+          "role": "syllabogram",
+          "reading": "wa",
+          "certain": true
+        },
+        {
+          "n": 25,
+          "type": "AB51",
+          "role": "syllabogram",
+          "reading": "du",
+          "certain": true
+        },
+        {
+          "n": 26,
+          "type": "AB30",
+          "role": "syllabogram",
+          "reading": "ni",
+          "certain": true
+        },
+        {
+          "n": 27,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        }
+      ],
+      "raw": "𐘮𐘬𐘝𐘻𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:11",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 11,
+      "physical_line": "5",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ma-di",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        7
+      ],
+      "source_words": [
+        "ma-di"
+      ],
+      "sign_n": [
+        28,
+        29
+      ],
+      "source_signs": [
+        {
+          "n": 28,
+          "type": "AB80",
+          "role": "syllabogram",
+          "reading": "ma",
+          "certain": true
+        },
+        {
+          "n": 29,
+          "type": "AB07",
+          "role": "syllabogram",
+          "reading": "di",
+          "certain": true
+        }
+      ],
+      "raw": "𐙁𐘆𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT85b:12",
+      "document": "HT 85b",
+      "object": "HT 85",
+      "logical_row": 12,
+      "physical_line": "5–6",
+      "edition_page": 133,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "qa-A310-i",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        8
+      ],
+      "source_words": [
+        "qa-A310-i"
+      ],
+      "sign_n": [
+        30,
+        31,
+        32
+      ],
+      "source_signs": [
+        {
+          "n": 30,
+          "type": "AB16",
+          "role": "syllabogram",
+          "reading": "qa",
+          "certain": true
+        },
+        {
+          "n": 31,
+          "type": "A310",
+          "role": "syllabogram",
+          "reading": "A310",
+          "certain": true
+        },
+        {
+          "n": 32,
+          "type": "AB28",
+          "role": "syllabogram",
+          "reading": "i",
+          "certain": true
+        }
+      ],
+      "raw": "𐘌𐙠𐘚𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:01",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 1,
+      "physical_line": "1–2",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "ma-ka-ri-te · ki-ro · u-mi-na-si",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        0,
+        1,
+        2
+      ],
+      "source_words": [
+        "ma-ka-ri-te",
+        "ki-ro",
+        "u-mi-na-si"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB80",
+          "role": "syllabogram",
+          "reading": "ma",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB77",
+          "role": "syllabogram",
+          "reading": "ka",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "AB53",
+          "role": "syllabogram",
+          "reading": "ri",
+          "certain": true
+        },
+        {
+          "n": 4,
+          "type": "AB04",
+          "role": "syllabogram",
+          "reading": "te",
+          "certain": true
+        },
+        {
+          "n": 5,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "AB02",
+          "role": "syllabogram",
+          "reading": "ro",
+          "certain": true
+        },
+        {
+          "n": 7,
+          "type": "AB10",
+          "role": "syllabogram",
+          "reading": "u",
+          "certain": true
+        },
+        {
+          "n": 8,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        },
+        {
+          "n": 9,
+          "type": "AB06",
+          "role": "syllabogram",
+          "reading": "na",
+          "certain": true
+        },
+        {
+          "n": 10,
+          "type": "AB41",
+          "role": "syllabogram",
+          "reading": "si",
+          "certain": true
+        }
+      ],
+      "raw": "𐙁𐘾𐘭𐘃𐄁𐘸𐘁𐄁𐘉𐘻𐘅𐘤𐄁",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "Three divided words; a header, not three named relatives."
+    },
+    {
+      "id": "HT117a:02",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 2,
+      "physical_line": "2",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "u-su",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        3
+      ],
+      "source_words": [
+        "u-su"
+      ],
+      "sign_n": [
+        11,
+        12
+      ],
+      "source_signs": [
+        {
+          "n": 11,
+          "type": "AB10",
+          "role": "syllabogram",
+          "reading": "u",
+          "certain": true
+        },
+        {
+          "n": 12,
+          "type": "AB58",
+          "role": "syllabogram",
+          "reading": "su",
+          "certain": true
+        }
+      ],
+      "raw": "𐘉𐘲𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:03",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 3,
+      "physical_line": "2",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "mi-tu",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        4
+      ],
+      "source_words": [
+        "mi-tu"
+      ],
+      "sign_n": [
+        13,
+        14
+      ],
+      "source_signs": [
+        {
+          "n": 13,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        },
+        {
+          "n": 14,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        }
+      ],
+      "raw": "𐘻𐘹𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:04",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 4,
+      "physical_line": "2–3",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ku-ra-mu",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        5
+      ],
+      "source_words": [
+        "ku-ra-mu"
+      ],
+      "sign_n": [
+        15,
+        16,
+        17
+      ],
+      "source_signs": [
+        {
+          "n": 15,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 16,
+          "type": "AB60",
+          "role": "syllabogram",
+          "reading": "ra",
+          "certain": true
+        },
+        {
+          "n": 17,
+          "type": "AB23",
+          "role": "syllabogram",
+          "reading": "mu",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐘴𐘕𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:05",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 5,
+      "physical_line": "3",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ma-ru",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        6
+      ],
+      "source_words": [
+        "ma-ru"
+      ],
+      "sign_n": [
+        18,
+        19
+      ],
+      "source_signs": [
+        {
+          "n": 18,
+          "type": "AB80",
+          "role": "syllabogram",
+          "reading": "ma",
+          "certain": true
+        },
+        {
+          "n": 19,
+          "type": "AB26",
+          "role": "syllabogram",
+          "reading": "ru",
+          "certain": true
+        }
+      ],
+      "raw": "𐙁𐘘𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:06",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 6,
+      "physical_line": "3",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ku-*56-nu",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        7
+      ],
+      "source_words": [
+        "ku-*56-nu"
+      ],
+      "sign_n": [
+        20,
+        21,
+        22
+      ],
+      "source_signs": [
+        {
+          "n": 20,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 21,
+          "type": "AB56",
+          "role": "syllabogram",
+          "reading": "*56",
+          "certain": true
+        },
+        {
+          "n": 22,
+          "type": "AB55",
+          "role": "syllabogram",
+          "reading": "nu",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐘰𐘯𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:07",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 7,
+      "physical_line": "3–4",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "tu-ju-ma",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        8
+      ],
+      "source_words": [
+        "tu-ju-ma"
+      ],
+      "sign_n": [
+        23,
+        24,
+        25
+      ],
+      "source_signs": [
+        {
+          "n": 23,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        },
+        {
+          "n": 24,
+          "type": "AB65",
+          "role": "syllabogram",
+          "reading": "ju",
+          "certain": true
+        },
+        {
+          "n": 25,
+          "type": "AB80",
+          "role": "syllabogram",
+          "reading": "ma",
+          "certain": true
+        }
+      ],
+      "raw": "𐘹𐘶𐙁𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:08",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 8,
+      "physical_line": "4",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "u-di-mi",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        9
+      ],
+      "source_words": [
+        "u-di-mi"
+      ],
+      "sign_n": [
+        26,
+        27,
+        28
+      ],
+      "source_signs": [
+        {
+          "n": 26,
+          "type": "AB10",
+          "role": "syllabogram",
+          "reading": "u",
+          "certain": true
+        },
+        {
+          "n": 27,
+          "type": "AB07",
+          "role": "syllabogram",
+          "reading": "di",
+          "certain": true
+        },
+        {
+          "n": 28,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        }
+      ],
+      "raw": "𐘉𐘆𐘻𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:09",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 9,
+      "physical_line": "4–5",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "mi-ru-ta-ra-re",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        10
+      ],
+      "source_words": [
+        "mi-ru-ta-ra-re"
+      ],
+      "sign_n": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "source_signs": [
+        {
+          "n": 29,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        },
+        {
+          "n": 30,
+          "type": "AB26",
+          "role": "syllabogram",
+          "reading": "ru",
+          "certain": true
+        },
+        {
+          "n": 31,
+          "type": "AB59",
+          "role": "syllabogram",
+          "reading": "ta",
+          "certain": true
+        },
+        {
+          "n": 32,
+          "type": "AB60",
+          "role": "syllabogram",
+          "reading": "ra",
+          "certain": true
+        },
+        {
+          "n": 33,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        }
+      ],
+      "raw": "𐘻𐘘𐘳𐘴𐘙𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:10",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 10,
+      "physical_line": "5",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "te-ja-re",
+      "alternatives": [
+        "te-*56-re"
+      ],
+      "reading_status": "provisional edition-supported preference; live source disagreement remains",
+      "word_indices": [
+        11
+      ],
+      "source_words": [
+        "te-*56-re"
+      ],
+      "sign_n": [
+        34,
+        35,
+        36
+      ],
+      "source_signs": [
+        {
+          "n": 34,
+          "type": "AB04",
+          "role": "syllabogram",
+          "reading": "te",
+          "certain": true
+        },
+        {
+          "n": 35,
+          "type": "AB56",
+          "role": "syllabogram",
+          "reading": "*56",
+          "certain": true
+        },
+        {
+          "n": 36,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        }
+      ],
+      "raw": "𐘃𐘱𐘙𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": "GORILA p.197 middle sign is AB57; compare AB56 in row 6. SigLA word/sign layer still has AB56."
+    },
+    {
+      "id": "HT117a:11",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 11,
+      "physical_line": "5",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "na-da-re",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        12
+      ],
+      "source_words": [
+        "na-da-re"
+      ],
+      "sign_n": [
+        37,
+        38,
+        39
+      ],
+      "source_signs": [
+        {
+          "n": 37,
+          "type": "AB06",
+          "role": "syllabogram",
+          "reading": "na",
+          "certain": true
+        },
+        {
+          "n": 38,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 39,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        }
+      ],
+      "raw": "𐘅𐘀𐘙𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:12",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 12,
+      "physical_line": "6",
+      "edition_page": 197,
+      "section": "a1",
+      "kind": "total",
+      "quantity": 10,
+      "quantity_status": "published reading",
+      "working_reading": "ku-ro",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        13
+      ],
+      "source_words": [
+        "ku-ro"
+      ],
+      "sign_n": [
+        40,
+        41
+      ],
+      "source_signs": [
+        {
+          "n": 40,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 41,
+          "type": "AB02",
+          "role": "syllabogram",
+          "reading": "ro",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐘁𐄐",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:13",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 13,
+      "physical_line": "after 6",
+      "edition_page": 197,
+      "section": "boundary",
+      "kind": "separator",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "—",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [],
+      "source_words": [],
+      "sign_n": [],
+      "source_signs": [],
+      "raw": "—",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:14",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 14,
+      "physical_line": "7",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "sa-ta",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        14
+      ],
+      "source_words": [
+        "sa-ta"
+      ],
+      "sign_n": [
+        42,
+        43
+      ],
+      "source_signs": [
+        {
+          "n": 42,
+          "type": "AB31",
+          "role": "syllabogram",
+          "reading": "sa",
+          "certain": true
+        },
+        {
+          "n": 43,
+          "type": "AB59",
+          "role": "syllabogram",
+          "reading": "ta",
+          "certain": true
+        }
+      ],
+      "raw": "𐘞𐘳𐄁",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:15",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 15,
+      "physical_line": "7",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ku-ku-da-ra",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        15
+      ],
+      "source_words": [
+        "ku-ku-da-ra"
+      ],
+      "sign_n": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "source_signs": [
+        {
+          "n": 44,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 45,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 46,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 47,
+          "type": "AB60",
+          "role": "syllabogram",
+          "reading": "ra",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐙂𐘀𐘴𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:16",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 16,
+      "physical_line": "7–8",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ko-sa-i-ti",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        16
+      ],
+      "source_words": [
+        "ko-sa-i-ti"
+      ],
+      "sign_n": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "source_signs": [
+        {
+          "n": 48,
+          "type": "AB70",
+          "role": "syllabogram",
+          "reading": "ko",
+          "certain": true
+        },
+        {
+          "n": 49,
+          "type": "AB31",
+          "role": "syllabogram",
+          "reading": "sa",
+          "certain": true
+        },
+        {
+          "n": 50,
+          "type": "AB28",
+          "role": "syllabogram",
+          "reading": "i",
+          "certain": true
+        },
+        {
+          "n": 51,
+          "type": "AB37",
+          "role": "syllabogram",
+          "reading": "ti",
+          "certain": true
+        }
+      ],
+      "raw": "𐘺𐘞𐘚𐘠𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:17",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 17,
+      "physical_line": "8",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "da-mi-nu",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        17
+      ],
+      "source_words": [
+        "da-mi-nu"
+      ],
+      "sign_n": [
+        52,
+        53,
+        54
+      ],
+      "source_signs": [
+        {
+          "n": 52,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 53,
+          "type": "AB73",
+          "role": "syllabogram",
+          "reading": "mi",
+          "certain": true
+        },
+        {
+          "n": 54,
+          "type": "AB55",
+          "role": "syllabogram",
+          "reading": "nu",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘻𐘯𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:18",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 18,
+      "physical_line": "8–9",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "da-ne-ku-ti",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        18
+      ],
+      "source_words": [
+        "da-ne-ku-ti"
+      ],
+      "sign_n": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "source_signs": [
+        {
+          "n": 55,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 56,
+          "type": "AB24",
+          "role": "syllabogram",
+          "reading": "ne",
+          "certain": true
+        },
+        {
+          "n": 57,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 58,
+          "type": "AB37",
+          "role": "syllabogram",
+          "reading": "ti",
+          "certain": true
+        }
+      ],
+      "raw": "𐘀𐘗𐙂𐘠𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117a:19",
+      "document": "HT 117a",
+      "object": "HT 117",
+      "logical_row": 19,
+      "physical_line": "9",
+      "edition_page": 197,
+      "section": "a2",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ki-da-ro",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        19
+      ],
+      "source_words": [
+        "ki-da-ro"
+      ],
+      "sign_n": [
+        59,
+        60,
+        61
+      ],
+      "source_signs": [
+        {
+          "n": 59,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 60,
+          "type": "AB01",
+          "role": "syllabogram",
+          "reading": "da",
+          "certain": true
+        },
+        {
+          "n": 61,
+          "type": "AB02",
+          "role": "syllabogram",
+          "reading": "ro",
+          "certain": true
+        }
+      ],
+      "raw": "𐘸𐘀𐘁𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117b:01",
+      "document": "HT 117b",
+      "object": "HT 117",
+      "logical_row": 1,
+      "physical_line": "1",
+      "edition_page": 199,
+      "section": "b",
+      "kind": "header",
+      "quantity": null,
+      "quantity_status": "not applicable",
+      "working_reading": "qi-tu-ne",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        0
+      ],
+      "source_words": [
+        "qi-tu-ne"
+      ],
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "source_signs": [
+        {
+          "n": 1,
+          "type": "AB21f",
+          "role": "syllabogram",
+          "reading": "qi",
+          "certain": true
+        },
+        {
+          "n": 2,
+          "type": "AB69",
+          "role": "syllabogram",
+          "reading": "tu",
+          "certain": true
+        },
+        {
+          "n": 3,
+          "type": "AB24",
+          "role": "syllabogram",
+          "reading": "ne",
+          "certain": true
+        }
+      ],
+      "raw": "𐘐𐘹𐘗𐄁",
+      "entity_hypothesis": "not labelled as a personal name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117b:02",
+      "document": "HT 117b",
+      "object": "HT 117",
+      "logical_row": 2,
+      "physical_line": "1",
+      "edition_page": 199,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "ku-re-ju",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        1
+      ],
+      "source_words": [
+        "ku-re-ju"
+      ],
+      "sign_n": [
+        4,
+        5,
+        6
+      ],
+      "source_signs": [
+        {
+          "n": 4,
+          "type": "AB81",
+          "role": "syllabogram",
+          "reading": "ku",
+          "certain": true
+        },
+        {
+          "n": 5,
+          "type": "AB27",
+          "role": "syllabogram",
+          "reading": "re",
+          "certain": true
+        },
+        {
+          "n": 6,
+          "type": "AB65",
+          "role": "syllabogram",
+          "reading": "ju",
+          "certain": true
+        }
+      ],
+      "raw": "𐙂𐘙𐘶𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    },
+    {
+      "id": "HT117b:03",
+      "document": "HT 117b",
+      "object": "HT 117",
+      "logical_row": 3,
+      "physical_line": "2",
+      "edition_page": 199,
+      "section": "b",
+      "kind": "lexical_count",
+      "quantity": 1,
+      "quantity_status": "published reading",
+      "working_reading": "di-ki-se",
+      "alternatives": [],
+      "reading_status": "no recorded local disagreement",
+      "word_indices": [
+        2
+      ],
+      "source_words": [
+        "di-ki-se"
+      ],
+      "sign_n": [
+        7,
+        8,
+        9
+      ],
+      "source_signs": [
+        {
+          "n": 7,
+          "type": "AB07",
+          "role": "syllabogram",
+          "reading": "di",
+          "certain": true
+        },
+        {
+          "n": 8,
+          "type": "AB67",
+          "role": "syllabogram",
+          "reading": "ki",
+          "certain": true
+        },
+        {
+          "n": 9,
+          "type": "AB09",
+          "role": "syllabogram",
+          "reading": "se",
+          "certain": true
+        }
+      ],
+      "raw": "𐘆𐘸𐘈𐄇",
+      "entity_hypothesis": "possible individual or designation; not a certified name",
+      "gender": "unknown",
+      "kinship_relation": null,
+      "note": ""
+    }
+  ]
+}
