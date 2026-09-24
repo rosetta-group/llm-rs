@@ -1,0 +1,133 @@
+{
+  "source": "verse",
+  "candidate": "glue",
+  "seed": 7000,
+  "rows": [
+    {
+      "letters": 10400,
+      "candidate": "glue",
+      "settings": {
+        "minimum": 8,
+        "prune_usage": 4.242640687119286,
+        "repair_minimum": 3,
+        "repair_usage_floor": 1.4142135623730951,
+        "refine_cap": 600.0,
+        "polish_cap": 2400.0
+      },
+      "tokens": 6854,
+      "refined_cer": 0.32096153846153846,
+      "polished_cer": 0.3578846153846154,
+      "agreement": 0.735191129267581,
+      "misparsed": {
+        "whole->split": 1600,
+        "split->split": 159,
+        "split->whole": 56
+      },
+      "tokens_correct": 0.735191129267581,
+      "letters_in_correct_tokens": 8370,
+      "wrong_letters_in_correct_tokens": 593,
+      "error_rate_in_correct_tokens": 0.07084826762246117,
+      "letters_in_misparsed_tokens": 2030,
+      "share_of_letters_misparsed": 0.1951923076923077,
+      "reparse_rounds": [],
+      "repair_record": [
+        {
+          "usage_pruned": 0,
+          "concatenations_dropped": 53,
+          "complements_admitted": 151,
+          "pieces": 397,
+          "log_likelihood": -53708.435483449524,
+          "cap_hit": false
+        },
+        {
+          "usage_pruned": 95,
+          "concatenations_dropped": 38,
+          "complements_admitted": 55,
+          "pieces": 319,
+          "log_likelihood": -54600.132546747096,
+          "cap_hit": false
+        }
+      ],
+      "lexicon": {
+        "pieces": 319,
+        "true": 261,
+        "spurious": 58,
+        "missing": 69
+      },
+      "wer_v3": 1.423310400647511,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 2117.412880416028
+    },
+    {
+      "letters": 20800,
+      "candidate": "glue",
+      "settings": {
+        "minimum": 12,
+        "prune_usage": 6.0,
+        "repair_minimum": 4,
+        "repair_usage_floor": 2.0,
+        "refine_cap": 1200.0,
+        "polish_cap": 4800.0
+      },
+      "tokens": 13638,
+      "refined_cer": 0.8636538461538461,
+      "polished_cer": 0.8666346153846154,
+      "agreement": 0.6904971403431588,
+      "misparsed": {
+        "whole->split": 3691,
+        "split->whole": 209,
+        "split->split": 321
+      },
+      "tokens_correct": 0.6904971403431588,
+      "letters_in_correct_tokens": 16049,
+      "wrong_letters_in_correct_tokens": 14562,
+      "error_rate_in_correct_tokens": 0.9073462521029347,
+      "letters_in_misparsed_tokens": 4751,
+      "share_of_letters_misparsed": 0.22841346153846154,
+      "reparse_rounds": [],
+      "repair_record": [
+        {
+          "usage_pruned": 0,
+          "concatenations_dropped": 90,
+          "complements_admitted": 222,
+          "pieces": 471,
+          "log_likelihood": -106314.51906633347,
+          "cap_hit": false
+        },
+        {
+          "usage_pruned": 158,
+          "concatenations_dropped": 55,
+          "complements_admitted": 149,
+          "pieces": 407,
+          "log_likelihood": -109254.02734445405,
+          "cap_hit": false
+        }
+      ],
+      "lexicon": {
+        "pieces": 407,
+        "true": 260,
+        "spurious": 147,
+        "missing": 74
+      },
+      "wer_v3": 1.7239312824610467,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 4135.674132250017
+    }
+  ],
+  "protocol_sha256": "e3c8bad7ff723f06e3459e67cccff09c01bb7157b5e5f9d8a2b792cb687cddc0",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790207813.14353
+}

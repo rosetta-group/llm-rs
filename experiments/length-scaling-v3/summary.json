@@ -1,0 +1,312 @@
+{
+  "baseline_sqrt": {
+    "10400": 0.031858974358974355,
+    "20800": 0.03246794871794872
+  },
+  "means": {
+    "glue": {
+      "10400": 0.48935897435897435,
+      "20800": 0.5959294871794872
+    },
+    "reparse": {
+      "10400": 0.02448717948717949,
+      "20800": 0.017868589743589746
+    }
+  },
+  "selected": "reparse",
+  "long_passage_round": true,
+  "table": {
+    "glue": {
+      "historical": {
+        "10400": {
+          "polished_cer": 0.6407692307692308,
+          "agreement": 0.6797490516486723,
+          "wer_v3": 1.6690203000882613,
+          "lexicon": {
+            "pieces": 314,
+            "true": 241,
+            "spurious": 73,
+            "missing": 84
+          },
+          "misparsed": {
+            "whole->split": 1982,
+            "split->split": 147,
+            "split->whole": 66
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.5671634615384615,
+          "agreement": 0.6385100454612114,
+          "wer_v3": 1.6152326602282705,
+          "lexicon": {
+            "pieces": 429,
+            "true": 243,
+            "spurious": 186,
+            "missing": 91
+          },
+          "misparsed": {
+            "whole->split": 4401,
+            "split->whole": 267,
+            "split->split": 262
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "modern": {
+        "10400": {
+          "polished_cer": 0.46942307692307694,
+          "agreement": 0.725999416399183,
+          "wer_v3": 1.5924287118977385,
+          "lexicon": {
+            "pieces": 320,
+            "true": 259,
+            "spurious": 61,
+            "missing": 73
+          },
+          "misparsed": {
+            "whole->split": 1661,
+            "split->split": 144,
+            "split->whole": 73
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.3539903846153846,
+          "agreement": 0.6704795424549054,
+          "wer_v3": 1.672271016311167,
+          "lexicon": {
+            "pieces": 452,
+            "true": 250,
+            "spurious": 202,
+            "missing": 89
+          },
+          "misparsed": {
+            "whole->split": 3985,
+            "split->split": 290,
+            "split->whole": 219
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": true,
+            "polish": false
+          }
+        }
+      },
+      "verse": {
+        "10400": {
+          "polished_cer": 0.3578846153846154,
+          "agreement": 0.735191129267581,
+          "wer_v3": 1.423310400647511,
+          "lexicon": {
+            "pieces": 319,
+            "true": 261,
+            "spurious": 58,
+            "missing": 69
+          },
+          "misparsed": {
+            "whole->split": 1600,
+            "split->split": 159,
+            "split->whole": 56
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.8666346153846154,
+          "agreement": 0.6904971403431588,
+          "wer_v3": 1.7239312824610467,
+          "lexicon": {
+            "pieces": 407,
+            "true": 260,
+            "spurious": 147,
+            "missing": 74
+          },
+          "misparsed": {
+            "whole->split": 3691,
+            "split->whole": 209,
+            "split->split": 321
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      }
+    },
+    "reparse": {
+      "historical": {
+        "10400": {
+          "polished_cer": 0.030096153846153845,
+          "agreement": 0.9569594397432156,
+          "wer_v3": 0.2687555163283319,
+          "lexicon": {
+            "pieces": 350,
+            "true": 283,
+            "spurious": 67,
+            "missing": 42
+          },
+          "misparsed": {
+            "whole->split": 122,
+            "split->split": 141,
+            "split->whole": 32
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.017740384615384616,
+          "agreement": 0.9634110573397859,
+          "wer_v3": 0.20939420544337137,
+          "lexicon": {
+            "pieces": 496,
+            "true": 296,
+            "spurious": 200,
+            "missing": 38
+          },
+          "misparsed": {
+            "split->split": 269,
+            "whole->split": 181,
+            "split->whole": 49
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "modern": {
+        "10400": {
+          "polished_cer": 0.021826923076923077,
+          "agreement": 0.9649839509775314,
+          "wer_v3": 0.1902654867256637,
+          "lexicon": {
+            "pieces": 355,
+            "true": 295,
+            "spurious": 60,
+            "missing": 37
+          },
+          "misparsed": {
+            "split->split": 126,
+            "split->whole": 31,
+            "whole->split": 83
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.013076923076923076,
+          "agreement": 0.9675172312655814,
+          "wer_v3": 0.12848180677540777,
+          "lexicon": {
+            "pieces": 486,
+            "true": 305,
+            "spurious": 181,
+            "missing": 34
+          },
+          "misparsed": {
+            "split->split": 286,
+            "split->whole": 51,
+            "whole->split": 106
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      },
+      "verse": {
+        "10400": {
+          "polished_cer": 0.021538461538461538,
+          "agreement": 0.9590020426028596,
+          "wer_v3": 0.29218939700526103,
+          "lexicon": {
+            "pieces": 379,
+            "true": 296,
+            "spurious": 83,
+            "missing": 34
+          },
+          "misparsed": {
+            "split->split": 161,
+            "split->whole": 33,
+            "whole->split": 87
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        },
+        "20800": {
+          "polished_cer": 0.02278846153846154,
+          "agreement": 0.9594515324827687,
+          "wer_v3": 0.2922493008389932,
+          "lexicon": {
+            "pieces": 479,
+            "true": 301,
+            "spurious": 178,
+            "missing": 33
+          },
+          "misparsed": {
+            "whole->split": 218,
+            "split->split": 297,
+            "split->whole": 38
+          },
+          "cap_hits": {
+            "first": false,
+            "second": false,
+            "repair": false,
+            "refine": false,
+            "polish": false
+          }
+        }
+      }
+    }
+  }
+}

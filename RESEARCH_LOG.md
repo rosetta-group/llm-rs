@@ -78,6 +78,16 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: context reparse with key refit: Naibbe CER 1.79% at 20,800 letters (development).**
+Declared before running (`3171cbb`, cherry-picked). Against the square-root length baseline
+(3.19% / 3.25%), two rounds of full-context reparse with key refit gave mean CER 2.45% at
+10,400 and 1.79% at 20,800. Modern reached 1.31% CER and 12.8% WER, historical 1.77% and
+20.9%, verse 2.28% and 29.2%. It converges in two rounds. The earlier fixed-key reparse
+failed; the difference is refitting the key. Selected under the declared rule, and 1.79% is
+at or below 2.81%, so a sealed long-passage round is licensed. The second candidate, a
+self-inclusive glue test, collapses (CER 35–87%): the add-back also sinks true one-letter
+pieces. [Report](experiments/length-scaling-v3/REPORT.md).
+
 **2026-09-23: length-aware lexicon: linear scaling fails; square root levels off at ~3.2% CER.**
 Declared before running. Count thresholds (candidate, prune, repair) and the refine/polish caps
 were scaled with length. Linear scaling (primary) gave a mean CER of 4.78% at 10,400 and 5.14%

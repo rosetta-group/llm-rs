@@ -1,0 +1,159 @@
+{
+  "source": "modern",
+  "candidate": "reparse",
+  "seed": 7000,
+  "rows": [
+    {
+      "letters": 10400,
+      "candidate": "reparse",
+      "settings": {
+        "minimum": 8,
+        "prune_usage": 4.242640687119286,
+        "repair_minimum": 3,
+        "repair_usage_floor": 1.4142135623730951,
+        "refine_cap": 600.0,
+        "polish_cap": 2400.0
+      },
+      "tokens": 6854,
+      "refined_cer": 0.022307692307692306,
+      "polished_cer": 0.021826923076923077,
+      "agreement": 0.9649839509775314,
+      "misparsed": {
+        "split->split": 126,
+        "split->whole": 31,
+        "whole->split": 83
+      },
+      "tokens_correct": 0.9649839509775314,
+      "letters_in_correct_tokens": 10003,
+      "wrong_letters_in_correct_tokens": 26,
+      "error_rate_in_correct_tokens": 0.002599220233929821,
+      "letters_in_misparsed_tokens": 397,
+      "share_of_letters_misparsed": 0.03817307692307692,
+      "reparse_rounds": [
+        {
+          "changed_parses": 63,
+          "reparse_seconds": 5.874465290922672,
+          "cer": 0.022692307692307692,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 2,
+          "reparse_seconds": 2.760958666098304,
+          "cer": 0.022307692307692306,
+          "refine_cap_hit": false
+        }
+      ],
+      "repair_record": [
+        {
+          "usage_pruned": 0,
+          "concatenations_dropped": 32,
+          "complements_admitted": 147,
+          "pieces": 410,
+          "log_likelihood": -49895.566476418004,
+          "cap_hit": false
+        },
+        {
+          "usage_pruned": 94,
+          "concatenations_dropped": 19,
+          "complements_admitted": 58,
+          "pieces": 355,
+          "log_likelihood": -49805.87600189489,
+          "cap_hit": false
+        }
+      ],
+      "lexicon": {
+        "pieces": 355,
+        "true": 295,
+        "spurious": 60,
+        "missing": 37
+      },
+      "wer_v3": 0.1902654867256637,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 2127.9324617909733
+    },
+    {
+      "letters": 20800,
+      "candidate": "reparse",
+      "settings": {
+        "minimum": 12,
+        "prune_usage": 6.0,
+        "repair_minimum": 4,
+        "repair_usage_floor": 2.0,
+        "refine_cap": 1200.0,
+        "polish_cap": 4800.0
+      },
+      "tokens": 13638,
+      "refined_cer": 0.013365384615384616,
+      "polished_cer": 0.013076923076923076,
+      "agreement": 0.9675172312655814,
+      "misparsed": {
+        "split->split": 286,
+        "split->whole": 51,
+        "whole->split": 106
+      },
+      "tokens_correct": 0.9675172312655814,
+      "letters_in_correct_tokens": 20020,
+      "wrong_letters_in_correct_tokens": 4,
+      "error_rate_in_correct_tokens": 0.0001998001998001998,
+      "letters_in_misparsed_tokens": 780,
+      "share_of_letters_misparsed": 0.0375,
+      "reparse_rounds": [
+        {
+          "changed_parses": 189,
+          "reparse_seconds": 13.15695383399725,
+          "cer": 0.014182692307692308,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 11,
+          "reparse_seconds": 3.4985745410667732,
+          "cer": 0.013365384615384616,
+          "refine_cap_hit": false
+        }
+      ],
+      "repair_record": [
+        {
+          "usage_pruned": 0,
+          "concatenations_dropped": 52,
+          "complements_admitted": 232,
+          "pieces": 512,
+          "log_likelihood": -96454.6557995689,
+          "cap_hit": false
+        },
+        {
+          "usage_pruned": 175,
+          "concatenations_dropped": 39,
+          "complements_admitted": 188,
+          "pieces": 486,
+          "log_likelihood": -96404.34294870292,
+          "cap_hit": false
+        }
+      ],
+      "lexicon": {
+        "pieces": 486,
+        "true": 305,
+        "spurious": 181,
+        "missing": 34
+      },
+      "wer_v3": 0.12848180677540777,
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false,
+        "polish": false
+      },
+      "seconds": 4233.194623291027
+    }
+  ],
+  "protocol_sha256": "e3c8bad7ff723f06e3459e67cccff09c01bb7157b5e5f9d8a2b792cb687cddc0",
+  "development_only": true,
+  "voynich_used": false,
+  "at": 1790207921.609623
+}
