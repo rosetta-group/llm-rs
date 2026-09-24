@@ -78,6 +78,15 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: Naibbe reaches the Voynich near-duplicate rate only with heavy letter pairing.**
+Declared grid: 5 plaintext languages × RESPACING {9, 17, 27} × deck {56, 78} × space removal
+{0, 0.03, 0.10}, two seeds each. 16 of 90 configurations reach the EVA figure (8.33%), all at
+RESPACING 9 (75% of letters paired); the best is 9.36%. None reaches v101's 12.20%. Published
+settings give 5.8–6.7%, reproducing the published sample. At the matching settings, hapax share
+of types is 55–62% against the Voynich 71%. So this statistic does not rule Naibbe out, but it
+constrains it, and a second statistic disagrees. The decoder has only been tested at RESPACING 17.
+[Report](experiments/naibbe-near-duplicates/REPORT.md).
+
 **2026-09-24: round six (sealed): context reparse gives Naibbe CER 1.78%, WER 22.7% at 20,800 letters.**
 Six sealed ciphertext-only cases of about 20,900 letters: two fresh Dante, two unused Compagni, two
 ParTUT train (downloaded and pinned before any passage). Paired arms. Square-root baseline S:
