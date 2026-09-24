@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "all": {
+      "S": {
+        "cases": 6,
+        "cer": 0.038763704742478325,
+        "wer": 0.3138883596875595,
+        "gate_passes": 0
+      },
+      "R": {
+        "cases": 6,
+        "cer": 0.017848036715961243,
+        "wer": 0.22739569441798438,
+        "gate_passes": 0
+      }
+    },
+    "dante": {
+      "S": {
+        "cases": 2,
+        "cer": 0.04053892072015918,
+        "wer": 0.3509135802469136,
+        "gate_passes": 0
+      },
+      "R": {
+        "cases": 2,
+        "cer": 0.020688993838851196,
+        "wer": 0.28503703703703703,
+        "gate_passes": 0
+      }
+    },
+    "compagni": {
+      "S": {
+        "cases": 2,
+        "cer": 0.03650970977633049,
+        "wer": 0.3284414106939704,
+        "gate_passes": 0
+      },
+      "R": {
+        "cases": 2,
+        "cer": 0.015972998027144587,
+        "wer": 0.24835039817974972,
+        "gate_passes": 0
+      }
+    },
+    "modern": {
+      "S": {
+        "cases": 2,
+        "cer": 0.039261744966442955,
+        "wer": 0.24529331514324693,
+        "gate_passes": 0
+      },
+      "R": {
+        "cases": 2,
+        "cer": 0.016898370086289548,
+        "wer": 0.12264665757162346,
+        "gate_passes": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "026c7440ab40aa5d",
+      "dataset": "dante",
+      "characters": 20878,
+      "words": 5107,
+      "S": {
+        "character_errors": 809,
+        "word_errors": 1795,
+        "cer": 0.03874892231056615,
+        "wer": 0.3514783630311337,
+        "gate": false,
+        "agreement": 0.9447546282691742,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 352,
+        "word_errors": 1418,
+        "cer": 0.01685985247629083,
+        "wer": 0.2776581163109458,
+        "gate": false,
+        "agreement": 0.9605495151337056,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 293,
+          "seconds": 11.384224916924722,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 27,
+          "seconds": 8.364066750044003,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4609.912716374965
+    },
+    {
+      "id": "2aee538bf0979b62",
+      "dataset": "modern",
+      "characters": 20902,
+      "words": 3617,
+      "S": {
+        "character_errors": 851,
+        "word_errors": 1000,
+        "cer": 0.04071380729116831,
+        "wer": 0.2764722145424385,
+        "gate": false,
+        "agreement": 0.932401950083679,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 416,
+        "word_errors": 552,
+        "cer": 0.019902401684049373,
+        "wer": 0.15261266242742605,
+        "gate": false,
+        "agreement": 0.9478279851560795,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 263,
+          "seconds": 8.184381915954873,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 13,
+          "seconds": 10.341376291005872,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4708.713139833999
+    },
+    {
+      "id": "912d7027fb183f81",
+      "dataset": "dante",
+      "characters": 20835,
+      "words": 5018,
+      "S": {
+        "character_errors": 882,
+        "word_errors": 1758,
+        "cer": 0.042332613390928725,
+        "wer": 0.35033878039059385,
+        "gate": false,
+        "agreement": 0.932908051033876,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 511,
+        "word_errors": 1468,
+        "cer": 0.024526037916966642,
+        "wer": 0.29254683140693505,
+        "gate": false,
+        "agreement": 0.9461064672239331,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 251,
+          "seconds": 2.030203333008103,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 24,
+          "seconds": 6.48985537502449,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4476.2812655420275
+    },
+    {
+      "id": "bb3a183d20010298",
+      "dataset": "compagni",
+      "characters": 21071,
+      "words": 4418,
+      "S": {
+        "character_errors": 909,
+        "word_errors": 1504,
+        "cer": 0.04313986047173841,
+        "wer": 0.3404255319148936,
+        "gate": false,
+        "agreement": 0.943331882165143,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 321,
+        "word_errors": 1045,
+        "cer": 0.015234208153386171,
+        "wer": 0.2365323675871435,
+        "gate": false,
+        "agreement": 0.9656073138876796,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 346,
+          "seconds": 5.314080458017997,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 36,
+          "seconds": 12.713662749971263,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4710.391839249991
+    },
+    {
+      "id": "bf04b96142c76e31",
+      "dataset": "modern",
+      "characters": 20818,
+      "words": 3713,
+      "S": {
+        "character_errors": 787,
+        "word_errors": 798,
+        "cer": 0.037803823614180034,
+        "wer": 0.2149205494209534,
+        "gate": false,
+        "agreement": 0.9403204468616787,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 289,
+        "word_errors": 347,
+        "cer": 0.01388221731194159,
+        "wer": 0.09345542687853488,
+        "gate": false,
+        "agreement": 0.9582537115978245,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 265,
+          "seconds": 14.184815958025865,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 10,
+          "seconds": 8.56291208404582,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4750.654445959022
+    },
+    {
+      "id": "e373535c950fb3ce",
+      "dataset": "compagni",
+      "characters": 21000,
+      "words": 4372,
+      "S": {
+        "character_errors": 627,
+        "word_errors": 1383,
+        "cer": 0.029857142857142856,
+        "wer": 0.31633119853613906,
+        "gate": false,
+        "agreement": 0.9507109004739337,
+        "polish_cap_hit": false
+      },
+      "R": {
+        "character_errors": 351,
+        "word_errors": 1138,
+        "cer": 0.016714285714285713,
+        "wer": 0.26029277218664226,
+        "gate": false,
+        "agreement": 0.9606999635435655,
+        "polish_cap_hit": false
+      },
+      "reparse_rounds": [
+        {
+          "changed_parses": 206,
+          "seconds": 2.0068025840446353,
+          "refine_cap_hit": false
+        },
+        {
+          "changed_parses": 28,
+          "seconds": 13.461557541973889,
+          "refine_cap_hit": false
+        }
+      ],
+      "cap_hits": {
+        "first": false,
+        "second": false,
+        "repair": false,
+        "refine": false
+      },
+      "seconds": 4683.34005179198
+    }
+  ],
+  "primary_passed": true,
+  "naibbe_gate": false,
+  "challenge": {
+    "public_sha256": "af62d63be89dfe8060ff50f9ce1496e87f73f10dd39b2abe8386d472e2b7a225",
+    "answers_sha256": "c72a81ecc112ba1fe2697f20ce8dac2709b67745acac61e8bca10ef647dd3eab",
+    "freeze_sha256": "6c550133b81ccc3d27c7eb212697b1985488bf2720ab01d4a52b0c8d21ce21fd",
+    "sources_sha256": "712dbf5cc32e68361f47a97ef51cdf8bc14b2abd7b5c149e49bc196cf20c469f",
+    "head_commit": "95c70ae4c2b9fd90ab2d7ef8c3966a389fcf67dd",
+    "cases": 6,
+    "letters": [
+      20835,
+      20878,
+      21071,
+      21000,
+      20902,
+      20818
+    ],
+    "at": 1790208903.858196
+  },
+  "predictions_sha256": "09ee981f5fae27d0e9180e3571182b1b784b4de31fffd7cb495a3250aab92341",
+  "voynich_run": false
+}

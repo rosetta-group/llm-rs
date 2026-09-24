@@ -78,6 +78,15 @@ spelling, the corpus and the name lists, not compute. CPU only; downloads approv
 Next candidate: Rongorongo, which has a known language and about 15,000 glyphs
 ([docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)).
 
+**2026-09-24: round six (sealed): context reparse gives Naibbe CER 1.78%, WER 22.7% at 20,800 letters.**
+Six sealed ciphertext-only cases of about 20,900 letters: two fresh Dante, two unused Compagni, two
+ParTUT train (downloaded and pinned before any passage). Paired arms. Square-root baseline S:
+3.88% CER / 31.4% WER. With two reparse and key-refit rounds, R: 1.78% / 22.7%. All six cases
+improved, and the primary endpoint passed (−2.10 points against 0.5 required). No case passed the
+1% / 10% gate; the best was modern at 1.39% / 9.3%. The development estimate (1.79%) held on fresh
+text. The freeze was committed just before the protocol because a failing test delayed the latter;
+the hashes match. [Report](experiments/joint-recovery-v6/REPORT.md).
+
 **2026-09-24: context reparse with key refit: Naibbe CER 1.79% at 20,800 letters (development).**
 Declared before running (`3171cbb`, cherry-picked). Against the square-root length baseline
 (3.19% / 3.25%), two rounds of full-context reparse with key refit gave mean CER 2.45% at

@@ -56,6 +56,11 @@ Letter error is unchanged at **5.6%**. Word error falls **45.8% to 41.5%** from 
 alone, and all 8 cases improve. Using v3 in the polish stage too does not help letters.
 Remaining word error is mostly caused by letter errors.
 
+[Round six](experiments/joint-recovery-v6/REPORT.md) tested longer ciphertext (about 20,900
+letters) with a context reparse that refits the key. On six sealed cases, letter error fell to
+**1.78%** and word error to **22.7%**, from 3.88% / 31.4% for the same decoder without the reparse.
+The 1% / 10% gate is not yet met; the best case reached 1.39% / 9.3%.
+
 A [language-identification control](experiments/language-id/REPORT.md) checks that the
 pipeline does not simply assume Italian. It encrypted Latin, Old French, German, English and
 Italian with Naibbe and decoded each under all five priors. The true language fit best
