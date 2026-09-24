@@ -120,6 +120,10 @@ neither of the two selected incomplete accounts can adjudicate the readings. Ori
 surfaces remain the next evidence needed. No family edge or Linear A meaning is inferred;
 74 focused tests and 11 follow-up freezes pass.
 
+The [image search](experiments/linear-b-theban-images/REPORT.md) reached its stopping point:
+no full-context target images were obtained. Later scholarship qualifies Fq236's spacing
+argument. This lead is **parked pending the specified scans**; no further semantic test ran.
+
 ## Documentation
 
 | Page | For |

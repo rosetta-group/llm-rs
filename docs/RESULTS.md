@@ -106,6 +106,7 @@ interpretations. No supported Linear A language identification exists.
 | Name/designation control | 38 source-labelled Linear B cases on 19 objects; whole-object holdout | layout recall 37.4%, coverage 39.4%; feature ceiling 84.9%; 0/177 evaluable negatives pass; gate failed, no A scoring | [report](../experiments/linear-b-person-role/REPORT.md) |
 | Relational family-reference control | 19 expressions on 16 B objects; 7 unresolved source cases | form-only family recall 50%; primary exact frames 0/19 calls; 3 intact i-*65 expressions added; no predicted edges or A scoring | [report](../experiments/linear-b-relations/REPORT.md) |
 | Theban sign-function audit | 13 source objects; six published conversions; two account rivals | three conversion discrepancies; neither account eligible; surface adjudication pending; no semantic prediction | [report](../experiments/linear-b-theban-65/REPORT.md) |
+| Theban image-access audit | Four target objects; catalogue and scholarly image routes | full-context images not obtained; Gp124 glyph crop insufficient; lead parked pending scans | [report](../experiments/linear-b-theban-images/REPORT.md) |
 
 ## Operational
 

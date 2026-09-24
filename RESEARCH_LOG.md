@@ -869,3 +869,24 @@ or inconsistent totals. Published -u-jo parallels motivate further source review
 **Decision:** retain the Theban son proposal as a qualified lead; no Linear A transfer or new
 parentage/gender labels. Next inspect TOP pp94–95 and the related tablet surfaces, alongside
 the full AGS2003 reply. Earlier failed gates and frozen files remain unchanged.
+
+## 2026-09-24: Theban image search reaches its source-access stopping point
+
+**What was done**
+
+- Searched for full-context images of Fq236/Gp124/Gp227/Fq254[+]255. LiBER excludes Theban
+  archival texts; the four DĀMOS image fields are catalogue links. Publisher and book-preview
+  routes did not supply the requested pages. No claim that scans do not exist elsewhere.
+- Pinned Palaima2006, Judson2016, a museum-volume reference and the LiBER coverage snapshot.
+  Inspected Judson's Gp124 glyph reproduction: it lacks adjacent signs needed for spacing.
+- Recorded later scholarly disagreement over Fq236 and the reported hand310-to304 reassignment.
+  Prepared an unsent scan-request packet. No measurements, new code/tests, labels or freeze.
+  All 11 earlier follow-up freezes remain unchanged.
+  [Report](experiments/linear-b-theban-images/REPORT.md).
+
+**Why:** a glyph crop cannot establish attachment, and damage may prevent even a full image
+from deciding the reading. The later literature narrows what the proposed check can establish.
+
+**Decision:** park this image-dependent lead until full-context scans arrive. Do not rerun the
+same source searches or treat transcription whitespace as a photograph. No Linear A transfer,
+family edge or gender inference follows. No external request was sent.

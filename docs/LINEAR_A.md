@@ -258,6 +258,22 @@ tests and 11 follow-up freezes pass; the result reproduces exactly. The next evi
 TOP's Fq236 pp94–95 drawing/transcription comparison, relevant Gp124/Gp227/Fq254 surfaces and
 the direct AGS2003 response. No Linear A scoring or earlier frozen-file change occurred.
 
+
+## Theban image-access stopping point, 2026-09-24
+
+The [bounded image search](../experiments/linear-b-theban-images/REPORT.md) obtained no full-context
+image of Fq236, Gp124, Gp227 or Fq254[+]255. Judson2016 reproduces a Gp124 glyph drawing, but
+its neighbours are absent. LiBER explicitly excludes Theban archival documents; the four pinned
+DĀMOS records supply catalogue links rather than photographs. A targeted museum-volume check
+also supplied no identified target image.
+
+Later discussions sharpen the qualification: Pierini2018 reports Fq236's reassignment from hand310
+to304, while Judson2016 and Pierini disagree about whether this damaged tablet's spacing and
+series context establish syllabic use. No distances were measured or labels changed. The lead
+is parked until the [specified scans](../experiments/linear-b-theban-images/ACQUISITION.md) arrive;
+repeat searches and modelling of transcription whitespace are not the next experiment. This
+manual source-access record adds no freeze; all 11 earlier follow-up freezes remain intact.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).
