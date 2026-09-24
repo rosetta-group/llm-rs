@@ -845,3 +845,27 @@ an unnamed child, two have disputed binding, and one has a lineage qualification
 and KN Vs1523 readings remain unresolved. Further controls need independently supported repeated
 constructions; the next source question is the Theban attached-u-jo versus *65/FAR comparison.
 Earlier frozen inputs, failed gates and concurrent Etruscan files remain unchanged.
+
+## 2026-09-24: Theban *65/FAR source and quantity audit
+
+**What was done**
+
+- Preserved 13 selected objects, including one joined Fq254[+]255 and two external commodity
+  controls. Reviewed Palaima, Duhoux and James; original TOP surfaces and the direct AGS
+  response remain unavailable. Son and commodity readings stay explicit rivals.
+- Froze exploratory source annotations/code at `aeb16d9` before generating comparisons.
+  Three of six published total conversions disagree with their printed components:
+  Fq252 186/178 Z, Fq254[+]255 169/86 Z, Fq277 525/641 Z (published/calculated).
+  Neither column is silently corrected; gaps and doubtful readings remain unresolved.
+- Conditional visible allocation shifts: Fq214 8 Z; Fq254[+]255 16 Z. Both accounts fail
+  complete-body/secure-total/scope eligibility, so no balance verdict or family edge follows.
+- Passed 74 focused tests, verified 11 freezes, reproduced output exactly and checked overwrite
+  protection. [Report](experiments/linear-b-theban-65/REPORT.md).
+
+**Why:** a food amount after a person does not distinguish “son” from a commodity marker.
+The reading must be tested against sign placement and a secure accounting scope, not damaged
+or inconsistent totals. Published -u-jo parallels motivate further source review, not gold labels.
+
+**Decision:** retain the Theban son proposal as a qualified lead; no Linear A transfer or new
+parentage/gender labels. Next inspect TOP pp94–95 and the related tablet surfaces, alongside
+the full AGS2003 reply. Earlier failed gates and frozen files remain unchanged.

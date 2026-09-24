@@ -389,3 +389,18 @@ comparison without archive mutation. Duhoux was read through web text extraction
 is claimed. The study measures family-reference recognition with supplied names and segmentation,
 not directed edge recovery. Neither the exact-form retrieval nor attached-tail candidates are
 an exhaustive list of kinship expressions, and neither is a Linear A semantic test.
+
+### Theban *65/FAR source audit (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_theban_65 verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 74 tests. Freeze `aeb16d9` pins 13 DĀMOS objects, source PDFs,
+manual quantity annotations and the conditional arithmetic code. Run
+`.venv/bin/python -m experiments.linear_b_theban_65 run` only in a fresh checkout with the pinned
+sources attached; it refuses an existing output. The [report](../experiments/linear-b-theban-65/REPORT.md)
+contains an in-memory comparison that reproduces the archive without modifying it. Original
+TOP surfaces and the AGS response were not obtained. Duhoux is web-only, with frozen manual
+notes rather than a locally hashed PDF. No semantic scoring or previous freeze changes occur.

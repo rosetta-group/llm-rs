@@ -113,6 +113,13 @@ the primary exact-construction control abstains on all 19 cases for lack of inde
 support. Recognition and child/parent assignment remain separate: no family edges or Linear A
 meanings were inferred. All 66 focused tests and ten follow-up freezes pass.
 
+
+The [Theban *65/FAR audit](experiments/linear-b-theban-65/REPORT.md) retains son and commodity
+readings across 13 selected objects. It finds three discrepancies in a published quantity table;
+neither of the two selected incomplete accounts can adjudicate the readings. Original tablet
+surfaces remain the next evidence needed. No family edge or Linear A meaning is inferred;
+74 focused tests and 11 follow-up freezes pass.
+
 ## Documentation
 
 | Page | For |

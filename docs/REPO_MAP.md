@@ -161,3 +161,10 @@ in `evaluated-records.tar.gz` after grading), and prediction-track model files.
 `linear_a/account_benchmark.py` performs exact unit arithmetic on source-annotated development
 accounts. `linear_a/kinship_inventory.py` preserves ordered graphic slots and literal marker
 spellings. Each has its own committed freeze; neither is a semantic recovery model.
+
+### Theban *65/FAR source audit
+
+`linear_a/theban_65.py` calculates conditional dry-unit components and account eligibility.
+`experiments/linear_b_theban_65.py` freezes and validates 13 selected source objects; its records
+are in `experiments/linear-b-theban-65/`. The source interpretation stays explicit and disputed;
+no classifier or Linear A scoring stage exists. Eight arithmetic/uncertainty tests accompany it.

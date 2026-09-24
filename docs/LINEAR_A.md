@@ -236,6 +236,28 @@ freezes pass. No Linear A scoring or Etruscan modification occurred. The next bo
 question is the Theban attached-u-jo versus *65/FAR comparison, requiring edition and quantity
 review; an ending match alone cannot resolve it.
 
+
+## Theban *65/FAR source audit, 2026-09-24
+
+The [Theban follow-up](../experiments/linear-b-theban-65/REPORT.md) preserves 13 selected objects
+and compares the proposed son reading with a separate commodity interpretation. Gp227's -u-jo
+provides a published linguistic parallel, but its name differs from the Fq counterpart; identity
+is not independently established. Original TOP surfaces and the full AGS response were not
+obtained, so published spacing claims remain attributed rather than newly verified.
+
+Three of six conversions in James's published quantity table disagree with its printed unit
+components: Fq252 186 versus 178 Z, Fq254[+]255 169 versus 86 Z, Fq277 525 versus 641 Z.
+The audit preserves both columns, gaps and qualifications. These are conditional component
+calculations, not corrected tablet totals. The two selected accounts, Fq214 and Fq254[+]255,
+have conditional visible disputed-allocation shifts of 8 and 16 Z, but neither has a complete
+secure body, total and scope. Zero accounts qualify for balance adjudication; zero semantic
+predictions or directed family edges are exported.
+
+Frozen at `aeb16d9` before generated outputs, after exploratory source inspection. All 74 focused
+tests and 11 follow-up freezes pass; the result reproduces exactly. The next evidence needed is
+TOP's Fq236 pp94–95 drawing/transcription comparison, relevant Gp124/Gp227/Fq254 surfaces and
+the direct AGS2003 response. No Linear A scoring or earlier frozen-file change occurred.
+
 ## Data and licences
 
 Linear A: Navarre-AI collation of SigLA and lineara.xyz (CC BY; SigLA fields CC BY-NC-SA 4.0).
