@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ParTUT/6ae975aeb16378d9aaf102ecccaf1a083e636b44/it_partut-ud-train.conllu",
+      "path": "artifacts/joint-recovery-v6/sources/it_partut-ud-train.conllu",
+      "sha256": "576ecef59bedbd740c6c8744af25726d5d279afac3555fa6a37c50ec7db1324d",
+      "revision": "6ae975aeb16378d9aaf102ecccaf1a083e636b44",
+      "repository": "UD_Italian-ParTUT",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}
