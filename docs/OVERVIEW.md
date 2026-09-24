@@ -159,7 +159,10 @@ and unreachable thresholds. Luwian and Palaic now pass their own profile control
 Linear B still classifies as Greek 20/20. The full-set re/ru → ro pattern has exploratory
 p = 0.0001, while the discovery-selected held-out test remains negative at p = 0.1653. A
 [sign-only ending test](../experiments/linear-a-structure-v2/REPORT.md) passes only 4/20
-known-answer controls; Linear A is not scored. These failures do not prove an information limit.
+known-answer controls; Linear A is not scored. A subsequent [source audit](../experiments/linear-a-correspondence/REPORT.md)
+retains six of the 12 correspondence pairs. Their specific final-vowel pattern fails the
+onset-conditioned null (p = .1605), so that adaptation lead is archived; simpler stem overlap
+remains unusual (p = .0011). These failures do not prove an information limit.
 The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
 scripts, with Rongorongo next.
 

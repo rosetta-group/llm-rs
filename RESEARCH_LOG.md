@@ -648,3 +648,35 @@ After each experiment, add its question, fixed settings, result, limitations, an
 implication for meaning recovery here. Preserve old reports and failed attempts.
 Distinguish planned, running, completed, and verified work. Do not turn a prediction
 milestone into a translation claim, or keep expanding the statistics track indefinitely.
+
+## 2026-09-24: Linear A correspondence source audit completed
+
+**Question:** does the exploratory re/ru → ro association survive literal source readings
+and nulls preserving real stems? Pattern name: conditional ending test.
+
+**What was done**
+
+- Traced all 12 historical pairs to pinned source inscriptions; retained six under uniform
+  whole-corpus filters. Kept q/k and numbered signs distinct, rejected marked or broken runs,
+  and required A word/sign/glyph agreement. HT 117a has te-*56-re versus te-ja-re; KH 41's
+  ka-ta-re is excluded conservatively because gaps bound it. Valid qa-qa labels are restored.
+- Froze code, tests, full inventories, accepted attestations, pair evidence, source hashes and
+  protocol in commit `75128e8`, before real-data permutations. Eight new tests pass; all 24
+  focused Linear A tests pass. Original rounds 1–3 and both earlier repair/structural freezes
+  still verify. Old frozen code/results are unchanged.
+- Strict inventory: 208 A types, 2,984 B types, length >=3. With 9,999 draws each, six matching
+  stems exceed the length-null mean 1.5342 (p = .0011), but not the length+final-onset mean
+  4.2191 (p = .1605). Both were required below .05/7, including Wilson upper bounds.
+- Historical sensitivity: 12 stems versus 2.7487 (p = .0001) and 7.2026 (p = .0049);
+  the old normalised data pass both. Full simulations and intervals are archived in
+  [the report](experiments/linear-a-correspondence/REPORT.md).
+
+**Why:** the prior p = .0001 under a syllable null neither checked the source readings nor
+isolated the vowel change from an existing final-r association. The source-checked specific
+adaptation lead fails the committed gate and is archived; simpler spelling overlap remains.
+
+**Limits and next action:** the filters reduce coverage and power, and collated source layers
+are not independent readings. This audit does not disprove individual loans or identify a
+language. Preserve the six pairs as unresolved observations. Reopen only with new source
+adjudication or independent dated/context-compatible evidence, not another split or ending
+sweep on exposed words. No paid compute was used and no further statistical rerun is scheduled.

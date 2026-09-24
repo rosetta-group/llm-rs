@@ -94,6 +94,7 @@ of the fresh evaluation.
 | Five: TLHdig profiles | `linear_a_tlhdig.py` | `linear-a-tlhdig/` | artefact |
 | Repair audit | `linear_a_audit.py` | `linear-a-audit/` | corrected profiles/trade controls fail; full-set correspondence exploratory p = 0.0001 |
 | Sign-only entry endings | `linear_a_structure_v2.py` | `linear-a-structure-v2/` | 4/20 known-answer samples pass; gate failed; uncorrected driver archived in `linear-a-structure/` |
+| Correspondence source audit | `linear_a_correspondence.py` | `linear-a-correspondence/` (12-pair evidence, literal inventories, frozen protocol and conditional nulls) | 6 strict pairs; onset-conditioned p = .1605, specific adaptation lead archived |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
@@ -128,6 +129,8 @@ and tablet context labels (`.venv/bin/python -m unittest tests.test_linear_a`).
 `linear_a/probes_v2.py` repairs type profiles, unique sampling and Monte Carlo resolution;
 `linear_a/audit.py` enforces source/code freezes and refuses output overwrite;
 `linear_a/structure.py` preserves sign IDs and tests entry endings on unseen types.
+`linear_a/correspondence.py` filters literal source readings and permutes endings while
+preserving real stems, lengths and optionally final onsets; frozen by the correspondence audit.
 The audit/structural tests run with
 `.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py' -v`.
 

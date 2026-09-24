@@ -11,8 +11,10 @@ Updated: 2026-09-24
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
 control samples against a 90% gate; round five's Hittite profile match also holds for shuffled
 syllables. The repair audit on `codex/linear-a-audit` fixes duplicate-sensitive profiles and
-unreachable thresholds: the exploratory re/ru → ro correspondence has p = 0.0001, but its
-discovery-selected held-out result remains negative (p = 0.1653). Profiles still fail the
+unreachable thresholds. The subsequent source audit reduces 12 re/ru → ro pairs to six;
+the test preserving final onsets fails (p = 0.1605), so that statistical adaptation lead is
+archived. The simpler length-conditioned test still passes (p = 0.0011); broader overlap
+and individual loans remain unresolved. Profiles still fail the
 shuffle control. One sign-only entry-ending model passes 4/20 known-answer samples versus 18
 required, so Linear A is not scored. No language was identified or ruled out, and no general
 information limit was established. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
@@ -243,7 +245,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Joint segmentation + EM | Four fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; round four 5.7% Dante with lexicon repair; gate not met; oracle ceiling 0.5%; `experiments/joint-recovery-v4/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
-| Linear A track | Audited 2026-09-24: profile/threshold repairs and one structural test; tested methods retired, correspondence remains exploratory; no language identified; `docs/LINEAR_A.md` |
+| Linear A track | Audited 2026-09-24: profile/threshold repairs, structural test and 12-pair source audit; specific correspondence lead fails strict onset control (p = .1605), archived; no language identified; `docs/LINEAR_A.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

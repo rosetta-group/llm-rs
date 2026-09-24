@@ -54,7 +54,8 @@ the Linear B archives beyond chance. These support the values; they say nothing 
 A fourth round tried seven targeted probes (Egyptian and Keftiu names, gods, trade words, name
 profiles, spelling rules, role transfer); none passed its threshold
 ([report](../experiments/linear-a-probes/REPORT.md)). Greek scribes turning Minoan `-re`/`-ru` names
-into `-ro` gives 12 pairs against 3.1 by chance, supported but not confirmed.
+into `-ro` gave 12 normalised pairs against 3.1 by chance. The source audit below retains
+six and archives the specific adaptation lead after its stricter control fails.
 
 A fifth round compared grammar profiles with Anatolian and Hurrian running text (TLHdig). Linear A
 came out nearest Hittite in 20 of 20 samples, but so did shuffled Linear A syllables; the match
@@ -90,6 +91,25 @@ hashes and results are in [the audit](../experiments/linear-a-audit/REPORT.md).
 
 The separate trade-word control also had an unreachable threshold (50 null draws). Its
 999-draw correction is recorded in the audit report. No repaired result identifies a language.
+
+## Correspondence source audit, 2026-09-24
+
+The [12-pair audit](../experiments/linear-a-correspondence/PAIRS.md) keeps literal sign labels,
+uncertainty and word boundaries. Six candidates survive. For example, the old code made
+`a-ka-ru` match `]a-qa-ro` by merging q and k; HT 117a has conflicting `te-*56-re` and
+`te-ja-re` source layers. The valid qa-qa pair is restored to `qa-qa-ru → qa-qa-ro`.
+
+The [frozen conditional ending tests](../experiments/linear-a-correspondence/REPORT.md) keep
+real stems and observed ending frequencies. Six matches beat the length-conditioned null
+(mean 1.5342, p = .0011), but not the null also preserving final onset (mean 4.2191,
+p = .1605). Both were required. The historical normalised inventory still passes both
+(p = .0001 and .0049), so source quality materially changes the conclusion.
+
+Archive the specific re/ru → ro adaptation lead after its statistical gate fails. The six pairs
+remain unresolved spelling observations; broader overlap is not refuted. Reopening needs
+new source adjudication or independent context-compatible attestations, not another split
+of these exposed words. The audit uses 208 strict A types and 2,984 B types of length >=3;
+its conservative filters also reduce coverage and power. No language is identified.
 
 ## Data and licences
 

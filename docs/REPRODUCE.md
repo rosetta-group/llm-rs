@@ -272,6 +272,19 @@ the Linear A corpus and Greek lexicon. Original source licences and download URL
 the historical manifests. The initial structural driver at `fd3f6b2` aborted before reporting
 scores; v2 adds its missing NumPy import and preserves the original frozen file.
 
+Correspondence source audit (protocol commit `75128e8`):
+
+```sh
+.venv/bin/python -m experiments.linear_a_correspondence verify
+```
+
+The [pair audit](../experiments/linear-a-correspondence/PAIRS.md) links every historical candidate
+to its source inscriptions. The folder also holds full accepted attestations and both type
+inventories. In a clean worktree at `75128e8` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_correspondence run` to reproduce the four fixed
+9,999-draw comparisons. The released run refuses overwrite. `prepare` is extraction-only;
+its three outputs are already frozen, so regenerate only in a scratch copy and compare hashes.
+
 ## Sources and licences
 
 Pinned public texts and code, with revisions, hashes and licences, are listed in

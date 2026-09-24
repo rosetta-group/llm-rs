@@ -72,8 +72,9 @@ method was checked first on Linear B, which is Greek. The three lexical rounds f
 most 10% of Linear B samples against a 90% gate. No round-four probe reached p < 0.007. Round
 five's Hittite profile match also appears for shuffled syllables. A
 [2026-09-24 audit](experiments/linear-a-audit/REPORT.md) repaired duplicate-sensitive profiles
-and unreachable Monte Carlo thresholds. The exploratory `-re`/`-ru` → `-ro` pattern now has
-p = 0.0001, but its discovery-selected held-out test still fails (p = 0.1653). Repaired profiles
+and unreachable Monte Carlo thresholds. A subsequent [source audit](experiments/linear-a-correspondence/REPORT.md)
+reduces the 12 exploratory `-re`/`-ru` → `-ro` pairs to six. These fail the stricter test
+preserving final onsets (p = 0.1605), so the specific adaptation lead is archived. Repaired profiles
 still classify shuffled Linear B as Greek. One [sign-only ending model](experiments/linear-a-structure-v2/REPORT.md)
 passes only 4/20 known-answer controls, so Linear A is not scored. These methods are retired;
 this does not prove the corpus has no further usable information. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
