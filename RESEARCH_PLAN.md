@@ -7,18 +7,27 @@
 
 Updated: 2026-09-25
 
-**Voynich priority, 2026-09-25: calibrated rejection and affordable controls.** The
-[frozen screen](experiments/rejection-transfer-v2/REPORT.md) stopped inconclusively
-on refinement caps after three source/key blocks. It accepted 2/3 genuine ciphers,
-rejected 3/3 shuffled and 3/3 absent-language controls, and rejected 2/3 copy/mutate
-controls with one inconclusive. English was missed only by the fit-score ceiling;
-its key transferred with 6.91% character error. Forty-five fits cost 8.884 fit-worker
-hours. The user authorized [three development follow-ups](experiments/rejection-followups/PROTOCOL.md):
-calibrate the decision on released cases, strengthen the copying control, and
-reduce refiner cost with equivalence checks. No threshold is changed retrospectively.
-Any confirmation needs new sources/keys and a separately frozen, costed study.
-The translation gate and reserved manuscript test remain unchanged. The
-[first capped attempt](experiments/rejection-transfer/REPORT.md) stays separate.
+**Voynich priority, 2026-09-25: prepare a costed fresh rejection study.** The
+[three authorized development follow-ups](experiments/rejection-followups/REPORT.md)
+are complete. The transfer-centered candidate accepts 3/3 released genuine ciphers
+instead of 2/3; three exact-frequency copying controls are rejected without caps
+at 98.47–98.64% coverage. Incremental swap scoring is 31.1× faster on the released
+copying fixture with the same winning swap and score. These are development results
+from three shared source/key blocks, not a population error-rate estimate.
+
+The next [confirmation proposal](experiments/rejection-followups/CONFIRMATION_PLAN.md)
+requires independent fresh sources/keys, all five languages, multiple generators and
+predeclared statistical gates. Its 1,800 fits project to about 123 worker-hours at
+current copying-control cost; that is not a guaranteed runtime or an agreed run
+budget. Audit source availability and work limits on every released input class
+before freezing any new study. The 20-million-proposal limit is especially restrictive
+on large mutation inventories. No fresh confirmation or manuscript run was started.
+
+The [original screen](experiments/rejection-transfer-v2/REPORT.md) remains inconclusive
+on caps, with 2/3 positives accepted and one copying control inconclusive. Its
+thresholds and outcomes were not rewritten. The translation gate and reserved
+manuscript test remain unchanged; the [first capped attempt](experiments/rejection-transfer/REPORT.md)
+also stays separate.
 
 **Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B

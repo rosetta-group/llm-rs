@@ -84,6 +84,30 @@ and fresh keys/passages. Exclude the consumed source IDs from **both** attempts,
 listed in `experiments/rejection-transfer-v2/released-source-ids.json`, as well as all
 earlier training and graded material. Unrun cases were not graded or released.
 
+### Three development follow-ups
+
+The [follow-up report](../experiments/rejection-followups/REPORT.md) compares a
+transfer-centered rejection rule, exact-frequency copying controls, and bounded
+incremental refinement. It uses released examples only. The executed control freeze
+is `freeze-v2.json`: the initial 50-sweep guard was corrected to 200 before any fit,
+with time and proposal budgets unchanged. Both freezes remain in the record.
+
+```sh
+.venv/bin/python -m experiments.rejection_followups verify
+.venv/bin/python -m experiments.rejection_followups_v2 verify
+.venv/bin/python -m experiments.audit_rejection_followups
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_rejection_followups -v
+```
+
+The audit checks the frozen files, regenerates copied passages from the released
+positive ciphertexts and fixed seeds, checks exact token multisets, replays saved-key
+transfers, and reproduces both decision rules and all 21 threshold-sensitivity points.
+It does not repeat fitting or open unused answers. The archive stores working records;
+restore them under `artifacts/rejection-followups/` and restore the earlier frozen
+priors/sources before replay. Benchmark timings are machine-dependent: the committed
+plan specifies two warmed repetitions per backend with two threads. Repeating timings
+requires a new output location; do not overwrite the frozen benchmark record.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:

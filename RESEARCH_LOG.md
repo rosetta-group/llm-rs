@@ -54,6 +54,33 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+**2026-09-25: all three rejection follow-ups completed on released development data.**
+The transfer-centered candidate removes only the fit-excess ceiling and accepts
+3/3 released positives instead of 2/3. Three new local-copying controls retain exact
+token frequencies; each gets five independent prior fits and sealed-key transfer.
+All three are rejected without caps at 98.47–98.64% transfer coverage, with best
+transfer excess 3.000, 2.999 and 3.137. The 15 fits use 1.028 worker-hours. Together
+with the earlier controls, both rules reject eleven conclusive negatives; the old
+Latin mutation remains inconclusive. These cases share only three source/key blocks.
+
+A new bounded refiner keeps the objective and candidate order, uses incremental
+one-letter scores, and rechecks close minima with the original full scorer.
+Four fixtures × three backends × two warmed runs choose identical winning swaps
+and exact scores. On the released copying fixture, swap time is 4.817 → 0.155 s
+(31.1×), and peak RSS 1,694 → 331 MiB; chunking alone saves memory but is slightly
+slower. Small complete refinements match the legacy outputs, including bigram
+fallback and ties. All 180 tests pass; all 15 new transfers and all 21 threshold
+comparisons reproduce. This is not a measured full-decoder speedup.
+
+Preflight corrected an unsupported synthetic alphabet symbol before timing, then
+increased a 50-sweep guard to 200 before any control fit to accommodate 30 inherited
+kicks. Both records are preserved; the original follow-up freeze was not executed.
+The executed freeze was committed at `17381f6`. No manuscript text or unused answers
+were opened. [Report](experiments/rejection-followups/REPORT.md).
+A 90-block fresh confirmation is costed but not run: it needs new sources and a
+work-budget audit, especially for larger mutation inventories.
+
+
 **2026-09-25: rejection and fixed-key transfer screen stopped inconclusively.**
 Both freezes were committed before their challenges. The first attempt hit three
 wrong-prior refinement caps on its English positive. A fresh resource-repair round

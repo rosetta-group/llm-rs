@@ -209,6 +209,33 @@ before the fresh resource-repair freeze. Both attempts retain their original rec
 the cap stop is not counted as a correct rejection. See the new report for actual
 negative denominators, resource accounting and limits. No manuscript text was used.
 
+### Three development follow-ups completed
+
+The [follow-up report](../experiments/rejection-followups/REPORT.md) records three
+changes tested on released cases. Removing only the fit-excess ceiling makes the
+candidate accept 3/3 genuine ciphers, versus 2/3 for the original rule. It retains
+language agreement, both margins, transfer-score, coverage and cap requirements.
+
+Three new controls preserve each passage's exact token frequencies but favor local
+copying. All three are rejected without caps, with 98.47–98.64% transfer coverage;
+their best transfer excesses are 3.000, 2.999 and 3.137 against the 0.50 ceiling.
+Their rejection therefore survives removal of the earlier missing-piece weakness.
+The old Latin mutation control remains inconclusive; it was not reclassified.
+
+A new refiner bounds candidate-key memory and scores only affected n-grams for
+one-letter changes, rechecking close minima with the old full objective. On the
+released copying fixture, a warmed exhaustive swap batch falls from 4.817 to 0.155
+seconds (31.1×), with the same winning swap and exact score. Peak worker RSS falls
+from 1,694 to 331 MiB. Chunking alone saves memory but is slightly slower here.
+The complete stronger-control run uses 15 fits and 1.028 fit-worker hours; this is
+not a matched end-to-end speed comparison. All 180 tests and saved-key replays pass.
+
+These are three shared development blocks, not fresh confirmation. The
+[costed confirmation proposal](../experiments/rejection-followups/CONFIRMATION_PLAN.md)
+requires new sources/keys and a work-budget audit. A 90-block design would require
+1,800 fits: about 123 fit-worker hours at the measured copying-control cost, before
+allowances for harder inputs. No such study or manuscript run was started.
+
 ### Near-duplicate words: a mechanical signature
 
 A **near-hapax** is a word seen once that is one glyph away from a word seen at least 5 times.
@@ -266,7 +293,7 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 
 | Item | Why | Cost |
 |---|---|---|
-| Calibrate rejection and benchmark a cheaper refiner first | genuine English failed the fixed fit ceiling; exhaustive swap scoring makes controls expensive | development on released cases, then a new frozen budget |
+| Plan fresh rejection confirmation | the three development follow-ups passed their comparisons, but share only three source/key blocks | source audit and representative work-budget checks before a new freeze |
 | Admit missing true pieces without false ones | the letter bottleneck (33–38 missing at RESPACING 17, 52–56 at 9) | about 2 h CPU per development run |
 | Develop and test at RESPACING 9 | the only Naibbe regime that matches the manuscript | same |
 | Historical spelling model, retry | v4 missed by 0.05 points; needs a new author and its own protocol | minutes |

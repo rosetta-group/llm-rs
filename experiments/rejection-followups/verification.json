@@ -1,0 +1,41 @@
+{
+  "tests": {
+    "command": "NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest discover -s tests -v",
+    "passed": 180,
+    "failed": 0,
+    "seconds": 9.547
+  },
+  "audit": {
+    "replayed_keys": 15,
+    "transfer_and_decisions_reproduce": true,
+    "development_only": true,
+    "copied_passages_reproduced": 6,
+    "exact_token_multisets": true,
+    "calibration_decisions_reproduced": 15,
+    "threshold_sensitivity_points_reproduced": 21,
+    "benchmark_record_hash_verified": true,
+    "benchmark_same_winners": true,
+    "unused_answers_opened": false,
+    "voynich_used": false
+  },
+  "all_four_freezes_verified": true,
+  "executed_freeze_commit": "17381f6dd103ed1cf12b365eccb3e1e700af7eac",
+  "executed_freeze_sha256": "f00a3fff1f91d7b396242a71560a2377a573aefc3b853019cd0fa7c8f9bb8eb8",
+  "earlier_followup_freeze_unexecuted": true,
+  "commit_verified_before_worker_dispatch": true,
+  "archived_files_matched_working_records": 59,
+  "archive_sha256": "2d21fd201a8d619d411364a72bc233f14a7fead9d2604be0ac7327bb218f8c24",
+  "record_sha256": {
+    "control-results.json": "8e126635b0a531633afa26a1ac1b5da0d833e6f007818e4c122100565b3bc6c3",
+    "calibration-results.json": "2717dd1a89227986378de87fc27ef9240fa2b7188a014f55c8104803c98aca6c",
+    "benchmark.json": "e3cff185eb06d19c9d27b7f8f884f97f21b2d7748d46800a9c19ea393190074f",
+    "confirmation-cost.json": "9e321856aa32d87896b8172d3cdb74884cbc9b69fc3c70542be700e252f1f076",
+    "REPORT.md": "e24f784d1c2c1f004cc815429d1aebdaa93421975135284e0235d337857445a1",
+    "CONFIRMATION_PLAN.md": "f86d8ba10925383904f16bbff8f3d5001271680a86bb392cae26ffc8ab87760b"
+  },
+  "audit_code_sha256": "f78db45a79ee310460fc1a3cc7f6e1434c2a0bb09109d56bcfffbac6387c84b1",
+  "report_code_sha256": "9925d9772cdd1831529a14abf509ac614e548be67a10987c50bda9cc6e48a49a",
+  "source_key_blocks": 3,
+  "new_sealed_confirmation_performed": false,
+  "voynich_used": false
+}

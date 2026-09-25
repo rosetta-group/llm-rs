@@ -42,6 +42,8 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 
 | Round | Setup | Result | Record |
 |---|---|---|---|
+| Rejection development follow-ups | 3 released source/key blocks; 3 new frequency-preserving copying pairs × 5 priors | candidate positives 3/3 vs original 2/3; stronger copies rejected 3/3 at 98.47–98.64% coverage, no caps; 15 fits / 1.028 worker h; development only | [report](../experiments/rejection-followups/REPORT.md) |
+| Bounded incremental refiner benchmark | 4 fixtures × 3 backends × 2 warmed runs; old objective retained | copying-fixture swap batch 4.817 → 0.155 s (31.1×); RSS 1,694 → 331 MiB; every winning pair and exact score match; not an end-to-end speedup | [benchmark](../experiments/rejection-followups/benchmark.json) |
 | Rejection + fixed-key transfer (resource repair) | 3 of 10 planned source/key blocks, 45 fits; old five-language decoder | positives accepted 2/3; shuffle rejected 3/3; absent language rejected 3/3; copy rejected 2/3 plus 1 inconclusive; 8.884 fit-worker h; stopped on refinement caps | [report](../experiments/rejection-transfer-v2/REPORT.md) |
 | Rejection + fixed-key transfer (first attempt) | first English positive, 5 fits | English wins both rankings; wrong-language refinement caps make positive and absent-language decisions inconclusive | [report](../experiments/rejection-transfer/REPORT.md) |
 | Assisted | substitution with spaces; Naibbe with codebook | 100% letters and words; 99.4% letters | [report](../experiments/decipherment/REPORT.md) |

@@ -79,6 +79,15 @@ These controls use the five-language short-passage decoder, not round six. The r
 records the negative controls and resource stop; the next priority is calibrated
 rejection and affordable control searches, with the manuscript gate unchanged.
 
+The [three development follow-ups](experiments/rejection-followups/REPORT.md) are
+complete. A transfer-centered rule accepts **3/3** released genuine ciphers instead
+of 2/3. Three new copying controls preserve every token frequency, retain **98.47–98.64%**
+transfer coverage, and are all rejected without caps. On the released copying fixture,
+incremental swap scoring is **31.1× faster** with the same winning swap and score;
+peak worker memory falls from **1,694 to 331 MiB**. This is a search-step benchmark,
+not a full-decoder speedup. All results are development on three source/key blocks;
+fresh confirmation and manuscript readiness remain unestablished.
+
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 

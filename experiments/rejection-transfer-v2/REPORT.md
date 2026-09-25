@@ -77,8 +77,8 @@ The [first attempt](../rejection-transfer/REPORT.md) had already stopped on thre
 300-second refinement caps. This resource-repair attempt was independently frozen
 at `7915b9e` before generating fresh ciphertext and excluded the first graded English
 source IDs. Its larger allowance did not eliminate caps. No further resource increase
-was made to this screen. Local elapsed time included a computer-sleep interval;
-fit-worker time is the driver's monotonic-clock measurement, not elapsed calendar time.
+was made to this screen. Elapsed calendar time exceeded the recorded active-fit timing; fit-worker time is
+the driver's monotonic-clock measurement, not elapsed calendar time.
 
 ## Limits and decision
 
