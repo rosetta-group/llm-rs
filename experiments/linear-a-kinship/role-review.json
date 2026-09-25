@@ -1,0 +1,49 @@
+[
+  {
+    "document": "HT 63",
+    "record_words": [
+      "ka-ti",
+      "su-pu2",
+      "*79"
+    ],
+    "role_evidence": [
+      {
+        "n": 1,
+        "type": "A305",
+        "role": "transaction",
+        "reading": "A305",
+        "certain": true
+      },
+      {
+        "n": 2,
+        "type": "AB04",
+        "role": "transaction",
+        "reading": "AB04",
+        "certain": true
+      }
+    ],
+    "conclusion": "Graphic-slot hit contains transaction/logogram; not a verified personal-name pair."
+  },
+  {
+    "document": "KH 6",
+    "record_words": [
+      "di-si",
+      "te-nu-re",
+      "ki-sa-ne",
+      "ri-ta-je",
+      "re",
+      "pi-sa",
+      "au-re-te"
+    ],
+    "role_evidence": [
+      {
+        "n": 30,
+        "type": "A306",
+        "role": "logogram",
+        "reading": "A306",
+        "certain": true
+      }
+    ],
+    "conclusion": "Graphic-slot hit contains transaction/logogram; not a verified personal-name pair."
+  }
+]

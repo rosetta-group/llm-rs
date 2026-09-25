@@ -1,0 +1,140 @@
+{
+  "unit_scale_z": {
+    "BASE": 240,
+    "T": 24,
+    "V": 4,
+    "Z": 1
+  },
+  "unit_source": "VentrisChadwick1956 printed p55 (previously inspected); independently consistent with James p406 V1=Z4 and p407 T1=Z24. Dry quantities only.",
+  "conversions": [
+    {
+      "object": "5235",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "T6 V5[",
+      "components": {
+        "T": 6,
+        "V": 5
+      },
+      "published_z": 164,
+      "complete_secure_total": false
+    },
+    {
+      "object": "5250",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "]T7 V2 Z2",
+      "components": {
+        "T": 7,
+        "V": 2,
+        "Z": 2
+      },
+      "published_z": 186,
+      "complete_secure_total": false
+    },
+    {
+      "object": "5252",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "[T]3 V3 Z2",
+      "components": {
+        "T": 3,
+        "V": 3,
+        "Z": 2
+      },
+      "published_z": 169,
+      "complete_secure_total": false
+    },
+    {
+      "object": "5258",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "1 V2 [ ] Z3",
+      "components": {
+        "BASE": 1,
+        "V": 2,
+        "Z": 3
+      },
+      "published_z": 251,
+      "complete_secure_total": false
+    },
+    {
+      "object": "5261",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "T8 V2[",
+      "components": {
+        "T": 8,
+        "V": 2
+      },
+      "published_z": 200,
+      "complete_secure_total": false
+    },
+    {
+      "object": "5262",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "]2 T6 V4 Z1",
+      "components": {
+        "BASE": 2,
+        "T": 6,
+        "V": 4,
+        "Z": 1
+      },
+      "published_z": 525,
+      "complete_secure_total": false
+    }
+  ],
+  "accounts": [
+    {
+      "object": "5235",
+      "body_complete": false,
+      "total_secure": false,
+      "total_scope_secure": false,
+      "allocations": [
+        {
+          "line": ".7",
+          "components": {
+            "V": 2
+          },
+          "quantity_secure": true,
+          "complete": true
+        },
+        {
+          "line": ".13",
+          "components": {},
+          "quantity_secure": false,
+          "complete": false
+        }
+      ],
+      "missing": "The second disputed allocation has V with an underdot and no surviving numeral. Other entries and total are incomplete."
+    },
+    {
+      "object": "5252",
+      "body_complete": false,
+      "total_secure": false,
+      "total_scope_secure": false,
+      "allocations": [
+        {
+          "line": ".6",
+          "components": {
+            "V": 1
+          },
+          "quantity_secure": false,
+          "complete": true
+        },
+        {
+          "line": ".7",
+          "components": {
+            "V": 1
+          },
+          "quantity_secure": true,
+          "complete": false
+        },
+        {
+          "line": ".13",
+          "components": {
+            "V": 2
+          },
+          "quantity_secure": true,
+          "complete": true
+        }
+      ],
+      "missing": "First allocation has doubtful 1; second ends at a break. Line .8 is lost; total has restored T and doubtful numerals. Marker readings in .6/.7 are themselves doubtful."
+    }
+  ]
+}

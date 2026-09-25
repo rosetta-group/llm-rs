@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "PY-Jn845",
+    "object": "4698",
+    "complete": true,
+    "items": [
+      {
+        "source_ref": ".2",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 2,
+            "certainty": "certain"
+          },
+          {
+            "unit": "N",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".3",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 2,
+            "certainty": "certain"
+          },
+          {
+            "unit": "N",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 2,
+            "certainty": "certain"
+          },
+          {
+            "unit": "N",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 2,
+            "certainty": "certain"
+          },
+          {
+            "unit": "N",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".8",
+      "dimension": "weight",
+      "commodity": "AES",
+      "components": [
+        {
+          "unit": "M",
+          "n": 12,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN-As1517",
+    "object": "1353",
+    "complete": true,
+    "items": [
+      {
+        "source_ref": ".2",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".3",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".6",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".7",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".8",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".9",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".10 first quantity",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".10 last quantity",
+      "dimension": "count",
+      "commodity": "VIR",
+      "components": [
+        {
+          "unit": "ONE",
+          "n": 17,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN-As1516-section1",
+    "object": "1352",
+    "complete": false,
+    "items": [
+      {
+        "source_ref": ".3",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 5,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".6",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".7",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".8",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".9",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".10",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 4,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".11",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".11 total",
+      "dimension": "count",
+      "commodity": "VIR",
+      "components": [
+        {
+          "unit": "ONE",
+          "n": 31,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN-As1516-section2",
+    "object": "1352",
+    "complete": true,
+    "items": [
+      {
+        "source_ref": ".12",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".13",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".14",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 4,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".15",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".16",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".17",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".18",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".19",
+        "dimension": "count",
+        "commodity": "VIR",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".19 total",
+      "dimension": "count",
+      "commodity": "VIR",
+      "components": [
+        {
+          "unit": "ONE",
+          "n": 23,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PY-Jn658",
+    "object": "4690",
+    "complete": true,
+    "items": [
+      {
+        "source_ref": ".2",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 5,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".3",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".6",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".7",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".8",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".9",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 10,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".10",
+        "dimension": "weight",
+        "commodity": "AES",
+        "components": [
+          {
+            "unit": "M",
+            "n": 5,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".11",
+      "dimension": "weight",
+      "commodity": "AES",
+      "components": [
+        {
+          "unit": "L",
+          "n": 3,
+          "certainty": "certain"
+        },
+        {
+          "unit": "M",
+          "n": 20,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MY-Fo101",
+    "object": "5570",
+    "complete": false,
+    "items": [
+      {
+        "source_ref": ".1",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".2",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".3",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 1,
+            "certainty": "certain"
+          },
+          {
+            "unit": "V",
+            "n": 1,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".6",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 2,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".7",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 2,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".8",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 1,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".9",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "BASE",
+            "n": 1,
+            "certainty": "uncertain_or_restored"
+          }
+        ]
+      },
+      {
+        "source_ref": ".10",
+        "dimension": "liquid",
+        "commodity": "OLE+WE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".15",
+      "dimension": "liquid",
+      "commodity": "OLE+WE",
+      "components": [
+        {
+          "unit": "BASE",
+          "n": 2,
+          "certainty": "certain"
+        },
+        {
+          "unit": "S",
+          "n": 1,
+          "certainty": "certain"
+        },
+        {
+          "unit": "V",
+          "n": 1,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN-Fp1",
+    "object": "1",
+    "complete": false,
+    "items": [
+      {
+        "source_ref": ".2",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".3",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".4",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".5",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "BASE",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".6",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".7",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "S",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".8",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".9",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": ".10",
+        "dimension": "liquid",
+        "commodity": "OLE",
+        "components": [
+          {
+            "unit": "V",
+            "n": 4,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".12",
+      "dimension": "liquid",
+      "commodity": "OLE",
+      "components": [
+        {
+          "unit": "BASE",
+          "n": 3,
+          "certainty": "certain"
+        },
+        {
+          "unit": "S",
+          "n": 2,
+          "certainty": "certain"
+        },
+        {
+          "unit": "V",
+          "n": 2,
+          "certainty": "certain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN-F51",
+    "object": "48",
+    "complete": false,
+    "items": [
+      {
+        "source_ref": "v.1 first",
+        "dimension": "dry",
+        "commodity": "HORD",
+        "components": [
+          {
+            "unit": "T",
+            "n": 1,
+            "certainty": "certain"
+          },
+          {
+            "unit": "V",
+            "n": 3,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": "v.1 second",
+        "dimension": "dry",
+        "commodity": "HORD",
+        "components": [
+          {
+            "unit": "V",
+            "n": 2,
+            "certainty": "certain"
+          },
+          {
+            "unit": "Z",
+            "n": 2,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": "v.2 first",
+        "dimension": "dry",
+        "commodity": "HORD",
+        "components": [
+          {
+            "unit": "T",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": "v.2 second",
+        "dimension": "dry",
+        "commodity": "HORD",
+        "components": [
+          {
+            "unit": "T",
+            "n": 4,
+            "certainty": "certain"
+          },
+          {
+            "unit": "Z",
+            "n": 1,
+            "certainty": "certain"
+          }
+        ]
+      },
+      {
+        "source_ref": "v.2 third",
+        "dimension": "dry",
+        "commodity": "HORD",
+        "components": [
+          {
+            "unit": "V",
+            "n": 6,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": "recto",
+      "dimension": "dry",
+      "commodity": "HORD",
+      "components": [
+        {
+          "unit": "T",
+          "n": 7,
+          "certainty": "certain"
+        },
+        {
+          "unit": "V",
+          "n": 5,
+          "certainty": "certain"
+        },
+        {
+          "unit": "Z",
+          "n": 3,
+          "certainty": "uncertain_or_restored"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PY-Fr1184-negative",
+    "object": "4626",
+    "complete": true,
+    "items": [
+      {
+        "source_ref": ".3",
+        "dimension": "count",
+        "commodity": "VESSEL",
+        "components": [
+          {
+            "unit": "ONE",
+            "n": 38,
+            "certainty": "certain"
+          }
+        ]
+      }
+    ],
+    "target": {
+      "source_ref": ".2",
+      "dimension": "liquid",
+      "commodity": "OLE+WE",
+      "components": [
+        {
+          "unit": "BASE",
+          "n": 18,
+          "certainty": "certain"
+        }
+      ]
+    }
+  }
+]

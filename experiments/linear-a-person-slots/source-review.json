@@ -1,0 +1,52 @@
+{
+  "review_status": "Manual development audit; no independent expert adjudication",
+  "decisions": [
+    {
+      "id": "HT117-AB56-AB57",
+      "location": "HT 117a physical .5, logical row 10, source word index 11, sign n35",
+      "evidence": [
+        "GORILA I p.197 diplomatic and normalized transcriptions draw a closed ladder-like middle sign, matching AB57 in HT85b ki-ki-ra-ja (p.133).",
+        "The AB56 in ku-*56-nu on HT117a .3 has open side strokes and is graphically distinct in the same edition.",
+        "Davis–Valério p.24 Table 1 reads te-ja-re; pinned glyph layer also encodes AB57.",
+        "Live SigLA word detail index-word-11.html, fetched 2026-09-24, still records AB04-AB56-AB27. This is not solely an obsolete import."
+      ],
+      "preferred_working_reading": "te-ja-re",
+      "alternative": "te-*56-re",
+      "limits": "Edition-supported provisional overlay, not independent epigraphic adjudication. Scan resolution limits direct stroke checking on the photograph. SigLA's drawing derives from the edition and is not an independent witness. Do not overwrite frozen corpus or rerun exposed correspondence tests."
+    },
+    {
+      "id": "HT85b-gap",
+      "location": "HT 85b physical .2–3, logical row 5",
+      "evidence": ["Pinned source has te-tu-[?] and uncertain sign n13.", "GORILA I p.133 notes that the gap may contain no missing sign, because of a large pebble."],
+      "decision": "Keep damaged te-tu-[?] in the source layer; retain te-tu as an explicit possible complete reading, not a silent normalization."
+    },
+    {
+      "id": "HT85b-logograms-and-erasures",
+      "location": "HT 85b physical .2–3",
+      "evidence": ["AB03, AB77 and AB07 each have quantity 1 and per-occurrence logogram roles.", "GORILA I p.133 records overwriting near .3. Source signs n15–17 are erasures AB07/AB09/AB54."],
+      "decision": "Record 8 lexical counted entries and 3 logogram counted entries. Erased signs are not extra names or extant participants. Proposed subordination to qe-ka or te-tu is contextual, not a kinship label."
+    },
+    {
+      "id": "physical-versus-logical-lines",
+      "evidence": ["HT117a ku-ra-mu crosses physical .2–3 but occupies logical corpus row 4.", "HT117a logical row 13 is a horizontal divider after physical .6."],
+      "decision": "Keep separate physical_line and logical_row fields. Previous line_index outputs remain logical corpus rows, not diplomatic line numbers."
+    },
+    {
+      "id": "source-metadata",
+      "evidence": ["HT85 pinned gorila_ref is 1, p.146, but linked original scans are pp.130–133.", "HT85 metadata says both HT Scribe 9 and gorila_scribe 3 HT. Davis–Valério also uses Scribe 9.", "HT87 and HT88 pinned references p.150 and p.152 differ from inspected edition pp.136–139."],
+      "decision": "Use inspected printed pages for citations. Preserve conflicting scribe metadata, and make no hand-controlled or provenance-stratified inference. Do not repair unrelated corpus metadata in place."
+    },
+    {
+      "id": "spelling-variants",
+      "literal_sign_aliases": ["pa3 represents AB56, retained as *56 in this inventory", "zu represents AB79, retained as *79 here", "*310 and A310 are catalogue notations for the same sign"],
+      "hypotheses_not_merged": ["te-ke / te-ki", "u-A325-za / u-de-za", "re-di-se / ra-ti-se", "*56-ni / *56-ni-na"],
+      "paper_inconsistencies": ["u-mi-na-si in Table 1 versus u-mi-na-se in prose", "wa-du-ni-mi in Table 5 versus wa-du-nu-mi in Table 6"],
+      "decision": "Keep literal pinned readings. Similar proposed names and different syllabograms do not become exact matches. No vowel-merging, q/k-merging or re/ro equivalence is supplied."
+    },
+    {
+      "id": "context-quality",
+      "evidence": ["HT87 has an uncertain final entry and edition notes possible writing over erasure; the selected header and di-ki-se remain readable in p.137.", "HT88 has earlier overwriting; p.139 supplies ki-ro and ku-*56-nu in the later section.", "HT122a p.207 supplies da-si-*118 2 and qa-A310-i 3; a different row has the corpus pa-ri-ne / pa-ta-ne conflict."],
+      "decision": "Use these locally inspected contexts for descriptive comparisons only, retaining whole-record quality flags. Do not call them eligible under earlier whole-record strict filters."
+    }
+  ]
+}

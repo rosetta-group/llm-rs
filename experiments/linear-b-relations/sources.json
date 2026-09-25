@@ -1,0 +1,109 @@
+{
+  "reviewed": "2026-09-24",
+  "corpus": {
+    "directory": "artifacts/linear-a-sources/damos/items",
+    "provenance": "experiments/linear-a-context/sources.json",
+    "license": "DĀMOS CC BY-NC-SA 4.0; derived data retain attribution"
+  },
+  "papers": {
+    "Hiller1989": {
+      "title": "Familienbeziehungen in den mykenischen Texten",
+      "author": "Stefan Hiller",
+      "year": 1989,
+      "url": "https://antiquitasviva.com/wp-content/uploads/2021/07/sp07.08.-hiller-s.-familienbeziehungen-in-den-mykenischen-texten.pdf",
+      "local_path": "artifacts/linear-a-sources/relational-control/hiller-1989.pdf",
+      "printed_pages_reviewed": [
+        54,
+        55,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "pdf_page_mapping": "printed page minus 39 = one-based PDF page"
+    },
+    "Godart2024": {
+      "title": "Personale presente, assente e itinerante nelle tavolette in lineare B",
+      "author": "Louis Godart",
+      "year": 2024,
+      "url": "https://www.insegnadelgiglio.it/wp-content/uploads/2025/10/sRGB_saiaan-102-1-ebook.pdf",
+      "local_path": "artifacts/linear-a-sources/relational-control/asa-102-2024.pdf",
+      "printed_pages_reviewed": [
+        24
+      ],
+      "pdf_page_mapping": "printed 24 = one-based PDF 26"
+    },
+    "Killen1966": {
+      "title": "The abbreviation tu on Knossos woman tablets",
+      "author": "J. T. Killen",
+      "year": 1966,
+      "url": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+      "local_path": "artifacts/linear-a-sources/account-benchmark/killen-tu.pdf",
+      "printed_pages_reviewed": [
+        208,
+        210,
+        211
+      ]
+    },
+    "VentrisChadwick1956": {
+      "title": "Documents in Mycenaean Greek, first edition (1959 reprint)",
+      "author": "Ventris & Chadwick",
+      "year": 1956,
+      "url": "https://ignca.gov.in/Asi_data/17617.pdf",
+      "local_path": "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf",
+      "printed_pages_reviewed": [
+        162,
+        164,
+        168,
+        169,
+        170
+      ],
+      "review_note": "Reuses source collation from frozen linear-b-person-role; no newer interpretation silently imported."
+    },
+    "Duhoux2007": {
+      "title": "Le nom du fils en linéaire B",
+      "author": "Yves Duhoux",
+      "year": 2007,
+      "url": "https://www.researchgate.net/publication/327727893_Le_nom_du_fils_en_lineaire_B_dans_F_LANG_-_C_REINHOLDT_-_J_WEILHARTNER_ed_STEPHANOS_ARISTEIOS_Archaologische_Forschungen_zwischen_Nil_und_Istros_Festschrift_fur_Stefan_Hiller_zum_65_Geburtstag_Vienne_",
+      "access": "Author-uploaded full text read via web extraction, pp.95–103. PDF download link failed; no local PDF/hash claimed."
+    },
+    "MartinezFernandez": {
+      "title": "Tabillas en lineal B",
+      "author": "Ángel Martínez Fernández",
+      "url": "https://campusvirtual.ull.es/ocw/pluginfile.php/6168/mod_resource/content/0/Actividades_y_practicas/Epigrafia_griega/3.1.tabillas_en_lineal_B.pdf",
+      "local_path": "artifacts/linear-a-sources/relational-control/martinez-oe106.pdf",
+      "pages_reviewed": [
+        1
+      ],
+      "scope": "University teaching translation; included only to document the competing Oe106 argument binding, not as independent specialist adjudication."
+    }
+  },
+  "files": [
+    {
+      "local_path": "artifacts/linear-a-sources/relational-control/hiller-1989.pdf",
+      "sha256": "40d42ec6a484584481ebe918ee9c27d180677dcaca40f3e81ac089b94d915eb6",
+      "license": "Copyright; local research reference only, no PDF redistribution"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/relational-control/asa-102-2024.pdf",
+      "sha256": "69a603283e1e3b20b86019e15f473a1d34c3a60ffb87e1b5f26a1ef3981d7aa5",
+      "license": "Copyright; local research reference only, no PDF redistribution"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/account-benchmark/killen-tu.pdf",
+      "sha256": "3b8c794654225736975568df4b431c276efec4a9cf469065980edd9f012b02e4",
+      "license": "Copyright; local research reference only, no PDF redistribution"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf",
+      "sha256": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+      "license": "Copyright; local research reference only, no PDF redistribution"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/relational-control/martinez-oe106.pdf",
+      "sha256": "458f4d7cc306f0d8e44ea3885dc0ea8ae520169a131818d33e5b94ea7c928f3d",
+      "license": "CC BY-NC-SA 2.5 Spain, as printed on source"
+    }
+  ]
+}

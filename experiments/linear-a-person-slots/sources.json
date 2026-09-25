@@ -1,0 +1,341 @@
+{
+  "files": [
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-117a-HT-117a.png",
+      "sha256": "6174cdb20f9784237d21138a3bc5a9e819e9f4c4cba004a18a929891ae99c6ce",
+      "url": "https://sigla.phis.me/document/HT%20117a/HT%20117a.png",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-117a-index-word.html",
+      "sha256": "6e64ba2a3a023be88cedc01b6b9c13c5baf9ba5712973351fce9e0d6ca2d720b",
+      "url": "https://sigla.phis.me/document/HT%20117a/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-117b-HT-117b.png",
+      "sha256": "6eb2ced95ff1ec6cc3b64b58be27082fd48440a8139c115e707ff6e541a4b28f",
+      "url": "https://sigla.phis.me/document/HT%20117b/HT%20117b.png",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-117b-index-word.html",
+      "sha256": "1617fbd3a023577e42333caae7927e8e4b4769b72b5d884fb98e65f4d1479a34",
+      "url": "https://sigla.phis.me/document/HT%20117b/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-122a-index-word.html",
+      "sha256": "022d2672176c2c03eb5dd205ee008fd7a85be4210b18417cfd6c9a9cbf593f92",
+      "url": "https://sigla.phis.me/document/HT%20122a/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-85a-HT-85a.png",
+      "sha256": "b8816236c51a4d4955002d38879295e69f1550d5714ee402a275bfd8cee1983b",
+      "url": "https://sigla.phis.me/document/HT%2085a/HT%2085a.png",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-85a-index-word.html",
+      "sha256": "c7d3ea4073860bcb7e1c0def23829873d5ea6a276e172de6104dd5d3a0d54e77",
+      "url": "https://sigla.phis.me/document/HT%2085a/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-85b-HT-85b.png",
+      "sha256": "3dad730a928deffc4d5ae434d199ed30a8198c69dd2a262d0fa66a6dcd4ff7ed",
+      "url": "https://sigla.phis.me/document/HT%2085b/HT%2085b.png",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-85b-index-word.html",
+      "sha256": "d208fb8e9f636b379ec872348ef6ed1cce1eda7e1a262e1d1d293456be9e279b",
+      "url": "https://sigla.phis.me/document/HT%2085b/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-87-index-word.html",
+      "sha256": "7d39ecc2f3fb8a31d8d3ed77de4adf38ee5046226f4d777a4504c973e78ebbde",
+      "url": "https://sigla.phis.me/document/HT%2087/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/HT-88-index-word.html",
+      "sha256": "8ff3a08eba7baf8c246c4c1d3b6a9060afe46e7941bfa4de3e29cfff60de9c7b",
+      "url": "https://sigla.phis.me/document/HT%2088/index-word.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0; drawing derives from published edition",
+      "description": "SigLA source snapshot"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-166.html",
+      "sha256": "6a414703e5c646700c14a6c444a87093cb5ffacd71ccfb41aa70de9b009abf0c",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=166",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.130; scan index 166"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-166.jpg",
+      "sha256": "c4245f59fc2fd02e954d8ae2de6afd477e6cc9d7db7677f5730150f13c5097c2",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=166",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.130; scan index 166"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-167.html",
+      "sha256": "2f14705e7f1838ac29fed50805a8daddf1f5fdf0266cfbe853386111532b9a7f",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=167",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.131; scan index 167"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-167.jpg",
+      "sha256": "1e3923dfb2bdc8858aa6a518ae62c58b8376f3df5bc1272c398221e2db0da243",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=167",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.131; scan index 167"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-168.html",
+      "sha256": "4a8b98b7c22b69e50e6e8153e70bf4faf518b30e3ccfca8842b214f143b6cadb",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=168",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.132; scan index 168"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-168.jpg",
+      "sha256": "1c768a6e49e071217bcd6c6995cadb94af33f5a2c5e3c22dca598c665c3679f7",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=168",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.132; scan index 168"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-169.html",
+      "sha256": "b3664dfdd782f5c9a3965674f0324a8423a871176040635199ed274193ecfa41",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=169",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.133; scan index 169"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-169.jpg",
+      "sha256": "4f5f8f796048605ab673ad0129bc3c6f74aab5e974548cb061de9d6276702856",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=169",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.133; scan index 169"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-172.html",
+      "sha256": "1e0382a0fa3f3b6d185b4a2b728d38d091e7df70f20d6006ed105ee0d1c97b7f",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=172",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.136; scan index 172"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-172.jpg",
+      "sha256": "6f979adad8bf86f4ff48861b183fa16438eef69d4a7f6f77e64c21a04966cb94",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=172",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.136; scan index 172"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-173.html",
+      "sha256": "84862cef90de479cdbc63dd3cdffa1646a58838c06f121648047be2ce271d6f5",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=173",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.137; scan index 173"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-173.jpg",
+      "sha256": "e36ca472fdb3395f68841958c087386cf5cab18abfd52f9182d1b372c8951960",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=173",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.137; scan index 173"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-174.html",
+      "sha256": "34f09f70a6df8c78ea713c669873c5319da1748e609b453ddaf6f5f8f8290a42",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=174",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.138; scan index 174"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-174.jpg",
+      "sha256": "3c7a3fba27d5c0ea50fa6b43415abf79112aa20f5fd861afd53beedbf3bfe3f8",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=174",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.138; scan index 174"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-175.html",
+      "sha256": "cb5f2235ad984b625e87186da0329bb4c75ace40e2c79d159455ade779a84c5e",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=175",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.139; scan index 175"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-175.jpg",
+      "sha256": "d6148288f85853e6c885b6ba16a7c7f3e19104fc78aa755b0750896fe8c4b964",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=175",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.139; scan index 175"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-232.html",
+      "sha256": "441730aed6320169cd27aaaab953003f8b002be7b412b4b12aa1235901e45b6c",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=232",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.196; scan index 232"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-232.jpg",
+      "sha256": "1d20b7db4a8367b495df584bd5e55dc0f5ea8e0a5efbadd429cbb42348becfe8",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=232",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.196; scan index 232"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-233.html",
+      "sha256": "0f053ae49aec76a2ca1ec6b6f66fadf81ebe9b66c324f491b730d5473224396b",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=233",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.197; scan index 233"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-233.jpg",
+      "sha256": "1b37002b3cc4dc584b4c47e6a79125069f9512809a947ff58b81d2417eb08442",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=233",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.197; scan index 233"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-234.html",
+      "sha256": "d0252ec6ba30eb2b40dc33521f736b1e639d957f6504b85a2072d6b9405a239b",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=234",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.198; scan index 234"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-234.jpg",
+      "sha256": "987e6e000bd4cb0a5ce6a5bc36fb4920b40e3598f3e217eacd098d25aa8c3f90",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=234",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.198; scan index 234"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-235.html",
+      "sha256": "b73fcc782b211916ecc5d8ada744ea012d6a971d5792e7d822c9ddd9da493f69",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=235",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.199; scan index 235"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-235.jpg",
+      "sha256": "362e9a5269236ab3efabd1b96e97f0137fe4517ce6b5ec30f9ec4dd2a0aa494f",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=235",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.199; scan index 235"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-242.html",
+      "sha256": "69a0a258b8382bfa276d4fe2fd71bf48e660a8543d0acce5a150eb1ff7af9ad1",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=242",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.206; scan index 242"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-242.jpg",
+      "sha256": "2a70a64451ec1620759c5ee58e428aa085a971ba3b9882773474e9387c4419f5",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=242",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.206; scan index 242"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-243.html",
+      "sha256": "fc712ce6b7513ec4e6ccc431c6937f734bf7ec6a10d689871b5a6a84c307ed01",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=243",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.207; scan index 243"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/gorila-243.jpg",
+      "sha256": "f736274c86b5f6661bcdcd75a73e6075b90244c0c866387221ee186bafd961fe",
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=243",
+      "accessed": "2026-09-24",
+      "license": "GORILA I (1976), copyright Ecole francaise d’Athenes; local reference only, not redistributed",
+      "description": "GORILA I printed p.207; scan index 243"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/person-slots/ht117-word11.html",
+      "sha256": "e7ff835557cc5a181862d426adf92dcd01c9c4889fc7b7a1fd2c7369a2b96319",
+      "url": "https://sigla.phis.me/document/HT%20117a/index-word-11.html",
+      "accessed": "2026-09-24",
+      "license": "SigLA CC BY-NC-SA 4.0",
+      "description": "Live conflicting AB56 reading, word detail"
+    }
+  ],
+  "corpus": {
+    "local_path": "artifacts/linear-a-sources/navarre/corpus.json",
+    "sha256": "34b2d7d65c1377367e9a393cfa4004f6f9101f4ee5eea9f9b1a2ba830466ff59",
+    "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+    "license": "Navarre-AI CC BY; SigLA-derived fields CC BY-NC-SA 4.0",
+    "manifest": "../linear-a/sources.json"
+  },
+  "paper": {
+    "title": "Brent Davis and Miguel Valerio (2020), Names and designations of people in Linear A: A contextual study of tablets HT 85 and 117",
+    "doi": "10.2307/j.ctv1q26kwq.9",
+    "url": "https://www.researchgate.net/publication/352343395_Names_and_designations_of_people_in_Linear_A_A_contextual_study_of_tablets_HT_85_and_117",
+    "pages": "23–32",
+    "accessed": "2026-09-24",
+    "access": "Full author-uploaded chapter read through web text extraction. PDF download failed; no local PDF or hash claimed. This supersedes the earlier abstract-only access limitation.",
+    "license": "Copyright Peeters; no paper redistributed"
+  },
+  "review": "Photos, facsimiles and normalized transcriptions inspected for both faces of both target tablets. Contextual HT87/88/122a normalized transcriptions inspected. SigLA drawings and GORILA facsimiles are not independent readings. No external expert review."
+}

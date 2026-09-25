@@ -1,0 +1,499 @@
+{
+  "scope": "graphic shapes, no name or kinship labels",
+  "rows": [
+    {
+      "document": "ARKH 3a",
+      "object": "ARKH 3",
+      "line_index": 6,
+      "raw": "𐙩𐄈",
+      "words": [
+        "A317"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ARKH 3a",
+      "object": "ARKH 3",
+      "line_index": 10,
+      "raw": "𐙩𐄈",
+      "words": [
+        "A317"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 100",
+      "object": "HT 100",
+      "line_index": 4,
+      "raw": "𐘸𐄈",
+      "words": [
+        "AB67"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 103",
+      "object": "HT 103",
+      "line_index": 5,
+      "raw": "𐘀𐙂𐘅𐄇",
+      "words": [
+        "AB01/AB81/AB06"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 103",
+      "object": "HT 103",
+      "line_index": 6,
+      "raw": "𐘀𐙂𐘈𐘗𐄇",
+      "words": [
+        "AB01/AB81/AB09/AB24"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 114a",
+      "object": "HT 114",
+      "line_index": 4,
+      "raw": "𐘝𐄇",
+      "words": [
+        "AB30"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 117b",
+      "object": "HT 117",
+      "line_index": 2,
+      "raw": "𐙂𐘙𐘶𐄇",
+      "words": [
+        "AB81/AB27/AB65"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 117b",
+      "object": "HT 117",
+      "line_index": 3,
+      "raw": "𐘆𐘸𐘈𐄇",
+      "words": [
+        "AB07/AB67/AB09"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 118",
+      "object": "HT 118",
+      "line_index": 7,
+      "raw": "𐘸𐄇",
+      "words": [
+        "AB67"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 119",
+      "object": "HT 119",
+      "line_index": 8,
+      "raw": "𐙚𐘹𐄈",
+      "words": [
+        "A306/AB69"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 12",
+      "object": "HT 12",
+      "line_index": 7,
+      "raw": "𐘝𐄇",
+      "words": [
+        "AB30"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 121",
+      "object": "HT 121",
+      "line_index": 4,
+      "raw": "𐘝𐄈",
+      "words": [
+        "AB30"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 23a",
+      "object": "HT 23",
+      "line_index": 14,
+      "raw": "𐘺𐘘𐄇",
+      "words": [
+        "AB70/AB26"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 25a",
+      "object": "HT 25",
+      "line_index": 5,
+      "raw": "𐘉𐘙𐘣𐄇",
+      "words": [
+        "AB10/AB27/AB40"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 25a",
+      "object": "HT 25",
+      "line_index": 6,
+      "raw": "𐘆𐘅𐘉𐄇",
+      "words": [
+        "AB07/AB06/AB10"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 25a",
+      "object": "HT 25",
+      "line_index": 7,
+      "raw": "𐘇𐘭𐘝𐘳𐄇",
+      "words": [
+        "AB08/AB53/AB30/AB59"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 25a",
+      "object": "HT 25",
+      "line_index": 12,
+      "raw": "𐘂𐄇",
+      "words": [
+        "AB03"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 38",
+      "object": "HT 38",
+      "line_index": 4,
+      "raw": "𐙄𐄇",
+      "words": [
+        "AB85"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 63",
+      "object": "HT 63",
+      "line_index": 1,
+      "raw": "𐙙𐄁𐘃𐄇",
+      "words": [
+        "A305",
+        "AB04"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 63",
+      "object": "HT 63",
+      "line_index": 2,
+      "raw": "𐘾𐘠𐄇",
+      "words": [
+        "AB77/AB37"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 6a",
+      "object": "HT 6",
+      "line_index": 6,
+      "raw": "𐘵𐘽𐘆𐘗𐄈",
+      "words": [
+        "AB61/AB76/AB07/AB24"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 7a",
+      "object": "HT 7",
+      "line_index": 4,
+      "raw": "𐘳𐘅𐘠𐄇",
+      "words": [
+        "AB59/AB06/AB37"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 7a",
+      "object": "HT 7",
+      "line_index": 5,
+      "raw": "𐘀𐘙𐄇",
+      "words": [
+        "AB01/AB27"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 7a",
+      "object": "HT 7",
+      "line_index": 6,
+      "raw": "𐘃𐘹𐄇",
+      "words": [
+        "AB04/AB69"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 7b",
+      "object": "HT 7",
+      "line_index": 2,
+      "raw": "𐘀𐘘𐙵𐄈",
+      "words": [
+        "AB01/AB26/A329"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 8b",
+      "object": "HT 8",
+      "line_index": 1,
+      "raw": "𐘲𐘜𐙓𐄇",
+      "words": [
+        "AB58/AB29/AB188"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 8b",
+      "object": "HT 8",
+      "line_index": 4,
+      "raw": "𐘰𐙓𐄈",
+      "words": [
+        "AB56/AB188"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 99b",
+      "object": "HT 99",
+      "line_index": 2,
+      "raw": "𐘀𐘤𐙈𐄈",
+      "words": [
+        "AB01/AB41/AB118"
+      ],
+      "count": 2
+    },
+    {
+      "document": "HT 99b",
+      "object": "HT 99",
+      "line_index": 3,
+      "raw": "𐙀𐘬𐄇",
+      "words": [
+        "AB79/AB51"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 99b",
+      "object": "HT 99",
+      "line_index": 4,
+      "raw": "𐘘𐙁𐘳𐄇",
+      "words": [
+        "AB26/AB80/AB59"
+      ],
+      "count": 1
+    },
+    {
+      "document": "HT 9a",
+      "object": "HT 9",
+      "line_index": 5,
+      "raw": "𐘿𐘫𐄈",
+      "words": [
+        "AB78/AB50"
+      ],
+      "count": 2
+    },
+    {
+      "document": "KH 6",
+      "object": "KH 6",
+      "line_index": 10,
+      "raw": "𐘕𐄇",
+      "words": [
+        "AB23"
+      ],
+      "count": 1
+    },
+    {
+      "document": "KH 6",
+      "object": "KH 6",
+      "line_index": 16,
+      "raw": "𐙄𐘙𐘃𐄁𐙚𐄇",
+      "words": [
+        "AB85/AB27/AB04",
+        "A306"
+      ],
+      "count": 1
+    },
+    {
+      "document": "KH 7b",
+      "object": "KH 7",
+      "line_index": 5,
+      "raw": "𐜝𐄇",
+      "words": [
+        "A629"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 1,
+      "raw": "𐘳𐘅𐘃𐄈",
+      "words": [
+        "AB59/AB06/AB04"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 3,
+      "raw": "𐘇𐙂𐘻𐘅𐄇",
+      "words": [
+        "AB08/AB81/AB73/AB06"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 4,
+      "raw": "𐘇𐘳𐘅𐘃𐄇",
+      "words": [
+        "AB08/AB59/AB06/AB04"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 5,
+      "raw": "𐘇𐘻𐘀𐘉𐄇",
+      "words": [
+        "AB08/AB73/AB01/AB10"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 6,
+      "raw": "𐘇𐘬𐙂𐘻𐘅𐄇",
+      "words": [
+        "AB08/AB51/AB81/AB73/AB06"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 7,
+      "raw": "𐘀𐘚𐘢𐘳𐄇",
+      "words": [
+        "AB01/AB28/AB39/AB59"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10a",
+      "object": "ZA 10",
+      "line_index": 8,
+      "raw": "𐘬𐘙𐘍𐘈𐄈",
+      "words": [
+        "AB51/AB27/AB17/AB09"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ZA 10b",
+      "object": "ZA 10",
+      "line_index": 1,
+      "raw": "𐘮𐚖𐄈",
+      "words": [
+        "AB54/A362"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ZA 10b",
+      "object": "ZA 10",
+      "line_index": 9,
+      "raw": "𐘽𐘁𐘙𐄈",
+      "words": [
+        "AB76/AB02/AB27"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ZA 10b",
+      "object": "ZA 10",
+      "line_index": 10,
+      "raw": "𐘂𐘱𐘙𐄇",
+      "words": [
+        "AB03/AB57/AB27"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 10b",
+      "object": "ZA 10",
+      "line_index": 12,
+      "raw": "𐘳𐄈",
+      "words": [
+        "AB59"
+      ],
+      "count": 2
+    },
+    {
+      "document": "ZA 14",
+      "object": "ZA 14",
+      "line_index": 1,
+      "raw": "𐘋𐘸𐘆𐄇",
+      "words": [
+        "AB13/AB67/AB07"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 14",
+      "object": "ZA 14",
+      "line_index": 5,
+      "raw": "𐙂𐘢𐄇",
+      "words": [
+        "AB81/AB39"
+      ],
+      "count": 1
+    },
+    {
+      "document": "ZA 14",
+      "object": "ZA 14",
+      "line_index": 7,
+      "raw": "𐘂𐘯𐘿𐄈",
+      "words": [
+        "AB03/AB55/AB78"
+      ],
+      "count": 2
+    }
+  ],
+  "objects": 22,
+  "shape_counts": {
+    "1WORD+2": 16,
+    "1WORD+1": 30,
+    "2WORD+1": 2
+  },
+  "rejected_records": {
+    "not_tablet": 1395,
+    "conflict_or_uncertain_sign": 204,
+    "no_sign_layer": 73
+  },
+  "semantic_relations_inferred": 0
+}

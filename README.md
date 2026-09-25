@@ -4,7 +4,7 @@ Controlled experiments on whether computational methods can recover meaning from
 Voynich manuscript. The repository contains no translation. It contains a prediction track
 (closed), corpus statistics, three image studies (parked), an active cipher-recovery
 track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
-until grading, and a Linear A track (closed) that applied the same methods to a second
+until grading, and a Linear A track (stopped on 2026-09-24; final audit archived) that applied the same methods to a second
 undeciphered script. The Etruscan track is also closed: it tested recovery of known
 word classes and relationships but validated no new meanings.
 
@@ -27,7 +27,7 @@ read **[Voynich research progress](docs/VOYNICH_PROGRESS.md)** (25 September 202
 | Does broader historical language coverage help? | In a three-pair pilot, the expanded set ranks the true language first 3/3; only Latin passes acceptance. German transfer error falls 45.7% → 12.5%, Latin 12.4% → 6.7%; all omitted-language cases reject | [coverage pilot](experiments/language-coverage/REPORT.md) |
 | How many cipher-language candidates are available? | Eight: Latin, German, Old French, English, Italian, Catalan, Old Czech and Old Occitan. New controls: Czech passes (5.54% transfer error); Occitan ranks correctly but fails acceptance (15.19% error); both true-language omissions reject | [Czech/Occitan extension](experiments/language-expansion/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
-| Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
+| Can these methods tell which language Linear A is? | No. Lexical tests cannot reliably find Greek even in Linear B at Linear A's size (696 readable word types); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 | Can these methods recover Etruscan meanings? | Some simple known relationships transfer; complex interpretation fails. Six modeling stages and a source audit are complete; no new meanings validated; track closed | [Etruscan closure](docs/ETRUSCAN.md) |
 
 Earlier short-passage recovery results (Naibbe cipher, codebook-free; round six below):
@@ -98,13 +98,17 @@ fresh confirmation and manuscript readiness remain unestablished.
 The new [24-panel image pilot](data/folios/object-pilot/REPORT.md) adds object groups,
 evidence boxes and compound relations. Independent human review is pending.
 
-The [Linear A track](docs/LINEAR_A.md) (branch `linear-a`, 2026-09-23) reverses the Voynich
-problem: sign sounds are roughly known, the language is not. Five rounds tested lexicon
-matching, tablet position, name lists, seven targeted probes and grammar profiles. Every
-method was checked first on Linear B, which is Greek. The three lexical rounds found Greek in at
-most 10% of Linear B samples against a 90% gate. No round-four probe reached p < 0.007. Round
-five's Hittite profile match also appears for shuffled syllables, so it is an artefact. The track is closed. [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md)
-ranks other undeciphered scripts; the next candidate is Rongorongo.
+The **Linear A work is stopped at the user's request (2026-09-24)**. The
+[final closeout](docs/LINEAR_A_CLOSEOUT.md) records the original five rounds, repaired tests,
+accounting and name-slot audits, son/daughter controls and the Theban image-access limit.
+The repairs fixed real defects, but no tested method supports a new Linear A translation,
+language identification or parentage edge. No general information limit was established.
+
+The final source search obtained no full-context images of the four target Theban objects.
+The scan-request packet is archived and unsent; further searches and experiments are parked.
+Closing verification: 74 focused tests, 11 follow-up freezes and eight image-review source
+hashes. The [chronological summary](docs/LINEAR_A.md) and [results table](docs/RESULTS.md)
+retain the detailed evidence. This stop applies only to the Linear A work and its B controls.
 
 ## Documentation
 
@@ -113,7 +117,8 @@ ranks other undeciphered scripts; the next candidate is Rongorongo.
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
 | [docs/FOUR_SCRIPTS.md](docs/FOUR_SCRIPTS.md) | Cross-script write-up: Voynich, Linear A, Rongorongo, Proto-Elamite, and the known-answer rule |
-| [docs/LINEAR_A.md](docs/LINEAR_A.md) | The Linear A track: five rounds, why none identified a language |
+| [docs/LINEAR_A_CLOSEOUT.md](docs/LINEAR_A_CLOSEOUT.md) | Final Linear A handoff, conclusions, limits and stopping conditions |
+| [docs/LINEAR_A.md](docs/LINEAR_A.md) | Linear A: original rounds, repairs, accounting, kinship and Theban source audits |
 | [docs/ETRUSCAN.md](docs/ETRUSCAN.md) | The closed Etruscan track: six modeling stages, evidence audit and reopening conditions |
 | [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |

@@ -1,0 +1,53 @@
+{
+  "papers": [
+    {
+      "url": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+      "title": "J. T. Killen, The abbreviation tu on Knossos woman tablets",
+      "pages": [
+        208,
+        209,
+        212
+      ],
+      "local_path": "artifacts/linear-a-sources/account-benchmark/killen-tu.pdf",
+      "sha256": "3b8c794654225736975568df4b431c276efec4a9cf469065980edd9f012b02e4",
+      "license": "Copyright; local reference only"
+    },
+    {
+      "url": "https://biblioteca-digitala.ro/reviste/StudiiClasice/02-revista-studii-clasice-II-1960-67-72.pdf",
+      "title": "J. Chadwick (1960), Context and etymology in Mycenaean interpretations",
+      "page": 60,
+      "access": "Full article read through web tool; direct local download returned 403. Exact interpreted expression and provenance recorded in controls; no local PDF claimed."
+    },
+    {
+      "url": "https://portalinvestigacion.um.es/documentos/69ca489802adbc22ca0c8b13?lang=en",
+      "title": "Davis & Valério (2020), Names and designations of people in Linear A",
+      "doi": "10.2307/j.ctv1q26kwq.9",
+      "access": "Institutional abstract only; full chapter not obtained. Supports status of 1-list anthroponyms as an assumption; no detailed claims attributed to unread chapter."
+    }
+  ],
+  "etruscan_review": {
+    "date": "2026-09-24",
+    "status": "Read-only inspection of concurrent untracked scaffolding prototype, not an evaluated result",
+    "files": [
+      {
+        "path": "/Users/giuseppe.castegnetti/code/gc/llm-rs/etruscan/scaffolding.py",
+        "sha256_at_review": "26242b781b7a1b118abb781791f62fa00c58fdd67c8a2f0190a08599f5363375"
+      },
+      {
+        "path": "/Users/giuseppe.castegnetti/code/gc/llm-rs/experiments/etruscan-repair/REPORT.md",
+        "sha256_at_review": "3279e40699b8b641713f4dcd196361f00bc571c784752d00c1063ee32826f2d8"
+      }
+    ]
+  },
+  "linear_a_corpus": {
+    "path": "artifacts/linear-a-sources/navarre/corpus.json",
+    "sha256": "34b2d7d65c1377367e9a393cfa4004f6f9101f4ee5eea9f9b1a2ba830466ff59",
+    "revision": "3a83a327505bd5e01c41f05185fdcd74a40fb062",
+    "provenance": "../linear-a/sources.json"
+  },
+  "linear_b_corpus": {
+    "path": "artifacts/linear-a-sources/damos/items",
+    "provenance": "../linear-a-context/sources.json",
+    "note": "Every pinned item is hashed by freeze.json. Literal search inventory, not morphological counts."
+  }
+}

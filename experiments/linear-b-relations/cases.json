@@ -1,0 +1,1208 @@
+{
+  "cases": [
+    {
+      "id": "r001",
+      "object": "5622",
+      "document": "MY V-(-) 659",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "o-to-wo-wi-je",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 5,
+              "raw": ".5        o-to-wo-wi-je  tu-ka-te-qe                2",
+              "span": [
+                10,
+                23
+              ],
+              "text": "o-to-wo-wi-je"
+            }
+          ]
+        },
+        {
+          "text": "tu-ka-te-qe",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 5,
+              "raw": ".5        o-to-wo-wi-je  tu-ka-te-qe                2",
+              "span": [
+                25,
+                36
+              ],
+              "text": "tu-ka-te-qe"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Killen1966": [
+          208
+        ],
+        "Hiller1989": [
+          54,
+          55
+        ]
+      },
+      "notes": "Named participant and daughter; daughter has no separate name in this entry.",
+      "direction_status": "unnamed_child",
+      "source_arguments": {
+        "parent": "o-to-wo-wi-je",
+        "child": null
+      }
+    },
+    {
+      "id": "r002",
+      "object": "5622",
+      "document": "MY V-(-) 659",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "a-ne-a2",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 6,
+              "raw": ".6        a-ne-a2  ,  tu-ka-te-qe                         2",
+              "span": [
+                10,
+                17
+              ],
+              "text": "a-ne-a2"
+            }
+          ]
+        },
+        {
+          "text": "tu-ka-te-qe",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 6,
+              "raw": ".6        a-ne-a2  ,  tu-ka-te-qe                         2",
+              "span": [
+                22,
+                33
+              ],
+              "text": "tu-ka-te-qe"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Killen1966": [
+          208
+        ],
+        "Hiller1989": [
+          54,
+          55
+        ]
+      },
+      "notes": "Named participant and daughter; daughter has no separate name in this entry.",
+      "direction_status": "unnamed_child",
+      "source_arguments": {
+        "parent": "a-ne-a2",
+        "child": null
+      }
+    },
+    {
+      "id": "r003",
+      "object": "5582",
+      "document": "MY Oe(-) 106",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "o-te-ra",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".2        o-te-ra  ,  tu-ka-te-re                          LANA    1̣",
+              "span": [
+                10,
+                17
+              ],
+              "text": "o-te-ra"
+            }
+          ]
+        },
+        {
+          "text": "tu-ka-te-re",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".2        o-te-ra  ,  tu-ka-te-re                          LANA    1̣",
+              "span": [
+                22,
+                33
+              ],
+              "text": "tu-ka-te-re"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          54,
+          55
+        ],
+        "MartinezFernandez": [
+          1
+        ]
+      },
+      "notes": "Daughter content is clear. Hiller reads the name in apposition as the daughter; another published interpretation makes it the parent. No directed edge.",
+      "direction_status": "disputed_binding",
+      "source_arguments": null
+    },
+    {
+      "id": "r004",
+      "object": "4315",
+      "document": "PY Ae(-) 344",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "pi-ṛọ-ẉọ-na",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": "        pi-ṛọ-ẉọ-na  ,  wi-do-ẉọ-i-jo  ,  i-*65   VIR   1",
+              "span": [
+                8,
+                23
+              ],
+              "text": "pi-ṛọ-ẉọ-na"
+            }
+          ]
+        },
+        {
+          "text": "wi-do-ẉọ-i-jo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": "        pi-ṛọ-ẉọ-na  ,  wi-do-ẉọ-i-jo  ,  i-*65   VIR   1",
+              "span": [
+                28,
+                43
+              ],
+              "text": "wi-do-ẉọ-i-jo"
+            }
+          ]
+        },
+        {
+          "text": "i-*65",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": "        pi-ṛọ-ẉọ-na  ,  wi-do-ẉọ-i-jo  ,  i-*65   VIR   1",
+              "span": [
+                48,
+                53
+              ],
+              "text": "i-*65"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60,
+          61
+        ],
+        "Duhoux2007": [
+          97
+        ]
+      },
+      "notes": "Intact kin term; names have doubtful signs. Hiller discusses competing argument orders and a possible genitive spelling correction. No repair or directed edge.",
+      "direction_status": "disputed_binding",
+      "source_arguments": null
+    },
+    {
+      "id": "r005",
+      "object": "4365",
+      "document": "PY Aq(-) 218",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "qo-te-wo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 16,
+              "raw": ".16                             qo-te-wo  ,  i-*65                ZE   1",
+              "span": [
+                32,
+                40
+              ],
+              "text": "qo-te-wo"
+            }
+          ]
+        },
+        {
+          "text": "i-*65",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 16,
+              "raw": ".16                             qo-te-wo  ,  i-*65                ZE   1",
+              "span": [
+                45,
+                50
+              ],
+              "text": "i-*65"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60,
+          61
+        ],
+        "Duhoux2007": [
+          102
+        ]
+      },
+      "notes": "Unnamed son specified through a parent name; ZE 1 is not a supplied person count.",
+      "direction_status": "unnamed_child",
+      "source_arguments": {
+        "parent": "qo-te-wo",
+        "child": null
+      }
+    },
+    {
+      "id": "r006",
+      "object": "4694",
+      "document": "PY Jn(1) 725",
+      "status": "scored",
+      "kind": "kinship",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "wa-ti-ko-ro",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        ko-ma-do-ro   1   po-so-ra-ko   1   wa-ti-ko-ro   1   i-*65-qe   1",
+              "span": [
+                46,
+                57
+              ],
+              "text": "wa-ti-ko-ro"
+            }
+          ]
+        },
+        {
+          "text": "i-*65-qe",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        ko-ma-do-ro   1   po-so-ra-ko   1   wa-ti-ko-ro   1   i-*65-qe   1",
+              "span": [
+                64,
+                72
+              ],
+              "text": "i-*65-qe"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60,
+          61
+        ],
+        "Duhoux2007": [
+          97
+        ]
+      },
+      "notes": "Separate counts of one for the named smith and unnamed son.",
+      "direction_status": "unnamed_child",
+      "source_arguments": {
+        "parent": "wa-ti-ko-ro",
+        "child": null
+      }
+    },
+    {
+      "id": "r007",
+      "object": "4353",
+      "document": "PY An(3) 654",
+      "status": "scored",
+      "kind": "patronymic",
+      "label": "FAMILY",
+      "parts": [
+        {
+          "text": "a-re-ku-tu-ru-wo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        a-re-ku-tu-ru-wo  ,  e-te-wo-ke-re-we",
+              "span": [
+                10,
+                26
+              ],
+              "text": "a-re-ku-tu-ru-wo"
+            }
+          ]
+        },
+        {
+          "text": "e-te-wo-ke-re-we-i-jo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        a-re-ku-tu-ru-wo  ,  e-te-wo-ke-re-we",
+              "span": [
+                31,
+                47
+              ],
+              "text": "e-te-wo-ke-re-we"
+            },
+            {
+              "line_index": 9,
+              "raw": ".9        i-jo ,",
+              "span": [
+                10,
+                14
+              ],
+              "text": "i-jo"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          62,
+          63
+        ]
+      },
+      "notes": "Cross-line patronymic: i-jo is not treated as a separate son marker. Broader lineage versus immediate filiation remains a source caveat. No invented unattested parent name.",
+      "direction_status": "lineage_not_exact_edge",
+      "source_arguments": null
+    },
+    {
+      "id": "r008",
+      "object": "757",
+      "document": "KN Ai(-) 824",
+      "status": "scored",
+      "kind": "service",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "a-pi-qo-i-ta",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": ".1        a-pi-qo-i-ta  /  do-e-ra     MUL   32     ko-wa  ,  me-zo-e   5     ko-wa me-wi-jo-e   15",
+              "span": [
+                10,
+                22
+              ],
+              "text": "a-pi-qo-i-ta"
+            }
+          ]
+        },
+        {
+          "text": "do-e-ra",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": ".1        a-pi-qo-i-ta  /  do-e-ra     MUL   32     ko-wa  ,  me-zo-e   5     ko-wa me-wi-jo-e   15",
+              "span": [
+                27,
+                34
+              ],
+              "text": "do-e-ra"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Godart2024": [
+          24
+        ],
+        "VentrisChadwick1956": [
+          162,
+          164
+        ]
+      },
+      "notes": "Named responsible person and service group; exact legal status is not the classifier target.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r009",
+      "object": "4543",
+      "document": "PY Eb(-) 1187",
+      "status": "scored",
+      "kind": "service",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "e-ni-to-wo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": ".1        e-ni-to-wo  ,  a-pi-me-de-o  ,  do-e-ro  ,  e-ke-qe  ,  o-na-to",
+              "span": [
+                10,
+                20
+              ],
+              "text": "e-ni-to-wo"
+            }
+          ]
+        },
+        {
+          "text": "a-pi-me-de-o",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": ".1        e-ni-to-wo  ,  a-pi-me-de-o  ,  do-e-ro  ,  e-ke-qe  ,  o-na-to",
+              "span": [
+                25,
+                37
+              ],
+              "text": "a-pi-me-de-o"
+            }
+          ]
+        },
+        {
+          "text": "do-e-ro",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": ".1        e-ni-to-wo  ,  a-pi-me-de-o  ,  do-e-ro  ,  e-ke-qe  ,  o-na-to",
+              "span": [
+                42,
+                49
+              ],
+              "text": "do-e-ro"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Godart2024": [
+          24
+        ]
+      },
+      "notes": "Named dependent of a named person. Parallel Ep539.10 is excluded to avoid repeated-transaction leakage.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r010",
+      "object": "4681",
+      "document": "PY Jn(1) 310",
+      "status": "scored",
+      "kind": "service",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "do-e-ro",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 11,
+              "raw": ".11           to-so-de  ,  do-e-ro  ,  ke-we-to-jo     1     i-wa-ka-o     1",
+              "span": [
+                27,
+                34
+              ],
+              "text": "do-e-ro"
+            }
+          ]
+        },
+        {
+          "text": "ke-we-to-jo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 11,
+              "raw": ".11           to-so-de  ,  do-e-ro  ,  ke-we-to-jo     1     i-wa-ka-o     1",
+              "span": [
+                39,
+                50
+              ],
+              "text": "ke-we-to-jo"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Godart2024": [
+          24
+        ]
+      },
+      "notes": "Service designation followed by inflected responsible person; unnamed dependent.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r011",
+      "object": "4689",
+      "document": "PY Jn(1) 605",
+      "status": "scored",
+      "kind": "service",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "do-e-ro",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 9,
+              "raw": ".9        to-so-de  ,  do-e-ro",
+              "span": [
+                23,
+                30
+              ],
+              "text": "do-e-ro"
+            }
+          ]
+        },
+        {
+          "text": "pe-re-qo-no-jo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 10,
+              "raw": ".10      pe-re-qo-no-jo   2   a3-ki-e-wo   2   mi-ka-ri-jo-jo   1",
+              "span": [
+                9,
+                23
+              ],
+              "text": "pe-re-qo-no-jo"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Godart2024": [
+          24
+        ]
+      },
+      "notes": "Header designation governing following inflected name; supplied cross-line fragment, no inferred name of a dependent.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r012",
+      "object": "4695",
+      "document": "PY Jn(1) 750",
+      "status": "scored",
+      "kind": "service",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "e-u-we-to-ro",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 13,
+              "raw": ".13      e-u-we-to-ro  ,  do-e-ro   1   e[",
+              "span": [
+                9,
+                21
+              ],
+              "text": "e-u-we-to-ro"
+            }
+          ]
+        },
+        {
+          "text": "do-e-ro",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 13,
+              "raw": ".13      e-u-we-to-ro  ,  do-e-ro   1   e[",
+              "span": [
+                26,
+                33
+              ],
+              "text": "do-e-ro"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Godart2024": [
+          24
+        ]
+      },
+      "notes": "Name and dependent/service designation; do not turn inflection into parentage.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r013",
+      "object": "754",
+      "document": "KN Am(2) 821",
+      "status": "scored",
+      "kind": "occupation",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "ko-pe-re-u",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".2        si-ja-du-we  ,  ṭạ-ṛạ  ,  / i-je[-re-]u  ,  po-me  ,  e-ne-ka  ,  'o-pa'  X  VIR  1  //  ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+              "span": [
+                103,
+                113
+              ],
+              "text": "ko-pe-re-u"
+            }
+          ]
+        },
+        {
+          "text": "e-qe-ta",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".2        si-ja-du-we  ,  ṭạ-ṛạ  ,  / i-je[-re-]u  ,  po-me  ,  e-ne-ka  ,  'o-pa'  X  VIR  1  //  ko-pe-re-u  ,̣/  e-qe-ta  ,  e-ki-'si-jo'     VIR   1",
+              "span": [
+                120,
+                127
+              ],
+              "text": "e-qe-ta"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "VentrisChadwick1956": [
+          168,
+          169
+        ]
+      },
+      "notes": "Name followed by title; count one does not make the title a child.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r014",
+      "object": "4311",
+      "document": "PY Ae(1) 134",
+      "status": "scored",
+      "kind": "occupation",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "ke-ro-wo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".b        ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+              "span": [
+                10,
+                18
+              ],
+              "text": "ke-ro-wo"
+            }
+          ]
+        },
+        {
+          "text": "po-me",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".b        ke-ro-wo  ,  po-me  ,  a-si-ja-ti-ja  ,  o-pi  ,  ta-ra-ma-o  qe-to-ro-po-pi   VIR   1",
+              "span": [
+                23,
+                28
+              ],
+              "text": "po-me"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "VentrisChadwick1956": [
+          169
+        ]
+      },
+      "notes": "Selected name-plus-shepherd fragment; rest of the entry concerns responsibility for animals.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r015",
+      "object": "4309",
+      "document": "PY Ae(1) 108",
+      "status": "scored",
+      "kind": "occupation",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "qo-te-ro",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".b        qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+              "span": [
+                10,
+                18
+              ],
+              "text": "qo-te-ro"
+            }
+          ]
+        },
+        {
+          "text": "a3-ki-pa-ta",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 2,
+              "raw": ".b        qo-te-ro  ,  a3-ki-pa-ta  ,  o-pi  ,  ta-ra-ma-ta-o  ,  qe[-to-ro-po-pi   VIR   1",
+              "span": [
+                23,
+                34
+              ],
+              "text": "a3-ki-pa-ta"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "VentrisChadwick1956": [
+          170
+        ]
+      },
+      "notes": "Name and goatherd designation. Book ai-/DĀMOS a3- notation retained.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r016",
+      "object": "4313",
+      "document": "PY Ae(1) 264",
+      "status": "scored",
+      "kind": "occupation",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "pi-ra-jo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": "        pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+              "span": [
+                8,
+                16
+              ],
+              "text": "pi-ra-jo"
+            }
+          ]
+        },
+        {
+          "text": "a3-ki-pa-ta",
+          "kind": "word",
+          "segments": [
+            {
+              "line_index": 1,
+              "raw": "        pi-ra-jo  ,  a3-ki-pa-ta  ,  su-ra-te  ,  du-ni-jo  ,  me-tu-ra  ,  su-ra-se   ṾỊṚ   1",
+              "span": [
+                21,
+                32
+              ],
+              "text": "a3-ki-pa-ta"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "VentrisChadwick1956": [
+          169
+        ]
+      },
+      "notes": "Name and goatherd designation; surrounding uncertain material is not repaired.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r017",
+      "object": "5622",
+      "document": "MY V-(-) 659",
+      "status": "scored",
+      "kind": "pair",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "ri-su-ra",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 3,
+              "raw": ".3        ri-su-ra  ,  qo-ta-qe                                2",
+              "span": [
+                10,
+                18
+              ],
+              "text": "ri-su-ra"
+            }
+          ]
+        },
+        {
+          "text": "qo-ta-qe",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 3,
+              "raw": ".3        ri-su-ra  ,  qo-ta-qe                                2",
+              "span": [
+                23,
+                31
+              ],
+              "text": "qo-ta-qe"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Killen1966": [
+          208
+        ],
+        "Hiller1989": [
+          54,
+          55
+        ]
+      },
+      "notes": "Two named people conjoined. Negative for explicit family expression, not proof they are unrelated.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r018",
+      "object": "5562",
+      "document": "MY Au(-) 102",
+      "status": "scored",
+      "kind": "pair",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "te-ra-wo",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 4,
+              "raw": ".3        te-ra-wo  ,  ka-ri-se-u-qe  ,           VIR 2",
+              "span": [
+                10,
+                18
+              ],
+              "text": "te-ra-wo"
+            }
+          ]
+        },
+        {
+          "text": "ka-ri-se-u-qe",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 4,
+              "raw": ".3        te-ra-wo  ,  ka-ri-se-u-qe  ,           VIR 2",
+              "span": [
+                23,
+                36
+              ],
+              "text": "ka-ri-se-u-qe"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          59
+        ]
+      },
+      "notes": "Ordinary named co-listing. Kinship may exist but is not expressed by a kin term or patronymic.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r019",
+      "object": "4694",
+      "document": "PY Jn(1) 725",
+      "status": "scored",
+      "kind": "pair",
+      "label": "OTHER",
+      "parts": [
+        {
+          "text": "ko-ma-do-ro",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        ko-ma-do-ro   1   po-so-ra-ko   1   wa-ti-ko-ro   1   i-*65-qe   1",
+              "span": [
+                10,
+                21
+              ],
+              "text": "ko-ma-do-ro"
+            }
+          ]
+        },
+        {
+          "text": "po-so-ra-ko",
+          "kind": "name",
+          "segments": [
+            {
+              "line_index": 8,
+              "raw": ".8        ko-ma-do-ro   1   po-so-ra-ko   1   wa-ti-ko-ro   1   i-*65-qe   1",
+              "span": [
+                28,
+                39
+              ],
+              "text": "po-so-ra-ko"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60
+        ]
+      },
+      "notes": "Adjacent individually counted smiths; no explicit family expression. Same object as positive: held out together.",
+      "direction_status": "not_applicable",
+      "source_arguments": null
+    },
+    {
+      "id": "r020",
+      "object": "5562",
+      "document": "MY Au(-) 102",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 2,
+          "raw": ".1        wa-ra-pi-si-ro , i-jo-qe ,                VIR 2"
+        },
+        {
+          "line_index": 8,
+          "raw": ".7        wa-a2-ta  ,  de-u-ki-jo-qe              VIR 2"
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          59
+        ],
+        "Duhoux2007": [
+          96
+        ]
+      },
+      "notes": "Son versus personal name Ion. Neither reading is silently promoted to gold.",
+      "alternatives": [
+        "FAMILY",
+        "PAIR"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r021",
+      "object": "1359",
+      "document": "KN Vs(2) 1523",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 5,
+          "raw": ".3                       ]sa-ka-ri-jo  ,     [                                                        ] vac."
+        },
+        {
+          "line_index": 6,
+          "raw": ".4a                                                                  i-jo                            i-jo"
+        },
+        {
+          "line_index": 7,
+          "raw": ".4b      [o-]pi  /  di-zo  ,  pi-ma-ṇạ-ro  ,  zo-wi-jo   1   a-tu-qo-te-ra-to    1̣["
+        },
+        {
+          "line_index": 8,
+          "raw": ".5a                                                                 i-jo"
+        },
+        {
+          "line_index": 9,
+          "raw": ".5b      o-pi  /  ri-zo  ,   pi-ma-na-ro               pi-ro-i-ta   1"
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          59
+        ],
+        "Duhoux2007": [
+          96
+        ]
+      },
+      "notes": "Hiller accepts participle going; Duhoux argues son. Three intact i-jo occurrences are not three independent objects.",
+      "alternatives": [
+        "FAMILY",
+        "GOING"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r022",
+      "object": "4364",
+      "document": "PY Aq(-) 64",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 8,
+          "raw": ".7b      pe-ri-me-de-o  ,  i-*6̣5̣  ,  po-so-ri-jo-no  ,  te-ra-ni-ja  ,  a-ke-re-se  ,  to-to-we-to  ,      *171   12̣"
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60
+        ],
+        "Duhoux2007": [
+          97,
+          102
+        ]
+      },
+      "notes": "Published son interpretation but doubtful relation-marker sign in pinned corpus; excluded from strict scoring.",
+      "alternatives": [
+        "FAMILY_WITH_UNCERTAIN_TEXT"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r023",
+      "object": "4686",
+      "document": "PY Jn(1) 431",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 6,
+          "raw": ".6        qa-si-re-u  ,  a-pi-qo-ta         1 [          ]ị-*65-qe            1"
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          60
+        ],
+        "Duhoux2007": [
+          97
+        ]
+      },
+      "notes": "Published son interpretation, damaged intervening context and doubtful marker onset; excluded from strict scoring.",
+      "alternatives": [
+        "FAMILY_WITH_UNCERTAIN_TEXT"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r024",
+      "object": "5588",
+      "document": "MY Oe(-) 112",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 3,
+          "raw": ".2        tu-ka-ṭạ-ṣị     LANA  8            ka-ti-[     ]  LANA  1̣["
+        }
+      ],
+      "sources": {
+        "Hiller1989": [
+          55
+        ]
+      },
+      "notes": "Doubtful collective daughters reading, without a secure individual binding.",
+      "alternatives": [
+        "COLLECTIVE_DAUGHTERS_WITH_UNCERTAIN_TEXT"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r025",
+      "object": "5410",
+      "document": "TH Gp(-) 227",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 2,
+          "raw": ".2        ra-]ke-da-mo-ni-jo-u-jo  V  2̣["
+        }
+      ],
+      "sources": {
+        "Duhoux2007": [
+          97,
+          102
+        ]
+      },
+      "notes": "Attached -u-jo is missed by a bare-word search; parent name begins in a break. Candidate only.",
+      "alternatives": [
+        "ATTACHED_FAMILY_WITH_DAMAGED_NAME"
+      ],
+      "direction_status": "unresolved"
+    },
+    {
+      "id": "r026",
+      "object": "5595",
+      "document": "MY Oe(-) 121",
+      "status": "unresolved",
+      "kind": "review",
+      "label": null,
+      "raw_lines": [
+        {
+          "line_index": 2,
+          "raw": ".2        ka-ke-wi                LANA  2        pa-se-ri-jo  ko-wo         LANA 2 [̣"
+        }
+      ],
+      "sources": {
+        "Duhoux2007": [
+          95
+        ]
+      },
+      "notes": "Paper prints a continuous expression where DĀMOS separates words; several name/case analyses remain possible.",
+      "alternatives": [
+        "SON_OF_NAMED_PARENT",
+        "NAMED_SON",
+        "PATRONYMIC"
+      ],
+      "direction_status": "unresolved"
+    }
+  ],
+  "attribution": "Source text DĀMOS CC BY-NC-SA 4.0. Interpretations are qualified development annotations, not independent adjudication."
+}

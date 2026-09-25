@@ -1,0 +1,820 @@
+{
+  "qi-tu-ne": {
+    "occurrences": 3,
+    "objects": 3,
+    "hits": [
+      {
+        "document": "HT 117b",
+        "object": "HT 117",
+        "word_index": 0,
+        "words": [
+          "qi-tu-ne",
+          "ku-re-ju",
+          "di-ki-se"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 7b",
+        "object": "HT 7",
+        "word_index": 0,
+        "words": [
+          "qi-tu-ne",
+          "da-ru-A329"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 87",
+        "object": "HT 87",
+        "word_index": 0,
+        "words": [
+          "qi-tu-ne",
+          "ma-ka-ri-te",
+          "pi-ta-ke-si",
+          "ja-re-mi",
+          "di-ki-se",
+          "qe-su-pu",
+          "ku-ru-ku",
+          "a-ra-[?]-a-tu"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "ma-ka-ri-te": {
+    "occurrences": 2,
+    "objects": 2,
+    "hits": [
+      {
+        "document": "HT 117a",
+        "object": "HT 117",
+        "word_index": 0,
+        "words": [
+          "ma-ka-ri-te",
+          "ki-ro",
+          "u-mi-na-si",
+          "u-su",
+          "mi-tu",
+          "ku-ra-mu",
+          "ma-ru",
+          "ku-*56-nu",
+          "tu-ju-ma",
+          "u-di-mi",
+          "mi-ru-ta-ra-re",
+          "te-*56-re",
+          "na-da-re",
+          "ku-ro",
+          "sa-ta",
+          "ku-ku-da-ra",
+          "ko-sa-i-ti",
+          "da-mi-nu",
+          "da-ne-ku-ti",
+          "ki-da-ro"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "te-*56-re",
+            "theirs": "te-ja-re",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB056 (*56), glyph layer AB057 (ja)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10603 AB004 te, U+10631 AB057 ja, U+10619 AB027 re",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 12 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 87",
+        "object": "HT 87",
+        "word_index": 1,
+        "words": [
+          "qi-tu-ne",
+          "ma-ka-ri-te",
+          "pi-ta-ke-si",
+          "ja-re-mi",
+          "di-ki-se",
+          "qe-su-pu",
+          "ku-ru-ku",
+          "a-ra-[?]-a-tu"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "di-ki-se": {
+    "occurrences": 2,
+    "objects": 2,
+    "hits": [
+      {
+        "document": "HT 117b",
+        "object": "HT 117",
+        "word_index": 2,
+        "words": [
+          "qi-tu-ne",
+          "ku-re-ju",
+          "di-ki-se"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 87",
+        "object": "HT 87",
+        "word_index": 4,
+        "words": [
+          "qi-tu-ne",
+          "ma-ka-ri-te",
+          "pi-ta-ke-si",
+          "ja-re-mi",
+          "di-ki-se",
+          "qe-su-pu",
+          "ku-ru-ku",
+          "a-ra-[?]-a-tu"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "ku-*56-nu": {
+    "occurrences": 8,
+    "objects": 7,
+    "hits": [
+      {
+        "document": "HT 1",
+        "object": "HT 1",
+        "word_index": 4,
+        "words": [
+          "qe-ra2-u",
+          "ki-ro",
+          "*79-su",
+          "di-di-za-ke",
+          "ku-*56-nu",
+          "a-ra-na-re"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 117a",
+        "object": "HT 117",
+        "word_index": 7,
+        "words": [
+          "ma-ka-ri-te",
+          "ki-ro",
+          "u-mi-na-si",
+          "u-su",
+          "mi-tu",
+          "ku-ra-mu",
+          "ma-ru",
+          "ku-*56-nu",
+          "tu-ju-ma",
+          "u-di-mi",
+          "mi-ru-ta-ra-re",
+          "te-*56-re",
+          "na-da-re",
+          "ku-ro",
+          "sa-ta",
+          "ku-ku-da-ra",
+          "ko-sa-i-ti",
+          "da-mi-nu",
+          "da-ne-ku-ti",
+          "ki-da-ro"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "te-*56-re",
+            "theirs": "te-ja-re",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB056 (*56), glyph layer AB057 (ja)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10603 AB004 te, U+10631 AB057 ja, U+10619 AB027 re",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 12 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 122a",
+        "object": "HT 122",
+        "word_index": 11,
+        "words": [
+          "ra-ri",
+          "u-de-za",
+          "da-si-*118",
+          "pa",
+          "di",
+          "te-ki",
+          "qa-A310-i",
+          "ja-mi-da-re",
+          "si-da-re",
+          "A324-di-ra",
+          "pa-de",
+          "ku-*56-nu",
+          "pa-ri-ne",
+          "A306-tu",
+          "du",
+          "ku-*56-nu",
+          "da-ri-da",
+          "ku-ro",
+          "ku-da"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "pa-ri-ne",
+            "theirs": "pa-ta-ne",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB053 (ri), glyph layer AB059 (ta)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10602 AB003 pa, U+10633 AB059 ta, U+10617 AB024 ne",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 13 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 122a",
+        "object": "HT 122",
+        "word_index": 15,
+        "words": [
+          "ra-ri",
+          "u-de-za",
+          "da-si-*118",
+          "pa",
+          "di",
+          "te-ki",
+          "qa-A310-i",
+          "ja-mi-da-re",
+          "si-da-re",
+          "A324-di-ra",
+          "pa-de",
+          "ku-*56-nu",
+          "pa-ri-ne",
+          "A306-tu",
+          "du",
+          "ku-*56-nu",
+          "da-ri-da",
+          "ku-ro",
+          "ku-da"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "pa-ri-ne",
+            "theirs": "pa-ta-ne",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB053 (ri), glyph layer AB059 (ta)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10602 AB003 pa, U+10633 AB059 ta, U+10617 AB024 ne",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 13 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 3",
+        "object": "HT 3",
+        "word_index": 8,
+        "words": [
+          "ma-di?",
+          "di-na",
+          "qe-ra2-ja",
+          "[?]",
+          "mu-ru",
+          "ru",
+          "si-tu-ra2-re",
+          "[?]",
+          "ku-*56-nu",
+          "ma-di",
+          "da"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 49a",
+        "object": "HT 49",
+        "word_index": 10,
+        "words": [
+          "[?]-ra2-du",
+          "ta-na-ti",
+          "[?]",
+          "ri",
+          "su-ki?",
+          "[?]",
+          "ti-du-ni",
+          "[?]-[?]",
+          "si-ra",
+          "a-ru",
+          "ku-*56-nu",
+          "tu-su-pu2"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 88",
+        "object": "HT 88",
+        "word_index": 6,
+        "words": [
+          "a-du",
+          "re-za",
+          "ki-ki-na",
+          "ki-ro",
+          "ku-*56-*56",
+          "ka-ju",
+          "ku-*56-nu",
+          "pa-ja-re",
+          "sa-ma-ro",
+          "da-ta-re",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "PH 31a",
+        "object": "PH 31",
+        "word_index": 3,
+        "words": [
+          "[?]-a-[?]",
+          "ru",
+          "ma-di",
+          "ku-*56-nu",
+          "pa-ta-da",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "da-si-*118": {
+    "occurrences": 4,
+    "objects": 4,
+    "hits": [
+      {
+        "document": "HT 122a",
+        "object": "HT 122",
+        "word_index": 2,
+        "words": [
+          "ra-ri",
+          "u-de-za",
+          "da-si-*118",
+          "pa",
+          "di",
+          "te-ki",
+          "qa-A310-i",
+          "ja-mi-da-re",
+          "si-da-re",
+          "A324-di-ra",
+          "pa-de",
+          "ku-*56-nu",
+          "pa-ri-ne",
+          "A306-tu",
+          "du",
+          "ku-*56-nu",
+          "da-ri-da",
+          "ku-ro",
+          "ku-da"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "pa-ri-ne",
+            "theirs": "pa-ta-ne",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB053 (ri), glyph layer AB059 (ta)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10602 AB003 pa, U+10633 AB059 ta, U+10617 AB024 ne",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 13 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 13",
+        "object": "HT 13",
+        "word_index": 5,
+        "words": [
+          "ka-u-de-ta",
+          "re-za",
+          "te-tu",
+          "te-ki",
+          "ku-*79-ni",
+          "da-si-*118",
+          "i-du-ne-si",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 85a",
+        "object": "HT 85",
+        "word_index": 4,
+        "words": [
+          "a-du",
+          "da-ri-da",
+          "*56-ni",
+          "u-A325-za",
+          "da-si-*118",
+          "ku-*79-ni",
+          "te-ke",
+          "da-re",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 99b",
+        "object": "HT 99",
+        "word_index": 0,
+        "words": [
+          "da-si-*118",
+          "*79-du",
+          "ru-ma-ta"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "qa-A310-i": {
+    "occurrences": 4,
+    "objects": 3,
+    "hits": [
+      {
+        "document": "HT 122a",
+        "object": "HT 122",
+        "word_index": 6,
+        "words": [
+          "ra-ri",
+          "u-de-za",
+          "da-si-*118",
+          "pa",
+          "di",
+          "te-ki",
+          "qa-A310-i",
+          "ja-mi-da-re",
+          "si-da-re",
+          "A324-di-ra",
+          "pa-de",
+          "ku-*56-nu",
+          "pa-ri-ne",
+          "A306-tu",
+          "du",
+          "ku-*56-nu",
+          "da-ri-da",
+          "ku-ro",
+          "ku-da"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "pa-ri-ne",
+            "theirs": "pa-ta-ne",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB053 (ri), glyph layer AB059 (ta)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10602 AB003 pa, U+10633 AB059 ta, U+10617 AB024 ne",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 13 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 85b",
+        "object": "HT 85",
+        "word_index": 8,
+        "words": [
+          "ki-ki-ra-ja",
+          "ki-re-ta2",
+          "qe-ka",
+          "te-tu-[?]",
+          "me-za",
+          "re-di-se",
+          "wa-du-ni-mi",
+          "ma-di",
+          "qa-A310-i"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 8a",
+        "object": "HT 8",
+        "word_index": 3,
+        "words": [
+          "je-di",
+          "*56-ka-ra-ti",
+          "te-A301",
+          "qa-A310-i",
+          "si-ki-ra",
+          "ki-re-ta-na"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 8b",
+        "object": "HT 8",
+        "word_index": 2,
+        "words": [
+          "su-pu2-*188",
+          "*56-*188",
+          "qa-A310-i",
+          "ka-pa",
+          "pa-ja-re"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "ma-di": {
+    "occurrences": 6,
+    "objects": 6,
+    "hits": [
+      {
+        "document": "HT 118",
+        "object": "HT 118",
+        "word_index": 0,
+        "words": [
+          "ma-di",
+          "qa-qa-ru",
+          "a-ri-su",
+          "ri-ru-ma",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 3",
+        "object": "HT 3",
+        "word_index": 9,
+        "words": [
+          "ma-di?",
+          "di-na",
+          "qe-ra2-ja",
+          "[?]",
+          "mu-ru",
+          "ru",
+          "si-tu-ra2-re",
+          "[?]",
+          "ku-*56-nu",
+          "ma-di",
+          "da"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 69",
+        "object": "HT 69",
+        "word_index": 0,
+        "words": [
+          "ma-di"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 85b",
+        "object": "HT 85",
+        "word_index": 7,
+        "words": [
+          "ki-ki-ra-ja",
+          "ki-re-ta2",
+          "qe-ka",
+          "te-tu-[?]",
+          "me-za",
+          "re-di-se",
+          "wa-du-ni-mi",
+          "ma-di",
+          "qa-A310-i"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "PH (?)31a",
+        "object": "PH (?)31",
+        "word_index": 0,
+        "words": [
+          "ma-di",
+          "ku-pa3-nu",
+          "au-si-re",
+          "pa-ta-da",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": false
+      },
+      {
+        "document": "PH 31a",
+        "object": "PH 31",
+        "word_index": 2,
+        "words": [
+          "[?]-a-[?]",
+          "ru",
+          "ma-di",
+          "ku-*56-nu",
+          "pa-ta-da",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": true,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "te-ke": {
+    "occurrences": 1,
+    "objects": 1,
+    "hits": [
+      {
+        "document": "HT 85a",
+        "object": "HT 85",
+        "word_index": 6,
+        "words": [
+          "a-du",
+          "da-ri-da",
+          "*56-ni",
+          "u-A325-za",
+          "da-si-*118",
+          "ku-*79-ni",
+          "te-ke",
+          "da-re",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "te-ki": {
+    "occurrences": 2,
+    "objects": 2,
+    "hits": [
+      {
+        "document": "HT 122a",
+        "object": "HT 122",
+        "word_index": 5,
+        "words": [
+          "ra-ri",
+          "u-de-za",
+          "da-si-*118",
+          "pa",
+          "di",
+          "te-ki",
+          "qa-A310-i",
+          "ja-mi-da-re",
+          "si-da-re",
+          "A324-di-ra",
+          "pa-de",
+          "ku-*56-nu",
+          "pa-ri-ne",
+          "A306-tu",
+          "du",
+          "ku-*56-nu",
+          "da-ri-da",
+          "ku-ro",
+          "ku-da"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "pa-ri-ne",
+            "theirs": "pa-ta-ne",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB053 (ri), glyph layer AB059 (ta)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10602 AB003 pa, U+10633 AB059 ta, U+10617 AB024 ne",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 13 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      },
+      {
+        "document": "HT 13",
+        "object": "HT 13",
+        "word_index": 3,
+        "words": [
+          "ka-u-de-ta",
+          "re-za",
+          "te-tu",
+          "te-ki",
+          "ku-*79-ni",
+          "da-si-*118",
+          "i-du-ne-si",
+          "ku-ro"
+        ],
+        "record_conflicts": [],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      }
+    ]
+  },
+  "te-ja-re": {
+    "occurrences": 0,
+    "objects": 0,
+    "hits": []
+  },
+  "te-*56-re": {
+    "occurrences": 1,
+    "objects": 1,
+    "hits": [
+      {
+        "document": "HT 117a",
+        "object": "HT 117",
+        "word_index": 11,
+        "words": [
+          "ma-ka-ri-te",
+          "ki-ro",
+          "u-mi-na-si",
+          "u-su",
+          "mi-tu",
+          "ku-ra-mu",
+          "ma-ru",
+          "ku-*56-nu",
+          "tu-ju-ma",
+          "u-di-mi",
+          "mi-ru-ta-ra-re",
+          "te-*56-re",
+          "na-da-re",
+          "ku-ro",
+          "sa-ta",
+          "ku-ku-da-ra",
+          "ko-sa-i-ti",
+          "da-mi-nu",
+          "da-ne-ku-ti",
+          "ki-da-ro"
+        ],
+        "record_conflicts": [
+          {
+            "field": "w",
+            "ours": "te-*56-re",
+            "theirs": "te-ja-re",
+            "ours_layer": "words (w): SigLA, through our own import",
+            "theirs_layer": "unicode_text (u): lineara.xyz glyph string",
+            "difference": "position 2: word layer AB056 (*56), glyph layer AB057 (ja)",
+            "our_source": "SigLA, through our own import; the same reading stands in the SigLA document page of 2026-08-14 (references/inbox/sigla-refresh-2026-08-13/sigla-live-2026-08-14.json)",
+            "their_source": "lineara.xyz, the unicode_text of this record, decoded by Unicode 16.0 character name: U+10603 AB004 te, U+10631 AB057 ja, U+10619 AB027 re",
+            "note": "Found by the cross-layer check of 2026-09-18 (word 12 of the record). The two layers of this one record read a different sign at the same position. No reading is chosen. The drawing decides."
+          }
+        ],
+        "record_has_uncertain_signs": false,
+        "record_has_sign_layer": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "selection": "All three exact qi-tu-ne occurrences in the pinned word layer; exposed development selection, not a blind sample.",
+  "occurrences": [
+    {
+      "document": "HT 7b",
+      "object": "HT 7",
+      "word_index": 0,
+      "logical_row": 1,
+      "physical_line": "1",
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "sign_types": [
+        "AB21f",
+        "AB69",
+        "AB24"
+      ],
+      "role": "count_associated",
+      "quantity": 1,
+      "raw": "𐘐𐘹𐘗𐄇",
+      "context": "qi-tu-ne 1; next row da-ru-A329 2. Face a begins qe-ti VIR.",
+      "edition_page": 15,
+      "edition_url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=51",
+      "following_mark": "unit numeral 1",
+      "qualification": "Lines .1–2 written over erasure; source sign readings certain. Personnel unit on opposite face, not explicitly repeated here.",
+      "semantic_class": "unresolved",
+      "gender": "unknown"
+    },
+    {
+      "document": "HT 87",
+      "object": "HT 87",
+      "word_index": 0,
+      "logical_row": 1,
+      "physical_line": "1",
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "sign_types": [
+        "AB21f",
+        "AB69",
+        "AB24"
+      ],
+      "role": "list_heading",
+      "quantity": null,
+      "raw": "𐘐𐘹𐘗𐄁𐙁𐘾𐘭𐘃𐄁",
+      "context": "qi-tu-ne · ma-ka-ri-te · across .1–2, then six counted words; di-ki-se 1 at .3.",
+      "edition_page": 137,
+      "edition_url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=173",
+      "following_mark": "word divider; no numeral attached",
+      "qualification": "Edition says .1–5 probably over erasure; last entry damaged. Header and selected di-ki-se legible in edition.",
+      "semantic_class": "unresolved",
+      "gender": "unknown"
+    },
+    {
+      "document": "HT 117b",
+      "object": "HT 117",
+      "word_index": 0,
+      "logical_row": 1,
+      "physical_line": "1",
+      "sign_n": [
+        1,
+        2,
+        3
+      ],
+      "sign_types": [
+        "AB21f",
+        "AB69",
+        "AB24"
+      ],
+      "role": "list_heading",
+      "quantity": null,
+      "raw": "𐘐𐘹𐘗𐄁",
+      "context": "qi-tu-ne · ku-re-ju 1 at .1, then di-ki-se 1 at .2.",
+      "edition_page": 199,
+      "edition_url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=235",
+      "following_mark": "word divider; no numeral attached",
+      "qualification": "Header and two entries supplied by edition; same physical object as HT117a, not an independent fourth case.",
+      "semantic_class": "unresolved",
+      "gender": "unknown"
+    }
+  ],
+  "scope_limit": "No claim to exhaustive occurrences under variant or damaged spellings. AB21f is preserved as a sign label; no participant gender is inferred."
+}

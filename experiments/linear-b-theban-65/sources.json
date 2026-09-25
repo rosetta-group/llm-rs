@@ -1,0 +1,65 @@
+{
+  "reviewed": "2026-09-24",
+  "files": [
+    {
+      "local_path": "artifacts/linear-a-sources/theban-65/palaima-2003.pdf",
+      "sha256": "a8a98241e41b291fb12f172315e8d0e5a19e4203a48b54682c262bed58ed0fca",
+      "url": "https://sites.utexas.edu/scripts/wp-content/uploads/sites/3428/2020/06/2003-TGP-ReviewingTheNewLinearBTabletsFromThebesKADMOS-1.pdf",
+      "license": "Copyright, local reference only",
+      "review": "Palaima, Kadmos42 (2003), pp31-38. Full extracted text reviewed; printed pp36-38 visually checked (PDF6-8). No tablet drawings in this article."
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/theban-65/james-2002.pdf",
+      "sha256": "bd2d3094b3e106ac73f698709f1c0f4e2ac06d12ff5b604be8ce5af96244c494",
+      "url": "https://sites.utexas.edu/scripts/files/2016/07/james_2002.pdf",
+      "license": "Copyright, local reference only",
+      "review": "Sarah A. James, Minos37-38 (2002-2003), pp397-417. Filename/repository year2002 is bibliographic, not drafting date; p397 mentions autumn2005 seminar. Scanned spread PDF11 checked: printed pp406-407."
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/theban-65/james-gredos.pdf",
+      "sha256": "ce5932b47f204c5722d628bbe9f82ff64a8e4778f82d6c17dda9068434b865c1",
+      "url": "https://gredos.usal.es/bitstream/handle/10366/133917/The_Thebes_Tablets_and_the_Fq_Series_A_C.pdf?sequence=1",
+      "license": "Repository states CC BY-NC-ND 3.0; stored unmodified, not redistributed",
+      "review": "Searchable copy of the same article, not an independent source. Reviewed pp398-399,402-407; calculations checked against scan, not OCR alone."
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf",
+      "sha256": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+      "license": "Copyright; local research reference only, no PDF redistribution"
+    }
+  ],
+  "corpus": {
+    "directory": "artifacts/linear-a-sources/damos/items",
+    "license": "DAMOS CC BY-NC-SA 4.0; derived data retain attribution",
+    "selected_ids": [
+      "5410",
+      "5239",
+      "5409",
+      "5375",
+      "5240",
+      "5235",
+      "5252",
+      "5250",
+      "5258",
+      "5261",
+      "5262",
+      "2",
+      "5012"
+    ],
+    "provenance": "experiments/linear-a-context/sources.json"
+  },
+  "web_only": {
+    "Duhoux2007": {
+      "title": "Le nom du fils en linéaire B",
+      "author": "Yves Duhoux",
+      "year": 2007,
+      "url": "https://www.researchgate.net/publication/327727893_Le_nom_du_fils_en_lineaire_B_dans_F_LANG_-_C_REINHOLDT_-_J_WEILHARTNER_ed_STEPHANOS_ARISTEIOS_Archaologische_Forschungen_zwischen_Nil_und_Istros_Festschrift_fur_Stefan_Hiller_zum_65_Geburtstag_Vienne_",
+      "access": "Author-uploaded full text read via web extraction, pp.95–103. PDF download link failed; no local PDF/hash claimed."
+    }
+  },
+  "access_limits": [
+    "TOP (Aravantinos, Godart, Sacconi2001) photographs and facsimiles not obtained. No independent surface or spacing adjudication.",
+    "AGS2003 En marge, Kadmos42 pp15-30 DOI10.1515/kadm.42.1-2.15: metadata/abstract accessible, full text not obtained. Opposing interpretation is reported through Palaima/Duhoux, not claimed as directly read.",
+    "Duhoux web-only text has no local hash. No computed output depends on a fresh fetch; manual notes are committed and hashed."
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "label_source": "Ventris & Chadwick, Documents in Mycenaean Greek (1956), first edition, 1959 reprint",
+  "review": "Printed pp.161–175,179–189 and355 inspected as rendered page images. Label pages for each case are recorded in cases.json. PDF page numbers are one-based.",
+  "source_limitation": "1956 interpretations with modern DĀMOS text; broad labels only. No independent expert adjudication or comprehensive modern bibliography.",
+  "objects": {
+    "o001": "artifacts/linear-a-sources/damos/items/60.json",
+    "o002": "artifacts/linear-a-sources/damos/items/757.json",
+    "o003": "artifacts/linear-a-sources/damos/items/754.json",
+    "o004": "artifacts/linear-a-sources/damos/items/1352.json",
+    "o005": "artifacts/linear-a-sources/damos/items/1353.json",
+    "o006": "artifacts/linear-a-sources/damos/items/4311.json",
+    "o007": "artifacts/linear-a-sources/damos/items/4309.json",
+    "o008": "artifacts/linear-a-sources/damos/items/4313.json",
+    "o009": "artifacts/linear-a-sources/damos/items/4327.json",
+    "o010": "artifacts/linear-a-sources/damos/items/4340.json",
+    "o011": "artifacts/linear-a-sources/damos/items/4323.json",
+    "o012": "artifacts/linear-a-sources/damos/items/4325.json",
+    "o013": "artifacts/linear-a-sources/damos/items/4339.json",
+    "o014": "artifacts/linear-a-sources/damos/items/4329.json",
+    "o015": "artifacts/linear-a-sources/damos/items/4336.json",
+    "o016": "artifacts/linear-a-sources/damos/items/4345.json",
+    "o017": "artifacts/linear-a-sources/damos/items/5562.json",
+    "o018": "artifacts/linear-a-sources/damos/items/4690.json",
+    "o019": "artifacts/linear-a-sources/damos/items/4355.json"
+  },
+  "files": [
+    {
+      "local_path": "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf",
+      "sha256": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d",
+      "url": "https://ignca.gov.in/Asi_data/17617.pdf",
+      "license": "Copyright source; local reference only, no PDF redistribution",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/60.json",
+      "sha256": "2a22bf886fdb25f83e3a862f2f0e34a99907b7011c63315d717ea093131f84b8",
+      "url": "https://damos.hf.uio.no/60",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "KN Ai(1) 63",
+      "object": "o001",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/757.json",
+      "sha256": "98b1e4bb8e576ac9221591024a82a49c5a48e77809d3c62cbb4625ddbe8d1ece",
+      "url": "https://damos.hf.uio.no/757",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "KN Ai(-) 824",
+      "object": "o002",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/754.json",
+      "sha256": "387a3a19282be66e960f8c9fbd9af3024adaf4a52e4ea383102ccdad8004d2b2",
+      "url": "https://damos.hf.uio.no/754",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "KN Am(2) 821",
+      "object": "o003",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/1352.json",
+      "sha256": "413c318cc2c02c0d8ced6809aa123f029305bc9867050a25e17229aa0999bcdc",
+      "url": "https://damos.hf.uio.no/1352",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "KN As(2) 1516",
+      "object": "o004",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/1353.json",
+      "sha256": "39803bc6b4cd9dc1d0641b7d9f9955fb3cc3ab44f37e9ba360673224eeaa46ac",
+      "url": "https://damos.hf.uio.no/1353",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "KN As(2) 1517",
+      "object": "o005",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4311.json",
+      "sha256": "2a0cd87a52fc0e19b8e91421699148f774eab12002b1479e75e73cf983ba2fa6",
+      "url": "https://damos.hf.uio.no/4311",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY Ae(1) 134",
+      "object": "o006",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4309.json",
+      "sha256": "862e46e27fe2e058726ec7293ece0f62dac99a64617711b3809e4aac10219cc3",
+      "url": "https://damos.hf.uio.no/4309",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY Ae(1) 108",
+      "object": "o007",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4313.json",
+      "sha256": "cfa312f9f197ff803a4f74b9cf70afa22ae863bf1a428c246a88af919728295e",
+      "url": "https://damos.hf.uio.no/4313",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY Ae(1) 264",
+      "object": "o008",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4327.json",
+      "sha256": "c645e4331e8e99b21e750cbc4ff4f59cb72ea80ef3e0553c93ffdd6acddd79ff",
+      "url": "https://damos.hf.uio.no/4327",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(6) 35",
+      "object": "o009",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4340.json",
+      "sha256": "c94325b6659f52423a14127cb9573e66ba7cc15aa01d4c2223197ab8bdd04697",
+      "url": "https://damos.hf.uio.no/4340",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(-) 292",
+      "object": "o010",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4323.json",
+      "sha256": "68f9925686505d29f586b97a4f7f08eaa75270e86bcce5f295ed1b8df97452df",
+      "url": "https://damos.hf.uio.no/4323",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(4) 1",
+      "object": "o011",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4325.json",
+      "sha256": "71b03e68e8a1e80d79bb51d95e7a42690c077e8842c9ec89c0aeaa4b86f71240",
+      "url": "https://damos.hf.uio.no/4325",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(-) 18",
+      "object": "o012",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4339.json",
+      "sha256": "260312dd8b0144b77d25fe8364160629bb8b849308c847a1ac8ae3204bd84c70",
+      "url": "https://damos.hf.uio.no/4339",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(-) 261",
+      "object": "o013",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4329.json",
+      "sha256": "743fbc59606c39c2b71157aaa9743e08f99e0d5cc29da5c2f5dedd0372e6bc78",
+      "url": "https://damos.hf.uio.no/4329",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(-) 39",
+      "object": "o014",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4336.json",
+      "sha256": "af76da5fa855e47ace5ca45ee175b5dde535b754cb926a852b76eb91f73d22bf",
+      "url": "https://damos.hf.uio.no/4336",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(-) 207",
+      "object": "o015",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4345.json",
+      "sha256": "df48ef6b8cd981663d1b60cd46018a25b685155ecc1c4fbbd5668f1fab8397be",
+      "url": "https://damos.hf.uio.no/4345",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(5) 427",
+      "object": "o016",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/5562.json",
+      "sha256": "de09221e1f2561a3f1697ff2eb949a91b00cfb05de127ea66a9e885f6bb30b9b",
+      "url": "https://damos.hf.uio.no/5562",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "MY Au(-) 102",
+      "object": "o017",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4690.json",
+      "sha256": "109b52586ee39632964a5089c7a4271303497f853a0e2cef5124c12d0ba40281",
+      "url": "https://damos.hf.uio.no/4690",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY Jn(2) 658",
+      "object": "o018",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    },
+    {
+      "local_path": "artifacts/linear-a-sources/damos/items/4355.json",
+      "sha256": "5a21b90842d60e2a3ef7a08fa01d2cc635a8a1b868c9b5e8c8ed9f2bc79642fd",
+      "url": "https://damos.hf.uio.no/4355",
+      "license": "DĀMOS CC BY-NC-SA 4.0",
+      "document": "PY An(3) 657",
+      "object": "o019",
+      "snapshot_provenance": "experiments/linear-a-context/sources.json",
+      "reviewed": "2026-09-24"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "artifacts/linear-a-sources/account-benchmark/ventris-chadwick-1956.pdf",
+    "url": "https://ignca.gov.in/Asi_data/17617.pdf",
+    "title": "Documents in Mycenaean Greek, first edition 1956, reprint 1959",
+    "license": "Copyright; source stored locally, not redistributed",
+    "reviewed_printed_pages": [
+      53,
+      54,
+      55,
+      56,
+      117,
+      118,
+      171,
+      172,
+      217,
+      218,
+      354,
+      355,
+      356,
+      357
+    ],
+    "pdf_page_rule": "p55=PDF92; p118=PDF157; p171=PDF210; p355=PDF394 (one-based; offset changes due to plates)",
+    "sha256": "fbdbfbe6c41252efbd239e86c432f4efe14d1195333f94217a4a28ce7207366d"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/1.json",
+    "url": "https://damos.hf.uio.no/1",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "ebb576fd2ab452b8d19d52fd7c6c1f97d34bc624cb00822c25debaa7a430eee9"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/1352.json",
+    "url": "https://damos.hf.uio.no/1352",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "413c318cc2c02c0d8ced6809aa123f029305bc9867050a25e17229aa0999bcdc"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/1353.json",
+    "url": "https://damos.hf.uio.no/1353",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "39803bc6b4cd9dc1d0641b7d9f9955fb3cc3ab44f37e9ba360673224eeaa46ac"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/4626.json",
+    "url": "https://damos.hf.uio.no/4626",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "ca7c10cd360745cdb5fdc1fa98864b4de41803b97f82bcdde10e9b0c15cccf04"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/4690.json",
+    "url": "https://damos.hf.uio.no/4690",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "109b52586ee39632964a5089c7a4271303497f853a0e2cef5124c12d0ba40281"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/4698.json",
+    "url": "https://damos.hf.uio.no/4698",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "55c878584b26f1fe7f97a6fd93e681cd016e8ee2fd03448de0d28520c7389bbf"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/48.json",
+    "url": "https://damos.hf.uio.no/48",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "c2f21373cc24fbad75fa4b8b7b0905e3ef064a35b6339ea31956183d9f223f22"
+  },
+  {
+    "path": "artifacts/linear-a-sources/damos/items/5570.json",
+    "url": "https://damos.hf.uio.no/5570",
+    "license": "DAMOS scholarly transcription; use pinned corpus provenance; ancient text public domain",
+    "sha256": "5e9d668dfc5229f147957181168aa20fc60f90865c4e7699a39f3a4c4cda2a4c"
+  }
+]

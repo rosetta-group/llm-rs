@@ -1,0 +1,6822 @@
+{
+  "preflight": {
+    "class_objects": {
+      "FAMILY": 6,
+      "OTHER": 12
+    },
+    "evaluable": true,
+    "negative_subclass_objects": {
+      "service": 5,
+      "occupation": 4,
+      "pair": 3
+    },
+    "objects": 16
+  },
+  "arms": {
+    "frame": {
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "predictions": {
+        "r015": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4311",
+            "4313",
+            "4365",
+            "4695",
+            "5582",
+            "754",
+            "757"
+          ]
+        },
+        "r014": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4309",
+            "4313",
+            "4365",
+            "4695",
+            "5582",
+            "754",
+            "757"
+          ]
+        },
+        "r016": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4365",
+            "4695",
+            "5582",
+            "754",
+            "757"
+          ]
+        },
+        "r004": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4543"
+          ]
+        },
+        "r007": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4694"
+          ]
+        },
+        "r005": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.8571428571428571,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 6.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4313",
+            "4695",
+            "5582",
+            "754",
+            "757"
+          ]
+        },
+        "r009": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4315"
+          ]
+        },
+        "r010": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4689"
+          ]
+        },
+        "r011": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4681"
+          ]
+        },
+        "r006": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "5622"
+          ]
+        },
+        "r019": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4353"
+          ]
+        },
+        "r012": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4313",
+            "4365",
+            "5582",
+            "754",
+            "757"
+          ]
+        },
+        "r018": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "5622"
+          ]
+        },
+        "r003": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.8571428571428571,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 6.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4313",
+            "4365",
+            "4695",
+            "754",
+            "757"
+          ]
+        },
+        "r001": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4694"
+          ]
+        },
+        "r002": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4694"
+          ]
+        },
+        "r017": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "5562"
+          ]
+        },
+        "r013": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4313",
+            "4365",
+            "4695",
+            "5582",
+            "757"
+          ]
+        },
+        "r008": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.7142857142857143,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 5.0
+          },
+          "support_objects": [
+            "4309",
+            "4311",
+            "4313",
+            "4365",
+            "4695",
+            "5582",
+            "754"
+          ]
+        }
+      },
+      "ceiling": {
+        "balanced_recall_upper_bound": 0.75,
+        "buckets": [
+          {
+            "signature": [
+              "N",
+              "W",
+              "Q"
+            ],
+            "class_weights": {
+              "FAMILY": 0.16666666666666666
+            },
+            "cases": {
+              "FAMILY": [
+                "r001",
+                "r002",
+                "r006"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W"
+            ],
+            "class_weights": {
+              "FAMILY": 0.16666666666666666,
+              "OTHER": 0.24999999999999997
+            },
+            "cases": {
+              "FAMILY": [
+                "r003",
+                "r005"
+              ],
+              "OTHER": [
+                "r008",
+                "r012",
+                "r013",
+                "r014",
+                "r015",
+                "r016"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N",
+              "W"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333,
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "FAMILY": [
+                "r004"
+              ],
+              "OTHER": [
+                "r009"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333,
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "FAMILY": [
+                "r007"
+              ],
+              "OTHER": [
+                "r019"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W",
+              "N"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r010",
+                "r011"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N",
+              "Q"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r017",
+                "r018"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "marker": {
+      "metrics": {
+        "balanced_recall": 0.41666666666666663,
+        "coverage": 0.5,
+        "conditional_accuracy": 0.8333333333333333,
+        "family_recall": 0.5,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 7,
+          "wrong": 1,
+          "abstained": 11
+        }
+      },
+      "predictions": {
+        "r015": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4313"
+          ]
+        },
+        "r014": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r016": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4309"
+          ]
+        },
+        "r004": {
+          "prediction": "FAMILY",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4365",
+            "4694"
+          ]
+        },
+        "r007": {
+          "prediction": "OTHER",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 3.0
+          },
+          "support_objects": [
+            "4694",
+            "5562",
+            "5622"
+          ]
+        },
+        "r005": {
+          "prediction": "FAMILY",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4315",
+            "4694"
+          ]
+        },
+        "r009": {
+          "prediction": "OTHER",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 3.0
+          },
+          "support_objects": [
+            "4681",
+            "4689",
+            "4695"
+          ]
+        },
+        "r010": {
+          "prediction": "OTHER",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 3.0
+          },
+          "support_objects": [
+            "4543",
+            "4689",
+            "4695"
+          ]
+        },
+        "r011": {
+          "prediction": "OTHER",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 3.0
+          },
+          "support_objects": [
+            "4543",
+            "4681",
+            "4695"
+          ]
+        },
+        "r006": {
+          "prediction": "FAMILY",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 2.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4315",
+            "4365"
+          ]
+        },
+        "r019": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.6666666666666666,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 2.0
+          },
+          "support_objects": [
+            "4353",
+            "5562",
+            "5622"
+          ]
+        },
+        "r012": {
+          "prediction": "OTHER",
+          "reason": "predicted",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 3.0
+          },
+          "support_objects": [
+            "4543",
+            "4681",
+            "4689"
+          ]
+        },
+        "r018": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.6666666666666666,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 2.0
+          },
+          "support_objects": [
+            "4353",
+            "4694",
+            "5622"
+          ]
+        },
+        "r003": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r001": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r002": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r017": {
+          "prediction": null,
+          "reason": "conflict",
+          "agreement": 0.6666666666666666,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 2.0
+          },
+          "support_objects": [
+            "4353",
+            "4694",
+            "5562"
+          ]
+        },
+        "r013": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r008": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        }
+      },
+      "ceiling": {
+        "balanced_recall_upper_bound": 0.9166666666666666,
+        "buckets": [
+          {
+            "signature": [
+              "W001"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r001",
+                "r002"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W002"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r003"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W003"
+            ],
+            "class_weights": {
+              "FAMILY": 0.25
+            },
+            "cases": {
+              "FAMILY": [
+                "r004",
+                "r005",
+                "r006"
+              ]
+            }
+          },
+          {
+            "signature": [],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333,
+              "OTHER": 0.125
+            },
+            "cases": {
+              "FAMILY": [
+                "r007"
+              ],
+              "OTHER": [
+                "r017",
+                "r018",
+                "r019"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W004"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r008"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W005"
+            ],
+            "class_weights": {
+              "OTHER": 0.16666666666666666
+            },
+            "cases": {
+              "OTHER": [
+                "r009",
+                "r010",
+                "r011",
+                "r012"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W006"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r013"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W007"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r014"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W008"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r015",
+                "r016"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "frame_marker": {
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "predictions": {
+        "r015": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4313"
+          ]
+        },
+        "r014": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r016": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4309"
+          ]
+        },
+        "r004": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r007": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4694"
+          ]
+        },
+        "r005": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r009": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r010": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4689"
+          ]
+        },
+        "r011": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "4681"
+          ]
+        },
+        "r006": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r019": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 1.0,
+            "OTHER": 0.0
+          },
+          "support_objects": [
+            "4353"
+          ]
+        },
+        "r012": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r018": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "5622"
+          ]
+        },
+        "r003": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r001": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r002": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r017": {
+          "prediction": null,
+          "reason": "too_few_objects",
+          "agreement": 1.0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 1.0
+          },
+          "support_objects": [
+            "5562"
+          ]
+        },
+        "r013": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        },
+        "r008": {
+          "prediction": null,
+          "reason": "unseen",
+          "agreement": 0,
+          "votes": {
+            "FAMILY": 0.0,
+            "OTHER": 0.0
+          },
+          "support_objects": []
+        }
+      },
+      "ceiling": {
+        "balanced_recall_upper_bound": 0.9583333333333333,
+        "buckets": [
+          {
+            "signature": [
+              "N",
+              "W001",
+              "Q"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r001",
+                "r002"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W002"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r003"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N",
+              "W003"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r004"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W003"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r005"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W003",
+              "Q"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333
+            },
+            "cases": {
+              "FAMILY": [
+                "r006"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N"
+            ],
+            "class_weights": {
+              "FAMILY": 0.08333333333333333,
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "FAMILY": [
+                "r007"
+              ],
+              "OTHER": [
+                "r019"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W004"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r008"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N",
+              "W005"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r009"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "W005",
+              "N"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r010",
+                "r011"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W005"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r012"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W006"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r013"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W007"
+            ],
+            "class_weights": {
+              "OTHER": 0.041666666666666664
+            },
+            "cases": {
+              "OTHER": [
+                "r014"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "W008"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r015",
+                "r016"
+              ]
+            }
+          },
+          {
+            "signature": [
+              "N",
+              "N",
+              "Q"
+            ],
+            "class_weights": {
+              "OTHER": 0.08333333333333333
+            },
+            "cases": {
+              "OTHER": [
+                "r017",
+                "r018"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "negatives": [
+    {
+      "iteration": 0,
+      "swapped_objects": [
+        "4309",
+        "4353",
+        "4681",
+        "4689",
+        "4694",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 1,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 2,
+      "swapped_objects": [
+        "4309",
+        "4543",
+        "4681",
+        "4689",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 3,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4695",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 4,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4365",
+        "4543",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 5,
+      "swapped_objects": [
+        "4313",
+        "4365",
+        "4695",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 6,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 7,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 8,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 9,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4543",
+        "4681",
+        "4695",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 10,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "5562",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 11,
+      "swapped_objects": [
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 12,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "5562",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 13,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 14,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 15,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 16,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4689",
+        "4694",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 17,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 18,
+      "swapped_objects": [
+        "4315",
+        "4689",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 19,
+      "swapped_objects": [
+        "4315",
+        "4543",
+        "4681",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 20,
+      "swapped_objects": [
+        "4313",
+        "4365",
+        "4543",
+        "4681",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 21,
+      "swapped_objects": [
+        "4309",
+        "4353",
+        "4365",
+        "4543",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 22,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4689",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 23,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4353",
+        "4689",
+        "4695",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 24,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4694",
+        "4695",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 25,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4681",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 26,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4694",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 27,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 28,
+      "swapped_objects": [
+        "4315",
+        "4543",
+        "4681",
+        "4689",
+        "4695"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 29,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4681",
+        "4689",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 30,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 31,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 32,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 33,
+      "swapped_objects": [
+        "4311",
+        "4353",
+        "4681",
+        "4694",
+        "4695",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 34,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4695",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 35,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4694",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 36,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4365",
+        "4689",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 37,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4353",
+        "4694",
+        "4695",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 38,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 39,
+      "swapped_objects": [
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "5562",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 40,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4365",
+        "4543",
+        "4694",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 41,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 42,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 43,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4543",
+        "4694",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 44,
+      "swapped_objects": [
+        "4365",
+        "4681",
+        "4694",
+        "5562",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 45,
+      "swapped_objects": [
+        "4311",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 46,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4681",
+        "4695",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 47,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 48,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 49,
+      "swapped_objects": [
+        "4311",
+        "4353",
+        "4365",
+        "4689",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 50,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4365",
+        "4681",
+        "4689",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 51,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 52,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 53,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 54,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4694",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 55,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4689",
+        "4695",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 56,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 57,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4695",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 58,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4681",
+        "4689",
+        "4695",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 59,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4543",
+        "4681",
+        "4689",
+        "4694"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 60,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4543",
+        "4681",
+        "4689",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 61,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 62,
+      "swapped_objects": [
+        "4309",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 63,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4689",
+        "4694",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 64,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4543",
+        "4681",
+        "4695",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 65,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 66,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4694",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 67,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4365",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": false,
+      "metrics": null,
+      "pass": null
+    },
+    {
+      "iteration": 68,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4694",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 69,
+      "swapped_objects": [
+        "4311",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "4695",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 70,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 71,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 72,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4681",
+        "4689",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 73,
+      "swapped_objects": [
+        "4313",
+        "4353",
+        "4365",
+        "4689",
+        "4694",
+        "4695",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 74,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4695",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 75,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 76,
+      "swapped_objects": [
+        "4309",
+        "4353",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 77,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 78,
+      "swapped_objects": [
+        "4309",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 79,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4365",
+        "4543",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 80,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4681",
+        "4689",
+        "4694",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 81,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 82,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 83,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4543",
+        "4694",
+        "4695",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 84,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 85,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4681",
+        "4695",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 86,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4543",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 87,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 88,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 89,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4694",
+        "4695",
+        "5562",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 90,
+      "swapped_objects": [
+        "4311",
+        "4315",
+        "4694",
+        "5562",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 91,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": false,
+      "metrics": null,
+      "pass": null
+    },
+    {
+      "iteration": 92,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 93,
+      "swapped_objects": [
+        "4313",
+        "4681",
+        "5562",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 94,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4365",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 95,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4543",
+        "4681",
+        "4694",
+        "4695",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 96,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 97,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 98,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4543",
+        "4689",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 99,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4543",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 100,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 101,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4543",
+        "4681",
+        "4689",
+        "4695",
+        "5562",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 102,
+      "swapped_objects": [
+        "4313",
+        "4365",
+        "4681",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 103,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 104,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4694",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 105,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 106,
+      "swapped_objects": [
+        "4681",
+        "4694",
+        "4695"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 107,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4695",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 108,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 109,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 110,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 111,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 112,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 113,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 114,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4689",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 115,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4694",
+        "4695",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 116,
+      "swapped_objects": [
+        "4543",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 117,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4365",
+        "4681",
+        "5562",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 118,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 119,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 120,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4365",
+        "4694",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 121,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4695",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 122,
+      "swapped_objects": [
+        "4309",
+        "4689",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 123,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4543",
+        "4681",
+        "4694",
+        "4695"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 124,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4681",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 125,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "5562",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 126,
+      "swapped_objects": [
+        "4309",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 127,
+      "swapped_objects": [
+        "4311",
+        "4353",
+        "4681",
+        "4694"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 128,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 129,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4694",
+        "4695"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 130,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4543",
+        "4689",
+        "4694",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 131,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 132,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 133,
+      "swapped_objects": [
+        "4309",
+        "4365",
+        "4681",
+        "4694",
+        "5562",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 134,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4365",
+        "4681",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 135,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4689",
+        "4695",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 136,
+      "swapped_objects": [
+        "4309",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 137,
+      "swapped_objects": [
+        "4353",
+        "4543",
+        "4681",
+        "4694",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 138,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4365",
+        "4543",
+        "4694",
+        "4695",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 139,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4681",
+        "4695",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 140,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4681",
+        "4689",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 141,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4365",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 142,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "4695",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 143,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4695",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 144,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4353",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 145,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4695",
+        "5562",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 146,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4365",
+        "4681",
+        "4689",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 147,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4681",
+        "4694",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 148,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 149,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 150,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 151,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4689",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 152,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "4689",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 153,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "4695",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 154,
+      "swapped_objects": [
+        "4313",
+        "4315",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 155,
+      "swapped_objects": [
+        "4543",
+        "4681",
+        "4695",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 156,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4543",
+        "4681",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 157,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4365",
+        "4681",
+        "4695",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 158,
+      "swapped_objects": [
+        "4315",
+        "4543",
+        "4695",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 159,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4694",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 160,
+      "swapped_objects": [
+        "4315",
+        "4353",
+        "4365",
+        "4543",
+        "4694",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": false,
+      "metrics": null,
+      "pass": null
+    },
+    {
+      "iteration": 161,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4353",
+        "4365",
+        "4681",
+        "4694",
+        "4695",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 162,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 163,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4681",
+        "4695"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 164,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4353",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 165,
+      "swapped_objects": [
+        "4315",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 166,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4689",
+        "4695",
+        "5562",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 167,
+      "swapped_objects": [
+        "4313",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4695",
+        "5562",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 168,
+      "swapped_objects": [
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 169,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4353",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 170,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4681",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 171,
+      "swapped_objects": [
+        "4681",
+        "4694",
+        "4695",
+        "5562",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 172,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4681",
+        "4695",
+        "5562",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 173,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4681",
+        "5562",
+        "5582",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 174,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4689",
+        "4695",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 175,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 176,
+      "swapped_objects": [
+        "4311",
+        "4313",
+        "4315",
+        "4353",
+        "4543",
+        "4689",
+        "4694",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 177,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "5562",
+        "5582",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 178,
+      "swapped_objects": [
+        "4311",
+        "4353",
+        "4365",
+        "4689",
+        "4694",
+        "4695",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 179,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4694",
+        "5582",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 180,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4681",
+        "4689",
+        "4695",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 181,
+      "swapped_objects": [
+        "4309",
+        "4543",
+        "4694",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 182,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4365",
+        "4695",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 183,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "5582",
+        "5622"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 184,
+      "swapped_objects": [
+        "4311",
+        "4681",
+        "4694",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 185,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4353",
+        "4543"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 186,
+      "swapped_objects": [
+        "4353",
+        "4543",
+        "4681",
+        "4694",
+        "5582",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 187,
+      "swapped_objects": [
+        "4309",
+        "4315",
+        "4353",
+        "4681",
+        "5582",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 188,
+      "swapped_objects": [
+        "4681",
+        "4689",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 189,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4315",
+        "4694",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 190,
+      "swapped_objects": [
+        "4309",
+        "4313",
+        "4353",
+        "4694",
+        "4695",
+        "5562",
+        "5622",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 191,
+      "swapped_objects": [
+        "4311",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 192,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4315",
+        "4681",
+        "4689",
+        "4694",
+        "5562",
+        "5582",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 193,
+      "swapped_objects": [
+        "4309",
+        "4353",
+        "4543",
+        "4689",
+        "4694",
+        "5582"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 194,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4543",
+        "4694",
+        "4695",
+        "5562",
+        "5622",
+        "754"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 195,
+      "swapped_objects": [
+        "4315",
+        "4365",
+        "4543",
+        "4681",
+        "4694",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 196,
+      "swapped_objects": [
+        "4309",
+        "4311",
+        "4313",
+        "4365",
+        "4681",
+        "4689",
+        "4695",
+        "5562"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 197,
+      "swapped_objects": [
+        "4311",
+        "4681",
+        "4689",
+        "4694",
+        "4695",
+        "5562",
+        "5622",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    },
+    {
+      "iteration": 198,
+      "swapped_objects": [
+        "4313",
+        "4353",
+        "4365",
+        "4543",
+        "4689",
+        "4694",
+        "4695",
+        "754",
+        "757"
+      ],
+      "evaluable": true,
+      "metrics": {
+        "balanced_recall": 0,
+        "coverage": 0,
+        "conditional_accuracy": null,
+        "family_recall": 0,
+        "false_family_rate": 0,
+        "raw": {
+          "cases": 19,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 19
+        }
+      },
+      "pass": false
+    }
+  ],
+  "gate": {
+    "status": "fail",
+    "negative_evaluable": 196,
+    "negative_passes": 0,
+    "negative_pass_rate": 0.0
+  },
+  "source_direction_status": {
+    "unnamed_child": 4,
+    "disputed_binding": 2,
+    "lineage_not_exact_edge": 1
+  },
+  "predicted_edges": [],
+  "linear_a_scored": false
+}

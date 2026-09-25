@@ -57,14 +57,21 @@ complete. Some simple relationships transferred, but the final model recovered
 work requires reviewed evidence, a distinct hypothesis and a separately reserved
 test; no follow-up run is scheduled. [Closure record](docs/ETRUSCAN.md).
 
-**Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
-methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
-control samples against a 90% gate; round five's Hittite profile match also holds for shuffled
-syllables. No language was identified or ruled out. See [docs/LINEAR_A.md](docs/LINEAR_A.md).
+**Linear A stopped at the user's request (2026-09-24).** The repair audit, accounting
+benchmark, person-slot review, son/daughter controls and Theban source/image checks are complete.
+No new Linear A translation, language identification, parentage edge or gender assignment was
+established. No further experiment or source search is queued. The [final closeout](docs/LINEAR_A_CLOSEOUT.md)
+supersedes earlier “next” items in this track's historical plans and reports; frozen files stay intact.
 
-**Next candidate: Rongorongo.** Its language (Old Rapa Nui) is known and its corpus (about
-15,000 glyphs) is above the Naibbe recovery threshold, so a known-answer control can be built.
-Ranking of other scripts: [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md).
+The accounting pilot was not evaluable (7 eligible KN objects versus 33 A); its completed
+source-checked benchmark has 9 accounts, including 2 strict balances. Name/designation balanced recall
+was 37.4%, and the primary relational control abstained on all 19 cases. The Theban image lead
+is parked: the [scan-request packet](experiments/linear-b-theban-images/ACQUISITION.md) is unsent.
+Reopening requires an explicit user request and new evidence or a distinct falsifiable method.
+The failures do not establish a general information limit.
+
+[Other-script scoping](docs/UNDECIPHERED.md) is historical context, not a next task scheduled
+by this closeout. Concurrent Etruscan and Voynich work is outside this stopping decision.
 
 **Latest scope change:** the user requested raw folio images and reproducible image
 descriptions. The [image archive and Pixel Layout v1](data/folios/README.md) provide
@@ -288,7 +295,8 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Joint segmentation + EM | Four fresh rounds complete: round one 12.5% CER modern / 33.5% Dante; round two 9.5% / 10.3% with pruning and a verse prior; round three 8.8% / 10.5% with a lexical polish; round four 5.7% Dante with lexicon repair; gate not met; oracle ceiling 0.5%; `experiments/joint-recovery-v4/REPORT.md` |
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
-| Linear A track | Closed 2026-09-23: five rounds; Linear B used as the known-answer control; no language identified; `docs/LINEAR_A.md` |
+| Linear A track | Audited 2026-09-24: profile/threshold repairs, structural test and 12-pair source audit; specific correspondence lead fails strict onset control (p = .1605), archived; no language identified; `docs/LINEAR_A.md` |
+| Linear A accounting | Integer pilot built; coverage preflight not evaluable (7 KN objects vs 33 A); no real-data fit; source-checked account benchmark needed; `experiments/linear-a-ledger/REPORT.md` |
 | Etruscan track | Closed 2026-09-24: six modeling stages and nine-inscription source audit; no new meanings validated; `docs/ETRUSCAN.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
@@ -376,3 +384,17 @@ Declare and freeze any later candidate before new grading; exclude the released
 Villani/VIT source IDs. No further weight sweep, paid model, Naibbe test or Voynich
 mechanism run follows from this result. The image track still needs independent
 text-masked human annotations.
+
+### 2026-09-24: Linear A account and kinship development fixtures completed
+
+The [account benchmark](experiments/linear-a-account-benchmark/REPORT.md) adds nine cases on
+eight objects with published boundaries and exact units. Only two sum accounts are strictly
+evaluable. Expand with independently reviewed quantities, totals and balances; keep inspected
+objects in development. The 33-object matched-control requirement is unchanged.
+
+The [kinship feasibility check](experiments/linear-a-kinship/REPORT.md) identifies the
+unnamed-relative pattern as a better starting representation than requiring two explicit
+names. Before semantic recovery, audit person/designation slots in HT85/117, resolve the
+HT117 *56/ja source conflict, and expand independent Linear B positive and relation-negative
+controls. A label such as CHILD_OF requires entity evidence and direction, not a numeral 1,
+a repeated word or an assumed Greek/Etruscan ending. No further automatic score is scheduled.

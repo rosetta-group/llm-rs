@@ -1,0 +1,64 @@
+{
+  "pattern": "Role before relation",
+  "ranking_basis": "Qualitative usefulness for the next structural test, not probability of a kinship meaning",
+  "candidates": [
+    {
+      "rank": 1,
+      "candidate": "qi-tu-ne / ma-ka-ri-te headers with di-ki-se as an entry",
+      "observations": ["HT117a .1–2 includes ma-ka-ri-te; HT117b .1 has qi-tu-ne, and .2 has di-ki-se 1.", "HT87 .1–2 combines qi-tu-ne and ma-ka-ri-te in its header; .3 has di-ki-se 1. GORILA I pp.197, 199, 137."],
+      "independent_objects_reviewed": ["HT 117", "HT 87"],
+      "best_supported_structure": "Repeated header-to-entry association; a candidate administrative classification",
+      "rivals": {
+        "occupation": "A work category could select the same individual or designation on both lists.",
+        "ownership_or_responsibility": "A responsible person or household label could govern the listed entries.",
+        "place": "A location or affiliation could group the same entries.",
+        "kinship": "Family affiliation is logically possible, but the header is not independently identified as a relative or a personal name. No second named participant or relational alternation is established."
+      },
+      "decision": "Best structural follow-up; retain UNKNOWN relation. Shared header/entry membership alone cannot choose among rivals."
+    },
+    {
+      "rank": 2,
+      "candidate": "da-si-*118 and qa-A310-i change counts across lists",
+      "observations": ["da-si-*118 has 24 on HT85a .3–4 and 2 on HT122a .2.", "qa-A310-i has 1 on HT85b .5–6 and 3 on HT122a .4. GORILA I pp.131, 133, 207."],
+      "independent_objects_reviewed": ["HT 85", "HT 122"],
+      "best_supported_structure": "Labels associated with variable counted quantities; a numeral 1 does not certify a unique individual",
+      "rivals": {
+        "occupation": "A group designation permits several counted workers.",
+        "ownership_or_responsibility": "An individual supervisor or owner can also head a count of several dependants or goods.",
+        "place": "A locality can contribute several counted units.",
+        "kinship": "A household designation could also head several people, but no parent-child relation is identified."
+      },
+      "decision": "Useful negative against name-by-quantity heuristics; cannot decide occupation versus place versus responsible person. No new sound equivalence is needed for these exact strings."
+    },
+    {
+      "rank": 3,
+      "candidate": "HT85b pa, ka and di logograms near qe-ka and te-tu",
+      "observations": ["AB03 + 1 follows qe-ka + 1 on physical .2.", "AB77 + 1 and AB07 + 1 follow damaged te-tu + 1 on physical .2–3; GORILA I p.133."],
+      "independent_objects_reviewed": ["HT 85"],
+      "best_supported_structure": "Possible subordinate designations, with three separate quantities",
+      "rivals": {
+        "occupation": "Abbreviated work or personnel categories are compatible with single-sign logograms.",
+        "ownership_or_responsibility": "The preceding entry may organize subordinate categories or responsibilities.",
+        "place": "An abbreviated affiliation cannot be excluded.",
+        "kinship": "An unnamed relative could in principle be represented by a designation, but no controlled replacement of a second name is observed. Pa, ka and di are conventional sign readings, not kinship words."
+      },
+      "decision": "Keep as low-support layout evidence, one object only. Do not force a two-name CHILD_OF representation or infer daughter from a single sign."
+    },
+    {
+      "rank": 4,
+      "candidate": "HT117 individual-entry hypothesis and proposed Linear B name parallels",
+      "observations": ["HT117 has 17 lexical entries counted as 1 across three sections, on one physical object.", "ku-*56-nu also appears beneath ki-ro on HT88 (physical .5), matching its HT117a header context; GORILA I pp.139, 197."],
+      "independent_objects_reviewed": ["HT 117", "HT 88"],
+      "best_supported_structure": "Possible individual slots; contextual recurrence, not a personal-name gold standard",
+      "rivals": {
+        "occupation": "An occupational designation can stand in an individual entry.",
+        "ownership_or_responsibility": "A named recipient or owner could produce the same list shape.",
+        "place": "An affiliation label may be counted without being a person's name.",
+        "kinship": "A relative-designation could replace a name, but no contrast here identifies that meaning or the relative's gender."
+      },
+      "decision": "Keep possible person/designation slots without gold personal-name or gender labels. Proposed phonetic parallels are not independent validation after the previous correspondence gate failed."
+    }
+  ],
+  "family_formula_found": false,
+  "scope_limit": "No convincing named or unnamed-parentage formula in this small audited set; not evidence that Linear A lacks kinship formulas."
+}

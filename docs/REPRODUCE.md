@@ -349,8 +349,58 @@ refuse to overwrite results, so move the committed files aside first:
 .venv/bin/python -m experiments.linear_a_tlhdig      # results.json
 ```
 
-Round five's post-hoc checks were run interactively; their numbers are in its report only.
-No round ran the `linear-a` stage, because no Linear B control passed the gate.
+Round five's original post-hoc checks were interactive. The repair audit now provides scripted
+versions with fixed seeds; only the historical real-data calls reuse the original seeds. Exact
+agreement with the old interactive shuffle numbers is not expected. Rounds one to three did not
+run their `linear-a` stage; rounds four/five did perform the diagnostic tests in their reports.
+
+Repair audit and structural test (branch `codex/linear-a-audit`):
+
+```sh
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py' -v
+.venv/bin/python -m experiments.linear_a_audit verify
+.venv/bin/python -m experiments.linear_a_structure_v2 verify
+```
+
+Outputs refuse overwrite. For an exact rerun, create a worktree at protocol commit `0fd5f74`
+(audit) or `6504470` (structural v2), attach the pinned sources under `artifacts/`, then run:
+
+```sh
+.venv/bin/python -m experiments.linear_a_audit profiles
+.venv/bin/python -m experiments.linear_a_audit rules
+.venv/bin/python -m experiments.linear_a_audit trade
+.venv/bin/python -m experiments.linear_a_structure_v2 run
+```
+
+The audit hashes the actual TLHdig `forms.json` cache and all 5,932 DĀMOS files, in addition to
+the Linear A corpus and Greek lexicon. Original source licences and download URLs remain in
+the historical manifests. The initial structural driver at `fd3f6b2` aborted before reporting
+scores; v2 adds its missing NumPy import and preserves the original frozen file.
+
+Correspondence source audit (protocol commit `75128e8`):
+
+```sh
+.venv/bin/python -m experiments.linear_a_correspondence verify
+```
+
+The [pair audit](../experiments/linear-a-correspondence/PAIRS.md) links every historical candidate
+to its source inscriptions. The folder also holds full accepted attestations and both type
+inventories. In a clean worktree at `75128e8` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_correspondence run` to reproduce the four fixed
+9,999-draw comparisons. The released run refuses overwrite. `prepare` is extraction-only;
+its three outputs are already frozen, so regenerate only in a scratch copy and compare hashes.
+
+Accounting-program feasibility pilot (protocol commit `8793ad6`):
+
+```sh
+.venv/bin/python -m experiments.linear_a_ledger verify
+```
+
+In a clean worktree at `8793ad6` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_ledger run`. The released inputs reproduce the
+coverage preflight's not_evaluable outcome; no natural-data fits or permutations run. Source
+extraction (`prepare`) is separate from learning and refuses to overwrite its frozen outputs.
+The 10 new ledger tests run as part of the focused 34-test Linear A suite above.
 
 ## Sources and licences
 
@@ -363,3 +413,144 @@ Naibbe code and data: Michael A. Greshko (2025), *The Naibbe cipher*, Cryptologi
 modified MIT licence. Wikisource transcriptions: CC BY-SA. Universal Dependencies
 treebanks: see each manifest; newly archived VIT is **CC BY-NC-SA 3.0**, with its
 README and licence in the archive. Yale scans: see `data/folios/sources/yale-manifest.json`.
+
+
+### Source-checked accounts and kinship feasibility (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_account_benchmark verify
+.venv/bin/python -m experiments.linear_a_kinship verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 44 tests. Each driver also supports `run`, with exclusive output
+creation; reproduce in a fresh checkout without the generated results files. Do not overwrite
+the released outputs or recreate the committed freezes. Account inputs and functions are
+manual development annotations; kinship controls are gold examples, not model predictions.
+Source locations, hashes and access limitations are in each experiment's `sources.json`.
+The account benchmark requires the local book scan; the kinship freeze also pins Killen's
+PDF and every DĀMOS item. Etruscan review hashes document a concurrent prototype snapshot;
+its mutable files are not executable dependencies and were not changed.
+
+### HT85/117 person-slot source audit (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_person_slots verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite now contains 49 tests. To regenerate the three descriptive outputs, use
+a fresh checkout at freeze commit `74610d3` with the pinned local corpus and source snapshots
+attached, then run `.venv/bin/python -m experiments.linear_a_person_slots run`. The driver
+refuses overwrite. Manual inventory and source-review inputs are frozen; generated counts
+are not model predictions. Dynamic source HTML may change, so exact reproduction requires
+the archived snapshots, not a fresh web fetch. Full chapter access was via web text extraction;
+no local chapter PDF is claimed. The concordance's object keys need catalogue-alias review
+before use as independent units; see its `CONCORDANCE_REVIEW.md`.
+
+### Qi-tu-ne heading/count comparison (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_a_qi_tu_ne verify
+```
+
+In a fresh checkout at freeze commit `9d47059` with pinned sources attached, run
+`.venv/bin/python -m experiments.linear_a_qi_tu_ne run`. The two generated files contain
+the HT7 inventory table and descriptive counts; no semantic model is fitted. The driver
+reuses the unchanged person-slot validator and checks all three exact occurrence identities
+and sign sequences. All 49 existing focused tests pass; no new linguistic validation is
+implied. Archived photos, HTML and comparison scans are listed in the source manifest.
+
+### Linear B name versus designation control (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_person_role verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 57 tests. In a fresh checkout at freeze commit `2574eef` with the
+pinned local book scan and 19 DĀMOS item files attached, run
+`.venv/bin/python -m experiments.linear_b_person_role run`. The driver validates source hashes,
+manual target spans, derived public features and gold labels, then writes an exclusive result
+file. The [report](../experiments/linear-b-person-role/REPORT.md) also gives an in-memory exact
+comparison against the archived result, without deleting or overwriting outputs. There is no
+Linear A scoring stage. The 38 labelled cases are curated development annotations; the 199
+seeded negatives swap whole objects, and 22 fail representation preflight. Source changes or
+new labels require a new experiment, not edits to this freeze.
+
+### Relational family-reference control (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_relations verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 66 tests. `095dbdc` freezes the 19-case control, seven unresolved
+reviews, code, settings and 5,932 corpus snapshots before scoring. A fresh checkout of that
+commit with pinned sources attached can run `.venv/bin/python -m experiments.linear_b_relations run`.
+The driver refuses existing result/inventory files and checks corpus membership as well as hashes.
+The [report](../experiments/linear-b-relations/REPORT.md) supplies an exact in-memory rerun
+comparison without archive mutation. Duhoux was read through web text extraction; no local PDF
+is claimed. The study measures family-reference recognition with supplied names and segmentation,
+not directed edge recovery. Neither the exact-form retrieval nor attached-tail candidates are
+an exhaustive list of kinship expressions, and neither is a Linear A semantic test.
+
+### Theban *65/FAR source audit (2026-09-24)
+
+```sh
+.venv/bin/python -m experiments.linear_b_theban_65 verify
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+```
+
+The focused suite contains 74 tests. Freeze `aeb16d9` pins 13 DĀMOS objects, source PDFs,
+manual quantity annotations and the conditional arithmetic code. Run
+`.venv/bin/python -m experiments.linear_b_theban_65 run` only in a fresh checkout with the pinned
+sources attached; it refuses an existing output. The [report](../experiments/linear-b-theban-65/REPORT.md)
+contains an in-memory comparison that reproduces the archive without modifying it. Original
+TOP surfaces and the AGS response were not obtained. Duhoux is web-only, with frozen manual
+notes rather than a locally hashed PDF. No semantic scoring or previous freeze changes occur.
+
+### Linear A closeout verification
+
+The [track is stopped](LINEAR_A_CLOSEOUT.md). These read-only checks validate the archived
+software and provenance; they do not run a new semantic experiment or overwrite results.
+Run from the repository root with the pinned local source snapshots attached.
+
+```sh
+.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py'
+.venv/bin/python - <<'PY'
+import hashlib
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+rounds = (
+    'linear_a_audit', 'linear_a_structure_v2', 'linear_a_correspondence',
+    'linear_a_ledger', 'linear_a_account_benchmark', 'linear_a_kinship',
+    'linear_a_person_slots', 'linear_a_qi_tu_ne', 'linear_b_person_role',
+    'linear_b_relations', 'linear_b_theban_65',
+)
+for name in rounds:
+    subprocess.run([sys.executable, '-m', f'experiments.{name}', 'verify'], check=True)
+manifest = json.loads(Path('experiments/linear-b-theban-images/sources.json').read_text())
+for source in manifest['files']:
+    path = Path(source['path'])
+    actual = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual != source['sha256']:
+        raise ValueError(f'Source hash mismatch: {path}')
+print(f'{len(rounds)} follow-up freezes and {len(manifest["files"])} image-review sources verified')
+PY
+```
+
+Closing result: **74 focused tests, 11 follow-up freezes and eight image-review source hashes
+pass**. The earlier per-round test counts above describe those rounds, not the final suite.
+The image review has no new computational freeze, generated measurement or semantic labels.
+Its [report](../experiments/linear-b-theban-images/REPORT.md) and
+[unsent acquisition packet](../experiments/linear-b-theban-images/ACQUISITION.md) preserve the
+source-access limit. Original full-context target images and the full AGS reply were not obtained.
+
+A git checkout alone is insufficient: preserve the git-ignored corpus, scans and HTML snapshots
+at the manifest paths. Dynamic pages or unavailable scans may prevent byte-identical redownloads.
+Web-only literature has manual review notes, not a claimed local PDF. Existing drivers refuse
+overwrite; use the documented freeze checkout and pinned inputs for any authorized reproduction.

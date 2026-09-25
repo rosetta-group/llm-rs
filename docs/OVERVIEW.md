@@ -147,7 +147,7 @@ Remaining word error comes mostly from letter errors. A
 [language-ID control](../experiments/language-id/REPORT.md) encrypted five languages with
 Naibbe; the true language's prior fit best 5 of 5 times.
 
-## Track five: Linear A (closed)
+## Track five: Linear A (stopped, 2026-09-24)
 
 Linear A is a Bronze Age Cretan script. Most sign sounds are roughly known from Linear B; the
 language is not. So the question became: do Linear A words match some known language more than
@@ -166,9 +166,33 @@ is known.
 The sign values pass a sanity check: 2 of 14 Linear B Cretan place names occur in Linear A,
 against 0.025 by chance. The lexical tests fail because Linear B spelling drops final
 consonants, so 37% of random Linear-A-shaped words match some Greek lemma. Open name lists also
-lack Bronze Age names. No method can identify or rule out a language for Linear A at this size.
-The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
-scripts, with Rongorongo next.
+lack Bronze Age names. These tested methods cannot identify or rule out a language for Linear A.
+The [repair audit](../experiments/linear-a-audit/REPORT.md) fixed duplicate-sensitive profiles
+and unreachable thresholds. Luwian and Palaic now pass their own profile controls, but shuffled
+Linear B still classifies as Greek 20/20. The full-set re/ru → ro pattern has exploratory
+p = 0.0001, while the discovery-selected held-out test remains negative at p = 0.1653. A
+[sign-only ending test](../experiments/linear-a-structure-v2/REPORT.md) passes only 4/20
+known-answer controls; Linear A is not scored. A subsequent [source audit](../experiments/linear-a-correspondence/REPORT.md)
+retains six of the 12 correspondence pairs. Their specific final-vowel pattern fails the
+onset-conditioned null (p = .1605), so that adaptation lead is archived; simpler stem overlap
+remains unusual (p = .0011). These failures do not prove an information limit.
+The [chronological summary](LINEAR_A.md) has the details. The [final closeout](LINEAR_A_CLOSEOUT.md)
+records the user's decision to stop; no further Linear A work is queued.
+
+The [accounting pilot](../experiments/linear-a-ledger/REPORT.md) was not evaluable: seven
+eligible Knossos objects versus 33 A objects. Its completed [development benchmark](../experiments/linear-a-account-benchmark/REPORT.md)
+contains nine accounts on eight objects, including two strict balances. Source audits of
+HT85/117 and `qi-tu-ne` establish graphic/counting roles without distinguishing personal names
+from categories. The [name/designation control](../experiments/linear-b-person-role/REPORT.md)
+reaches only 37.4% balanced recall; the [relational control](../experiments/linear-b-relations/REPORT.md)
+abstains on all 19 primary cases. No Linear A parentage or gender inference follows.
+
+The [Theban audit](../experiments/linear-b-theban-65/REPORT.md) preserves competing son and
+commodity readings, finds three published quantity-conversion discrepancies, and has no eligible
+closed account to decide between them. The [image search](../experiments/linear-b-theban-images/REPORT.md)
+obtained no full-context target images. That lead and its unsent scan-request packet are parked.
+The closing checks pass 74 focused tests, 11 follow-up freezes and eight source hashes; these
+verify software and provenance, not a decipherment. Other research tracks are outside this stop.
 
 ## Track six: Etruscan (closed)
 

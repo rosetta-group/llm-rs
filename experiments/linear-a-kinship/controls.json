@@ -1,0 +1,109 @@
+[
+  {
+    "id": "PY-An654-son",
+    "object": "4353",
+    "source_lines": [
+      ".8",
+      ".9"
+    ],
+    "relation": "CHILD_OF",
+    "child": "a-re-ku-tu-ru-wo",
+    "parent": "e-te-wo-ke-re-we",
+    "child_gender": "male",
+    "implicit_child": false,
+    "evidence": "https://biblioteca-digitala.ro/reviste/StudiiClasice/02-revista-studii-clasice-II-1960-67-72.pdf",
+    "source_page": 60,
+    "note": "Chadwick interprets the entire expression as Alektruon son of Eteokles. His continuous patronymic transcription differs from DAMOS line-split i-jo; no assertion that i-jo alone is an independent kinship word here.",
+    "heading": "PY An(3) 654",
+    "source_sha256": "7ce7430b73412cf1686d39697abd29cfa3105159e1252bf78144f20bc9b700e5",
+    "raw_lines": [
+      ".8        a-re-ku-tu-ru-wo  ,  e-te-wo-ke-re-we",
+      ".9        i-jo ,"
+    ]
+  },
+  {
+    "id": "MY-V659-daughter-5",
+    "object": "5622",
+    "source_lines": [
+      ".5"
+    ],
+    "relation": "CHILD_OF",
+    "child": null,
+    "parent": "o-to-wo-wi-je",
+    "child_gender": "female",
+    "implicit_child": true,
+    "evidence": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+    "source_page": 208,
+    "note": "Daughter occupies a slot otherwise filled by a second personal name. Count 2 includes the named woman and unnamed daughter.",
+    "heading": "MY V-(-) 659",
+    "source_sha256": "714564c64a48346131c6a56e014221baf353e25c5a13349feb958626fd55a9d6",
+    "raw_lines": [
+      ".5        o-to-wo-wi-je  tu-ka-te-qe                2"
+    ]
+  },
+  {
+    "id": "MY-V659-daughter-6",
+    "object": "5622",
+    "source_lines": [
+      ".6"
+    ],
+    "relation": "CHILD_OF",
+    "child": null,
+    "parent": "a-ne-a2",
+    "child_gender": "female",
+    "implicit_child": true,
+    "evidence": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+    "source_page": 208,
+    "note": "Same object as previous fixture; not an independent positive object.",
+    "heading": "MY V-(-) 659",
+    "source_sha256": "714564c64a48346131c6a56e014221baf353e25c5a13349feb958626fd55a9d6",
+    "raw_lines": [
+      ".6        a-ne-a2  ,  tu-ka-te-qe                         2"
+    ]
+  },
+  {
+    "id": "MY-V659-ordinary-pair",
+    "object": "5622",
+    "source_lines": [
+      ".3"
+    ],
+    "relation": "PAIR_ONLY",
+    "child": null,
+    "parent": null,
+    "child_gender": null,
+    "implicit_child": false,
+    "evidence": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+    "source_page": 208,
+    "note": "ri-su-ra qo-ta-qe 2: ordinary two-name listing under Killen’s account pattern. No parentage asserted by source; this is a negative for explicit formula identification, not proof the people were unrelated.",
+    "heading": "MY V-(-) 659",
+    "source_sha256": "714564c64a48346131c6a56e014221baf353e25c5a13349feb958626fd55a9d6",
+    "raw_lines": [
+      ".3        ri-su-ra  ,  qo-ta-qe                                2"
+    ]
+  },
+  {
+    "id": "KN-Ak624-collective",
+    "object": "570",
+    "source_lines": [
+      ".2",
+      ".3"
+    ],
+    "relation": "COLLECTIVE_CHILDREN",
+    "child": null,
+    "parent": null,
+    "child_gender": null,
+    "implicit_child": false,
+    "evidence": "https://antiquitasviva.com/wp-content/uploads/2021/05/16.1-2.22.-killen-j.-t.-the-abbrevitation-tu-on-knossos-woman-tablets.pdf",
+    "source_pages": [
+      209,
+      212
+    ],
+    "note": "Group categories ko-wo/ko-wa are not an identified named child-parent pair. Not every child-category token licenses a CHILD_OF edge.",
+    "heading": "KN Ak(1) 624",
+    "source_sha256": "d80886cc57eac809e205b6e072f8a7567730f4f88dc6ee157cb7631a54eee274",
+    "raw_lines": [
+      ".2        ne   di   3     ko-wa  , / me-zo-e          [",
+      ".3        ko-wo  ,  di   3   ko-wo  , / me-zo-e   1̣["
+    ]
+  }
+]

@@ -204,6 +204,35 @@ copying controls and a cheaper refiner. Their [development protocol](experiments
 uses released cases only and retains the manuscript gate. Earlier suggestions to
 continue unconstrained Naibbe tuning are superseded by this bounded control work.
 
+**2026-09-24: Linear A repair audit and one sign-only structural test completed.**
+Branch `codex/linear-a-audit`; protocols and source/code hashes committed before corrected
+runs. Historical code and results remain intact; rounds one to three still verify.
+- Corrected duplicate-sensitive profile features and sampled unique types with exact common
+  length quotas. Luwian self-identification improves from 7/20 to 19/20; Palaic from 0/20 at
+  189 types to 20/20 at 164 types. Other sampling/scaling corrections also changed, so this
+  is not a deduplication-only ablation. Real and shuffled Linear B both identify as Greek
+  20/20; the negative gate fails and corrected Linear A is not scored.
+- Corrected probe 6's unreachable threshold with 9,999 null draws and the original split,
+  discovery stage and random streams. The discovered re → ro rule's held-out result remains
+  negative: 2 pairs versus 0.7265 expected, p = 0.1653. The pre-named re/ru → ro pattern has
+  12 pairs versus 2.9244, zero null exceedances, p = 0.0001. That strengthens an exploratory
+  correspondence under the existing null, not independent confirmation or language identification.
+- Also repaired the trade-word control: 50 null draws could not reach p < 0.05/7. With 999
+  draws per sample, 3/20 pass versus 18 required; gate still fails.
+- Made the old profile's formerly interactive shuffle, pseudo-word, reference-size and o/u
+  diagnostics reproducible with explicit seeds. [Audit report](experiments/linear-a-audit/REPORT.md).
+- Tested one structural question: whether final sign/sign-pair features predict numeric-entry
+  position for unseen types on withheld inscriptions, above a sign-bag/length baseline. Unknown
+  sound values remain sign IDs; damaged runs are excluded. Only 4/20 size-matched Linear B
+  samples pass (required 18); shuffled controls 0/20. Mean balanced-accuracy gain is 0.53 points.
+  Linear A is not scored. [Structural report](experiments/linear-a-structure-v2/REPORT.md).
+- The first structural driver stopped on a missing NumPy import before reporting any score.
+  The import-only v2 was frozen and committed before the run; an added driver test covers it.
+  All 16 focused tests pass. No paid compute or new downloads.
+
+The audited methods are retired. The earlier “information, not compute” conclusion is narrowed:
+these tests fail, but no general information limit was established. The full-set correspondence
+remains an exploratory finding that would need independent evidence for confirmation.
 
 **2026-09-23: Linear A track closed after five rounds; no language identified.**
 Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
@@ -851,6 +880,271 @@ After each experiment, add its question, fixed settings, result, limitations, an
 implication for meaning recovery here. Preserve old reports and failed attempts.
 Distinguish planned, running, completed, and verified work. Do not turn a prediction
 milestone into a translation claim, or keep expanding the statistics track indefinitely.
+
+## 2026-09-24: Linear A correspondence source audit completed
+
+**Question:** does the exploratory re/ru → ro association survive literal source readings
+and nulls preserving real stems? Pattern name: conditional ending test.
+
+**What was done**
+
+- Traced all 12 historical pairs to pinned source inscriptions; retained six under uniform
+  whole-corpus filters. Kept q/k and numbered signs distinct, rejected marked or broken runs,
+  and required A word/sign/glyph agreement. HT 117a has te-*56-re versus te-ja-re; KH 41's
+  ka-ta-re is excluded conservatively because gaps bound it. Valid qa-qa labels are restored.
+- Froze code, tests, full inventories, accepted attestations, pair evidence, source hashes and
+  protocol in commit `75128e8`, before real-data permutations. Eight new tests pass; all 24
+  focused Linear A tests pass. Original rounds 1–3 and both earlier repair/structural freezes
+  still verify. Old frozen code/results are unchanged.
+- Strict inventory: 208 A types, 2,984 B types, length >=3. With 9,999 draws each, six matching
+  stems exceed the length-null mean 1.5342 (p = .0011), but not the length+final-onset mean
+  4.2191 (p = .1605). Both were required below .05/7, including Wilson upper bounds.
+- Historical sensitivity: 12 stems versus 2.7487 (p = .0001) and 7.2026 (p = .0049);
+  the old normalised data pass both. Full simulations and intervals are archived in
+  [the report](experiments/linear-a-correspondence/REPORT.md).
+
+**Why:** the prior p = .0001 under a syllable null neither checked the source readings nor
+isolated the vowel change from an existing final-r association. The source-checked specific
+adaptation lead fails the committed gate and is archived; simpler spelling overlap remains.
+
+**Limits and next action:** the filters reduce coverage and power, and collated source layers
+are not independent readings. This audit does not disprove individual loans or identify a
+language. Preserve the six pairs as unresolved observations. Reopen only with new source
+adjudication or independent dated/context-compatible evidence, not another split or ending
+sweep on exposed words. No paid compute was used and no further statistical rerun is scheduled.
+
+## 2026-09-24: accounting-program feasibility pilot completed
+
+**Question:** can anonymous words choose arithmetic operations that predict quantities on
+unseen physical tablets? Pattern name: the tablet as a program.
+
+**What was done**
+
+- Implemented commodity-specific integer vectors, sum-before, sum-after and balance-before
+  programs, opaque word IDs, five whole-object folds, independent-object support, conflicting
+  rule abstention and quantity-shuffled refitting controls. Target quantities are never read
+  by the prediction expressions. Units/fractions/damage are barriers, not silently ignored.
+- Archived source extraction, exclusion reasons, evaluator vocabulary and seven source-review
+  candidates. Coverage was inspected before the freeze; no arithmetic fits or success scores
+  were inspected. Frozen at `8793ad6`; the subsequent run returns not_evaluable.
+- Found 7 eligible KN control objects (34 rows), 30 other-B development objects (150 rows),
+  and 33 A objects (134 rows). The control cannot reach the minimum 10 objects or match the
+  33-object target without replacement. No real-data fitting or null simulations were run.
+- Passed all 34 focused Linear A tests, including ten new ledger tests. A 30-object synthetic
+  case recovers its hidden total marker and predicts all held-out-object totals; this is a
+  software check, not linguistic power evidence. Earlier repair, structural and correspondence
+  freezes remain valid. [Report](experiments/linear-a-ledger/REPORT.md).
+
+**Why:** the arithmetic route needs trustworthy quantities, boundaries and control cases before
+it can support a function claim. This is a parser/coverage limitation, not a failed test of
+arithmetic structure. The accounting approach remains open.
+
+**Correction to the motivating example:** HT 13's old 130=130 result compared integer parts;
+its source contains fractions in entries and the total. The old code explicitly documented
+that limitation, but my earlier recommendation did not explain it. It is not a verification
+of the full quantities. The old frozen result is preserved and the current summaries clarify it.
+
+**Next:** build the [source-checked account benchmark](experiments/linear-a-ledger/BENCHMARK_PLAN.md):
+separate uncertainty in names from quantities, cite unit conversions, justify account boundaries
+and label functions independently. A to-so/to-sa token alone is not a verified sum equation.
+Keep inspected objects in development; do not lower the gate or duplicate cases to force a pass.
+No language claim, paid compute or further real-data scoring was made in this pilot.
+
+## 2026-09-24: source-checked accounts and parentage feasibility
+
+**What was done**
+
+- Built and froze a nine-account/eight-object development benchmark at `f048a56`, with
+  source-supported boundaries, function labels, commodity inheritance and exact units.
+  Strict arithmetic: two balances, six uncertain/incomplete, one dimension negative.
+  Conditional readings: five balances, three mismatches, one dimension negative. The
+  PY Jn658 mismatch is independently discussed by the edition. [Report](experiments/linear-a-account-benchmark/REPORT.md).
+- Built five parentage/pairing/collective-children controls on three Linear B objects;
+  froze descriptive inventories at `1c3dd37`. “X and daughter” needs an unnamed participant,
+  unlike a two-name CHILD_OF template. Concurrent Etruscan files were inspected read-only.
+- Counted 48 graphic Linear A rows on 22 objects; the two pair-shaped rows are transaction/
+  logogram ambiguities, not personal-name pairs. No kinship label was inferred. HT117a
+  remains excluded for its explicit *56/ja conflict. [Report](experiments/linear-a-kinship/REPORT.md).
+- Passed 44 focused tests, including seven exact-account and three ordered-inventory tests.
+
+**Why:** source evidence must distinguish damaged names from damaged quantities, and personal
+names from ordinary graphic slots. These development fixtures support further work without
+turning conditional arithmetic or repeated names into translations.
+
+**Limits:** the accounting control still lacks 33 matched objects and ten function-positive
+objects. No real-data word-function learner was fitted. The kinship inventory is descriptive,
+not a recovery gate; the Etruscan prototype supplies name spans and morphology unavailable
+for these Linear A candidates. No paid compute or edits to the concurrent Etruscan branch.
+
+## 2026-09-24: HT85/117 person-slot source audit
+
+**What was done**
+
+- Read the full Davis–Valério chapter and inspected GORILA photos, facsimiles and
+  transcriptions for both target tablets, plus contextual HT87/88/122a transcriptions.
+- Froze the manual inventory and descriptive code at `74610d3`: 43 logical rows on four
+  faces of two objects; 32 counted words, three counted logograms and eight other rows.
+  HT117 contributes 17 possible individual/designation entries, without gold name labels.
+- Recorded an edition-supported preference for `te-ja-re`, preserving SigLA's conflicting
+  `te-*56-re` and all earlier frozen inputs. Reviewed four structural leads against
+  occupation, ownership/responsibility, place and kinship. No parentage formula identified.
+- Passed 49 focused tests and verified all seven follow-up freezes. Literal concordance
+  review found a catalogue alias: PH31a and PH(?)31a share HM1609. Raw source-key counts
+  must not become independent-object support. [Report](experiments/linear-a-person-slots/REPORT.md).
+
+**Why:** numeral 1 does not certify a name: qa-A310-i has count 1 on HT85b and 3 on HT122a.
+Source roles and repeated contexts must be checked before a parent-child model receives labels.
+
+**Next discriminating check:** qi-tu-ne is a reviewed header on HT87/117 but a counted entry
+in the pinned HT7b text; image collation of HT7b could establish that role contrast. The
+inventory still needs independent epigraphic review. No gender, translation, statistical
+significance or recovery claim follows, and no previous failed gate was reopened.
+
+## 2026-09-24: qi-tu-ne heading/count contrast confirmed
+
+**What was done**
+
+- Collated HT7a/b against GORILA I pp.14–15 photographs, drawings, transcriptions and
+  apparatus. Confirmed qi-tu-ne 1 on HT7b .1; the front's qe-ti VIR supplies personnel
+  context but does not automatically establish a unit for the reverse.
+- Rechecked HT87/117b headings. Froze an eight-row HT7 inventory, three occurrence cases
+  and explicit rival assignments at `9d47059`, then generated descriptive summaries.
+- Confirmed AB21f–AB69–AB24 across three objects: one count-associated occurrence and
+  two headings. Preserved overwritten-text qualifications and physical-object grouping.
+- Passed 49 focused tests and verified eight freezes. [Report](experiments/linear-a-qi-tu-ne/REPORT.md).
+
+**Why:** the newly verified count tests the earlier heading-based category hypothesis.
+It establishes role mobility, but both a responsible person's name and an occupational
+class can produce the observed count/heading pattern.
+
+**Decision:** no semantic winner or parentage label. Retain the contrast as a counterexample
+to assigning name/category labels from position alone. A known-language name-versus-category
+control is needed before further semantic modelling; more unlabelled repetitions alone do
+not distinguish these rivals. No old frozen input, failed gate or concurrent Etruscan file changed.
+
+## 2026-09-24: Linear B name/designation structural control failed
+
+**What was done**
+
+- Built a curated challenge with 38 source-labelled cases on 19 objects: 19 personal names
+  and 19 occupation/title/group/status designations. Inspected the printed source, retained
+  DĀMOS text, recorded exclusions and source discrepancies, and separated anonymous features
+  from the gold key. Labels still lack independent modern specialist adjudication.
+- Froze code, sources, labels, settings and eight new tests at `2574eef` before scoring.
+  Used whole-object holdout and one normalized vote per training object/signature.
+- Primary layout: 37.4% balanced recall, 39.4% coverage, 95.1% weighted conditional accuracy;
+  raw 15 correct, one wrong, 22 abstentions. Recall and coverage fail the 90% thresholds.
+  Forced-majority layout recall is 57.4%; the in-sample feature ceiling is 84.9%.
+- Ran 199 whole-object label-swap negatives: 177 evaluable, zero passes, 22 excluded by
+  representation requirements. Passed 57 focused tests and verified all nine follow-up
+  freezes. [Report](experiments/linear-b-person-role/REPORT.md).
+
+**Why:** known personal names and occupational labels can have identical role, quantity,
+position and repetition features. The name o-wo-to on PY An 261 is misclassified from five
+unanimously designation-labelled supporting objects; training agreement does not certify meaning.
+
+**Decision:** retire this structural classifier for semantic transfer. No Linear A was scored,
+no parentage/gender inference was made, and no earlier failed gate or frozen input changed.
+Any next experiment needs additional evidence, such as relational frames and morphology, plus
+known-language tests separating parentage from ownership/responsibility and occupation.
+
+## 2026-09-24: Relational family-reference control and expanded son inventory
+
+**What was done**
+
+- Reviewed Hiller (1989), Duhoux (2007), Godart (2024) and the Oe106 translation disagreement.
+  Added 19 scored expressions on 16 objects, with seven unresolved cases outside gold.
+  Supplied onomastic spans, fragment boundaries, cross-line joins and terminal -qe segmentation;
+  hid spellings, Greek meanings, grammatical case, gender and argument roles from the learner.
+- Froze code, cases, source PDFs and all 5,932 DĀMOS snapshots at `095dbdc` before scoring.
+  The expanded literal inventory adds three intact i-*65/i-*65-qe occurrences and preserves
+  two doubtful counterparts separately. Overall retrieval: 59 hits, including 22 intact
+  attached-tail candidates and 25 uncertain-text candidates. These are not semantic labels.
+- Form-only diagnostic: 50% family recall, 41.7% balanced recall, 50% coverage; seven correct,
+  one wrong, 11 abstentions. The primary ordered frame/form control abstains on all 19 cases:
+  11 unseen patterns, eight supported by only one other object, where two were required.
+- Gate failed. Zero of 196 evaluable negatives pass, but all abstain because structural support
+  is absent; that negative result is uninformative. Three of 199 swaps fail representation.
+  Passed 66 focused tests, verified ten freezes and reproduced results/inventory exactly.
+  [Report](experiments/linear-b-relations/REPORT.md).
+
+**Why:** relational wording adds evidence absent from position alone, but recognizing a family
+expression does not determine its participants. MY Oe106's named person can be read as daughter
+or parent; the anonymous two-name patronymic also collides with ordinary co-listing.
+
+**Decision:** no parentage edges or Linear A meanings inferred. Four supplied family cases have
+an unnamed child, two have disputed binding, and one has a lineage qualification. MY Au102
+and KN Vs1523 readings remain unresolved. Further controls need independently supported repeated
+constructions; the next source question is the Theban attached-u-jo versus *65/FAR comparison.
+Earlier frozen inputs, failed gates and concurrent Etruscan files remain unchanged.
+
+## 2026-09-24: Theban *65/FAR source and quantity audit
+
+**What was done**
+
+- Preserved 13 selected objects, including one joined Fq254[+]255 and two external commodity
+  controls. Reviewed Palaima, Duhoux and James; original TOP surfaces and the direct AGS
+  response remain unavailable. Son and commodity readings stay explicit rivals.
+- Froze exploratory source annotations/code at `aeb16d9` before generating comparisons.
+  Three of six published total conversions disagree with their printed components:
+  Fq252 186/178 Z, Fq254[+]255 169/86 Z, Fq277 525/641 Z (published/calculated).
+  Neither column is silently corrected; gaps and doubtful readings remain unresolved.
+- Conditional visible allocation shifts: Fq214 8 Z; Fq254[+]255 16 Z. Both accounts fail
+  complete-body/secure-total/scope eligibility, so no balance verdict or family edge follows.
+- Passed 74 focused tests, verified 11 freezes, reproduced output exactly and checked overwrite
+  protection. [Report](experiments/linear-b-theban-65/REPORT.md).
+
+**Why:** a food amount after a person does not distinguish “son” from a commodity marker.
+The reading must be tested against sign placement and a secure accounting scope, not damaged
+or inconsistent totals. Published -u-jo parallels motivate further source review, not gold labels.
+
+**Decision:** retain the Theban son proposal as a qualified lead; no Linear A transfer or new
+parentage/gender labels. Next inspect TOP pp94–95 and the related tablet surfaces, alongside
+the full AGS2003 reply. Earlier failed gates and frozen files remain unchanged.
+
+## 2026-09-24: Theban image search reaches its source-access stopping point
+
+**What was done**
+
+- Searched for full-context images of Fq236/Gp124/Gp227/Fq254[+]255. LiBER excludes Theban
+  archival texts; the four DĀMOS image fields are catalogue links. Publisher and book-preview
+  routes did not supply the requested pages. No claim that scans do not exist elsewhere.
+- Pinned Palaima2006, Judson2016, a museum-volume reference and the LiBER coverage snapshot.
+  Inspected Judson's Gp124 glyph reproduction: it lacks adjacent signs needed for spacing.
+- Recorded later scholarly disagreement over Fq236 and the reported hand310-to304 reassignment.
+  Prepared an unsent scan-request packet. No measurements, new code/tests, labels or freeze.
+  All 11 earlier follow-up freezes remain unchanged.
+  [Report](experiments/linear-b-theban-images/REPORT.md).
+
+**Why:** a glyph crop cannot establish attachment, and damage may prevent even a full image
+from deciding the reading. The later literature narrows what the proposed check can establish.
+
+**Decision:** park this image-dependent lead until full-context scans arrive. Do not rerun the
+same source searches or treat transcription whitespace as a photograph. No Linear A transfer,
+family edge or gender inference follows. No external request was sent.
+
+## 2026-09-24: Linear A final write-up and stop
+
+**What was done**
+
+- Added [the final closeout](docs/LINEAR_A_CLOSEOUT.md), covering all five original rounds,
+  the repair audit, accounting and person-slot work, son/daughter controls and Theban source
+  reviews. Documented both unreachable statistical tests, their repairs and the remaining failures.
+- Updated README, plan, overview, Linear A chronology, results, repository map, reproduction
+  instructions and other-script scoping. Corrected “700 words” to 696 readable word types and
+  removed claims that failed methods prove a universal corpus-size or information limit.
+- Marked earlier Linear A “next” items as superseded. Preserved the unsent scan-request packet,
+  explicit source-access limits and conditions for any separately requested reopening.
+- Passed all 74 focused tests, verified 11 follow-up freezes and all eight local image-review
+  source hashes. This closeout changes documentation only; code, frozen inputs and outputs stay
+  intact. No new model, source search, translation, parentage edge or gender label was produced.
+
+**Why:** the user requested a complete repository write-up and a stop. The handoff distinguishes
+completed work, failed gates and unresolved evidence without treating them as an active queue.
+
+**Decision:** stop the Linear A track and its associated Linear B follow-ups here. No further
+experiment or search is queued by this task. Concurrent Etruscan and Voynich work is outside
+this decision; historical experiment reports remain unchanged.
 
 ## 2026-09-24 — Etruscan track closed
 

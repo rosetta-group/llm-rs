@@ -8,6 +8,7 @@ Where things live and which files are frozen. Paths are relative to the reposito
 |---|---|
 | `README.md` | Entry point: what this is, headline results, where to go next |
 | `docs/` | Human-facing documentation (this folder) |
+| `docs/LINEAR_A_CLOSEOUT.md` | Final handoff for the stopped Linear A track; report index, limits and reopening conditions |
 | `RESEARCH_LOG.md` | Chronological research record; long, append-only, every experiment and its limits |
 | `RESEARCH_PLAN.md` | Research gates and status per work item |
 | `voynich/` | Library code: data preparation, models, decoders, evaluation |
@@ -60,6 +61,12 @@ breaks `verify` for that round. Add new behaviour in a new module instead.
 | `probes.py` | The seven round-four probes, including the grammar profile | — (protocol committed) |
 | `tlhdig.py` | Word forms by language tag from TLHdig Beta 0.3 | — (protocol committed) |
 
+`linear_a/person_role_control.py` supplies object-held-out structural classification, balanced
+metrics, feature ceilings and block-label negatives; frozen by `linear-b-person-role`.
+
+`linear_a/relation_control.py` supplies source-span validation, opaque relational fragments,
+whole-object validation and uncertainty-preserving marker retrieval; frozen by `linear-b-relations`.
+
 ## Experiments (`experiments/`)
 
 Each recovery round has a driver, a development folder and a fresh-evaluation folder.
@@ -93,8 +100,9 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Round five | `joint_recovery_v5.py` (paired A/B/C segmenter arms) | round-four development | `joint-recovery-v5/` |
 | Word segmentation v3 | `word_segmentation_v3.py` (rubric-free extractor, diagnosis, unknown-word selection), `word_segmentation_v3_fresh.py` | `word-segmentation-v3/development.json` | `word-segmentation-v3-fresh/` (Compagni, ParTUT; transfer passed) |
 
-Linear A rounds have one driver and one record folder each. The Linear B control plays the role
-of the fresh evaluation.
+Linear A computational rounds have one driver and one record folder each. Linear B supplies
+known-language controls; the later manually curated source cases are development material,
+not independently blinded fresh evaluations. This track is stopped; historical plans are not a queue.
 
 | Round | Driver(s) | Record folder | Outcome |
 |---|---|---|---|
@@ -104,6 +112,18 @@ of the fresh evaluation.
 | Scoping after round three | — | `linear-a-next/` (`BACKGROUND.md` research brief, `CORRESPONDENCES.md` exploratory, `SCOPE.md` round-five data) | — |
 | Four: seven probes | `linear_a_probes.py` | `linear-a-probes/` (`lists.json`, `results-1.json` to `results-7.json`) | no probe passed |
 | Five: TLHdig profiles | `linear_a_tlhdig.py` | `linear-a-tlhdig/` | artefact |
+| Repair audit | `linear_a_audit.py` | `linear-a-audit/` | corrected profiles/trade controls fail; full-set correspondence exploratory p = 0.0001 |
+| Sign-only entry endings | `linear_a_structure_v2.py` | `linear-a-structure-v2/` | 4/20 known-answer samples pass; gate failed; uncorrected driver archived in `linear-a-structure/` |
+| Correspondence source audit | `linear_a_correspondence.py` | `linear-a-correspondence/` (12-pair evidence, literal inventories, frozen protocol and conditional nulls) | 6 strict pairs; onset-conditioned p = .1605, specific adaptation lead archived |
+| Accounting-program feasibility | `linear_a_ledger.py` | `linear-a-ledger/` (opaque inputs, coverage, source review, protocol and follow-on benchmark plan) | not evaluable: 7 KN objects vs 33 A; no real-data fit |
+| Source-checked account benchmark | `linear_a_account_benchmark.py` | `linear-a-account-benchmark/` (quantities, source labels, relative units, source reviews) | nine development accounts; two strict balances; no A score |
+| Kinship feasibility | `linear_a_kinship.py` | `linear-a-kinship/` (known B controls, literal markers, graphic shapes and role review) | named vs unnamed relatives; no A kinship inference |
+| Person-slot source audit | `linear_a_person_slots.py` | `linear-a-person-slots/` (43-row inventory, source decisions, rival interpretations, exact concordance) | 2 objects; edition-supported reading overlay; no kinship formula |
+| Qi-tu-ne role contrast | `linear_a_qi_tu_ne.py` | `linear-a-qi-tu-ne/` (HT7 source inventory, 3 reviewed cases, rival assignments) | heading/count contrast confirmed; semantic class unresolved |
+| Name/designation control | `linear_b_person_role.py` | `linear-b-person-role/` (38 source cases, anonymous features, held-out predictions, 199 negatives) | curated development; failed 90% gate; no Linear A scoring |
+| Relational family-reference control | `linear_b_relations.py` | `linear-b-relations/` (19 scored fragments, 7 unresolved cases, 59 retrieval hits, 199 negatives) | form reuse partly transfers; primary coverage fails; no inferred edges |
+| Theban *65/FAR audit | `linear_b_theban_65.py` | `linear-b-theban-65/` (13 objects, conditional quantities, competing readings) | 3 conversion discrepancies; no eligible closed account or semantic scoring |
+| Theban image review | — (manual source review; no new freeze) | `linear-b-theban-images/` (`REPORT.md`, `sources.json`, unsent `ACQUISITION.md`) | full-context target images not obtained; parked |
 
 Rounds one to three each hold `PROTOCOL.md`, `sources.json` (hashes and licences),
 `development-results.json`, `freeze.json`, control or test results and `REPORT.md`. Rounds four and
@@ -135,6 +155,16 @@ checks the beam against exhaustive search and the HMM against exhaustive paths.
 `test_linear_a.py` checks the Linear B spelling rules, the matcher and its null, `ku-ro` sums
 and tablet context labels (`.venv/bin/python -m unittest tests.test_linear_a`).
 
+`linear_a/probes_v2.py` repairs type profiles, unique sampling and Monte Carlo resolution;
+`linear_a/audit.py` enforces source/code freezes and refuses output overwrite;
+`linear_a/structure.py` preserves sign IDs and tests entry endings on unseen types.
+`linear_a/correspondence.py` filters literal source readings and permutes endings while
+preserving real stems, lengths and optionally final onsets; frozen by the correspondence audit.
+`linear_a/ledger.py` parses commodity-specific integer vectors and learns fixed opaque-word
+arithmetic programs; frozen by the accounting feasibility pilot.
+The audit/structural tests run with
+`.venv/bin/python -m unittest discover -s tests -p 'test_linear_a*.py' -v`.
+
 ## What is not in git
 
 `artifacts/` holds raw corpora (restorable from the pinned tarballs), fitted priors
@@ -143,3 +173,19 @@ in `evaluated-records.tar.gz` after grading), and prediction-track model files.
 `artifacts/linear-a-sources/` holds the Linear A track's downloads: `navarre/` (Linear A corpus),
 `kaikki/` (Wiktionary lexicons), `damos/` (5,932 Linear B documents), `names/` (LAMAN and Oracc),
 `tlhdig/` (TLHdig Beta 0.3) and `peet/` (Peet 1927 scan). Each round's `sources.json` hashes them.
+
+`linear_a/account_benchmark.py` performs exact unit arithmetic on source-annotated development
+accounts. `linear_a/kinship_inventory.py` preserves ordered graphic slots and literal marker
+spellings. Each has its own committed freeze; neither is a semantic recovery model.
+
+### Theban *65/FAR source audit
+
+`linear_a/theban_65.py` calculates conditional dry-unit components and account eligibility.
+`experiments/linear_b_theban_65.py` freezes and validates 13 selected source objects; its records
+are in `experiments/linear-b-theban-65/`. The source interpretation stays explicit and disputed;
+no classifier or Linear A scoring stage exists. Eight arithmetic/uncertainty tests accompany it.
+
+The final image-review record is manual: it pins eight local sources but adds no executable
+experiment. Additional PDFs and HTML snapshots live under `artifacts/linear-a-sources/` as
+listed by each follow-up manifest. Exact reproduction needs the pinned snapshots; not all
+material can be restored by fresh downloads. Web-only literature is explicitly identified.

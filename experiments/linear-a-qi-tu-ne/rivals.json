@@ -1,0 +1,48 @@
+{
+  "pattern": "Role mobility without semantic identification",
+  "scope": "Logical compatibility with three reviewed occurrences; no probabilities, statistical test or fitted model",
+  "observations": [
+    "HT7b qi-tu-ne is followed by numeral 1, on the reverse of a tablet with VIR on its front.",
+    "HT87 qi-tu-ne precedes ma-ka-ri-te in the heading of a six-entry list.",
+    "HT117b qi-tu-ne precedes ku-re-ju 1 and di-ki-se 1; di-ki-se also occurs on HT87."
+  ],
+  "rivals": [
+    {
+      "hypothesis": "Personal name with responsibility for a listed group",
+      "example_assignment": "Hypothetically, Qi-tu-ne is counted once on HT7b and heads lists of people under that person's responsibility on HT87/117.",
+      "compatible": true,
+      "unverified_assumptions": ["The word denotes a person", "Header position expresses responsibility", "Counts have the required unit"],
+      "needed_discriminator": "Independent person-name evidence or a known-language control establishing a person-specific construction"
+    },
+    {
+      "hypothesis": "Occupational or administrative group designation",
+      "example_assignment": "Hypothetically, an occupational class contributes one unit on HT7b and labels members listed on HT87/117.",
+      "compatible": true,
+      "unverified_assumptions": ["The word denotes a class", "The single count denotes one member or one group", "The header lists members of that class"],
+      "needed_discriminator": "Source-supported contrasts between named participants and repeated categories in equivalent accounts"
+    },
+    {
+      "hypothesis": "Place or institutional affiliation",
+      "example_assignment": "Hypothetically, a place or institution contributes one counted unit on HT7b and identifies the affiliation of HT87/117 entries.",
+      "compatible": true,
+      "unverified_assumptions": ["The word denotes a place or institution", "The numeral records a contribution rather than counting the referent itself"],
+      "needed_discriminator": "Independent geographical or institutional identification, not spelling similarity alone"
+    },
+    {
+      "hypothesis": "Household or kinship-related grouping",
+      "example_assignment": "Hypothetically, a household label or a person's name organizes relatives. This produces the same observed positions as non-family grouping.",
+      "compatible": true,
+      "unverified_assumptions": ["Entries identify people", "Their connection is familial", "Relation direction or gender is recoverable"],
+      "needed_discriminator": "An independent parent-child or unnamed-relative substitution contrast against ownership, occupation and ordinary grouping negatives"
+    },
+    {
+      "hypothesis": "Exclusive unnumbered-heading use in these three records",
+      "example_assignment": "Every qi-tu-ne occurrence is an unnumbered list heading.",
+      "compatible": false,
+      "contradiction": "HT7b .1 explicitly places numeral 1 after qi-tu-ne.",
+      "limit": "This rejects only the narrow positional claim, not every administrative-function interpretation. A numbered heading remains logically possible."
+    }
+  ],
+  "decision": "The heading/count contrast is source-supported. Person versus category, affiliation or family grouping remains underdetermined. No semantic or gender label is promoted to gold.",
+  "next_dependency": "A known-language control that distinguishes names from categories when both can occupy headings and counted entries; additional unlabelled Linear A recurrences alone do not solve this ambiguity."
+}

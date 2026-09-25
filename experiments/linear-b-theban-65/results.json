@@ -1,0 +1,134 @@
+{
+  "study": "Theban *65/FAR source and quantity audit",
+  "selected_objects": 13,
+  "conversions": [
+    {
+      "object": "5235",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "T6 V5[",
+      "components": {
+        "T": 6,
+        "V": 5
+      },
+      "published_z": 164,
+      "complete_secure_total": false,
+      "conditional_component_z": 164,
+      "published_minus_component_z": 0,
+      "arithmetic_agrees": true,
+      "is_reconstructed_total": false
+    },
+    {
+      "object": "5250",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "]T7 V2 Z2",
+      "components": {
+        "T": 7,
+        "V": 2,
+        "Z": 2
+      },
+      "published_z": 186,
+      "complete_secure_total": false,
+      "conditional_component_z": 178,
+      "published_minus_component_z": 8,
+      "arithmetic_agrees": false,
+      "is_reconstructed_total": false
+    },
+    {
+      "object": "5252",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "[T]3 V3 Z2",
+      "components": {
+        "T": 3,
+        "V": 3,
+        "Z": 2
+      },
+      "published_z": 169,
+      "complete_secure_total": false,
+      "conditional_component_z": 86,
+      "published_minus_component_z": 83,
+      "arithmetic_agrees": false,
+      "is_reconstructed_total": false
+    },
+    {
+      "object": "5258",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "1 V2 [ ] Z3",
+      "components": {
+        "BASE": 1,
+        "V": 2,
+        "Z": 3
+      },
+      "published_z": 251,
+      "complete_secure_total": false,
+      "conditional_component_z": 251,
+      "published_minus_component_z": 0,
+      "arithmetic_agrees": true,
+      "is_reconstructed_total": false
+    },
+    {
+      "object": "5261",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "T8 V2[",
+      "components": {
+        "T": 8,
+        "V": 2
+      },
+      "published_z": 200,
+      "complete_secure_total": false,
+      "conditional_component_z": 200,
+      "published_minus_component_z": 0,
+      "arithmetic_agrees": true,
+      "is_reconstructed_total": false
+    },
+    {
+      "object": "5262",
+      "source": "James2002-2003 Table1 p407",
+      "printed_units": "]2 T6 V4 Z1",
+      "components": {
+        "BASE": 2,
+        "T": 6,
+        "V": 4,
+        "Z": 1
+      },
+      "published_z": 525,
+      "complete_secure_total": false,
+      "conditional_component_z": 641,
+      "published_minus_component_z": -116,
+      "arithmetic_agrees": false,
+      "is_reconstructed_total": false
+    }
+  ],
+  "conversion_discrepancies": 3,
+  "accounts": [
+    {
+      "object": "5235",
+      "conditional_visible_shift_z": 8,
+      "shift_exact": false,
+      "blockers": [
+        "body_complete",
+        "total_secure",
+        "total_scope_secure",
+        "disputed_allocations_incomplete_or_uncertain"
+      ],
+      "balance_comparison_eligible": false,
+      "preferred_reading": null
+    },
+    {
+      "object": "5252",
+      "conditional_visible_shift_z": 16,
+      "shift_exact": false,
+      "blockers": [
+        "body_complete",
+        "total_secure",
+        "total_scope_secure",
+        "disputed_allocations_incomplete_or_uncertain"
+      ],
+      "balance_comparison_eligible": false,
+      "preferred_reading": null
+    }
+  ],
+  "eligible_accounts": 0,
+  "semantic_predictions": [],
+  "directed_edges": [],
+  "linear_a_scored": false
+}

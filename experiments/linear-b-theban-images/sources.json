@@ -1,0 +1,103 @@
+{
+  "reviewed": "2026-09-24",
+  "status": "parked_pending_full_context_images",
+  "files": [
+    {
+      "path": "artifacts/linear-a-sources/theban-images/palaima-2006.pdf",
+      "url": "https://sites.utexas.edu/scripts/wp-content/uploads/sites/3428/2020/06/2006-TGP-65FARorJuAndOtherInterpretativeConundra.pdf",
+      "sha256": "06a5173586babc2bf8929c1b1ebba7bd4922cc79e692344f2a623656ccb5e61e",
+      "review": "Palaima2006 pp143,145-148 text; p147 visually checked (PDF9). No target tablet image obtained.",
+      "license": "Copyright, local research reference only"
+    },
+    {
+      "path": "artifacts/linear-a-sources/theban-images/judson-2016.pdf",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/3eb94fa9-719c-486c-918b-7ba8ea1d20d5/content",
+      "sha256": "8c2b910d53132b0c4d3f1a629d7cf576efdb66d9136b27323b9548bd1a8b705e",
+      "review": "Anna Penelope Judson, The Undeciphered Signs of Linear B, Cambridge PhD, April2016. Text pp145-153,224-225; visually checked pp152 and225 (PDF164 and237). Gp124 glyph drawing lacks line context.",
+      "license": "Repository: All rights reserved; local research reference only"
+    },
+    {
+      "path": "artifacts/linear-a-sources/theban-images/thebes-museum-2010.pdf",
+      "url": "https://www.latsis-foundation.org/content/elib/book_17/thiba_en.pdf",
+      "sha256": "29a054794266892ddc4183b070087ab4ed6233d9e416df43d3cf1d154a55a758",
+      "review": "Vassilis Aravantinos, The Archaeological Museum of Thebes,2010; tablet captions located by text search; visually reviewed printed pp92-93 (PDF91-92). No target identity established. This was a targeted inspection, not an exhaustive image census.",
+      "license": "Copyright, local research reference only; freely hosted by publisher/funder"
+    },
+    {
+      "path": "artifacts/linear-a-sources/theban-images/liber-home.html",
+      "url": "https://liber.cnr.it/",
+      "sha256": "c6e7a9257ce97cb1379c2f16eb5d7de7963ad4396695fdf833fbf8c441fdf8f6",
+      "review": "Snapshot includes explicit exclusion of archival documents from Thebes and Agios Vasileios.",
+      "license": "Website copyright; local provenance snapshot"
+    },
+    {
+      "path": "artifacts/linear-a-sources/damos/items/5240.json",
+      "url": "https://damos.hf.uio.no/5240",
+      "sha256": "f2f096480ee0b552ec5ca734e56a2fe7a9c599c7f252d48c252be2120128ed76",
+      "license": "DAMOS CC BY-NC-SA4.0",
+      "review": "Image metadata checked; image field is a Trismegistos link, not a tablet photograph."
+    },
+    {
+      "path": "artifacts/linear-a-sources/damos/items/5375.json",
+      "url": "https://damos.hf.uio.no/5375",
+      "sha256": "d8f07282d822b7b4c17a0405127d82fd3e8a12961c138f9aa7fa51306e9d6db4",
+      "license": "DAMOS CC BY-NC-SA4.0",
+      "review": "Image metadata checked; image field is a Trismegistos link, not a tablet photograph."
+    },
+    {
+      "path": "artifacts/linear-a-sources/damos/items/5410.json",
+      "url": "https://damos.hf.uio.no/5410",
+      "sha256": "ecf4fdf1db14604541030d638ebaf0cacb03e776ff191e6206d932737a1bacfb",
+      "license": "DAMOS CC BY-NC-SA4.0",
+      "review": "Image metadata checked; image field is a Trismegistos link, not a tablet photograph."
+    },
+    {
+      "path": "artifacts/linear-a-sources/damos/items/5252.json",
+      "url": "https://damos.hf.uio.no/5252",
+      "sha256": "d9a2f721d0c8e705aaa604d20a031e0ac7796163ccf7762841e1636a66126bf0",
+      "license": "DAMOS CC BY-NC-SA4.0",
+      "review": "Image metadata checked; image field is a Trismegistos link, not a tablet photograph."
+    }
+  ],
+  "web_only_and_unsuccessful_routes": [
+    {
+      "source": "Pierini2018",
+      "url": "https://www.academia.edu/71674859/SYLLABOGRAM_65_OR_LOGOGRAM_129_far_THE_SIGN_%F0%90%80%8E_ON_THEBES_TABLETS_AB_65_IN_LINEAR_A_AND_SOME_REMARKS_ON_THE_O_STEM_GENITIVE_SINGULAR_IN_XO",
+      "review": "Author-uploaded text read via web extraction: pp111-120, especially pp112-115 and p115 n9. SMEA NS4,111-130 as printed running reference (bibliographic listings often111-129). No local PDF; ordinary HTML fetch returned403. Not circumvented. Manual notes are the archived record."
+    },
+    {
+      "source": "Publisher catalogue",
+      "url": "https://www.libraweb.net/Documenti/catalogo",
+      "review": "Bibliographic identities and ISBNs for TFC I/III/IV, not full books. Historical prices ignored."
+    },
+    {
+      "source": "GoogleBooks TOP I",
+      "url": "https://books.google.com/books?id=kcwLAQAAMAAJ",
+      "review": "Catalogue/snippet access only. PA94 and search-within route inaccessible through web tool. Public Books API returned429 for this and _2BiAAAAMAAJ; no claim of full-page access."
+    },
+    {
+      "source": "AGS response",
+      "url": "https://doi.org/10.1515/kadm.42.1-2.15",
+      "review": "Redirected to degruyterbrill.com/document/doi/10.1515/kadm.42.1-2.15/html; ordinary HTTP request returned202, zero bytes. Full text not read."
+    },
+    {
+      "source": "Internet Archive",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22fouilles+de+la+Cadmee%22%29&output=json&rows=20",
+      "review": "This specific title query returned numFound0. Not a claim that no scan exists anywhere."
+    },
+    {
+      "source": "Trismegistos Fq236",
+      "url": "https://www.trismegistos.org/text/956389",
+      "review": "Web tool failed to retrieve. No image claim."
+    }
+  ],
+  "targets": [
+    "TH Fq236 .5",
+    "TH Gp124 .1",
+    "TH Gp227 .2",
+    "TH Fq254[+]255 .6/.7/.13"
+  ],
+  "measurement_run": false,
+  "new_semantic_labels": [],
+  "new_edges": []
+}
