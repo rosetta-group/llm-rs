@@ -62,7 +62,7 @@ For each input and each of the eight models: fit B and A, fix keys, transfer
 Apply decide_transfer on all eight languages; for positives also with the true language omitted
 ```
 
-The 17 prepared but never-scored rejection-transfer-v2 blocks are not opened. A remains a
+The 21 prepared but never-scored rejection-transfer-v2 inputs (30 prepared, 9 graded) are not opened. A remains a
 candidate for fresh confirmation only if it accepts none of the 9 negatives, accepts no wrong
 language, and keeps every omitted-language positive rejected. Measured seconds per fit set the
 confirmation budget.
