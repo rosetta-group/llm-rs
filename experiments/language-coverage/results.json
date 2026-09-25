@@ -1,0 +1,629 @@
+{
+  "challenge_sha256": "45b2dd593221d2be914fece9c627c59511ecfb78a8ed62d928208ab703239a92",
+  "completed": [
+    "771894b62d7b98b9",
+    "e378fc0cda78594d",
+    "8b9ba7c5f9ab1c9e"
+  ],
+  "expanded_correct": 1,
+  "exploratory": true,
+  "feasibility_pass": false,
+  "fit_worker_seconds": 4990.877219502116,
+  "freeze_sha256": "dd88c84f82c07de4693b0bae1258ee5e7ce58737a599f0f831f9a6d15a63b261",
+  "omitted_rejected": 3,
+  "outcomes": [
+    {
+      "character_error": {
+        "catalan": {
+          "fit_cer": 0.062115384615384614,
+          "transfer_cer": 0.0926923076923077
+        }
+      },
+      "decisions": {
+        "baseline": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7553411943303647,
+            "margin": 0.6886682149854506,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5949650758336475,
+            "margin": 0.8204613962698324,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "expanded": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.6073341738717475,
+            "margin": 0.14800702045861724,
+            "winner": "catalan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.86016550507515,
+            "margin": 0.7347995707584976,
+            "winner": "catalan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "omitted": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7553411943303647,
+            "margin": 0.33275659835544147,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5949650758336475,
+            "margin": 0.26341189499114526,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        }
+      },
+      "files": {
+        "artifacts/language-coverage/fit/771894b62d7b98b9-catalan.json": "4b1d5d74fc89d5c95e5fc15988e6c3bad92228f269ab6f9989c3a0ca98ae01b1",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-english.json": "93cee2b51692abd437cfc042bf6421b50d381d4c4599a7189693736fb5b4bb4f",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-german.json": "8307fac0ac5a0e1ba0b0f2b49d8465146662f4bf5a501b4304c5e731da58ab9e",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-german_broad.json": "b850817cfbce79ec83915615bddf654aaeab8bef932290404c77c122abb978d9",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-italian.json": "f5f0fa88b71a4df69aa8fdd0ea12511def3840ec3cb4a23d0d543a0b715a93e9",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-latin.json": "b008fd76804ba3f1bb3de4fb5b278cec9e4251f0c103d8f0c29be806df2963f2",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-latin_broad.json": "61dde130fb308e842060c243386e408cc48c4650b01e8227e87a86b7f92f0fd4",
+        "artifacts/language-coverage/fit/771894b62d7b98b9-old_french.json": "cba6e1f003bd6c348dcfd6221c8bfbdab5fc59ce63fefea9395c4de8b84a4590",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-catalan.json": "57826d17738bbc041a42b8372cfa62b631347d088b37546323d6b3d48e0955d2",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-english.json": "501b8e3ccbf70dee9fd3350bad7593645a62160ae7fc02f31c2f8102bf367c20",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-german.json": "4f68057f0c387daea67b857fcc842102009dad3664c7fb07ce55e6913a2e0c3a",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-german_broad.json": "17b5a5caf9b37f4ce8aac0049a1bb60b37d22053e1782660d75203a24db10fd8",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-italian.json": "b8b07364aa5956b36c9154b87b252029b4d076acebbdc0dfc4989e7df4e732b8",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-latin.json": "a701a3d927f9ee21e8340e1c1bba16ed941e048ec3eeff1142a255687d5e4cbb",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-latin_broad.json": "3cc5ea9aebf789801bcd57a4f285684211b68dc9c143f0ffbab2341b7e98af2b",
+        "artifacts/language-coverage/transfer/771894b62d7b98b9-old_french.json": "3ec67b02018b3419acaf25b22d0c926d43b69a0ba21ec3f908427b13b4fbb04d"
+      },
+      "id": "771894b62d7b98b9",
+      "language": "catalan",
+      "scores": {
+        "catalan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9876688197298884,
+          "fit_excess": 0.6073341738717475,
+          "seconds": 210.945939874975,
+          "transfer_excess": 0.86016550507515
+        },
+        "english": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9844392248972401,
+          "fit_excess": 1.861974539486595,
+          "seconds": 215.37451704207342,
+          "transfer_excess": 2.89145502277516
+        },
+        "german": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9844392248972401,
+          "fit_excess": 1.6580351791071584,
+          "seconds": 217.42123012500815,
+          "transfer_excess": 2.504289153548206
+        },
+        "german_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9847328244274809,
+          "fit_excess": 1.0880977926858062,
+          "seconds": 214.94780091708526,
+          "transfer_excess": 1.8583769708247928
+        },
+        "italian": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9826776277157957,
+          "fit_excess": 1.4440094093158153,
+          "seconds": 210.15927612502128,
+          "transfer_excess": 2.41542647210348
+        },
+        "latin": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9832648267762771,
+          "fit_excess": 2.2464210512786758,
+          "seconds": 212.17420745897107,
+          "transfer_excess": 3.232222457064633
+        },
+        "latin_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9832648267762771,
+          "fit_excess": 2.2377331141145334,
+          "seconds": 212.40347374998964,
+          "transfer_excess": 3.2625890268521704
+        },
+        "old_french": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9817968291250734,
+          "fit_excess": 0.7553411943303647,
+          "seconds": 215.4724306249991,
+          "transfer_excess": 1.5949650758336475
+        }
+      }
+    },
+    {
+      "character_error": {
+        "german": {
+          "fit_cer": 0.4040384615384615,
+          "transfer_cer": 0.45692307692307693
+        },
+        "german_broad": {
+          "fit_cer": 0.08807692307692308,
+          "transfer_cer": 0.12480769230769231
+        }
+      },
+      "decisions": {
+        "baseline": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9847593704090554,
+            "margin": 0.4610289950421351,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.955249185598492,
+            "margin": 0.4264668315546083,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "expanded": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.43578480632148153,
+            "margin": 0.5489745640875738,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.7445771772511645,
+            "margin": 1.2106720083473275,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "omitted": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9847593704090554,
+            "margin": 0.7140150821407878,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.955249185598492,
+            "margin": 0.849405032552474,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        }
+      },
+      "files": {
+        "artifacts/language-coverage/fit/e378fc0cda78594d-catalan.json": "8da66eb6cfddf7cd134480ebfa240b6852dd4a10835561b7c0cbced344609641",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-english.json": "329e03dff1e3687221e215ae578439653e12fc93d6bc054e593f41f41d7d3a9f",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-german.json": "f4ae8c957f7a89f367a506be2a9f6dea93747978dd956f86c10f8182dfd272ed",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-german_broad.json": "84d4704d2ae6f87d20c21ef684b9fdba7ab3ca77dafaca837687df3d21c0ec6f",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-italian.json": "10d957fd5f88bb5e927a38bf1167ae670db4c98fca5827a02614e1503925407a",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-latin.json": "2d4dbb67fc1ae78c44ace505bd52ea0bcae758d3abc6b945b86fde445f4c4271",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-latin_broad.json": "f2c275e84e49baa654d487c6ecd232a0ec7e18d823a1770287e3a962b0722880",
+        "artifacts/language-coverage/fit/e378fc0cda78594d-old_french.json": "ad1cf38159c8ee4d31f771790c1c397301d79a0884f6d43ae9f557c7355f601d",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-catalan.json": "a29d187a8eb8e65075812ee6270bc9411aa6b22fc26c8f163e79af7137ad6764",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-english.json": "01cf9485a06c908ee1b579be261a7671772a3278ae37fd8242528997ab1d299d",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-german.json": "997502ef24c0c269844b8cb2d9f0b0a3d9082fb9ce11b8cbedc2683136b7b651",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-german_broad.json": "84b7bbe3c27f549411ef628fec43525060b73ba1c2c1ee505f4a75a34d6e538b",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-italian.json": "f53e15d58276b94ee61640e4c7d5e58a990b9222dec00c34a5d054d8ae7dc7ed",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-latin.json": "37aa027d69ceb4a4ffd47b24f5deb5dbf7801a04d77f52be788b9e625a0854b7",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-latin_broad.json": "ea49d05eb16b1ccb2a8318cdad24ee49e4f12c59bbbc64f5042851401fad8ff4",
+        "artifacts/language-coverage/transfer/e378fc0cda78594d-old_french.json": "f91ce5815b3f1a25b561f5656047660f1b85c46d8dd972c2dafc70ca91151d19"
+      },
+      "id": "e378fc0cda78594d",
+      "language": "german",
+      "scores": {
+        "catalan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9785798122065728,
+          "fit_excess": 2.230703336618756,
+          "seconds": 210.131343459012,
+          "transfer_excess": 3.3515024652564547
+        },
+        "english": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9823943661971831,
+          "fit_excess": 1.9274570453877615,
+          "seconds": 195.35407266602851,
+          "transfer_excess": 3.017441168028853
+        },
+        "german": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9785798122065728,
+          "fit_excess": 1.4457883654511905,
+          "seconds": 196.0585659579374,
+          "transfer_excess": 2.3817160171531
+        },
+        "german_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9785798122065728,
+          "fit_excess": 0.43578480632148153,
+          "seconds": 205.753072374966,
+          "transfer_excess": 0.7445771772511645
+        },
+        "italian": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9800469483568075,
+          "fit_excess": 1.6987744525498432,
+          "seconds": 211.1081710420549,
+          "transfer_excess": 2.804654218150966
+        },
+        "latin": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9823943661971831,
+          "fit_excess": 2.2841496817382807,
+          "seconds": 192.99845425004605,
+          "transfer_excess": 3.4818671674702775
+        },
+        "latin_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9806338028169014,
+          "fit_excess": 2.37006668590126,
+          "seconds": 210.4874275419861,
+          "transfer_excess": 3.59419789162534
+        },
+        "old_french": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9823943661971831,
+          "fit_excess": 0.9847593704090554,
+          "seconds": 196.50815004191827,
+          "transfer_excess": 1.955249185598492
+        }
+      }
+    },
+    {
+      "character_error": {
+        "latin": {
+          "fit_cer": 0.09173076923076923,
+          "transfer_cer": 0.12365384615384616
+        },
+        "latin_broad": {
+          "fit_cer": 0.049423076923076924,
+          "transfer_cer": 0.06692307692307692
+        }
+      },
+      "decisions": {
+        "baseline": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7618183974124588,
+            "margin": 0.6461291304532142,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4935925529935141,
+            "margin": 0.4927079320997976,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "expanded": {
+          "accepted": "latin",
+          "fit": {
+            "excess": 0.30884538364456393,
+            "margin": 0.4529730137678949,
+            "winner": "latin"
+          },
+          "inconclusive": false,
+          "reasons": [],
+          "transfer": {
+            "excess": 0.42948841632054746,
+            "margin": 1.0641041366729667,
+            "winner": "latin"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "omitted": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7618183974124588,
+            "margin": 0.2601870750276949,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4935925529935141,
+            "margin": 0.34183599725041747,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        }
+      },
+      "files": {
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-catalan.json": "0e6921d2544707a3dfc9bf13e25b123179dcdc536dd6b10482d8cd3d2a0e7bc7",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-english.json": "a023139e0d8039feab0e1a9fba0104ae1752733a2102c1b272cfdc0da45bb068",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-german.json": "3efa8adfd4be980ccab6a26aeac8d2e8860138cc73abd86f9bba96c0dc5190aa",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-german_broad.json": "66f0bfc42497da6d766e630cbb6f24bbc58db13aa0d5a89209613932642d91ba",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-italian.json": "1bf8779d6dbd04c1beb304998aeee0b01a561383b4761c82e71e73696d502a98",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-latin.json": "b4631b84d0d8797305f91f76bc41c86e627f2a27ee6769277cccf4b9f1c53f4d",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-latin_broad.json": "e90698ec27195bd48b8af5a835d7046ee69e3bf33a0382b2cfd9f54708090b2f",
+        "artifacts/language-coverage/fit/8b9ba7c5f9ab1c9e-old_french.json": "86d2525e753d5592696ca3e1442fe31821a85ab0b0501503dc19e8941dcbd2cc",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-catalan.json": "6ec7a1cdb93420711c8933319452b1196e36d999d691b456da92b1309967b02f",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-english.json": "c79e3fa3e8cc3cadf3bccc0df25c6ccf4c69228674c445aef675239241e44fc4",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-german.json": "1483a715cd23719f012bb09b7ef53655243032a1ab86d2dda9ef4484387ebb69",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-german_broad.json": "e4878bfdc01b621668a1fd2b021dcda4ee7a8ab78264bc489c33a73f6cfb2ee6",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-italian.json": "30006243849ddfce1e303cb3e34b55953fd9e0d99b5678e98a19b340592fd7d9",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-latin.json": "2ea687996b203ab7e139cac807adf2c522ab6e3c2faa580361cb2b09c42512ba",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-latin_broad.json": "338e809e2ec0aa509bf8c2db8a97e8916f1430e6604c255e5867b715bc5c64dc",
+        "artifacts/language-coverage/transfer/8b9ba7c5f9ab1c9e-old_french.json": "4e39788411c8eb3350e7a290f659229d8d0d013a3f35718687858532878abe0f"
+      },
+      "id": "8b9ba7c5f9ab1c9e",
+      "language": "latin",
+      "scores": {
+        "catalan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9805939429579535,
+          "fit_excess": 1.9046243326874013,
+          "seconds": 207.95599850011058,
+          "transfer_excess": 2.9073620198744656
+        },
+        "english": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9770655689503087,
+          "fit_excess": 1.7578575274892465,
+          "seconds": 209.60961570800282,
+          "transfer_excess": 2.655143717699848
+        },
+        "german": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.976771537783005,
+          "fit_excess": 1.7971386036179489,
+          "seconds": 212.5547433339525,
+          "transfer_excess": 2.5846662629813935
+        },
+        "german_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9788297559541311,
+          "fit_excess": 1.0220054724401537,
+          "seconds": 204.98006445798092,
+          "transfer_excess": 1.8354285502439316
+        },
+        "italian": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9791237871214349,
+          "fit_excess": 1.407947527865673,
+          "seconds": 207.32570816704538,
+          "transfer_excess": 2.3435633461321137
+        },
+        "latin": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9802999117906498,
+          "fit_excess": 1.6556857167183847,
+          "seconds": 206.27526979101822,
+          "transfer_excess": 1.9863004850933117
+        },
+        "latin_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9791237871214349,
+          "fit_excess": 0.30884538364456393,
+          "seconds": 204.7984467089409,
+          "transfer_excess": 0.42948841632054746
+        },
+        "old_french": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9773596001176125,
+          "fit_excess": 0.7618183974124588,
+          "seconds": 210.07923958299216,
+          "transfer_excess": 1.4935925529935141
+        }
+      }
+    }
+  ],
+  "planned_pairs": 3,
+  "stop_reason": null,
+  "voynich_used": false
+}

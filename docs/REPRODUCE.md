@@ -55,6 +55,111 @@ standard methods) keep their own drivers with the same stage names:
 `standard_decipherment_audit` checks it; `standard_decipherment_report` redraws its figures
 (needs matplotlib).
 
+## Rejection and fixed-key transfer screen
+
+The [first attempt](../experiments/rejection-transfer/REPORT.md) stopped on refinement
+caps. The [resource-repair attempt](../experiments/rejection-transfer-v2/REPORT.md)
+keeps the same decoder and thresholds, with a larger refinement allowance and two
+Numba threads per worker. These commands verify the existing records; they do not
+fit a new key or open unused challenge answers:
+
+```sh
+.venv/bin/python -m experiments.rejection_transfer verify
+.venv/bin/python -m experiments.rejection_transfer_v2 verify
+.venv/bin/python -m experiments.verify_rejection_records rejection-transfer
+.venv/bin/python -m experiments.verify_rejection_records rejection-transfer-v2
+.venv/bin/python -m unittest tests.test_rejection_transfer tests.test_rejection_transfer_v2 -v
+```
+
+The replay verifier reads each committed `evaluated-records.tar.gz` directly. It
+reconstructs graded ciphertext from pinned source sentences and saved seeds, checks
+sealed-key hashes, repeats transfer with fixed keys, and recomputes decisions and
+true-language character errors. Frozen external sources and priors must be present
+at the paths in each `freeze.json`; the archive alone is not a self-contained runtime.
+
+Historical stage order was `sources`, `freeze`, commit, `prepare`, `run`, `report`
+under `experiments.rejection_transfer` or `experiments.rejection_transfer_v2`.
+Creation stages refuse overwrites. Any future experiment needs a new driver, freeze,
+and fresh keys/passages. Exclude the consumed source IDs from **both** attempts,
+listed in `experiments/rejection-transfer-v2/released-source-ids.json`, as well as all
+earlier training and graded material. Unrun cases were not graded or released.
+
+### Three development follow-ups
+
+The [follow-up report](../experiments/rejection-followups/REPORT.md) compares a
+transfer-centered rejection rule, exact-frequency copying controls, and bounded
+incremental refinement. It uses released examples only. The executed control freeze
+is `freeze-v2.json`: the initial 50-sweep guard was corrected to 200 before any fit,
+with time and proposal budgets unchanged. Both freezes remain in the record.
+
+```sh
+.venv/bin/python -m experiments.rejection_followups verify
+.venv/bin/python -m experiments.rejection_followups_v2 verify
+.venv/bin/python -m experiments.audit_rejection_followups
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_rejection_followups -v
+```
+
+The audit checks the frozen files, regenerates copied passages from the released
+positive ciphertexts and fixed seeds, checks exact token multisets, replays saved-key
+transfers, and reproduces both decision rules and all 21 threshold-sensitivity points.
+It does not repeat fitting or open unused answers. The archive stores working records;
+restore them under `artifacts/rejection-followups/` and restore the earlier frozen
+priors/sources before replay. Benchmark timings are machine-dependent: the committed
+plan specifies two warmed repetitions per backend with two threads. Repeating timings
+requires a new output location; do not overwrite the frozen benchmark record.
+
+### Historical language coverage
+
+The [coverage pilot](../experiments/language-coverage/REPORT.md) adds Old Catalan and
+compares the original Latin/German models with models containing historical charters
+and prose. Every model uses 400,000 training letters. Its three passage pairs use
+different random keys and the existing transfer-centered rule.
+
+```sh
+.venv/bin/python -m experiments.language_coverage_sources download
+.venv/bin/python -m experiments.language_coverage verify
+.venv/bin/python -m experiments.language_coverage replay
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_language_coverage -v
+```
+
+Restore `evaluated-records.tar.gz` under `artifacts/language-coverage/` without
+overwriting existing records. The archive includes normalized model inputs and all
+evaluated records. Rebuild each prior with `CharacterPrior.fit` on its `train` rows
+in `partitions.json`; compare the probability hashes in `freeze.json`. Earlier frozen
+sources and priors are also required by `verify`. The audit module additionally
+rebuilds all eight priors and reproduces encryption; its no-clobber `audit.json` output
+must be absent in a reproduction checkout. Do not overwrite the published audit.
+
+Future fresh rounds must exclude the complete source groups in
+`experiments/language-coverage/released-source-ids.json` as well as previously released
+material. Catalan folio separation is within one chronicle, not an independent-author test.
+
+### Old Czech and Old Occitan extension
+
+The [eight-language extension](../experiments/language-expansion/REPORT.md) preserves
+the six active models and adds two equal-budget priors. Each new language has one
+fresh key and two different source works; the comparison requires 16 fits.
+
+```sh
+.venv/bin/python -m experiments.language_expansion_sources download
+.venv/bin/python -m experiments.language_expansion verify
+.venv/bin/python -m experiments.language_expansion replay
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_language_expansion -v
+```
+
+Restore its evaluated-records archive under `artifacts/language-expansion/`, without
+overwriting existing files. Rebuild priors from its `partitions.json` training rows
+with `CharacterPrior.fit`, save them as `priors/{model}.npz`, and compare the frozen
+probability hashes. Earlier coverage sources/models and their frozen dependencies
+are still required. `audit_language_expansion` also re-extracts new source rows,
+rebuilds models and replays encryption; its sealed outputs must be absent in a
+reproduction checkout. Do not rerun `prepare` against already evaluated sources.
+
+Future fresh rounds must exclude complete works/manuscripts in
+`language-expansion/released-source-ids.json`, parallel versions, and all earlier
+exclusions. Czech derivatives retain **CC BY-NC-SA 4.0**; Occitan derivatives retain
+**CC BY 4.0**. Attribution and changes are recorded in the archive's `ATTRIBUTION.md`.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:

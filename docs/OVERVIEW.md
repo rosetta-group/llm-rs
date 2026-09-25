@@ -10,6 +10,9 @@ Read this page first. The [results table](RESULTS.md) has every number; the
 [research log](../RESEARCH_LOG.md) is the full chronological record. The complete Voynich account,
 including round six, the corrections and the mechanism checks, is [VOYNICH.md](VOYNICH.md).
 
+Read the [Voynich progress synthesis](VOYNICH_PROGRESS.md) for the connected account of
+recovery, rejection, faster search, and the eight-language comparison.
+
 ## The question, and why it is hard
 
 Nobody knows a single Voynich word for certain. There is therefore no answer key. Any method
@@ -22,6 +25,13 @@ with independent checks. The project uses two kinds of evidence:
 - **Recovery.** Can a method recover the original text of a cipher that produces
   Voynich-like output, when given only the ciphertext? Here the answer is known and sealed
   until grading, so success and failure are unambiguous.
+
+The active cipher comparison now has **eight language candidates**: Latin, German,
+Old French, English, Italian, Catalan, Old Czech and Old Occitan. In the latest
+[two-language extension](../experiments/language-expansion/REPORT.md), both new
+languages rank correctly, but only Czech passes the acceptance rule. Occitan's
+recovery errors leave it just above the fixed ceiling. These are synthetic cipher
+controls, not language identifications of Voynich.
 
 ## Track one: prediction (closed)
 

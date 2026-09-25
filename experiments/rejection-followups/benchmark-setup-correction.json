@@ -1,0 +1,6 @@
+{
+  "error": "Synthetic fixture alphabet accidentally contained k, which is unsupported by the frozen prior.",
+  "stage": "First worker setup; no timed comparison completed.",
+  "repair": "Read alphabet from frozen English prior; preserve invalid fixtures separately.",
+  "discarded_timed_results": 0
+}

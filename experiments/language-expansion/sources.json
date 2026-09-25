@@ -1,0 +1,314 @@
+{
+  "attribution": {
+    "czech": "Ku\u010dera and Stluka (2011), DIAKORP v5; Pettersson and Megyesi (2018), HistCorp. CC BY-NC-SA 4.0.",
+    "occitan": "Marinus Wiedner (2025), COMETA v1, Zenodo 15300719. CC BY 4.0."
+  },
+  "calibration_letters": 20000,
+  "downloads": [
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/Fran\u00e7ais_1049.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "d2481852314f8e4dcc50886466f17a042c17ba7f8f6703b313f6d8ad51cf5409",
+      "url": "https://zenodo.org/api/records/15300719/files/Fran%C3%A7ais_1049.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/Fran\u00e7ais_13503.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "d541bbb457486dbe8d5e1058403dd555d11341ed93f4345390c60e99da260caa",
+      "url": "https://zenodo.org/api/records/15300719/files/Fran%C3%A7ais_13503.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/BmC-34.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "1a356cfdb00d2e6e4cd528c84b1369facc2631a82e0c994954e84766337e913b",
+      "url": "https://zenodo.org/api/records/15300719/files/BmC-34.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/Fran\u00e7ais_25425.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "7c93eb675674278b6a1ce70007d2d1b0296cd91e8d17a1f3cc06694f45af5e10",
+      "url": "https://zenodo.org/api/records/15300719/files/Fran%C3%A7ais_25425.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/NAF_6195.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "38423741097ff0d68847f9900efdb7c335cd66f657ce5dcda13023b99292e1ea",
+      "url": "https://zenodo.org/api/records/15300719/files/NAF_6195.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/Fran\u00e7ais_2232.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "68655b5eedceabaf83a753b0741d2ed9ccc9a739f4aab8c0c6efa0f9065ab387",
+      "url": "https://zenodo.org/api/records/15300719/files/Fran%C3%A7ais_2232.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/NAF_11151.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "4a43eca76aa9446195e40c3b060e226a3e5133b4f61a839a50012bf41fa81adf",
+      "url": "https://zenodo.org/api/records/15300719/files/NAF_11151.txt/content"
+    },
+    {
+      "license": "CC BY 4.0",
+      "path": "artifacts/language-expansion/raw/Harley_7403.txt",
+      "revision": "COMETA v1 / Zenodo 15300719",
+      "sha256": "d385cdf2385bcbd09d4f6c28d02b978b5a7a196f43ee6554f42339599f766236",
+      "url": "https://zenodo.org/api/records/15300719/files/Harley_7403.txt/content"
+    },
+    {
+      "license": "CC BY-NC-SA 4.0",
+      "path": "artifacts/language-expansion/raw/diakorp.zip",
+      "revision": "Zenodo pinned record / downloaded 2026-09-25",
+      "sha256": "32ebdc9d520d073500a1d31367c2cdd64d69141dd50ac10e5c569a51935ffb25",
+      "url": "https://zenodo.org/records/10013189/files/czech-diakorp-txt.zip?download=1"
+    },
+    {
+      "license": "CC BY-NC-SA 4.0",
+      "path": "artifacts/language-expansion/raw/diakorp-readme.txt",
+      "revision": "Zenodo pinned record / downloaded 2026-09-25",
+      "sha256": "dc4844fc9d073e49184740631a1bf9a2982acddc056f5fef84a45d010c79afc6",
+      "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/readme/czech-readme-diakorp"
+    },
+    {
+      "license": "CC0 metadata",
+      "path": "artifacts/language-expansion/raw/cometa-metadata.json",
+      "revision": "Zenodo pinned record / downloaded 2026-09-25",
+      "sha256": "f20626e25f1388df9c9d497e2f5d90b849fa08da42980ea1560a66bd20bb2ffd",
+      "url": "https://zenodo.org/api/records/15300719"
+    }
+  ],
+  "exclusion_inputs": {
+    "artifacts/codebook-free/evaluator-only/answers.json": "942d65ff4a1b8602372c015614a6e03e7dc411e79615f3c71c69842e1e3655ab",
+    "artifacts/decipherment/evaluator-only/answers.json": "2391cbd315c4175816c49acf2fd3894bba42d7f66f287b30265c552bf05bc1cb",
+    "artifacts/joint-recovery-v2/evaluator-only/answers.json": "06081bc102f93b3d1ec237b5745f446df980f1f6fcf3dafde4776ca2922a7f09",
+    "artifacts/joint-recovery-v3/evaluator-only/answers.json": "a782f3fd90520fdfb8bf4bedac7a44cdba3cc8ebaf342dd72bfc2e1d5558b996",
+    "artifacts/joint-recovery-v4/evaluator-only/answers.json": "67780bbb0fb564ec5a5dda7d8c4c3bcc9f73ebcdc69a146892fabeb68b3086d5",
+    "artifacts/joint-recovery-v5/evaluator-only/answers.json": "cd2dc5ddc775ae410093a10e3fc7879c721ff84c30bd139b3b01a410da08a49f",
+    "artifacts/joint-recovery-v6/evaluator-only/answers.json": "c72a81ecc112ba1fe2697f20ce8dac2709b67745acac61e8bca10ef647dd3eab",
+    "artifacts/joint-recovery/evaluator-only/answers.json": "0235e4f5c5776c65cdab11f4a12f5440f0243c2b48410e4a254ba6c52bef8df6",
+    "artifacts/language-coverage/partitions.json": "a953c511a4881ec8461e2383fdface5e3aa4a8e0f3222bd561adeaf6dfdcc861",
+    "artifacts/language-id/evaluator-only/answers.json": "9902061e1b4f5e577f039df4921444769184761fcf012596534034a43a3e932c",
+    "artifacts/language-sources/UD_Ancient_Greek-Perseus/grc_perseus-ud-train.conllu": "d7471c9b91bcd975848fa5d9b65c31f1fc48a597ed3667796968a82c6d098a7e",
+    "artifacts/language-sources/UD_Arabic-PADT/ar_padt-ud-train.conllu": "f0b56962b340f5325bb5d293f47717522e706112c19029e82c225355c6d65e85",
+    "artifacts/language-sources/UD_English-EWT/en_ewt-ud-train.conllu": "d68e06122a702464c613076523d56740f047e5bbe89dd90ec32737e04d952143",
+    "artifacts/language-sources/UD_Finnish-TDT/fi_tdt-ud-train.conllu": "07217d128d3752e61f1249c1e57de402ca17b31d2fba479d4f857ff78e28b40d",
+    "artifacts/language-sources/UD_French-GSD/fr_gsd-ud-train.conllu": "4b9a87b1b7e6e7003219df1d3ccca87ffaca0f00a6055b12b1857df5373589d2",
+    "artifacts/language-sources/UD_German-GSD/de_gsd-ud-train.conllu": "6cb1b600029292fb7bf60531a1d6d7824544791d732c0f7abae8102a2ac337bf",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-dev.conllu": "1bc7dda04c58a4d87e2e6607a0e612462b87e7da6dde56be610d3749521af744",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-test.conllu": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3",
+    "artifacts/language-sources/UD_Italian-ISDT/it_isdt-ud-train.conllu": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+    "artifacts/language-sources/UD_Italian-Old/it_old-ud-train.conllu": "9e94e25d826632a005adc2a8a1daa88f46bdd1509d56090b4c82d27779e1a5e0",
+    "artifacts/language-sources/UD_Latin-ITTB/la_ittb-ud-train.conllu": "0f0aded3ec3f697cdb8dc2294d213bdc951b127a5bc3d2114be22cd730cac5b8",
+    "artifacts/language-sources/UD_Latin-Perseus/la_perseus-ud-train.conllu": "49d2e3813fc34595fe8cf569f263df4396e4b21aba9429fcdb0eea3ae09e64fa",
+    "artifacts/language-sources/UD_Old_French-PROFITEROLE/fro_profiterole-ud-train.conllu": "e8dee1e24558ac998c1cc136cafad81883190eb4cb58f3ebdfea101877c2aedc",
+    "artifacts/rejection-transfer-v2/released-answers.json": "b4a19c031120c6e60caaaa98de122cf27e10128b8674c629e5d933a2e937694e",
+    "artifacts/rejection-transfer/released-answers.json": "2afb51a8a8279bd210142be267f853ae0e49f2da63cb84570cdf4f0b7fa04b17",
+    "artifacts/segmentation/evaluator-only/answers.json": "674a4e340468d18926d49a615ef33a66daf31f9eeda53b6832082a9898ad7941",
+    "artifacts/standard-decipherment/evaluator-only/answers.json": "52b02426298ece36cd8939afb30a4fb940bf527cf0990c4514530407d55ee170"
+  },
+  "final_overlap_counts": {
+    "czech:0": 0,
+    "czech:1": 0,
+    "occitan:0": 0,
+    "occitan:1": 0
+  },
+  "limitations": [
+    "DIAKORP is transcribed historical language, not diplomatic spelling despite HistCorp header.",
+    "Czech accents collapse in the unchanged cipher alphabet; j\u2192i, k\u2192c, w\u2192uu.",
+    "COMETA manually corrected HTR may retain transcription errors and untagged Latin quotations.",
+    "Eight-language new-source pilot; no fresh retention test of the six earlier languages."
+  ],
+  "partitions_sha256": "6128e8d1db5b0fd69d75e5b17f89a14d76fbdd91b02eebb1d5a319d2d9873b52",
+  "prior_letters": 400000,
+  "removed_overlap_chunks": {
+    "czech": {
+      "calibration": [
+        "czech:diakorp46-1380-1400:22720"
+      ],
+      "challenge": [
+        "czech:diakorp14-1440-1460:2000",
+        "czech:diakorp14-1440-1460:2080",
+        "czech:diakorp14-1440-1460:2240",
+        "czech:diakorp14-1440-1460:2320",
+        "czech:diakorp14-1440-1460:2480",
+        "czech:diakorp14-1440-1460:2560",
+        "czech:diakorp14-1440-1460:2640",
+        "czech:diakorp14-1440-1460:7440",
+        "czech:diakorp14-1440-1460:9520",
+        "czech:diakorp14-1440-1460:14080",
+        "czech:diakorp14-1440-1460:14160",
+        "czech:diakorp14-1440-1460:14240",
+        "czech:diakorp14-1440-1460:14320",
+        "czech:diakorp14-1440-1460:14400",
+        "czech:diakorp14-1440-1460:14480",
+        "czech:diakorp14-1440-1460:14560",
+        "czech:diakorp14-1440-1460:14640"
+      ]
+    },
+    "occitan": {
+      "calibration": [],
+      "challenge": []
+    }
+  },
+  "roles": {
+    "czech": {
+      "calibration": [
+        "diakorp46-1380-1400",
+        "diakorp72-1410"
+      ],
+      "challenge": [
+        "diakorp14-1440-1460",
+        "diakorp1-1492"
+      ],
+      "train": [
+        "diakorp27-1440-1460",
+        "diakorp39-1350-1400",
+        "diakorp47-1400",
+        "diakorp50-1389-1401"
+      ]
+    },
+    "occitan": {
+      "calibration": [
+        "NAF_6195",
+        "Fran\u00e7ais_2232"
+      ],
+      "challenge": [
+        "NAF_11151",
+        "Harley_7403"
+      ],
+      "train": [
+        "Fran\u00e7ais_1049",
+        "Fran\u00e7ais_13503",
+        "BmC-34",
+        "Fran\u00e7ais_25425"
+      ]
+    }
+  },
+  "statistics": {
+    "czech": {
+      "diakorp1-1492": {
+        "letters": 74494,
+        "period": "1492",
+        "removed_released": [],
+        "role": "challenge",
+        "title": "Cesta z \u010cech do Jeruzal\u00e9ma a Egypta"
+      },
+      "diakorp14-1440-1460": {
+        "letters": 129802,
+        "period": "1440--1460",
+        "removed_released": [],
+        "role": "challenge",
+        "title": "Hv\u011bzd\u00e1\u0159stv\u00ed kr\u00e1le Jana"
+      },
+      "diakorp27-1440-1460": {
+        "letters": 413087,
+        "period": "1440--1460",
+        "removed_released": [
+          "czech:diakorp27-1440-1460:40400",
+          "czech:diakorp27-1440-1460:40480"
+        ],
+        "role": "train",
+        "title": "L\u00e9ka\u0159stv\u00ed nezn\u00e1m\u00e9ho franti\u0161k\u00e1na"
+      },
+      "diakorp39-1350-1400": {
+        "letters": 753139,
+        "period": "1350--1400",
+        "removed_released": [],
+        "role": "train",
+        "title": "Pasion\u00e1l muzejn\u00ed"
+      },
+      "diakorp46-1380-1400": {
+        "letters": 337204,
+        "period": "1380--1400",
+        "removed_released": [],
+        "role": "calibration",
+        "title": "P\u0159eklad prorok\u016f Izai\u00e1\u0161e, Jeremi\u00e1\u0161e, Daniela"
+      },
+      "diakorp47-1400": {
+        "letters": 339791,
+        "period": "1400",
+        "removed_released": [],
+        "role": "train",
+        "title": "Pulkavova Kronika kr\u00e1l\u016f \u010desk\u00fdch,"
+      },
+      "diakorp50-1389-1401": {
+        "letters": 248283,
+        "period": "1389--1401",
+        "removed_released": [],
+        "role": "train",
+        "title": "\u0158e\u010di besedn\u00ed"
+      },
+      "diakorp72-1410": {
+        "letters": 227695,
+        "period": "1410",
+        "removed_released": [],
+        "role": "calibration",
+        "title": "O svat\u00e9m Jeron\u00fdmovi knihy troje"
+      }
+    },
+    "occitan": {
+      "BmC-34": {
+        "letters": 177502,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "train",
+        "title": "Roman de Flamenca"
+      },
+      "Fran\u00e7ais_1049": {
+        "letters": 518181,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "train",
+        "title": "Robert of Sicily; Libre de vicis et de vertutz; Barlam et Josaphas"
+      },
+      "Fran\u00e7ais_13503": {
+        "letters": 149286,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "train",
+        "title": "Vida de santa Doucelina"
+      },
+      "Fran\u00e7ais_2232": {
+        "letters": 138614,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "calibration",
+        "title": "Roman de Philomena (P)"
+      },
+      "Fran\u00e7ais_25425": {
+        "letters": 320939,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "train",
+        "title": "Chanson de la Croisade contre les Albigeois"
+      },
+      "Harley_7403": {
+        "letters": 89342,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "challenge",
+        "title": "Nicodemus; fifteen signs; Cross; dietetics; repentance; doctrinal"
+      },
+      "NAF_11151": {
+        "letters": 83271,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "challenge",
+        "title": "Arbitral sentences; Mulomedicina; recepta del vi"
+      },
+      "NAF_6195": {
+        "letters": 181170,
+        "period": "medieval (COMETA; manuscript dates not homogenized)",
+        "removed_released": [],
+        "role": "calibration",
+        "title": "Vida de sant Honorat (M)"
+      }
+    }
+  }
+}

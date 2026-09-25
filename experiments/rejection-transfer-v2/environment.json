@@ -1,0 +1,11 @@
+{
+  "configured_workers": 5,
+  "logical_cpus": 12,
+  "numba": "0.61.2",
+  "numba_threads_per_worker": 2,
+  "numpy": "1.26.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "Apple M3 Pro",
+  "python": "3.12.9 (main, Feb  4 2025, 14:38:38) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "refinement_cap_seconds": 1200
+}

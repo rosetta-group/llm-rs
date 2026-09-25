@@ -1,0 +1,211 @@
+test_dedup_and_sealed_folio (test_association.AssociationTests.test_dedup_and_sealed_folio) ... ok
+test_heldout_targets_cannot_affect_prediction (test_association.AssociationTests.test_heldout_targets_cannot_affect_prediction) ... ok
+test_permutation_preserves_page_counts (test_association.AssociationTests.test_permutation_preserves_page_counts) ... ok
+test_unknown_is_not_absent (test_association.AssociationTests.test_unknown_is_not_absent) ... ok
+test_heldout_targets_and_xor (test_association_complex.ComplexAssociationTests.test_heldout_targets_and_xor) ... ok
+test_joint_permutations_preserve_fold_support (test_association_complex.ComplexAssociationTests.test_joint_permutations_preserve_fold_support) ... ok
+test_kernel_operator_matches_explicit_primal_ridge (test_association_complex.ComplexAssociationTests.test_kernel_operator_matches_explicit_primal_ridge) ... ok
+test_profile_split_and_mixed_colors (test_association_complex.ComplexAssociationTests.test_profile_split_and_mixed_colors) ... ok
+test_tied_matching_and_holm (test_association_complex.ComplexAssociationTests.test_tied_matching_and_holm) ... ok
+test_uncertain_and_editorial_clauses (test_association_complex.ComplexAssociationTests.test_uncertain_and_editorial_clauses) ... ok
+test_penalty_controls_merging_without_changing_letters (test_boundaries.BoundaryTests.test_penalty_controls_merging_without_changing_letters) ... ok
+test_future_characters_cannot_change_past_predictions (test_character.CharacterTests.test_future_characters_cannot_change_past_predictions) ... ok
+test_plan_has_no_downloads_and_reserves_disk (test_character.CharacterTests.test_plan_has_no_downloads_and_reserves_disk) ... ok
+test_test_documents_are_excluded (test_character.CharacterTests.test_test_documents_are_excluded) ... ok
+test_training_reloads_selected_weights_and_refuses_overwrite (test_character.CharacterTests.test_training_reloads_selected_weights_and_refuses_overwrite) ... output: epoch 1, validation 7.7109 BPC, best 7.7109
+output: epoch 2, validation 7.5887 BPC, best 7.5887
+output: epoch 1, validation 7.7951 BPC, best 7.7951
+output: epoch 2, validation 7.6320 BPC, best 7.6320
+ok
+test_uniform_model_matches_analytical_loss_and_page_reset (test_character.CharacterTests.test_uniform_model_matches_analytical_loss_and_page_reset) ... ok
+test_windows_score_each_readable_character_once (test_character.CharacterTests.test_windows_score_each_readable_character_once) ... ok
+test_budget_does_not_reset_or_exceed_cap (test_cloud.CloudTests.test_budget_does_not_reset_or_exceed_cap) ... ok
+test_bundle_has_no_test_text_or_local_secrets (test_cloud.CloudTests.test_bundle_has_no_test_text_or_local_secrets) ... ok
+test_invalid_quotes_and_future_start_are_rejected (test_cloud.CloudTests.test_invalid_quotes_and_future_start_are_rejected) ... ok
+test_models_share_exposure_settings (test_cloud.CloudTests.test_models_share_exposure_settings) ... ok
+test_pair_estimate_accounts_for_evaluation (test_cloud.CloudTests.test_pair_estimate_accounts_for_evaluation) ... ok
+test_stop_command_fails_closed_without_matching_usage (test_cloud.CloudTests.test_stop_command_fails_closed_without_matching_usage) ... ok
+test_stop_command_rejects_successful_root_help (test_cloud.CloudTests.test_stop_command_rejects_successful_root_help) ... ok
+test_histories_are_exact_and_keep_unreadable_context (test_context.ContextTests.test_histories_are_exact_and_keep_unreadable_context) ... ok
+test_optimized_loss_matches_causal_stride_one_reference (test_context.ContextTests.test_optimized_loss_matches_causal_stride_one_reference) ... ok
+test_refuses_test_pages_and_mismatched_targets (test_context.ContextTests.test_refuses_test_pages_and_mismatched_targets) ... ok
+test_empty_and_unknown (test_context_reparse.ContextReparseTests.test_empty_and_unknown) ... ok
+test_matches_exhaustive_paths_and_length_code (test_context_reparse.ContextReparseTests.test_matches_exhaustive_paths_and_length_code) ... ok
+test_role_homophones_are_charged (test_context_reparse.ContextReparseTests.test_role_homophones_are_charged) ... ok
+test_frequency_baseline_keeps_spaces_and_inverts_rank (test_decipher.DecipherTests.test_frequency_baseline_keeps_spaces_and_inverts_rank) ... ok
+test_normalization_declares_lost_spelling (test_decipher.DecipherTests.test_normalization_declares_lost_spelling) ... ok
+test_recovery_returns_a_bijection_without_original_inputs (test_decipher.DecipherTests.test_recovery_returns_a_bijection_without_original_inputs) ... ok
+test_segmentation_and_word_error_account_for_insertions (test_decipher.DecipherTests.test_segmentation_and_word_error_account_for_insertions) ... ok
+test_analysis_id_tracks_heuristic_changes (test_folio_description.FolioDescriptionTests.test_analysis_id_tracks_heuristic_changes) ... ok
+test_archived_tables_and_output_hashes (test_folio_description.FolioDescriptionTests.test_archived_tables_and_output_hashes) ... ok
+test_blank_has_no_objects_or_domain_claim (test_folio_description.FolioDescriptionTests.test_blank_has_no_objects_or_domain_claim) ... ok
+test_colours_and_spatial_direction (test_folio_description.FolioDescriptionTests.test_colours_and_spatial_direction) ... ok
+test_complete_catalogue_and_distinct_f101v_panels (test_folio_description.FolioDescriptionTests.test_complete_catalogue_and_distinct_f101v_panels) ... ok
+test_corrupt_source_fails_before_analysis (test_folio_description.FolioDescriptionTests.test_corrupt_source_fails_before_analysis) ... ok
+test_crop_coordinates_and_small_image_failure (test_folio_description.FolioDescriptionTests.test_crop_coordinates_and_small_image_failure) ... ok
+test_development_text_page_is_not_a_circle (test_folio_description.FolioDescriptionTests.test_development_text_page_is_not_a_circle) ... ok
+test_ring_and_horizontal_lines (test_folio_description.FolioDescriptionTests.test_ring_and_horizontal_lines) ... ok
+test_agreement_missingness_and_constant_labels (test_folio_objects.ObjectTests.test_agreement_missingness_and_constant_labels) ... ok
+test_all_rows_valid_and_bad_boxes_rejected (test_folio_objects.ObjectTests.test_all_rows_valid_and_bad_boxes_rejected) ... ok
+test_complete_forms_align_by_panel_id (test_folio_objects.ObjectTests.test_complete_forms_align_by_panel_id) ... ok
+test_linked_occupied_basins_require_two_distinct_basins (test_folio_objects.ObjectTests.test_linked_occupied_basins_require_two_distinct_basins) ... ok
+test_stars_in_text_margin_do_not_imply_celestial (test_folio_objects.ObjectTests.test_stars_in_text_margin_do_not_imply_celestial) ... ok
+test_tentative_relations_remain_tentative (test_folio_objects.ObjectTests.test_tentative_relations_remain_tentative) ... ok
+test_unfilled_forms_cannot_be_used_as_agreement (test_folio_objects.ObjectTests.test_unfilled_forms_cannot_be_used_as_agreement) ... ok
+test_annotations_and_word_boundaries (test_image_domains.ImageDomainTests.test_annotations_and_word_boundaries) ... ok
+test_macro_recall_and_strata (test_image_domains.ImageDomainTests.test_macro_recall_and_strata) ... ok
+test_split_before_normalization_and_rosettes (test_image_domains.ImageDomainTests.test_split_before_normalization_and_rosettes) ... ok
+test_synthetic_domain_and_fold_isolation (test_image_domains.ImageDomainTests.test_synthetic_domain_and_fold_isolation) ... ok
+test_forward_backward_matches_brute_force (test_joint.JointSegmentTests.test_forward_backward_matches_brute_force) ... ok
+test_whole_parse_is_gated_and_resegment_prefers_known_units (test_joint.JointSegmentTests.test_whole_parse_is_gated_and_resegment_prefers_known_units) ... ok
+test_beam_and_refine_recover_a_toy_substitution (test_joint.VariableUnitTests.test_beam_and_refine_recover_a_toy_substitution) ... ok
+test_partial_score_breaks_context_at_unmapped_units (test_joint.VariableUnitTests.test_partial_score_breaks_context_at_unmapped_units) ... ok
+test_piece_induction_splits_concatenated_tokens (test_joint.VariableUnitTests.test_piece_induction_splits_concatenated_tokens) ... ok
+test_two_letter_unit_and_collapse_residual (test_joint.VariableUnitTests.test_two_letter_unit_and_collapse_residual) ... ok
+test_known_text_costs_match_the_frozen_cost (test_joint_recovery_v5.RoundFiveTests.test_known_text_costs_match_the_frozen_cost) ... ok
+test_unknown_words_are_cheaper_than_the_flat_cost (test_joint_recovery_v5.RoundFiveTests.test_unknown_words_are_cheaper_than_the_flat_cost) ... ok
+test_pack_builds_consecutive_blocks_and_skips_overlaps (test_joint_recovery_v6.PackTests.test_pack_builds_consecutive_blocks_and_skips_overlaps) ... ok
+test_conllu_uses_surface_tokens_and_ignores_empty_nodes (test_languages.LanguageTests.test_conllu_uses_surface_tokens_and_ignores_empty_nodes) ... ok
+test_edit_distance_is_exactly_one (test_languages.LanguageTests.test_edit_distance_is_exactly_one) ... ok
+test_letters_accents_and_internal_boundaries (test_languages.LanguageTests.test_letters_accents_and_internal_boundaries) ... ok
+test_voynich_mask_does_not_bridge_and_test_is_excluded (test_languages.LanguageTests.test_voynich_mask_does_not_bridge_and_test_is_excluded) ... ok
+test_identity_at_5200 (test_length_scaling_v2.ScaledTests.test_identity_at_5200) ... ok
+test_linear_and_sqrt_at_20800 (test_length_scaling_v2.ScaledTests.test_linear_and_sqrt_at_20800) ... ok
+test_selection (test_length_scaling_v3.GlueTests.test_selection) ... ok
+test_self_inclusion_lowers_ratio_of_a_whole_parsed_concatenation (test_length_scaling_v3.GlueTests.test_self_inclusion_lowers_ratio_of_a_whole_parsed_concatenation) ... ok
+test_bigram_null_keeps_length (test_linear_a.LinearATest.test_bigram_null_keeps_length) ... ok
+test_ku_ro_sums_lines_since_last_total (test_linear_a.LinearATest.test_ku_ro_sums_lines_since_last_total) ... ok
+test_linear_b_line_labels (test_linear_a.LinearATest.test_linear_b_line_labels) ... ok
+test_logogram_label_and_majority (test_linear_a.LinearATest.test_logogram_label_and_majority) ... ok
+test_matcher_distance_and_unknown_vowel (test_linear_a.LinearATest.test_matcher_distance_and_unknown_vowel) ... ok
+test_parse_syllabic_rejects_unknown_signs (test_linear_a.LinearATest.test_parse_syllabic_rejects_unknown_signs) ... ok
+test_spelling_follows_linear_b_conventions (test_linear_a.LinearATest.test_spelling_follows_linear_b_conventions) ... ok
+test_equal_targets_at_every_context_and_train_only (test_matched.MatchedTests.test_equal_targets_at_every_context_and_train_only) ... ok
+test_fixed_final_exposure_and_checkpoint_reload (test_matched.MatchedTests.test_fixed_final_exposure_and_checkpoint_reload) ... /Users/giuseppe.castegnetti/code/gc/llm-rs-voynich-rejection/artifacts/cloud-upload.tar.gz 310247 bytes; training/validation only
+2: epoch 1/2, 7.7727 BPC, 9 characters (0.0s)
+2: epoch 2/2, 7.5715 BPC, 18 characters (0.0s)
+8: epoch 1/2, 7.8092 BPC, 9 characters (0.0s)
+8: epoch 2/2, 7.6192 BPC, 18 characters (0.0s)
+ok
+test_interaction_compares_gains_without_equating_strings (test_matched.MatchedTests.test_interaction_compares_gains_without_equating_strings) ... ok
+test_plan_matches_exposure_and_model_across_18_runs (test_matched.MatchedTests.test_plan_matches_exposure_and_model_across_18_runs) ... ok
+test_report_distinguishes_training_seed_from_bootstrap_seed (test_matched.MatchedTests.test_report_distinguishes_training_seed_from_bootstrap_seed) ... ok
+test_training_logits_match_exact_evaluator (test_matched.MatchedTests.test_training_logits_match_exact_evaluator) ... ok
+test_admits_a_rare_whole_piece_that_fits_context (test_piece_admission.AdmissionTests.test_admits_a_rare_whole_piece_that_fits_context) ... ok
+test_conditional_bits_add_up (test_piece_admission.AdmissionTests.test_conditional_bits_add_up) ... ok
+test_boundary_variants_preserve_other_symbols (test_pipeline.DataTests.test_boundary_variants_preserve_other_symbols) ... ok
+test_grouped_splits_are_reproducible (test_pipeline.DataTests.test_grouped_splits_are_reproducible) ... ok
+test_paragraph_end_alone_preserves_boundary (test_pipeline.DataTests.test_paragraph_end_alone_preserves_boundary) ... ok
+test_published_control_has_chronological_gaps (test_pipeline.DataTests.test_published_control_has_chronological_gaps) ... ok
+test_rosettes_foldout_cannot_cross_splits (test_pipeline.DataTests.test_rosettes_foldout_cannot_cross_splits) ... ok
+test_shuffle_changes_training_text_and_keeps_forms (test_pipeline.DataTests.test_shuffle_changes_training_text_and_keeps_forms) ... ok
+test_single_line_paragraph_and_metadata (test_pipeline.DataTests.test_single_line_paragraph_and_metadata) ... ok
+test_source_drift_is_rejected (test_pipeline.DataTests.test_source_drift_is_rejected) ... ok
+test_tokenizer_never_learns_heldout_merges (test_pipeline.DataTests.test_tokenizer_never_learns_heldout_merges) ... ok
+test_unknown_pages_cannot_leak_into_reused_split (test_pipeline.DataTests.test_unknown_pages_cannot_leak_into_reused_split) ... ok
+test_wrapped_locus (test_pipeline.DataTests.test_wrapped_locus) ... ok
+test_earlier_best_checkpoint_is_exported_with_matching_scores (test_pipeline.NeuralTests.test_earlier_best_checkpoint_is_exported_with_matching_scores) ...   0%|          | 0/3 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+                                      33%|███▎      | 1/3 [00:00<00:00, 40.90it/s]/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:286: UserWarning: Could not find a config file in  - will assume that the vocabulary was not modified.
+  warnings.warn(
+                                              67%|██████▋   | 2/3 [00:00<00:00, 39.18it/s]/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:286: UserWarning: Could not find a config file in  - will assume that the vocabulary was not modified.
+  warnings.warn(
+/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/transformers/trainer.py:4145: UserWarning: mtime may not be reliable on this filesystem, falling back to numerical ordering
+  warnings.warn("mtime may not be reliable on this filesystem, falling back to numerical ordering")
+                                             100%|██████████| 3/3 [00:00<00:00, 40.41it/s]/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:286: UserWarning: Could not find a config file in  - will assume that the vocabulary was not modified.
+  warnings.warn(
+/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/transformers/trainer.py:4145: UserWarning: mtime may not be reliable on this filesystem, falling back to numerical ordering
+  warnings.warn("mtime may not be reliable on this filesystem, falling back to numerical ordering")
+                                             100%|██████████| 3/3 [00:00<00:00, 30.13it/s]100%|██████████| 3/3 [00:00<00:00, 30.07it/s]
+/Users/giuseppe.castegnetti/code/gc/llm-rs/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:286: UserWarning: Could not find a config file in  - will assume that the vocabulary was not modified.
+  warnings.warn(
+ok
+test_only_requested_lora_layers_are_trainable (test_pipeline.NeuralTests.test_only_requested_lora_layers_are_trainable) ... ok
+test_replication_requires_a_gain_and_keeps_the_chosen_layers (test_pipeline.NeuralTests.test_replication_requires_a_gain_and_keeps_the_chosen_layers) ... ok
+test_comparison_rejects_different_equal_length_targets (test_pipeline.StatisticsTests.test_comparison_rejects_different_equal_length_targets) ... ok
+test_copy_model_uses_only_history (test_pipeline.StatisticsTests.test_copy_model_uses_only_history) ... ok
+test_layout_uses_no_future_characters (test_pipeline.StatisticsTests.test_layout_uses_no_future_characters) ... ok
+test_metrics_weight_tokens_and_bootstrap_groups (test_pipeline.StatisticsTests.test_metrics_weight_tokens_and_bootstrap_groups) ... ok
+test_ngram_beats_frequency_on_alternation (test_pipeline.StatisticsTests.test_ngram_beats_frequency_on_alternation) ... ok
+test_rosettes_are_one_bootstrap_cluster (test_pipeline.StatisticsTests.test_rosettes_are_one_bootstrap_cluster) ... ok
+test_test_partition_requires_explicit_release (test_pipeline.StatisticsTests.test_test_partition_requires_explicit_release) ... ok
+test_invalid_stride (test_pipeline.WindowTests.test_invalid_stride) ... ok
+test_offsets_and_uncertainty (test_pipeline.WindowTests.test_offsets_and_uncertainty) ... ok
+test_padding_does_not_relabel_context_or_real_eos (test_pipeline.WindowTests.test_padding_does_not_relabel_context_or_real_eos) ... ok
+test_targets_scored_once_at_every_stride (test_pipeline.WindowTests.test_targets_scored_once_at_every_stride) ... ok
+test_cost_prefers_lexicon_words_and_matches_segmenter_choice (test_polish.LexicalPolishTests.test_cost_prefers_lexicon_words_and_matches_segmenter_choice) ... ok
+test_polish_repairs_a_single_wrong_unit (test_polish.LexicalPolishTests.test_polish_repairs_a_single_wrong_unit) ... ok
+test_windows_merge_overlaps (test_polish.LexicalPolishTests.test_windows_merge_overlaps) ... ok
+test_bigram_keys_fall_back_and_match_legacy (test_rejection_followups.BoundedRefinementTests.test_bigram_keys_fall_back_and_match_legacy) ... ok
+test_complete_refinement_matches_legacy_for_both_backends (test_rejection_followups.BoundedRefinementTests.test_complete_refinement_matches_legacy_for_both_backends) ... ok
+test_every_incremental_proposal_matches_full_score (test_rejection_followups.BoundedRefinementTests.test_every_incremental_proposal_matches_full_score) ... ok
+test_overlapping_windows_and_uneven_homophones (test_rejection_followups.BoundedRefinementTests.test_overlapping_windows_and_uneven_homophones) ... ok
+test_pair_batches_preserve_order_and_boundaries (test_rejection_followups.BoundedRefinementTests.test_pair_batches_preserve_order_and_boundaries) ... ok
+test_time_and_sweep_limits_are_explicit (test_rejection_followups.BoundedRefinementTests.test_time_and_sweep_limits_are_explicit) ... ok
+test_uniform_score_ties_retain_earliest_candidate (test_rejection_followups.BoundedRefinementTests.test_uniform_score_ties_retain_earliest_candidate) ... ok
+test_work_limit_is_not_convergence_and_keeps_best_key (test_rejection_followups.BoundedRefinementTests.test_work_limit_is_not_convergence_and_keeps_best_key) ... ok
+test_copying_increases_local_recurrence_at_fixed_frequencies (test_rejection_followups.StrongerControlTests.test_copying_increases_local_recurrence_at_fixed_frequencies) ... ok
+test_development_rule_only_removes_fit_ceiling (test_rejection_followups.StrongerControlTests.test_development_rule_only_removes_fit_ceiling) ... ok
+test_inventory_frequencies_and_reproducibility (test_rejection_followups.StrongerControlTests.test_inventory_frequencies_and_reproducibility) ... ok
+test_atomic_seal_cannot_overwrite (test_rejection_transfer.IntegrityTests.test_atomic_seal_cannot_overwrite) ... ok
+test_checkpoint_hash_mismatch_refuses_resume (test_rejection_transfer.IntegrityTests.test_checkpoint_hash_mismatch_refuses_resume) ... ok
+test_copy_generator_is_reproducible_and_independent_of_plaintext (test_rejection_transfer.IntegrityTests.test_copy_generator_is_reproducible_and_independent_of_plaintext) ... ok
+test_exporting_key_does_not_change_legacy_decoder_stages (test_rejection_transfer.IntegrityTests.test_exporting_key_does_not_change_legacy_decoder_stages) ... ok
+test_futility_rule_counts_independent_positive_decisions (test_rejection_transfer.IntegrityTests.test_futility_rule_counts_independent_positive_decisions) ... ok
+test_short_exact_and_long_partial_leaks_are_excluded (test_rejection_transfer.IntegrityTests.test_short_exact_and_long_partial_leaks_are_excluded) ... ok
+test_sources_do_not_reuse_short_sentences_across_passages (test_rejection_transfer.IntegrityTests.test_sources_do_not_reuse_short_sentences_across_passages) ... ok
+test_caps_are_inconclusive_including_wrong_candidate_cap (test_rejection_transfer.RejectionTests.test_caps_are_inconclusive_including_wrong_candidate_cap) ... ok
+test_good_in_sample_score_does_not_override_failed_transfer (test_rejection_transfer.RejectionTests.test_good_in_sample_score_does_not_override_failed_transfer) ... ok
+test_margins_coverage_and_winner_must_all_pass (test_rejection_transfer.RejectionTests.test_margins_coverage_and_winner_must_all_pass) ... ok
+test_missing_true_language_is_rejected_not_forced_to_runner_up (test_rejection_transfer.RejectionTests.test_missing_true_language_is_rejected_not_forced_to_runner_up) ... ok
+test_threshold_boundaries (test_rejection_transfer.RejectionTests.test_threshold_boundaries) ... ok
+test_unscorable_and_one_candidate_do_not_pass (test_rejection_transfer.RejectionTests.test_unscorable_and_one_candidate_do_not_pass) ... ok
+test_known_pieces_can_parse_unseen_combinations_without_learning (test_rejection_transfer.TransferTests.test_known_pieces_can_parse_unseen_combinations_without_learning) ... ok
+test_new_sequence_uses_exact_same_key (test_rejection_transfer.TransferTests.test_new_sequence_uses_exact_same_key) ... ok
+test_no_covered_text_is_not_zero_cost (test_rejection_transfer.TransferTests.test_no_covered_text_is_not_zero_cost) ... ok
+test_unknown_token_resets_context_and_counts_against_coverage (test_rejection_transfer.TransferTests.test_unknown_token_resets_context_and_counts_against_coverage) ... ok
+test_released_ids_are_scoped_to_their_language (test_rejection_transfer_v2.FreshAfterResourceStopTests.test_released_ids_are_scoped_to_their_language) ... ok
+test_source_id_excludes_previously_graded_even_without_text_match (test_rejection_transfer_v2.FreshAfterResourceStopTests.test_source_id_excludes_previously_graded_even_without_text_match) ... ok
+test_concatenation_ratio_separates_bigram_strings_from_one_letter_pieces (test_repair.LexiconRepairTests.test_concatenation_ratio_separates_bigram_strings_from_one_letter_pieces) ... ok
+test_repair_admits_the_missing_piece_and_records_each_pass (test_repair.LexiconRepairTests.test_repair_admits_the_missing_piece_and_records_each_pass) ... ok
+test_unparsed_complements_only_come_from_tokens_without_a_parse (test_repair.LexiconRepairTests.test_unparsed_complements_only_come_from_tokens_without_a_parse) ... ok
+test_boundaries_and_word_error_are_distinct (test_segmentation.SegmentationTests.test_boundaries_and_word_error_are_distinct) ... ok
+test_lexicon_adds_unseen_inflections (test_segmentation.SegmentationTests.test_lexicon_adds_unseen_inflections) ... ok
+test_unknown_forms_do_not_lose_characters (test_segmentation.SegmentationTests.test_unknown_forms_do_not_lose_characters) ... ok
+test_word_transitions_disambiguate_equal_unigram_paths (test_segmentation.SegmentationTests.test_word_transitions_disambiguate_equal_unigram_paths) ... ok
+test_ambiguity_and_expansion_costs (test_standard_decipherment.StandardDeciphermentTests.test_ambiguity_and_expansion_costs) ... ok
+test_full_beam_matches_exhaustive_homophonic_search (test_standard_decipherment.StandardDeciphermentTests.test_full_beam_matches_exhaustive_homophonic_search) ... ok
+test_historical_parser_excludes_notes_and_joins_drop_cap (test_standard_decipherment.StandardDeciphermentTests.test_historical_parser_excludes_notes_and_joins_drop_cap) ... ok
+test_hmm_forward_backward_against_exhaustive_paths (test_standard_decipherment.StandardDeciphermentTests.test_hmm_forward_backward_against_exhaustive_paths) ... ok
+test_partial_context_breaks_at_gaps (test_standard_decipherment.StandardDeciphermentTests.test_partial_context_breaks_at_gaps) ... ok
+test_prior_is_conditional_and_charges_extra_characters (test_standard_decipherment.StandardDeciphermentTests.test_prior_is_conditional_and_charges_extra_characters) ... ok
+test_observed_representations (test_unknown_cipher.UnknownCipherTests.test_observed_representations) ... ok
+test_public_only_interface_and_determinism (test_unknown_cipher.UnknownCipherTests.test_public_only_interface_and_determinism) ... ok
+test_variable_control_roundtrip (test_unknown_cipher.UnknownCipherTests.test_variable_control_roundtrip) ... ok
+test_duplicates_and_invalid_weights_fail (test_verse_word_model.VerseWordTests.test_duplicates_and_invalid_weights_fail) ... ok
+test_grade_rejects_changed_letters (test_verse_word_model.VerseWordTests.test_grade_rejects_changed_letters) ... ok
+test_selection_requires_gain_and_modern_guard (test_verse_word_model.VerseWordTests.test_selection_requires_gain_and_modern_guard) ... ok
+test_train_only_weighted_merge_preserves_base (test_verse_word_model.VerseWordTests.test_train_only_weighted_merge_preserves_base) ... ok
+test_near_hapax_rate (test_voynich_suspects.SuspectTests.test_near_hapax_rate) ... ok
+test_neighbours_are_exactly_one_edit (test_voynich_suspects.SuspectTests.test_neighbours_are_exactly_one_edit) ... ok
+test_extract_removes_editorial_navigation_and_notes (test_word_segmentation_fresh.FreshWordTests.test_extract_removes_editorial_navigation_and_notes) ... ok
+test_passages_are_disjoint_and_drop_overlap (test_word_segmentation_fresh.FreshWordTests.test_passages_are_disjoint_and_drop_overlap) ... ok
+test_attribution (test_word_segmentation_v3.WordSegmentationV3Tests.test_attribution) ... ok
+test_compagni_extractor_drops_notes_titles_and_page_numbers (test_word_segmentation_v3.WordSegmentationV3Tests.test_compagni_extractor_drops_notes_titles_and_page_numbers) ... ok
+test_elision_join_and_rate (test_word_segmentation_v3.WordSegmentationV3Tests.test_elision_join_and_rate) ... ok
+test_extractor_drops_only_rubrics (test_word_segmentation_v3.WordSegmentationV3Tests.test_extractor_drops_only_rubrics) ... ok
+test_incremental_unknown_costs_match_direct_costs (test_word_segmentation_v3.WordSegmentationV3Tests.test_incremental_unknown_costs_match_direct_costs) ... ok
+test_known_words_still_segment_and_rate_is_checked (test_word_segmentation_v3.WordSegmentationV3Tests.test_known_words_still_segment_and_rate_is_checked) ... ok
+test_rubric_rule (test_word_segmentation_v3.WordSegmentationV3Tests.test_rubric_rule) ... ok
+test_selection_rule (test_word_segmentation_v3.WordSegmentationV3Tests.test_selection_rule) ... ok
+test_spelling_is_a_distribution_over_short_words (test_word_segmentation_v3.WordSegmentationV3Tests.test_spelling_is_a_distribution_over_short_words) ... ok
+test_mixture_cost_matches_direct_computation (test_word_segmentation_v4.MixtureTests.test_mixture_cost_matches_direct_computation) ... ok
+test_sacchetti_extractor_drops_italic_argument (test_word_segmentation_v4.MixtureTests.test_sacchetti_extractor_drops_italic_argument) ... ok
+test_weights_are_checked (test_word_segmentation_v4.MixtureTests.test_weights_are_checked) ... ok
+
+----------------------------------------------------------------------
+Ran 180 tests in 9.547s
+
+OK

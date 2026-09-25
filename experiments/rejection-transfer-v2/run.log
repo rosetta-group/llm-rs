@@ -1,0 +1,56 @@
+Block 1/10: fitting five priors for input ac509f9bcb4669d89733
+Block 1/10: keys sealed; transferring without refitting
+{"block": 0, "kind": "positive", "language": "english", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "english", "excess": 0.5843378748666015, "margin": 0.8455328553763803}, "transfer": {"winner": "english", "excess": 0.3736994392212898, "margin": 2.0543638811553926}, "reasons": ["fit_excess"], "inconclusive": false}}
+{"block": 0, "kind": "absent", "language": "english", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.4298707302429818, "margin": 0.3078897056660894}, "transfer": {"winner": "old_french", "excess": 2.4280633203766824, "margin": 0.2730629320064395}, "reasons": ["fit_excess", "transfer_excess"], "inconclusive": false}}
+Block 1/10: fitting five priors for input ddf23957d182d1aba224
+Block 1/10: keys sealed; transferring without refitting
+{"block": 0, "kind": "shuffle", "language": "english", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.876623286059055, "margin": 0.2125782714840927}, "transfer": {"winner": "old_french", "excess": 2.8275017023844375, "margin": 0.17886760527904144}, "reasons": ["fit_excess", "fit_margin", "transfer_excess", "transfer_margin"], "inconclusive": false}}
+Block 1/10: fitting five priors for input ef32549092c60cdc4549
+Block 1/10: keys sealed; transferring without refitting
+{"block": 0, "kind": "copy", "language": "english", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.1556130807391236, "margin": 0.14763619703491493}, "transfer": {"winner": "old_french", "excess": 2.8836038561098842, "margin": 0.2929878460553885}, "reasons": ["fit_excess", "fit_margin", "transfer_excess", "coverage"], "inconclusive": false}}
+Block 2/10: fitting five priors for input 90a623529d4529033bb1
+Block 2/10: keys sealed; transferring without refitting
+{"block": 1, "kind": "positive", "language": "italian", "decision": {"accepted": "italian", "in_sample_accepted": "italian", "fit": {"winner": "italian", "excess": 0.4050109268404034, "margin": 0.8979432672538268}, "transfer": {"winner": "italian", "excess": 0.4038954254529128, "margin": 1.6182811297870905}, "reasons": [], "inconclusive": false}}
+{"block": 1, "kind": "absent", "language": "italian", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.3029541940942302, "margin": 0.4632345170367076}, "transfer": {"winner": "old_french", "excess": 2.0221765552400033, "margin": 0.5130311312300471}, "reasons": ["fit_excess", "transfer_excess"], "inconclusive": false}}
+Block 2/10: fitting five priors for input e44c433c78000e5c57c9
+Block 2/10: keys sealed; transferring without refitting
+{"block": 1, "kind": "shuffle", "language": "italian", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.9749149604095422, "margin": 0.2440149286911737}, "transfer": {"winner": "old_french", "excess": 2.9054568514546943, "margin": 0.23916839592950812}, "reasons": ["fit_excess", "fit_margin", "transfer_excess", "transfer_margin"], "inconclusive": false}}
+Block 2/10: fitting five priors for input 1909f933e406b1edcfd7
+Block 2/10: keys sealed; transferring without refitting
+{"block": 1, "kind": "copy", "language": "italian", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.2985166729115587, "margin": 0.04191608662082569}, "transfer": {"winner": "italian", "excess": 3.1911267182279905, "margin": 0.07714102171807458}, "reasons": ["fit_excess", "fit_margin", "transfer_excess", "transfer_margin", "winner_changed", "coverage"], "inconclusive": false}}
+Block 3/10: fitting five priors for input 654e75a353ede6742fec
+Block 3/10: keys sealed; transferring without refitting
+{"block": 2, "kind": "positive", "language": "latin", "decision": {"accepted": "latin", "in_sample_accepted": "latin", "fit": {"winner": "latin", "excess": 0.1107008202577231, "margin": 1.1790972563166644}, "transfer": {"winner": "latin", "excess": 0.4190546901756207, "margin": 1.7575574554690503}, "reasons": [], "inconclusive": false}}
+{"block": 2, "kind": "absent", "language": "latin", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.2897980765743875, "margin": 0.21572680022325974}, "transfer": {"winner": "old_french", "excess": 2.176612145644671, "margin": 0.3344258372485669}, "reasons": ["fit_excess", "fit_margin", "transfer_excess"], "inconclusive": false}}
+Block 3/10: fitting five priors for input 187429971a275fc1b403
+Block 3/10: keys sealed; transferring without refitting
+{"block": 2, "kind": "shuffle", "language": "latin", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 2.0107541161060674, "margin": 0.19928178796742113}, "transfer": {"winner": "old_french", "excess": 2.9038018293130685, "margin": 0.1633144128115731}, "reasons": ["fit_excess", "fit_margin", "transfer_excess", "transfer_margin"], "inconclusive": false}}
+Block 3/10: fitting five priors for input f05e85f5c7c419dc9e51
+Block 3/10: keys sealed; transferring without refitting
+{"block": 2, "kind": "copy", "language": "latin", "decision": {"accepted": null, "in_sample_accepted": null, "fit": {"winner": "old_french", "excess": 1.2078485542836144, "margin": 0.20841077386786955}, "transfer": {"winner": "italian", "excess": 2.9169445664211606, "margin": 0.085764515693449}, "reasons": ["compute_cap", "fit_excess", "fit_margin", "transfer_excess", "transfer_margin", "winner_changed", "coverage"], "inconclusive": true}}
+{
+  "absent": {
+    "accepted": 0,
+    "correct": 3,
+    "evaluated": 3,
+    "inconclusive": 0
+  },
+  "copy": {
+    "accepted": 0,
+    "correct": 2,
+    "evaluated": 3,
+    "inconclusive": 1
+  },
+  "positive": {
+    "accepted": 2,
+    "correct": 2,
+    "evaluated": 3,
+    "inconclusive": 0
+  },
+  "shuffle": {
+    "accepted": 0,
+    "correct": 3,
+    "evaluated": 3,
+    "inconclusive": 0
+  }
+}

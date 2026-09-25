@@ -1,0 +1,17 @@
+{
+  "blocks": 90,
+  "candidate_languages": 5,
+  "fits": 1800,
+  "fitted_input_kinds": [
+    "positive",
+    "shuffle",
+    "copy_mutate",
+    "frequency_copy"
+  ],
+  "fresh_confirmation_run": false,
+  "mean_measured_fit_seconds": 246.62095734165825,
+  "not_a_guaranteed_runtime": true,
+  "paired_absent_language_requires_extra_fits": false,
+  "preliminary_budget_worker_hours": 251.62095734165825,
+  "same_cost_projection_worker_hours": 123.31047867082913
+}

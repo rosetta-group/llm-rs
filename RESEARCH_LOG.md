@@ -54,6 +54,140 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+### 2026-09-25: consolidated Voynich write-up and default-branch integration
+
+Added a [connected research synthesis](docs/VOYNICH_PROGRESS.md) covering the earlier
+recovery results, corrections, rejection screens, three follow-ups, historical coverage,
+and Czech/Occitan extension. It separates language acceptance from manuscript readiness
+and records the remaining confirmation work. Integration includes the complete Voynich
+branch history and evaluated archives; unrelated research branches remain separate.
+All 194 tests pass before integration. The canonical branch is `master`, matching
+GitHub default HEAD and `origin/HEAD`; `main` was only a redundant local alias with
+no unique commits. Integration targets `master`.
+
+### 2026-09-25: Old Czech and Old Occitan extension completed
+
+**What was done**
+
+- Added two historical candidates to the active six, using licensed DIAKORP/HistCorp
+  and COMETA inputs. Each new model uses 400,000 letters across four works; two other
+  works calibrate it and two different works supply fit/transfer passages.
+- Froze sources, code, priors and the unchanged decision rule in `4b23333` before
+  generating two anonymous, independent-key ciphertext pairs. Completed 16 fits
+  without caps in 3,478.846 worker-seconds (0.966 hours).
+- Both new languages win both rankings. Czech passes acceptance with 4.79% fit /
+  **5.54% transfer CER**. Occitan gives 12.06% / **15.19% CER**, but fails the transfer
+  excess ceiling: **0.525 > 0.500**. Both omitted-language cases reject; the overall
+  feasibility target fails. The six-language baseline ranks Old French on both
+  passages of both cases, but rejects both.
+- All 194 tests pass. Re-extracted 2,538 source rows, rebuilt eight priors, replayed
+  four encryptions and 16 transfers; archived records round-trip by hash. No selected
+  challenge eight-word overlap with the audited references or earlier released text.
+
+**Why it was done**
+
+Czech adds a Slavic candidate and period medical material; Occitan adds a medieval
+Romance alternative to Catalan and Old French, as requested by the user.
+
+1. **Coverage helps this pilot.** The new languages replace incorrect rankings while
+   preserving rejection when omitted. Two cases are not an error-rate estimate.
+2. **Recovery remains the next target.** Correct Occitan transfer plaintext scores
+   at −0.139 excess, so recovery adds 0.664 bits/letter. Keep the failed gate and use
+   these released cases for development before fresh works/keys are tested.
+3. **Representation and scope remain limited.** Czech diacritics collapse in the
+   unchanged alphabet; Occitan mixes verse/prose and transcription conventions.
+   No fresh old-language retention controls or reserved Voynich text were used.
+
+[Report](experiments/language-expansion/REPORT.md),
+[records](experiments/language-expansion/archive.json),
+[released works to exclude](experiments/language-expansion/released-source-ids.json).
+
+### 2026-09-25: historical language coverage pilot completed
+
+**Question:** does broader historical coverage improve identification and rejection
+without choosing a source language in advance? The
+[protocol](experiments/language-coverage/PROTOCOL.md), source splits, eight equal-budget
+models and existing transfer-centered rule were frozen in commit `e4f94d4` before
+encryption. Sources: LLCT charters, ReM prose and HisCat's Llibre dels Fets.
+
+**What was done**
+
+- Ran 24 model fits on three independently keyed pairs of 5,200-letter passages;
+  sealed each fitted key before transfer. Compared fixed baseline, expanded and
+  true-language-omitted candidate sets. No cap was hit; 1.386 fit-worker hours.
+- Expanded rankings found the correct language on both passages in 3/3 cases.
+  The baseline ranked Old French in all three cases and rejected all three.
+- Expanded acceptance was 1/3 (Latin), below the predeclared 3/3 feasibility target.
+  German transfer excess 0.745 and Catalan 0.860 exceed 0.50; Catalan fit margin
+  0.148 also misses 0.25. All three omitted-language cases reject.
+- German transfer CER fell 45.69% → 12.48%; Latin 12.37% → 6.69%; Catalan was 9.27%.
+- All 189 tests passed. Eight model rebuilds, six encryptions and 24 transfers
+  reproduced. No eight-word overlap was found against training/calibration or the
+  additional earlier-released challenge inventory.
+
+**Why it was done**
+
+The five-language pilot did not test this historical/genre variation or Catalan.
+Correct German/Catalan plaintexts score below the transfer ceiling (0.190/0.150),
+so remaining key-recovery errors are a concrete next target; changing thresholds
+on the same cases would not be fresh validation.
+
+**Limits:** three keys; Catalan within one chronicle; Latin legal, not medical;
+German test works religious; filtered passages can be non-contiguous. The expanded
+system has six candidates and replaces two models; no retention claim for the other
+languages or Voynich language claim follows. No Voynich text was scored.
+[Report and records](experiments/language-coverage/REPORT.md);
+[exclude released groups in later rounds](experiments/language-coverage/released-source-ids.json).
+
+**2026-09-25: all three rejection follow-ups completed on released development data.**
+The transfer-centered candidate removes only the fit-excess ceiling and accepts
+3/3 released positives instead of 2/3. Three new local-copying controls retain exact
+token frequencies; each gets five independent prior fits and sealed-key transfer.
+All three are rejected without caps at 98.47–98.64% transfer coverage, with best
+transfer excess 3.000, 2.999 and 3.137. The 15 fits use 1.028 worker-hours. Together
+with the earlier controls, both rules reject eleven conclusive negatives; the old
+Latin mutation remains inconclusive. These cases share only three source/key blocks.
+
+A new bounded refiner keeps the objective and candidate order, uses incremental
+one-letter scores, and rechecks close minima with the original full scorer.
+Four fixtures × three backends × two warmed runs choose identical winning swaps
+and exact scores. On the released copying fixture, swap time is 4.817 → 0.155 s
+(31.1×), and peak RSS 1,694 → 331 MiB; chunking alone saves memory but is slightly
+slower. Small complete refinements match the legacy outputs, including bigram
+fallback and ties. All 180 tests pass; all 15 new transfers and all 21 threshold
+comparisons reproduce. This is not a measured full-decoder speedup.
+
+Preflight corrected an unsupported synthetic alphabet symbol before timing, then
+increased a 50-sweep guard to 200 before any control fit to accommodate 30 inherited
+kicks. Both records are preserved; the original follow-up freeze was not executed.
+The executed freeze was committed at `17381f6`. No manuscript text or unused answers
+were opened. [Report](experiments/rejection-followups/REPORT.md).
+A 90-block fresh confirmation is costed but not run: it needs new sources and a
+work-budget audit, especially for larger mutation inventories.
+
+
+**2026-09-25: rejection and fixed-key transfer screen stopped inconclusively.**
+Both freezes were committed before their challenges. The first attempt hit three
+wrong-prior refinement caps on its English positive. A fresh resource-repair round
+excluded those graded source IDs, retained thresholds and priors, and increased the
+refinement allowance from 300 to 1,200 seconds with two Numba threads per worker.
+It completed three of ten blocks: genuine ciphers accepted 2/3; shuffled and absent
+language controls rejected 3/3 each; copy/mutate rejected 2/3, with the third
+inconclusive because English and German refinements hit their caps. The true language
+won fit and transfer on all three positives. Transfer CER: English 6.91%, Italian
+5.85%, Latin 9.37%. English failed only the fixed 0.50 fit ceiling (actual 0.584).
+Forty-five fits used 8.884 worker-hours. This is a cap stop, not a statistical pass or
+aggregate-budget exhaustion. Best-ranked copying keys covered only 54–60% of transfer
+tokens, motivating a stronger control. Eight conclusive negative decisions share
+three keys; they are not eight independent replications. The remaining seven blocks
+were not run or released. No Voynich text was used. [Report](experiments/rejection-transfer-v2/REPORT.md).
+
+The user then authorized three follow-ups: decision calibration, frequency-preserving
+copying controls and a cheaper refiner. Their [development protocol](experiments/rejection-followups/PROTOCOL.md)
+uses released cases only and retains the manuscript gate. Earlier suggestions to
+continue unconstrained Naibbe tuning are superseded by this bounded control work.
+
+
 **2026-09-23: Linear A track closed after five rounds; no language identified.**
 Branch `linear-a`. Linear A's sign sounds are roughly known and its language is not, so each
 method had to find Greek in Linear B (DĀMOS, 5,932 documents) at Linear A's size first

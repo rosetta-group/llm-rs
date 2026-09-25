@@ -5,7 +5,51 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-23
+Updated: 2026-09-25
+
+**Eight-language extension completed, 2026-09-25.** At the user's request,
+[Old Czech and Old Occitan](experiments/language-expansion/REPORT.md) join the six
+active candidates. The two fresh controls rank correctly on fit and transfer; Czech
+passes acceptance (5.54% transfer CER), Occitan fails (15.19% CER; excess 0.525 against
+0.500). Both true-language omissions reject. Sixteen fits completed without caps;
+194 tests and all audit replays pass. The two-case feasibility target failed.
+Next: develop recovery on released cases, particularly Occitan, whose correct-text
+transfer excess is −0.139. Do not loosen the gate. Confirmation requires new source
+works/keys and retention controls for the earlier languages. No Voynich test was used.
+
+**Historical-language coverage pilot completed, 2026-09-25.** The
+[three-pair pilot](experiments/language-coverage/REPORT.md) adds Catalan and broadens
+Latin/German. The expanded set ranks the correct language first on both passages in
+3/3 cases, but accepts only Latin (1/3); all three true-language omissions reject.
+German transfer CER improves 45.69% → 12.48%, Latin 12.37% → 6.69%; Catalan is 9.27%.
+Twenty-four fits used 1.386 worker-hours, with no caps. The feasibility target failed.
+Post-run correct-plaintext scores support key-recovery development on these released
+cases before more language additions or a larger confirmation. Keep the current
+thresholds; confirmation needs new source groups, including another Catalan work.
+The existing manuscript gate is unchanged. This is a small coverage pilot, not the
+90-block rejection confirmation below.
+
+**Voynich priority, 2026-09-25: prepare a costed fresh rejection study.** The
+[three authorized development follow-ups](experiments/rejection-followups/REPORT.md)
+are complete. The transfer-centered candidate accepts 3/3 released genuine ciphers
+instead of 2/3; three exact-frequency copying controls are rejected without caps
+at 98.47–98.64% coverage. Incremental swap scoring is 31.1× faster on the released
+copying fixture with the same winning swap and score. These are development results
+from three shared source/key blocks, not a population error-rate estimate.
+
+The next [confirmation proposal](experiments/rejection-followups/CONFIRMATION_PLAN.md)
+requires independent fresh sources/keys, all five languages, multiple generators and
+predeclared statistical gates. Its 1,800 fits project to about 123 worker-hours at
+current copying-control cost; that is not a guaranteed runtime or an agreed run
+budget. Audit source availability and work limits on every released input class
+before freezing any new study. The 20-million-proposal limit is especially restrictive
+on large mutation inventories. No fresh confirmation or manuscript run was started.
+
+The [original screen](experiments/rejection-transfer-v2/REPORT.md) remains inconclusive
+on caps, with 2/3 positives accepted and one copying control inconclusive. Its
+thresholds and outcomes were not rewritten. The translation gate and reserved
+manuscript test remain unchanged; the [first capped attempt](experiments/rejection-transfer/REPORT.md)
+also stays separate.
 
 **Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
