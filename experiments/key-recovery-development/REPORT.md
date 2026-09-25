@@ -62,3 +62,25 @@ on Catalan text) and 1.44–1.67 elsewhere. Full scores in [results.json](result
 - `python -m experiments.key_recovery_development run` refits into `artifacts/key-recovery-development/fit/`.
 - `python -m experiments.key_recovery_development evaluate` grades and writes `results.json`.
 - Module: `voynich/whole_admission.py`; tests: `tests/test_whole_admission.py`.
+
+## Addendum: released rejection-screen controls
+
+Declared in the protocol addendum (`260f752`) before any fit. 12 inputs × 8 models, keys fixed before
+transfer, same rule. Full scores in [controls-results.json](controls-results.json).
+
+| Input class | Inputs | B accepted | A accepted |
+|---|---:|---:|---:|
+| positive (English, Italian, Latin) | 3 | 3 correct | 3 correct |
+| shuffle | 3 | 0 | 0 |
+| copy-mutate | 3 | 0 (all capped) | 0 (all capped) |
+| frequency copy | 3 | 0 | 0 |
+
+- A accepts no negative and no wrong language; all three positives stay rejected with the true
+  language omitted.
+- Positive transfer CER falls with A: English 7.4 → 3.5%, Italian 6.6 → 4.3%, Latin 9.4 → 3.0%.
+- **Copy-mutate cannot conclude under the frozen work limit.** Every refinement of all 24 copy
+  fits reaches the 20,000,000-proposal limit, in both arms. These inputs are inconclusive, not
+  rejections.
+- Mean fit time: 241 s for B, 328 s for A including B.
+
+A meets the addendum's conditions for a fresh confirmation, without the copy-mutate class.
