@@ -1,0 +1,440 @@
+{
+  "all_winners_identical": true,
+  "measured_wall_seconds": 29.519223709008656,
+  "rows": [
+    {
+      "backend": "legacy",
+      "candidate_key_bytes": 516096,
+      "median_seconds": 0.013279645470902324,
+      "name": "synthetic-64",
+      "numeric_tolerance": 3.2166311556144837e-06,
+      "pairs": 2016,
+      "peak_rss_bytes": 329203712,
+      "positions": 2000,
+      "score_audit_candidates": 1264,
+      "score_audit_max_error": 4.729372449219227e-11,
+      "trials": [
+        {
+          "full_rescores": 2016,
+          "score": 21579.369424546283,
+          "seconds": 0.013407999998889863,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        },
+        {
+          "full_rescores": 2016,
+          "score": 21579.369424546283,
+          "seconds": 0.013151290942914784,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        }
+      ],
+      "units": 64,
+      "warm_seconds": 0.05791695904918015
+    },
+    {
+      "backend": "chunked",
+      "candidate_key_bytes": 131072,
+      "median_seconds": 0.013710958417505026,
+      "name": "synthetic-64",
+      "numeric_tolerance": 3.2166311556144837e-06,
+      "pairs": 2016,
+      "peak_rss_bytes": 328892416,
+      "positions": 2000,
+      "score_audit_candidates": 1264,
+      "score_audit_max_error": 4.729372449219227e-11,
+      "trials": [
+        {
+          "full_rescores": 2016,
+          "score": 21579.369424546283,
+          "seconds": 0.01375429192557931,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        },
+        {
+          "full_rescores": 2016,
+          "score": 21579.369424546283,
+          "seconds": 0.013667624909430742,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        }
+      ],
+      "units": 64,
+      "warm_seconds": 0.055311082978732884
+    },
+    {
+      "backend": "incremental",
+      "candidate_key_bytes": 131072,
+      "median_seconds": 0.0052045625052414834,
+      "name": "synthetic-64",
+      "numeric_tolerance": 3.2166311556144837e-06,
+      "pairs": 2016,
+      "peak_rss_bytes": 328990720,
+      "positions": 2000,
+      "score_audit_candidates": 1264,
+      "score_audit_max_error": 4.729372449219227e-11,
+      "trials": [
+        {
+          "full_rescores": 4,
+          "score": 21579.369424546283,
+          "seconds": 0.005179208004847169,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        },
+        {
+          "full_rescores": 4,
+          "score": 21579.369424546283,
+          "seconds": 0.005229917005635798,
+          "winner_index": 1579,
+          "winner_pair": [
+            33,
+            62
+          ]
+        }
+      ],
+      "units": 64,
+      "warm_seconds": 0.059086250024847686
+    },
+    {
+      "backend": "legacy",
+      "candidate_key_bytes": 14082048,
+      "median_seconds": 0.25269045849563554,
+      "name": "synthetic-192",
+      "numeric_tolerance": 2.2349169998514322e-05,
+      "pairs": 18336,
+      "peak_rss_bytes": 344440832,
+      "positions": 5200,
+      "score_audit_candidates": 1507,
+      "score_audit_max_error": 1.1641532182693481e-10,
+      "trials": [
+        {
+          "full_rescores": 18336,
+          "score": 65639.9031627356,
+          "seconds": 0.2538260000292212,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        },
+        {
+          "full_rescores": 18336,
+          "score": 65639.9031627356,
+          "seconds": 0.2515549169620499,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        }
+      ],
+      "units": 192,
+      "warm_seconds": 0.05626083293464035
+    },
+    {
+      "backend": "chunked",
+      "candidate_key_bytes": 393216,
+      "median_seconds": 0.2592687919968739,
+      "name": "synthetic-192",
+      "numeric_tolerance": 2.2349169998514322e-05,
+      "pairs": 18336,
+      "peak_rss_bytes": 330661888,
+      "positions": 5200,
+      "score_audit_candidates": 1507,
+      "score_audit_max_error": 1.1641532182693481e-10,
+      "trials": [
+        {
+          "full_rescores": 18336,
+          "score": 65639.9031627356,
+          "seconds": 0.2630297919968143,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        },
+        {
+          "full_rescores": 18336,
+          "score": 65639.9031627356,
+          "seconds": 0.2555077919969335,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        }
+      ],
+      "units": 192,
+      "warm_seconds": 0.05667774996254593
+    },
+    {
+      "backend": "incremental",
+      "candidate_key_bytes": 393216,
+      "median_seconds": 0.03704966645454988,
+      "name": "synthetic-192",
+      "numeric_tolerance": 2.2349169998514322e-05,
+      "pairs": 18336,
+      "peak_rss_bytes": 330596352,
+      "positions": 5200,
+      "score_audit_candidates": 1507,
+      "score_audit_max_error": 1.1641532182693481e-10,
+      "trials": [
+        {
+          "full_rescores": 36,
+          "score": 65639.9031627356,
+          "seconds": 0.037249207962304354,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        },
+        {
+          "full_rescores": 36,
+          "score": 65639.9031627356,
+          "seconds": 0.036850124946795404,
+          "winner_index": 2400,
+          "winner_pair": [
+            12,
+            187
+          ]
+        }
+      ],
+      "units": 192,
+      "warm_seconds": 0.05851899995468557
+    },
+    {
+      "backend": "legacy",
+      "candidate_key_bytes": 97787880,
+      "median_seconds": 0.8550125835463405,
+      "name": "english-positive",
+      "numeric_tolerance": 2.498041580664918e-05,
+      "pairs": 66795,
+      "peak_rss_bytes": 382238720,
+      "positions": 5356,
+      "score_audit_candidates": 1531,
+      "score_audit_max_error": 7.275957614183426e-11,
+      "trials": [
+        {
+          "full_rescores": 66795,
+          "score": 41926.42139183264,
+          "seconds": 0.888336000032723,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        },
+        {
+          "full_rescores": 66795,
+          "score": 41926.42139183264,
+          "seconds": 0.821689167059958,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        }
+      ],
+      "units": 366,
+      "warm_seconds": 0.05523166595958173
+    },
+    {
+      "backend": "chunked",
+      "candidate_key_bytes": 749568,
+      "median_seconds": 0.894114917027764,
+      "name": "english-positive",
+      "numeric_tolerance": 2.498041580664918e-05,
+      "pairs": 66795,
+      "peak_rss_bytes": 333398016,
+      "positions": 5356,
+      "score_audit_candidates": 1531,
+      "score_audit_max_error": 7.275957614183426e-11,
+      "trials": [
+        {
+          "full_rescores": 66795,
+          "score": 41926.42139183264,
+          "seconds": 0.8963660839945078,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        },
+        {
+          "full_rescores": 66795,
+          "score": 41926.42139183264,
+          "seconds": 0.8918637500610203,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        }
+      ],
+      "units": 366,
+      "warm_seconds": 0.056822333950549364
+    },
+    {
+      "backend": "incremental",
+      "candidate_key_bytes": 749568,
+      "median_seconds": 0.04984379198867828,
+      "name": "english-positive",
+      "numeric_tolerance": 2.498041580664918e-05,
+      "pairs": 66795,
+      "peak_rss_bytes": 332562432,
+      "positions": 5356,
+      "score_audit_candidates": 1531,
+      "score_audit_max_error": 7.275957614183426e-11,
+      "trials": [
+        {
+          "full_rescores": 0,
+          "score": 41926.42139183264,
+          "seconds": 0.05026275001000613,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        },
+        {
+          "full_rescores": 0,
+          "score": 41926.42139183264,
+          "seconds": 0.04942483396735042,
+          "winner_index": 9,
+          "winner_pair": [
+            0,
+            10
+          ]
+        }
+      ],
+      "units": 366,
+      "warm_seconds": 0.0584471250185743
+    },
+    {
+      "backend": "legacy",
+      "candidate_key_bytes": 1422649016,
+      "median_seconds": 4.816692500025965,
+      "name": "english-copy",
+      "numeric_tolerance": 2.359627100735248e-05,
+      "pairs": 398278,
+      "peak_rss_bytes": 1776336896,
+      "positions": 4829,
+      "score_audit_candidates": 1536,
+      "score_audit_max_error": 1.0913936421275139e-10,
+      "trials": [
+        {
+          "full_rescores": 398278,
+          "score": 49895.07772907179,
+          "seconds": 4.868019166053273,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        },
+        {
+          "full_rescores": 398278,
+          "score": 49895.07772907179,
+          "seconds": 4.765365833998658,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        }
+      ],
+      "units": 893,
+      "warm_seconds": 0.05491104198154062
+    },
+    {
+      "backend": "chunked",
+      "candidate_key_bytes": 1828864,
+      "median_seconds": 4.942057687498163,
+      "name": "english-copy",
+      "numeric_tolerance": 2.359627100735248e-05,
+      "pairs": 398278,
+      "peak_rss_bytes": 346718208,
+      "positions": 4829,
+      "score_audit_candidates": 1536,
+      "score_audit_max_error": 1.0913936421275139e-10,
+      "trials": [
+        {
+          "full_rescores": 398278,
+          "score": 49895.07772907179,
+          "seconds": 4.800412834039889,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        },
+        {
+          "full_rescores": 398278,
+          "score": 49895.07772907179,
+          "seconds": 5.083702540956438,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        }
+      ],
+      "units": 893,
+      "warm_seconds": 0.05791095795575529
+    },
+    {
+      "backend": "incremental",
+      "candidate_key_bytes": 1828864,
+      "median_seconds": 0.15467385400552303,
+      "name": "english-copy",
+      "numeric_tolerance": 2.359627100735248e-05,
+      "pairs": 398278,
+      "peak_rss_bytes": 347062272,
+      "positions": 4829,
+      "score_audit_candidates": 1536,
+      "score_audit_max_error": 1.0913936421275139e-10,
+      "trials": [
+        {
+          "full_rescores": 32,
+          "score": 49895.07772907179,
+          "seconds": 0.1546004160773009,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        },
+        {
+          "full_rescores": 32,
+          "score": 49895.07772907179,
+          "seconds": 0.15474729193374515,
+          "winner_index": 368229,
+          "winner_pair": [
+            647,
+            734
+          ]
+        }
+      ],
+      "units": 893,
+      "warm_seconds": 0.059181208023801446
+    }
+  ],
+  "selected_backend": "incremental",
+  "threads": 2
+}

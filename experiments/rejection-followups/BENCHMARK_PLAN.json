@@ -1,0 +1,20 @@
+{
+  "declared_before_timing": true,
+  "threads": 2,
+  "repetitions": 2,
+  "batch_size": 512,
+  "max_wall_seconds": 900,
+  "worker_timeout_seconds": 240,
+  "backends": ["legacy", "chunked", "incremental"],
+  "synthetic": [
+    {"name": "synthetic-64", "units": 64, "positions": 2000, "seed": 20260925},
+    {"name": "synthetic-192", "units": 192, "positions": 5200, "seed": 20260926}
+  ],
+  "released": [
+    {"name": "english-positive", "id": "ac509f9bcb4669d89733", "prior": "english"},
+    {"name": "english-copy", "id": "ef32549092c60cdc4549", "prior": "old_french"}
+  ],
+  "score_audit": "Compare exact and incremental scores for first, last and seeded random 512 swaps in each fixture; compare earliest global minimum across all swaps.",
+  "memory": "Record isolated-worker peak RSS, plus theoretical candidate-key allocation; compilation and input preparation are outside warmed timing.",
+  "selection": "Use incremental if all score/winner checks pass and it is faster than chunked on the released copying fixture; otherwise use chunked. Report actual speed and memory results."
+}
