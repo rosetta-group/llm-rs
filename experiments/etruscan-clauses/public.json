@@ -1,0 +1,816 @@
+[
+  {
+    "entities": {
+      "e0": {
+        "case": "?",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "?",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "?",
+        "gender": "?",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ru 5.1",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "?",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e2",
+        "gender": "?",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9e5ebbe8be1494a2"
+      },
+      {
+        "kind": "W",
+        "lexeme": "768490634b6310d0"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "?",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cr 5.2",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "DIRECT",
+        "entity": "e2",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "808701ba8422fa3d"
+      },
+      {
+        "kind": "W",
+        "lexeme": "16e493f14b2c68f5"
+      },
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9e5ebbe8be1494a2"
+      },
+      {
+        "kind": "W",
+        "lexeme": "768490634b6310d0"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "?",
+        "gender": "?",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ta 1.182",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e2",
+        "gender": "?",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9df92a09c9386e87"
+      },
+      {
+        "kind": "W",
+        "lexeme": "ea325d761f98c6b7"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9e5ebbe8be1494a2"
+      },
+      {
+        "kind": "W",
+        "lexeme": "e9138f38d979c81c"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9dc0a90420d19524"
+      },
+      {
+        "kind": "W",
+        "lexeme": "768490634b6310d0"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "?",
+        "gender": "?",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cr 3.17",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "665f45c2eaee5e96"
+      },
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e1",
+        "gender": "?",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "?",
+        "gender": "?",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Vs 1.28",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "?",
+        "entity": "e0",
+        "gender": "?",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "808701ba8422fa3d"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "AT 1.34",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "W",
+        "lexeme": "a278ff5c27c8a10c"
+      },
+      {
+        "kind": "W",
+        "lexeme": "631c1c400aa68c20"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "ETP 335",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "66cf042eb95cec13"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Vt 1.58",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "d59ffd3512901dd7"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "GEN",
+        "gender": "F",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ta 1.15",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e2",
+        "gender": "F",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9df92a09c9386e87"
+      },
+      {
+        "kind": "W",
+        "lexeme": "12231659beeeb752"
+      },
+      {
+        "kind": "W",
+        "lexeme": "5a0b5a892741bd6b"
+      },
+      {
+        "kind": "W",
+        "lexeme": "b98246ad0d30014a"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "GEN",
+        "gender": "F",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ta 1.96",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9df92a09c9386e87"
+      },
+      {
+        "case": "GEN",
+        "entity": "e2",
+        "gender": "F",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "707a3c64c7c00e52"
+      },
+      {
+        "kind": "W",
+        "lexeme": "cc2e6066853a53ad"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e2": {
+        "case": "?",
+        "gender": "?",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cl 1.2261",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "?",
+        "entity": "e2",
+        "gender": "?",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9df92a09c9386e87"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "F",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ta 1.168",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "F",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "e661873825b19055"
+      },
+      {
+        "kind": "W",
+        "lexeme": "c7f623bf946e4657"
+      },
+      {
+        "kind": "W",
+        "lexeme": "b98246ad0d30014a"
+      },
+      {
+        "kind": "W",
+        "lexeme": "12231659beeeb752"
+      },
+      {
+        "kind": "W",
+        "lexeme": "5a0b5a892741bd6b"
+      },
+      {
+        "kind": "W",
+        "lexeme": "699f41dd2dada77c"
+      },
+      {
+        "kind": "W",
+        "lexeme": "1b158839f8aa339e"
+      },
+      {
+        "kind": "W",
+        "lexeme": "c697a33fc1120f0c"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "PERT",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cr 3.18",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "PERT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "29df0906e1730ea2"
+      },
+      {
+        "case": "PERT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "PERT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "GEN",
+        "gender": "F",
+        "kind": "PERSON"
+      }
+    },
+    "id": "ETP 303",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "29df0906e1730ea2"
+      },
+      {
+        "case": "PERT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "GEN",
+        "entity": "e1",
+        "gender": "F",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      "e1": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Ve 3.2",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "case": "DIRECT",
+        "entity": "e1",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "08e3c4c91ca5c58e"
+      },
+      {
+        "kind": "W",
+        "lexeme": "29df0906e1730ea2"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "DIRECT",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "ETP 120",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "kind": "W",
+        "lexeme": "43f52410ceeba65a"
+      },
+      {
+        "case": "DIRECT",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cm 2.32",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "76592b9de6d38238"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9648238ed970b53c"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Cm 2.65",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "76592b9de6d38238"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "Vc 6.6",
+    "probes": [],
+    "sequence": [
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      },
+      {
+        "kind": "W",
+        "lexeme": "9f10f645170216d3"
+      }
+    ]
+  },
+  {
+    "entities": {
+      "e0": {
+        "case": "GEN",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    },
+    "id": "ETP 331",
+    "probes": [],
+    "sequence": [
+      {
+        "kind": "DEICTIC"
+      },
+      {
+        "case": "GEN",
+        "entity": "e0",
+        "gender": "M",
+        "kind": "PERSON"
+      }
+    ]
+  }
+]

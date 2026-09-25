@@ -1,0 +1,611 @@
+{
+  "candidate_reference_edges": 36,
+  "complex_documents_without_anchors": 5,
+  "diagnostic_code_sha256": "d9ab5acbc025fc047754001560eb35c3cf1dcaf169ff39a58657f47f26ca90ee",
+  "documents_without_anchors": 9,
+  "records": [
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 5,
+          "post_run_spellings": [
+            "cerichunce"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": true,
+          "stem": "768490634b6310d0",
+          "support": 0.7140883977900553,
+          "template_sources": [
+            "Cr 5.3"
+          ],
+          "training_documents": 1
+        }
+      ],
+      "best_cost": 0.2864445895826749,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 3,
+      "cohort": "complex",
+      "gold_edges": 3,
+      "id": "Ru 5.1",
+      "margin": 0.06999999999999995
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 7,
+          "post_run_spellings": [
+            "cerichunce"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": true,
+          "stem": "768490634b6310d0",
+          "support": 0.7140883977900553,
+          "template_sources": [
+            "Cr 5.3"
+          ],
+          "training_documents": 1
+        }
+      ],
+      "best_cost": 0.3451568186008612,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 4,
+      "cohort": "complex",
+      "gold_edges": 4,
+      "id": "Cr 5.2",
+      "margin": 0.06142857142857139
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 3,
+          "post_run_spellings": [
+            "clan"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "9df92a09c9386e87",
+          "support": 0.7193877551020408,
+          "template_sources": [
+            "Cr 1.10",
+            "ETP 192",
+            "Ta 1.191",
+            "Ta 1.62"
+          ],
+          "training_documents": 4
+        },
+        {
+          "position": 4,
+          "post_run_spellings": [
+            "an"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": true,
+          "stem": "ea325d761f98c6b7",
+          "support": 0.7140883977900553,
+          "template_sources": [
+            "Cr 5.3"
+          ],
+          "training_documents": 1
+        },
+        {
+          "position": 8,
+          "post_run_spellings": [
+            "cerichunce"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": true,
+          "stem": "768490634b6310d0",
+          "support": 0.7140883977900553,
+          "template_sources": [
+            "Cr 5.3"
+          ],
+          "training_documents": 1
+        }
+      ],
+      "best_cost": 0.26229671965563384,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 3,
+      "cohort": "complex",
+      "gold_edges": 3,
+      "id": "Ta 1.182",
+      "margin": 0.01041666666666663
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 1,
+      "anchors": [],
+      "best_cost": -0.5375278407684164,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "complex",
+      "gold_edges": 2,
+      "id": "Cr 3.17",
+      "margin": 0.18
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.07999999999999999,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "complex",
+      "gold_edges": 2,
+      "id": "Vs 1.28",
+      "margin": 0.0866666666666667
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.14166666666666666,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "complex",
+      "gold_edges": 2,
+      "id": "AT 1.34",
+      "margin": 0.06666666666666665
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.19666666666666666,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "complex",
+      "gold_edges": 2,
+      "id": "ETP 335",
+      "margin": 0.04500000000000001
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.21333333333333332,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "complex",
+      "gold_edges": 2,
+      "id": "Vt 1.58",
+      "margin": 0.02833333333333335
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 3,
+          "post_run_spellings": [
+            "clan"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "9df92a09c9386e87",
+          "support": 0.7193877551020408,
+          "template_sources": [
+            "Cr 1.10",
+            "ETP 192",
+            "Ta 1.191",
+            "Ta 1.62"
+          ],
+          "training_documents": 4
+        },
+        {
+          "position": 4,
+          "post_run_spellings": [
+            "avils"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "12231659beeeb752",
+          "support": 0.7035928143712575,
+          "template_sources": [
+            "AT 1.46",
+            "Ta 1.191"
+          ],
+          "training_documents": 2
+        },
+        {
+          "position": 5,
+          "post_run_spellings": [
+            "N:xv",
+            "N:xxii",
+            "N:xxiix"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "5a0b5a892741bd6b",
+          "support": 0.6811594202898551,
+          "template_sources": [
+            "AT 1.46"
+          ],
+          "training_documents": 1
+        },
+        {
+          "position": 6,
+          "post_run_spellings": [
+            "lupu"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "b98246ad0d30014a",
+          "support": 0.6811594202898551,
+          "template_sources": [
+            "Ta 1.191"
+          ],
+          "training_documents": 1
+        }
+      ],
+      "best_cost": -0.0923536199444353,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "kinship",
+      "gold_edges": 2,
+      "id": "Ta 1.15",
+      "margin": 0.0010416666666666907
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 2,
+          "post_run_spellings": [
+            "clan"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "9df92a09c9386e87",
+          "support": 0.7193877551020408,
+          "template_sources": [
+            "Cr 1.10",
+            "ETP 192",
+            "Ta 1.191",
+            "Ta 1.62"
+          ],
+          "training_documents": 4
+        }
+      ],
+      "best_cost": 0.030722875423256607,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 2,
+      "cohort": "kinship",
+      "gold_edges": 2,
+      "id": "Ta 1.96",
+      "margin": 0.02979166666666666
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 3,
+          "post_run_spellings": [
+            "clan"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": true,
+          "stem": "9df92a09c9386e87",
+          "support": 0.7193877551020408,
+          "template_sources": [
+            "Cr 1.10",
+            "ETP 192",
+            "Ta 1.191",
+            "Ta 1.62"
+          ],
+          "training_documents": 4
+        }
+      ],
+      "best_cost": -0.2649841515080078,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 2,
+      "cohort": "kinship",
+      "gold_edges": 2,
+      "id": "Cl 1.2261",
+      "margin": 0.015625
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 1,
+      "anchors": [
+        {
+          "position": 2,
+          "post_run_spellings": [
+            "puia"
+          ],
+          "relation": "SPOUSE_OF",
+          "relation_present_in_reference": true,
+          "stem": "e661873825b19055",
+          "support": 0.7131034482758621,
+          "template_sources": [
+            "At 1.111",
+            "Ta 1.13"
+          ],
+          "training_documents": 2
+        },
+        {
+          "position": 4,
+          "post_run_spellings": [
+            "lupu"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": false,
+          "stem": "b98246ad0d30014a",
+          "support": 0.6811594202898551,
+          "template_sources": [
+            "Ta 1.191"
+          ],
+          "training_documents": 1
+        },
+        {
+          "position": 5,
+          "post_run_spellings": [
+            "avils"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": false,
+          "stem": "12231659beeeb752",
+          "support": 0.7035928143712575,
+          "template_sources": [
+            "AT 1.46",
+            "Ta 1.191"
+          ],
+          "training_documents": 2
+        },
+        {
+          "position": 6,
+          "post_run_spellings": [
+            "N:xv",
+            "N:xxii",
+            "N:xxiix"
+          ],
+          "relation": "CHILD_OF",
+          "relation_present_in_reference": false,
+          "stem": "5a0b5a892741bd6b",
+          "support": 0.6811594202898551,
+          "template_sources": [
+            "AT 1.46"
+          ],
+          "training_documents": 1
+        }
+      ],
+      "best_cost": 0.19570488952183887,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 1,
+      "cohort": "kinship",
+      "gold_edges": 1,
+      "id": "Ta 1.168",
+      "margin": 0.1690972222222222
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 1,
+      "anchors": [
+        {
+          "position": 2,
+          "post_run_spellings": [
+            "mulu",
+            "muluvanice",
+            "muluvunike",
+            "mulvanice",
+            "mulvannice"
+          ],
+          "relation": "TRANSFER",
+          "relation_present_in_reference": true,
+          "stem": "29df0906e1730ea2",
+          "support": 0.7201865423051299,
+          "template_sources": [
+            "Cr 3.10",
+            "Cr 3.11",
+            "Cr 3.12",
+            "Cr 3.14",
+            "Cr 3.20",
+            "Cr 3.9",
+            "ETP 128",
+            "ETP 186",
+            "ETP 269",
+            "ETP 284",
+            "Vt 3.1"
+          ],
+          "training_documents": 11
+        }
+      ],
+      "best_cost": -0.7121386616030667,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 1,
+      "cohort": "transfer",
+      "gold_edges": 1,
+      "id": "Cr 3.18",
+      "margin": 0.3883333333333333
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 1,
+          "post_run_spellings": [
+            "mulu",
+            "muluvanice",
+            "muluvunike",
+            "mulvanice",
+            "mulvannice"
+          ],
+          "relation": "TRANSFER",
+          "relation_present_in_reference": true,
+          "stem": "29df0906e1730ea2",
+          "support": 0.7201865423051299,
+          "template_sources": [
+            "Cr 3.10",
+            "Cr 3.11",
+            "Cr 3.12",
+            "Cr 3.14",
+            "Cr 3.20",
+            "Cr 3.9",
+            "ETP 128",
+            "ETP 186",
+            "ETP 269",
+            "ETP 284",
+            "Vt 3.1"
+          ],
+          "training_documents": 11
+        }
+      ],
+      "best_cost": -0.39880532826973336,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 1,
+      "cohort": "transfer",
+      "gold_edges": 1,
+      "id": "ETP 303",
+      "margin": 0.07499999999999996
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 2,
+          "post_run_spellings": [
+            "men",
+            "mene",
+            "menrvas"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": false,
+          "stem": "08e3c4c91ca5c58e",
+          "support": 0.8867924528301888,
+          "template_sources": [
+            "ETP 304"
+          ],
+          "training_documents": 1
+        },
+        {
+          "position": 3,
+          "post_run_spellings": [
+            "mulu",
+            "muluvanice",
+            "muluvunike",
+            "mulvanice",
+            "mulvannice"
+          ],
+          "relation": "TRANSFER",
+          "relation_present_in_reference": true,
+          "stem": "29df0906e1730ea2",
+          "support": 0.7201865423051299,
+          "template_sources": [
+            "Cr 3.10",
+            "Cr 3.11",
+            "Cr 3.12",
+            "Cr 3.14",
+            "Cr 3.20",
+            "Cr 3.9",
+            "ETP 128",
+            "ETP 186",
+            "ETP 269",
+            "ETP 284",
+            "Vt 3.1"
+          ],
+          "training_documents": 11
+        }
+      ],
+      "best_cost": 0.2843473358651333,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 2,
+      "cohort": "transfer",
+      "gold_edges": 2,
+      "id": "Ve 3.2",
+      "margin": 0.08749999999999997
+    },
+    {
+      "accepted_correct": 1,
+      "accepted_wrong": 0,
+      "anchors": [
+        {
+          "position": 1,
+          "post_run_spellings": [
+            "zinace"
+          ],
+          "relation": "MADE",
+          "relation_present_in_reference": true,
+          "stem": "43f52410ceeba65a",
+          "support": 0.8969465648854962,
+          "template_sources": [
+            "AV 6.1",
+            "Ve 6.2"
+          ],
+          "training_documents": 2
+        }
+      ],
+      "best_cost": -0.2295836866004329,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 1,
+      "cohort": "making",
+      "gold_edges": 1,
+      "id": "ETP 120",
+      "margin": 1.1795836866004328
+    },
+    {
+      "accepted_correct": 1,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.03333333333333334,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 1,
+      "cohort": "ownership",
+      "gold_edges": 1,
+      "id": "Cm 2.32",
+      "margin": 0.45
+    },
+    {
+      "accepted_correct": 1,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.0,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 1,
+      "cohort": "ownership",
+      "gold_edges": 1,
+      "id": "Cm 2.65",
+      "margin": 0.45
+    },
+    {
+      "accepted_correct": 0,
+      "accepted_wrong": 1,
+      "anchors": [],
+      "best_cost": 0.2,
+      "best_graph_exact": false,
+      "candidate_gold_edges": 1,
+      "cohort": "making",
+      "gold_edges": 1,
+      "id": "Vc 6.6",
+      "margin": 0.35000000000000003
+    },
+    {
+      "accepted_correct": 1,
+      "accepted_wrong": 0,
+      "anchors": [],
+      "best_cost": 0.0,
+      "best_graph_exact": true,
+      "candidate_gold_edges": 1,
+      "cohort": "ownership",
+      "gold_edges": 1,
+      "id": "ETP 331",
+      "margin": 0.45
+    }
+  ],
+  "results_sha256": "f4bc73599b47168b800aba3c5e2e440e1ce89001aa440fe69e73ceded55bfb32",
+  "status": "post-run diagnostics; no predictor changes",
+  "wrong_accepted_documents": [
+    "Cr 3.17",
+    "Ta 1.168",
+    "Cr 3.18",
+    "Vc 6.6"
+  ]
+}

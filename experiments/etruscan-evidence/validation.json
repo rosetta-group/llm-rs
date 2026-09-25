@@ -1,0 +1,17 @@
+{
+  "annotation_sha256": "187b785e083e1514046260a2773c0361e5f0ccdb251120a142e72f845584989b",
+  "summary": {
+    "fresh_evaluation_records": 0,
+    "pending_expert_review": 9,
+    "pinned_pdfs": 5,
+    "record_statuses": {
+      "corroborated": 3,
+      "disputed": 3,
+      "partially_corroborated": 1,
+      "unverified": 2
+    },
+    "records": 9,
+    "source_supported_relations": 6,
+    "sources": 6
+  }
+}

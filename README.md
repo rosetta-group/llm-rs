@@ -5,7 +5,8 @@ Voynich manuscript. The repository contains no translation. It contains a predic
 (closed), corpus statistics, three image studies (parked), an active cipher-recovery
 track in which a solver is tested on Voynich-like ciphertext whose answers stay sealed
 until grading, and a Linear A track (closed) that applied the same methods to a second
-undeciphered script.
+undeciphered script. The Etruscan track is also closed: it tested recovery of known
+word classes and relationships but validated no new meanings.
 
 **Start with [docs/OVERVIEW.md](docs/OVERVIEW.md)** for the story in plain English, then
 [docs/RESULTS.md](docs/RESULTS.md) for every number with its record.
@@ -20,6 +21,7 @@ undeciphered script.
 | Can a solver break a Voynich-style cipher without its codebook? | Partly: about 94 letters in 100 on sealed 5,200-letter Dante passages; words about half wrong; pass mark not met | [round four](experiments/joint-recovery-v4/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 | Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
+| Can these methods recover Etruscan meanings? | Some simple known relationships transfer; complex interpretation fails. Six modeling stages and a source audit are complete; no new meanings validated; track closed | [Etruscan closure](docs/ETRUSCAN.md) |
 
 Latest sealed recovery results (Naibbe cipher, codebook-free):
 
@@ -80,6 +82,7 @@ ranks other undeciphered scripts; the next candidate is Rongorongo.
 | [docs/OVERVIEW.md](docs/OVERVIEW.md) | What was tried, what was found, what it means |
 | [docs/RESULTS.md](docs/RESULTS.md) | Every result in one table, with links |
 | [docs/LINEAR_A.md](docs/LINEAR_A.md) | The Linear A track: five rounds, why none identified a language |
+| [docs/ETRUSCAN.md](docs/ETRUSCAN.md) | The closed Etruscan track: six modeling stages, evidence audit and reopening conditions |
 | [docs/UNDECIPHERED.md](docs/UNDECIPHERED.md) | Other undeciphered scripts and which ones these methods could test |
 | [docs/REPO_MAP.md](docs/REPO_MAP.md) | Which file does what; which files are frozen |
 | [docs/GLOSSARY.md](docs/GLOSSARY.md) | Terms: BPC, CER, Naibbe, piece, role, gate, freeze, Linear B, entry word |

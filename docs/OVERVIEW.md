@@ -5,6 +5,8 @@ manuscript, a 15th-century book written in an unknown script. It does not contai
 translation. It contains a sequence of controlled experiments, each frozen before it was
 graded, that narrow down what kind of method could work and what would count as evidence.
 A fifth track applied the same methods to Linear A, a second undeciphered script.
+A sixth tested known Etruscan word classes and relationships; it is now closed
+without validated new meanings. [Etruscan closure record](ETRUSCAN.md).
 
 Read this page first. The [results table](RESULTS.md) has every number; the
 [research log](../RESEARCH_LOG.md) is the full chronological record.
@@ -157,7 +159,18 @@ lack Bronze Age names. No method can identify or rule out a language for Linear 
 The [summary](LINEAR_A.md) has the details; [UNDECIPHERED.md](UNDECIPHERED.md) ranks other
 scripts, with Rongorongo next.
 
-## What is known, in six sentences
+## Track six: Etruscan (closed)
+
+Six modeling stages tested formula context, repaired labels, abstention, supplied
+names, complete participant graphs and learned clause coverage. The strongest
+limited result was 10/16 exact graphs with 11/11 accepted relationships correct,
+but recall was only 47.8%. On the later complex-case test, clause coverage recovered
+4/20 exact graphs and no mixed graphs (0/8), below the name-count baseline.
+A nine-inscription source audit records six supported relationships and explicit
+uncertainty; none becomes fresh test data. The track closed on 2026-09-24.
+See [ETRUSCAN.md](ETRUSCAN.md) for all results, limits and reopening conditions.
+
+## What is known, in seven sentences
 
 Voynich text has real structure, and prediction alone cannot say what kind. Word-length
 clustering rules out the simplest cipher of a European language. Nothing yet links text to
@@ -167,6 +180,8 @@ Voynich word, passage or image link has been established, and the manuscript's o
 test pages have never been scored. For Linear A, lexical tests cannot find Greek even in Linear
 B at Linear A's size, and the one profile match also appears for shuffled syllables, so no
 language has been identified or ruled out.
+For Etruscan, some known simple relationships transfer, but complex interpretations
+and new word meanings remain unvalidated.
 
 ## Rules the project follows
 

@@ -1,10 +1,53 @@
 # Etruscan: word meaning from formula context
 
-Status: stopped after round two, branch `etruscan`, 2026-09-24. Round one
-([REPORT.md](REPORT.md)): M2 passes the gate narrowly (44% balanced accuracy, nulls 20%), and
-still passes on deduplicated texts (45%). Round two ([fresh test](../etruscan-fresh/REPORT.md))
-fails: 28% on words glossed only in Wiktionary (chance 25%, p = 0.18), because unglossed words
-sit among unglossed neighbours. Phase 6 not run. Sources pinned in [sources.json](sources.json).
+Status: **closed, 2026-09-24**. The [closure report](../../docs/ETRUSCAN.md) consolidates
+all six modeling stages, the evidence audit, remaining uncertainties and conditions
+for reopening. No further experiment or unknown-word prediction is scheduled.
+The original scope below remains as the historical plan.
+
+Local model tuning stopped after the [clause-coverage pilot](../etruscan-clauses/REPORT.md),
+branch `etruscan`, 2026-09-24. Training on all 46 prior audited inscriptions, it
+recovers 4/20 complete interpretations on different monuments, with only 4/8
+accepted edges correct and 4/36 reference edges recovered. No mixed interpretation
+is recovered (0/8). It fails the frozen gate and underperforms the name-count
+baseline. Weak span supervision amplifies confounds, including age/death words
+misread as parentage evidence. The next useful work is independently checked
+translations and grammatical span/role annotations, not another fit to these cases.
+
+The subsequent [evidence audit](../etruscan-evidence/REPORT.md) checks nine exposed
+inscriptions against six publications: three corroborated, one partly corroborated,
+three disputed and two unverified. It supplies cited grammatical spans and six
+source-supported relationships, while retaining alternative readings and the old
+references separately. All nine await expert review; none is fresh evaluation data.
+Historical results are unchanged. Local model tuning remains stopped.
+
+The preceding [participant-complete graph pilot](../etruscan-graphs/REPORT.md),
+trained on 30 audited inscriptions,
+recovers 10/16 complete interpretations on different monuments with 11/11 accepted
+edges correct. All 23 reference edges survive candidate generation. Edge recall is
+only 47.8%, so the frozen gate fails despite beating the baselines and all 99 shuffled
+translation controls (p=0.01). Daughter and mixed cases remain unresolved. This uses
+known word families, supplied names and the same source; no new meanings are claimed.
+
+The preceding [names-as-scaffolding pilot](../etruscan-scaffolding/REPORT.md)
+audits 30 translated inscriptions, hides eight complete
+translations in two word families, and tests relationship transfer through name anchors.
+The joint model abstains on all eight; local alignment recovers one target edge. Its frozen
+continuation gate fails. Candidate diagnostics identify missing participant pairings as
+well as gift/ownership/making ambiguity. No new word meanings are claimed.
+
+Previous bounded follow-up:
+[Repair-and-abstain report](../etruscan-repair/REPORT.md): repairing dictionary handling,
+cleaning texts, grouping related forms, and adding endings yields 85.4% accepted precision
+at 45.0% coverage, but accepted calls are almost entirely names and both models fail the
+frozen continuation gate. Phase 6 remains unrun. Sources pinned in [sources.json](sources.json).
+
+Round one ([REPORT.md](REPORT.md)) passed narrowly (44% balanced accuracy; 45% after
+deduplication). Round two ([fresh test](../etruscan-fresh/REPORT.md)) failed at 28%.
+The new audit qualifies its interpretation: the old loader silently lost later usable
+dictionary rows, including `lautni`, so some supposedly fresh words and unknown neighbours
+already had ETP glosses. Historical frozen code and results are preserved. See the
+[audit](../etruscan-repair/AUDIT.md) for the repaired handling and remaining source limits.
 
 ## Why Etruscan is a different task
 

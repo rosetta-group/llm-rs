@@ -1,0 +1,1077 @@
+[
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "Ru 5.1",
+    "note": "Split pes nalisa grouped as mother; two parents and tomb construction.",
+    "raw": " vl \u2022 afuna \u2022 vl \u2022 pes | nali\u015ba \u2022 cn \u2022 \u03c3'u\u03b8i | ceri\u03c7unce ",
+    "source_index": 6,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "vl",
+      "afuna",
+      "vl",
+      "pes",
+      "nalisa",
+      "cn",
+      "suthi",
+      "cerichunce"
+    ],
+    "translation": " Vel Afuna, (son) of Vel and Pesnei, built this tomb. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "CHILD_OF",
+        "e1",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ],
+      [
+        "MADE",
+        "e1",
+        "OBJECT"
+      ]
+    ],
+    "id": "Cr 5.2",
+    "note": "Split av le and laris al retained; two brothers commission construction. Four edges for three names.",
+    "raw": " laris \u2022 av | le \u2022 laris | al \u2022 clenar | sval \u2022 cn \u2022 \u03c2'u\u03b8i | ceri\u03c7unce ... ",
+    "source_index": 25,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "CHILD_OF",
+        "e1",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ],
+      [
+        "MADE",
+        "e1",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "laris",
+      "av",
+      "le",
+      "laris",
+      "al",
+      "clenar",
+      "sval",
+      "cn",
+      "suthi",
+      "cerichunce"
+    ],
+    "translation": " Laris (and) Aule, sons of Laris, (while) living had this tomb constructed. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "Ta 1.182",
+    "note": "Two parents and construction; supplied restored verb ending. Family/living modifiers outside ontology.",
+    "raw": " camnas \u2022 lar\u03b8 \u2022 lar\u03b8al \u2022 \u03c3'atnalc \u2022 clan \u2022 an \u2022 \u03c3'u\u03b8i \u2022 lavtni \u2022 zivas \u2022 ceri\u03c7u<nce> ... ",
+    "source_index": 112,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "camnas",
+      "larth",
+      "larthal",
+      "satnalc",
+      "clan",
+      "an",
+      "suthi",
+      "lavtni",
+      "zivas",
+      "cerichunce"
+    ],
+    "translation": " (it was) Larth Camnas, the son of Larth and Shatnei, who built (this) family tomb while still living. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Cr 3.17",
+    "note": "Born from Velethnai represented as parentage, plus dedication by Larth.",
+    "raw": " mini turuce lar\u03b8 : apuna\u03c2 vele\u03b8nal\u03c2 ",
+    "source_index": 90,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "turuce",
+      "larth",
+      "apunas",
+      "velethnals"
+    ],
+    "translation": " Larth Apunas, (born) from Velethnai, dedicated me. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Vs 1.28",
+    "note": "Tomb supplied parenthetically; explicit son plus object association.",
+    "raw": " mi lar\u03b8ia hul\u03c7enas vel\u03b8urus cles ",
+    "source_index": 46,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "larthia",
+      "hulchenas",
+      "velthurus",
+      "cles"
+    ],
+    "translation": " I (am the tomb) of Larth Hulkhenas, son of Velthur. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "AT 1.34",
+    "note": "Statlanes supplied restored letter; son supplied parenthetically.",
+    "raw": " eca : mutna : vel\u03b8urus : sta<t>lanes | larisali\u03c3'la ",
+    "source_index": 104,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "eca",
+      "mutna",
+      "velthurus",
+      "statlanes",
+      "larisalisla"
+    ],
+    "translation": " This (is the) sarcophagus of Velthur Statlanes, the (son) of Laris. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "ETP 335",
+    "note": "Mirror association and parenthetically supplied son.",
+    "raw": " mi malana lar\u03b8iia cavis spuriies ",
+    "source_index": 190,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "malana",
+      "larthiia",
+      "cavis",
+      "spuriies"
+    ],
+    "translation": " I (am) the mirror of Larth Cavis, (son) of Spurie. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Vt 1.58",
+    "note": "Tomb association plus son; klan spelling stays distinct from clan.",
+    "raw": " mi laru\u03c3 : ariana\u03c3 \u2022 ana\u03c3nie\u03c3 klan ",
+    "source_index": 152,
+    "target_family": "complex",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "larus",
+      "arianas",
+      "anasnies",
+      "klan"
+    ],
+    "translation": "I (am the tomb) of Laru Ariana, son of Anasnie."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Ta 1.15",
+    "note": "Two parents; death and age outside ontology.",
+    "raw": " partunus \u2022 vel \u2022 vel\u03b8urus \u2022 | \u03c3'atlnalc \u2022 ram\u03b8as \u2022 clan \u2022 avils | XXIIX lupu ",
+    "source_index": 51,
+    "target_family": "kinship",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "partunus",
+      "vel",
+      "velthurus",
+      "satlnalc",
+      "ramthas",
+      "clan",
+      "avils",
+      "N:xxiix",
+      "lupu"
+    ],
+    "translation": "Vel Partunus, son of Velthur, and Ramtha Shatlnai, dead at twenty-eight years (of age) "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Ta 1.96",
+    "note": "Two parents; uninterpreted camthi eterau outside ontology.",
+    "raw": " lartiu cuclnies \u2022 lar\u03b8al \u2022 clan | lar\u03b8ialc einanal | cam\u03b8i eterau ",
+    "source_index": 38,
+    "target_family": "kinship",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "lartiu",
+      "cuclnies",
+      "larthal",
+      "clan",
+      "larthialc",
+      "einanal",
+      "camthi",
+      "eterau"
+    ],
+    "translation": " Lartiu Cuclnies, son of Larth and Larthi Einanei, camthi eterau. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Cl 1.2261",
+    "note": "Split tiscusn al grouped as mother; two parents.",
+    "raw": " aule : \u015beiante : \u03c3inu | lar\u03b8al : ti\u015bcu\u015bn | al : clan ",
+    "source_index": 71,
+    "target_family": "kinship",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "aule",
+      "seiante",
+      "sinu",
+      "larthal",
+      "tiscusn",
+      "al",
+      "clan"
+    ],
+    "translation": " Aule Sheiante Sinu, son of Larth and Tishcushnei"
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Ta 1.168",
+    "note": "Restored names; death, age and three unnamed children outside named-participant ontology.",
+    "raw": " semni \u2022 r[a]m\u03b8a \u2022 spitus la[r\u03b8al] | puia \u2022 amce \u2022 lupu \u2022 avils \u2022 XXII | hu\u03c3ur \u2022 ci \u2022 acnanas ",
+    "source_index": 138,
+    "target_family": "kinship",
+    "targets": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "semni",
+      "ramtha",
+      "spitus",
+      "larthal",
+      "puia",
+      "amce",
+      "lupu",
+      "avils",
+      "N:xxii",
+      "husur",
+      "ci",
+      "acnanas"
+    ],
+    "translation": " Ramtha Semni was wife of Larth Spitus, dead at ? years (after) having given birth to three children. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Cr 3.18",
+    "note": "Discontinuous donor. Reference explicitly says given BY despite -si forms; do not reinterpret using morphology.",
+    "raw": " mi licene\u0161i mulu hirsunaie\u0161i ",
+    "source_index": 29,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "licenesi",
+      "mulu",
+      "hirsunaiesi"
+    ],
+    "translation": " I (am) given by Licene Hirsunaie."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "ETP 303",
+    "note": "Reference assigns Aranth donor and Thankhvil recipient.",
+    "raw": " mi mulu ara\u03b8iale \u03b8ana\u03c7vilus prasanaia ",
+    "source_index": 87,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "mulu",
+      "arathiale",
+      "thanachvilus",
+      "prasanaia"
+    ],
+    "translation": " I (was) given by Aranth to Thankhvil Prasanai"
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ],
+      [
+        "TRANSFER",
+        "e1",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Ve 3.2",
+    "note": "Two donors; supplied restored second name and verb. Two edges share the same object.",
+    "raw": " vel\u03b8ur tulumne\u0161 pesn<a> <n>uzinaie mene mul[uvanice] ",
+    "source_index": 142,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ],
+      [
+        "TRANSFER",
+        "e1",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "velthur",
+      "tulumnes",
+      "pesna",
+      "nuzinaie",
+      "mene",
+      "muluvanice"
+    ],
+    "translation": " Velthur Tulumnes (and) Pesna Nuzinaie gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "ETP 120",
+    "note": "Restored maker name; fashioned pooled with made.",
+    "raw": " mi<ni> zinace vel[\u03b8ur] [a]ncinie.\u0161. ",
+    "source_index": 221,
+    "target_family": "making",
+    "targets": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "zinace",
+      "velthur",
+      "ancinies"
+    ],
+    "translation": " Velthur Ancinies fashioned me."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cm 2.32",
+    "note": "Jug of Limurce.",
+    "raw": " mi limu.r.ce.s. ta pru\u03c7u.m. ",
+    "source_index": 108,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "limurces",
+      "ta",
+      "pruchum"
+    ],
+    "translation": " I (am) the jug of Limurce."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cm 2.65",
+    "note": "Ceramic supplied in parentheses.",
+    "raw": " mi cupes ta ",
+    "source_index": 109,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "cupes",
+      "ta"
+    ],
+    "translation": " I (am) the (ceramic) of Cupe."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "Vc 6.6",
+    "note": "The work of Ruvfie encoded as MADE, not object possession.",
+    "raw": " ruvfies : acil ",
+    "source_index": 225,
+    "target_family": "making",
+    "targets": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "ruvfies",
+      "acil"
+    ],
+    "translation": " the work o f Ruvfie"
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "ETP 331",
+    "note": "Plate of Venu Platunalu; plate supplied parenthetically.",
+    "raw": " mi venu\u03c3 platunalu\u03c3 ",
+    "source_index": 192,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "venus",
+      "platunalus"
+    ],
+    "translation": " I (am the plate) of Venu Platunalu."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "barrier": {
+    "complex_monuments": 8,
+    "monuments_and_exact_texts_disjoint": true,
+    "old_sixteen_are_development": true,
+    "test_edges": 36,
+    "test_monuments": 20,
+    "training_monuments": 46
+  },
+  "created_utc": "2026-09-24T09:26:28.218525+00:00",
+  "files": {
+    "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
+    "etruscan/clause_coverage.py": "5fff4c864d4850f1a3f1f4e7e9f626a3a02dd46c30297822ae20935caa00fa21",
+    "etruscan/corpus.py": "ea75b91fa2099aaa5cd0d6f3389d81d0b8dc320a4e30826afa6cfaae941fc22c",
+    "etruscan/graph_alignment.py": "3e3ed73e52027be60945849cea820aeb6e1473ed9c58c51c8fd147b94378a303",
+    "etruscan/scaffolding.py": "26242b781b7a1b118abb781791f62fa00c58fdd67c8a2f0190a08599f5363375",
+    "experiments/etruscan-clauses/AUDIT.md": "648e3a082903716c6462f87a447d6f87b952b11154ce67f5f8f4d6797063b23b",
+    "experiments/etruscan-clauses/PROTOCOL.md": "c9a5399da2b89659a18b77250dcdb23dda98e260edb46d0837efe6f90064ff02",
+    "experiments/etruscan-clauses/development.json": "a5533a5b7328489e09244cf2b1091e48f5dd82241ab706ddfbeee633ca63aee2",
+    "experiments/etruscan-clauses/manifest.json": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507",
+    "experiments/etruscan-clauses/public.json": "9e3714be2fcb3dc6526f6cfbf8f2fb3495e89ce69ef7285f7f4e58bdce7aaa02",
+    "experiments/etruscan-graphs/freeze.json": "b43a4041c979020d8425cd6ba5d9b578e142fbb59c24567df0dc907c92fc167e",
+    "experiments/etruscan-graphs/manifest.json": "f97aaf873e050d61bc8d674a8c443f46aed0afc6b40dc5c05f52221ed4c6fc3e",
+    "experiments/etruscan-graphs/public.json": "597d6150c6b4c35bd92fafbd8eacddda0ebf77e043a31f0885c4cc62534c3077",
+    "experiments/etruscan-graphs/results.json": "c91ae0e5498b15a59c1c5f406d55fd329804593ef95a4ca9cc97023e4c6b360d",
+    "experiments/etruscan-scaffolding/freeze.json": "21ddc51b656dbeb30d408e6e8ae191d49f45f3167ea15e3346a65d54dbf7650e",
+    "experiments/etruscan-scaffolding/manifest.json": "443df2af8fd5d82f70ce4c0692fc48270b04cc5805affcd94328fd926b873052",
+    "experiments/etruscan-scaffolding/public.json": "59584b550b0a002c7ca314d50d2268dd2c60b3dbd350fbc28ee3c3f94d3df432",
+    "experiments/etruscan-scaffolding/results.json": "7dfcd50ab483d743a95ae3c6c7c417c47ee258fc4ee86dc5a869ea0a9e1bd0e9",
+    "experiments/etruscan_clauses.py": "10a840f53e935e57ad742a1d564f960ef3398106531a22c99118964c66841914",
+    "experiments/etruscan_graphs.py": "5efd02517019f3855f5b672adbf188675093204d7992d3e1953f350f3d97aa39",
+    "experiments/etruscan_scaffolding.py": "ea4d120768cb30577ee043edec7854e4debd28332c2386082f9436ecfe2cd050",
+    "tests/test_etruscan_clauses.py": "e0c6c0f205dff15de2f0aab705c94ea788603752c9cc3e4c9fb2ed5a0dadb9ab"
+  },
+  "sources": {
+    "artifacts/etruscan-sources/larth/ETP_POS.csv": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+    "artifacts/etruscan-sources/larth/Etruscan.csv": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a"
+  }
+}

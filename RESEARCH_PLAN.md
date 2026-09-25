@@ -5,7 +5,13 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-23
+Updated: 2026-09-24
+
+**Etruscan track closed (2026-09-24).** Six modeling stages and a source audit are
+complete. Some simple relationships transferred, but the final model recovered
+4/20 complete graphs and 0/8 mixed graphs. No new meanings are validated. Further
+work requires reviewed evidence, a distinct hypothesis and a separately reserved
+test; no follow-up run is scheduled. [Closure record](docs/ETRUSCAN.md).
 
 **Linear A track closed (2026-09-23).** Five rounds on branch `linear-a` tested whether these
 methods can tell which language Linear A is. Lexical tests found Greek in at most 10% of Linear B
@@ -239,6 +245,7 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Text-image association | Original pilot preserved; complex 123-description extension complete, 12 corrected tests, no established gain; synthetic nonlinear control passes |
 | Broad image domains | Complete: 63 folio groups, three domains; text adds no gain over hand/layout; cross-quire and identifiability limits documented |
 | Linear A track | Closed 2026-09-23: five rounds; Linear B used as the known-answer control; no language identified; `docs/LINEAR_A.md` |
+| Etruscan track | Closed 2026-09-24: six modeling stages and nine-inscription source audit; no new meanings validated; `docs/ETRUSCAN.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

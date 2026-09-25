@@ -93,6 +93,24 @@ their controls. So no Linear A language result exists.
 | Four | 7 probes: Egyptian place names, Keftiu names, gods, trade words, profiles, spelling rules, role transfer | no probe below p = 0.007; `-re`/`-ru` → `-ro` 12 pairs vs 3.1 (p = 0.0099, the floor of 100 null runs); Levant name-profile lead gone after length matching | [report](../experiments/linear-a-probes/REPORT.md) |
 | Five | length-matched profiles vs TLHdig Hittite, Luwian, Palaic, Hurrian, Hattic, Akkadian | gate passed (Linear B → Greek 20 of 20; Linear A → Hittite 20 of 20) but shuffled syllables give Hittite 20 of 20 too; artefact of *o*/*u* and syllable frequencies | [report](../experiments/linear-a-tlhdig/REPORT.md) |
 
+## Etruscan (branch `etruscan`; closed 2026-09-24)
+
+The [closure report](ETRUSCAN.md) consolidates the six modeling stages, source audit,
+preservation checks and limits. These stages use different samples and metrics.
+
+| Stage | Main result | Record |
+|---|---|---|
+| Formula context | 44.1% balanced accuracy; internal gate passed, KIN/LIFE precision only 6% each | [report](../experiments/etruscan/REPORT.md) |
+| Fresh-word test | 28.1% balanced accuracy on 49 nominally fresh words; failed; freshness later qualified by loader audit | [report](../experiments/etruscan-fresh/REPORT.md) |
+| Repair and abstention | 85.4% accepted precision at 45.0% coverage; no accepted KIN/NUM/LIFE calls; failed | [report](../experiments/etruscan-repair/REPORT.md) |
+| Names as scaffolding | Joint model 0/8 targets; local model 1/8; failed | [report](../experiments/etruscan-scaffolding/REPORT.md) |
+| Complete participant graphs | 10/16 exact; 11/11 accepted relationships correct, 11/23 recovered; failed recall gate | [report](../experiments/etruscan-graphs/REPORT.md) |
+| Clause coverage | 4/20 exact; 4/8 accepted relationships correct, 4/36 recovered; 0/8 mixed graphs; failed | [report](../experiments/etruscan-clauses/REPORT.md) |
+| Evidence audit | 9 exposed cases: 3 corroborated, 1 partly corroborated, 3 disputed, 2 unverified; all await expert review | [report](../experiments/etruscan-evidence/REPORT.md) |
+
+No unknown-word predictions or new meanings are validated. Earlier scores remain
+unchanged; all 66 exposed monuments are development material.
+
 ## Operational
 
 | Item | Status | Record |

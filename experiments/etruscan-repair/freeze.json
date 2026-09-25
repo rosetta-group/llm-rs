@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-24T05:51:48.056436+00:00",
+  "files": {
+    "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
+    "etruscan/context.py": "0be2ef3ecaeb1540d74e3deb1bf389f0a6324f6f6d2a503d5b600332f9ab1a04",
+    "etruscan/corpus.py": "ea75b91fa2099aaa5cd0d6f3389d81d0b8dc320a4e30826afa6cfaae941fc22c",
+    "etruscan/repair.py": "82bf83932f39713984f41c92e6ac8f01b8efa12bdf24da7adeabbdd1c067b85f",
+    "experiments/etruscan-fresh/results.json": "6a919358d822ce176e9e85413fd33e69581b3b452d3c9b1f6a1bcdd1047be889",
+    "experiments/etruscan-repair/AUDIT.md": "c1cddf74bb19a0af5f5cc4e07e8512e72447624e998edd34ebced70d040d3b80",
+    "experiments/etruscan-repair/PROTOCOL.md": "d518a4e9ec75023979c3e8424dc77364cf4e9c04b50e885a70f6b6cc0ffb0f70",
+    "experiments/etruscan-repair/audit.json": "9fff7e9779c99db9efd361d6970b2e7a4d9357e03d50a7c4f7ad3f4cfd4863b9",
+    "experiments/etruscan_repair.py": "1d41a3ab5dc2adaf07c871b2f0c05f6ef3628bbc6891354a9d3d89572affd37a",
+    "tests/test_etruscan_repair.py": "dac1f941e30d25421aec361c9ee0953d10b4d39407e85722994cade083081815"
+  },
+  "runtime": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "python": "3.12.9"
+  },
+  "sources": {
+    "artifacts/etruscan-sources/larth/ETPNames.txt": "89ff114c66e96fcebd728c845ee747664a671b86086051ac9e20fdb0f9ab8daf",
+    "artifacts/etruscan-sources/larth/ETPSuff.txt": "59f31063cbb0e68f36a8a81b24eba7f0b9527380fb9057ef1059a7fa76eb1e85",
+    "artifacts/etruscan-sources/larth/ETPWords.txt": "43050375d3fee420cefe39cf08c1b792c9337604320badb3e94031db2107d59b",
+    "artifacts/etruscan-sources/larth/ETP_POS.csv": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+    "artifacts/etruscan-sources/larth/Etruscan.csv": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a"
+  }
+}

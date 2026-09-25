@@ -1,0 +1,64 @@
+{
+  "audit_snapshot_sha256": "374af63d777bc26b2eb96662de4b8a5c86868e7f8886c56309cfabfc08ec2cc0",
+  "branch": "etruscan",
+  "committed_or_published_by_closure": false,
+  "date": "2026-09-24",
+  "documents": {
+    "README.md": "4ea457ae8936df4adc0dbc7a12abfc037129c8eba4560f4505b02be00d4e2f5b",
+    "RESEARCH_LOG.md": "68ccb1a45a13e7d147a282b06970fe88d3b5f69da4d01b2690dae80c739cbf56",
+    "RESEARCH_PLAN.md": "205217eb7d88e5c4adf4d6aa71f5805b8bd92ede446cdb1f9bfa6809888aa73f",
+    "docs/ETRUSCAN.md": "0361e32b3df2a3516e44ccbc13b077804522c36d1924e02c10031a4cf548ffec",
+    "docs/OVERVIEW.md": "2cbd30c92bb69e2c15a1c36146151b15789e2e455b581b6fdfcb59b3ee70ffca",
+    "docs/RESULTS.md": "1a83ac496a819b98d26196366cbdf1ac0d81cc79076134af967b97b960a81494",
+    "docs/UNDECIPHERED.md": "fb8991e3db21c668403c76f96cd5b838ed011e706b02071e9fd4e9cbdf5177ba",
+    "experiments/etruscan/SCOPE.md": "9f8164d541617a58d3adb143c8ec4c5b29e46c879b205d97b0418749eb749faa"
+  },
+  "expert_review_pending": 9,
+  "exposed_development_monuments": 66,
+  "follow_up_scheduled": false,
+  "fresh_audit_evaluation_cases": 0,
+  "historical_freezes": {
+    "etruscan-clauses": {
+      "freeze_sha256": "283e39c9417c6217806bca58287b6fb50adfbd4a75908c650b075182395569ab",
+      "hash_entries_verified": 24
+    },
+    "etruscan-fresh": {
+      "freeze_sha256": "61eb2bcda31b205e69aa8f1b72aca77841ae1ce04958a01b2ff155c848baa36a",
+      "hash_entries_verified": 24
+    },
+    "etruscan-graphs": {
+      "freeze_sha256": "b43a4041c979020d8425cd6ba5d9b578e142fbb59c24567df0dc907c92fc167e",
+      "hash_entries_verified": 17
+    },
+    "etruscan-repair": {
+      "freeze_sha256": "6c312dd25b4c9d496398c4305d7286326fb1a2efb26f7165327ce5778c58e1a1",
+      "hash_entries_verified": 15
+    },
+    "etruscan-scaffolding": {
+      "freeze_sha256": "21ddc51b656dbeb30d408e6e8ae191d49f45f3167ea15e3346a65d54dbf7650e",
+      "hash_entries_verified": 11
+    }
+  },
+  "historical_scores_regraded": false,
+  "models_retrained": false,
+  "new_experiment": false,
+  "new_word_meanings_validated": false,
+  "reason": "Continuation gates failed; reference evidence needs review before a new independent evaluation. User requested closure.",
+  "reopening_requirements": [
+    "Expert-reviewed evidence with role and transcription uncertainty",
+    "Distinct falsifiable hypothesis",
+    "Separately reserved monuments with independently checked answers",
+    "Protocol frozen before scoring"
+  ],
+  "schema_version": 1,
+  "status": "closed",
+  "verification": {
+    "audit_historical_freeze_hashes": 5,
+    "audit_snapshot_files": 6,
+    "closure_local_links_checked": 22,
+    "etruscan_tests_passed": 44,
+    "evidence_verify": "passed",
+    "git_diff_check": "passed",
+    "historical_hash_entries": 91
+  }
+}

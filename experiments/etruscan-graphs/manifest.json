@@ -1,0 +1,788 @@
+[
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "AT 1.46",
+    "note": "Supplied restored name readings; two parents. Age clause outside ontology.",
+    "probe_tokens": [],
+    "raw": " ceisu[i] : \u03c3'e\u03b8ra | \u03c3'e\u03b8res : sec | calisnia[l]c : ram\u03b8[as] | avils : XV ",
+    "source_index": 128,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "ceisui",
+      "sethra",
+      "sethres",
+      "sec",
+      "calisnialc",
+      "ramthas",
+      "avils",
+      "N:xv"
+    ],
+    "translation": " Shethra Ceisui, daughter of Shethre and Ramtba Calisni, (was dead) at fifteen years. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "ETP 181",
+    "note": "Split papaslis a is retained but grouped inside the audited personal-name anchor.",
+    "probe_tokens": [],
+    "raw": " meinei \u2022 papasli\u015b a \u2022 vl \u2022 titialc \u2022 \u03c3'ec ",
+    "source_index": 161,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "meinei",
+      "papaslis",
+      "a",
+      "vl",
+      "titialc",
+      "sec"
+    ],
+    "translation": " Meinei Papaslisha, daughter of Vel and Titi. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "ETP 287",
+    "note": "Daughter relation editorially supplied; abbreviated names and no explicit daughter word.",
+    "probe_tokens": [],
+    "raw": " \u03c3' : cemnil : v ",
+    "source_index": 160,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "s",
+      "cemnil",
+      "v"
+    ],
+    "translation": " Shethras Cemni, (daughter) of Vel. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Cr 3.14",
+    "note": "Donor given; recipient unspecified.",
+    "probe_tokens": [],
+    "raw": " mini kaisie \u03b8annursianna\u0161 mulvannice ",
+    "source_index": 141,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "kaisie",
+      "thannursiannas",
+      "mulvannice"
+    ],
+    "translation": " Kaisie Thannursiannas gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "ETP 284",
+    "note": "Different mulu-family spelling, muluvunike.",
+    "probe_tokens": [],
+    "raw": " mini muluvunike pisna perkena ",
+    "source_index": 216,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "muluvunike",
+      "pisna",
+      "perkena"
+    ],
+    "translation": " Pisna Perkena gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "ETP 186",
+    "note": "Discontinuous donor; mine is not on the frozen deictic list.",
+    "probe_tokens": [],
+    "raw": " le\u03b8aie mulvanice mi.ne vhulve.s. ",
+    "source_index": 220,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "lethaie",
+      "mulvanice",
+      "mine",
+      "vhulves"
+    ],
+    "translation": " Lethaie Fulves gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ],
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "ETP 128",
+    "note": "Two named recipients, Venel and Velkhae Rasunies. Two transfer edges are required.",
+    "probe_tokens": [],
+    "raw": " mi mulu venelasi vel\u03c7aesi rasuniesi ",
+    "source_index": 219,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ],
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "mulu",
+      "venelasi",
+      "velchaesi",
+      "rasuniesi"
+    ],
+    "translation": " I (was) given to Venel and Velkhae Rasunies."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "Cr 3.20",
+    "note": "Supplied mi<ni> reading; donor and recipient specified.",
+    "probe_tokens": [],
+    "raw": " mi<ni> aran\u03b8 ramu\u03b8a\u03c2i ve\u03c2tiricinala muluvanice ",
+    "source_index": 81,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "aranth",
+      "ramuthasi",
+      "vestiricinala",
+      "muluvanice"
+    ],
+    "translation": " Aranth gave me to Ramutha Vestiricinai."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 3.12",
+    "note": "Recipient, not donor, is named.",
+    "probe_tokens": [],
+    "raw": " mi hirumesi mulu ",
+    "source_index": 120,
+    "target_family": "transfer",
+    "targets": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "hirumesi",
+      "mulu"
+    ],
+    "translation": " I (was) given to Hirume."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 2.15",
+    "note": "Object/person association; object supplied in English parentheses.",
+    "probe_tokens": [],
+    "raw": " mi lari\u03c2a vel\u03b8ie\u03c2 ",
+    "source_index": 119,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "larisa",
+      "velthies"
+    ],
+    "translation": " I (am) the (vase/property) of Laris Velthies."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "ETP 289",
+    "note": "Plate of Flave; name written hvlaves.",
+    "probe_tokens": [],
+    "raw": " mi hvlave\u03c2 : \u03c2pati ",
+    "source_index": 178,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "hvlaves",
+      "spati"
+    ],
+    "translation": " I (am) the plate of Flave."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "ETP 344",
+    "note": "Chalice of Laucie Mezenzies.",
+    "probe_tokens": [],
+    "raw": " mi laucies mezenties ",
+    "source_index": 180,
+    "target_family": "ownership",
+    "targets": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "laucies",
+      "mezenties"
+    ],
+    "translation": " I (am the chalice) of Laucie Mezenzies."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "Cr 5.3",
+    "note": "Parentage and tomb construction in one inscription.",
+    "probe_tokens": [],
+    "raw": " vel : matunas : larisali\u03c2'a :  | an : cn : \u03c2'u\u03b8i : ceri\u03c7unce ",
+    "source_index": 24,
+    "target_family": "mixed",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "vel",
+      "matunas",
+      "larisalisa",
+      "an",
+      "cn",
+      "suthi",
+      "cerichunce"
+    ],
+    "translation": " Vel Matunas, (son) of Laris, he had this tomb constructed. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          5
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Ta 1.191",
+    "note": "Two parents; mother's name interrupted by clan. Death/age clause outside ontology.",
+    "probe_tokens": [],
+    "raw": " vel\u03b8ur lar\u03b8al \u2022 clan | pumpual clan \u2022 lar\u03b8ial | avils \u2022 ceal\u03c7ls \u2022 lupu ",
+    "source_index": 116,
+    "target_family": "mixed",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "velthur",
+      "larthal",
+      "clan",
+      "pumpual",
+      "clan",
+      "larthial",
+      "avils",
+      "cealchls",
+      "lupu"
+    ],
+    "translation": " Velthur, son of Larth and son of Larthi Pumpui, (was) dead at thirty years of age. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          5,
+          6
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e3"
+      ]
+    ],
+    "id": "Cl 1.324",
+    "note": "Four people: subject has discontinuous cognomen; split rathum nasa grouped as one husband.",
+    "probe_tokens": [],
+    "raw": " velia : \u015beianti : a\u03b8 : unatn | cumerunia ra\u03b8um | na\u015ba ",
+    "source_index": 40,
+    "target_family": "mixed",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ],
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e3"
+      ]
+    ],
+    "tokens": [
+      "velia",
+      "seianti",
+      "ath",
+      "unatn",
+      "cumerunia",
+      "rathum",
+      "nasa"
+    ],
+    "translation": " Velia Sheianti Cumerunia, (daughter) of Arnth (and) Unatnei, the (wife) of Rathumna "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "AV 6.1",
+    "note": "First letter of Thucer is restored; discontinuous maker name.",
+    "probe_tokens": [],
+    "raw": " [\u03b8]ucer itane zinace titenas ",
+    "source_index": 222,
+    "target_family": "making",
+    "targets": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "tokens": [
+      "thucer",
+      "itane",
+      "zinace",
+      "titenas"
+    ],
+    "translation": " Thucer Titenas made this (vase)."
+  }
+]

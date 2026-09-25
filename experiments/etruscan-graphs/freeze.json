@@ -1,0 +1,32 @@
+{
+  "barrier": {
+    "max_named_entities": 4,
+    "monuments_and_exact_texts_disjoint": true,
+    "old_eight_now_training": true,
+    "test_edges": 23,
+    "test_monuments": 16,
+    "training_monuments": 30
+  },
+  "created_utc": "2026-09-24T08:15:20.470355+00:00",
+  "files": {
+    "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
+    "etruscan/corpus.py": "ea75b91fa2099aaa5cd0d6f3389d81d0b8dc320a4e30826afa6cfaae941fc22c",
+    "etruscan/graph_alignment.py": "3e3ed73e52027be60945849cea820aeb6e1473ed9c58c51c8fd147b94378a303",
+    "etruscan/scaffolding.py": "26242b781b7a1b118abb781791f62fa00c58fdd67c8a2f0190a08599f5363375",
+    "experiments/etruscan-graphs/AUDIT.md": "53915120fa9f314aa289fab6493bcc1a003481a1dd192db388b29f3d6d4efc87",
+    "experiments/etruscan-graphs/PROTOCOL.md": "e6a91be5d3828e2f1c6ce5c354a0e58a5b5c422ecdfbe06337a416569f46cb39",
+    "experiments/etruscan-graphs/manifest.json": "f97aaf873e050d61bc8d674a8c443f46aed0afc6b40dc5c05f52221ed4c6fc3e",
+    "experiments/etruscan-graphs/public.json": "597d6150c6b4c35bd92fafbd8eacddda0ebf77e043a31f0885c4cc62534c3077",
+    "experiments/etruscan-scaffolding/freeze.json": "21ddc51b656dbeb30d408e6e8ae191d49f45f3167ea15e3346a65d54dbf7650e",
+    "experiments/etruscan-scaffolding/manifest.json": "443df2af8fd5d82f70ce4c0692fc48270b04cc5805affcd94328fd926b873052",
+    "experiments/etruscan-scaffolding/public.json": "59584b550b0a002c7ca314d50d2268dd2c60b3dbd350fbc28ee3c3f94d3df432",
+    "experiments/etruscan-scaffolding/results.json": "7dfcd50ab483d743a95ae3c6c7c417c47ee258fc4ee86dc5a869ea0a9e1bd0e9",
+    "experiments/etruscan_graphs.py": "5efd02517019f3855f5b672adbf188675093204d7992d3e1953f350f3d97aa39",
+    "experiments/etruscan_scaffolding.py": "ea4d120768cb30577ee043edec7854e4debd28332c2386082f9436ecfe2cd050",
+    "tests/test_etruscan_graphs.py": "29b4709249b622b7b3d5167a15fb0995e4c966c1f534b892be31bec07a117513"
+  },
+  "sources": {
+    "artifacts/etruscan-sources/larth/ETP_POS.csv": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+    "artifacts/etruscan-sources/larth/Etruscan.csv": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a"
+  }
+}

@@ -1,0 +1,1224 @@
+[
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "ETP 192",
+    "note": "Name-first order is Cleusinas Laris; father Laris is a distinct entity.",
+    "probe_tokens": [],
+    "raw": " cleusinas : laris : larisal : clan ",
+    "source_index": 0,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "cleusinas",
+      "laris",
+      "larisal",
+      "clan"
+    ],
+    "translation": " Laris Cleusinas, son of Laris. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Cr 1.10",
+    "note": "Explicit son formula; later empty dictionary rows are not used.",
+    "probe_tokens": [],
+    "raw": " avle \u2022 tar\u03c7nas \u2022 lar\u03b8al \u2022 clan ",
+    "source_index": 42,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "avle",
+      "tarchnas",
+      "larthal",
+      "clan"
+    ],
+    "translation": " Aule Tarkhnas, son o f Larth "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Cl 1.1134",
+    "note": "Son is supplied in parentheses in the edition, with no explicit kin word.",
+    "probe_tokens": [],
+    "raw": " vel : tite : aules ",
+    "source_index": 61,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "vel",
+      "tite",
+      "aules"
+    ],
+    "translation": " Vel Tite, (son) of Aule "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Vc 1.84",
+    "note": "Surname precedes given name; son is supplied by the editor.",
+    "probe_tokens": [],
+    "raw": " tutes \u2022 arn\u03b8 \u2022 lar\u03b8al ",
+    "source_index": 70,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "tutes",
+      "arnth",
+      "larthal"
+    ],
+    "translation": " Arnth Tutes, (son) of Larth "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Ta 1.62",
+    "note": "Explicit son formula.",
+    "probe_tokens": [],
+    "raw": " laris : vel\u03c7as | velu\u03c3'a | clan ",
+    "source_index": 102,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "laris",
+      "velchas",
+      "velusa",
+      "clan"
+    ],
+    "translation": " Laris Velkhas, the son of Vel "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Cl 1.1006",
+    "note": "Abbreviated father's name ath; son is editorially supplied.",
+    "probe_tokens": [],
+    "raw": " vel \u2022 fastntru \u2022 a\u03b8 ",
+    "source_index": 50,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "vel",
+      "fastntru",
+      "ath"
+    ],
+    "translation": " Vel Fastntru, (son) o f Arnth "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          5,
+          6
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Ta 1.13",
+    "note": "Two distinct relations: daughter of Larce Spantus; wife of Arnth Partunus.",
+    "probe_tokens": [
+      4
+    ],
+    "raw": " lar\u03b8i : spantui : larces : spantus : se\u03c7 : arn\u03b8al : partunus : puia : ",
+    "source_index": 47,
+    "source_reading_has_restoration": false,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "larthi",
+      "spantui",
+      "larces",
+      "spantus",
+      "sech",
+      "arnthal",
+      "partunus",
+      "puia"
+    ],
+    "translation": " Larthi Spantui, daughter of Larce Spantus, wife of Arnth Partunus "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e1",
+        "e2"
+      ]
+    ],
+    "id": "Ta 1.59",
+    "note": "Nested pedigree; the second son relation is editorially supplied.",
+    "probe_tokens": [
+      3
+    ],
+    "raw": " ravn\u03b8u | vel\u03c7ai | vel\u03b8uru\u03c3'a | se\u03c7 | lar\u03b8iali\u03c3'la ",
+    "source_index": 54,
+    "source_reading_has_restoration": false,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "ravnthu",
+      "velchai",
+      "velthurusa",
+      "sech",
+      "larthialisla"
+    ],
+    "translation": " Ravnthu Velkhai, the daughter of Velthur, (who is) the (son) of Larth "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "id": "Cl 1.1885",
+    "note": "Wife relation precedes daughter relation; larthia has conflicting gender/case entries, retained as unknown.",
+    "probe_tokens": [
+      5
+    ],
+    "raw": " lar\u03b8ia : latini : ce\u015bunia : tutna\u015ba | ultimnial : \u03c3e\u03c7 ",
+    "source_index": 74,
+    "source_reading_has_restoration": false,
+    "target_family": "daughter",
+    "targets": [
+      [
+        "CHILD_OF",
+        "e0",
+        "e2"
+      ]
+    ],
+    "tokens": [
+      "larthia",
+      "latini",
+      "cesunia",
+      "tutnasa",
+      "ultimnial",
+      "sech"
+    ],
+    "translation": " Larthia Latini Ceshunia, the (wife) of Tutna, daughter of Ultimni "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "Cl 1.373",
+    "note": "Wife is editorially supplied; negative contrast to the implicit son formula.",
+    "probe_tokens": [],
+    "raw": " \u015beianti \u2022 hanunia \u2022 tle\u03c3na\u015ba ",
+    "source_index": 49,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "seianti",
+      "hanunia",
+      "tlesnasa"
+    ],
+    "translation": " Sheianti Hanunia, the (wife) of Tlesna "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "ETP 230",
+    "note": "Wife is editorially supplied; first name abbreviated tha.",
+    "probe_tokens": [],
+    "raw": " \u03b8a : titi : parfilunia meluta\u015ba ",
+    "source_index": 166,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "tha",
+      "titi",
+      "parfilunia",
+      "melutasa"
+    ],
+    "translation": " Thana Titi Parfilunia, the (wife) of Meluta. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "SPOUSE_OF",
+        "e0",
+        "e1"
+      ]
+    ],
+    "id": "At 1.111",
+    "note": "Source marks aleth{na}s: restoration is retained only inside a supplied name anchor; no restored relation word.",
+    "probe_tokens": [],
+    "raw": " \u03b8an\u03c7vil : ruvfi : puia arn\u03b8al ale\u03b8{na}s ",
+    "source_index": 53,
+    "source_reading_has_restoration": true,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "thanchvil",
+      "ruvfi",
+      "puia",
+      "arnthal",
+      "alethnas"
+    ],
+    "translation": " Thankhvil Ruvfi, wife of Arnth Alethnas "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 2.20",
+    "note": "Container belongs to Karkana; object type is not a model feature.",
+    "probe_tokens": [],
+    "raw": " mi karkanas \u03b8ahvna ",
+    "source_index": 1,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "karkanas",
+      "thahvna"
+    ],
+    "translation": " I (am) the container of Karkana"
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 2.18",
+    "note": "Wine pitcher belongs to Karkana.",
+    "probe_tokens": [],
+    "raw": " mi qutum karkanas ",
+    "source_index": 11,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "qutum",
+      "karkanas"
+    ],
+    "translation": " I (am) the wine pitcher of Karkana."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 2.2",
+    "note": "Plate belongs to Larice.",
+    "probe_tokens": [],
+    "raw": " mi spanti larices ",
+    "source_index": 12,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "spanti",
+      "larices"
+    ],
+    "translation": " I (am) the plate of Larice"
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Vs 1.86",
+    "note": "Tomb of Larice Telathuras; OWNED_BY means of/associated with, not a legal ownership claim.",
+    "probe_tokens": [],
+    "raw": " mi larices tela\u03b8uras \u03c3'u\u03b8i ",
+    "source_index": 118,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "larices",
+      "telathuras",
+      "suthi"
+    ],
+    "translation": " I (am) the tomb of Larice Telathuras."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "OWNED_BY",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Sp 2.36",
+    "note": "Libation vessel of Tata Tulalu.",
+    "probe_tokens": [],
+    "raw": " mi fa\u03c3ena tata\u03c3 tulalu\u03c3 ",
+    "source_index": 78,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "fasena",
+      "tatas",
+      "tulalus"
+    ],
+    "translation": " I (am) the libation vessel of Tata Tulalu."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "PERSON",
+        "tokens": [
+          4
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "ETP 269",
+    "note": "Tetana Velkasnas gives to Velellia; both endpoints specified.",
+    "probe_tokens": [
+      1
+    ],
+    "raw": " mini muluvanice tetana ve.l.ka.s.na.s. veleliiasi ",
+    "source_index": 3,
+    "source_reading_has_restoration": false,
+    "target_family": "mulu",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "muluvanice",
+      "tetana",
+      "velkasnas",
+      "veleliiasi"
+    ],
+    "translation": " Tetana Velkasnas gave me to Velellia."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Vt 3.1",
+    "note": "Surname-before-given-name donor; no recipient stated.",
+    "probe_tokens": [
+      1
+    ],
+    "raw": " mini muluvanice vhlakunaie venel ",
+    "source_index": 75,
+    "source_reading_has_restoration": false,
+    "target_family": "mulu",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "muluvanice",
+      "vhlakunaie",
+      "venel"
+    ],
+    "translation": " Venel Vhlakunaie gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Cr 3.11",
+    "note": "Donor Mamarce Velkhanas; no recipient stated.",
+    "probe_tokens": [
+      1
+    ],
+    "raw": " mini mu.l.vanice mama.r.ce : ve.l.\u03c7ana.\u03c2. ",
+    "source_index": 140,
+    "source_reading_has_restoration": false,
+    "target_family": "mulu",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "mulvanice",
+      "mamarce",
+      "velchanas"
+    ],
+    "translation": " Mamarce Velkhanas gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Cr 3.9",
+    "note": "Donor Spurie Utas; no recipient stated.",
+    "probe_tokens": [
+      3
+    ],
+    "raw": " mini \u03c3purie uta\u0161 muluvanice ",
+    "source_index": 144,
+    "source_reading_has_restoration": false,
+    "target_family": "mulu",
+    "targets": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "tokens": [
+      "mini",
+      "spurie",
+      "utas",
+      "muluvanice"
+    ],
+    "translation": " Spurie Utas gave me (as a gift)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 3.10",
+    "note": "Passive given to Laris Velkhainas; must not reverse recipient into donor.",
+    "probe_tokens": [
+      1
+    ],
+    "raw": " mi mulu larisale vel\u03c7ainasi ",
+    "source_index": 85,
+    "source_reading_has_restoration": false,
+    "target_family": "mulu",
+    "targets": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "tokens": [
+      "mi",
+      "mulu",
+      "larisale",
+      "velchainasi"
+    ],
+    "translation": " I (was) given to Laris Velkhainas."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          2
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "UNSPECIFIED",
+        "OBJECT",
+        "e0"
+      ]
+    ],
+    "id": "Cr 3.7",
+    "note": "Independent aliqu wording: donated to Spurie Teithurnas.",
+    "probe_tokens": [],
+    "raw": " mi spurieisi tei\u03b8urnasi aliqu ",
+    "source_index": 86,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mi",
+      "spurieisi",
+      "teithurnasi",
+      "aliqu"
+    ],
+    "translation": " I (was) donated to Spurie Teithurnas."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "DEITY",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "Co 3.7",
+    "note": "Larthia Ateinei dedicates to Matrns; larthia dictionary ambiguity preserved.",
+    "probe_tokens": [],
+    "raw": " lar\u03b8ia : ateinei :  | flere\u03c3 : matrn\u03c3l :  | turce ",
+    "source_index": 76,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "larthia",
+      "ateinei",
+      "fleres",
+      "matrnsl",
+      "turce"
+    ],
+    "translation": " Larthia Ateinei dedicated (this statue) to the divinity Matrns."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "DEITY",
+        "tokens": [
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "ETP 339",
+    "note": "Arnth Saupunias dedicates greaves to Minerva; object type not supplied to model.",
+    "probe_tokens": [],
+    "raw": " arn\u03b8 savpunias turce menrvas ",
+    "source_index": 200,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "arnth",
+      "savpunias",
+      "turce",
+      "menrvas"
+    ],
+    "translation": " Arnth Saupunias dedicated (these greaves) to Minerva."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "DEITY",
+        "tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ]
+    ],
+    "id": "ETP 238",
+    "note": "Uni Huinthnaia is one deity with an epithet.",
+    "probe_tokens": [],
+    "raw": " ecn turce : pivi patrus : unial huin\u03b8naias ",
+    "source_index": 206,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "ecn",
+      "turce",
+      "pivi",
+      "patrus",
+      "unial",
+      "huinthnaias"
+    ],
+    "translation": " Pivi Patrus dedicated this (statue) to Uni Huinthnaia."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1,
+          3
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "UNSPECIFIED"
+      ]
+    ],
+    "id": "Ve 3.30",
+    "note": "Donor name is discontinuous around the dedication verb; one entity, not two.",
+    "probe_tokens": [],
+    "raw": " mini \u03b8anir\u0161iie turice hvuluve\u0161 ",
+    "source_index": 198,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mini",
+      "thanirsiie",
+      "turice",
+      "hvuluves"
+    ],
+    "translation": " Thanirsiie Fuluves dedicated me."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "DEITY",
+        "tokens": [
+          4
+        ]
+      },
+      {
+        "kind": "DEITY",
+        "tokens": [
+          6
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "TRANSFER",
+        "e0",
+        "OBJECT",
+        "e1"
+      ],
+      [
+        "CHILD_OF",
+        "e2",
+        "e1"
+      ]
+    ],
+    "id": "ETP 189",
+    "note": "Espi is mother of Catha, so child edge runs Catha to Espi.",
+    "probe_tokens": [],
+    "raw": " ecn : turce : laris : \u03b8efries : espial : atial : ca\u03b8as ",
+    "source_index": 203,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "ecn",
+      "turce",
+      "laris",
+      "thefries",
+      "espial",
+      "atial",
+      "cathas"
+    ],
+    "translation": " Laris Thefries dedicated this (bronze weight) to Espi, mother of Catha. "
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "ETP 304",
+    "note": "Tite made this; contrasts making with transfer.",
+    "probe_tokens": [],
+    "raw": " men tite ",
+    "source_index": 223,
+    "source_reading_has_restoration": false,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "men",
+      "tite"
+    ],
+    "translation": " Tite made (this)."
+  },
+  {
+    "entities": [
+      {
+        "kind": "PERSON",
+        "tokens": [
+          1
+        ]
+      }
+    ],
+    "gold": [
+      [
+        "MADE",
+        "e0",
+        "OBJECT"
+      ]
+    ],
+    "id": "Ve 6.2",
+    "note": "Source mi<ni> reconstructs the object pronoun; favourable supplied reading, separately flagged.",
+    "probe_tokens": [],
+    "raw": " mi<ni> mamarce zinace ",
+    "source_index": 7,
+    "source_reading_has_restoration": true,
+    "target_family": null,
+    "targets": [],
+    "tokens": [
+      "mini",
+      "mamarce",
+      "zinace"
+    ],
+    "translation": " Mamarce made me."
+  }
+]

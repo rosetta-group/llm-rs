@@ -1,0 +1,79 @@
+{
+  "barrier": {
+    "exclusion_checked": true,
+    "hidden_monuments": 8,
+    "public_duplicate_templates": [
+      [
+        "Cr 1.10",
+        "ETP 192"
+      ],
+      [
+        "Vc 1.84",
+        "Cl 1.1134"
+      ],
+      [
+        "Ta 1.62",
+        "ETP 192"
+      ],
+      [
+        "Ta 1.62",
+        "Cr 1.10"
+      ],
+      [
+        "ETP 230",
+        "Cl 1.373"
+      ],
+      [
+        "Cr 2.2",
+        "Cr 2.18"
+      ],
+      [
+        "Vs 1.86",
+        "Cr 2.20"
+      ],
+      [
+        "Sp 2.36",
+        "Cr 2.18"
+      ],
+      [
+        "Sp 2.36",
+        "Cr 2.2"
+      ],
+      [
+        "Cr 3.11",
+        "Vt 3.1"
+      ],
+      [
+        "Ve 6.2",
+        "Cr 3.9"
+      ]
+    ],
+    "records": 30,
+    "restored_records": [
+      "At 1.111",
+      "Ve 6.2"
+    ],
+    "training_monuments": 22
+  },
+  "created_utc": "2026-09-24T07:46:33.629309+00:00",
+  "files": {
+    "etruscan/classes.py": "668aec9c0dff6f1341981a9d3d62b660c554440d4ab79cb4b404e87a75623f61",
+    "etruscan/corpus.py": "ea75b91fa2099aaa5cd0d6f3389d81d0b8dc320a4e30826afa6cfaae941fc22c",
+    "etruscan/scaffolding.py": "26242b781b7a1b118abb781791f62fa00c58fdd67c8a2f0190a08599f5363375",
+    "experiments/etruscan-scaffolding/AUDIT.md": "59853339e08bbe0fd42890fb369ef3dc3864a930ee387950edd7aa47515a5d8e",
+    "experiments/etruscan-scaffolding/PROTOCOL.md": "c77af53152a150f854a1be759acc6ab7ec1a72448a1b15a0fef155df8da4d2ce",
+    "experiments/etruscan-scaffolding/manifest.json": "443df2af8fd5d82f70ce4c0692fc48270b04cc5805affcd94328fd926b873052",
+    "experiments/etruscan-scaffolding/public.json": "59584b550b0a002c7ca314d50d2268dd2c60b3dbd350fbc28ee3c3f94d3df432",
+    "experiments/etruscan_scaffolding.py": "ea4d120768cb30577ee043edec7854e4debd28332c2386082f9436ecfe2cd050",
+    "tests/test_etruscan_scaffolding.py": "142c8826a6ebe665b7c6f51c969ff0ce2ab9f9e549f9417bbfb790f199b071e3"
+  },
+  "runtime": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "python": "3.12.9"
+  },
+  "sources": {
+    "artifacts/etruscan-sources/larth/ETP_POS.csv": "4f9d5875d7ed0899a4d98cc579a08fedb5611825841cfce45f7504dbd48918ce",
+    "artifacts/etruscan-sources/larth/Etruscan.csv": "e00bbff1858dbfd24579785784ca913a1dfc71f1722b8a6f907acba5b56a260a"
+  }
+}
