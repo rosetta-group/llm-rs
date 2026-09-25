@@ -259,6 +259,27 @@ six encryptions and 24 fixed-key transfers reproduce. Catalan uses one chronicle
 Latin charters are not medical prose; three keys do not establish an error rate.
 Neither the manuscript gate nor reserved Voynich text was used or changed.
 
+### Old Czech and Old Occitan added
+
+The [eight-language extension](../experiments/language-expansion/REPORT.md) adds
+Old Czech and Old Occitan, each trained on 400,000 letters across four works, with
+20,000 calibration letters across two other works. Czech uses DIAKORP's medieval
+texts, including medicine; Occitan uses COMETA. Six existing models reproduce exactly.
+
+Two new independent-key pairs each use different works for fit and transfer. Both
+true languages win both rankings. Czech passes with **5.54%** transfer character
+error. Occitan has **15.19%** error and narrowly fails the unchanged acceptance
+ceiling: transfer excess **0.525 > 0.500**. Both true-language omissions reject.
+The overall feasibility target fails; no thresholds or passages were changed.
+
+Correct Occitan transfer plaintext has excess **−0.139** in post-run diagnostics;
+recovery adds **0.664** bits per letter. This supports recovery development on the
+released cases, followed by fresh confirmation. It does not justify a threshold
+relaxation. All 16 fits completed without caps in **0.966 worker-hours**. All 194 tests
+pass; eight priors, four encryptions and 16 transfers reproduce. Source accents and
+some letters are merged by the fixed alphabet. There is no fresh retention test for
+the earlier six languages, and no Voynich language inference.
+
 ### Near-duplicate words: a mechanical signature
 
 A **near-hapax** is a word seen once that is one glyph away from a word seen at least 5 times.
@@ -320,7 +341,7 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 | Admit missing true pieces without false ones | the letter bottleneck (33–38 missing at RESPACING 17, 52–56 at 9) | about 2 h CPU per development run |
 | Develop and test at RESPACING 9 | the only Naibbe regime that matches the manuscript | same |
 | Historical spelling model, retry | v4 missed by 0.05 points; needs a new author and its own protocol | minutes |
-| Historical-language key recovery and replication | Catalan and broader Latin/German now tested; rankings 3/3 but acceptance 1/3. Improve recovery on released cases, confirm on new works; medical Latin and a second Catalan author remain gaps | bounded development, then a new source audit/freeze |
+| Historical-language key recovery and replication | Eight candidates now include Czech and Occitan; the new controls rank correctly 2/2 but accept only Czech. Improve recovery on released cases, confirm on new works; medical Latin and a second Catalan author remain gaps | bounded development, then a new source audit/freeze |
 | Human review of the 50 suspect loci and the image pilot | needs a human eye | reviewer time |
 | Voynich scoring run | still gated: no sealed case has met 1% / 10% | a deliberate decision |
 

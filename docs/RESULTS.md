@@ -42,6 +42,7 @@ Positive controls first, then the codebook-free Naibbe rounds. "Letters" is pass
 
 | Round | Setup | Result | Record |
 |---|---|---|---|
+| Old Czech / Old Occitan extension | 2 fresh source/key pairs; 8 active languages, 400,000 letters each; 16 fits | correct fit/transfer rankings 2/2, acceptance 1/2 (Czech); omissions rejected 2/2; transfer CER Czech 5.54%, Occitan 15.19%; no caps, 0.966 worker h; feasibility target failed | [report](../experiments/language-expansion/REPORT.md) |
 | Historical language coverage | 3 fresh historical source/key pairs; 8 models, 400,000 letters each; 24 fits | expanded true-language rankings 3/3 on both passages, acceptance 1/3 (Latin); omissions rejected 3/3; German transfer CER 45.69% → 12.48%, Latin 12.37% → 6.69%, Catalan 9.27%; no caps, 1.386 worker h; feasibility target failed | [report](../experiments/language-coverage/REPORT.md) |
 | Rejection development follow-ups | 3 released source/key blocks; 3 new frequency-preserving copying pairs × 5 priors | candidate positives 3/3 vs original 2/3; stronger copies rejected 3/3 at 98.47–98.64% coverage, no caps; 15 fits / 1.028 worker h; development only | [report](../experiments/rejection-followups/REPORT.md) |
 | Bounded incremental refiner benchmark | 4 fixtures × 3 backends × 2 warmed runs; old objective retained | copying-fixture swap batch 4.817 → 0.155 s (31.1×); RSS 1,694 → 331 MiB; every winning pair and exact score match; not an end-to-end speedup | [benchmark](../experiments/rejection-followups/benchmark.json) |

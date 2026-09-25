@@ -1,0 +1,88 @@
+{
+  "evaluated": [
+    {
+      "id": "aacd44c9764fc899",
+      "language": "czech",
+      "source_groups": [
+        "czech:diakorp1-1492",
+        "czech:diakorp14-1440-1460"
+      ],
+      "source_ids": [
+        "czech:diakorp1-1492:0",
+        "czech:diakorp1-1492:1040",
+        "czech:diakorp1-1492:1120",
+        "czech:diakorp1-1492:160",
+        "czech:diakorp1-1492:240",
+        "czech:diakorp1-1492:320",
+        "czech:diakorp1-1492:400",
+        "czech:diakorp1-1492:480",
+        "czech:diakorp1-1492:560",
+        "czech:diakorp1-1492:640",
+        "czech:diakorp1-1492:720",
+        "czech:diakorp1-1492:80",
+        "czech:diakorp1-1492:800",
+        "czech:diakorp1-1492:880",
+        "czech:diakorp1-1492:960",
+        "czech:diakorp14-1440-1460:0",
+        "czech:diakorp14-1440-1460:1040",
+        "czech:diakorp14-1440-1460:1120",
+        "czech:diakorp14-1440-1460:160",
+        "czech:diakorp14-1440-1460:240",
+        "czech:diakorp14-1440-1460:320",
+        "czech:diakorp14-1440-1460:400",
+        "czech:diakorp14-1440-1460:480",
+        "czech:diakorp14-1440-1460:560",
+        "czech:diakorp14-1440-1460:640",
+        "czech:diakorp14-1440-1460:720",
+        "czech:diakorp14-1440-1460:80",
+        "czech:diakorp14-1440-1460:800",
+        "czech:diakorp14-1440-1460:880",
+        "czech:diakorp14-1440-1460:960"
+      ]
+    },
+    {
+      "id": "3acd28510a87b558",
+      "language": "occitan",
+      "source_groups": [
+        "occitan:Harley_7403",
+        "occitan:NAF_11151"
+      ],
+      "source_ids": [
+        "occitan:Harley_7403:0",
+        "occitan:Harley_7403:1040",
+        "occitan:Harley_7403:1120",
+        "occitan:Harley_7403:1200",
+        "occitan:Harley_7403:1280",
+        "occitan:Harley_7403:160",
+        "occitan:Harley_7403:240",
+        "occitan:Harley_7403:320",
+        "occitan:Harley_7403:400",
+        "occitan:Harley_7403:480",
+        "occitan:Harley_7403:560",
+        "occitan:Harley_7403:640",
+        "occitan:Harley_7403:720",
+        "occitan:Harley_7403:80",
+        "occitan:Harley_7403:800",
+        "occitan:Harley_7403:880",
+        "occitan:Harley_7403:960",
+        "occitan:NAF_11151:0",
+        "occitan:NAF_11151:1040",
+        "occitan:NAF_11151:1120",
+        "occitan:NAF_11151:1200",
+        "occitan:NAF_11151:160",
+        "occitan:NAF_11151:240",
+        "occitan:NAF_11151:320",
+        "occitan:NAF_11151:400",
+        "occitan:NAF_11151:480",
+        "occitan:NAF_11151:560",
+        "occitan:NAF_11151:640",
+        "occitan:NAF_11151:720",
+        "occitan:NAF_11151:80",
+        "occitan:NAF_11151:800",
+        "occitan:NAF_11151:880",
+        "occitan:NAF_11151:960"
+      ]
+    }
+  ],
+  "policy": "Exclude these complete works, manuscript contents and parallel versions from future fresh rounds; retain all previous exclusions."
+}

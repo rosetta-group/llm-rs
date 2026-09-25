@@ -23,6 +23,13 @@ with independent checks. The project uses two kinds of evidence:
   Voynich-like output, when given only the ciphertext? Here the answer is known and sealed
   until grading, so success and failure are unambiguous.
 
+The active cipher comparison now has **eight language candidates**: Latin, German,
+Old French, English, Italian, Catalan, Old Czech and Old Occitan. In the latest
+[two-language extension](../experiments/language-expansion/REPORT.md), both new
+languages rank correctly, but only Czech passes the acceptance rule. Occitan's
+recovery errors leave it just above the fixed ceiling. These are synthetic cipher
+controls, not language identifications of Voynich.
+
 ## Track one: prediction (closed)
 
 Large language models (Qwen 1.7B and 8B with small adapters) and small models trained from

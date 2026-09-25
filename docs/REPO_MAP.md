@@ -89,6 +89,7 @@ Each recovery round has a driver, a development folder and a fresh-evaluation fo
 | Voynich suspects | `voynich_suspects.py` | — | `voynich-suspects/` (training pages) |
 | Language-ID control | `language_id.py` | — | `language-id/` (5/5 correct) |
 | Historical language coverage | `language_coverage.py`, `language_coverage_sources.py` | `audit_language_coverage.py`, `report_language_coverage.py` | `language-coverage/` (paired baseline, expanded and omitted-language pilot) |
+| Old Czech / Old Occitan extension | `language_expansion.py`, `language_expansion_sources.py` | `audit_language_expansion.py`, `report_language_expansion.py` | `language-expansion/` (eight languages, two fresh source/key pairs) |
 | Round five | `joint_recovery_v5.py` (paired A/B/C segmenter arms) | round-four development | `joint-recovery-v5/` |
 | Word segmentation v3 | `word_segmentation_v3.py` (rubric-free extractor, diagnosis, unknown-word selection), `word_segmentation_v3_fresh.py` | `word-segmentation-v3/development.json` | `word-segmentation-v3-fresh/` (Compagni, ParTUT; transfer passed) |
 

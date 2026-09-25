@@ -7,6 +7,16 @@
 
 Updated: 2026-09-25
 
+**Eight-language extension completed, 2026-09-25.** At the user's request,
+[Old Czech and Old Occitan](experiments/language-expansion/REPORT.md) join the six
+active candidates. The two fresh controls rank correctly on fit and transfer; Czech
+passes acceptance (5.54% transfer CER), Occitan fails (15.19% CER; excess 0.525 against
+0.500). Both true-language omissions reject. Sixteen fits completed without caps;
+194 tests and all audit replays pass. The two-case feasibility target failed.
+Next: develop recovery on released cases, particularly Occitan, whose correct-text
+transfer excess is −0.139. Do not loosen the gate. Confirmation requires new source
+works/keys and retention controls for the earlier languages. No Voynich test was used.
+
 **Historical-language coverage pilot completed, 2026-09-25.** The
 [three-pair pilot](experiments/language-coverage/REPORT.md) adds Catalan and broadens
 Latin/German. The expanded set ranks the correct language first on both passages in

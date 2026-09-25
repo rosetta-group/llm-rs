@@ -54,6 +54,43 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+### 2026-09-25: Old Czech and Old Occitan extension completed
+
+**What was done**
+
+- Added two historical candidates to the active six, using licensed DIAKORP/HistCorp
+  and COMETA inputs. Each new model uses 400,000 letters across four works; two other
+  works calibrate it and two different works supply fit/transfer passages.
+- Froze sources, code, priors and the unchanged decision rule in `4b23333` before
+  generating two anonymous, independent-key ciphertext pairs. Completed 16 fits
+  without caps in 3,478.846 worker-seconds (0.966 hours).
+- Both new languages win both rankings. Czech passes acceptance with 4.79% fit /
+  **5.54% transfer CER**. Occitan gives 12.06% / **15.19% CER**, but fails the transfer
+  excess ceiling: **0.525 > 0.500**. Both omitted-language cases reject; the overall
+  feasibility target fails. The six-language baseline ranks Old French on both
+  passages of both cases, but rejects both.
+- All 194 tests pass. Re-extracted 2,538 source rows, rebuilt eight priors, replayed
+  four encryptions and 16 transfers; archived records round-trip by hash. No selected
+  challenge eight-word overlap with the audited references or earlier released text.
+
+**Why it was done**
+
+Czech adds a Slavic candidate and period medical material; Occitan adds a medieval
+Romance alternative to Catalan and Old French, as requested by the user.
+
+1. **Coverage helps this pilot.** The new languages replace incorrect rankings while
+   preserving rejection when omitted. Two cases are not an error-rate estimate.
+2. **Recovery remains the next target.** Correct Occitan transfer plaintext scores
+   at −0.139 excess, so recovery adds 0.664 bits/letter. Keep the failed gate and use
+   these released cases for development before fresh works/keys are tested.
+3. **Representation and scope remain limited.** Czech diacritics collapse in the
+   unchanged alphabet; Occitan mixes verse/prose and transcription conventions.
+   No fresh old-language retention controls or reserved Voynich text were used.
+
+[Report](experiments/language-expansion/REPORT.md),
+[records](experiments/language-expansion/archive.json),
+[released works to exclude](experiments/language-expansion/released-source-ids.json).
+
 ### 2026-09-25: historical language coverage pilot completed
 
 **Question:** does broader historical coverage improve identification and rejection

@@ -1,0 +1,422 @@
+{
+  "challenge_sha256": "c52e5f604ed7710ca559f5550ec8632b55cde490056a6d4616a8d79e69129e54",
+  "completed": [
+    "aacd44c9764fc899",
+    "3acd28510a87b558"
+  ],
+  "expanded_correct": 1,
+  "exploratory": true,
+  "feasibility_pass": false,
+  "fit_worker_seconds": 3478.8455362496898,
+  "freeze_sha256": "324542767616abb8d20fcba84672a2d5cce54a2b05762b656984c3a56aa4634b",
+  "omitted_rejected": 2,
+  "outcomes": [
+    {
+      "character_error": {
+        "czech": {
+          "fit_cer": 0.04788461538461539,
+          "transfer_cer": 0.055384615384615386
+        }
+      },
+      "decisions": {
+        "baseline": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.8644793713360959,
+            "margin": 0.23283831220950768,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7662397634933158,
+            "margin": 0.17683213085072635,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "expanded": {
+          "accepted": "czech",
+          "fit": {
+            "excess": 0.16515051446539797,
+            "margin": 0.5547023293949986,
+            "winner": "czech"
+          },
+          "inconclusive": false,
+          "reasons": [],
+          "transfer": {
+            "excess": 0.3387409072794769,
+            "margin": 1.247087553174389,
+            "winner": "czech"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "omitted": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7198528438603966,
+            "margin": 0.14462652747569926,
+            "winner": "occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.585828460453866,
+            "margin": 0.18041130303944986,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        }
+      },
+      "files": {
+        "artifacts/language-expansion/fit/aacd44c9764fc899-catalan.json": "a1a5921153ba0a395f2ecdc60d890b1a10fe6f19d7023ecccbba364c320035ab",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-czech.json": "50fe4efd4b46423b7c7362722611b25cced217983e5339662fefca8d9d6089b0",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-english.json": "e7c4f96a9b0b0d98d6f5a57dc9a92f8b55c2d72ef2983e39195fccc95fe14935",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-german_broad.json": "77480d8ebed6274097976c0ccfe50bbc86c855e110e9a9a7fb5a363c17f161a4",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-italian.json": "600e6dce4c6263abc7da6ef7d6710ddc04adc72f11634cdb8de7c4fda8f582d4",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-latin_broad.json": "cdac5c5ccc61de5de93314aae002b419f2c4ac1c4362c8a1dc770298f276bc5e",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-occitan.json": "476488f15c2ffec61c6901d6a8241b52653c70d34645afe6c6baa8ea6fcdd6e4",
+        "artifacts/language-expansion/fit/aacd44c9764fc899-old_french.json": "c22f7facb7734efe03dd1bd4da46275ef5a36848c7891ccf99111f69e44e8e29",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-catalan.json": "d39de71bd5ccdd12bd68dfd36da3443f738c867b85a6fb220c8c70db9809d69a",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-czech.json": "80cdb377df3995b4ed11e8d1c75218cf8a5d27a62aeaa00fbd14030cec5e1894",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-english.json": "9459e8042885c1a76009b6ecdc38e2ab3d1bcd1a0f46b59ea52aefe2036995ef",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-german_broad.json": "645267cb163a4fbb3bec594346f33a5046c4c9a3a709a8962989d1c3415bbaaf",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-italian.json": "0f3ec68e7e125eb3a4eb6672023deeceed4edeafa390c001ebbe2e5816274445",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-latin_broad.json": "068b415c9a77ceccafc0319d4c5e16eaf1c7eca0c8f1805e8c2e29d693279843",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-occitan.json": "386de38f0bbd833c5713a2885ee9af7139752fa6fae0a02015f7781b2ec612df",
+        "artifacts/language-expansion/transfer/aacd44c9764fc899-old_french.json": "f7fcdd47d8bbae92e14734ca6c60f5c1237d064a8d00462b39a2a9a0363e308c"
+      },
+      "id": "aacd44c9764fc899",
+      "language": "czech",
+      "scores": {
+        "catalan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9933139534883721,
+          "fit_excess": 2.026561622142765,
+          "seconds": 207.22429437504616,
+          "transfer_excess": 3.0351328444396355
+        },
+        "czech": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9918604651162791,
+          "fit_excess": 0.16515051446539797,
+          "seconds": 205.35974283295218,
+          "transfer_excess": 0.3387409072794769
+        },
+        "english": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9933139534883721,
+          "fit_excess": 1.7964564384449782,
+          "seconds": 207.267578125,
+          "transfer_excess": 2.7559680046458688
+        },
+        "german_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9930232558139535,
+          "fit_excess": 1.0973176835456036,
+          "seconds": 254.18024066695943,
+          "transfer_excess": 1.9430718943440421
+        },
+        "italian": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9930232558139535,
+          "fit_excess": 1.4556245168237378,
+          "seconds": 205.90118562499993,
+          "transfer_excess": 2.4751854176419963
+        },
+        "latin_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9930232558139535,
+          "fit_excess": 2.165575272064448,
+          "seconds": 210.4639641250251,
+          "transfer_excess": 3.3656565319967333
+        },
+        "occitan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9930232558139535,
+          "fit_excess": 0.7198528438603966,
+          "seconds": 253.80854449991602,
+          "transfer_excess": 1.585828460453866
+        },
+        "old_french": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9930232558139535,
+          "fit_excess": 0.8644793713360959,
+          "seconds": 206.63097349996679,
+          "transfer_excess": 1.7662397634933158
+        }
+      }
+    },
+    {
+      "character_error": {
+        "occitan": {
+          "fit_cer": 0.12057692307692308,
+          "transfer_cer": 0.1519230769230769
+        }
+      },
+      "decisions": {
+        "baseline": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.6799178157456942,
+            "margin": 0.3100001860720991,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5598995317101472,
+            "margin": 0.25734707671983115,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "expanded": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.191191707145832,
+            "margin": 0.4887261085998622,
+            "winner": "occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.5251538056275868,
+            "margin": 1.0347457260825603,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "omitted": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.6799178157456942,
+            "margin": 0.3100001860720991,
+            "winner": "old_french"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5598995317101472,
+            "margin": 0.25734707671983115,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        }
+      },
+      "files": {
+        "artifacts/language-expansion/fit/3acd28510a87b558-catalan.json": "9aece7a31aa0cc6bfe6c8049f9c591bcc5fcaf1650f0945ee1d0a0d864f4ef2b",
+        "artifacts/language-expansion/fit/3acd28510a87b558-czech.json": "0690b6193dcba16a09d957d0f9e0e0ebec7886eec3953470fb650361a12e981c",
+        "artifacts/language-expansion/fit/3acd28510a87b558-english.json": "8a824ba6495e0f3440314cfb93a0d9fb4086efeccdd5645d8a6303c2371d837a",
+        "artifacts/language-expansion/fit/3acd28510a87b558-german_broad.json": "079389f692f79375d1fc65758e44eb631e85a1e424adc1451bee2e6be2216114",
+        "artifacts/language-expansion/fit/3acd28510a87b558-italian.json": "71d20fc1abcdf9cc455df3f95b970dd362f18ef5c8c22f32744bb9f5afac068c",
+        "artifacts/language-expansion/fit/3acd28510a87b558-latin_broad.json": "ea8a9f8cab0858f77df836d43f016404097efdb387edb70ef4525033b763645d",
+        "artifacts/language-expansion/fit/3acd28510a87b558-occitan.json": "d3558a5278b8c6c41a57923980407fd644437f844ff58251889a5a3f81a15839",
+        "artifacts/language-expansion/fit/3acd28510a87b558-old_french.json": "1b79fa413aba5d804993320cb11b8deda86fecdd48faf09e7cf13ad8053f65a6",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-catalan.json": "f6f79ac19b38cc4d11fe87c4c697ec46bc3fb28d68f0254bce9c4fe78ffe79e0",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-czech.json": "0803f57abf1c77f350cd9043718228e59ec91dcedc2eaffb221c814d28fa271b",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-english.json": "0f23de84957e476b86d160a466cdc9dea159ac54d1164c910ac2445d469f73e2",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-german_broad.json": "802ab561e7dcd6f4f21a26901def4f4583b2c713d36c1ae4730bcaa4b9bf55e4",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-italian.json": "c7628540865bebe28687d6dcc934f93dabc9d8e20c84ab3cb5d1060fba1c0df0",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-latin_broad.json": "5426cee65db2884f01dd7e5dd627f09cdc34825d3911ee7f53fc37e9b6765bf8",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-occitan.json": "c42a275637868d6ecb862db098171102d4268e4e1d2aec88c2d6177f46338d5c",
+        "artifacts/language-expansion/transfer/3acd28510a87b558-old_french.json": "7358e54caa965eddd7772fd65ef3b6791f20d19576a8e43b2d9f3540ea72299f"
+      },
+      "id": "3acd28510a87b558",
+      "language": "occitan",
+      "scores": {
+        "catalan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9737762237762237,
+          "fit_excess": 1.8380717865165064,
+          "seconds": 207.76118024997413,
+          "transfer_excess": 2.897104738830942
+        },
+        "czech": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9731934731934732,
+          "fit_excess": 1.1283491256013605,
+          "seconds": 208.26211458304897,
+          "transfer_excess": 2.0792115616654296
+        },
+        "english": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9746503496503497,
+          "fit_excess": 1.8426828975646563,
+          "seconds": 211.82549754192587,
+          "transfer_excess": 2.8852587976828925
+        },
+        "german_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9752331002331003,
+          "fit_excess": 0.9899180018177933,
+          "seconds": 233.92942545795813,
+          "transfer_excess": 1.8172466084299783
+        },
+        "italian": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9726107226107226,
+          "fit_excess": 1.4279642201440081,
+          "seconds": 207.08065362495836,
+          "transfer_excess": 2.4277886671393025
+        },
+        "latin_broad": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9731934731934732,
+          "fit_excess": 2.2430080082844706,
+          "seconds": 209.33120529190637,
+          "transfer_excess": 3.269089818945422
+        },
+        "occitan": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9743589743589743,
+          "fit_excess": 0.191191707145832,
+          "seconds": 239.4289837500546,
+          "transfer_excess": 0.5251538056275868
+        },
+        "old_french": {
+          "cap_hit": false,
+          "cap_hits": {
+            "case": false,
+            "first": false,
+            "refine": false,
+            "repair": false,
+            "second": false
+          },
+          "coverage": 0.9749417249417249,
+          "fit_excess": 0.6799178157456942,
+          "seconds": 210.38995199999772,
+          "transfer_excess": 1.5598995317101472
+        }
+      }
+    }
+  ],
+  "planned_pairs": 2,
+  "stop_reason": null,
+  "voynich_used": false
+}

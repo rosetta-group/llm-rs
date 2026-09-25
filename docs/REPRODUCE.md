@@ -134,6 +134,32 @@ Future fresh rounds must exclude the complete source groups in
 `experiments/language-coverage/released-source-ids.json` as well as previously released
 material. Catalan folio separation is within one chronicle, not an independent-author test.
 
+### Old Czech and Old Occitan extension
+
+The [eight-language extension](../experiments/language-expansion/REPORT.md) preserves
+the six active models and adds two equal-budget priors. Each new language has one
+fresh key and two different source works; the comparison requires 16 fits.
+
+```sh
+.venv/bin/python -m experiments.language_expansion_sources download
+.venv/bin/python -m experiments.language_expansion verify
+.venv/bin/python -m experiments.language_expansion replay
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_language_expansion -v
+```
+
+Restore its evaluated-records archive under `artifacts/language-expansion/`, without
+overwriting existing files. Rebuild priors from its `partitions.json` training rows
+with `CharacterPrior.fit`, save them as `priors/{model}.npz`, and compare the frozen
+probability hashes. Earlier coverage sources/models and their frozen dependencies
+are still required. `audit_language_expansion` also re-extracts new source rows,
+rebuilds models and replays encryption; its sealed outputs must be absent in a
+reproduction checkout. Do not rerun `prepare` against already evaluated sources.
+
+Future fresh rounds must exclude complete works/manuscripts in
+`language-expansion/released-source-ids.json`, parallel versions, and all earlier
+exclusions. Czech derivatives retain **CC BY-NC-SA 4.0**; Occitan derivatives retain
+**CC BY 4.0**. Attribution and changes are recorded in the archive's `ATTRIBUTION.md`.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:
