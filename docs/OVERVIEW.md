@@ -10,6 +10,9 @@ Read this page first. The [results table](RESULTS.md) has every number; the
 [research log](../RESEARCH_LOG.md) is the full chronological record. The complete Voynich account,
 including round six, the corrections and the mechanism checks, is [VOYNICH.md](VOYNICH.md).
 
+Read the [Voynich progress synthesis](VOYNICH_PROGRESS.md) for the connected account of
+recovery, rejection, faster search, and the eight-language comparison.
+
 ## The question, and why it is hard
 
 Nobody knows a single Voynich word for certain. There is therefore no answer key. Any method

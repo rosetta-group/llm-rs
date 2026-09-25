@@ -12,6 +12,9 @@ undeciphered script.
 The full Voynich account (methods, sealed results, corrections, mechanism checks, open items) is
 [docs/VOYNICH.md](docs/VOYNICH.md).
 
+For a connected account of the recovery work, rejection tests and eight-language expansion,
+read **[Voynich research progress](docs/VOYNICH_PROGRESS.md)** (25 September 2026).
+
 ## Where things stand
 
 | Question | Answer so far | Record |

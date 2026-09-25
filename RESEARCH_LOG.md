@@ -54,6 +54,17 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+### 2026-09-25: consolidated Voynich write-up and default-branch integration
+
+Added a [connected research synthesis](docs/VOYNICH_PROGRESS.md) covering the earlier
+recovery results, corrections, rejection screens, three follow-ups, historical coverage,
+and Czech/Occitan extension. It separates language acceptance from manuscript readiness
+and records the remaining confirmation work. Integration includes the complete Voynich
+branch history and evaluated archives; unrelated research branches remain separate.
+All 194 tests pass before integration. The canonical branch is `master`, matching
+GitHub default HEAD and `origin/HEAD`; `main` was only a redundant local alias with
+no unique commits. Integration targets `master`.
+
 ### 2026-09-25: Old Czech and Old Occitan extension completed
 
 **What was done**

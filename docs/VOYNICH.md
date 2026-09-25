@@ -1,9 +1,12 @@
 # The Voynich track: what was done, what was found, what it means
 
-Status on 2026-09-24. This document summarises the whole Voynich effort in this repository. Every
+Status on 2026-09-25. This document summarises the whole Voynich effort in this repository. Every
 number comes from a frozen, linked record. The [research log](../RESEARCH_LOG.md) is the full
 chronology, the [results table](RESULTS.md) lists every result, and the [glossary](GLOSSARY.md)
 defines terms.
+
+A shorter [research synthesis](VOYNICH_PROGRESS.md) connects this history to the latest
+rejection tests and eight-language comparison.
 
 **Headline.** No Voynich word, passage or language has been identified, and no claim of one is made.
 What exists is a validated decoding method for one candidate cipher family (Naibbe), tested on sealed
