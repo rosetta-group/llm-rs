@@ -117,6 +117,24 @@ their controls. So no Linear A language result exists.
 | Four | object signs by held-out system label | barley on capacity tablets, p = 0.018 | grain signs M288/M036/M297 on 10 of 11 capacity vs 1 of 8 counting tablets, p = 0.0012; people/animal signs p = 0.55 | [report](../experiments/proto-elamite-signs-loo/REPORT.md) |
 | Five (exploratory) | constant quantity ratios between consecutive entries, 46 pairs | no control available | only survivor is a ratio of 1 (repeated amounts); no exchange rate found | [report](../experiments/proto-elamite-ratios/REPORT.md) |
 
+## Etruscan (branch `etruscan`; closed 2026-09-24)
+
+The [closure report](ETRUSCAN.md) consolidates the six modeling stages, source audit,
+preservation checks and limits. These stages use different samples and metrics.
+
+| Stage | Main result | Record |
+|---|---|---|
+| Formula context | 44.1% balanced accuracy; internal gate passed, KIN/LIFE precision only 6% each | [report](../experiments/etruscan/REPORT.md) |
+| Fresh-word test | 28.1% balanced accuracy on 49 nominally fresh words; failed; freshness later qualified by loader audit | [report](../experiments/etruscan-fresh/REPORT.md) |
+| Repair and abstention | 85.4% accepted precision at 45.0% coverage; no accepted KIN/NUM/LIFE calls; failed | [report](../experiments/etruscan-repair/REPORT.md) |
+| Names as scaffolding | Joint model 0/8 targets; local model 1/8; failed | [report](../experiments/etruscan-scaffolding/REPORT.md) |
+| Complete participant graphs | 10/16 exact; 11/11 accepted relationships correct, 11/23 recovered; failed recall gate | [report](../experiments/etruscan-graphs/REPORT.md) |
+| Clause coverage | 4/20 exact; 4/8 accepted relationships correct, 4/36 recovered; 0/8 mixed graphs; failed | [report](../experiments/etruscan-clauses/REPORT.md) |
+| Evidence audit | 9 exposed cases: 3 corroborated, 1 partly corroborated, 3 disputed, 2 unverified; all await expert review | [report](../experiments/etruscan-evidence/REPORT.md) |
+
+No unknown-word predictions or new meanings are validated. Earlier scores remain
+unchanged; all 66 exposed monuments are development material.
+
 ## Operational
 
 | Item | Status | Record |

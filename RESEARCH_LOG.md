@@ -54,6 +54,23 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+### 2026-09-25: preserve and integrate the complete Etruscan branch
+
+Committed the accumulated Etruscan work in `c9d787e`, including the repair,
+scaffolding, graph and clause stages, evidence audit, tests and closure record.
+Merged the branch into canonical `master`, retaining the newer Voynich results
+and the existing Rongorongo/Proto-Elamite documentation. No experiment was rerun
+or regraded. Etruscan remains closed.
+
+All 238 combined tests and the evidence verification pass. The five later freezes
+match all 91 entries; 112 of 113 entries across all six freezes match the current
+tree, and the remaining entry matches its recorded historical version. The eight
+closure document snapshots verify against `c9d787e`. Round one's shared `etruscan/corpus.py` differs from its
+original freeze because later Etruscan work changed it; the exact frozen version
+is preserved in `18945f1f32`. See [preservation notes](docs/ETRUSCAN.md#preservation-and-verification).
+Local environment/artifact symlinks use shared Git exclusions, like their already
+ignored directory targets; research data was not deleted to obtain clean status.
+
 ### 2026-09-25: consolidated Voynich write-up and default-branch integration
 
 Added a [connected research synthesis](docs/VOYNICH_PROGRESS.md) covering the earlier
@@ -834,3 +851,36 @@ After each experiment, add its question, fixed settings, result, limitations, an
 implication for meaning recovery here. Preserve old reports and failed attempts.
 Distinguish planned, running, completed, and verified work. Do not turn a prediction
 milestone into a translation claim, or keep expanding the statistics track indefinitely.
+
+## 2026-09-24 — Etruscan track closed
+
+The user requested a complete write-up and closure after six modeling stages and
+a source evidence audit. [docs/ETRUSCAN.md](docs/ETRUSCAN.md) is the consolidated
+record; the scope, plan, overview, results index and README now mark the track closed.
+
+- Formula context passed its internal gate at 44.1% balanced accuracy, but rare-class
+  precision was weak. The nominally fresh-word test failed at 28.1%.
+- A separate repair fixed discarded dictionary glosses and qualified the old test's
+  freshness. Abstention plus endings achieved 85.4% precision at 45.0% coverage,
+  almost entirely on names; both repaired methods failed their continuation gate.
+- Name scaffolding recovered no hidden targets with the joint model (local: 1/8).
+  Complete participant graphs then recovered 10/16 exact interpretations, with
+  11/11 accepted relationships correct but only 47.8% recall, below the 60% gate.
+- Clause coverage on 20 different inscriptions recovered 4/20 exact graphs and
+  0/8 mixed graphs. A name-count baseline performed better. All 36 reference
+  relationships were generated; weak predicate and role evidence remained limiting.
+- The nine-inscription evidence audit records three corroborated, one partly
+  corroborated, three disputed and two unverified cases. Six relationships have
+  source support. All nine await expert review; none is a fresh evaluation case.
+
+The closure preserves the limited positive result and the negative results. It
+claims no new meaning and does not declare all Etruscan computation exhausted.
+All 66 exposed monuments remain development material. Reopening requires reviewed
+evidence, a distinct hypothesis and a separately reserved evaluation; no further
+model fit, unknown-word prediction or expert outreach is scheduled.
+
+The closure verification is in
+[experiments/etruscan-closure/closure.json](experiments/etruscan-closure/closure.json).
+Earlier frozen reports, code, source hashes and scores are preserved. This entry
+and the closure document are documentation changes, not a new experiment or a
+commit/publication of the accumulated working tree.

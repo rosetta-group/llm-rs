@@ -1,0 +1,371 @@
+{
+ "dedupe_dropped_texts": 45,
+ "gate_rerun": {
+  "latin": {
+   "M1_neighbour_words": {
+    "real": 0.4011,
+    "corpus_shuffled": 0.2016,
+    "permuted_labels": 0.2056,
+    "within_text_shuffled": 0.214
+   },
+   "M2_neighbour_classes": {
+    "real": 0.4482,
+    "corpus_shuffled": 0.1904,
+    "permuted_labels": 0.1661,
+    "within_text_shuffled": 0.2536
+   }
+  },
+  "etruscan": {
+   "M1_neighbour_words": {
+    "real": 0.3626,
+    "corpus_shuffled": 0.2018,
+    "permuted_labels": 0.1992,
+    "within_text_shuffled": 0.2399
+   },
+   "M2_neighbour_classes": {
+    "real": 0.4501,
+    "corpus_shuffled": 0.176,
+    "permuted_labels": 0.194,
+    "within_text_shuffled": 0.2906
+   }
+  },
+  "M2_passed": true,
+  "size": {
+   "texts": 506,
+   "tokens": 2188,
+   "labelled_types": 764
+  }
+ },
+ "primary_etp_plus_ciep": {
+  "balanced_accuracy": 0.2806818181818182,
+  "accuracy": 0.24489795918367346,
+  "chance": 0.25,
+  "recall": {
+   "NAME": 0.2727272727272727,
+   "KIN": 0.5,
+   "NUM": 0.25,
+   "OTHER": 0.1
+  },
+  "precision": {
+   "NAME": 0.8181818181818182,
+   "KIN": 0.058823529411764705,
+   "NUM": 0.14285714285714285,
+   "LIFE": 0.0,
+   "OTHER": 1.0
+  },
+  "p_corpus_shuffled": 0.1798201798201798,
+  "p_permuted_labels": 0.18681318681318682,
+  "null_means": {
+   "corpus_shuffled": 0.19015643939393942,
+   "permuted_labels": 0.17940189393939393
+  },
+  "passed": false,
+  "items": 49,
+  "items_by_class": {
+   "OTHER": 10,
+   "NAME": 33,
+   "KIN": 2,
+   "NUM": 4
+  },
+  "predictions": {
+   "acasce": [
+    "OTHER",
+    "OTHER"
+   ],
+   "achu": [
+    "NAME",
+    "LIFE"
+   ],
+   "achual": [
+    "NAME",
+    "NAME"
+   ],
+   "achui": [
+    "NAME",
+    "NAME"
+   ],
+   "acilu": [
+    "NAME",
+    "KIN"
+   ],
+   "ale": [
+    "OTHER",
+    "NAME"
+   ],
+   "alza": [
+    "OTHER",
+    "LIFE"
+   ],
+   "ancarial": [
+    "NAME",
+    "KIN"
+   ],
+   "apa": [
+    "KIN",
+    "NUM"
+   ],
+   "armni": [
+    "NAME",
+    "LIFE"
+   ],
+   "arznis": [
+    "NAME",
+    "NAME"
+   ],
+   "caia": [
+    "NAME",
+    "NAME"
+   ],
+   "caial": [
+    "NAME",
+    "NUM"
+   ],
+   "caspu": [
+    "NAME",
+    "KIN"
+   ],
+   "cavinal": [
+    "NAME",
+    "NUM"
+   ],
+   "ceicna": [
+    "NAME",
+    "LIFE"
+   ],
+   "cevlna": [
+    "NAME",
+    "LIFE"
+   ],
+   "charun": [
+    "OTHER",
+    "LIFE"
+   ],
+   "cneunas": [
+    "NAME",
+    "KIN"
+   ],
+   "cnevial": [
+    "NAME",
+    "KIN"
+   ],
+   "cnevna": [
+    "NAME",
+    "NAME"
+   ],
+   "eiser": [
+    "OTHER",
+    "KIN"
+   ],
+   "faluthras": [
+    "NAME",
+    "NUM"
+   ],
+   "farthne": [
+    "OTHER",
+    "KIN"
+   ],
+   "fulnei": [
+    "NAME",
+    "NAME"
+   ],
+   "kastur": [
+    "OTHER",
+    "LIFE"
+   ],
+   "lauchume": [
+    "OTHER",
+    "KIN"
+   ],
+   "lautni": [
+    "KIN",
+    "KIN"
+   ],
+   "mach": [
+    "NUM",
+    "LIFE"
+   ],
+   "machs": [
+    "NUM",
+    "NUM"
+   ],
+   "masui": [
+    "NAME",
+    "LIFE"
+   ],
+   "menerva": [
+    "OTHER",
+    "NUM"
+   ],
+   "menrva": [
+    "OTHER",
+    "KIN"
+   ],
+   "metli": [
+    "NAME",
+    "NAME"
+   ],
+   "pacinal": [
+    "NAME",
+    "LIFE"
+   ],
+   "petrnial": [
+    "NAME",
+    "KIN"
+   ],
+   "petrnis": [
+    "NAME",
+    "LIFE"
+   ],
+   "petru": [
+    "NAME",
+    "NAME"
+   ],
+   "petrual": [
+    "NAME",
+    "KIN"
+   ],
+   "petrui": [
+    "NAME",
+    "LIFE"
+   ],
+   "petruial": [
+    "NAME",
+    "KIN"
+   ],
+   "petruis": [
+    "NAME",
+    "KIN"
+   ],
+   "puina": [
+    "NAME",
+    "NUM"
+   ],
+   "setres": [
+    "NAME",
+    "KIN"
+   ],
+   "sveitu": [
+    "NAME",
+    "KIN"
+   ],
+   "thu": [
+    "NUM",
+    "LIFE"
+   ],
+   "thun": [
+    "NUM",
+    "NAME"
+   ],
+   "tlapu": [
+    "NAME",
+    "NAME"
+   ],
+   "velani": [
+    "NAME",
+    "KIN"
+   ]
+  }
+ },
+ "secondary_etp": {
+  "balanced_accuracy": 0.15625,
+  "accuracy": 0.17647058823529413,
+  "chance": 0.25,
+  "recall": {
+   "NAME": 0.125,
+   "KIN": 0.0,
+   "NUM": 0.5,
+   "OTHER": 0.0
+  },
+  "precision": {
+   "NAME": 0.25,
+   "KIN": 0.0,
+   "NUM": 0.3333333333333333,
+   "LIFE": 0.0,
+   "OTHER": null
+  },
+  "p_corpus_shuffled": 0.6193806193806194,
+  "p_permuted_labels": 0.6313686313686314,
+  "null_means": {
+   "corpus_shuffled": 0.19236458333333334,
+   "permuted_labels": 0.19947916666666668
+  },
+  "passed": false,
+  "items": 17,
+  "items_by_class": {
+   "NAME": 8,
+   "KIN": 2,
+   "OTHER": 3,
+   "NUM": 4
+  },
+  "predictions": {
+   "ale": [
+    "OTHER",
+    "NAME"
+   ],
+   "alza": [
+    "OTHER",
+    "LIFE"
+   ],
+   "apa": [
+    "KIN",
+    "NUM"
+   ],
+   "caia": [
+    "NAME",
+    "KIN"
+   ],
+   "caial": [
+    "NAME",
+    "NUM"
+   ],
+   "cavinal": [
+    "NAME",
+    "NUM"
+   ],
+   "eiser": [
+    "OTHER",
+    "KIN"
+   ],
+   "lautni": [
+    "KIN",
+    "NAME"
+   ],
+   "mach": [
+    "NUM",
+    "LIFE"
+   ],
+   "machs": [
+    "NUM",
+    "NUM"
+   ],
+   "petru": [
+    "NAME",
+    "NAME"
+   ],
+   "petrual": [
+    "NAME",
+    "KIN"
+   ],
+   "petruis": [
+    "NAME",
+    "KIN"
+   ],
+   "puina": [
+    "NAME",
+    "NUM"
+   ],
+   "thu": [
+    "NUM",
+    "NUM"
+   ],
+   "thun": [
+    "NUM",
+    "NAME"
+   ],
+   "velani": [
+    "NAME",
+    "KIN"
+   ]
+  }
+ }
+}

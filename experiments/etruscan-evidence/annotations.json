@@ -1,0 +1,1246 @@
+{
+  "annotation_author": "Codex source audit; no external expert review",
+  "created": "2026-09-24",
+  "purpose": "development_evidence_only",
+  "records": [
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Ta 1.168",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 113, Ta 1.168; PDF page 3",
+              "source": "lopez2012_14"
+            }
+          ],
+          "kind": "reading_variant",
+          "note": "Legacy N:xxii differs from the damaged -XII reading; preserve uncertainty, not an exact age."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "SPOUSE_OF",
+            "e0",
+            "e1"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 182, example 15; PDF page 6",
+              "source": "schulze1993"
+            }
+          ],
+          "frame": [
+            "SPOUSE_OF",
+            "e0",
+            "e1"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            4,
+            5
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 182, example 15; PDF page 6",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "SPOUSE_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            4,
+            5
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 113, Ta 1.168; PDF page 3",
+              "source": "lopez2012_14"
+            }
+          ],
+          "label": "DEATH_OUTSIDE_GRAPH",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            6
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 113, Ta 1.168; PDF page 3",
+              "source": "lopez2012_14"
+            }
+          ],
+          "label": "AGE_OUTSIDE_GRAPH",
+          "note": "Numerical value is not endorsed.",
+          "status": "corroborated",
+          "tokens": [
+            7,
+            8
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 113, Ta 1.168; PDF page 3",
+              "source": "lopez2012_14"
+            }
+          ],
+          "label": "UNNAMED_CHILDREN_OUTSIDE_GRAPH",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "status": "corroborated",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "semni",
+        "ramtha",
+        "spitus",
+        "larthal",
+        "puia",
+        "amce",
+        "lupu",
+        "avils",
+        "N:xxii",
+        "husur",
+        "ci",
+        "acnanas"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            0
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            3,
+            4
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Cr 5.2",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "kind": "excerpt_only",
+          "note": "The published inscription continues beyond the legacy excerpt; graph completeness applies only to that excerpt."
+        },
+        {
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "kind": "ontology_coarsening",
+          "note": "MADE includes commissioning construction, not necessarily personal manual labour."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          [
+            "CHILD_OF",
+            "e1",
+            "e2"
+          ],
+          [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ],
+          [
+            "MADE",
+            "e1",
+            "OBJECT"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "frame": [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            5
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "frame": [
+            "CHILD_OF",
+            "e1",
+            "e2"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            5
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            },
+            {
+              "locator": "p. 179, SOV example Cr 5.2; PDF page 3",
+              "source": "schulze1993"
+            }
+          ],
+          "frame": [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            9
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            },
+            {
+              "locator": "p. 179, SOV example Cr 5.2; PDF page 3",
+              "source": "schulze1993"
+            }
+          ],
+          "frame": [
+            "MADE",
+            "e1",
+            "OBJECT"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            9
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "label": "PLURAL_CHILD_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            5
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            },
+            {
+              "locator": "p. 179, SOV example Cr 5.2; PDF page 3",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "CONSTRUCTION_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            9
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "pp. 68-69, CIE 6213 = ET Cr 5.2; full-volume PDF pages 69-70",
+              "source": "rigobianco2025"
+            }
+          ],
+          "label": "CONSTRUCTION_OBJECT",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            7,
+            8
+          ]
+        }
+      ],
+      "status": "corroborated",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "laris",
+        "av",
+        "le",
+        "laris",
+        "al",
+        "clenar",
+        "sval",
+        "cn",
+        "suthi",
+        "cerichunce"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            1
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Cr 3.20",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 116, TLE 868; PDF page 2",
+              "source": "desimone1970"
+            }
+          ],
+          "kind": "scope",
+          "note": "This explicit active formula does not settle the agent/recipient interpretation of every mulu plus -si formula."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "e1"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-graphs/manifest.json",
+        "manifest_sha256": "f97aaf873e050d61bc8d674a8c443f46aed0afc6b40dc5c05f52221ed4c6fc3e"
+      },
+      "relations": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116, TLE 868; PDF page 2",
+              "source": "desimone1970"
+            }
+          ],
+          "frame": [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "e1"
+          ],
+          "status": "corroborated",
+          "tokens": [
+            4
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116, TLE 868; PDF page 2",
+              "source": "desimone1970"
+            }
+          ],
+          "label": "TRANSFER_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            4
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116, TLE 868; PDF page 2",
+              "source": "desimone1970"
+            }
+          ],
+          "label": "DONOR_ROLE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            1
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116, TLE 868; PDF page 2",
+              "source": "desimone1970"
+            }
+          ],
+          "label": "RECIPIENT_ROLE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            2,
+            3
+          ]
+        }
+      ],
+      "status": "corroborated",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "mini",
+        "aranth",
+        "ramuthasi",
+        "vestiricinala",
+        "muluvanice"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Ve 3.2",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 190, section 6.2.3.1, Ve 3.2 under pronoun-as-object SOV; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "kind": "representation_collision",
+          "note": "Keep mene distinct from the training men maker token; the three-letter hash conflated them."
+        },
+        {
+          "evidence": [],
+          "kind": "review_needed",
+          "note": "The two-donor graph is retained from Larth; this audit corroborates the construction, not a separate expert adjudication of every name role."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ],
+          [
+            "TRANSFER",
+            "e1",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ],
+          "status": "carried_forward",
+          "tokens": [
+            5
+          ]
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "TRANSFER",
+            "e1",
+            "OBJECT",
+            "UNSPECIFIED"
+          ],
+          "status": "carried_forward",
+          "tokens": [
+            5
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 190, section 6.2.3.1, Ve 3.2 under pronoun-as-object SOV; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "OBJECT_PRONOUN",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            4
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 190, section 6.2.3.1, Ve 3.2 under pronoun-as-object SOV; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "TRANSFER_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            5
+          ]
+        }
+      ],
+      "status": "partially_corroborated",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "velthur",
+        "tulumnes",
+        "pesna",
+        "nuzinaie",
+        "mene",
+        "muluvanice"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            1,
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Cr 3.18",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 116 TLE 769, pp. 119-120 note 14; PDF pages 2, 5-6",
+              "source": "desimone1970"
+            }
+          ],
+          "kind": "role_ambiguity",
+          "note": "Alternative graphs are hypotheses, not two simultaneous gifts or newly adjudicated gold."
+        },
+        {
+          "evidence": [
+            {
+              "locator": "Speaking-objects paragraph, alabastron 26.60.94",
+              "source": "met2013"
+            }
+          ],
+          "kind": "source_precision",
+          "note": "Museum wording associates the gift with Licinius; it does not by itself formally resolve agent versus recipient."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [
+            {
+              "locator": "p. 116 TLE 769, pp. 119-120 note 14; PDF pages 2, 5-6",
+              "source": "desimone1970"
+            },
+            {
+              "locator": "Speaking-objects paragraph, alabastron 26.60.94",
+              "source": "met2013"
+            }
+          ],
+          "frame": [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ],
+          "status": "disputed",
+          "tokens": [
+            2
+          ]
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [
+            {
+              "locator": "p. 116 TLE 769, pp. 119-120 note 14; PDF pages 2, 5-6",
+              "source": "desimone1970"
+            }
+          ],
+          "frame": [
+            "TRANSFER",
+            "UNSPECIFIED",
+            "OBJECT",
+            "e0"
+          ],
+          "status": "disputed",
+          "tokens": [
+            2
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116 TLE 769, pp. 119-120 note 14; PDF pages 2, 5-6",
+              "source": "desimone1970"
+            },
+            {
+              "locator": "Speaking-objects paragraph, alabastron 26.60.94",
+              "source": "met2013"
+            }
+          ],
+          "label": "GIFT_EXPRESSION",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            2
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 116 TLE 769, pp. 119-120 note 14; PDF pages 2, 5-6",
+              "source": "desimone1970"
+            }
+          ],
+          "label": "AGENT_OR_RECIPIENT_ROLE",
+          "note": "",
+          "status": "disputed",
+          "tokens": [
+            1,
+            3
+          ]
+        }
+      ],
+      "status": "disputed",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "mi",
+        "licenesi",
+        "mulu",
+        "hirsunaiesi"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Vt 1.58",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 74 note 44, CIE 11 = ET Vt 1.58; full-volume PDF page 75",
+              "source": "rigobianco2025"
+            }
+          ],
+          "kind": "interpretation_ambiguity",
+          "note": "The recent study explicitly flags the name formula as non-univocal."
+        },
+        {
+          "evidence": [
+            {
+              "locator": "printed p. 10, entry 11 and apparatus; PDF page 4",
+              "source": "cie11"
+            }
+          ],
+          "kind": "reading_variant",
+          "note": "CIE preserves and discusses competing name readings; retain legacy tokens only as a versioned transcription."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [
+            {
+              "locator": "p. 74 note 44, CIE 11 = ET Vt 1.58; full-volume PDF page 75",
+              "source": "rigobianco2025"
+            }
+          ],
+          "frame": [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          "status": "disputed",
+          "tokens": []
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [
+            {
+              "locator": "p. 74 note 44, CIE 11 = ET Vt 1.58; full-volume PDF page 75",
+              "source": "rigobianco2025"
+            }
+          ],
+          "frame": [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ],
+          "status": "disputed",
+          "tokens": []
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 74 note 44, CIE 11 = ET Vt 1.58; full-volume PDF page 75",
+              "source": "rigobianco2025"
+            },
+            {
+              "locator": "printed p. 10, entry 11 and apparatus; PDF page 4",
+              "source": "cie11"
+            }
+          ],
+          "label": "NAME_FORMULA_UNRESOLVED",
+          "note": "",
+          "status": "disputed",
+          "tokens": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "status": "disputed",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "mi",
+        "larus",
+        "arianas",
+        "anasnies",
+        "klan"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            0,
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "AV 6.1",
+      "issues": [
+        {
+          "evidence": [
+            {
+              "locator": "p. 190 section 6.3.1.1.2 and note 6; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "kind": "entity_anchor_ambiguity",
+          "note": "The source allows titenas as another object unless it is the subject's family name; the old single-person anchor is not independently settled."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-graphs/manifest.json",
+        "manifest_sha256": "f97aaf873e050d61bc8d674a8c443f46aed0afc6b40dc5c05f52221ed4c6fc3e"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [
+            {
+              "locator": "p. 190 section 6.3.1.1.2 and note 6; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "frame": [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ],
+          "status": "disputed",
+          "tokens": [
+            2
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 190 section 6.3.1.1.2 and note 6; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "MAKING_PREDICATE",
+          "note": "",
+          "status": "corroborated",
+          "tokens": [
+            2
+          ]
+        },
+        {
+          "basis": "analyst_alignment",
+          "evidence": [
+            {
+              "locator": "p. 190 section 6.3.1.1.2 and note 6; PDF page 14",
+              "source": "schulze1993"
+            }
+          ],
+          "label": "SURNAME_OR_SECOND_PARTICIPANT",
+          "note": "",
+          "status": "disputed",
+          "tokens": [
+            3
+          ]
+        }
+      ],
+      "status": "disputed",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "thucer",
+        "itane",
+        "zinace",
+        "titenas"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            2
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            3,
+            4
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Ru 5.1",
+      "issues": [
+        {
+          "evidence": [],
+          "kind": "source_gap",
+          "note": "No independent passage settling the complete role graph was located in this bounded search. Legacy interpretation is neither confirmed nor rejected."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          "status": "carried_forward",
+          "tokens": []
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          "status": "carried_forward",
+          "tokens": []
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ],
+          "status": "carried_forward",
+          "tokens": []
+        }
+      ],
+      "spans": [],
+      "status": "unverified",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "vl",
+        "afuna",
+        "vl",
+        "pes",
+        "nalisa",
+        "cn",
+        "suthi",
+        "cerichunce"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "kind": "PERSON",
+          "tokens": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "PERSON",
+          "tokens": [
+            3
+          ]
+        }
+      ],
+      "expert_review": "pending",
+      "fresh_evaluation_eligible": false,
+      "id": "Vs 1.28",
+      "issues": [
+        {
+          "evidence": [],
+          "kind": "source_gap",
+          "note": "No independent passage settling the complete role graph was located in this bounded search. Legacy interpretation is neither confirmed nor rejected."
+        }
+      ],
+      "original": {
+        "gold": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "manifest_path": "experiments/etruscan-clauses/manifest.json",
+        "manifest_sha256": "4c140139bbf9f0017db669e4ace29f38f465d61eb623a936fb6d8940c6444507"
+      },
+      "relations": [
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          "status": "carried_forward",
+          "tokens": []
+        },
+        {
+          "basis": "legacy_or_alternative_reading",
+          "evidence": [],
+          "frame": [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ],
+          "status": "carried_forward",
+          "tokens": []
+        }
+      ],
+      "spans": [],
+      "status": "unverified",
+      "text_scope": "the frozen dataset excerpt; not necessarily the complete monument",
+      "tokens": [
+        "mi",
+        "larthia",
+        "hulchenas",
+        "velthurus",
+        "cles"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "sources": [
+    {
+      "author": "Britta Schulze-Thulin",
+      "bytes": 1612012,
+      "id": "schulze1993",
+      "independence_limits": "Independent publication; shares ET/Rix scholarship. Not an independent archaeological observation.",
+      "local_path": "artifacts/etruscan-sources/evidence-audit/schulze-thulin-word-order.pdf",
+      "publication": "Studi Etruschi 58, 177-195",
+      "retrieved": "2026-09-24",
+      "sha256": "0e4bb28313be4e832ae27a40970c781779638ea9729324281492d5fd5e6b5ecd",
+      "title": "Zur Wortstellung im Etruskischen",
+      "url": "https://www.studietruschi.org/wp-content/uploads/2021/06/SE58_11.pdf",
+      "year": "1993"
+    },
+    {
+      "author": "Carlo de Simone",
+      "bytes": 3094525,
+      "id": "desimone1970",
+      "independence_limits": "Direct grammatical argument and discussion of competing interpretations; historical, not current consensus by itself.",
+      "local_path": "artifacts/etruscan-sources/evidence-audit/de-simone-morphemes.pdf",
+      "publication": "Studi Etruschi 38, 115-139",
+      "retrieved": "2026-09-24",
+      "sha256": "a9da7e13d6a752c6518379b17a2bbab73640875fbd5d59330e7b98c7a3a0cde5",
+      "title": "I morfemi etruschi -ce (-ke) e -\u03c7e",
+      "url": "https://www.studietruschi.org/wp-content/uploads/2021/07/SE38_08.pdf",
+      "year": "1970"
+    },
+    {
+      "author": "Roberto L\u00f3pez Montero",
+      "bytes": 482277,
+      "id": "lopez2012_14",
+      "independence_limits": "Uses inherited epigraphic editions and Wallace; not independent of the wider scholarly tradition. Loanword hypothesis is not adopted.",
+      "local_path": "artifacts/etruscan-sources/evidence-audit/hus-husiur.pdf",
+      "publication": "Faventia 34-36, 111-120",
+      "retrieved": "2026-09-24",
+      "sha256": "cdc26de1d494fd008990c97d0b03c0135706f5233a96dc9b5fafc2c4295442e1",
+      "title": "Etrusco *hu\u03c3, hu\u03c3(i)ur: \u00bfun pr\u00e9stamo del griego \u1f57\u03c2 / \u1f51\u03cd\u03c2?",
+      "url": "https://ddd.uab.cat/pub/faventia/faventia_a2012-14v34-36/faventia_a2012-14v34-36p111.pdf",
+      "year": "2012-2014 (volume label)"
+    },
+    {
+      "author": "Luca Rigobianco",
+      "bytes": 51758335,
+      "id": "rigobianco2025",
+      "independence_limits": "Newer synthesis; cites ET/CIE and earlier analyses. Full CNR volume pinned; CC BY-SA 4.0 on imprint.",
+      "local_path": "artifacts/etruscan-sources/evidence-audit/famiglia-etrusca-2025.pdf",
+      "publication": "In La famiglia etrusca / The Etruscan Family, 67-88; CNR, DOI 10.19282/famigliaetrusca2025",
+      "retrieved": "2026-09-24",
+      "sha256": "7c410a517ad09acf906efb3add7f6056638a37385928efda13a5616d1640b103",
+      "title": "La famiglia etrusca nelle fonti epigrafiche di et\u00e0 classica",
+      "url": "https://www.cnr.it/sites/default/files/public/media/attivita/editoria/LA%20FAMIGLIA%20ETRUSCA%2025%20NOVEMBRE%20DIGITALE.pdf",
+      "year": "2025"
+    },
+    {
+      "author": "Corpus Inscriptionum Etruscarum",
+      "bytes": 55698253,
+      "id": "cie11",
+      "independence_limits": "Historical edition based on earlier copies, not a newly inspected object. Exact edition year not verified from this section scan.",
+      "local_path": "artifacts/etruscan-sources/evidence-audit/cie-1-474.pdf",
+      "publication": "Printed page 10, entry 11; section scan containing entries 1-474",
+      "retrieved": "2026-09-24",
+      "sha256": "d57389174f91e0be3231b9ac4899fc4e9788514c35bf62fcde8b019a7eebb114",
+      "title": "Volume I, inscription 11, Faesulae section",
+      "url": "https://www.studietruschi.org/wp-content/uploads/2025/01/CIE-I_tit.1_474.pdf",
+      "year": null
+    },
+    {
+      "author": "Theresa Huntsman",
+      "id": "met2013",
+      "independence_limits": "Institutional account of object 26.60.94; further reading includes Wallace and Bonfante. Web access only, no local page snapshot.",
+      "local_path": null,
+      "publication": "The Metropolitan Museum of Art, Heilbrunn Timeline",
+      "retrieved": "2026-09-24",
+      "sha256": null,
+      "title": "Etruscan Language and Inscriptions",
+      "url": "https://www.metmuseum.org/essays/etruscan-language-and-inscriptions",
+      "year": "2013"
+    }
+  ]
+}

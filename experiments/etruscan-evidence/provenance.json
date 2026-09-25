@@ -1,0 +1,33 @@
+{
+  "created": "2026-09-24",
+  "files": {
+    "etruscan/evidence.py": "80d63b8b53b75412506c2275cb94f9932387f43654650f36a48ffcc2ec49a51f",
+    "experiments/etruscan-evidence/REPORT.md": "50973be2843b4d3ca3917288c6b58cf697c4168b14b9ec9ce30a27b54c769ff2",
+    "experiments/etruscan-evidence/annotations.json": "187b785e083e1514046260a2773c0361e5f0ccdb251120a142e72f845584989b",
+    "experiments/etruscan-evidence/validation.json": "44208a6096706f2313d1f10a280bcebecf43d3cc05f7899cd7f6a948426dd453",
+    "experiments/etruscan_evidence.py": "c77a15de6ba1e72c34e05b359978f36dd90d1e05b260c35162c6323183cf328b",
+    "tests/test_etruscan_evidence.py": "f3cd7d405f8cc5f8afcdd36a18ac7543e79dd01b0d3d7c2279cb423dca571676"
+  },
+  "fresh_evaluation": false,
+  "historical_freezes": {
+    "experiments/etruscan-clauses/freeze.json": "283e39c9417c6217806bca58287b6fb50adfbd4a75908c650b075182395569ab",
+    "experiments/etruscan-fresh/freeze.json": "61eb2bcda31b205e69aa8f1b72aca77841ae1ce04958a01b2ff155c848baa36a",
+    "experiments/etruscan-graphs/freeze.json": "b43a4041c979020d8425cd6ba5d9b578e142fbb59c24567df0dc907c92fc167e",
+    "experiments/etruscan-repair/freeze.json": "6c312dd25b4c9d496398c4305d7286326fb1a2efb26f7165327ce5778c58e1a1",
+    "experiments/etruscan-scaffolding/freeze.json": "21ddc51b656dbeb30d408e6e8ae191d49f45f3167ea15e3346a65d54dbf7650e"
+  },
+  "historical_hash_checks": {
+    "etruscan-clauses": 24,
+    "etruscan-fresh": 24,
+    "etruscan-graphs": 17,
+    "etruscan-repair": 15,
+    "etruscan-scaffolding": 11
+  },
+  "kind": "post_audit_snapshot",
+  "preregistered": false,
+  "verification": {
+    "etruscan_unittest_tests_passed": 44,
+    "evidence_verify": "passed",
+    "git_diff_check": "passed"
+  }
+}

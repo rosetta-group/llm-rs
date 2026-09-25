@@ -1,0 +1,95 @@
+{
+ "method": "M2_neighbour_classes",
+ "latin": {
+  "recall": {
+   "NAME": 0.457,
+   "KIN": 0.369,
+   "NUM": 0.659,
+   "LIFE": 0.433,
+   "OTHER": 0.278
+  },
+  "confusion_gold_to_predicted": {
+   "NAME": {
+    "NAME": 850,
+    "KIN": 362,
+    "NUM": 202,
+    "LIFE": 194,
+    "OTHER": 260
+   },
+   "KIN": {
+    "NAME": 17,
+    "KIN": 30,
+    "NUM": 9,
+    "LIFE": 10,
+    "OTHER": 16
+   },
+   "NUM": {
+    "NAME": 9,
+    "KIN": 4,
+    "NUM": 72,
+    "LIFE": 12,
+    "OTHER": 13
+   },
+   "LIFE": {
+    "NAME": 3,
+    "KIN": 8,
+    "NUM": 4,
+    "LIFE": 20,
+    "OTHER": 8
+   },
+   "OTHER": {
+    "NAME": 147,
+    "KIN": 107,
+    "NUM": 102,
+    "LIFE": 99,
+    "OTHER": 177
+   }
+  }
+ },
+ "etruscan": {
+  "recall": {
+   "NAME": 0.542,
+   "KIN": 0.283,
+   "NUM": 0.508,
+   "LIFE": 0.3,
+   "OTHER": 0.571
+  },
+  "confusion_gold_to_predicted": {
+   "NAME": {
+    "NAME": 802,
+    "KIN": 326,
+    "NUM": 70,
+    "LIFE": 54,
+    "OTHER": 228
+   },
+   "KIN": {
+    "NAME": 46,
+    "KIN": 34,
+    "NUM": 4,
+    "LIFE": 7,
+    "OTHER": 29
+   },
+   "NUM": {
+    "NAME": 5,
+    "KIN": 15,
+    "NUM": 61,
+    "LIFE": 20,
+    "OTHER": 19
+   },
+   "LIFE": {
+    "NAME": 2,
+    "KIN": 3,
+    "NUM": 11,
+    "LIFE": 12,
+    "OTHER": 12
+   },
+   "OTHER": {
+    "NAME": 148,
+    "KIN": 191,
+    "NUM": 111,
+    "LIFE": 99,
+    "OTHER": 731
+   }
+  }
+ }
+}

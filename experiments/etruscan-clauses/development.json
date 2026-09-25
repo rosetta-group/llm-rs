@@ -1,0 +1,5139 @@
+{
+  "full_training_lexicon": {
+    "01698ce1dc071ffe": {
+      "background_support": 0.17832167832167833,
+      "documents": 2,
+      "relation": "OWNED_BY",
+      "relation_support": {
+        "OWNED_BY": 0.8216783216783217
+      },
+      "support": 0.8216783216783217
+    },
+    "08e3c4c91ca5c58e": {
+      "background_support": 0.11320754716981134,
+      "documents": 1,
+      "relation": "MADE",
+      "relation_support": {
+        "MADE": 0.8867924528301888
+      },
+      "support": 0.8867924528301888
+    },
+    "0a50ffc00ab87ec5": {
+      "background_support": 0.19415027735753906,
+      "documents": 1,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.4147755925365607,
+        "TRANSFER": 0.39107413010590014
+      },
+      "support": 0.4147755925365607
+    },
+    "12231659beeeb752": {
+      "background_support": 0.2964071856287425,
+      "documents": 2,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.7035928143712575
+      },
+      "support": 0.7035928143712575
+    },
+    "1f6fa6f69d185e60": {
+      "background_support": 0.33175355450236965,
+      "documents": 1,
+      "relation": "TRANSFER",
+      "relation_support": {
+        "TRANSFER": 0.6682464454976303
+      },
+      "support": 0.6682464454976303
+    },
+    "29df0906e1730ea2": {
+      "background_support": 0.2798134576948701,
+      "documents": 11,
+      "relation": "TRANSFER",
+      "relation_support": {
+        "TRANSFER": 0.7201865423051299
+      },
+      "support": 0.7201865423051299
+    },
+    "40588cd473babe12": {
+      "background_support": 0.31884057971014496,
+      "documents": 1,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.6811594202898551
+      },
+      "support": 0.6811594202898551
+    },
+    "43f52410ceeba65a": {
+      "background_support": 0.10305343511450381,
+      "documents": 2,
+      "relation": "MADE",
+      "relation_support": {
+        "MADE": 0.8969465648854962
+      },
+      "support": 0.8969465648854962
+    },
+    "5a0b5a892741bd6b": {
+      "background_support": 0.31884057971014496,
+      "documents": 1,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.6811594202898551
+      },
+      "support": 0.6811594202898551
+    },
+    "6511c5688bbb8779": {
+      "background_support": 0.1942857142857143,
+      "documents": 1,
+      "relation": "OWNED_BY",
+      "relation_support": {
+        "OWNED_BY": 0.8057142857142857
+      },
+      "support": 0.8057142857142857
+    },
+    "665f45c2eaee5e96": {
+      "background_support": 0.23957685127566894,
+      "documents": 5,
+      "relation": "TRANSFER",
+      "relation_support": {
+        "CHILD_OF": 0.17060775772661274,
+        "TRANSFER": 0.5898153909977184
+      },
+      "support": 0.5898153909977184
+    },
+    "6b383ac7c46b2fe4": {
+      "background_support": 0.11320754716981134,
+      "documents": 1,
+      "relation": "MADE",
+      "relation_support": {
+        "MADE": 0.8867924528301888
+      },
+      "support": 0.8867924528301888
+    },
+    "768490634b6310d0": {
+      "background_support": 0.09116022099447514,
+      "documents": 1,
+      "relation": "MADE",
+      "relation_support": {
+        "CHILD_OF": 0.19475138121546962,
+        "MADE": 0.7140883977900553
+      },
+      "support": 0.7140883977900553
+    },
+    "83ef8b564c63a208": {
+      "background_support": 0.1942857142857143,
+      "documents": 1,
+      "relation": "OWNED_BY",
+      "relation_support": {
+        "OWNED_BY": 0.8057142857142857
+      },
+      "support": 0.8057142857142857
+    },
+    "87b5bc4d8c4531af": {
+      "background_support": 0.33175355450236965,
+      "documents": 1,
+      "relation": "TRANSFER",
+      "relation_support": {
+        "TRANSFER": 0.6682464454976303
+      },
+      "support": 0.6682464454976303
+    },
+    "94419b99b12c1113": {
+      "background_support": 0.33175355450236965,
+      "documents": 1,
+      "relation": "TRANSFER",
+      "relation_support": {
+        "TRANSFER": 0.6682464454976303
+      },
+      "support": 0.6682464454976303
+    },
+    "9df92a09c9386e87": {
+      "background_support": 0.2806122448979592,
+      "documents": 4,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.7193877551020408
+      },
+      "support": 0.7193877551020408
+    },
+    "9e5ebbe8be1494a2": {
+      "background_support": 0.09605067914621619,
+      "documents": 2,
+      "relation": "MADE",
+      "relation_support": {
+        "CHILD_OF": 0.1367994521173382,
+        "MADE": 0.5015979910969067,
+        "OWNED_BY": 0.26555187763953886
+      },
+      "support": 0.5015979910969067
+    },
+    "add93534eeb46380": {
+      "background_support": 0.15096774193548387,
+      "documents": 5,
+      "relation": "SPOUSE_OF",
+      "relation_support": {
+        "CHILD_OF": 0.3941935483870968,
+        "SPOUSE_OF": 0.45483870967741935
+      },
+      "support": 0.45483870967741935
+    },
+    "b98246ad0d30014a": {
+      "background_support": 0.31884057971014496,
+      "documents": 1,
+      "relation": "CHILD_OF",
+      "relation_support": {
+        "CHILD_OF": 0.6811594202898551
+      },
+      "support": 0.6811594202898551
+    },
+    "e661873825b19055": {
+      "background_support": 0.1183448275862069,
+      "documents": 2,
+      "relation": "SPOUSE_OF",
+      "relation_support": {
+        "CHILD_OF": 0.16855172413793104,
+        "SPOUSE_OF": 0.7131034482758621
+      },
+      "support": 0.7131034482758621
+    },
+    "ea325d761f98c6b7": {
+      "background_support": 0.09116022099447514,
+      "documents": 1,
+      "relation": "MADE",
+      "relation_support": {
+        "CHILD_OF": 0.19475138121546962,
+        "MADE": 0.7140883977900553
+      },
+      "support": 0.7140883977900553
+    },
+    "fb480623aa9dda77": {
+      "background_support": 0.1942857142857143,
+      "documents": 1,
+      "relation": "OWNED_BY",
+      "relation_support": {
+        "OWNED_BY": 0.8057142857142857
+      },
+      "support": 0.8057142857142857
+    }
+  },
+  "records": [
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ],
+      "id": "AT 1.46",
+      "prediction": {
+        "accepted": [],
+        "anchors": [],
+        "best_cost": 0.05470389722134428,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          [
+            "SPOUSE_OF",
+            "e0",
+            "e1"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.06333333333333334,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.01333333333333333,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.27555555555555555,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.08555555555555555,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.24333333333333332,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.12111111111111113,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2",
+              "e2": "e1"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.35,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.61,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.6799999999999999,
+            "frame": [
+              "MADE",
+              "e2",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.7999999999999999,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.16,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.27,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.01333333333333333,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.06333333333333334,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.24333333333333332,
+            "frame": [
+              "SPOUSE_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.7999999999999999,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.61,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.72,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.35,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.29666666666666663,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.25666666666666665,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.61,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.5616666666666666,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.27666666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.7133333333333333,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Ve 3.30"
+          },
+          {
+            "cost": 0.6016666666666666,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.35666666666666663,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 18,
+        "graphs_considered": 1329,
+        "margin": 0.024999999999999994,
+        "ranked_graphs": [
+          {
+            "cost": 0.05470389722134428,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.07970389722134427,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.0908150083324554,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.0908150083324554,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.1047038972213443,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "daughter",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ],
+      "id": "ETP 181",
+      "prediction": {
+        "accepted": [],
+        "anchors": [],
+        "best_cost": -0.2358883083359672,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          [
+            "SPOUSE_OF",
+            "e0",
+            "e1"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.01666666666666667,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.08333333333333334,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.044444444444444446,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.13888888888888887,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.1388888888888889,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e0",
+              "e2": "e1"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.13333333333333336,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.6666666666666666,
+            "frame": [
+              "MADE",
+              "e2",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.13333333333333336,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.2833333333333333,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.1111111111111111,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.13888888888888887,
+            "frame": [
+              "SPOUSE_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.13333333333333336,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.7333333333333333,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.2833333333333333,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.25,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.13333333333333336,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.30833333333333335,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.2833333333333333,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.7,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Ve 3.30"
+          },
+          {
+            "cost": 0.3833333333333333,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.35,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 18,
+        "graphs_considered": 1002,
+        "margin": 0.008333333333333331,
+        "ranked_graphs": [
+          {
+            "cost": -0.2358883083359672,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.22755497500263386,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.21366608611374496,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.21366608611374496,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.20533275278041163,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "daughter",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ]
+      ],
+      "id": "ETP 287",
+      "prediction": {
+        "accepted": [],
+        "anchors": [],
+        "best_cost": 0.225,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e1",
+            "e0"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.3,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.1134"
+          },
+          {
+            "cost": 0.225,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.7999999999999999,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.35,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.225,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.373"
+          },
+          {
+            "cost": 0.7999999999999999,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.7999999999999999,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.2833333333333333,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Vt 3.1"
+          },
+          {
+            "cost": 0.41666666666666663,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 13,
+        "graphs_considered": 196,
+        "margin": 0.0,
+        "ranked_graphs": [
+          {
+            "cost": 0.225,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e1",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.225,
+            "graph": [
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.2833333333333333,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.2925,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e1",
+                "e0"
+              ],
+              [
+                "MADE",
+                "e1",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.2925,
+            "graph": [
+              [
+                "MADE",
+                "e1",
+                "OBJECT"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "daughter",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ],
+      "id": "Cr 3.14",
+      "prediction": {
+        "accepted": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 2,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.5375278407684164,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.0,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.42583333333333334,
+        "ranked_graphs": [
+          {
+            "cost": -0.5375278407684164,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.11169450743508307,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.08333333333333333,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.07080549256491692,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.16666666666666666,
+            "uncovered_span_cost": 0.16666666666666666
+          },
+          {
+            "cost": 0.95,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ],
+      "id": "ETP 284",
+      "prediction": {
+        "accepted": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 1,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.5375278407684164,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.1,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Vt 3.1"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.405,
+        "ranked_graphs": [
+          {
+            "cost": -0.5375278407684164,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.1325278407684164,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.08752784076841641,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 1.0499999999999998,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ],
+      "id": "ETP 186",
+      "prediction": {
+        "accepted": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 1,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.1687639203842082,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.1,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.4258333333333333,
+        "ranked_graphs": [
+          {
+            "cost": -0.1687639203842082,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.2570694129491251,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.08333333333333333,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.43956941294912516,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.16666666666666666,
+            "uncovered_span_cost": 0.16666666666666666
+          },
+          {
+            "cost": 1.0499999999999998,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.5,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "UNSPECIFIED"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e0"
+        ],
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e1"
+        ]
+      ],
+      "id": "ETP 128",
+      "prediction": {
+        "accepted": [],
+        "anchors": [
+          {
+            "position": 1,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.3304445074350831,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "UNSPECIFIED",
+            "OBJECT",
+            "e0"
+          ],
+          [
+            "TRANSFER",
+            "UNSPECIFIED",
+            "OBJECT",
+            "e1"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.3916666666666667,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.45833333333333337,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.48333333333333334,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.48333333333333334,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.6916666666666667,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.373"
+          },
+          {
+            "cost": 0.033333333333333326,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 3.30"
+          },
+          {
+            "cost": 0.3,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Vt 3.1"
+          },
+          {
+            "cost": 0.3666666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 269"
+          }
+        ],
+        "edges_retained": 13,
+        "graphs_considered": 196,
+        "margin": 0.09291666666666665,
+        "ranked_graphs": [
+          {
+            "cost": -0.3304445074350831,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.041666666666666664,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.23752784076841643,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.1971111741017498,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e1"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.041666666666666664,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.19086117410174974,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.13669450743508307,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e1",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.08333333333333333,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e0"
+        ],
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e1"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "e1"
+        ]
+      ],
+      "id": "Cr 3.20",
+      "prediction": {
+        "accepted": [],
+        "anchors": [
+          {
+            "position": 3,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.18669450743508312,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "UNSPECIFIED"
+          ],
+          [
+            "TRANSFER",
+            "e0",
+            "OBJECT",
+            "e1"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.24166666666666667,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.5333333333333333,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.03333333333333334,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.6333333333333333,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.48333333333333334,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.6333333333333333,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.5416666666666666,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.373"
+          },
+          {
+            "cost": 0.48333333333333334,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.18333333333333332,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.03333333333333334,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.06666666666666668,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.6,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Ve 3.30"
+          },
+          {
+            "cost": 0.6666666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 269"
+          }
+        ],
+        "edges_retained": 13,
+        "graphs_considered": 196,
+        "margin": 0.027083333333333348,
+        "ranked_graphs": [
+          {
+            "cost": -0.18669450743508312,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.25,
+            "uncovered_span_cost": 0.08333333333333333
+          },
+          {
+            "cost": -0.15961117410174977,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e1"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.125,
+            "uncovered_span_cost": 0.08333333333333333
+          },
+          {
+            "cost": -0.0750278407684164,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.4166666666666667,
+            "uncovered_span_cost": 0.4166666666666667
+          },
+          {
+            "cost": -0.04294450743508309,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e1"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.2916666666666667,
+            "uncovered_span_cost": 0.16666666666666666
+          },
+          {
+            "cost": -0.03044450743508311,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ],
+              [
+                "TRANSFER",
+                "e1",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.041666666666666664,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "e0",
+          "OBJECT",
+          "e1"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e0"
+        ]
+      ],
+      "id": "Cr 3.12",
+      "prediction": {
+        "accepted": [
+          [
+            "TRANSFER",
+            "UNSPECIFIED",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 2,
+            "relation": "TRANSFER",
+            "stem": "29df0906e1730ea2",
+            "support": 0.7118997912317327
+          }
+        ],
+        "best_cost": -0.3791945074350831,
+        "best_graph": [
+          [
+            "TRANSFER",
+            "UNSPECIFIED",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.45,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.2675,
+        "ranked_graphs": [
+          {
+            "cost": -0.3791945074350831,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.16666666666666666,
+            "uncovered_span_cost": 0.16666666666666666
+          },
+          {
+            "cost": -0.11169450743508307,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.08333333333333333,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": -0.08752784076841641,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "transfer",
+      "targets": [
+        [
+          "TRANSFER",
+          "UNSPECIFIED",
+          "OBJECT",
+          "e0"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ],
+      "id": "Cr 2.15",
+      "prediction": {
+        "accepted": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "anchors": [],
+        "best_cost": 0.0,
+        "best_graph": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.55,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Vt 3.1"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.45,
+        "ranked_graphs": [
+          {
+            "cost": 0.0,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.45,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.45,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.55,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.63,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "ownership",
+      "targets": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ],
+      "id": "ETP 289",
+      "prediction": {
+        "accepted": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 2,
+            "relation": "OWNED_BY",
+            "stem": "01698ce1dc071ffe",
+            "support": 0.808695652173913
+          }
+        ],
+        "best_cost": 0.029555845832016397,
+        "best_graph": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.45,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 1.3704441541679835,
+        "ranked_graphs": [
+          {
+            "cost": 0.029555845832016397,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.25,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.4,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.58,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "ownership",
+      "targets": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ],
+      "id": "ETP 344",
+      "prediction": {
+        "accepted": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "anchors": [],
+        "best_cost": 0.0,
+        "best_graph": [
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e0"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.55,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.45,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Vt 3.1"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.45,
+        "ranked_graphs": [
+          {
+            "cost": 0.0,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.45,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.45,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.55,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.63,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "ownership",
+      "targets": [
+        [
+          "OWNED_BY",
+          "OBJECT",
+          "e0"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "MADE",
+          "e0",
+          "OBJECT"
+        ]
+      ],
+      "id": "Cr 5.3",
+      "prediction": {
+        "accepted": [],
+        "anchors": [
+          {
+            "position": 4,
+            "relation": "OWNED_BY",
+            "stem": "9e5ebbe8be1494a2",
+            "support": 0.808695652173913
+          }
+        ],
+        "best_cost": 0.5369352819440054,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "OWNED_BY",
+            "OBJECT",
+            "e1"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.13,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.44499999999999995,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.51,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Ve 6.2"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.06,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.255,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Cl 1.373"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.51,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.3966666666666666,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.51,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.6616666666666666,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 13,
+        "graphs_considered": 196,
+        "margin": 0.0625,
+        "ranked_graphs": [
+          {
+            "cost": 0.5369352819440054,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.625,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 0.5994352819440054,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e1"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.625,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 0.6688102819440055,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.3125,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 0.6944352819440054,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e1",
+                "e0"
+              ],
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.625,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 0.8477686152773387,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.5416666666666666,
+            "uncovered_span_cost": 0.25
+          }
+        ]
+      },
+      "target_family": "mixed",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "MADE",
+          "e0",
+          "OBJECT"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ],
+      "id": "Ta 1.191",
+      "prediction": {
+        "accepted": [],
+        "anchors": [
+          {
+            "position": 2,
+            "relation": "CHILD_OF",
+            "stem": "9df92a09c9386e87",
+            "support": 0.7209302325581396
+          },
+          {
+            "position": 4,
+            "relation": "CHILD_OF",
+            "stem": "9df92a09c9386e87",
+            "support": 0.7209302325581396
+          }
+        ],
+        "best_cost": 0.20276403402711934,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "CHILD_OF",
+            "e1",
+            "e2"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.037500000000000006,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2"
+            },
+            "source": "ETP 192"
+          },
+          {
+            "cost": 0.2638888888888889,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.09722222222222222,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.2916666666666667,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.11944444444444445,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2",
+              "e2": "e1"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.625,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "MADE",
+              "e2",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.65,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.17500000000000002,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.024999999999999994,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.075,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.2638888888888889,
+            "frame": [
+              "SPOUSE_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.65,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.625,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.2,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.3041666666666667,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.26666666666666666,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.625,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.5541666666666666,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.2791666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.5916666666666667,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.3541666666666667,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 18,
+        "graphs_considered": 1073,
+        "margin": 0.010763888888888823,
+        "ranked_graphs": [
+          {
+            "cost": 0.20276403402711934,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.0625,
+            "uncovered_span_cost": 0.0625
+          },
+          {
+            "cost": 0.21352792291600817,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.125,
+            "uncovered_span_cost": 0.125
+          },
+          {
+            "cost": 0.30276403402711927,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.1875,
+            "uncovered_span_cost": 0.1875
+          },
+          {
+            "cost": 0.3326251451382304,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e2",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.1875,
+            "uncovered_span_cost": 0.1875
+          },
+          {
+            "cost": 0.3759353303234156,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e2"
+              ]
+            ],
+            "local_role_cost": 0.125,
+            "uncovered_span_cost": 0.0625
+          }
+        ]
+      },
+      "target_family": "mixed",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ],
+        [
+          "SPOUSE_OF",
+          "e0",
+          "e3"
+        ]
+      ],
+      "id": "Cl 1.324",
+      "prediction": {
+        "accepted": [],
+        "anchors": [],
+        "best_cost": 0.39240740740740737,
+        "best_graph": [
+          [
+            "CHILD_OF",
+            "e0",
+            "e1"
+          ],
+          [
+            "CHILD_OF",
+            "e0",
+            "e2"
+          ],
+          [
+            "CHILD_OF",
+            "e1",
+            "e3"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.030555555555555558,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e3"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.041666666666666664,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.052777777777777785,
+            "frame": [
+              "CHILD_OF",
+              "e0",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e3"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.1625,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.07222222222222223,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e3",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.025,
+            "frame": [
+              "CHILD_OF",
+              "e1",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e3"
+            },
+            "source": "Cl 1.1134"
+          },
+          {
+            "cost": 0.20833333333333334,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e0"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.13611111111111113,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2",
+              "e2": "e1"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.061111111111111116,
+            "frame": [
+              "CHILD_OF",
+              "e2",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e3"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.23750000000000002,
+            "frame": [
+              "CHILD_OF",
+              "e3",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e0"
+            },
+            "source": "Cl 1.1006"
+          },
+          {
+            "cost": 0.11944444444444446,
+            "frame": [
+              "CHILD_OF",
+              "e3",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e3",
+              "e2": "e1"
+            },
+            "source": "Ta 1.59"
+          },
+          {
+            "cost": 0.08333333333333333,
+            "frame": [
+              "CHILD_OF",
+              "e3",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.275,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.15000000000000002,
+            "frame": [
+              "MADE",
+              "e1",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.7,
+            "frame": [
+              "MADE",
+              "e2",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.0,
+            "frame": [
+              "MADE",
+              "e3",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e3"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.725,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.15000000000000002,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.25,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e3"
+            },
+            "source": "Cr 2.18"
+          },
+          {
+            "cost": 0.041666666666666664,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.09166666666666667,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.037500000000000006,
+            "frame": [
+              "SPOUSE_OF",
+              "e0",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e3"
+            },
+            "source": "Cl 1.373"
+          },
+          {
+            "cost": 0.061111111111111116,
+            "frame": [
+              "SPOUSE_OF",
+              "e1",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1",
+              "e2": "e3"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.07222222222222223,
+            "frame": [
+              "SPOUSE_OF",
+              "e1",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e3",
+              "e2": "e2"
+            },
+            "source": "Cl 1.1885"
+          },
+          {
+            "cost": 0.13333333333333333,
+            "frame": [
+              "SPOUSE_OF",
+              "e2",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e1",
+              "e2": "e2"
+            },
+            "source": "Ta 1.13"
+          },
+          {
+            "cost": 0.725,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.15000000000000002,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.7,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e3"
+            },
+            "source": "Cr 3.10"
+          },
+          {
+            "cost": 0.275,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.3291666666666667,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.3041666666666667,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.20416666666666666,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e0",
+              "e1": "e3"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.15000000000000002,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e1"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.4291666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e0"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.2916666666666667,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.14166666666666666,
+            "frame": [
+              "TRANSFER",
+              "e1",
+              "OBJECT",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e1",
+              "e1": "e3"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.7,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e2"
+            },
+            "source": "Cr 3.9"
+          },
+          {
+            "cost": 0.5541666666666667,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e0"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.3416666666666667,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e1"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.3333333333333333,
+            "frame": [
+              "TRANSFER",
+              "e2",
+              "OBJECT",
+              "e3"
+            ],
+            "mapping": {
+              "e0": "e2",
+              "e1": "e3"
+            },
+            "source": "Co 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "e3",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e3"
+            },
+            "source": "Vt 3.1"
+          },
+          {
+            "cost": 0.4208333333333333,
+            "frame": [
+              "TRANSFER",
+              "e3",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e0"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.2833333333333333,
+            "frame": [
+              "TRANSFER",
+              "e3",
+              "OBJECT",
+              "e1"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e1"
+            },
+            "source": "ETP 269"
+          },
+          {
+            "cost": 0.3666666666666667,
+            "frame": [
+              "TRANSFER",
+              "e3",
+              "OBJECT",
+              "e2"
+            ],
+            "mapping": {
+              "e0": "e3",
+              "e1": "e2"
+            },
+            "source": "Co 3.7"
+          }
+        ],
+        "edges_retained": 18,
+        "graphs_considered": 1395,
+        "margin": 0.002314814814814825,
+        "ranked_graphs": [
+          {
+            "cost": 0.39240740740740737,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e3"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.3947222222222222,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e3"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e3"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.3961111111111111,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e3"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e1"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.3965740740740741,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e0",
+                "e2"
+              ],
+              [
+                "SPOUSE_OF",
+                "e0",
+                "e3"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          },
+          {
+            "cost": 0.39888888888888885,
+            "graph": [
+              [
+                "CHILD_OF",
+                "e0",
+                "e1"
+              ],
+              [
+                "CHILD_OF",
+                "e1",
+                "e3"
+              ],
+              [
+                "CHILD_OF",
+                "e2",
+                "e3"
+              ]
+            ],
+            "local_role_cost": 0.0,
+            "uncovered_span_cost": 0.0
+          }
+        ]
+      },
+      "target_family": "mixed",
+      "targets": [
+        [
+          "CHILD_OF",
+          "e0",
+          "e1"
+        ],
+        [
+          "CHILD_OF",
+          "e0",
+          "e2"
+        ],
+        [
+          "SPOUSE_OF",
+          "e0",
+          "e3"
+        ]
+      ]
+    },
+    {
+      "gold": [
+        [
+          "MADE",
+          "e0",
+          "OBJECT"
+        ]
+      ],
+      "id": "AV 6.1",
+      "prediction": {
+        "accepted": [
+          [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ]
+        ],
+        "anchors": [
+          {
+            "position": 2,
+            "relation": "MADE",
+            "stem": "43f52410ceeba65a",
+            "support": 0.9029126213592233
+          }
+        ],
+        "best_cost": 0.2335279229160082,
+        "best_graph": [
+          [
+            "MADE",
+            "e0",
+            "OBJECT"
+          ]
+        ],
+        "candidates": [
+          {
+            "cost": 0.1,
+            "frame": [
+              "MADE",
+              "e0",
+              "OBJECT"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "ETP 304"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "OWNED_BY",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 2.20"
+          },
+          {
+            "cost": 0.55,
+            "frame": [
+              "TRANSFER",
+              "UNSPECIFIED",
+              "OBJECT",
+              "e0"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.7"
+          },
+          {
+            "cost": 0.1,
+            "frame": [
+              "TRANSFER",
+              "e0",
+              "OBJECT",
+              "UNSPECIFIED"
+            ],
+            "mapping": {
+              "e0": "e0"
+            },
+            "source": "Cr 3.9"
+          }
+        ],
+        "edges_retained": 4,
+        "graphs_considered": 5,
+        "margin": 0.8164720770839916,
+        "ranked_graphs": [
+          {
+            "cost": 0.2335279229160082,
+            "graph": [
+              [
+                "MADE",
+                "e0",
+                "OBJECT"
+              ]
+            ],
+            "local_role_cost": 0.25,
+            "uncovered_span_cost": 0.25
+          },
+          {
+            "cost": 1.0499999999999998,
+            "graph": [
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.455,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ],
+              [
+                "TRANSFER",
+                "e0",
+                "OBJECT",
+                "UNSPECIFIED"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.5,
+            "graph": [
+              [
+                "OWNED_BY",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          },
+          {
+            "cost": 1.5,
+            "graph": [
+              [
+                "TRANSFER",
+                "UNSPECIFIED",
+                "OBJECT",
+                "e0"
+              ]
+            ],
+            "local_role_cost": 1.0,
+            "uncovered_span_cost": 1.0
+          }
+        ]
+      },
+      "target_family": "making",
+      "targets": [
+        [
+          "MADE",
+          "e0",
+          "OBJECT"
+        ]
+      ]
+    }
+  ],
+  "status": "previously exposed cases, not new evaluation",
+  "summary": {
+    "by_target": {
+      "daughter": {
+        "hits": 0,
+        "items": 5,
+        "recall": 0.0
+      },
+      "making": {
+        "hits": 1,
+        "items": 1,
+        "recall": 1.0
+      },
+      "mixed": {
+        "hits": 0,
+        "items": 7,
+        "recall": 0.0
+      },
+      "ownership": {
+        "hits": 3,
+        "items": 3,
+        "recall": 1.0
+      },
+      "transfer": {
+        "hits": 4,
+        "items": 7,
+        "recall": 0.5714285714285714
+      }
+    },
+    "called_edges": 8,
+    "correct_edges": 8,
+    "coverage": 0.5,
+    "documents": 16,
+    "documents_with_calls": 8,
+    "edge_f1": 0.5161290322580645,
+    "edge_precision": 1.0,
+    "edge_recall": 0.34782608695652173,
+    "exact_graph_accuracy": 0.5,
+    "exact_graphs": 8,
+    "gold_edges": 23,
+    "target_hits": 8,
+    "target_recall": 0.34782608695652173,
+    "targets": 23
+  },
+  "training_count": 30
+}

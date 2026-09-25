@@ -1,0 +1,1519 @@
+{
+ "chance": 0.2,
+ "etruscan_size": {
+  "texts": 551,
+  "tokens": 2433,
+  "types": 1286,
+  "labelled_types": 764,
+  "by_class": {
+   "NAME": 371,
+   "OTHER": 322,
+   "LIFE": 12,
+   "KIN": 28,
+   "NUM": 31
+  }
+ },
+ "latin": {
+  "summary": {
+   "M1_neighbour_words": {
+    "real": 0.4036,
+    "corpus_shuffled": 0.1964,
+    "permuted_labels": 0.2072,
+    "within_text_shuffled": 0.2192
+   },
+   "M2_neighbour_classes": {
+    "real": 0.4392,
+    "corpus_shuffled": 0.1522,
+    "permuted_labels": 0.2001,
+    "within_text_shuffled": 0.2327
+   }
+  },
+  "replicates": [
+   {
+    "seeds": 529,
+    "held_out": 132,
+    "held_out_by_class": {
+     "NAME": 90,
+     "KIN": 4,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 30
+    },
+    "M1_neighbour_words": {
+     "real": 0.45555555555555555,
+     "corpus_shuffled": 0.19555555555555557,
+     "permuted_labels": 0.20222222222222222,
+     "within_text_shuffled": 0.18666666666666668
+    },
+    "M2_neighbour_classes": {
+     "real": 0.49555555555555547,
+     "corpus_shuffled": 0.18333333333333332,
+     "permuted_labels": 0.3244444444444444,
+     "within_text_shuffled": 0.2333333333333333
+    }
+   },
+   {
+    "seeds": 527,
+    "held_out": 132,
+    "held_out_by_class": {
+     "NAME": 86,
+     "KIN": 3,
+     "NUM": 5,
+     "LIFE": 3,
+     "OTHER": 35
+    },
+    "M1_neighbour_words": {
+     "real": 0.5098560354374307,
+     "corpus_shuffled": 0.20511627906976745,
+     "permuted_labels": 0.18438538205980065,
+     "within_text_shuffled": 0.2387375415282392
+    },
+    "M2_neighbour_classes": {
+     "real": 0.488172757475083,
+     "corpus_shuffled": 0.20460686600221484,
+     "permuted_labels": 0.3870431893687708,
+     "within_text_shuffled": 0.16691029900332227
+    }
+   },
+   {
+    "seeds": 565,
+    "held_out": 141,
+    "held_out_by_class": {
+     "NAME": 99,
+     "KIN": 4,
+     "NUM": 4,
+     "LIFE": 2,
+     "OTHER": 32
+    },
+    "M1_neighbour_words": {
+     "real": 0.29633838383838385,
+     "corpus_shuffled": 0.20902777777777776,
+     "permuted_labels": 0.21508838383838383,
+     "within_text_shuffled": 0.19835858585858585
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3649621212121212,
+     "corpus_shuffled": 0.12569444444444444,
+     "permuted_labels": 0.31799242424242424,
+     "within_text_shuffled": 0.2694444444444445
+    }
+   },
+   {
+    "seeds": 563,
+    "held_out": 141,
+    "held_out_by_class": {
+     "NAME": 92,
+     "KIN": 5,
+     "NUM": 6,
+     "LIFE": 3,
+     "OTHER": 35
+    },
+    "M1_neighbour_words": {
+     "real": 0.34933747412008287,
+     "corpus_shuffled": 0.20465838509316772,
+     "permuted_labels": 0.20198757763975156,
+     "within_text_shuffled": 0.29908902691511385
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4688198757763975,
+     "corpus_shuffled": 0.10908902691511387,
+     "permuted_labels": 0.24440993788819876,
+     "within_text_shuffled": 0.17010351966873705
+    }
+   },
+   {
+    "seeds": 573,
+    "held_out": 143,
+    "held_out_by_class": {
+     "NAME": 96,
+     "KIN": 5,
+     "NUM": 5,
+     "LIFE": 3,
+     "OTHER": 34
+    },
+    "M1_neighbour_words": {
+     "real": 0.4234803921568628,
+     "corpus_shuffled": 0.21446078431372548,
+     "permuted_labels": 0.16691176470588237,
+     "within_text_shuffled": 0.19093137254901962
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5256372549019608,
+     "corpus_shuffled": 0.16732843137254902,
+     "permuted_labels": 0.1443627450980392,
+     "within_text_shuffled": 0.26340686274509806
+    }
+   },
+   {
+    "seeds": 550,
+    "held_out": 139,
+    "held_out_by_class": {
+     "NAME": 99,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 29
+    },
+    "M1_neighbour_words": {
+     "real": 0.44058864507140366,
+     "corpus_shuffled": 0.17659352142110762,
+     "permuted_labels": 0.20501567398119125,
+     "within_text_shuffled": 0.19965168930686172
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5134656913967259,
+     "corpus_shuffled": 0.12005572971090214,
+     "permuted_labels": 0.2403134796238245,
+     "within_text_shuffled": 0.4070080111459422
+    }
+   },
+   {
+    "seeds": 569,
+    "held_out": 143,
+    "held_out_by_class": {
+     "NAME": 96,
+     "KIN": 4,
+     "NUM": 8,
+     "LIFE": 2,
+     "OTHER": 33
+    },
+    "M1_neighbour_words": {
+     "real": 0.36098484848484846,
+     "corpus_shuffled": 0.18428030303030302,
+     "permuted_labels": 0.19469696969696967,
+     "within_text_shuffled": 0.21761363636363637
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3696969696969697,
+     "corpus_shuffled": 0.21856060606060607,
+     "permuted_labels": 0.12272727272727271,
+     "within_text_shuffled": 0.2496212121212121
+    }
+   },
+   {
+    "seeds": 517,
+    "held_out": 130,
+    "held_out_by_class": {
+     "NAME": 89,
+     "KIN": 4,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 29
+    },
+    "M1_neighbour_words": {
+     "real": 0.3464936071290198,
+     "corpus_shuffled": 0.21425803951956607,
+     "permuted_labels": 0.22626888802789616,
+     "within_text_shuffled": 0.1959705540488183
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3018080847216841,
+     "corpus_shuffled": 0.165788454087563,
+     "permuted_labels": 0.02696629213483146,
+     "within_text_shuffled": 0.1532093503809893
+    }
+   },
+   {
+    "seeds": 528,
+    "held_out": 132,
+    "held_out_by_class": {
+     "NAME": 89,
+     "KIN": 5,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 31
+    },
+    "M1_neighbour_words": {
+     "real": 0.44197897789054,
+     "corpus_shuffled": 0.19717288872779992,
+     "permuted_labels": 0.19884015947807177,
+     "within_text_shuffled": 0.25652772743747737
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4559405581732512,
+     "corpus_shuffled": 0.1313954331279449,
+     "permuted_labels": 0.1452555273649873,
+     "within_text_shuffled": 0.33086625588981516
+    }
+   },
+   {
+    "seeds": 550,
+    "held_out": 137,
+    "held_out_by_class": {
+     "NAME": 96,
+     "KIN": 3,
+     "NUM": 8,
+     "LIFE": 2,
+     "OTHER": 28
+    },
+    "M1_neighbour_words": {
+     "real": 0.34315476190476185,
+     "corpus_shuffled": 0.20267857142857143,
+     "permuted_labels": 0.2333333333333333,
+     "within_text_shuffled": 0.18333333333333332
+    },
+    "M2_neighbour_classes": {
+     "real": 0.39107142857142857,
+     "corpus_shuffled": 0.21577380952380948,
+     "permuted_labels": 0.19226190476190474,
+     "within_text_shuffled": 0.25089285714285714
+    }
+   },
+   {
+    "seeds": 561,
+    "held_out": 141,
+    "held_out_by_class": {
+     "NAME": 99,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 31
+    },
+    "M1_neighbour_words": {
+     "real": 0.3836852394916911,
+     "corpus_shuffled": 0.1781687846203975,
+     "permuted_labels": 0.1983708048224177,
+     "within_text_shuffled": 0.18826979472140762
+    },
+    "M2_neighbour_classes": {
+     "real": 0.44710654936461386,
+     "corpus_shuffled": 0.07422613229064842,
+     "permuted_labels": 0.19767350928641253,
+     "within_text_shuffled": 0.34907787552948844
+    }
+   },
+   {
+    "seeds": 553,
+    "held_out": 138,
+    "held_out_by_class": {
+     "NAME": 93,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 34
+    },
+    "M1_neighbour_words": {
+     "real": 0.49810879190385826,
+     "corpus_shuffled": 0.20360531309297913,
+     "permuted_labels": 0.19671094244149273,
+     "within_text_shuffled": 0.2335863377609108
+    },
+    "M2_neighbour_classes": {
+     "real": 0.40462365591397853,
+     "corpus_shuffled": 0.12457305502846301,
+     "permuted_labels": 0.19996204933586337,
+     "within_text_shuffled": 0.24385199240986716
+    }
+   },
+   {
+    "seeds": 542,
+    "held_out": 136,
+    "held_out_by_class": {
+     "NAME": 95,
+     "KIN": 5,
+     "NUM": 5,
+     "LIFE": 3,
+     "OTHER": 28
+    },
+    "M1_neighbour_words": {
+     "real": 0.3359398496240601,
+     "corpus_shuffled": 0.1831578947368421,
+     "permuted_labels": 0.22097744360902255,
+     "within_text_shuffled": 0.19323308270676692
+    },
+    "M2_neighbour_classes": {
+     "real": 0.418546365914787,
+     "corpus_shuffled": 0.12413533834586468,
+     "permuted_labels": 0.10857142857142858,
+     "within_text_shuffled": 0.11533834586466166
+    }
+   },
+   {
+    "seeds": 553,
+    "held_out": 138,
+    "held_out_by_class": {
+     "NAME": 92,
+     "KIN": 5,
+     "NUM": 5,
+     "LIFE": 1,
+     "OTHER": 35
+    },
+    "M1_neighbour_words": {
+     "real": 0.45826086956521744,
+     "corpus_shuffled": 0.21447204968944095,
+     "permuted_labels": 0.1853416149068323,
+     "within_text_shuffled": 0.25093167701863356
+    },
+    "M2_neighbour_classes": {
+     "real": 0.36099378881987576,
+     "corpus_shuffled": 0.19478260869565217,
+     "permuted_labels": 0.11590062111801243,
+     "within_text_shuffled": 0.08316770186335404
+    }
+   },
+   {
+    "seeds": 560,
+    "held_out": 140,
+    "held_out_by_class": {
+     "NAME": 94,
+     "KIN": 4,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 34
+    },
+    "M1_neighbour_words": {
+     "real": 0.4171464330413016,
+     "corpus_shuffled": 0.1755944931163955,
+     "permuted_labels": 0.20325406758448059,
+     "within_text_shuffled": 0.2657905715477681
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4253233208176888,
+     "corpus_shuffled": 0.1018773466833542,
+     "permuted_labels": 0.22657488527325823,
+     "within_text_shuffled": 0.3816854401335002
+    }
+   },
+   {
+    "seeds": 521,
+    "held_out": 130,
+    "held_out_by_class": {
+     "NAME": 91,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 28
+    },
+    "M1_neighbour_words": {
+     "real": 0.6023076923076924,
+     "corpus_shuffled": 0.17472527472527472,
+     "permuted_labels": 0.2230769230769231,
+     "within_text_shuffled": 0.1675824175824176
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5727472527472528,
+     "corpus_shuffled": 0.21373626373626373,
+     "permuted_labels": 0.21252747252747253,
+     "within_text_shuffled": 0.08351648351648353
+    }
+   },
+   {
+    "seeds": 554,
+    "held_out": 138,
+    "held_out_by_class": {
+     "NAME": 96,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 2,
+     "OTHER": 31
+    },
+    "M1_neighbour_words": {
+     "real": 0.30641129032258063,
+     "corpus_shuffled": 0.1922715053763441,
+     "permuted_labels": 0.2883198924731183,
+     "within_text_shuffled": 0.2557930107526882
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4320295698924731,
+     "corpus_shuffled": 0.2243279569892473,
+     "permuted_labels": 0.1845564516129032,
+     "within_text_shuffled": 0.15061827956989243
+    }
+   },
+   {
+    "seeds": 531,
+    "held_out": 132,
+    "held_out_by_class": {
+     "NAME": 90,
+     "KIN": 4,
+     "NUM": 4,
+     "LIFE": 1,
+     "OTHER": 33
+    },
+    "M1_neighbour_words": {
+     "real": 0.36676767676767674,
+     "corpus_shuffled": 0.21959595959595957,
+     "permuted_labels": 0.20686868686868687,
+     "within_text_shuffled": 0.2364646464646465
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4704040404040404,
+     "corpus_shuffled": 0.10797979797979798,
+     "permuted_labels": 0.11242424242424243,
+     "within_text_shuffled": 0.2482828282828283
+    }
+   },
+   {
+    "seeds": 574,
+    "held_out": 143,
+    "held_out_by_class": {
+     "NAME": 102,
+     "KIN": 4,
+     "NUM": 5,
+     "LIFE": 3,
+     "OTHER": 29
+    },
+    "M1_neighbour_words": {
+     "real": 0.3585665990534145,
+     "corpus_shuffled": 0.18235294117647058,
+     "permuted_labels": 0.1892494929006085,
+     "within_text_shuffled": 0.1931710615280595
+    },
+    "M2_neighbour_classes": {
+     "real": 0.29409060175794455,
+     "corpus_shuffled": 0.1444895199459094,
+     "permuted_labels": 0.23239350912778906,
+     "within_text_shuffled": 0.32252197430696417
+    }
+   },
+   {
+    "seeds": 516,
+    "held_out": 129,
+    "held_out_by_class": {
+     "NAME": 84,
+     "KIN": 3,
+     "NUM": 7,
+     "LIFE": 2,
+     "OTHER": 33
+    },
+    "M1_neighbour_words": {
+     "real": 0.37770562770562766,
+     "corpus_shuffled": 0.20086580086580086,
+     "permuted_labels": 0.20281385281385284,
+     "within_text_shuffled": 0.2331168831168831
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5833333333333334,
+     "corpus_shuffled": 0.09134199134199135,
+     "permuted_labels": 0.26558441558441553,
+     "within_text_shuffled": 0.1803030303030303
+    }
+   }
+  ]
+ },
+ "etruscan": {
+  "summary": {
+   "M1_neighbour_words": {
+    "real": 0.3663,
+    "corpus_shuffled": 0.1985,
+    "permuted_labels": 0.2017,
+    "within_text_shuffled": 0.25
+   },
+   "M2_neighbour_classes": {
+    "real": 0.4409,
+    "corpus_shuffled": 0.1977,
+    "permuted_labels": 0.2017,
+    "within_text_shuffled": 0.2712
+   }
+  },
+  "replicates": [
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3527871621621622,
+     "corpus_shuffled": 0.17398648648648649,
+     "permuted_labels": 0.15641891891891893,
+     "within_text_shuffled": 0.23907657657657655
+    },
+    "M2_neighbour_classes": {
+     "real": 0.45807995495495496,
+     "corpus_shuffled": 0.2717905405405405,
+     "permuted_labels": 0.12781531531531531,
+     "within_text_shuffled": 0.3311092342342342
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3686373873873874,
+     "corpus_shuffled": 0.21376689189189188,
+     "permuted_labels": 0.18910472972972975,
+     "within_text_shuffled": 0.2606981981981982
+    },
+    "M2_neighbour_classes": {
+     "real": 0.42038288288288284,
+     "corpus_shuffled": 0.12224099099099099,
+     "permuted_labels": 0.21016328828828829,
+     "within_text_shuffled": 0.28845720720720724
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.47759009009009007,
+     "corpus_shuffled": 0.19451013513513513,
+     "permuted_labels": 0.21342905405405405,
+     "within_text_shuffled": 0.22947635135135136
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4499718468468468,
+     "corpus_shuffled": 0.21582207207207205,
+     "permuted_labels": 0.2609797297297297,
+     "within_text_shuffled": 0.1852759009009009
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3305743243243243,
+     "corpus_shuffled": 0.20261824324324323,
+     "permuted_labels": 0.20177364864864863,
+     "within_text_shuffled": 0.28113738738738736
+    },
+    "M2_neighbour_classes": {
+     "real": 0.439161036036036,
+     "corpus_shuffled": 0.2176801801801802,
+     "permuted_labels": 0.19265202702702702,
+     "within_text_shuffled": 0.23927364864864864
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.35951576576576577,
+     "corpus_shuffled": 0.185472972972973,
+     "permuted_labels": 0.20616554054054054,
+     "within_text_shuffled": 0.21300675675675676
+    },
+    "M2_neighbour_classes": {
+     "real": 0.2826858108108108,
+     "corpus_shuffled": 0.2030123873873874,
+     "permuted_labels": 0.09557995495495494,
+     "within_text_shuffled": 0.16407657657657657
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.35019707207207207,
+     "corpus_shuffled": 0.22888513513513514,
+     "permuted_labels": 0.2546171171171171,
+     "within_text_shuffled": 0.2745213963963964
+    },
+    "M2_neighbour_classes": {
+     "real": 0.38330518018018017,
+     "corpus_shuffled": 0.19538288288288289,
+     "permuted_labels": 0.2224099099099099,
+     "within_text_shuffled": 0.35056306306306306
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3811373873873874,
+     "corpus_shuffled": 0.20912162162162162,
+     "permuted_labels": 0.20270270270270271,
+     "within_text_shuffled": 0.23133445945945946
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4228322072072072,
+     "corpus_shuffled": 0.16134572072072073,
+     "permuted_labels": 0.20166103603603602,
+     "within_text_shuffled": 0.30737612612612614
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.469481981981982,
+     "corpus_shuffled": 0.17525337837837837,
+     "permuted_labels": 0.17533783783783782,
+     "within_text_shuffled": 0.22238175675675675
+    },
+    "M2_neighbour_classes": {
+     "real": 0.47846283783783783,
+     "corpus_shuffled": 0.2115990990990991,
+     "permuted_labels": 0.25715090090090087,
+     "within_text_shuffled": 0.22618243243243247
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.31554054054054054,
+     "corpus_shuffled": 0.2122466216216216,
+     "permuted_labels": 0.18302364864864865,
+     "within_text_shuffled": 0.2676238738738739
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4123310810810811,
+     "corpus_shuffled": 0.18175675675675673,
+     "permuted_labels": 0.115990990990991,
+     "within_text_shuffled": 0.19200450450450451
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.4016047297297297,
+     "corpus_shuffled": 0.1974662162162162,
+     "permuted_labels": 0.20819256756756754,
+     "within_text_shuffled": 0.3763231981981982
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5930461711711712,
+     "corpus_shuffled": 0.17207207207207206,
+     "permuted_labels": 0.39881756756756753,
+     "within_text_shuffled": 0.21128941441441446
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.4024493243243243,
+     "corpus_shuffled": 0.190625,
+     "permuted_labels": 0.18091216216216216,
+     "within_text_shuffled": 0.37452139639639637
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5673986486486486,
+     "corpus_shuffled": 0.27263513513513515,
+     "permuted_labels": 0.153856981981982,
+     "within_text_shuffled": 0.44462274774774774
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.4038851351351351,
+     "corpus_shuffled": 0.19144144144144143,
+     "permuted_labels": 0.2499718468468468,
+     "within_text_shuffled": 0.22905405405405405
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3437218468468468,
+     "corpus_shuffled": 0.12038288288288287,
+     "permuted_labels": 0.28488175675675675,
+     "within_text_shuffled": 0.3995213963963964
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.34220157657657657,
+     "corpus_shuffled": 0.1822635135135135,
+     "permuted_labels": 0.18766891891891893,
+     "within_text_shuffled": 0.30408220720720724
+    },
+    "M2_neighbour_classes": {
+     "real": 0.521509009009009,
+     "corpus_shuffled": 0.19887387387387387,
+     "permuted_labels": 0.15509572072072073,
+     "within_text_shuffled": 0.21590653153153153
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.4024493243243243,
+     "corpus_shuffled": 0.1956081081081081,
+     "permuted_labels": 0.20329391891891896,
+     "within_text_shuffled": 0.21613175675675675
+    },
+    "M2_neighbour_classes": {
+     "real": 0.38212274774774774,
+     "corpus_shuffled": 0.1305743243243243,
+     "permuted_labels": 0.13246058558558557,
+     "within_text_shuffled": 0.27530968468468464
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.43969594594594597,
+     "corpus_shuffled": 0.21103603603603602,
+     "permuted_labels": 0.19155405405405407,
+     "within_text_shuffled": 0.21114864864864863
+    },
+    "M2_neighbour_classes": {
+     "real": 0.509572072072072,
+     "corpus_shuffled": 0.11683558558558557,
+     "permuted_labels": 0.09971846846846846,
+     "within_text_shuffled": 0.23513513513513512
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3143018018018018,
+     "corpus_shuffled": 0.1785472972972973,
+     "permuted_labels": 0.19079391891891892,
+     "within_text_shuffled": 0.20118243243243245
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3409065315315315,
+     "corpus_shuffled": 0.308445945945946,
+     "permuted_labels": 0.2609797297297297,
+     "within_text_shuffled": 0.13555743243243243
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3190878378378378,
+     "corpus_shuffled": 0.21368243243243246,
+     "permuted_labels": 0.1920608108108108,
+     "within_text_shuffled": 0.20929054054054053
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5164695945945945,
+     "corpus_shuffled": 0.1824324324324324,
+     "permuted_labels": 0.252393018018018,
+     "within_text_shuffled": 0.3809684684684685
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.31097972972972976,
+     "corpus_shuffled": 0.17474662162162163,
+     "permuted_labels": 0.21402027027027026,
+     "within_text_shuffled": 0.18353040540540538
+    },
+    "M2_neighbour_classes": {
+     "real": 0.43814752252252254,
+     "corpus_shuffled": 0.1463963963963964,
+     "permuted_labels": 0.25121058558558557,
+     "within_text_shuffled": 0.15633445945945948
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.2536599099099099,
+     "corpus_shuffled": 0.23310810810810811,
+     "permuted_labels": 0.21798986486486488,
+     "within_text_shuffled": 0.26576576576576577
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3351914414414415,
+     "corpus_shuffled": 0.1499436936936937,
+     "permuted_labels": 0.20199887387387389,
+     "within_text_shuffled": 0.15655968468468467
+    }
+   },
+   {
+    "seeds": 612,
+    "held_out": 152,
+    "held_out_by_class": {
+     "NAME": 74,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 64
+    },
+    "M1_neighbour_words": {
+     "real": 0.3307432432432432,
+     "corpus_shuffled": 0.20472972972972975,
+     "permuted_labels": 0.21402027027027026,
+     "within_text_shuffled": 0.20945945945945948
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5233108108108108,
+     "corpus_shuffled": 0.3757601351351351,
+     "permuted_labels": 0.15850225225225226,
+     "within_text_shuffled": 0.5280405405405405
+    }
+   }
+  ]
+ },
+ "gate": {
+  "M1_neighbour_words": {
+   "latin": true,
+   "etruscan": false,
+   "passed": false
+  },
+  "M2_neighbour_classes": {
+   "latin": true,
+   "etruscan": true,
+   "passed": true
+  }
+ },
+ "anchors": {
+  "clan": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "KIN",
+   "expected": "KIN"
+  },
+  "sec": {
+   "M1_neighbour_words": "OTHER",
+   "M2_neighbour_classes": "KIN",
+   "expected": "KIN"
+  },
+  "puia": {
+   "M1_neighbour_words": "OTHER",
+   "M2_neighbour_classes": "KIN",
+   "expected": "KIN"
+  },
+  "avils": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "LIFE",
+   "expected": "LIFE"
+  },
+  "lupu": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "NUM",
+   "expected": "LIFE"
+  },
+  "svalce": {
+   "M1_neighbour_words": "NUM",
+   "M2_neighbour_classes": "KIN",
+   "expected": "LIFE"
+  },
+  "ril": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "LIFE",
+   "expected": "LIFE"
+  },
+  "suthi": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "OTHER",
+   "expected": "LIFE"
+  },
+  "ci": {
+   "M1_neighbour_words": "OTHER",
+   "M2_neighbour_classes": "KIN",
+   "expected": "NUM"
+  },
+  "zal": {
+   "M1_neighbour_words": "NAME",
+   "M2_neighbour_classes": "OTHER",
+   "expected": "NUM"
+  }
+ },
+ "secondary_etp_plus_ciep": {
+  "size": {
+   "texts": 1723,
+   "tokens": 5348,
+   "labelled_types": 772
+  },
+  "summary": {
+   "M1_neighbour_words": {
+    "real": 0.3569,
+    "corpus_shuffled": 0.2002,
+    "permuted_labels": 0.2081,
+    "within_text_shuffled": 0.2286
+   },
+   "M2_neighbour_classes": {
+    "real": 0.4242,
+    "corpus_shuffled": 0.1992,
+    "permuted_labels": 0.2171,
+    "within_text_shuffled": 0.2533
+   }
+  },
+  "replicates": [
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.4511794871794872,
+     "corpus_shuffled": 0.1721025641025641,
+     "permuted_labels": 0.18523076923076923,
+     "within_text_shuffled": 0.25384615384615383
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4212307692307692,
+     "corpus_shuffled": 0.31456410256410255,
+     "permuted_labels": 0.31456410256410255,
+     "within_text_shuffled": 0.23005128205128206
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3305641025641025,
+     "corpus_shuffled": 0.20225641025641025,
+     "permuted_labels": 0.1837948717948718,
+     "within_text_shuffled": 0.17825641025641029
+    },
+    "M2_neighbour_classes": {
+     "real": 0.41712820512820514,
+     "corpus_shuffled": 0.3535384615384616,
+     "permuted_labels": 0.23435897435897432,
+     "within_text_shuffled": 0.15292307692307694
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.404,
+     "corpus_shuffled": 0.2112820512820513,
+     "permuted_labels": 0.23887179487179483,
+     "within_text_shuffled": 0.2355897435897436
+    },
+    "M2_neighbour_classes": {
+     "real": 0.502051282051282,
+     "corpus_shuffled": 0.11353846153846155,
+     "permuted_labels": 0.26666666666666666,
+     "within_text_shuffled": 0.30605128205128207
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.2925128205128205,
+     "corpus_shuffled": 0.2201025641025641,
+     "permuted_labels": 0.17661538461538462,
+     "within_text_shuffled": 0.2123076923076923
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3918974358974359,
+     "corpus_shuffled": 0.18564102564102564,
+     "permuted_labels": 0.20687179487179486,
+     "within_text_shuffled": 0.4270769230769231
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3801025641025641,
+     "corpus_shuffled": 0.15794871794871795,
+     "permuted_labels": 0.21846153846153848,
+     "within_text_shuffled": 0.23302564102564105
+    },
+    "M2_neighbour_classes": {
+     "real": 0.42789743589743595,
+     "corpus_shuffled": 0.2059487179487179,
+     "permuted_labels": 0.07323076923076924,
+     "within_text_shuffled": 0.21271794871794875
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.34276923076923077,
+     "corpus_shuffled": 0.19487179487179487,
+     "permuted_labels": 0.20225641025641025,
+     "within_text_shuffled": 0.2355897435897436
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4017435897435897,
+     "corpus_shuffled": 0.2362051282051282,
+     "permuted_labels": 0.23333333333333334,
+     "within_text_shuffled": 0.21076923076923076
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3912820512820513,
+     "corpus_shuffled": 0.22205128205128205,
+     "permuted_labels": 0.19528205128205128,
+     "within_text_shuffled": 0.24584615384615383
+    },
+    "M2_neighbour_classes": {
+     "real": 0.31056410256410255,
+     "corpus_shuffled": 0.13476923076923078,
+     "permuted_labels": 0.17220512820512823,
+     "within_text_shuffled": 0.23835897435897432
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.33487179487179486,
+     "corpus_shuffled": 0.17230769230769233,
+     "permuted_labels": 0.26164102564102565,
+     "within_text_shuffled": 0.22276923076923077
+    },
+    "M2_neighbour_classes": {
+     "real": 0.37835897435897436,
+     "corpus_shuffled": 0.1515897435897436,
+     "permuted_labels": 0.14912820512820513,
+     "within_text_shuffled": 0.33917948717948715
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3023589743589744,
+     "corpus_shuffled": 0.19548717948717947,
+     "permuted_labels": 0.23015384615384615,
+     "within_text_shuffled": 0.22215384615384615
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3412307692307692,
+     "corpus_shuffled": 0.30123076923076925,
+     "permuted_labels": 0.18235897435897436,
+     "within_text_shuffled": 0.24615384615384617
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.33774358974358976,
+     "corpus_shuffled": 0.1928205128205128,
+     "permuted_labels": 0.2485128205128205,
+     "within_text_shuffled": 0.21702564102564104
+    },
+    "M2_neighbour_classes": {
+     "real": 0.35015384615384615,
+     "corpus_shuffled": 0.08697435897435897,
+     "permuted_labels": 0.1433846153846154,
+     "within_text_shuffled": 0.2084102564102564
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3340512820512821,
+     "corpus_shuffled": 0.22143589743589742,
+     "permuted_labels": 0.19384615384615383,
+     "within_text_shuffled": 0.1913846153846154
+    },
+    "M2_neighbour_classes": {
+     "real": 0.40102564102564103,
+     "corpus_shuffled": 0.13876923076923078,
+     "permuted_labels": 0.32748717948717954,
+     "within_text_shuffled": 0.12184615384615385
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.44779487179487176,
+     "corpus_shuffled": 0.1835897435897436,
+     "permuted_labels": 0.1868717948717949,
+     "within_text_shuffled": 0.21169230769230768
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5252307692307692,
+     "corpus_shuffled": 0.17733333333333334,
+     "permuted_labels": 0.07333333333333333,
+     "within_text_shuffled": 0.22841025641025642
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.28717948717948716,
+     "corpus_shuffled": 0.2318974358974359,
+     "permuted_labels": 0.24297435897435898,
+     "within_text_shuffled": 0.2166153846153846
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4324102564102564,
+     "corpus_shuffled": 0.23979487179487177,
+     "permuted_labels": 0.33138461538461533,
+     "within_text_shuffled": 0.15630769230769231
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.33394871794871794,
+     "corpus_shuffled": 0.22266666666666665,
+     "permuted_labels": 0.2556923076923077,
+     "within_text_shuffled": 0.32666666666666666
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4208205128205128,
+     "corpus_shuffled": 0.2552820512820513,
+     "permuted_labels": 0.17897435897435895,
+     "within_text_shuffled": 0.3747692307692308
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3453333333333333,
+     "corpus_shuffled": 0.20923076923076925,
+     "permuted_labels": 0.1474871794871795,
+     "within_text_shuffled": 0.19958974358974357
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4746666666666667,
+     "corpus_shuffled": 0.18584615384615386,
+     "permuted_labels": 0.4027692307692307,
+     "within_text_shuffled": 0.22728205128205126
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.341025641025641,
+     "corpus_shuffled": 0.18666666666666668,
+     "permuted_labels": 0.22030769230769232,
+     "within_text_shuffled": 0.22676923076923075
+    },
+    "M2_neighbour_classes": {
+     "real": 0.6367179487179488,
+     "corpus_shuffled": 0.2328205128205128,
+     "permuted_labels": 0.21651282051282053,
+     "within_text_shuffled": 0.189025641025641
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3287179487179487,
+     "corpus_shuffled": 0.1798974358974359,
+     "permuted_labels": 0.21600000000000003,
+     "within_text_shuffled": 0.2196923076923077
+    },
+    "M2_neighbour_classes": {
+     "real": 0.31456410256410255,
+     "corpus_shuffled": 0.23661538461538462,
+     "permuted_labels": 0.22789743589743588,
+     "within_text_shuffled": 0.24482051282051281
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.43364102564102563,
+     "corpus_shuffled": 0.2196923076923077,
+     "permuted_labels": 0.15076923076923077,
+     "within_text_shuffled": 0.28687179487179487
+    },
+    "M2_neighbour_classes": {
+     "real": 0.4068717948717949,
+     "corpus_shuffled": 0.11835897435897436,
+     "permuted_labels": 0.19723076923076924,
+     "within_text_shuffled": 0.3164102564102564
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.4074871794871795,
+     "corpus_shuffled": 0.2206153846153846,
+     "permuted_labels": 0.21476923076923077,
+     "within_text_shuffled": 0.21753846153846154
+    },
+    "M2_neighbour_classes": {
+     "real": 0.3914871794871795,
+     "corpus_shuffled": 0.20287179487179485,
+     "permuted_labels": 0.16697435897435894,
+     "within_text_shuffled": 0.3141538461538461
+    }
+   },
+   {
+    "seeds": 618,
+    "held_out": 154,
+    "held_out_by_class": {
+     "NAME": 75,
+     "KIN": 6,
+     "NUM": 6,
+     "LIFE": 2,
+     "OTHER": 65
+    },
+    "M1_neighbour_words": {
+     "real": 0.3122051282051282,
+     "corpus_shuffled": 0.1878974358974359,
+     "permuted_labels": 0.1928205128205128,
+     "within_text_shuffled": 0.21835897435897436
+    },
+    "M2_neighbour_classes": {
+     "real": 0.5372307692307692,
+     "corpus_shuffled": 0.11220512820512818,
+     "permuted_labels": 0.24235897435897433,
+     "within_text_shuffled": 0.3222564102564102
+    }
+   }
+  ]
+ }
+}
