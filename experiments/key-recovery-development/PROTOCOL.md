@@ -50,3 +50,19 @@ A is worth a fresh confirmation only if, on these five cases, all of the followi
 
 Anything else is recorded as a failure of A. Five released cases cannot estimate accuracy or a
 false-acceptance rate; a pass here only licenses a fresh, frozen confirmation on new works and keys.
+
+## Addendum: released rejection-screen inputs (declared before running them)
+
+Declared after the five-case result above and before any fit below. Same arms, caps and rule.
+
+```text
+Inputs: the 9 graded rejection-transfer-v2 inputs (3 positives: English, Italian, Latin;
+        3 shuffled; 3 copy-mutated) and the 3 frequency-copy controls
+For each input and each of the eight models: fit B and A, fix keys, transfer
+Apply decide_transfer on all eight languages; for positives also with the true language omitted
+```
+
+The 17 prepared but never-scored rejection-transfer-v2 blocks are not opened. A remains a
+candidate for fresh confirmation only if it accepts none of the 9 negatives, accepts no wrong
+language, and keeps every omitted-language positive rejected. Measured seconds per fit set the
+confirmation budget.

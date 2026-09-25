@@ -31,7 +31,8 @@ STATE = ROOT / 'artifacts/key-recovery-development'
 FREEZE = ROOT / 'experiments/language-expansion/freeze.json'
 PRIORS = ROOT / 'artifacts/language-expansion/priors'
 EXPERIMENTS = ('language-coverage', 'language-expansion')
-TRUE_MODEL = dict(catalan='catalan', german='german_broad', latin='latin_broad', czech='czech', occitan='occitan')
+TRUE_MODEL = dict(catalan='catalan', german='german_broad', latin='latin_broad', czech='czech', occitan='occitan',
+                  english='english', italian='italian')
 ADMISSION_ROUNDS, REPARSE_ROUNDS, REPARSE_WIDTH = 3, 2, 128
 read, seal = previous.read, previous.seal
 
@@ -40,6 +41,15 @@ def released_cases():
     """(experiment, id, language) from the published results; answers are opened only by `evaluate`."""
     return [(e, row['id'], row['language']) for e in EXPERIMENTS
             for row in read(ROOT / 'experiments' / e / 'results.json')['outcomes']]
+
+
+def released_controls():
+    """(experiment, id, kind) for the graded rejection-screen inputs only; unscored prepared blocks are excluded."""
+    graded = [('rejection-transfer-v2', row['id'], row['kind'])
+              for row in read(ROOT / 'experiments/rejection-transfer-v2/results.json')['outcomes'] if row['kind'] != 'absent']
+    copies = [('rejection-followups', row['id'], 'frequency_copy')
+              for row in read(ROOT / 'experiments/rejection-followups/control-results.json')['outcomes']]
+    return graded + copies
 
 
 def refit(units, prior, key, seed, f, cap):
@@ -111,11 +121,11 @@ def worker(job):
     return str(path)
 
 
-def run(workers):
+def run(workers, controls=False):
     for name in ('NUMBA_NUM_THREADS', 'OMP_NUM_THREADS'):
         os.environ[name] = '2'
     models = read(FREEZE)['models']
-    jobs = [(e, i, m) for e, i, _ in released_cases() for m in models]
+    jobs = [(e, i, m) for e, i, _ in (released_controls() if controls else released_cases()) for m in models]
     with ProcessPoolExecutor(workers, mp_context=multiprocessing.get_context('spawn')) as pool:
         list(pool.map(worker, jobs))
     print('Fitted', len(jobs), 'case-model pairs.', flush=True)
@@ -164,9 +174,56 @@ def evaluate():
     print(json.dumps(summary, indent=1))
 
 
+def scores_for(fits, arm, f):
+    out = {}
+    for label, model in f['expanded'].items():
+        r = fits[model][arm]
+        out[label] = dict(fit_excess=r['bits_per_letter'] - f['entropy'][model],
+                          transfer_excess=None if r['transfer']['bits_per_letter'] is None
+                          else r['transfer']['bits_per_letter'] - f['entropy'][model],
+                          coverage=r['transfer']['token_coverage'], cap_hit=r['cap_hit'])
+    return out
+
+
+def evaluate_controls():
+    f = read(FREEZE)
+    answers = read(ROOT / 'artifacts/rejection-transfer-v2/released-answers.json')
+    rows = []
+    for experiment, ident, kind in released_controls():
+        fits = {m: read(STATE / 'fit' / f'{ident}-{m}.json')['result'] for m in f['models']}
+        language = answers[ident]['language'] if ident in answers else None
+        row = dict(id=ident, kind=kind, language=language, experiment=experiment)
+        for arm in ('B', 'A'):
+            scores = scores_for(fits, arm, f)
+            row[arm] = dict(scores=scores, full=decide_transfer(scores),
+                            seconds=sum(fits[m][arm]['seconds'] for m in f['models']))
+            if kind == 'positive':
+                row[arm]['omitted'] = decide_transfer(scores, [l for l in f['expanded'] if l != language])
+                own = fits[TRUE_MODEL[language]][arm]
+                texts = [p['plaintext'].replace(' ', '') for p in answers[ident]['passages']]
+                row[arm]['fit_cer'] = edit_distance(own['recovered'], texts[0]) / len(texts[0])
+                row[arm]['transfer_cer'] = edit_distance(own['transfer']['recovered'], texts[1]) / len(texts[1])
+        rows.append(row)
+    summary = {arm: dict(positives_correct=sum(r[arm]['full']['accepted'] == r['language'] for r in rows if r['kind'] == 'positive'),
+                         positives_wrong=sum(r[arm]['full']['accepted'] not in (None, r['language']) for r in rows if r['kind'] == 'positive'),
+                         omitted_accepted=sum(r[arm]['omitted']['accepted'] is not None for r in rows if r['kind'] == 'positive'),
+                         negatives_accepted=sum(r[arm]['full']['accepted'] is not None for r in rows if r['kind'] != 'positive'),
+                         inconclusive=sum(r[arm]['full']['inconclusive'] for r in rows),
+                         mean_fit_seconds=sum(r[arm]['seconds'] for r in rows) / (len(rows) * len(f['models'])))
+               for arm in ('B', 'A')}
+    seal(OUT / 'controls-results.json', dict(rows=rows, summary=summary, development_only=True, voynich_used=False,
+                                             freeze_sha256=digest(FREEZE), at=time.time()))
+    for r in rows:
+        print(r['kind'], r['language'], *(f"{arm}: accepted={r[arm]['full']['accepted']} reasons={r[arm]['full']['reasons']}" for arm in ('B', 'A')))
+    print(json.dumps(summary, indent=1))
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('command', choices=['run', 'evaluate'])
+    parser.add_argument('command', choices=['run', 'evaluate', 'run_controls', 'evaluate_controls'])
     parser.add_argument('--workers', type=int, default=5)
     args = parser.parse_args()
-    run(args.workers) if args.command == 'run' else evaluate()
+    if args.command.startswith('run'):
+        run(args.workers, controls=args.command == 'run_controls')
+    else:
+        evaluate() if args.command == 'evaluate' else evaluate_controls()
