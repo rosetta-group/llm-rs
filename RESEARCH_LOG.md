@@ -54,6 +54,43 @@ used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
 
+### 2026-09-25: historical language coverage pilot completed
+
+**Question:** does broader historical coverage improve identification and rejection
+without choosing a source language in advance? The
+[protocol](experiments/language-coverage/PROTOCOL.md), source splits, eight equal-budget
+models and existing transfer-centered rule were frozen in commit `e4f94d4` before
+encryption. Sources: LLCT charters, ReM prose and HisCat's Llibre dels Fets.
+
+**What was done**
+
+- Ran 24 model fits on three independently keyed pairs of 5,200-letter passages;
+  sealed each fitted key before transfer. Compared fixed baseline, expanded and
+  true-language-omitted candidate sets. No cap was hit; 1.386 fit-worker hours.
+- Expanded rankings found the correct language on both passages in 3/3 cases.
+  The baseline ranked Old French in all three cases and rejected all three.
+- Expanded acceptance was 1/3 (Latin), below the predeclared 3/3 feasibility target.
+  German transfer excess 0.745 and Catalan 0.860 exceed 0.50; Catalan fit margin
+  0.148 also misses 0.25. All three omitted-language cases reject.
+- German transfer CER fell 45.69% → 12.48%; Latin 12.37% → 6.69%; Catalan was 9.27%.
+- All 189 tests passed. Eight model rebuilds, six encryptions and 24 transfers
+  reproduced. No eight-word overlap was found against training/calibration or the
+  additional earlier-released challenge inventory.
+
+**Why it was done**
+
+The five-language pilot did not test this historical/genre variation or Catalan.
+Correct German/Catalan plaintexts score below the transfer ceiling (0.190/0.150),
+so remaining key-recovery errors are a concrete next target; changing thresholds
+on the same cases would not be fresh validation.
+
+**Limits:** three keys; Catalan within one chronicle; Latin legal, not medical;
+German test works religious; filtered passages can be non-contiguous. The expanded
+system has six candidates and replaces two models; no retention claim for the other
+languages or Voynich language claim follows. No Voynich text was scored.
+[Report and records](experiments/language-coverage/REPORT.md);
+[exclude released groups in later rounds](experiments/language-coverage/released-source-ids.json).
+
 **2026-09-25: all three rejection follow-ups completed on released development data.**
 The transfer-centered candidate removes only the fit-excess ceiling and accepts
 3/3 released positives instead of 2/3. Three new local-copying controls retain exact

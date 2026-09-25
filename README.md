@@ -20,6 +20,7 @@ The full Voynich account (methods, sealed results, corrections, mechanism checks
 | Is it a simple cipher of a European language? | Not with its word spaces kept: adjacent word lengths cluster in Voynich and anti-cluster in Romance languages | [corpus statistics](experiments/language-comparison/REPORT.md) |
 | Do pictures explain the text? | No association found beyond scribe hand and layout; some tests are unidentifiable | [image studies](experiments/image-domains/REPORT.md) |
 | Can a solver break a Voynich-style cipher without its codebook? | Partly: 1.83% character error and 26.8% word error on four sealed historical passages of about 20,800 letters; pass mark not met | [round six](experiments/joint-recovery-v6/REPORT.md) |
+| Does broader historical language coverage help? | In a three-pair pilot, the expanded set ranks the true language first 3/3; only Latin passes acceptance. German transfer error falls 45.7% → 12.5%, Latin 12.4% → 6.7%; all omitted-language cases reject | [coverage pilot](experiments/language-coverage/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 | Can these methods tell which language Linear A is? | No. Lexical tests cannot find Greek even in Linear B at Linear A's size (about 700 words); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 

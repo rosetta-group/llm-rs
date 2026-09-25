@@ -236,6 +236,29 @@ requires new sources/keys and a work-budget audit. A 90-block design would requi
 1,800 fits: about 123 fit-worker hours at the measured copying-control cost, before
 allowances for harder inputs. No such study or manuscript run was started.
 
+### Historical language coverage
+
+The [coverage pilot](../experiments/language-coverage/REPORT.md) adds Old Catalan and
+broadens Latin with legal charters and German with Middle High German prose. Eight
+models use exactly 400,000 letters each; a fixed five-language baseline and six-language
+expanded system decode the same three fresh 5,200-letter passage pairs.
+
+The baseline ranks Old French first on both passages in all three cases, but rejects
+all three. The expanded system ranks the correct language first on both passages in
+3/3 cases. German transfer character error falls from 45.69% to 12.48%; Latin from
+12.37% to 6.69%; Catalan transfer error is 9.27%. Only Latin passes the unchanged
+acceptance rule. German transfer excess is 0.745 against a 0.50 ceiling; Catalan's
+is 0.860 and its fit margin is 0.148 against a 0.25 minimum. All three omitted-language
+cases reject, with no compute caps. The feasibility target therefore fails.
+
+Correct German and Catalan transfer plaintexts have excesses of 0.190 and 0.150 in
+post-run diagnostics. The models can score the real text; recovery errors remain a
+specific next target. This does not justify loosening thresholds on these same cases.
+The run used 24 fits and 1.386 worker-hours. All 189 tests pass; eight prior rebuilds,
+six encryptions and 24 fixed-key transfers reproduce. Catalan uses one chronicle;
+Latin charters are not medical prose; three keys do not establish an error rate.
+Neither the manuscript gate nor reserved Voynich text was used or changed.
+
 ### Near-duplicate words: a mechanical signature
 
 A **near-hapax** is a word seen once that is one glyph away from a word seen at least 5 times.
@@ -297,7 +320,7 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 | Admit missing true pieces without false ones | the letter bottleneck (33–38 missing at RESPACING 17, 52–56 at 9) | about 2 h CPU per development run |
 | Develop and test at RESPACING 9 | the only Naibbe regime that matches the manuscript | same |
 | Historical spelling model, retry | v4 missed by 0.05 points; needs a new author and its own protocol | minutes |
-| More candidate languages | Occitan/Catalan, Czech, Hebrew in transliteration, Latin of other genres | downloads, then about 2 h |
+| Historical-language key recovery and replication | Catalan and broader Latin/German now tested; rankings 3/3 but acceptance 1/3. Improve recovery on released cases, confirm on new works; medical Latin and a second Catalan author remain gaps | bounded development, then a new source audit/freeze |
 | Human review of the 50 suspect loci and the image pilot | needs a human eye | reviewer time |
 | Voynich scoring run | still gated: no sealed case has met 1% / 10% | a deliberate decision |
 

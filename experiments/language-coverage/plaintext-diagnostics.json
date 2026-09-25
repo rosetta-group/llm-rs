@@ -1,0 +1,264 @@
+{
+  "post_run_diagnostic_only": true,
+  "rows": [
+    {
+      "id": "771894b62d7b98b9",
+      "language": "catalan",
+      "scores": {
+        "catalan": {
+          "plaintext_bits_per_letter": [
+            2.551370209805063,
+            2.503953737174331
+          ],
+          "plaintext_excess": [
+            0.19737048960853487,
+            0.14995401697780286
+          ]
+        },
+        "english": {
+          "plaintext_bits_per_letter": [
+            5.642472873102144,
+            5.568608138636467
+          ],
+          "plaintext_excess": [
+            2.716471686455815,
+            2.642606951990138
+          ]
+        },
+        "german": {
+          "plaintext_bits_per_letter": [
+            5.546223455326264,
+            5.5477342464365
+          ],
+          "plaintext_excess": [
+            2.7517180500702914,
+            2.753228841180527
+          ]
+        },
+        "german_broad": {
+          "plaintext_bits_per_letter": [
+            5.473891593079671,
+            5.482185676051034
+          ],
+          "plaintext_excess": [
+            2.2696040446439145,
+            2.277898127615278
+          ]
+        },
+        "italian": {
+          "plaintext_bits_per_letter": [
+            5.568741981722943,
+            5.634721077558272
+          ],
+          "plaintext_excess": [
+            2.495441953322369,
+            2.5614210491576976
+          ]
+        },
+        "latin": {
+          "plaintext_bits_per_letter": [
+            7.277186471690465,
+            7.137640781168851
+          ],
+          "plaintext_excess": [
+            4.7106499560456,
+            4.571104265523985
+          ]
+        },
+        "latin_broad": {
+          "plaintext_bits_per_letter": [
+            6.199208956731786,
+            6.130133145852285
+          ],
+          "plaintext_excess": [
+            3.705497977290783,
+            3.6364221664112817
+          ]
+        },
+        "old_french": {
+          "plaintext_bits_per_letter": [
+            5.041664889604068,
+            5.120016160034711
+          ],
+          "plaintext_excess": [
+            1.8652495671509732,
+            1.943600837581617
+          ]
+        }
+      }
+    },
+    {
+      "id": "e378fc0cda78594d",
+      "language": "german",
+      "scores": {
+        "catalan": {
+          "plaintext_bits_per_letter": [
+            6.568246706901311,
+            6.751288699701367
+          ],
+          "plaintext_excess": [
+            4.214246986704783,
+            4.397288979504839
+          ]
+        },
+        "english": {
+          "plaintext_bits_per_letter": [
+            5.43126396729038,
+            5.785296277387588
+          ],
+          "plaintext_excess": [
+            2.505262780644051,
+            2.8592950907412593
+          ]
+        },
+        "german": {
+          "plaintext_bits_per_letter": [
+            4.592394672400754,
+            4.5962467456758604
+          ],
+          "plaintext_excess": [
+            1.7978892671447815,
+            1.8017413404198876
+          ]
+        },
+        "german_broad": {
+          "plaintext_bits_per_letter": [
+            3.4804313214491183,
+            3.3938110382224385
+          ],
+          "plaintext_excess": [
+            0.276143773013362,
+            0.1895234897866822
+          ]
+        },
+        "italian": {
+          "plaintext_bits_per_letter": [
+            6.289734268519603,
+            6.808692807875975
+          ],
+          "plaintext_excess": [
+            3.216434240119029,
+            3.7353927794754007
+          ]
+        },
+        "latin": {
+          "plaintext_bits_per_letter": [
+            6.892508659786455,
+            7.6290738494006645
+          ],
+          "plaintext_excess": [
+            4.3259721441415895,
+            5.062537333755799
+          ]
+        },
+        "latin_broad": {
+          "plaintext_bits_per_letter": [
+            6.512419984040179,
+            7.108192716866453
+          ],
+          "plaintext_excess": [
+            4.018709004599176,
+            4.61448173742545
+          ]
+        },
+        "old_french": {
+          "plaintext_bits_per_letter": [
+            5.7674691146590575,
+            6.191752732372167
+          ],
+          "plaintext_excess": [
+            2.591053792205963,
+            3.015337409919072
+          ]
+        }
+      }
+    },
+    {
+      "id": "8b9ba7c5f9ab1c9e",
+      "language": "latin",
+      "scores": {
+        "catalan": {
+          "plaintext_bits_per_letter": [
+            5.620736187622972,
+            5.795246565112376
+          ],
+          "plaintext_excess": [
+            3.266736467426444,
+            3.441246844915848
+          ]
+        },
+        "english": {
+          "plaintext_bits_per_letter": [
+            5.129900747151863,
+            5.131889601817349
+          ],
+          "plaintext_excess": [
+            2.2038995605055343,
+            2.20588841517102
+          ]
+        },
+        "german": {
+          "plaintext_bits_per_letter": [
+            5.1458824355681445,
+            5.16442481500045
+          ],
+          "plaintext_excess": [
+            2.3513770303121717,
+            2.369919409744477
+          ]
+        },
+        "german_broad": {
+          "plaintext_bits_per_letter": [
+            4.675294843521968,
+            4.697257898087313
+          ],
+          "plaintext_excess": [
+            1.4710072950862116,
+            1.4929703496515572
+          ]
+        },
+        "italian": {
+          "plaintext_bits_per_letter": [
+            5.400889463680302,
+            5.436645583094811
+          ],
+          "plaintext_excess": [
+            2.3275894352797284,
+            2.363345554694237
+          ]
+        },
+        "latin": {
+          "plaintext_bits_per_letter": [
+            4.750162515126502,
+            4.930901526544652
+          ],
+          "plaintext_excess": [
+            2.1836259994816367,
+            2.3643650108997867
+          ]
+        },
+        "latin_broad": {
+          "plaintext_bits_per_letter": [
+            2.2454869882708417,
+            2.206472695361794
+          ],
+          "plaintext_excess": [
+            -0.24822399117016136,
+            -0.2872382840792089
+          ]
+        },
+        "old_french": {
+          "plaintext_bits_per_letter": [
+            5.274310639615794,
+            5.280391152874026
+          ],
+          "plaintext_excess": [
+            2.0978953171626995,
+            2.1039758304209317
+          ]
+        }
+      }
+    }
+  ],
+  "used_for_model_or_threshold_selection": false
+}

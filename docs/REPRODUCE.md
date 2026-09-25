@@ -108,6 +108,32 @@ priors/sources before replay. Benchmark timings are machine-dependent: the commi
 plan specifies two warmed repetitions per backend with two threads. Repeating timings
 requires a new output location; do not overwrite the frozen benchmark record.
 
+### Historical language coverage
+
+The [coverage pilot](../experiments/language-coverage/REPORT.md) adds Old Catalan and
+compares the original Latin/German models with models containing historical charters
+and prose. Every model uses 400,000 training letters. Its three passage pairs use
+different random keys and the existing transfer-centered rule.
+
+```sh
+.venv/bin/python -m experiments.language_coverage_sources download
+.venv/bin/python -m experiments.language_coverage verify
+.venv/bin/python -m experiments.language_coverage replay
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_language_coverage -v
+```
+
+Restore `evaluated-records.tar.gz` under `artifacts/language-coverage/` without
+overwriting existing records. The archive includes normalized model inputs and all
+evaluated records. Rebuild each prior with `CharacterPrior.fit` on its `train` rows
+in `partitions.json`; compare the probability hashes in `freeze.json`. Earlier frozen
+sources and priors are also required by `verify`. The audit module additionally
+rebuilds all eight priors and reproduces encryption; its no-clobber `audit.json` output
+must be absent in a reproduction checkout. Do not overwrite the published audit.
+
+Future fresh rounds must exclude the complete source groups in
+`experiments/language-coverage/released-source-ids.json` as well as previously released
+material. Catalan folio separation is within one chronicle, not an independent-author test.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:

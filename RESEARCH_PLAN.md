@@ -7,6 +7,18 @@
 
 Updated: 2026-09-25
 
+**Historical-language coverage pilot completed, 2026-09-25.** The
+[three-pair pilot](experiments/language-coverage/REPORT.md) adds Catalan and broadens
+Latin/German. The expanded set ranks the correct language first on both passages in
+3/3 cases, but accepts only Latin (1/3); all three true-language omissions reject.
+German transfer CER improves 45.69% → 12.48%, Latin 12.37% → 6.69%; Catalan is 9.27%.
+Twenty-four fits used 1.386 worker-hours, with no caps. The feasibility target failed.
+Post-run correct-plaintext scores support key-recovery development on these released
+cases before more language additions or a larger confirmation. Keep the current
+thresholds; confirmation needs new source groups, including another Catalan work.
+The existing manuscript gate is unchanged. This is a small coverage pilot, not the
+90-block rejection confirmation below.
+
 **Voynich priority, 2026-09-25: prepare a costed fresh rejection study.** The
 [three authorized development follow-ups](experiments/rejection-followups/REPORT.md)
 are complete. The transfer-centered candidate accepts 3/3 released genuine ciphers
