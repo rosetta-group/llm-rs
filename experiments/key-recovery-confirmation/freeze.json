@@ -1,0 +1,60 @@
+{
+  "a_cap": 7200,
+  "at": 1790349938.556948,
+  "b_cap": 3600,
+  "blocks_per_language": 3,
+  "code": {
+    "experiments/joint_development.py": "a3b7fea596cacde8d9b14887649bf421b758fce4e2f9761836b3ec2a20e4056e",
+    "experiments/key-recovery-confirmation/PROTOCOL.md": "9779424c57e6287e118ad93c461c122071fde5d499e2b69efd458bf79bcf2f92",
+    "experiments/key-recovery-confirmation/sources.json": "a66827cd4350d10bf9e61eb6730b77ba87c9a74da408d0e8f41d0f3eec5537cc",
+    "experiments/key_recovery_confirmation.py": "a685dc7d026b965f27a446ca067c8b6042c97d23d0cd74becaf5c4d45ae6a14b",
+    "experiments/key_recovery_confirmation_sources.py": "46a8c060e7ad7b1045d0df10dd2a227fc510ada4f9b1b61ad7ebae7f071291d0",
+    "experiments/key_recovery_development.py": "7bb41d12bfcc1afe5519858f1ba679f52c2f50eb9e266df5111bfed72fcac9e4",
+    "experiments/rejection_transfer_v2.py": "b70192289771464f9a48459228aef2d340f82374c90ad9bb0549412a0788b082",
+    "tests/test_key_recovery_confirmation_sources.py": "9b613064eee6e9c736e07f477a9dbe4c1145eea23833a43491a6dc7d9ed48951",
+    "tests/test_whole_admission.py": "0cb0dd750faf761d942c2d5f5db5a1e1e6bb306508a5d2c4bfeba2643587343f",
+    "voynich/context_reparse.py": "0ab2dffcb24725125ca2c7cf13f61ae332fcd3f19ff7415b631c3dcdadf144f7",
+    "voynich/description_length.py": "1c4c0ce6993585ac1e9ecc3fe1a729f49d5578e0c10da7e0c955b831d7a68d23",
+    "voynich/joint_segments.py": "aea22ff0f80b89adaf1acb93efbafbe659fe3bb2ba2de57353a69c3777101260",
+    "voynich/joint_segments_v2.py": "9af72d52809033f70cb06a647f6006ec6bdd922456d02505501f6781ea06ce2a",
+    "voynich/lexicon_repair.py": "56b1c158983fab5a39afc6bc4e11e2b6d9dc23589a05c92b0276c93dee272681",
+    "voynich/piece_admission.py": "ba273040749b464ab834e26da60f84d9ccfa160eb1ad64490c94e2048f120404",
+    "voynich/rejection.py": "c9206e128a4b1fbe3a791e9aa0f5e143df45daeae53fd0210ba21c61190615e1",
+    "voynich/rejection_development.py": "80f3d715304a96fe8973bd4d15c7bccd76a7f09b59cbf3a33cdf2e9edbd06d95",
+    "voynich/variable_units.py": "7192eab435e1d1f44eac82c281f5cc719e35f9f847bfa2c1699f80aadee43341",
+    "voynich/variable_units_bounded.py": "07379acc766afaa392bc9853b93870f50aefc0575606e8d61e4c2e4be11754c2",
+    "voynich/whole_admission.py": "389865758f384ca7b8e6e6b34d23f3859d0c4e8a7cc38e9ec611791480cd1745"
+  },
+  "kinds": [
+    "positive",
+    "shuffle",
+    "frequency_copy"
+  ],
+  "languages": [
+    "latin",
+    "italian",
+    "catalan",
+    "old_french",
+    "english",
+    "german",
+    "czech",
+    "occitan"
+  ],
+  "max_worker_seconds": 540000,
+  "partitions_sha256": "d49734c9a22facdae0f2a0e20c83ef05168885dd728cfd5ec26b9e8d96e20881",
+  "prior_files": {
+    "artifacts/language-expansion/priors/catalan.npz": "d964df0ee34911ee336c2a541356f3648bf460cadba025aca2e452d07c3b43c9",
+    "artifacts/language-expansion/priors/czech.npz": "a2668d42c5a24cf3be4cbd2934e55043bdf405e6d6f31989a7166f54134fb484",
+    "artifacts/language-expansion/priors/english.npz": "7e1a678016311e081a5ba98a70577ab87133cb50aba56fb0676037570ef029b6",
+    "artifacts/language-expansion/priors/german_broad.npz": "3152d68c24699d041fc3193924a4e7a0498ff3e698f2a3c48c642fb8bf92ee8c",
+    "artifacts/language-expansion/priors/italian.npz": "6e9db8c7cbe0b091e566aeac2503242b8813ade06028bbe3dec0d4f7ce96e2e8",
+    "artifacts/language-expansion/priors/latin_broad.npz": "5534d83e166b494ed28f78f49d75d243e7c6df66f7e0c0fcf1f0f86f2bc1e6ed",
+    "artifacts/language-expansion/priors/occitan.npz": "d5acd26c43412234928829ab1a103b4d6a41aa64031c56cfb0d5c52733ea02e9",
+    "artifacts/language-expansion/priors/old_french.npz": "576d49d9ed3cca4a9359fab4817d610a2fdf2f0cac085089b148b2833713d373"
+  },
+  "prior_freeze_sha256": "324542767616abb8d20fcba84672a2d5cce54a2b05762b656984c3a56aa4634b",
+  "reserve_per_fit": 900,
+  "threads": 2,
+  "voynich_used": false,
+  "workers": 5
+}
