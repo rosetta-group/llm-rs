@@ -1,0 +1,18 @@
+{
+  "at": 1790416002.6222222,
+  "models": {
+    "catalan_broad2": {
+      "entropy": 3.0514528619822423,
+      "sha256": "1a551f3308ad53478bac5941693d2acc7c2a4c22b31e8a7c65810a7a4b8f4248"
+    },
+    "german_broad2": {
+      "entropy": 3.345488387707861,
+      "sha256": "ff7d236cd98093832a3b9aea910af6f89be7328b70c913b899d04f5016ac9c39"
+    },
+    "latin_broad2": {
+      "entropy": 2.906341102176435,
+      "sha256": "e84f7b8f144abbb286b9f061f6c7014d5a0e6749c84d70c52acb46df66148234"
+    }
+  },
+  "partitions_sha256": "b1b0e15679c524062cc11e9850a5011dc0e546cf1c26c9159c8056a179d8d272"
+}
