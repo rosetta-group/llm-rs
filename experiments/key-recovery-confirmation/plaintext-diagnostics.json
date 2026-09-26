@@ -1,0 +1,242 @@
+[
+  {
+    "block": 0,
+    "language": "latin",
+    "true_excess_own": 1.1766915293769316,
+    "true_best": "latin",
+    "true_best_excess": 1.1766915293769316,
+    "recovered_excess_own": 1.5952321685216555,
+    "recovery_cost": 0.41854063914472395,
+    "accepted": null
+  },
+  {
+    "block": 1,
+    "language": "italian",
+    "true_excess_own": -0.39992763445590995,
+    "true_best": "italian",
+    "true_best_excess": -0.39992763445590995,
+    "recovered_excess_own": 0.011378974611788717,
+    "recovery_cost": 0.41130660906769867,
+    "accepted": "italian"
+  },
+  {
+    "block": 2,
+    "language": "catalan",
+    "true_excess_own": 0.9931003738773332,
+    "true_best": "occitan",
+    "true_best_excess": 0.5170247235572067,
+    "recovered_excess_own": 1.1721419123057824,
+    "recovery_cost": 0.17904153842844917,
+    "accepted": null
+  },
+  {
+    "block": 3,
+    "language": "old_french",
+    "true_excess_own": 0.06003820869212806,
+    "true_best": "old_french",
+    "true_best_excess": 0.06003820869212806,
+    "recovered_excess_own": 0.3967978652821684,
+    "recovery_cost": 0.33675965659004037,
+    "accepted": "old_french"
+  },
+  {
+    "block": 4,
+    "language": "english",
+    "true_excess_own": 0.26597434377368545,
+    "true_best": "english",
+    "true_best_excess": 0.26597434377368545,
+    "recovered_excess_own": 0.44452671361609486,
+    "recovery_cost": 0.1785523698424094,
+    "accepted": "english"
+  },
+  {
+    "block": 5,
+    "language": "german",
+    "true_excess_own": 0.5404262383198897,
+    "true_best": "german",
+    "true_best_excess": 0.5404262383198897,
+    "recovered_excess_own": 0.5167598547288406,
+    "recovery_cost": -0.02366638359104911,
+    "accepted": null
+  },
+  {
+    "block": 6,
+    "language": "czech",
+    "true_excess_own": -0.08903619057257783,
+    "true_best": "czech",
+    "true_best_excess": -0.08903619057257783,
+    "recovered_excess_own": 0.20182107867489218,
+    "recovery_cost": 0.29085726924747,
+    "accepted": "czech"
+  },
+  {
+    "block": 7,
+    "language": "occitan",
+    "true_excess_own": -0.08083676545656227,
+    "true_best": "occitan",
+    "true_best_excess": -0.08083676545656227,
+    "recovered_excess_own": 0.38042929370056333,
+    "recovery_cost": 0.4612660591571256,
+    "accepted": "occitan"
+  },
+  {
+    "block": 8,
+    "language": "latin",
+    "true_excess_own": 1.3961600088877635,
+    "true_best": "german",
+    "true_best_excess": 1.3842648827739046,
+    "recovered_excess_own": 1.5951808590783338,
+    "recovery_cost": 0.19902085019057036,
+    "accepted": null
+  },
+  {
+    "block": 9,
+    "language": "italian",
+    "true_excess_own": -0.300647020653833,
+    "true_best": "italian",
+    "true_best_excess": -0.300647020653833,
+    "recovered_excess_own": 0.06354519400918601,
+    "recovery_cost": 0.364192214663019,
+    "accepted": "italian"
+  },
+  {
+    "block": 10,
+    "language": "catalan",
+    "true_excess_own": 1.2416926345519852,
+    "true_best": "occitan",
+    "true_best_excess": 0.3218544640807872,
+    "recovered_excess_own": 1.8300100051947874,
+    "recovery_cost": 0.5883173706428022,
+    "accepted": null
+  },
+  {
+    "block": 11,
+    "language": "old_french",
+    "true_excess_own": -0.24137056514577715,
+    "true_best": "old_french",
+    "true_best_excess": -0.24137056514577715,
+    "recovered_excess_own": 0.22630850970257876,
+    "recovery_cost": 0.4676790748483559,
+    "accepted": "old_french"
+  },
+  {
+    "block": 12,
+    "language": "english",
+    "true_excess_own": -0.16393381671296314,
+    "true_best": "english",
+    "true_best_excess": -0.16393381671296314,
+    "recovered_excess_own": 0.11962677168382507,
+    "recovery_cost": 0.2835605883967882,
+    "accepted": "english"
+  },
+  {
+    "block": 13,
+    "language": "german",
+    "true_excess_own": 0.5245255034878293,
+    "true_best": "german",
+    "true_best_excess": 0.5245255034878293,
+    "recovered_excess_own": 0.7986111207699302,
+    "recovery_cost": 0.2740856172821009,
+    "accepted": null
+  },
+  {
+    "block": 14,
+    "language": "czech",
+    "true_excess_own": -0.3405109741425729,
+    "true_best": "czech",
+    "true_best_excess": -0.3405109741425729,
+    "recovered_excess_own": -0.09002954343110181,
+    "recovery_cost": 0.2504814307114711,
+    "accepted": "czech"
+  },
+  {
+    "block": 15,
+    "language": "occitan",
+    "true_excess_own": -0.20397168684063205,
+    "true_best": "occitan",
+    "true_best_excess": -0.20397168684063205,
+    "recovered_excess_own": 0.05549888751020271,
+    "recovery_cost": 0.25947057435083476,
+    "accepted": "occitan"
+  },
+  {
+    "block": 16,
+    "language": "latin",
+    "true_excess_own": 1.1527275132568695,
+    "true_best": "latin",
+    "true_best_excess": 1.1527275132568695,
+    "recovered_excess_own": 1.6108443347571724,
+    "recovery_cost": 0.45811682150030286,
+    "accepted": null
+  },
+  {
+    "block": 17,
+    "language": "italian",
+    "true_excess_own": -0.2569377927597052,
+    "true_best": "italian",
+    "true_best_excess": -0.2569377927597052,
+    "recovered_excess_own": 0.1737209442273837,
+    "recovery_cost": 0.4306587369870889,
+    "accepted": "italian"
+  },
+  {
+    "block": 18,
+    "language": "catalan",
+    "true_excess_own": 1.0502758340457126,
+    "true_best": "occitan",
+    "true_best_excess": 0.5487108915027337,
+    "recovered_excess_own": 1.5622221775418907,
+    "recovery_cost": 0.5119463434961782,
+    "accepted": null
+  },
+  {
+    "block": 19,
+    "language": "old_french",
+    "true_excess_own": 0.2089372440399484,
+    "true_best": "old_french",
+    "true_best_excess": 0.2089372440399484,
+    "recovered_excess_own": 0.7392274752258623,
+    "recovery_cost": 0.5302902311859139,
+    "accepted": null
+  },
+  {
+    "block": 20,
+    "language": "english",
+    "true_excess_own": 0.03377625924309635,
+    "true_best": "english",
+    "true_best_excess": 0.03377625924309635,
+    "recovered_excess_own": 0.3724122609272973,
+    "recovery_cost": 0.33863600168420094,
+    "accepted": "english"
+  },
+  {
+    "block": 21,
+    "language": "german",
+    "true_excess_own": 0.558116966011267,
+    "true_best": "german",
+    "true_best_excess": 0.558116966011267,
+    "recovered_excess_own": 0.7635854462280567,
+    "recovery_cost": 0.20546848021678965,
+    "accepted": null
+  },
+  {
+    "block": 22,
+    "language": "czech",
+    "true_excess_own": 0.863422789922657,
+    "true_best": "czech",
+    "true_best_excess": 0.863422789922657,
+    "recovered_excess_own": 1.0035613631554394,
+    "recovery_cost": 0.14013857323278245,
+    "accepted": null
+  },
+  {
+    "block": 23,
+    "language": "occitan",
+    "true_excess_own": -0.10216844519242008,
+    "true_best": "occitan",
+    "true_best_excess": -0.10216844519242008,
+    "recovered_excess_own": 0.27367069297044955,
+    "recovery_cost": 0.3758391381628696,
+    "accepted": "occitan"
+  }
+]
