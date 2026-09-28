@@ -38,3 +38,18 @@ test sees little saving; the error shows on the transfer passage.
 Target the split point: compare the two lexicon factorizations that explain the same tokens, for
 example by piece-inventory description length or by prefix-final versus suffix-initial glyph
 statistics, then check on these released cases before any fresh test.
+
+## Addendum: rerunning joint EM on the unpruned lexicon (variant D)
+
+The true suffixes such as `chdy` pass the frozen candidate minimum and are pruned later, so the
+first stage was repeated from A's state on the unpruned candidate lexicon plus A's pieces, then
+refined and reparsed as A. Scratch diagnostic, same 24 positives.
+
+| Variant | Median cost | Over 0.50 | Better than A |
+|---|---:|---:|---:|
+| A | 0.344 | 5 | — |
+| D, EM warm-started from A's key | 0.347 | 6 | 6 of 24 |
+| D, EM from four random starts | 0.412 | 7 | 4 of 24 |
+
+A larger lexicon lets EM choose more wrong splits, not the right one. Not adopted. Fixing the split
+point needs a constraint EM does not have, not more candidate pieces.
