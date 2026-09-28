@@ -1,6 +1,6 @@
 """Development only: decoder C, joint whole and half piece admission fed back through joint EM.
 
-python -m experiments.lexicon_admission_development quick | quick_report
+python -m experiments.lexicon_admission_development quick | quick_report | run | evaluate
 
 C starts from decoder A's final state. Each round proposes rare whole tokens and rare half pieces
 by the leave-one-out context tests, adds them to the lexicon, reruns joint EM from scratch on the
@@ -27,6 +27,8 @@ from voynich.decipher import edit_distance
 from voynich.description_length import CharacterPrior
 from voynich.half_admission import admit_halves
 from voynich.rejection import transfer
+from voynich.rejection_development import decide_transfer
+from voynich.rejection_v3 import rescore
 from voynich.whole_admission import admit_wholes, apply_wholes
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -150,9 +152,87 @@ def quick_report():
     print(json.dumps(summary, indent=1))
 
 
+def inputs():
+    return [i for block in read(confirmation.STATE / 'challenge.json')['schedule'] for i in block]
+
+
+def full_case(job):
+    """All eight priors on every released v2 input: A (must match the archive) and C, fixed keys, transfer."""
+    ident, model = job
+    path = STATE / 'full' / f'{ident}-{model}.json'
+    if path.exists():
+        return str(path)
+    prior = CharacterPrior.load(confirmation.prior_path(model))
+    public = confirmation.STATE / 'public'
+    result = fit_ac(read(public / f'{ident}-fit.json')['ciphertext'].split(), prior, read(confirmation.PRIOR_FREEZE))
+    archived = read(confirmation.STATE / 'fit' / f'{ident}-{model}.json')['result']['A']['mapping']
+    held = read(public / f'{ident}-transfer.json')['ciphertext'].split()
+    for arm in ('A', 'C'):
+        result[arm]['transfer'] = transfer(held, result[arm]['mapping'], prior)
+    seal(path, dict(id=ident, model=model, result=result, a_matches_archive=result['A']['mapping'] == archived))
+    return str(path)
+
+
+def run(workers):
+    for name in ('NUMBA_NUM_THREADS', 'OMP_NUM_THREADS'):
+        os.environ[name] = '2'
+    models = list(read(confirmation.OUT / 'freeze.json')['labels'].values())
+    jobs = [(i, m) for i in inputs() for m in models]
+    with ProcessPoolExecutor(workers, mp_context=multiprocessing.get_context('spawn')) as pool:
+        for done, _ in enumerate(pool.map(full_case, jobs), 1):
+            if done % 24 == 0:
+                print(f'{done}/{len(jobs)} fits', flush=True)
+    print('Fitted', len(jobs), 'input-model pairs.', flush=True)
+
+
+def evaluate(ceilings=(.45, .5)):
+    freeze = read(confirmation.OUT / 'freeze.json')
+    labels, entropy = freeze['labels'], freeze['entropy']
+    priors = {m: CharacterPrior.load(confirmation.prior_path(m)) for m in labels.values()}
+    answers = read(confirmation.STATE / 'evaluator-only/answers.json')
+    rows, mismatches = [], 0
+    for ident in inputs():
+        answer = answers[ident]
+        fits = {m: read(STATE / 'full' / f'{ident}-{m}.json') for m in labels.values()}
+        mismatches += sum(not f['a_matches_archive'] for f in fits.values())
+        row = dict(id=ident, block=answer['block'], language=answer['language'], kind=answer['kind'])
+        for arm in ('A', 'C'):
+            for scoring in ('per_run', 'one_code'):
+                scores = {}
+                for label, model in labels.items():
+                    r = fits[model]['result'][arm]
+                    held = r['transfer'] if scoring == 'per_run' else rescore(r['transfer'], priors[model])
+                    scores[label] = dict(fit_excess=r['bits_per_letter'] - entropy[model],
+                                         transfer_excess=None if held['bits_per_letter'] is None else held['bits_per_letter'] - entropy[model],
+                                         coverage=held['token_coverage'], cap_hit=r['cap_hit'])
+                for ceiling in ceilings:
+                    decision = dict(full=decide_transfer(scores, transfer_ceiling=ceiling))
+                    if answer['kind'] == 'positive':
+                        decision['omitted'] = decide_transfer(scores, [l for l in labels if l != answer['language']], ceiling)
+                    row[f'{arm}_{scoring}_{ceiling}'] = decision
+        rows.append(row)
+    positives = [r for r in rows if r['kind'] == 'positive']
+    negatives = [r for r in rows if r['kind'] != 'positive']
+    summary = {}
+    for key in [k for k in rows[0] if k[:2] in ('A_', 'C_')]:
+        summary[key] = dict(correct=sum(r[key]['full']['accepted'] == r['language'] for r in positives),
+                            wrong=sum(r[key]['full']['accepted'] not in (None, r['language']) for r in positives),
+                            omitted=sum(r[key]['omitted']['accepted'] is not None for r in positives),
+                            negatives=sum(r[key]['full']['accepted'] is not None for r in negatives),
+                            inconclusive=sum(r[key]['full']['inconclusive'] for r in rows))
+    seal(OUT / 'full-results.json', dict(rows=rows, summary=summary, a_archive_mismatches=mismatches,
+                                         development_only=True, released_inputs=True, at=time.time()))
+    print('A archive mismatches:', mismatches)
+    for key, s in summary.items():
+        print(f'{key:18s}', s)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('command', choices=['quick', 'quick_report'])
+    parser.add_argument('command', choices=['quick', 'quick_report', 'run', 'evaluate'])
     parser.add_argument('--workers', type=int, default=5)
     args = parser.parse_args()
-    quick(args.workers) if args.command == 'quick' else quick_report()
+    if args.command in ('quick', 'run'):
+        globals()[args.command](args.workers)
+    else:
+        globals()[args.command]()
