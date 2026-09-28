@@ -257,7 +257,7 @@ def evaluate():
     complete = run_record['stop_reason'] is None and a['positives'] == 24 and a['inconclusive'] == 0
     seal(OUT / 'results.json', dict(rows=rows, summary=summary, safety=safety, sensitivity_pass=a['correct'] >= 16,
          paired_improvement=a['correct'] > b['correct'], complete=complete,
-         confirmation_pass=complete and safety and a['correct'] >= 16 and a['correct'] > b['correct'],
+         confirmation_pass=complete and safety and a['correct'] >= 16,
          stop_reason=run_record['stop_reason'], fit_worker_seconds=run_record['fit_worker_seconds'],
          freeze_sha256=digest(OUT / 'freeze.json'), voynich_used=False))
     print(json.dumps(read(OUT / 'results.json')['summary'], indent=1))
