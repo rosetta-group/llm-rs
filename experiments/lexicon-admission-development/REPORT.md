@@ -53,3 +53,13 @@ refined and reparsed as A. Scratch diagnostic, same 24 positives.
 
 A larger lexicon lets EM choose more wrong splits, not the right one. Not adopted. Fixing the split
 point needs a constraint EM does not have, not more candidate pieces.
+
+## Addendum: split-point moves by description length (`voynich/split_shift.py`)
+
+Greedy moves that re-split every token using a new piece, or shift one glyph run across all tokens,
+accepted when the key-search description length falls. Scratch diagnostic, same 24 positives: median
+cost 0.344 → 0.335, better in 14 of 24, cases over 0.50 unchanged at 5; some accepted moves go the
+wrong way (`p:qoch`). The description length does not prefer the true split. Successor variety
+(Harris) points the wrong way too: A's split has the higher variety in 2,390 of 2,871 wrongly split
+tokens, the true split in 343. At 5,200 letters the split point may not be identifiable from the
+ciphertext alone. Not adopted.
