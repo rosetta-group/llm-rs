@@ -1,0 +1,1947 @@
+{
+  "at": 1790630014.9806569,
+  "cases": 24,
+  "development_only": true,
+  "median": {
+    "A": {
+      "fit_cer": 0.04528846153846154,
+      "fit_cost": 0.0027369497036842105,
+      "transfer_cer": 0.05548076923076923,
+      "transfer_cost": 0.34373161299540245
+    },
+    "halves": {
+      "fit_cer": 0.053557692307692306,
+      "fit_cost": 0.12888638837945288,
+      "transfer_cer": 0.06769230769230769,
+      "transfer_cost": 0.45860447987244535
+    },
+    "letters": {
+      "fit_cer": 0.036057692307692304,
+      "fit_cost": 0.10280970630874364,
+      "transfer_cer": 0.045,
+      "transfer_cost": 0.2947687664448806
+    },
+    "lexicon": {
+      "fit_cer": 0.02028846153846154,
+      "fit_cost": -0.039341324363871166,
+      "transfer_cer": 0.02673076923076923,
+      "transfer_cost": 0.18978294866755419
+    },
+    "segment": {
+      "fit_cer": 0.01673076923076923,
+      "fit_cost": -0.03638535335929083,
+      "transfer_cer": 0.02625,
+      "transfer_cost": 0.18935520842169962
+    },
+    "truth": {
+      "fit_cer": 0.0,
+      "fit_cost": 0.0,
+      "transfer_cer": 0.015865384615384615,
+      "transfer_cost": 0.08876304062569229
+    },
+    "whole": {
+      "fit_cer": 0.027115384615384614,
+      "fit_cost": -0.010169321653304753,
+      "transfer_cer": 0.040865384615384616,
+      "transfer_cost": 0.2594029922241903
+    }
+  },
+  "rows": [
+    {
+      "block": 13,
+      "development_only": true,
+      "id": "05e91f8b3ee2b861a5da",
+      "language": "german",
+      "missing": {
+        "halves": 20,
+        "whole": 33
+      },
+      "model": "german_broad2",
+      "seconds": 710.6716045000003,
+      "true_fit_excess": -0.32316122646996304,
+      "true_transfer_excess": -0.27650180194961127,
+      "variants": {
+        "A": {
+          "coverage": 0.9985456660849331,
+          "fit_cer": 0.03923076923076923,
+          "fit_cost": -0.020251991757155974,
+          "fit_excess": -0.343413218227119,
+          "transfer_cer": 0.0125,
+          "transfer_cost": 0.06029138082815999,
+          "transfer_excess": -0.21621042112145128
+        },
+        "halves": {
+          "coverage": 0.9988365328679465,
+          "fit_cer": 0.05673076923076923,
+          "fit_cost": 0.11434153317559881,
+          "fit_excess": -0.20881969329436423,
+          "transfer_cer": 0.045,
+          "transfer_cost": 0.2518605036925905,
+          "transfer_excess": -0.02464129825702077
+        },
+        "letters": {
+          "coverage": 0.9985456660849331,
+          "fit_cer": 0.021346153846153845,
+          "fit_cost": 0.018448082853252945,
+          "fit_excess": -0.3047131436167101,
+          "transfer_cer": 0.012884615384615385,
+          "transfer_cost": 0.013471482084448816,
+          "transfer_excess": -0.26303031986516245
+        },
+        "lexicon": {
+          "coverage": 0.9988365328679465,
+          "fit_cer": 0.02846153846153846,
+          "fit_cost": -0.04264212654918964,
+          "fit_excess": -0.3658033530191527,
+          "transfer_cer": 0.009038461538461539,
+          "transfer_cost": 0.044433196384521256,
+          "transfer_excess": -0.23206860556509
+        },
+        "segment": {
+          "coverage": 0.9988365328679465,
+          "fit_cer": 0.023269230769230768,
+          "fit_cost": -0.050303441791740955,
+          "fit_excess": -0.373464668261704,
+          "transfer_cer": 0.0125,
+          "transfer_cost": 0.06266648195223334,
+          "transfer_excess": -0.21383531999737793
+        },
+        "truth": {
+          "coverage": 0.9988365328679465,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.32316122646996304,
+          "transfer_cer": 0.008653846153846154,
+          "transfer_cost": 6.291417052528558e-05,
+          "transfer_excess": -0.276438887779086
+        },
+        "whole": {
+          "coverage": 0.9985456660849331,
+          "fit_cer": 0.025961538461538463,
+          "fit_cost": -0.0324984174643852,
+          "fit_excess": -0.35565964393434824,
+          "transfer_cer": 0.012692307692307692,
+          "transfer_cost": 0.0704307681202172,
+          "transfer_excess": -0.20607103382939407
+        }
+      }
+    },
+    {
+      "block": 19,
+      "development_only": true,
+      "id": "091502b977815eba7004",
+      "language": "old_french",
+      "missing": {
+        "halves": 33,
+        "whole": 34
+      },
+      "model": "old_french",
+      "seconds": 758.6893585420003,
+      "true_fit_excess": 0.11743484901658219,
+      "true_transfer_excess": 0.29178158939445265,
+      "variants": {
+        "A": {
+          "coverage": 0.9608187134502923,
+          "fit_cer": 0.07307692307692308,
+          "fit_cost": -0.032746627921405036,
+          "fit_excess": 0.08468822109517715,
+          "transfer_cer": 0.09942307692307692,
+          "transfer_cost": 0.2600326165008098,
+          "transfer_excess": 0.5518142058952624
+        },
+        "halves": {
+          "coverage": 0.9783625730994152,
+          "fit_cer": 0.07711538461538461,
+          "fit_cost": 0.1222623583178657,
+          "fit_excess": 0.23969720733444788,
+          "transfer_cer": 0.11211538461538462,
+          "transfer_cost": 0.41308783446983055,
+          "transfer_excess": 0.7048694238642832
+        },
+        "letters": {
+          "coverage": 0.9608187134502923,
+          "fit_cer": 0.05788461538461538,
+          "fit_cost": 0.12480569173721712,
+          "fit_excess": 0.2422405407537993,
+          "transfer_cer": 0.08192307692307692,
+          "transfer_cost": 0.1901409242619594,
+          "transfer_excess": 0.48192251365641203
+        },
+        "lexicon": {
+          "coverage": 0.9748538011695906,
+          "fit_cer": 0.026346153846153846,
+          "fit_cost": -0.06345060668703884,
+          "fit_excess": 0.05398424232954335,
+          "transfer_cer": 0.06538461538461539,
+          "transfer_cost": 0.12809180197330994,
+          "transfer_excess": 0.4198733913677626
+        },
+        "segment": {
+          "coverage": 0.9786549707602339,
+          "fit_cer": 0.028076923076923076,
+          "fit_cost": -0.04557997926367996,
+          "fit_excess": 0.07185486975290223,
+          "transfer_cer": 0.05923076923076923,
+          "transfer_cost": 0.1012537110618772,
+          "transfer_excess": 0.39303530045632984
+        },
+        "truth": {
+          "coverage": 0.9821637426900585,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.11743484901658219,
+          "transfer_cer": 0.04576923076923077,
+          "transfer_cost": 0.009075254142083988,
+          "transfer_excess": 0.30085684353653663
+        },
+        "whole": {
+          "coverage": 0.960233918128655,
+          "fit_cer": 0.040192307692307694,
+          "fit_cost": -0.01715205944777054,
+          "fit_excess": 0.10028278956881165,
+          "transfer_cer": 0.08519230769230769,
+          "transfer_cost": 0.16857100570866423,
+          "transfer_excess": 0.4603525951031169
+        }
+      }
+    },
+    {
+      "block": 0,
+      "development_only": true,
+      "id": "0aa691d902c26939d63d",
+      "language": "latin",
+      "missing": {
+        "halves": 37,
+        "whole": 32
+      },
+      "model": "latin_broad2",
+      "seconds": 701.7079316669988,
+      "true_fit_excess": 0.323194535693196,
+      "true_transfer_excess": -0.017087606987097104,
+      "variants": {
+        "A": {
+          "coverage": 0.9823217442545669,
+          "fit_cer": 0.051923076923076926,
+          "fit_cost": 0.0482884962274448,
+          "fit_excess": 0.3714830319206408,
+          "transfer_cer": 0.06,
+          "transfer_cost": 0.40587782255284965,
+          "transfer_excess": 0.38879021556575255
+        },
+        "halves": {
+          "coverage": 0.9888037713612257,
+          "fit_cer": 0.046153846153846156,
+          "fit_cost": 0.10490242194749966,
+          "fit_excess": 0.42809695764069566,
+          "transfer_cer": 0.054615384615384614,
+          "transfer_cost": 0.39458069610383983,
+          "transfer_excess": 0.37749308911674273
+        },
+        "letters": {
+          "coverage": 0.9823217442545669,
+          "fit_cer": 0.043076923076923075,
+          "fit_cost": 0.0884157030825925,
+          "fit_excess": 0.4116102387757885,
+          "transfer_cer": 0.05019230769230769,
+          "transfer_cost": 0.3580208489397516,
+          "transfer_excess": 0.3409332419526545
+        },
+        "lexicon": {
+          "coverage": 0.9888037713612257,
+          "fit_cer": 0.023653846153846154,
+          "fit_cost": -0.05369812984334965,
+          "fit_excess": 0.26949640584984635,
+          "transfer_cer": 0.027884615384615386,
+          "transfer_cost": 0.20513288369231164,
+          "transfer_excess": 0.18804527670521454
+        },
+        "segment": {
+          "coverage": 0.9908662345315262,
+          "fit_cer": 0.018461538461538463,
+          "fit_cost": -0.05656564106712603,
+          "fit_excess": 0.26662889462607,
+          "transfer_cer": 0.023653846153846154,
+          "transfer_cost": 0.16786199992805928,
+          "transfer_excess": 0.15077439294096218
+        },
+        "truth": {
+          "coverage": 0.9920447849145551,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.323194535693196,
+          "transfer_cer": 0.02,
+          "transfer_cost": 0.14442761641776602,
+          "transfer_excess": 0.12734000943066892
+        },
+        "whole": {
+          "coverage": 0.9823217442545669,
+          "fit_cer": 0.040192307692307694,
+          "fit_cost": 0.010045378312076192,
+          "fit_excess": 0.3332399140052722,
+          "transfer_cer": 0.04730769230769231,
+          "transfer_cost": 0.3279766878217796,
+          "transfer_excess": 0.3108890808346825
+        }
+      }
+    },
+    {
+      "block": 6,
+      "development_only": true,
+      "id": "1dcda63f777c420ec696",
+      "language": "czech",
+      "missing": {
+        "halves": 13,
+        "whole": 21
+      },
+      "model": "czech",
+      "seconds": 724.9095091250001,
+      "true_fit_excess": -0.14455626460732995,
+      "true_transfer_excess": -0.02204053494217284,
+      "variants": {
+        "A": {
+          "coverage": 0.9858030168589175,
+          "fit_cer": 0.02576923076923077,
+          "fit_cost": -0.0029851455002534166,
+          "fit_excess": -0.14754141010758337,
+          "transfer_cer": 0.03807692307692308,
+          "transfer_cost": 0.21926590932164203,
+          "transfer_excess": 0.1972253743794692
+        },
+        "halves": {
+          "coverage": 0.9961549837326235,
+          "fit_cer": 0.037307692307692306,
+          "fit_cost": 0.1266167182494775,
+          "fit_excess": -0.017939546357852443,
+          "transfer_cer": 0.051153846153846154,
+          "transfer_cost": 0.3571861724094991,
+          "transfer_excess": 0.3351456374673263
+        },
+        "letters": {
+          "coverage": 0.9858030168589175,
+          "fit_cer": 0.021153846153846155,
+          "fit_cost": 0.005598535889621115,
+          "fit_excess": -0.13895772871770884,
+          "transfer_cer": 0.03076923076923077,
+          "transfer_cost": 0.17760201816882848,
+          "transfer_excess": 0.15556148322665564
+        },
+        "lexicon": {
+          "coverage": 0.9961549837326235,
+          "fit_cer": 0.012884615384615385,
+          "fit_cost": -0.030739736265023243,
+          "fit_excess": -0.1752960008723532,
+          "transfer_cer": 0.01596153846153846,
+          "transfer_cost": 0.14812642642398188,
+          "transfer_excess": 0.12608589148180904
+        },
+        "segment": {
+          "coverage": 0.9988169180715765,
+          "fit_cer": 0.015,
+          "fit_cost": -0.038351621486822474,
+          "fit_excess": -0.18290788609415243,
+          "transfer_cer": 0.016346153846153847,
+          "transfer_cost": 0.1710082926400074,
+          "transfer_excess": 0.14896775769783455
+        },
+        "truth": {
+          "coverage": 0.9988169180715765,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.14455626460732995,
+          "transfer_cer": 0.006923076923076923,
+          "transfer_cost": 0.0166037153672689,
+          "transfer_excess": -0.005436819574903939
+        },
+        "whole": {
+          "coverage": 0.9858030168589175,
+          "fit_cer": 0.019230769230769232,
+          "fit_cost": -0.00962500505984698,
+          "fit_excess": -0.15418126966717693,
+          "transfer_cer": 0.029615384615384616,
+          "transfer_cost": 0.1650537491956623,
+          "transfer_excess": 0.14301321425348945
+        }
+      }
+    },
+    {
+      "block": 18,
+      "development_only": true,
+      "id": "1e93ee219a302a874cce",
+      "language": "catalan",
+      "missing": {
+        "halves": 34,
+        "whole": 36
+      },
+      "model": "catalan_broad2",
+      "seconds": 708.7417168330003,
+      "true_fit_excess": -0.0347118019047028,
+      "true_transfer_excess": 0.007700579991329892,
+      "variants": {
+        "A": {
+          "coverage": 0.9663915094339622,
+          "fit_cer": 0.05173076923076923,
+          "fit_cost": 0.03021739366589271,
+          "fit_excess": -0.004494408238810088,
+          "transfer_cer": 0.07961538461538462,
+          "transfer_cost": 0.4230267086451711,
+          "transfer_excess": 0.430727288636501
+        },
+        "halves": {
+          "coverage": 0.9817216981132075,
+          "fit_cer": 0.054615384615384614,
+          "fit_cost": 0.16789361775203338,
+          "fit_excess": 0.13318181584733058,
+          "transfer_cer": 0.08865384615384615,
+          "transfer_cost": 0.5556687323601728,
+          "transfer_excess": 0.5633693123515027
+        },
+        "letters": {
+          "coverage": 0.9663915094339622,
+          "fit_cer": 0.0425,
+          "fit_cost": 0.0861034283572577,
+          "fit_excess": 0.051391626452554906,
+          "transfer_cer": 0.07384615384615385,
+          "transfer_cost": 0.3515803506411692,
+          "transfer_excess": 0.3592809306324991
+        },
+        "lexicon": {
+          "coverage": 0.9817216981132075,
+          "fit_cer": 0.02173076923076923,
+          "fit_cost": -0.034029322477853174,
+          "fit_excess": -0.06874112438255597,
+          "transfer_cer": 0.05,
+          "transfer_cost": 0.3222591572062208,
+          "transfer_excess": 0.3299597371975507
+        },
+        "segment": {
+          "coverage": 0.9855542452830188,
+          "fit_cer": 0.015769230769230768,
+          "fit_cost": -0.02869817277916553,
+          "fit_excess": -0.06340997468386833,
+          "transfer_cer": 0.04346153846153846,
+          "transfer_cost": 0.2866128906056389,
+          "transfer_excess": 0.2943134705969688
+        },
+        "truth": {
+          "coverage": 0.9858490566037735,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.0347118019047028,
+          "transfer_cer": 0.03192307692307692,
+          "transfer_cost": 0.13829919985603256,
+          "transfer_excess": 0.14599977984736245
+        },
+        "whole": {
+          "coverage": 0.9663915094339622,
+          "fit_cer": 0.031538461538461536,
+          "fit_cost": 0.017101275392489512,
+          "fit_excess": -0.017610526512213287,
+          "transfer_cer": 0.07,
+          "transfer_cost": 0.37740881892742495,
+          "transfer_excess": 0.38510939891875484
+        }
+      }
+    },
+    {
+      "block": 7,
+      "development_only": true,
+      "id": "22582ec62ab69ed58f54",
+      "language": "occitan",
+      "missing": {
+        "halves": 31,
+        "whole": 31
+      },
+      "model": "occitan",
+      "seconds": 762.2589299589999,
+      "true_fit_excess": 0.4052280889408011,
+      "true_transfer_excess": 0.9198708382530332,
+      "variants": {
+        "A": {
+          "coverage": 0.9878013360441475,
+          "fit_cer": 0.11961538461538461,
+          "fit_cost": -0.21757905860484783,
+          "fit_excess": 0.18764903033595326,
+          "transfer_cer": 0.09538461538461539,
+          "transfer_cost": 0.20798265712251496,
+          "transfer_excess": 1.1278534953755481
+        },
+        "halves": {
+          "coverage": 0.994191112401975,
+          "fit_cer": 0.11211538461538462,
+          "fit_cost": -0.16394309441003374,
+          "fit_excess": 0.24128499453076735,
+          "transfer_cer": 0.09,
+          "transfer_cost": 0.16335130810939802,
+          "transfer_excess": 1.0832221463624312
+        },
+        "letters": {
+          "coverage": 0.9878013360441475,
+          "fit_cer": 0.05096153846153846,
+          "fit_cost": 0.10315994199949152,
+          "fit_excess": 0.5083880309402926,
+          "transfer_cer": 0.047692307692307694,
+          "transfer_cost": 0.05082963832691956,
+          "transfer_excess": 0.9707004765799527
+        },
+        "lexicon": {
+          "coverage": 0.994191112401975,
+          "fit_cer": 0.07903846153846154,
+          "fit_cost": -0.2593645854810913,
+          "fit_excess": 0.14586350345970978,
+          "transfer_cer": 0.06653846153846153,
+          "transfer_cost": 0.1979999468368483,
+          "transfer_excess": 1.1178707850898815
+        },
+        "segment": {
+          "coverage": 0.994191112401975,
+          "fit_cer": 0.08365384615384615,
+          "fit_cost": -0.2656421476636992,
+          "fit_excess": 0.1395859412771019,
+          "transfer_cer": 0.07076923076923076,
+          "transfer_cost": 0.12090486980133974,
+          "transfer_excess": 1.040775708054373
+        },
+        "truth": {
+          "coverage": 0.9956433343014812,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.4052280889408011,
+          "transfer_cer": 0.021923076923076924,
+          "transfer_cost": -0.007592588319655036,
+          "transfer_excess": 0.9122782499333781
+        },
+        "whole": {
+          "coverage": 0.9878013360441475,
+          "fit_cer": 0.09173076923076923,
+          "fit_cost": -0.2259084690875377,
+          "fit_excess": 0.1793196198532634,
+          "transfer_cer": 0.08192307692307692,
+          "transfer_cost": 0.17747043728121348,
+          "transfer_excess": 1.0973412755342467
+        }
+      }
+    },
+    {
+      "block": 14,
+      "development_only": true,
+      "id": "34cc181c5d09bd6ffa2e",
+      "language": "czech",
+      "missing": {
+        "halves": 24,
+        "whole": 25
+      },
+      "model": "czech",
+      "seconds": 695.3844683749994,
+      "true_fit_excess": 0.2068649970832328,
+      "true_transfer_excess": 0.09416906296664962,
+      "variants": {
+        "A": {
+          "coverage": 0.9903140592896977,
+          "fit_cer": 0.03365384615384615,
+          "fit_cost": -0.04939331493523502,
+          "fit_excess": 0.15747168214799778,
+          "transfer_cer": 0.04461538461538461,
+          "transfer_cost": 0.28328654094629435,
+          "transfer_excess": 0.37745560391294397
+        },
+        "halves": {
+          "coverage": 0.9982389198708541,
+          "fit_cer": 0.05019230769230769,
+          "fit_cost": 0.12652811416737508,
+          "fit_excess": 0.3333931112506079,
+          "transfer_cer": 0.0675,
+          "transfer_cost": 0.4997746895114412,
+          "transfer_excess": 0.5939437524780908
+        },
+        "letters": {
+          "coverage": 0.9903140592896977,
+          "fit_cer": 0.02826923076923077,
+          "fit_cost": 0.010854488438718946,
+          "fit_excess": 0.21771948552195175,
+          "transfer_cer": 0.03230769230769231,
+          "transfer_cost": 0.2016336065574924,
+          "transfer_excess": 0.295802669524142
+        },
+        "lexicon": {
+          "coverage": 0.9988259465805694,
+          "fit_cer": 0.01769230769230769,
+          "fit_cost": -0.05093585302791137,
+          "fit_excess": 0.15592914405532143,
+          "transfer_cer": 0.023076923076923078,
+          "transfer_cost": 0.14660698099138703,
+          "transfer_excess": 0.24077604395803665
+        },
+        "segment": {
+          "coverage": 0.9988259465805694,
+          "fit_cer": 0.020576923076923076,
+          "fit_cost": -0.043592079544526374,
+          "fit_excess": 0.16327291753870643,
+          "transfer_cer": 0.026346153846153846,
+          "transfer_cost": 0.1308657338209267,
+          "transfer_excess": 0.22503479678757632
+        },
+        "truth": {
+          "coverage": 1.0,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.2068649970832328,
+          "transfer_cer": 0.01,
+          "transfer_cost": 0.010821960755693638,
+          "transfer_excess": 0.10499102372234326
+        },
+        "whole": {
+          "coverage": 0.9891400058702671,
+          "fit_cer": 0.019807692307692307,
+          "fit_cost": -0.03890812779712194,
+          "fit_excess": 0.16795686928611087,
+          "transfer_cer": 0.032692307692307694,
+          "transfer_cost": 0.19472050705837152,
+          "transfer_excess": 0.28888957002502114
+        }
+      }
+    },
+    {
+      "block": 21,
+      "development_only": true,
+      "id": "3bd597c29191740d672b",
+      "language": "german",
+      "missing": {
+        "halves": 16,
+        "whole": 25
+      },
+      "model": "german_broad2",
+      "seconds": 620.5583732499999,
+      "true_fit_excess": -0.4451926976393543,
+      "true_transfer_excess": -0.21800505734197628,
+      "variants": {
+        "A": {
+          "coverage": 0.9897179788484136,
+          "fit_cer": 0.03480769230769231,
+          "fit_cost": 0.04323570644545338,
+          "fit_excess": -0.40195699119390094,
+          "transfer_cer": 0.04634615384615385,
+          "transfer_cost": 0.2705694856333567,
+          "transfer_excess": 0.052564428291380416
+        },
+        "halves": {
+          "coverage": 0.9926556991774383,
+          "fit_cer": 0.04326923076923077,
+          "fit_cost": 0.16076745715723018,
+          "fit_excess": -0.28442524048212414,
+          "transfer_cer": 0.06346153846153846,
+          "transfer_cost": 0.39132845905386127,
+          "transfer_excess": 0.17332340171188498
+        },
+        "letters": {
+          "coverage": 0.9897179788484136,
+          "fit_cer": 0.025384615384615384,
+          "fit_cost": 0.10245947061799576,
+          "fit_excess": -0.34273322702135856,
+          "transfer_cer": 0.02980769230769231,
+          "transfer_cost": 0.1750150206255534,
+          "transfer_excess": -0.042990036716422875
+        },
+        "lexicon": {
+          "coverage": 0.9914806110458284,
+          "fit_cer": 0.02076923076923077,
+          "fit_cost": 0.019062978750774118,
+          "fit_excess": -0.4261297188885802,
+          "transfer_cer": 0.032692307692307694,
+          "transfer_cost": 0.2147009222715286,
+          "transfer_excess": -0.003304135070447689
+        },
+        "segment": {
+          "coverage": 0.9938307873090482,
+          "fit_cer": 0.010192307692307691,
+          "fit_cost": 0.014638023592123517,
+          "fit_excess": -0.4305546740472308,
+          "transfer_cer": 0.025961538461538463,
+          "transfer_cost": 0.1702882309223579,
+          "transfer_excess": -0.047716826419618386
+        },
+        "truth": {
+          "coverage": 0.9947121034077556,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.4451926976393543,
+          "transfer_cer": 0.016923076923076923,
+          "transfer_cost": 0.09035400422673634,
+          "transfer_excess": -0.12765105311523994
+        },
+        "whole": {
+          "coverage": 0.9885428907168038,
+          "fit_cer": 0.022115384615384617,
+          "fit_cost": 0.016943169172377814,
+          "fit_excess": -0.4282495284669765,
+          "transfer_cer": 0.03538461538461538,
+          "transfer_cost": 0.21707528124501918,
+          "transfer_excess": -0.0009297760969571023
+        }
+      }
+    },
+    {
+      "block": 15,
+      "development_only": true,
+      "id": "3e05e863c0fcd2419850",
+      "language": "occitan",
+      "missing": {
+        "halves": 30,
+        "whole": 41
+      },
+      "model": "occitan",
+      "seconds": 803.8468369579996,
+      "true_fit_excess": 0.36247629089673383,
+      "true_transfer_excess": -0.053895353291162795,
+      "variants": {
+        "A": {
+          "coverage": 0.9698046181172292,
+          "fit_cer": 0.11115384615384616,
+          "fit_cost": -0.2466585970731825,
+          "fit_excess": 0.11581769382355134,
+          "transfer_cer": 0.15346153846153845,
+          "transfer_cost": 0.7007755480833824,
+          "transfer_excess": 0.6468801947922196
+        },
+        "halves": {
+          "coverage": 0.9813499111900533,
+          "fit_cer": 0.10788461538461538,
+          "fit_cost": -0.1245893915634686,
+          "fit_excess": 0.23788689933326523,
+          "transfer_cer": 0.14423076923076922,
+          "transfer_cost": 0.709034215766561,
+          "transfer_excess": 0.6551388624753982
+        },
+        "letters": {
+          "coverage": 0.9698046181172292,
+          "fit_cer": 0.06365384615384616,
+          "fit_cost": 0.0970449841870451,
+          "fit_excess": 0.45952127508377894,
+          "transfer_cer": 0.09461538461538462,
+          "transfer_cost": 0.37866052112182347,
+          "transfer_excess": 0.3247651678306607
+        },
+        "lexicon": {
+          "coverage": 0.9813499111900533,
+          "fit_cer": 0.07538461538461538,
+          "fit_cost": -0.32613217730630417,
+          "fit_excess": 0.03634411359042966,
+          "transfer_cer": 0.10884615384615384,
+          "transfer_cost": 0.5352246000769072,
+          "transfer_excess": 0.4813292467857444
+        },
+        "segment": {
+          "coverage": 0.9828300769686205,
+          "fit_cer": 0.06346153846153846,
+          "fit_cost": -0.3378718567072565,
+          "fit_excess": 0.02460443418947733,
+          "transfer_cer": 0.0975,
+          "transfer_cost": 0.42929817072040644,
+          "transfer_excess": 0.37540281742924364
+        },
+        "truth": {
+          "coverage": 0.9831261101243339,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.36247629089673383,
+          "transfer_cer": 0.04596153846153846,
+          "transfer_cost": 0.19372410280837782,
+          "transfer_excess": 0.13982874951721502
+        },
+        "whole": {
+          "coverage": 0.9698046181172292,
+          "fit_cer": 0.08173076923076923,
+          "fit_cost": -0.2982330736371672,
+          "fit_excess": 0.06424321725956661,
+          "transfer_cer": 0.1271153846153846,
+          "transfer_cost": 0.5538899520036082,
+          "transfer_excess": 0.49999459871244545
+        }
+      }
+    },
+    {
+      "block": 22,
+      "development_only": true,
+      "id": "44205d77caf7b153cb54",
+      "language": "czech",
+      "missing": {
+        "halves": 12,
+        "whole": 18
+      },
+      "model": "czech",
+      "seconds": 642.9005039169997,
+      "true_fit_excess": 0.23237436816362544,
+      "true_transfer_excess": 0.15542989299357357,
+      "variants": {
+        "A": {
+          "coverage": 0.994086339444116,
+          "fit_cer": 0.04673076923076923,
+          "fit_cost": -0.0399959899178457,
+          "fit_excess": 0.19237837824577975,
+          "transfer_cer": 0.050576923076923075,
+          "transfer_cost": 0.28159981693491387,
+          "transfer_excess": 0.43702970992848744
+        },
+        "halves": {
+          "coverage": 0.9973388527498521,
+          "fit_cer": 0.05019230769230769,
+          "fit_cost": 0.10122761240304978,
+          "fit_excess": 0.3336019805666752,
+          "transfer_cer": 0.057115384615384616,
+          "transfer_cost": 0.3394302476058231,
+          "transfer_excess": 0.49486014059939665
+        },
+        "letters": {
+          "coverage": 0.994086339444116,
+          "fit_cer": 0.027692307692307693,
+          "fit_cost": 0.019838311716979806,
+          "fit_excess": 0.25221267988060525,
+          "transfer_cer": 0.023269230769230768,
+          "transfer_cost": 0.10698539290703124,
+          "transfer_excess": 0.2624152859006048
+        },
+        "lexicon": {
+          "coverage": 0.9973388527498521,
+          "fit_cer": 0.027115384615384614,
+          "fit_cost": -0.03128179747011517,
+          "fit_excess": 0.20109257069351028,
+          "transfer_cer": 0.03076923076923077,
+          "transfer_cost": 0.15338410001542258,
+          "transfer_excess": 0.30881399300899615
+        },
+        "segment": {
+          "coverage": 0.9973388527498521,
+          "fit_cer": 0.018653846153846153,
+          "fit_cost": -0.015263307749088018,
+          "fit_excess": 0.21711106041453743,
+          "transfer_cer": 0.026153846153846153,
+          "transfer_cost": 0.14768437933609624,
+          "transfer_excess": 0.3031142723296698
+        },
+        "truth": {
+          "coverage": 0.9976345357776464,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.23237436816362544,
+          "transfer_cer": 0.007307692307692308,
+          "transfer_cost": -0.017939458115974638,
+          "transfer_excess": 0.13749043487759893
+        },
+        "whole": {
+          "coverage": 0.994086339444116,
+          "fit_cer": 0.029038461538461537,
+          "fit_cost": -0.024171943293614273,
+          "fit_excess": 0.20820242487001117,
+          "transfer_cer": 0.035,
+          "transfer_cost": 0.1793252793308504,
+          "transfer_excess": 0.334755172324424
+        }
+      }
+    },
+    {
+      "block": 10,
+      "development_only": true,
+      "id": "4539d669a2ffc9fcdc04",
+      "language": "catalan",
+      "missing": {
+        "halves": 22,
+        "whole": 40
+      },
+      "model": "catalan_broad2",
+      "seconds": 710.5762676250006,
+      "true_fit_excess": 0.02908962169405882,
+      "true_transfer_excess": -0.2701602229296425,
+      "variants": {
+        "A": {
+          "coverage": 0.9836782279218886,
+          "fit_cer": 0.05211538461538461,
+          "fit_cost": -0.010398720183954602,
+          "fit_excess": 0.01869090151010422,
+          "transfer_cer": 0.05596153846153846,
+          "transfer_cost": 0.35812220562230035,
+          "transfer_excess": 0.08796198269265787
+        },
+        "halves": {
+          "coverage": 0.9924220343923055,
+          "fit_cer": 0.06576923076923077,
+          "fit_cost": 0.13513465306192796,
+          "fit_excess": 0.16422427475598678,
+          "transfer_cer": 0.07711538461538461,
+          "transfer_cost": 0.5324395774440793,
+          "transfer_excess": 0.26227935451443685
+        },
+        "letters": {
+          "coverage": 0.9836782279218886,
+          "fit_cer": 0.03884615384615384,
+          "fit_cost": 0.1041503533456094,
+          "fit_excess": 0.13323997503966822,
+          "transfer_cer": 0.045,
+          "transfer_cost": 0.3384872529208365,
+          "transfer_excess": 0.068327029991194
+        },
+        "lexicon": {
+          "coverage": 0.9924220343923055,
+          "fit_cer": 0.019230769230769232,
+          "fit_cost": -0.05286678047026694,
+          "fit_excess": -0.023777158776208118,
+          "transfer_cer": 0.025384615384615384,
+          "transfer_cost": 0.18072360948826116,
+          "transfer_excess": -0.08943661344138132
+        },
+        "segment": {
+          "coverage": 0.9941707956863888,
+          "fit_cer": 0.02,
+          "fit_cost": -0.02877591218372988,
+          "fit_excess": 0.0003137095103289411,
+          "transfer_cer": 0.030576923076923078,
+          "transfer_cost": 0.25276464533171383,
+          "transfer_excess": -0.017395577597928646
+        },
+        "truth": {
+          "coverage": 0.9950451763334305,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.02908962169405882,
+          "transfer_cer": 0.014807692307692308,
+          "transfer_cost": 0.10472440616987022,
+          "transfer_excess": -0.16543581675977226
+        },
+        "whole": {
+          "coverage": 0.9836782279218886,
+          "fit_cer": 0.027115384615384614,
+          "fit_cost": -0.010713638246762525,
+          "fit_excess": 0.018375983447296296,
+          "transfer_cer": 0.03807692307692308,
+          "transfer_cost": 0.2559824968088118,
+          "transfer_excess": -0.01417772612083068
+        }
+      }
+    },
+    {
+      "block": 16,
+      "development_only": true,
+      "id": "4774a18a6bbe3670ec51",
+      "language": "latin",
+      "missing": {
+        "halves": 33,
+        "whole": 33
+      },
+      "model": "latin_broad2",
+      "seconds": 624.952870167006,
+      "true_fit_excess": 0.3613975355113226,
+      "true_transfer_excess": -0.3185233935145666,
+      "variants": {
+        "A": {
+          "coverage": 0.9888169511477339,
+          "fit_cer": 0.0648076923076923,
+          "fit_cost": 0.017083645631795097,
+          "fit_excess": 0.3784811811431177,
+          "transfer_cer": 0.055,
+          "transfer_cost": 0.3685363073547001,
+          "transfer_excess": 0.05001291384013351
+        },
+        "halves": {
+          "coverage": 0.9947027663331371,
+          "fit_cer": 0.04326923076923077,
+          "fit_cost": 0.10276603917146376,
+          "fit_excess": 0.46416357468278635,
+          "transfer_cer": 0.04423076923076923,
+          "transfer_cost": 0.37971824868362924,
+          "transfer_excess": 0.061194855169062645
+        },
+        "letters": {
+          "coverage": 0.9888169511477339,
+          "fit_cer": 0.050576923076923075,
+          "fit_cost": 0.182775786307527,
+          "fit_excess": 0.5441733218188496,
+          "transfer_cer": 0.03942307692307692,
+          "transfer_cost": 0.3294133726546691,
+          "transfer_excess": 0.01088997914010248
+        },
+        "lexicon": {
+          "coverage": 0.9949970570924073,
+          "fit_cer": 0.019615384615384614,
+          "fit_cost": -0.04570265839431187,
+          "fit_excess": 0.3156948771170107,
+          "transfer_cer": 0.018846153846153846,
+          "transfer_cost": 0.18156595049826008,
+          "transfer_excess": -0.13695744301630652
+        },
+        "segment": {
+          "coverage": 0.9941141848145968,
+          "fit_cer": 0.014807692307692308,
+          "fit_cost": -0.05069582324920452,
+          "fit_excess": 0.31070171226211807,
+          "transfer_cer": 0.021346153846153845,
+          "transfer_cost": 0.18549297190962788,
+          "transfer_excess": -0.13303042160493872
+        },
+        "truth": {
+          "coverage": 0.9947027663331371,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.3613975355113226,
+          "transfer_cer": 0.014615384615384615,
+          "transfer_cost": 0.12519736671009518,
+          "transfer_excess": -0.19332602680447142
+        },
+        "whole": {
+          "coverage": 0.9888169511477339,
+          "fit_cer": 0.037884615384615385,
+          "fit_cost": 0.027959943659442654,
+          "fit_excess": 0.38935747917076524,
+          "transfer_cer": 0.037307692307692306,
+          "transfer_cost": 0.3126231872548666,
+          "transfer_excess": -0.005900206259700003
+        }
+      }
+    },
+    {
+      "block": 11,
+      "development_only": true,
+      "id": "665b2374b6e5bdf7a303",
+      "language": "old_french",
+      "missing": {
+        "halves": 27,
+        "whole": 30
+      },
+      "model": "old_french",
+      "seconds": 759.512356667,
+      "true_fit_excess": 0.08132492680058201,
+      "true_transfer_excess": 0.11346627445793578,
+      "variants": {
+        "A": {
+          "coverage": 0.9810163551401869,
+          "fit_cer": 0.07346153846153847,
+          "fit_cost": -0.00020660014903084445,
+          "fit_excess": 0.08111832665155116,
+          "transfer_cer": 0.10153846153846154,
+          "transfer_cost": 0.4752000937168317,
+          "transfer_excess": 0.5886663681747675
+        },
+        "halves": {
+          "coverage": 0.9959112149532711,
+          "fit_cer": 0.07153846153846154,
+          "fit_cost": 0.06028831462150874,
+          "fit_excess": 0.14161324142209075,
+          "transfer_cer": 0.09153846153846154,
+          "transfer_cost": 0.3731183430993985,
+          "transfer_excess": 0.4865846175573343
+        },
+        "letters": {
+          "coverage": 0.9810163551401869,
+          "fit_cer": 0.045,
+          "fit_cost": 0.13510260684945363,
+          "fit_excess": 0.21642753365003564,
+          "transfer_cer": 0.05596153846153846,
+          "transfer_cost": 0.3647813925735277,
+          "transfer_excess": 0.4782476670314635
+        },
+        "lexicon": {
+          "coverage": 0.9959112149532711,
+          "fit_cer": 0.021538461538461538,
+          "fit_cost": -0.03559291837037604,
+          "fit_excess": 0.04573200843020597,
+          "transfer_cer": 0.031153846153846153,
+          "transfer_cost": 0.2094869254702605,
+          "transfer_excess": 0.32295319992819627
+        },
+        "segment": {
+          "coverage": 0.9956191588785047,
+          "fit_cer": 0.017884615384615384,
+          "fit_cost": -0.043943217428811465,
+          "fit_excess": 0.037381709371770544,
+          "transfer_cer": 0.02826923076923077,
+          "transfer_cost": 0.19321744493377135,
+          "transfer_excess": 0.30668371939170713
+        },
+        "truth": {
+          "coverage": 0.9956191588785047,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.08132492680058201,
+          "transfer_cer": 0.016923076923076923,
+          "transfer_cost": 0.06786771096787936,
+          "transfer_excess": 0.18133398542581514
+        },
+        "whole": {
+          "coverage": 0.9821845794392523,
+          "fit_cer": 0.02980769230769231,
+          "fit_cost": -0.0017588767020093599,
+          "fit_excess": 0.07956605009857265,
+          "transfer_cer": 0.05173076923076923,
+          "transfer_cost": 0.3071335148607681,
+          "transfer_excess": 0.4205997893187039
+        }
+      }
+    },
+    {
+      "block": 3,
+      "development_only": true,
+      "id": "8243cddc9d2dc6770756",
+      "language": "old_french",
+      "missing": {
+        "halves": 30,
+        "whole": 37
+      },
+      "model": "old_french",
+      "seconds": 740.2538369159884,
+      "true_fit_excess": 0.0032661047106392616,
+      "true_transfer_excess": -0.11701976434480699,
+      "variants": {
+        "A": {
+          "coverage": 0.9799646434885091,
+          "fit_cer": 0.05346153846153846,
+          "fit_cost": 0.043884341506168933,
+          "fit_excess": 0.047150446216808195,
+          "transfer_cer": 0.05923076923076923,
+          "transfer_cost": 0.34024147967761253,
+          "transfer_excess": 0.22322171533280555
+        },
+        "halves": {
+          "coverage": 0.9876252209781968,
+          "fit_cer": 0.05326923076923077,
+          "fit_cost": 0.13115605850942824,
+          "fit_excess": 0.1344221632200675,
+          "transfer_cer": 0.06788461538461539,
+          "transfer_cost": 0.43997857086710734,
+          "transfer_excess": 0.32295880652230036
+        },
+        "letters": {
+          "coverage": 0.9799646434885091,
+          "fit_cer": 0.04288461538461538,
+          "fit_cost": 0.203601126532313,
+          "fit_excess": 0.20686723124295225,
+          "transfer_cer": 0.05038461538461538,
+          "transfer_cost": 0.2998986334632874,
+          "transfer_excess": 0.1828788691184804
+        },
+        "lexicon": {
+          "coverage": 0.9876252209781968,
+          "fit_cer": 0.019807692307692307,
+          "fit_cost": -0.019711759910912008,
+          "fit_excess": -0.016445655200272746,
+          "transfer_cer": 0.038461538461538464,
+          "transfer_cost": 0.26662584414669777,
+          "transfer_excess": 0.14960607980189078
+        },
+        "segment": {
+          "coverage": 0.9870359457866824,
+          "fit_cer": 0.014038461538461538,
+          "fit_cost": -0.03441908523175918,
+          "fit_excess": -0.031152980521119922,
+          "transfer_cer": 0.03076923076923077,
+          "transfer_cost": 0.23634151942928483,
+          "transfer_excess": 0.11932175508447784
+        },
+        "truth": {
+          "coverage": 0.9917501473187978,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.0032661047106392616,
+          "transfer_cer": 0.028846153846153848,
+          "transfer_cost": 0.1971626398266122,
+          "transfer_excess": 0.08014287548180521
+        },
+        "whole": {
+          "coverage": 0.9799646434885091,
+          "fit_cer": 0.029038461538461537,
+          "fit_cost": 0.0038304887789841757,
+          "fit_excess": 0.007096593489623437,
+          "transfer_cer": 0.04788461538461539,
+          "transfer_cost": 0.2981951202289608,
+          "transfer_excess": 0.1811753558841538
+        }
+      }
+    },
+    {
+      "block": 8,
+      "development_only": true,
+      "id": "86aeb5a23852cb614e30",
+      "language": "latin",
+      "missing": {
+        "halves": 33,
+        "whole": 26
+      },
+      "model": "latin_broad2",
+      "seconds": 672.1475740830001,
+      "true_fit_excess": -0.02049374702766915,
+      "true_transfer_excess": 0.10146756659354583,
+      "variants": {
+        "A": {
+          "coverage": 0.9819083746717245,
+          "fit_cer": 0.021153846153846155,
+          "fit_cost": 0.04927428945668444,
+          "fit_excess": 0.028780542429015288,
+          "transfer_cer": 0.04403846153846154,
+          "transfer_cost": 0.31729059254073944,
+          "transfer_excess": 0.41875815913428527
+        },
+        "halves": {
+          "coverage": 0.9935803910125475,
+          "fit_cer": 0.03076923076923077,
+          "fit_cost": 0.18267982924364556,
+          "fit_excess": 0.1621860822159764,
+          "transfer_cer": 0.05480769230769231,
+          "transfer_cost": 0.45963121199503343,
+          "transfer_excess": 0.5610987785885793
+        },
+        "letters": {
+          "coverage": 0.9819083746717245,
+          "fit_cer": 0.021923076923076924,
+          "fit_cost": 0.12106464470400091,
+          "fit_excess": 0.10057089767633176,
+          "transfer_cer": 0.04346153846153846,
+          "transfer_cost": 0.30288174347611774,
+          "transfer_excess": 0.40434931006966357
+        },
+        "lexicon": {
+          "coverage": 0.9932885906040269,
+          "fit_cer": 0.007884615384615384,
+          "fit_cost": -0.025165582262070885,
+          "fit_excess": -0.045659329289740036,
+          "transfer_cer": 0.025576923076923077,
+          "transfer_cost": 0.21720639567975875,
+          "transfer_excess": 0.3186739622733046
+        },
+        "segment": {
+          "coverage": 0.9932885906040269,
+          "fit_cer": 0.007884615384615384,
+          "fit_cost": -0.011844631466736644,
+          "fit_excess": -0.032338378494405795,
+          "transfer_cer": 0.025,
+          "transfer_cost": 0.21323125411754118,
+          "transfer_excess": 0.314698820711087
+        },
+        "truth": {
+          "coverage": 0.9932885906040269,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.02049374702766915,
+          "transfer_cer": 0.022115384615384617,
+          "transfer_cost": 0.17193933057473654,
+          "transfer_excess": 0.27340689716828237
+        },
+        "whole": {
+          "coverage": 0.9813247738546834,
+          "fit_cer": 0.015384615384615385,
+          "fit_cost": 0.018763222140245617,
+          "fit_excess": -0.0017305248874235346,
+          "transfer_cer": 0.04153846153846154,
+          "transfer_cost": 0.2865138392149391,
+          "transfer_excess": 0.38798140580848495
+        }
+      }
+    },
+    {
+      "block": 2,
+      "development_only": true,
+      "id": "9825efa3785c7aa6c3ee",
+      "language": "catalan",
+      "missing": {
+        "halves": 27,
+        "whole": 33
+      },
+      "model": "catalan_broad2",
+      "seconds": 752.5002634170087,
+      "true_fit_excess": 0.28668173109088047,
+      "true_transfer_excess": 0.01207748088150451,
+      "variants": {
+        "A": {
+          "coverage": 0.9786549707602339,
+          "fit_cer": 0.0798076923076923,
+          "fit_cost": -0.11316854448958269,
+          "fit_excess": 0.17351318660129778,
+          "transfer_cer": 0.0751923076923077,
+          "transfer_cost": 0.4279337032537547,
+          "transfer_excess": 0.4400111841352592
+        },
+        "halves": {
+          "coverage": 0.9976608187134502,
+          "fit_cer": 0.07653846153846154,
+          "fit_cost": -0.029515964676518625,
+          "fit_excess": 0.25716576641436184,
+          "transfer_cer": 0.06865384615384615,
+          "transfer_cost": 0.45757774774985727,
+          "transfer_excess": 0.4696552286313618
+        },
+        "letters": {
+          "coverage": 0.9786549707602339,
+          "fit_cer": 0.05153846153846154,
+          "fit_cost": 0.1114393160967162,
+          "fit_excess": 0.39812104718759667,
+          "transfer_cer": 0.05576923076923077,
+          "transfer_cost": 0.33205529708125736,
+          "transfer_excess": 0.34413277796276187
+        },
+        "lexicon": {
+          "coverage": 0.9970760233918129,
+          "fit_cer": 0.04865384615384615,
+          "fit_cost": -0.20539566043643642,
+          "fit_excess": 0.08128607065444404,
+          "transfer_cer": 0.03769230769230769,
+          "transfer_cost": 0.27229748647893137,
+          "transfer_excess": 0.2843749673604359
+        },
+        "segment": {
+          "coverage": 0.9970760233918129,
+          "fit_cer": 0.041923076923076924,
+          "fit_cost": -0.1812063801170538,
+          "fit_excess": 0.10547535097382665,
+          "transfer_cer": 0.043653846153846154,
+          "transfer_cost": 0.3055278023830392,
+          "transfer_excess": 0.31760528326454374
+        },
+        "truth": {
+          "coverage": 0.997953216374269,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.28668173109088047,
+          "transfer_cer": 0.01,
+          "transfer_cost": 0.038000911825181394,
+          "transfer_excess": 0.050078392706685904
+        },
+        "whole": {
+          "coverage": 0.9780701754385965,
+          "fit_cer": 0.053653846153846156,
+          "fit_cost": -0.14997305707792474,
+          "fit_excess": 0.13670867401295572,
+          "transfer_cer": 0.06307692307692307,
+          "transfer_cost": 0.32805284760377873,
+          "transfer_excess": 0.34013032848528324
+        }
+      }
+    },
+    {
+      "block": 4,
+      "development_only": true,
+      "id": "98dc50cfa91fcc702762",
+      "language": "english",
+      "missing": {
+        "halves": 19,
+        "whole": 31
+      },
+      "model": "english",
+      "seconds": 651.5732671670121,
+      "true_fit_excess": -0.2301034784057463,
+      "true_transfer_excess": -0.04002832357475228,
+      "variants": {
+        "A": {
+          "coverage": 0.9886429819452534,
+          "fit_cer": 0.014038461538461538,
+          "fit_cost": 0.034105661564656664,
+          "fit_excess": -0.19599781684108963,
+          "transfer_cer": 0.025384615384615384,
+          "transfer_cost": 0.21782531448629205,
+          "transfer_excess": 0.17779699091153978
+        },
+        "halves": {
+          "coverage": 0.9944670937682003,
+          "fit_cer": 0.03769230769230769,
+          "fit_cost": 0.26587452260715194,
+          "fit_excess": 0.035771044201405644,
+          "transfer_cer": 0.05596153846153846,
+          "transfer_cost": 0.5703004356112924,
+          "transfer_excess": 0.5302721120365401
+        },
+        "letters": {
+          "coverage": 0.9886429819452534,
+          "fit_cer": 0.012692307692307692,
+          "fit_cost": 0.046310790459705764,
+          "fit_excess": -0.18379268794604053,
+          "transfer_cer": 0.02346153846153846,
+          "transfer_cost": 0.19304199965539848,
+          "transfer_excess": 0.1530136760806462
+        },
+        "lexicon": {
+          "coverage": 0.9944670937682003,
+          "fit_cer": 0.007115384615384615,
+          "fit_cost": -0.008928129564282461,
+          "fit_excess": -0.23903160797002876,
+          "transfer_cer": 0.014807692307692308,
+          "transfer_cost": 0.14322869900425772,
+          "transfer_excess": 0.10320037542950544
+        },
+        "segment": {
+          "coverage": 0.9944670937682003,
+          "fit_cer": 0.006153846153846154,
+          "fit_cost": -0.015286901147494092,
+          "fit_excess": -0.2453903795532404,
+          "transfer_cer": 0.018846153846153846,
+          "transfer_cost": 0.1322708012456011,
+          "transfer_excess": 0.09224247767084881
+        },
+        "truth": {
+          "coverage": 0.9944670937682003,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.2301034784057463,
+          "transfer_cer": 0.013846153846153847,
+          "transfer_cost": 0.08717207702464824,
+          "transfer_excess": 0.047143753449895964
+        },
+        "whole": {
+          "coverage": 0.988351776354106,
+          "fit_cer": 0.01,
+          "fit_cost": 0.02079007852745196,
+          "fit_excess": -0.20931339987829434,
+          "transfer_cer": 0.02173076923076923,
+          "transfer_cost": 0.18237819829781632,
+          "transfer_excess": 0.14234987472306404
+        }
+      }
+    },
+    {
+      "block": 12,
+      "development_only": true,
+      "id": "a1ad9021be34ff9b5202",
+      "language": "english",
+      "missing": {
+        "halves": 27,
+        "whole": 38
+      },
+      "model": "english",
+      "seconds": 690.4954291660006,
+      "true_fit_excess": 0.29879021679350837,
+      "true_transfer_excess": -0.10418876192696036,
+      "variants": {
+        "A": {
+          "coverage": 0.9793632075471698,
+          "fit_cer": 0.04384615384615385,
+          "fit_cost": 0.06089113256413592,
+          "fit_excess": 0.3596813493576443,
+          "transfer_cer": 0.05730769230769231,
+          "transfer_cost": 0.3724494077625504,
+          "transfer_excess": 0.26826064583559006
+        },
+        "halves": {
+          "coverage": 0.9935141509433962,
+          "fit_cer": 0.059423076923076926,
+          "fit_cost": 0.18981789985395192,
+          "fit_excess": 0.4886081166474603,
+          "transfer_cer": 0.05961538461538462,
+          "transfer_cost": 0.4824504446935709,
+          "transfer_excess": 0.37826168276661054
+        },
+        "letters": {
+          "coverage": 0.9793632075471698,
+          "fit_cer": 0.03634615384615385,
+          "fit_cost": 0.09354347057434387,
+          "fit_excess": 0.39233368736785224,
+          "transfer_cer": 0.0475,
+          "transfer_cost": 0.2896388994264738,
+          "transfer_excess": 0.18545013749951345
+        },
+        "lexicon": {
+          "coverage": 0.9935141509433962,
+          "fit_cer": 0.02076923076923077,
+          "fit_cost": -0.049257120497047335,
+          "fit_excess": 0.24953309629646103,
+          "transfer_cer": 0.0225,
+          "transfer_cost": 0.17667728930212956,
+          "transfer_excess": 0.0724885273751692
+        },
+        "segment": {
+          "coverage": 0.9946933962264151,
+          "fit_cer": 0.01673076923076923,
+          "fit_cost": -0.05017392738003945,
+          "fit_excess": 0.24861628941346892,
+          "transfer_cer": 0.02423076923076923,
+          "transfer_cost": 0.19588922699084588,
+          "transfer_excess": 0.09170046506388552
+        },
+        "truth": {
+          "coverage": 0.9946933962264151,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.29879021679350837,
+          "transfer_cer": 0.01173076923076923,
+          "transfer_cost": 0.07446150287026843,
+          "transfer_excess": -0.029727259056691935
+        },
+        "whole": {
+          "coverage": 0.9790683962264151,
+          "fit_cer": 0.027115384615384614,
+          "fit_cost": -0.005646665580264276,
+          "fit_excess": 0.2931435512132441,
+          "transfer_cer": 0.04038461538461539,
+          "transfer_cost": 0.27185820070473143,
+          "transfer_excess": 0.16766943877777107
+        }
+      }
+    },
+    {
+      "block": 1,
+      "development_only": true,
+      "id": "a567c78494a4363b94a3",
+      "language": "italian",
+      "missing": {
+        "halves": 25,
+        "whole": 34
+      },
+      "model": "italian",
+      "seconds": 726.8072625829955,
+      "true_fit_excess": -0.20717259721167647,
+      "true_transfer_excess": -0.11958466962657344,
+      "variants": {
+        "A": {
+          "coverage": 0.9912203687445127,
+          "fit_cer": 0.03884615384615384,
+          "fit_cost": -0.023069051147423636,
+          "fit_excess": -0.2302416483591001,
+          "transfer_cer": 0.03653846153846154,
+          "transfer_cost": 0.23110610347911908,
+          "transfer_excess": 0.11152143385254565
+        },
+        "halves": {
+          "coverage": 0.9964881474978051,
+          "fit_cer": 0.04673076923076923,
+          "fit_cost": 0.3010278783732745,
+          "fit_excess": 0.09385528116159803,
+          "transfer_cer": 0.06173076923076923,
+          "transfer_cost": 0.6068531061105635,
+          "transfer_excess": 0.4872684364839901
+        },
+        "letters": {
+          "coverage": 0.9912203687445127,
+          "fit_cer": 0.03576923076923077,
+          "fit_cost": 0.10429046685379673,
+          "fit_excess": -0.10288213035787974,
+          "transfer_cer": 0.03230769230769231,
+          "transfer_cost": 0.25662748779223143,
+          "transfer_excess": 0.137042818165658
+        },
+        "lexicon": {
+          "coverage": 0.9964881474978051,
+          "fit_cer": 0.013846153846153847,
+          "fit_cost": -0.04619067107274111,
+          "fit_excess": -0.2533632682844176,
+          "transfer_cer": 0.019230769230769232,
+          "transfer_cost": 0.1742209128228045,
+          "transfer_excess": 0.05463624319623106
+        },
+        "segment": {
+          "coverage": 0.9964881474978051,
+          "fit_cer": 0.014038461538461538,
+          "fit_cost": -0.005449463112576769,
+          "fit_excess": -0.21262206032425324,
+          "transfer_cer": 0.018461538461538463,
+          "transfer_cost": 0.1546522895971627,
+          "transfer_excess": 0.03506761997058927
+        },
+        "truth": {
+          "coverage": 0.9964881474978051,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.20717259721167647,
+          "transfer_cer": 0.011153846153846153,
+          "transfer_cost": 0.09324067424579274,
+          "transfer_excess": -0.026343995380780694
+        },
+        "whole": {
+          "coverage": 0.9912203687445127,
+          "fit_cer": 0.017884615384615384,
+          "fit_cost": -0.03275240375124655,
+          "fit_excess": -0.23992500096292302,
+          "transfer_cer": 0.02423076923076923,
+          "transfer_cost": 0.18347865469738966,
+          "transfer_excess": 0.06389398507081623
+        }
+      }
+    },
+    {
+      "block": 23,
+      "development_only": true,
+      "id": "b2e15e77b4c78a905b45",
+      "language": "occitan",
+      "missing": {
+        "halves": 32,
+        "whole": 31
+      },
+      "model": "occitan",
+      "seconds": 691.0472393749997,
+      "true_fit_excess": -0.1324726747357361,
+      "true_transfer_excess": 0.4271481820763361,
+      "variants": {
+        "A": {
+          "coverage": 0.9710102489019034,
+          "fit_cer": 0.05961538461538462,
+          "fit_cost": -0.021209040172616156,
+          "fit_excess": -0.15368171490835225,
+          "transfer_cer": 0.1075,
+          "transfer_cost": 0.2649068898963898,
+          "transfer_excess": 0.6920550719727259
+        },
+        "halves": {
+          "coverage": 0.9797950219619327,
+          "fit_cer": 0.05384615384615385,
+          "fit_cost": 0.03787760982218957,
+          "fit_excess": -0.09459506491354652,
+          "transfer_cer": 0.09846153846153846,
+          "transfer_cost": 0.23584017476571484,
+          "transfer_excess": 0.6629883568420509
+        },
+        "letters": {
+          "coverage": 0.9710102489019034,
+          "fit_cer": 0.04057692307692308,
+          "fit_cost": 0.10704860751321155,
+          "fit_excess": -0.02542406722252455,
+          "transfer_cer": 0.08192307692307692,
+          "transfer_cost": 0.17705897062244746,
+          "transfer_excess": 0.6042071526987836
+        },
+        "lexicon": {
+          "coverage": 0.9795021961932651,
+          "fit_cer": 0.02846153846153846,
+          "fit_cost": -0.06016934483124059,
+          "fit_excess": -0.19264201956697669,
+          "transfer_cer": 0.07096153846153846,
+          "transfer_cost": 0.12568125922318085,
+          "transfer_excess": 0.5528294412995169
+        },
+        "segment": {
+          "coverage": 0.9800878477306003,
+          "fit_cer": 0.03519230769230769,
+          "fit_cost": -0.06709544883167773,
+          "fit_excess": -0.19956812356741382,
+          "transfer_cer": 0.07730769230769231,
+          "transfer_cost": 0.1841548841662788,
+          "transfer_excess": 0.6113030662426149
+        },
+        "truth": {
+          "coverage": 0.9806734992679356,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.1324726747357361,
+          "transfer_cer": 0.05,
+          "transfer_cost": -0.02934617669011086,
+          "transfer_excess": 0.39780200538622523
+        },
+        "whole": {
+          "coverage": 0.9707174231332357,
+          "fit_cer": 0.03711538461538461,
+          "fit_cost": -0.029627689940387558,
+          "fit_excess": -0.16210036467612365,
+          "transfer_cer": 0.08884615384615385,
+          "transfer_cost": 0.2574874219633325,
+          "transfer_excess": 0.6846356040396686
+        }
+      }
+    },
+    {
+      "block": 20,
+      "development_only": true,
+      "id": "c428bf874878b796b166",
+      "language": "english",
+      "missing": {
+        "halves": 27,
+        "whole": 32
+      },
+      "model": "english",
+      "seconds": 759.7829603330001,
+      "true_fit_excess": 0.21432838096217166,
+      "true_transfer_excess": -0.19703472924367915,
+      "variants": {
+        "A": {
+          "coverage": 0.9863501483679525,
+          "fit_cer": 0.02653846153846154,
+          "fit_cost": 0.0056804995563992655,
+          "fit_excess": 0.22000888051857093,
+          "transfer_cer": 0.04115384615384615,
+          "transfer_cost": 0.37466017367928783,
+          "transfer_excess": 0.17762544443560868
+        },
+        "halves": {
+          "coverage": 0.9952522255192878,
+          "fit_cer": 0.05096153846153846,
+          "fit_cost": 0.1840694437573216,
+          "fit_excess": 0.39839782471949325,
+          "transfer_cer": 0.05653846153846154,
+          "transfer_cost": 0.5603283955291212,
+          "transfer_excess": 0.363293666285442
+        },
+        "letters": {
+          "coverage": 0.9863501483679525,
+          "fit_cer": 0.02403846153846154,
+          "fit_cost": 0.01503048106256788,
+          "fit_excess": 0.22935886202473954,
+          "transfer_cer": 0.036730769230769234,
+          "transfer_cost": 0.31392551274056313,
+          "transfer_excess": 0.11689078349688398
+        },
+        "lexicon": {
+          "coverage": 0.9928783382789318,
+          "fit_cer": 0.014807692307692308,
+          "fit_cost": -0.03205440973818696,
+          "fit_excess": 0.1822739712239847,
+          "transfer_cer": 0.021923076923076924,
+          "transfer_cost": 0.22047411895112612,
+          "transfer_excess": 0.023439389707446967
+        },
+        "segment": {
+          "coverage": 0.9946587537091988,
+          "fit_cer": 0.011346153846153846,
+          "fit_cost": -0.0339152150274713,
+          "fit_excess": 0.18041316593470036,
+          "transfer_cer": 0.02076923076923077,
+          "transfer_cost": 0.20156179247266692,
+          "transfer_excess": 0.004527063228987771
+        },
+        "truth": {
+          "coverage": 0.9952522255192878,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": 0.21432838096217166,
+          "transfer_cer": 0.012692307692307692,
+          "transfer_cost": 0.10104867437688902,
+          "transfer_excess": -0.09598605486679013
+        },
+        "whole": {
+          "coverage": 0.9839762611275964,
+          "fit_cer": 0.018846153846153846,
+          "fit_cost": -0.019321024536156806,
+          "fit_excess": 0.19500735642601486,
+          "transfer_cer": 0.031538461538461536,
+          "transfer_cost": 0.26131856248504803,
+          "transfer_excess": 0.06428383324136888
+        }
+      }
+    },
+    {
+      "block": 5,
+      "development_only": true,
+      "id": "cc7f251c84510bf6e829",
+      "language": "german",
+      "missing": {
+        "halves": 23,
+        "whole": 36
+      },
+      "model": "german_broad2",
+      "seconds": 698.440248417,
+      "true_fit_excess": -0.2660597785953982,
+      "true_transfer_excess": -0.2486128821082838,
+      "variants": {
+        "A": {
+          "coverage": 0.9786736780601811,
+          "fit_cer": 0.04269230769230769,
+          "fit_cost": 0.021116819100131856,
+          "fit_excess": -0.24494295949526634,
+          "transfer_cer": 0.065,
+          "transfer_cost": 0.3503176621144095,
+          "transfer_excess": 0.1017047800061257
+        },
+        "halves": {
+          "coverage": 0.9888986269354367,
+          "fit_cer": 0.05038461538461538,
+          "fit_cost": 0.14518321077833507,
+          "fit_excess": -0.12087656781706313,
+          "transfer_cer": 0.07153846153846154,
+          "transfer_cost": 0.4675695157954354,
+          "transfer_excess": 0.21895663368715157
+        },
+        "letters": {
+          "coverage": 0.9786736780601811,
+          "fit_cer": 0.03096153846153846,
+          "fit_cost": 0.0707268509541863,
+          "fit_excess": -0.1953329276412119,
+          "transfer_cer": 0.05019230769230769,
+          "transfer_cost": 0.24864511597602634,
+          "transfer_excess": 3.2233867742537115e-05
+        },
+        "lexicon": {
+          "coverage": 0.9888986269354367,
+          "fit_cer": 0.017884615384615384,
+          "fit_cost": -0.024742772823428183,
+          "fit_excess": -0.2908025514188264,
+          "transfer_cer": 0.03192307692307692,
+          "transfer_cost": 0.23726031301452188,
+          "transfer_excess": -0.011352569093761922
+        },
+        "segment": {
+          "coverage": 0.9894829097283085,
+          "fit_cer": 0.01673076923076923,
+          "fit_cost": -0.01529048327157767,
+          "fit_excess": -0.28135026186697587,
+          "transfer_cer": 0.03576923076923077,
+          "transfer_cost": 0.26760276973451047,
+          "transfer_excess": 0.018989887626226665
+        },
+        "truth": {
+          "coverage": 0.9912357581069238,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.2660597785953982,
+          "transfer_cer": 0.02173076923076923,
+          "transfer_cost": 0.07403269259352374,
+          "transfer_excess": -0.17458018951476006
+        },
+        "whole": {
+          "coverage": 0.9786736780601811,
+          "fit_cer": 0.02480769230769231,
+          "fit_cost": -0.012254435397942132,
+          "fit_excess": -0.27831421399334033,
+          "transfer_cer": 0.04788461538461539,
+          "transfer_cost": 0.2707931167030706,
+          "transfer_excess": 0.022180234594786796
+        }
+      }
+    },
+    {
+      "block": 17,
+      "development_only": true,
+      "id": "ce3561ec41f702563d7e",
+      "language": "italian",
+      "missing": {
+        "halves": 24,
+        "whole": 40
+      },
+      "model": "italian",
+      "seconds": 705.509307708,
+      "true_fit_excess": -0.18740568167074612,
+      "true_transfer_excess": -0.31416309601531456,
+      "variants": {
+        "A": {
+          "coverage": 0.9824663939216832,
+          "fit_cer": 0.02826923076923077,
+          "fit_cost": 0.07635588956622863,
+          "fit_excess": -0.11104979210451749,
+          "transfer_cer": 0.05326923076923077,
+          "transfer_cost": 0.39882356932775975,
+          "transfer_excess": 0.0846604733124452
+        },
+        "halves": {
+          "coverage": 0.9938632378725891,
+          "fit_cer": 0.06596153846153846,
+          "fit_cost": 0.37358784794452005,
+          "fit_excess": 0.18618216627377393,
+          "transfer_cer": 0.08038461538461539,
+          "transfer_cost": 0.596075587388373,
+          "transfer_excess": 0.2819124913730584
+        },
+        "letters": {
+          "coverage": 0.9824663939216832,
+          "fit_cer": 0.02423076923076923,
+          "fit_cost": 0.11613247688099149,
+          "fit_excess": -0.07127320478975463,
+          "transfer_cer": 0.045,
+          "transfer_cost": 0.32069902362506975,
+          "transfer_excess": 0.006535927609755188
+        },
+        "lexicon": {
+          "coverage": 0.9938632378725891,
+          "fit_cer": 0.013076923076923076,
+          "fit_cost": 0.0010860549267603936,
+          "fit_excess": -0.18631962674398572,
+          "transfer_cer": 0.023269230769230768,
+          "transfer_cost": 0.22588916817063787,
+          "transfer_excess": -0.08827392784467669
+        },
+        "segment": {
+          "coverage": 0.9935710111046172,
+          "fit_cer": 0.016153846153846154,
+          "fit_cost": 0.004594474181978558,
+          "fit_excess": -0.18281120748876756,
+          "transfer_cer": 0.02673076923076923,
+          "transfer_cost": 0.2198364511771409,
+          "transfer_excess": -0.09432664483817366
+        },
+        "truth": {
+          "coverage": 0.9935710111046172,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.18740568167074612,
+          "transfer_cer": 0.014038461538461538,
+          "transfer_cost": 0.09753102460482754,
+          "transfer_excess": -0.21663207141048701
+        },
+        "whole": {
+          "coverage": 0.9824663939216832,
+          "fit_cer": 0.019615384615384614,
+          "fit_cost": 0.05990610683797781,
+          "fit_excess": -0.1274995748327683,
+          "transfer_cer": 0.041346153846153845,
+          "transfer_cost": 0.3526745575562753,
+          "transfer_excess": 0.038511461540960745
+        }
+      }
+    },
+    {
+      "block": 9,
+      "development_only": true,
+      "id": "d14ce79de00922cc8737",
+      "language": "italian",
+      "missing": {
+        "halves": 26,
+        "whole": 38
+      },
+      "model": "italian",
+      "seconds": 741.4346377910001,
+      "true_fit_excess": -0.24489929651907838,
+      "true_transfer_excess": -0.16116665275193576,
+      "variants": {
+        "A": {
+          "coverage": 0.9851101846337106,
+          "fit_cer": 0.03480769230769231,
+          "fit_cost": 0.08138217868001574,
+          "fit_excess": -0.16351711783906264,
+          "transfer_cer": 0.047692307692307694,
+          "transfer_cost": 0.34722174631319236,
+          "transfer_excess": 0.1860550935612566
+        },
+        "halves": {
+          "coverage": 0.9907683144729006,
+          "fit_cer": 0.06557692307692307,
+          "fit_cost": 0.29763181843764697,
+          "fit_excess": 0.05273252191856859,
+          "transfer_cer": 0.08442307692307692,
+          "transfer_cost": 0.580774269162303,
+          "transfer_excess": 0.41960761641036726
+        },
+        "letters": {
+          "coverage": 0.9851101846337106,
+          "fit_cer": 0.029038461538461537,
+          "fit_cost": 0.15660612005803642,
+          "fit_excess": -0.08829317646104196,
+          "transfer_cer": 0.043653846153846154,
+          "transfer_cost": 0.3153458601673065,
+          "transfer_excess": 0.15417920741537072
+        },
+        "lexicon": {
+          "coverage": 0.9907683144729006,
+          "fit_cer": 0.011923076923076923,
+          "fit_cost": -0.03604052217855269,
+          "fit_excess": -0.28093981869763107,
+          "transfer_cer": 0.01903846153846154,
+          "transfer_cost": 0.16953703347210913,
+          "transfer_excess": 0.008370380720173376
+        },
+        "segment": {
+          "coverage": 0.9898749255509232,
+          "fit_cer": 0.010961538461538462,
+          "fit_cost": 0.0037604062791576354,
+          "fit_excess": -0.24113889023992074,
+          "transfer_cer": 0.022884615384615385,
+          "transfer_cost": 0.20279248711549958,
+          "transfer_excess": 0.04162583436356382
+        },
+        "truth": {
+          "coverage": 0.990172721858249,
+          "fit_cer": 0.0,
+          "fit_cost": 0.0,
+          "fit_excess": -0.24489929651907838,
+          "transfer_cer": 0.020384615384615383,
+          "transfer_cost": 0.1659653423240317,
+          "transfer_excess": 0.004798689572095949
+        },
+        "whole": {
+          "coverage": 0.9851101846337106,
+          "fit_cer": 0.022115384615384617,
+          "fit_cost": 0.026448520261380448,
+          "fit_excess": -0.21845077625769793,
+          "transfer_cer": 0.034423076923076924,
+          "transfer_cost": 0.248700356662801,
+          "transfer_excess": 0.08753370391086523
+        }
+      }
+    }
+  ]
+}
