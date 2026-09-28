@@ -1,0 +1,1310 @@
+{
+  "at": 1790632159.62331,
+  "cases": 24,
+  "development_only": true,
+  "rows": [
+    {
+      "block": 13,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1074,
+            "threshold": 16.068778277985412
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 287,
+            "threshold": 14.164906926675688
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1074,
+            "threshold": 16.068778277985412
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 1,
+            "tested": 287,
+            "threshold": 14.164906926675688
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "05e91f8b3ee2b861a5da",
+      "language": "german",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9985456660849331,
+          "fit_cer": 0.03923076923076923,
+          "seconds": 240.6762979999985,
+          "transfer_cer": 0.0125,
+          "transfer_cost": 0.06029138082815999,
+          "transfer_excess": -0.21621042112145128
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9985456660849331,
+          "fit_cer": 0.04346153846153846,
+          "seconds": 304.6208582499985,
+          "transfer_cer": 0.0125,
+          "transfer_cost": 0.059232564597252235,
+          "transfer_excess": -0.21726923735235903
+        }
+      }
+    },
+    {
+      "block": 19,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1141,
+            "threshold": 16.15608307628868
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 0,
+            "tested": 265,
+            "threshold": 14.049848549450562
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1140,
+            "threshold": 16.154818109052105
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 265,
+            "threshold": 14.049848549450562
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "091502b977815eba7004",
+      "language": "old_french",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9608187134502923,
+          "fit_cer": 0.07307692307692308,
+          "seconds": 256.7266068329991,
+          "transfer_cer": 0.09942307692307692,
+          "transfer_cost": 0.2600326165008098,
+          "transfer_excess": 0.5518142058952624
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9608187134502923,
+          "fit_cer": 0.0725,
+          "seconds": 325.5726413749999,
+          "transfer_cer": 0.09711538461538462,
+          "transfer_cost": 0.2566888796894604,
+          "transfer_excess": 0.5484704690839131
+        }
+      }
+    },
+    {
+      "block": 0,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1060,
+            "threshold": 16.049848549450562
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 274,
+            "threshold": 14.098032082960527
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1061,
+            "threshold": 16.051208940914766
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 275,
+            "threshold": 14.103287808412022
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "0aa691d902c26939d63d",
+      "language": "latin",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9823217442545669,
+          "fit_cer": 0.051923076923076926,
+          "seconds": 244.9586157499989,
+          "transfer_cer": 0.06,
+          "transfer_cost": 0.40587782255284965,
+          "transfer_excess": 0.38879021556575255
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9823217442545669,
+          "fit_cer": 0.049423076923076924,
+          "seconds": 374.22523900000033,
+          "transfer_cer": 0.05788461538461538,
+          "transfer_cost": 0.38927025589498143,
+          "transfer_excess": 0.37218264890788433
+        }
+      }
+    },
+    {
+      "block": 6,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 4,
+            "tested": 1167,
+            "threshold": 16.18858884570735
+          },
+          "new_pieces": 5,
+          "wholes": {
+            "admitted": 1,
+            "tested": 277,
+            "threshold": 14.113742166049189
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1171,
+            "threshold": 16.193525360501216
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 2,
+            "tested": 276,
+            "threshold": 14.108524456778168
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "1dcda63f777c420ec696",
+      "language": "czech",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9858030168589175,
+          "fit_cer": 0.02576923076923077,
+          "seconds": 231.17026370799977,
+          "transfer_cer": 0.03807692307692308,
+          "transfer_cost": 0.21926590932164203,
+          "transfer_excess": 0.1972253743794692
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9908311150547175,
+          "fit_cer": 0.022884615384615385,
+          "seconds": 369.82413879200067,
+          "transfer_cer": 0.0325,
+          "transfer_cost": 0.19151506903798232,
+          "transfer_excess": 0.16947453409580948
+        }
+      }
+    },
+    {
+      "block": 18,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1006,
+            "threshold": 15.974414589805527
+          },
+          "new_pieces": 3,
+          "wholes": {
+            "admitted": 1,
+            "tested": 288,
+            "threshold": 14.169925001442312
+          }
+        },
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1006,
+            "threshold": 15.974414589805527
+          },
+          "new_pieces": 3,
+          "wholes": {
+            "admitted": 1,
+            "tested": 288,
+            "threshold": 14.169925001442312
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "1e93ee219a302a874cce",
+      "language": "catalan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9663915094339622,
+          "fit_cer": 0.05173076923076923,
+          "seconds": 243.0413747499988,
+          "transfer_cer": 0.07961538461538462,
+          "transfer_cost": 0.4230267086451711,
+          "transfer_excess": 0.430727288636501
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9672759433962265,
+          "fit_cer": 0.04788461538461539,
+          "seconds": 368.05878737499916,
+          "transfer_cer": 0.07653846153846154,
+          "transfer_cost": 0.4164162866414651,
+          "transfer_excess": 0.424116866632795
+        }
+      }
+    },
+    {
+      "block": 7,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1120,
+            "threshold": 16.129283016944967
+          },
+          "new_pieces": 4,
+          "wholes": {
+            "admitted": 3,
+            "tested": 261,
+            "threshold": 14.027905996569885
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1119,
+            "threshold": 16.12799432097639
+          },
+          "new_pieces": 5,
+          "wholes": {
+            "admitted": 5,
+            "tested": 258,
+            "threshold": 14.011227255423254
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "22582ec62ab69ed58f54",
+      "language": "occitan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9878013360441475,
+          "fit_cer": 0.11961538461538461,
+          "seconds": 266.43420437499844,
+          "transfer_cer": 0.09538461538461539,
+          "transfer_cost": 0.20798265712251496,
+          "transfer_excess": 1.1278534953755481
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9886726691838513,
+          "fit_cer": 0.12346153846153846,
+          "seconds": 415.739645959,
+          "transfer_cer": 0.09884615384615385,
+          "transfer_cost": 0.16387614921748472,
+          "transfer_excess": 1.083746987470518
+        }
+      }
+    },
+    {
+      "block": 14,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1054,
+            "threshold": 16.041659151637212
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 0,
+            "tested": 286,
+            "threshold": 14.159871336778389
+          }
+        },
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1053,
+            "threshold": 16.040289721025715
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 0,
+            "tested": 286,
+            "threshold": 14.159871336778389
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "34cc181c5d09bd6ffa2e",
+      "language": "czech",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9903140592896977,
+          "fit_cer": 0.03365384615384615,
+          "seconds": 225.51013191600032,
+          "transfer_cer": 0.04461538461538461,
+          "transfer_cost": 0.28328654094629435,
+          "transfer_excess": 0.37745560391294397
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9903140592896977,
+          "fit_cer": 0.04153846153846154,
+          "seconds": 352.41327541600003,
+          "transfer_cer": 0.051153846153846154,
+          "transfer_cost": 0.33366356222389415,
+          "transfer_excess": 0.42783262519054377
+        }
+      }
+    },
+    {
+      "block": 21,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1099,
+            "threshold": 16.10197567094923
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 289,
+            "threshold": 14.174925682500678
+          }
+        },
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1099,
+            "threshold": 16.10197567094923
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 1,
+            "tested": 288,
+            "threshold": 14.169925001442312
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "3bd597c29191740d672b",
+      "language": "german",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9897179788484136,
+          "fit_cer": 0.03480769230769231,
+          "seconds": 208.05429316700065,
+          "transfer_cer": 0.04634615384615385,
+          "transfer_cost": 0.2705694856333567,
+          "transfer_excess": 0.052564428291380416
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9897179788484136,
+          "fit_cer": 0.029615384615384616,
+          "seconds": 321.15270633399996,
+          "transfer_cer": 0.041346153846153845,
+          "transfer_cost": 0.23821685116118374,
+          "transfer_excess": 0.020211793819207458
+        }
+      }
+    },
+    {
+      "block": 15,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1076,
+            "threshold": 16.071462362556623
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 265,
+            "threshold": 14.049848549450562
+          }
+        },
+        {
+          "halves": {
+            "admitted": 3,
+            "tested": 1076,
+            "threshold": 16.071462362556623
+          },
+          "new_pieces": 7,
+          "wholes": {
+            "admitted": 4,
+            "tested": 264,
+            "threshold": 14.044394119358454
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "3e05e863c0fcd2419850",
+      "language": "occitan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9698046181172292,
+          "fit_cer": 0.11115384615384616,
+          "seconds": 264.8376171660002,
+          "transfer_cer": 0.15346153846153845,
+          "transfer_cost": 0.7007755480833824,
+          "transfer_excess": 0.6468801947922196
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9698046181172292,
+          "fit_cer": 0.11673076923076924,
+          "seconds": 421.5382126249988,
+          "transfer_cer": 0.15557692307692308,
+          "transfer_cost": 0.7064846432436962,
+          "transfer_excess": 0.6525892899525334
+        }
+      }
+    },
+    {
+      "block": 22,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1031,
+            "threshold": 16.009828617368107
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 273,
+            "threshold": 14.092757140919852
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1031,
+            "threshold": 16.009828617368107
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 273,
+            "threshold": 14.092757140919852
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "44205d77caf7b153cb54",
+      "language": "czech",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.994086339444116,
+          "fit_cer": 0.04673076923076923,
+          "seconds": 223.26248812499944,
+          "transfer_cer": 0.050576923076923075,
+          "transfer_cost": 0.28159981693491387,
+          "transfer_excess": 0.43702970992848744
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.994086339444116,
+          "fit_cer": 0.04596153846153846,
+          "seconds": 283.79535512499933,
+          "transfer_cer": 0.04923076923076923,
+          "transfer_cost": 0.2770738151270211,
+          "transfer_excess": 0.4325037081205947
+        }
+      }
+    },
+    {
+      "block": 10,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1162,
+            "threshold": 16.18239435340453
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 0,
+            "tested": 304,
+            "threshold": 14.247927513443585
+          }
+        },
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1161,
+            "threshold": 16.181152256865566
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 1,
+            "tested": 304,
+            "threshold": 14.247927513443585
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "4539d669a2ffc9fcdc04",
+      "language": "catalan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9836782279218886,
+          "fit_cer": 0.05211538461538461,
+          "seconds": 234.0796552089996,
+          "transfer_cer": 0.05596153846153846,
+          "transfer_cost": 0.35812220562230035,
+          "transfer_excess": 0.08796198269265787
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9836782279218886,
+          "fit_cer": 0.05096153846153846,
+          "seconds": 368.5408329589991,
+          "transfer_cer": 0.055384615384615386,
+          "transfer_cost": 0.37585954053060844,
+          "transfer_excess": 0.10569931760096596
+        }
+      }
+    },
+    {
+      "block": 16,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 5,
+            "tested": 1106,
+            "threshold": 16.11113567023471
+          },
+          "new_pieces": 7,
+          "wholes": {
+            "admitted": 2,
+            "tested": 294,
+            "threshold": 14.199672344836364
+          }
+        },
+        {
+          "halves": {
+            "admitted": 4,
+            "tested": 1108,
+            "threshold": 16.11374216604919
+          },
+          "new_pieces": 3,
+          "wholes": {
+            "admitted": 2,
+            "tested": 294,
+            "threshold": 14.199672344836364
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "4774a18a6bbe3670ec51",
+      "language": "latin",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9888169511477339,
+          "fit_cer": 0.0648076923076923,
+          "seconds": 239.99813775000075,
+          "transfer_cer": 0.055,
+          "transfer_cost": 0.3685363073547001,
+          "transfer_excess": 0.05001291384013351
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9888169511477339,
+          "fit_cer": 0.06365384615384616,
+          "seconds": 386.2470271660004,
+          "transfer_cer": 0.054038461538461535,
+          "transfer_cost": 0.3701831671557616,
+          "transfer_excess": 0.051659773641195006
+        }
+      }
+    },
+    {
+      "block": 11,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 3,
+            "tested": 1060,
+            "threshold": 16.049848549450562
+          },
+          "new_pieces": 5,
+          "wholes": {
+            "admitted": 3,
+            "tested": 278,
+            "threshold": 14.118941072723507
+          }
+        },
+        {
+          "halves": {
+            "admitted": 3,
+            "tested": 1060,
+            "threshold": 16.049848549450562
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 1,
+            "tested": 276,
+            "threshold": 14.108524456778168
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "665b2374b6e5bdf7a303",
+      "language": "old_french",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9810163551401869,
+          "fit_cer": 0.07346153846153847,
+          "seconds": 249.09223250000105,
+          "transfer_cer": 0.10153846153846154,
+          "transfer_cost": 0.4752000937168317,
+          "transfer_excess": 0.5886663681747675
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9810163551401869,
+          "fit_cer": 0.07019230769230769,
+          "seconds": 318.47125666600004,
+          "transfer_cer": 0.09403846153846154,
+          "transfer_cost": 0.4116010141299635,
+          "transfer_excess": 0.5250672885878993
+        }
+      }
+    },
+    {
+      "block": 3,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1240,
+            "threshold": 16.27612440527424
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 288,
+            "threshold": 14.169925001442312
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1240,
+            "threshold": 16.27612440527424
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 287,
+            "threshold": 14.164906926675688
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "8243cddc9d2dc6770756",
+      "language": "old_french",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9799646434885091,
+          "fit_cer": 0.05346153846153846,
+          "seconds": 257.87180795899985,
+          "transfer_cer": 0.05923076923076923,
+          "transfer_cost": 0.34024147967761253,
+          "transfer_excess": 0.22322171533280555
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9799646434885091,
+          "fit_cer": 0.04923076923076923,
+          "seconds": 331.42993958399893,
+          "transfer_cer": 0.05211538461538461,
+          "transfer_cost": 0.3012584136508849,
+          "transfer_excess": 0.18423864930607792
+        }
+      }
+    },
+    {
+      "block": 8,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1009,
+            "threshold": 15.978710459106358
+          },
+          "new_pieces": 4,
+          "wholes": {
+            "admitted": 3,
+            "tested": 296,
+            "threshold": 14.20945336562895
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1006,
+            "threshold": 15.974414589805527
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 1,
+            "tested": 294,
+            "threshold": 14.199672344836364
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "86aeb5a23852cb614e30",
+      "language": "latin",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9819083746717245,
+          "fit_cer": 0.021153846153846155,
+          "seconds": 216.69484999999986,
+          "transfer_cer": 0.04403846153846154,
+          "transfer_cost": 0.31729059254073944,
+          "transfer_excess": 0.41875815913428527
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.983659177122848,
+          "fit_cer": 0.01730769230769231,
+          "seconds": 280.66031354199913,
+          "transfer_cer": 0.039038461538461536,
+          "transfer_cost": 0.2891526125208861,
+          "transfer_excess": 0.3906201791144319
+        }
+      }
+    },
+    {
+      "block": 2,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 4,
+            "tested": 1119,
+            "threshold": 16.12799432097639
+          },
+          "new_pieces": 5,
+          "wholes": {
+            "admitted": 1,
+            "tested": 269,
+            "threshold": 14.071462362556623
+          }
+        },
+        {
+          "halves": {
+            "admitted": 3,
+            "tested": 1118,
+            "threshold": 16.12670447284319
+          },
+          "new_pieces": 4,
+          "wholes": {
+            "admitted": 4,
+            "tested": 270,
+            "threshold": 14.076815597050832
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "9825efa3785c7aa6c3ee",
+      "language": "catalan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9786549707602339,
+          "fit_cer": 0.0798076923076923,
+          "seconds": 265.16277645900027,
+          "transfer_cer": 0.0751923076923077,
+          "transfer_cost": 0.4279337032537547,
+          "transfer_excess": 0.4400111841352592
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9804093567251462,
+          "fit_cer": 0.07384615384615385,
+          "seconds": 401.29433070899995,
+          "transfer_cer": 0.07134615384615385,
+          "transfer_cost": 0.3408229568735295,
+          "transfer_excess": 0.352900437755034
+        }
+      }
+    },
+    {
+      "block": 4,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 975,
+            "threshold": 15.929258408636972
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 1,
+            "tested": 296,
+            "threshold": 14.20945336562895
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 922,
+            "threshold": 15.848622940429339
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 296,
+            "threshold": 14.20945336562895
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "98dc50cfa91fcc702762",
+      "language": "english",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9886429819452534,
+          "fit_cer": 0.014038461538461538,
+          "seconds": 219.49494270800005,
+          "transfer_cer": 0.025384615384615384,
+          "transfer_cost": 0.21782531448629205,
+          "transfer_excess": 0.17779699091153978
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.988351776354106,
+          "fit_cer": 0.014423076923076924,
+          "seconds": 278.64178220800113,
+          "transfer_cer": 0.025384615384615384,
+          "transfer_cost": 0.21218569557381617,
+          "transfer_excess": 0.1721573719990639
+        }
+      }
+    },
+    {
+      "block": 12,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 978,
+            "threshold": 15.933690654952233
+          },
+          "new_pieces": 4,
+          "wholes": {
+            "admitted": 4,
+            "tested": 255,
+            "threshold": 13.994353436858859
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 977,
+            "threshold": 15.932214751968385
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 1,
+            "tested": 252,
+            "threshold": 13.977279923499918
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "a1ad9021be34ff9b5202",
+      "language": "english",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9793632075471698,
+          "fit_cer": 0.04384615384615385,
+          "seconds": 227.95262333400024,
+          "transfer_cer": 0.05730769230769231,
+          "transfer_cost": 0.3724494077625504,
+          "transfer_excess": 0.26826064583559006
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9829009433962265,
+          "fit_cer": 0.04115384615384615,
+          "seconds": 293.34233049999966,
+          "transfer_cer": 0.04846153846153846,
+          "transfer_cost": 0.31523115306351857,
+          "transfer_excess": 0.2110423911365582
+        }
+      }
+    },
+    {
+      "block": 1,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1092,
+            "threshold": 16.09275714091985
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 298,
+            "threshold": 14.219168520462162
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "a567c78494a4363b94a3",
+      "language": "italian",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9912203687445127,
+          "fit_cer": 0.03884615384615384,
+          "seconds": 248.465082834,
+          "transfer_cer": 0.03653846153846154,
+          "transfer_cost": 0.23110610347911908,
+          "transfer_excess": 0.11152143385254565
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9912203687445127,
+          "fit_cer": 0.03884615384615384,
+          "seconds": 249.04791925000063,
+          "transfer_cer": 0.03653846153846154,
+          "transfer_cost": 0.23110610347911908,
+          "transfer_excess": 0.11152143385254565
+        }
+      }
+    },
+    {
+      "block": 23,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1051,
+            "threshold": 16.037546953962178
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 291,
+            "threshold": 14.184875342908283
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1053,
+            "threshold": 16.040289721025715
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 0,
+            "tested": 291,
+            "threshold": 14.184875342908283
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "b2e15e77b4c78a905b45",
+      "language": "occitan",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9710102489019034,
+          "fit_cer": 0.05961538461538462,
+          "seconds": 252.27750483400087,
+          "transfer_cer": 0.1075,
+          "transfer_cost": 0.2649068898963898,
+          "transfer_excess": 0.6920550719727259
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9695461200585651,
+          "fit_cer": 0.05326923076923077,
+          "seconds": 402.51548070900026,
+          "transfer_cer": 0.10307692307692308,
+          "transfer_cost": 0.26188189026557973,
+          "transfer_excess": 0.6890300723419158
+        }
+      }
+    },
+    {
+      "block": 20,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1092,
+            "threshold": 16.09275714091985
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 1,
+            "tested": 275,
+            "threshold": 14.103287808412022
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1094,
+            "threshold": 16.095397022792557
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 274,
+            "threshold": 14.098032082960527
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "c428bf874878b796b166",
+      "language": "english",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9863501483679525,
+          "fit_cer": 0.02653846153846154,
+          "seconds": 239.55513045800035,
+          "transfer_cer": 0.04115384615384615,
+          "transfer_cost": 0.37466017367928783,
+          "transfer_excess": 0.17762544443560868
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9863501483679525,
+          "fit_cer": 0.026153846153846153,
+          "seconds": 308.0109659159989,
+          "transfer_cer": 0.040192307692307694,
+          "transfer_cost": 0.36364537380579254,
+          "transfer_excess": 0.16661064456211339
+        }
+      }
+    },
+    {
+      "block": 5,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1072,
+            "threshold": 16.066089190457774
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 0,
+            "tested": 293,
+            "threshold": 14.194756854422248
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1071,
+            "threshold": 16.064742764750257
+          },
+          "new_pieces": 0,
+          "wholes": {
+            "admitted": 0,
+            "tested": 293,
+            "threshold": 14.194756854422248
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "cc7f251c84510bf6e829",
+      "language": "german",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9786736780601811,
+          "fit_cer": 0.04269230769230769,
+          "seconds": 221.54006908299925,
+          "transfer_cer": 0.065,
+          "transfer_cost": 0.3503176621144095,
+          "transfer_excess": 0.1017047800061257
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9786736780601811,
+          "fit_cer": 0.03826923076923077,
+          "seconds": 284.7071294159996,
+          "transfer_cer": 0.06134615384615385,
+          "transfer_cost": 0.3198257285590653,
+          "transfer_excess": 0.07121284645078152
+        }
+      }
+    },
+    {
+      "block": 17,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 3,
+            "tested": 1008,
+            "threshold": 15.977279923499916
+          },
+          "new_pieces": 3,
+          "wholes": {
+            "admitted": 0,
+            "tested": 311,
+            "threshold": 14.280770770130603
+          }
+        },
+        {
+          "halves": {
+            "admitted": 0,
+            "tested": 1007,
+            "threshold": 15.975847968006784
+          },
+          "new_pieces": 1,
+          "wholes": {
+            "admitted": 1,
+            "tested": 312,
+            "threshold": 14.285402218862249
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "ce3561ec41f702563d7e",
+      "language": "italian",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9824663939216832,
+          "fit_cer": 0.02826923076923077,
+          "seconds": 228.6697900420004,
+          "transfer_cer": 0.05326923076923077,
+          "transfer_cost": 0.39882356932775975,
+          "transfer_excess": 0.0846604733124452
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9865575686732905,
+          "fit_cer": 0.024423076923076922,
+          "seconds": 356.87126304199955,
+          "transfer_cer": 0.04423076923076923,
+          "transfer_cost": 0.35531553188934506,
+          "transfer_excess": 0.0411524358740305
+        }
+      }
+    },
+    {
+      "block": 9,
+      "c_rounds": [
+        {
+          "halves": {
+            "admitted": 2,
+            "tested": 1031,
+            "threshold": 16.009828617368107
+          },
+          "new_pieces": 4,
+          "wholes": {
+            "admitted": 2,
+            "tested": 296,
+            "threshold": 14.20945336562895
+          }
+        },
+        {
+          "halves": {
+            "admitted": 1,
+            "tested": 1030,
+            "threshold": 16.008428622070582
+          },
+          "new_pieces": 2,
+          "wholes": {
+            "admitted": 1,
+            "tested": 295,
+            "threshold": 14.204571144249204
+          }
+        }
+      ],
+      "development_only": true,
+      "id": "d14ce79de00922cc8737",
+      "language": "italian",
+      "rows": {
+        "A": {
+          "cap_hit": false,
+          "coverage": 0.9851101846337106,
+          "fit_cer": 0.03480769230769231,
+          "seconds": 242.71345012499842,
+          "transfer_cer": 0.047692307692307694,
+          "transfer_cost": 0.34722174631319236,
+          "transfer_excess": 0.1860550935612566
+        },
+        "C": {
+          "cap_hit": false,
+          "coverage": 0.9854079809410363,
+          "fit_cer": 0.029038461538461537,
+          "seconds": 382.3787807079989,
+          "transfer_cer": 0.04057692307692308,
+          "transfer_cost": 0.3077424063384053,
+          "transfer_excess": 0.14657575358646957
+        }
+      }
+    }
+  ],
+  "summary": {
+    "A": {
+      "fit_cer": 0.04528846153846154,
+      "seconds": 240.33721787499962,
+      "transfer_cer": 0.05548076923076923,
+      "transfer_cost": 0.34373161299540245,
+      "transfer_excess": 0.2457411805841978
+    },
+    "A_over_ceiling": 5,
+    "C": {
+      "fit_cer": 0.04471153846153846,
+      "seconds": 341.9216074999995,
+      "transfer_cer": 0.05163461538461538,
+      "transfer_cost": 0.31148677970096195,
+      "transfer_excess": 0.19764052022131806
+    },
+    "C_better_cost": 19,
+    "C_over_ceiling": 5,
+    "caps": 0
+  }
+}
