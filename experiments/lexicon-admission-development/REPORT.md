@@ -63,3 +63,18 @@ wrong way (`p:qoch`). The description length does not prefer the true split. Suc
 (Harris) points the wrong way too: A's split has the higher variety in 2,390 of 2,871 wrongly split
 tokens, the true split in 343. At 5,200 letters the split point may not be identifiable from the
 ciphertext alone. Not adopted.
+
+## Addendum: full development on the released second confirmation (declared in PROTOCOL.md)
+
+72 released inputs × 8 priors = 576 fits. A reproduced its archived key in all 576. Correct true
+languages out of 24 (no wrong, omitted or negative acceptance in any row):
+
+| Decoder | Per-run score, 0.45 / 0.50 | One length code, 0.45 / 0.50 | Inconclusive |
+|---|---|---|---|
+| A | 16 / 16 | 17 / 20 | 0 |
+| C | 15 / 15 | 17 / 19 | 28 (21 frequency copies, 7 shuffles) |
+
+C's extra refinement hits the 20,000,000-proposal limit on 28 negative inputs, which makes them
+inconclusive. On positives it accepts no more than A. C fails the declared condition and is not
+adopted. The best candidate rule on released data remains A with one length code and a 0.45 ceiling
+(17/24 here, no false acceptance in any released round).
