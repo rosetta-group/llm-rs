@@ -26,5 +26,17 @@ class OneLengthCodeTests(unittest.TestCase):
         self.assertEqual(new['recovered'], old['recovered'])
 
 
+
+class GroupTests(unittest.TestCase):
+    def test_group_scores_as_its_better_member(self):
+        from voynich.rejection_v3 import group_scores, label
+        s = lambda f, t: dict(fit_excess=f, transfer_excess=t, coverage=.99, cap_hit=False)
+        merged = group_scores(dict(catalan=s(.3, .6), occitan=s(.4, .45), latin=s(1., 1.2)))
+        self.assertEqual(set(merged), {'catalan_occitan', 'latin'})
+        self.assertEqual((merged['catalan_occitan']['fit_excess'], merged['catalan_occitan']['transfer_excess']), (.3, .45))
+        self.assertEqual(label('occitan'), 'catalan_occitan')
+        self.assertEqual(label('latin'), 'latin')
+
+
 if __name__ == '__main__':
     unittest.main()

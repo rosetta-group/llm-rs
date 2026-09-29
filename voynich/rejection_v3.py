@@ -32,3 +32,26 @@ def rescore(result, prior):
         return dict(result, bits_per_letter=None, length_code='one per passage')
     bits = sum(prior.bits(r) - integer_bits(len(r)) for r in runs) + integer_bits(letters)
     return dict(result, bits_per_letter=bits / letters, length_code='one per passage')
+
+
+GROUPS = {'catalan_occitan': ('catalan', 'occitan')}
+
+
+def group_scores(scores, groups=GROUPS):
+    """Merge each group into one candidate: it scores as whichever member fits better on each passage."""
+    members = {l for g in groups.values() for l in g}
+    out = {l: s for l, s in scores.items() if l not in members}
+    for name, group in groups.items():
+        present = [l for l in group if l in scores]
+        if not present:
+            continue
+        fit = min(scores[l]['fit_excess'] for l in present)
+        held = [(scores[l]['transfer_excess'], l) for l in present if scores[l]['transfer_excess'] is not None]
+        best = min(held)[1] if held else present[0]
+        out[name] = dict(fit_excess=fit, transfer_excess=min(held)[0] if held else None,
+                         coverage=scores[best]['coverage'], cap_hit=any(scores[l]['cap_hit'] for l in present))
+    return out
+
+
+def label(language, groups=GROUPS):
+    return next((name for name, group in groups.items() if language in group), language)
