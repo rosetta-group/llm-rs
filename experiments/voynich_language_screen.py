@@ -85,6 +85,19 @@ def readability(fit, held):
     return ok / len(held)
 
 
+def check_disjoint(spec):
+    """Fit and transfer token ranges of one block never overlap within a section/hand group."""
+    spans = {}
+    for role in ('fit', 'transfer'):
+        for section, currier, start, stop in spec[role]:
+            spans.setdefault((section, currier), []).append((start, float('inf') if stop is None else stop))
+    for group, ranges in spans.items():
+        ranges.sort()
+        for (_, a_stop), (b_start, _) in zip(ranges, ranges[1:]):
+            if a_stop > b_start:
+                raise ValueError(f"Overlapping passages in {group}: {spec['name']}")
+
+
 def prepare():
     if (STATE / 'challenge.json').exists():
         raise FileExistsError('Already prepared')
@@ -98,9 +111,8 @@ def prepare():
     for spec in BLOCKS:
         fit, fit_sources = passage(documents, spec['fit'])
         held, held_sources = passage(documents, spec['transfer'])
-        if set(t for s in fit_sources for t in s['pages']) & set(p for s in held_sources for p in s['pages']) and \
-                not all(s['stop'] is not None or s['start'] for s in spec['fit'] + spec['transfer']):
-            raise ValueError('Fit and transfer share pages without an offset: ' + spec['name'])
+        check_disjoint(spec)
+        shared = sorted(set(p for s in fit_sources for p in s['pages']) & set(p for s in held_sources for p in s['pages']))
         seeds = [rng.randrange(2 ** 63) for _ in range(4)]
         shuffled = [list(t) for t in (fit, held)]
         for tokens, seed in zip(shuffled, seeds[:2]):
@@ -114,7 +126,7 @@ def prepare():
                 path = STATE / 'public' / f'{ident}-{role}.json'
                 seal(path, dict(id=ident, ciphertext=' '.join(tokens)))
                 inputs[str(path.relative_to(ROOT))] = digest(path)
-        blocks.append(dict(name=spec['name'], ids=ids, seeds=seeds, fit=fit_sources, transfer=held_sources,
+        blocks.append(dict(name=spec['name'], ids=ids, seeds=seeds, fit=fit_sources, transfer=held_sources, boundary_pages=shared,
                            fit_tokens=len(fit), transfer_tokens=len(held), readability=readability(fit, held),
                            fit_types=len(set(fit)), fit_hapax_share=sum(1 for t in set(fit) if fit.count(t) == 1) / len(set(fit))))
     seal(STATE / 'challenge.json', dict(
