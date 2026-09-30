@@ -142,7 +142,7 @@ def evaluate():
     positives = [r for r in rows if r['kind'] == 'positive']
     negatives = [r for r in rows if r['kind'] != 'positive']
     summary = {}
-    for key in [k for k in rows[0] if k.split('_', 1)[1] in rules]:
+    for key in [f'{arm}_{name}' for arm in ('A', 'B') for name in rules]:
         summary[key] = dict(correct=sum(r[key]['full']['accepted'] == r[key]['truth'] for r in positives),
                             wrong=sum(r[key]['full']['accepted'] not in (None, r[key]['truth']) for r in positives),
                             omitted=sum(r[key]['omitted']['accepted'] is not None for r in positives),
