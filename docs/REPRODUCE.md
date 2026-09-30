@@ -160,6 +160,60 @@ Future fresh rounds must exclude complete works/manuscripts in
 exclusions. Czech derivatives retain **CC BY-NC-SA 4.0**; Occitan derivatives retain
 **CC BY 4.0**. Attribution and changes are recorded in the archive's `ATTRIBUTION.md`.
 
+## Key-recovery confirmations and the manuscript screen (2026-09-25 to 2026-09-30)
+
+Every round keeps `PROTOCOL.md`, `REPORT.md`, `results.json` and, for sealed rounds,
+`freeze.json`, `sources.json`, `released-source-ids.json`, `archive.json` and
+`evaluated-records.tar.gz` (inputs, fits, transfers, sealed keys, answers, logs). Decoder A is
+`experiments.key_recovery_development.fit_both`; the eight priors are the language-expansion
+freeze plus `latin_broad2`, `german_broad2`, `catalan_broad2` (hashes and calibration entropies
+in `experiments/key-recovery-v2-development/priors.json`).
+
+```sh
+# whole-token admission: development on released cases and released controls
+.venv/bin/python -m experiments.key_recovery_development evaluate
+.venv/bin/python -m experiments.key_recovery_development evaluate_controls
+# first fresh confirmation (fails 13/24); sources pinned from artifacts/confirmation-sources/raw
+.venv/bin/python -m experiments.key_recovery_confirmation_sources verify
+.venv/bin/python -m experiments.key_recovery_confirmation verify
+.venv/bin/python -m experiments.key_recovery_confirmation evaluate
+# broadened priors and the second fresh confirmation (passes 16/24)
+.venv/bin/python -m experiments.key_recovery_v2_sources verify
+.venv/bin/python -m experiments.key_recovery_v2_development evaluate
+.venv/bin/python -m experiments.key_recovery_confirmation_v2 verify
+.venv/bin/python -m experiments.key_recovery_confirmation_v2 evaluate
+# diagnostics and rejected decoder changes (development only)
+.venv/bin/python -m experiments.recovery_oracles report
+.venv/bin/python -m experiments.lexicon_admission_development quick_report
+.venv/bin/python -m experiments.lexicon_admission_development evaluate
+.venv/bin/python -m experiments.transfer_length_rescore
+.venv/bin/python -m experiments.respacing9_development evaluate
+# the one-shot language screen on the non-reserved Voynich pages
+.venv/bin/python -m experiments.voynich_language_screen evaluate
+NUMBA_NUM_THREADS=2 .venv/bin/python -m unittest tests.test_whole_admission tests.test_half_admission \
+    tests.test_rejection_v3 tests.test_key_recovery_confirmation_sources tests.test_key_recovery_v2_sources \
+    tests.test_voynich_language_screen -v
+```
+
+`evaluate` regrades from the archived fits after the corresponding `evaluated-records.tar.gz` is
+restored under `artifacts/<round>/`. `run` refits from the sealed inputs (576 fits, 44–48
+fit-worker hours per confirmation on one 12-core machine). `prepare` must not be rerun against
+already evaluated sources.
+
+**Source restoration.** The two sources modules (`key_recovery_confirmation_sources`,
+`key_recovery_v2_sources`) build passages and training rows from raw files already on disk and
+`verify` rebuilds `partitions.json` byte for byte; they have no `download` command. Each raw file
+is listed with its URL, revision id and sha256 in the round's `sources.json`; fetch each one and
+check the hash before `build`. Corpora used by earlier rounds (ReM, DIAKORP, COMETA, LLCT, GUM,
+OpenMedFr, Geste, Project Gutenberg, Wikisource pages) keep their own licences; derivatives of
+CC BY-NC-SA material stay non-commercial. All 92 works used across the two confirmations are
+released and listed in each round's `released-source-ids.json`; exclude them, their parallel
+versions and translations from any future hidden test.
+
+The manuscript screen reads `artifacts/data/zl/documents.json` (ZL Eva, `preprocessing_version`
+1); pages with split `test` are the reserved pages and are excluded in code. Its block manifest,
+seeds and readability estimates are `challenge.json` inside its archive.
+
 ## Prediction track (closed; commands kept for the record)
 
 Data and baselines:

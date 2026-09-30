@@ -14,7 +14,7 @@ The full Voynich account (methods, sealed results, corrections, mechanism checks
 [docs/VOYNICH.md](docs/VOYNICH.md).
 
 For a connected account of the recovery work, rejection tests and eight-language expansion,
-read **[Voynich research progress](docs/VOYNICH_PROGRESS.md)** (25 September 2026).
+read **[Voynich research progress](docs/VOYNICH_PROGRESS.md)** (25 September 2026, updated 30 September).
 
 ## Where things stand
 
@@ -26,6 +26,8 @@ read **[Voynich research progress](docs/VOYNICH_PROGRESS.md)** (25 September 202
 | Can a solver break a Voynich-style cipher without its codebook? | Partly: 1.83% character error and 26.8% word error on four sealed historical passages of about 20,800 letters; pass mark not met | [round six](experiments/joint-recovery-v6/REPORT.md) |
 | Does broader historical language coverage help? | In a three-pair pilot, the expanded set ranks the true language first 3/3; only Latin passes acceptance. German transfer error falls 45.7% → 12.5%, Latin 12.4% → 6.7%; all omitted-language cases reject | [coverage pilot](experiments/language-coverage/REPORT.md) |
 | How many cipher-language candidates are available? | Eight: Latin, German, Old French, English, Italian, Catalan, Old Czech and Old Occitan. New controls: Czech passes (5.54% transfer error); Occitan ranks correctly but fails acceptance (15.19% error); both true-language omissions reject | [Czech/Occitan extension](experiments/language-expansion/REPORT.md) |
+| Can the screen name the language of a Voynich-style cipher it has never seen? | Confirmed twice on fresh sources: 13/24 with narrow priors, then 16/24 with rebuilt Latin, German and Catalan priors; 0 false acceptances in about 250 control decisions; 13/24 at the Voynich-like pairing setting | [second confirmation](experiments/key-recovery-confirmation-v2/REPORT.md) |
+| What does the screen say about the manuscript? | Nothing yet: run once on four blocks of non-reserved pages, it exceeds its work limit on three and cannot read enough of the fourth; the text scores like its own shuffle under every prior | [language screen](experiments/voynich-language-screen/REPORT.md) |
 | Has any Voynich word been read? | No. The manuscript's reserved test pages have never been scored | [research log](RESEARCH_LOG.md) |
 | Can these methods tell which language Linear A is? | No. Lexical tests cannot reliably find Greek even in Linear B at Linear A's size (696 readable word types); the one profile match (Hittite) also appears for shuffled syllables | [Linear A summary](docs/LINEAR_A.md) |
 | Can these methods recover Etruscan meanings? | Some simple known relationships transfer; complex interpretation fails. Six modeling stages and a source audit are complete; no new meanings validated; track closed | [Etruscan closure](docs/ETRUSCAN.md) |

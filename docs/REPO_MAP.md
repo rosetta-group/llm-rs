@@ -39,6 +39,13 @@ Where things live and which files are frozen. Paths are relative to the reposito
 | `joint_segments_v2.py` | Same EM with a candidate-lexicon override and usage pruning | rounds 2–4 |
 | `lexical_polish.py` | Word-level polish of a unit key using the segmenter's local cost | rounds 3–4 |
 | `lexicon_repair.py` | Concatenation test and complement admission for the candidate lexicon, iterated with EM | round 4 |
+| `context_reparse.py` | Fixed-key beam re-choice of token splits under full character context | round 6, rejection rounds |
+| `variable_units_bounded.py` | Chunked/incremental key refinement with an explicit proposal work limit | rejection follow-ups onward |
+| `rejection.py`, `rejection_development.py` | Fixed-key transfer scoring, the acceptance rule (`decide`, `decide_transfer`), frequency-copy negatives | rejection rounds, both confirmations |
+| `piece_admission.py` | Context admission of rare pieces (rejected: 2–3% precision) | length-scaling-v5 |
+| `whole_admission.py` | Leave-one-out admission of rare whole-token pieces; the change that made decoder A | both confirmations |
+| `half_admission.py`, `split_shift.py` | Half-piece admission and split-point moves (development only, no gain) | — |
+| `rejection_v3.py` | Transfer scoring with one length code per passage; Catalan–Occitan decision group (candidates, not confirmed) | — |
 | `association_complex.py`, `image_domains.py`, `folio_description.py` | Image-association studies and pixel descriptions | — |
 
 "Frozen by" means a committed `freeze.json` records the file's hash; changing the file
@@ -146,6 +153,20 @@ Other folders:
 | `splits/` | Fixed Voynich page groups (folio and quire splits) |
 | `sources.json`, `language-sources.json`, `decipherment-sources.json`, `segmentation-sources.json` | Pinned downloads with hashes and licences |
 | `cloud-cleanup.json` | Audit of the deleted cloud resources |
+
+### Key-recovery confirmations and the manuscript screen (2026-09-25 to 2026-09-30)
+
+| Experiment | Driver | Folder | Outcome |
+|---|---|---|---|
+| Whole-token admission | `key_recovery_development.py` | `key-recovery-development/` | 3/5 released cases vs 2/5; 0/9 released negatives accepted; copy-mutate always capped |
+| First fresh confirmation | `key_recovery_confirmation.py`, `key_recovery_confirmation_sources.py` | `key-recovery-confirmation/` (sealed; 46 works released) | fails: 13/24, 0 false; 10 of 11 failures are prior mismatch |
+| Broadened priors | `key_recovery_v2_sources.py`, `key_recovery_v2_development.py` | `key-recovery-confirmation-v2/sources.json`, `key-recovery-v2-development/` | 19/24 on released round one; 3 new priors |
+| Second fresh confirmation | `key_recovery_confirmation_v2.py` | `key-recovery-confirmation-v2/` (sealed; 46 works released) | passes at threshold: 16/24, 0 false in 72 decisions; tag `checkpoint/2026-09-28-v2-pass` |
+| Decoding-cost oracles | `recovery_oracles.py` | `recovery-oracles/` | lexicon carries ~60% of reducible cost; true-key floor 0.09 |
+| Decoder C, variant D, split shift | `lexicon_admission_development.py` (+ `voynich/half_admission.py`, `split_shift.py`) | `lexicon-admission-development/` | no gain; systematic split-point error |
+| Transfer length-code rescoring | `transfer_length_rescore.py` (+ `voynich/rejection_v3.py`) | `transfer-length-rescore/` | bug +0.13 bits/letter; honest 20/24 but one Catalan→Occitan omitted-language acceptance; 0.45 ceiling or grouping clean |
+| RESPACING 9 development | `respacing9_development.py` | `respacing9-development/` | confirmed rule 13/24; candidate 19/24, 0 false; 5 negatives capped, not frozen |
+| Language screen on non-reserved Voynich pages | `voynich_language_screen.py` | `voynich-language-screen/` (archive with block manifest) | pre-registered, run once: 0 accepted; 3 blocks inconclusive (work limit), 1 unreadable; manuscript ≈ its own shuffle |
 
 ## Tests (`tests/`)
 

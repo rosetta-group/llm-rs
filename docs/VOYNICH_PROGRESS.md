@@ -1,9 +1,9 @@
 # Voynich research: from a better decoder to a testable language comparison
 
-Research synthesis · 25 September 2026
+Research synthesis · 25 September 2026, updated 30 September 2026
 
 This project tests whether a method can recover known text from a Voynich-like cipher before trusting it on the manuscript.
-**The main progress is a stronger, more auditable benchmark: recovery has improved, eight languages can now compete, and the system can reject an answer—but no Voynich language or translation has been established.**
+**The main progress is a stronger, more auditable benchmark: recovery has improved, eight languages can now compete, the system can reject an answer, and the language screen has now been confirmed twice on fresh sources and run once on the manuscript's non-reserved pages, where it reached no decision—no Voynich language or translation has been established.**
 
 **Naibbe:** the published cipher family used to generate our known-answer controls; it is a hypothesis-testing tool, not an established explanation of Voynich.
 **Character / word error:** edit distance divided by the reference length; insertions, deletions and substitutions count.
@@ -17,6 +17,7 @@ This project tests whether a method can recover known text from a Voynich-like c
 - Completed the three follow-ups: revised decision calibration, stronger copying controls and a faster key-refinement implementation.
 - Broadened historical Latin and German, added Catalan, then added Old Czech and Old Occitan.
 - Preserved frozen protocols, source licenses, input hashes, predictions, failed gates and replayable evaluated records. The latest suite contains 194 passing tests.
+- 26–30 September (section 8): fixed the rare-piece bottleneck with whole-token admission; confirmed the screen on fresh sources twice (13/24 with narrow priors, then 16/24 with rebuilt Latin, German and Catalan priors, 0 false acceptances); found and fixed a transfer-scoring bug; tried four further decoder changes without gain; tested the Voynich-like pairing setting; ran the screen once on the non-reserved Voynich pages.
 
 ## Why it was done
 
@@ -107,20 +108,34 @@ The active candidates are now **Latin, German, Old French, English, Italian, Cat
 
 4. **The next experiment should improve recovery, then confirm it on fresh material.** German, Catalan and Occitan now provide released cases where correct text scores well but reconstructed text does not. A useful improvement must reduce actual reconstruction errors without winning merely by weakening the decision rule.
 
-## 7. The next research decision
+## 7. The research decision of 25 September, and what came of it
 
 ```text
-Develop key recovery on the released failure cases
-Keep the existing thresholds fixed during that comparison
-Audit unused works, parallel versions and compute requirements
-Freeze a new confirmation protocol
-Test new keys and works, including the earlier six languages and negative controls
-Reconsider manuscript readiness only after the declared gates pass
+Develop key recovery on the released failure cases        -> whole-token admission, 3/5 -> confirmed
+Keep the existing thresholds fixed during that comparison  -> kept; a scoring bug was found instead
+Audit unused works, parallel versions and compute          -> 92 works pinned and released over two rounds
+Freeze a new confirmation protocol                          -> twice: 443098f, 7d56dd1
+Test new keys and works, including the earlier six          -> 13/24 then 16/24, 0 false acceptances
+Reconsider manuscript readiness only after the gates pass  -> the language screen ran once; the recovery gate is still unmet
 ```
 
-The larger rejection study remains a proposal: the existing **90-block, 1,800-fit** design was estimated at about **123 aggregate worker-hours**, before harder-input allowances. It was costed for the earlier candidate configuration; extending it to eight languages requires a revised plan and budget. It has not been run. [Confirmation proposal](../experiments/rejection-followups/CONFIRMATION_PLAN.md).
+The 90-block design was replaced by two 24-block confirmations (576 fits each, 44–48 worker-hours on one machine), which were affordable and decisive. Section 8 has the details.
 
-The reserved Voynich test pages have not been scored. The deliverable so far is a reproducible account of what the methods recover, where they fail, and which next comparison can resolve a specific uncertainty.
+## 8. Update, 26–30 September 2026
+
+**Decoding cost:** transfer excess of the decoded text minus that of the true text under the same prior; the gap that decoding errors add.
+
+1. **The screen is confirmed, at the threshold.** The first fresh confirmation failed at 13/24 because three priors were too narrow for other genres of their own language: the true plaintext itself scored 0.52–1.40 bits over calibration. Rebuilt Latin, German and Catalan priors passed the second at 16/24 with 0 false acceptances in 72 wrong-language, omitted-language and negative decisions ([round two](../experiments/key-recovery-confirmation-v2/REPORT.md)). This state is tagged `checkpoint/2026-09-28-v2-pass`.
+
+2. **Recovery, not the priors, now limits sensitivity.** Seven of the eight remaining failures would pass with the true key; decoding adds a median 0.34 bits per letter. Supplying the true lexicon halves that; supplying true letters alone barely helps. The residual error is a systematic split point (`l`+`chdy` read as `lch`+`dy`) that four cipher-internal signals all get wrong ([oracles](../experiments/recovery-oracles/REPORT.md), [attempts](../experiments/lexicon-admission-development/REPORT.md)).
+
+3. **A scoring bug hid inside the safety margin.** The transfer score charged one length code per unreadable gap, about 0.13 bits per letter. Fixed in `voynich/rejection_v3.py` without touching frozen files. Rescored honestly, the second confirmation gives 20/24, but one released Catalan block is then accepted as Occitan when Catalan is omitted; a 0.45 ceiling or a Catalan–Occitan decision group restores a clean record on all released rounds. Neither is confirmed on fresh text ([rescore](../experiments/transfer-length-rescore/REPORT.md)).
+
+4. **At the Voynich-like pairing setting** the confirmed rule accepts 13/24 and the candidate rule 19/24 with no false acceptance, but five negatives hit the work limit ([RESPACING 9](../experiments/respacing9-development/REPORT.md)).
+
+5. **On the manuscript, the screen cannot conclude.** Pre-registered and run once on four blocks of non-reserved pages: three blocks exceed the work limit (keys of 652–815 units against 356 for real ciphertext), the fourth reads only 91.7% of its second passage. Nothing is accepted. Every manuscript passage scores within 0.1 bits per letter of its own shuffle and frequency copy, where a real cipher passage separates from its shuffle by more than a bit ([report](../experiments/voynich-language-screen/REPORT.md)). Under this cipher family and these eight languages, the token order of these pages carries no usable structure. Other mechanisms, languages and pairing settings are untested; the reserved pages were not read.
+
+**Next decision, not taken.** A second manuscript run would need a higher work limit and a coverage-tolerant rule, both re-confirmed on known-answer controls first; the sources for another fresh confirmation are limited, since 92 works are now released. Longer passages and other cipher mechanisms remain the untested levers.
 
 ## Reading map
 

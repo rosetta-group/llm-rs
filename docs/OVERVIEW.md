@@ -28,12 +28,16 @@ with independent checks. The project uses two kinds of evidence:
   Voynich-like output, when given only the ciphertext? Here the answer is known and sealed
   until grading, so success and failure are unambiguous.
 
-The active cipher comparison now has **eight language candidates**: Latin, German,
-Old French, English, Italian, Catalan, Old Czech and Old Occitan. In the latest
-[two-language extension](../experiments/language-expansion/REPORT.md), both new
-languages rank correctly, but only Czech passes the acceptance rule. Occitan's
-recovery errors leave it just above the fixed ceiling. These are synthetic cipher
-controls, not language identifications of Voynich.
+The active cipher comparison has **eight language candidates**: Latin, German, Old French,
+English, Italian, Catalan, Old Czech and Old Occitan. The language screen that ranks and accepts
+them has been confirmed twice on fresh sources: 13 of 24 true languages with the original priors,
+then 16 of 24 with rebuilt Latin, German and Catalan priors, with no false acceptance in about
+250 control decisions ([second confirmation](../experiments/key-recovery-confirmation-v2/REPORT.md)).
+Run once on four blocks of the manuscript's non-reserved pages, it reached no decision: three
+blocks exceed its work limit, the fourth cannot read enough of its second passage, and the text
+scores like its own shuffle under every prior ([screen](../experiments/voynich-language-screen/REPORT.md)).
+These are synthetic cipher controls and one bounded manuscript screen, not a language
+identification of Voynich.
 
 ## Track one: prediction (closed)
 

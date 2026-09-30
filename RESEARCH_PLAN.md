@@ -5,7 +5,24 @@
 > current state is summarised in [docs/OVERVIEW.md](docs/OVERVIEW.md) and
 > [docs/RESULTS.md](docs/RESULTS.md); conventions for new rounds are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
-Updated: 2026-09-25
+Updated: 2026-09-30
+
+**Language screen confirmed and run once on the manuscript, 2026-09-26 to 2026-09-30.**
+Whole-token admission ([development](experiments/key-recovery-development/REPORT.md)) fixed the
+rare-piece bottleneck. A first fresh confirmation on 46 new works failed at 13/24 because the
+Latin, German and Catalan priors were too narrow ([round one](experiments/key-recovery-confirmation/REPORT.md));
+rebuilt priors passed a second on 46 further works at 16/24 with 0 false acceptances in 72
+decisions ([round two](experiments/key-recovery-confirmation-v2/REPORT.md); tag
+`checkpoint/2026-09-28-v2-pass`). A code review found a transfer-scoring bug (one length code per
+gap, +0.13 bits/letter), fixed in `voynich/rejection_v3.py` without touching frozen files; rescored,
+the rule needs a 0.45 ceiling or a Catalan–Occitan group to stay clean, neither yet confirmed
+([rescore](experiments/transfer-length-rescore/REPORT.md)). Four decoder changes gave no further
+gain; the residual error is a systematic split point. At Voynich-like pairing the confirmed rule
+accepts 13/24 ([RESPACING 9](experiments/respacing9-development/REPORT.md)). The screen was then
+pre-registered and run once on four blocks of non-reserved pages: no decision (three blocks over
+the work limit, one unreadable), nothing accepted, and the manuscript scores like its own shuffle
+under every prior ([screen](experiments/voynich-language-screen/REPORT.md)). The recovery gate is
+unmet; the reserved pages were not read; no further manuscript run is planned.
 
 **Eight-language extension completed, 2026-09-25.** At the user's request,
 [Old Czech and Old Occitan](experiments/language-expansion/REPORT.md) join the six
@@ -298,6 +315,8 @@ After each milestone, report: completed work, measured results, blockers, and th
 | Linear A track | Audited 2026-09-24: profile/threshold repairs, structural test and 12-pair source audit; specific correspondence lead fails strict onset control (p = .1605), archived; no language identified; `docs/LINEAR_A.md` |
 | Linear A accounting | Integer pilot built; coverage preflight not evaluable (7 KN objects vs 33 A); no real-data fit; source-checked account benchmark needed; `experiments/linear-a-ledger/REPORT.md` |
 | Etruscan track | Closed 2026-09-24: six modeling stages and nine-inscription source audit; no new meanings validated; `docs/ETRUSCAN.md` |
+| Language screen confirmations | Two fresh confirmations complete: 13/24 (narrow priors, fail) then 16/24 (rebuilt priors, pass at threshold), 0 false acceptances; transfer-scoring bug fixed in `rejection_v3` (candidate rule, unconfirmed); `docs/VOYNICH.md` §8 |
+| Voynich language screen (non-reserved pages) | Run once 2026-09-30, pre-registered: 0 accepted, 3 blocks inconclusive (work limit), 1 unreadable; manuscript within 0.1 bits/letter of its own shuffle; `experiments/voynich-language-screen/REPORT.md` |
 | SAEs, translation claims, and Linear B | Deferred until earlier evidence supports the next experiment |
 
 `README.md` contains runnable commands. `experiments/results.json` preserves the initial numerical results.

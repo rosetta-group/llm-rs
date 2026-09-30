@@ -321,22 +321,201 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 
 ---
 
-## 8. What it all means
+## 8. Key recovery confirmed, then applied to the manuscript (25–30 September 2026)
+
+One week of work took the language screen from a development result to two fresh confirmations,
+found and fixed a scoring bug, exhausted four decoder changes, tested the Voynich-like pairing
+setting, and ran the screen once on the manuscript's non-reserved pages. Every step has its own
+protocol and report; this section is the connected account.
+
+**Language screen:** fit a key on one passage under each candidate prior, decode a second passage
+with the sealed key, accept a language only if it wins both passages by 0.25 bits per letter, its
+transfer excess is at most 0.50, coverage is at least 0.95 and no cap was hit (`decide_transfer`).
+**Transfer excess:** decoded bits per letter on the second passage minus the prior's calibration
+score. **Decoding cost:** transfer excess of the decoded text minus that of the true text.
+**Fresh confirmation:** new works, new keys, protocol frozen and committed before any draw, one
+run, every failure kept. **Released:** used once in a sealed test, then excluded from all future
+hidden tests and available for development.
+
+### Whole-token admission fixes the rare-piece bottleneck (development)
+
+The five released language cases (Catalan, German, Latin, Czech, Occitan) were re-fitted with one
+true ingredient at a time. With the true fit-passage key every case passes transfer (excess −0.14
+to 0.26); with the true piece lexicon four of five pass; removing the spurious pieces alone helps
+little. So the missing pieces carried the error, and they were mostly one-letter whole tokens seen
+1–6 times, below the candidate minimum of 6, each also splittable into two known pieces.
+
+`voynich/whole_admission.py` admits such a token as a one-letter piece when a leave-one-out context
+test passes: the letter for each occurrence is chosen from the other occurrences only, every
+occurrence counts, and the total saving must exceed $6 + \log_2(\text{types tested})$ bits. The
+earlier context admission had chosen the best of 23 letters on the improving occurrences only and
+admitted about 1,000 pieces per text at 2–3% precision; this test separates true one-letter tokens
+from true splits with AUC 0.87–0.99. Declared before the eight-model run (`9aee7e0`), the new
+decoder A accepted 3 of 5 true languages against 2 for the frozen decoder B, fixed the Occitan
+failure (transfer CER 15.2% → 9.1%, excess 0.525 → 0.259), accepted nothing wrong or omitted, and
+on the 12 released rejection-screen inputs accepted all 3 positives and none of 9 negatives. The
+copy-mutate negatives reached the frozen 20,000,000-proposal limit in all 24 fits under both arms,
+so that class was retired from later designs as inconclusive by construction.
+[Report](../experiments/key-recovery-development/REPORT.md).
+
+### First fresh confirmation: fails on sensitivity, 13 of 24
+
+Forty-six works were pinned for eight languages (125 raw files, sha256 in
+[sources.json](../experiments/key-recovery-confirmation/sources.json)); passages are the first
+5,200 letters after removing every 80-word chunk that shares an 8-word shingle with earlier text.
+Twenty-four blocks, three per language, each with a positive, a token shuffle and a frequency
+copy: 576 fits, 48.3 fit-worker hours, frozen at `443098f`.
+
+| Endpoint | Target | Result |
+|---|---|---|
+| wrong language / omitted language / negatives accepted | 0 / 0 / 0 | 0 / 0 / 0 of 48 |
+| true languages accepted by A | ≥ 16 of 24 | **13** |
+| A against B | A > B | 13 vs 8 |
+
+A lowered transfer CER in all 24 blocks. Italian, English and Occitan 3/3; Czech and Old French
+2/3; Latin, Catalan and German 0/3. The post-run diagnostic scored each true plaintext under every
+prior: 10 of the 11 failures would have failed with a perfect key, because the true text itself
+scored 0.52–1.40 bits over calibration under its own prior. Latin narrative prose against an
+Aquinas-and-charters calibration, German psalms and charters against prose, and Catalan text that
+the Occitan prior fits better than the Catalan one. The priors, not the key, were the bottleneck.
+[Report](../experiments/key-recovery-confirmation/REPORT.md).
+
+### Broadened priors and the second fresh confirmation: passes at the threshold, 16 of 24
+
+Latin, German and Catalan priors were rebuilt from many works each (400,000 training letters,
+calibration from two held-out works; 345 raw files pinned; roles assigned by the sha256 order of
+author groups, never by score: [sources](../experiments/key-recovery-confirmation-v2/sources.json)).
+The same released round-one texts then scored −0.21 to +0.36 under the new priors, and re-fitting
+the 72 released inputs gave 19 of 24 with no false acceptance
+([development](../experiments/key-recovery-v2-development/REPORT.md)).
+
+The second confirmation (frozen `7d56dd1`; 46 new works; 576 fits; 43.9 worker-hours) passed:
+**16 of 24** true languages accepted, 0 false acceptances in 72 wrong-language, omitted-language
+and negative decisions, all blocks complete. English, Italian, German and Czech 3/3; Catalan 2;
+Latin 1; Old French 1; Occitan 0 (its three new sources are OCR or diplomatic editions). B: 8/24.
+Seven of the eight failures were now recovery failures: the true text would pass, but decoding
+added a median 0.34 bits per letter. [Report](../experiments/key-recovery-confirmation-v2/REPORT.md).
+This state is tagged `checkpoint/2026-09-28-v2-pass`, with an artifacts backup outside the repo.
+
+### Where the decoding cost comes from, and four changes that did not remove it
+
+On the 24 released positives, one true ingredient at a time
+([oracles](../experiments/recovery-oracles/REPORT.md)):
+
+| Supplied | Median transfer cost |
+|---|---:|
+| nothing (decoder A) | 0.344 |
+| missing whole-token pieces | 0.259 |
+| missing half pieces only | 0.459 |
+| every missing piece | 0.190 |
+| the true segmentation | 0.189 |
+| true letters on A's own segmentation | 0.295 |
+| the true key | 0.089 |
+
+The lexicon carries most of the reducible cost; letters are secondary; half pieces help only
+together with whole pieces. Four changes were then tried on the same released cases
+([attempts](../experiments/lexicon-admission-development/REPORT.md)):
+
+1. **Decoder C**, joint whole and half admission fed back through joint EM: 0.311, no change in
+   the number of cases over the ceiling; in a full eight-prior run 19 true languages against A's
+   20 at honest scoring, and 28 negatives capped. Not adopted.
+2. **EM on the unpruned lexicon**, warm or cold: 0.347 and 0.412. Worse.
+3. **Split-point moves** by key-search description length: 0.335, some moves in the wrong direction.
+4. **Successor variety** (Harris): the decoder's split has the higher variety in 2,390 of 2,871
+   wrongly split tokens, the true split in 343.
+
+The residual error is systematic: a glyph run that begins the true second piece is attached to the
+first (`l`+`chdy` read as `lch`+`dy`, about 1,200 tokens across the 24 fit passages). The key
+compensates on the fitted passage, so the error shows only on transfer. Every cipher-internal
+signal tried prefers the wrong split; at 5,200 letters the split point may not be recoverable
+from the ciphertext alone.
+
+### A scoring bug, found by an independent code review
+
+`voynich/rejection.py` scores each run between unreadable tokens with its own `CharacterPrior.bits`
+call, and each call adds an Elias-gamma length code. A transfer passage has a median 59 such runs,
+so it paid about 0.13 bits per letter that the calibration score did not. The review also checked
+the forward–backward recursion against brute force, the incremental refiner against the full
+scorer, the context windows and the drivers; all correct. The fix (`voynich/rejection_v3.py`, one
+length code per passage, context still reset at gaps) leaves every frozen file untouched. Rescored
+post hoc, the second confirmation goes 16 → 20, but round-one Catalan block 2 is then accepted as
+Occitan at 0.469 when Catalan is omitted: the bug had acted as a hidden safety margin. A 0.45
+ceiling keeps every released round clean (17 on the second confirmation); treating Catalan and
+Occitan as one decision group (`group_scores`) gives 15, 21 and 21 of 24 on the three released
+rounds with no false acceptance. Both are candidates, not confirmed rules.
+[Rescore](../experiments/transfer-length-rescore/REPORT.md).
+
+### Voynich-like pairing (RESPACING 9)
+
+The 48 released passages were encrypted again at the only Naibbe setting that matches the
+manuscript's near-duplicate rate (about 75% of letters in pairs). The confirmed rule accepts 13 of
+24; the candidate rule (one length code, Catalan–Occitan grouped, ceiling 0.50) accepts 19 with no
+false acceptance; five negatives hit the work limit, so the declared "no cap" condition failed and
+nothing was frozen. [Report](../experiments/respacing9-development/REPORT.md).
+
+### The language screen on the manuscript, once
+
+Pre-registered (`0cf1c3b`), then run on four blocks of ZL Eva text from the train and validation
+folios: herbal A, stars B, balneological B and a mixed Currier-B block, each with a fit passage,
+a transfer passage from later folios, a token shuffle and a frequency copy. Tokens with glyphs the
+Naibbe encoder cannot emit (2.7%, mostly `?`) were dropped. The 30 reserved pages were not read.
+
+| Block | Manuscript | Negatives | Capped fits | Coverage |
+|---|---|---|---|---|
+| herbal A | inconclusive | inconclusive | 24 / 24 | 0.882–0.886 |
+| stars B | inconclusive | inconclusive | 24 / 24 | 0.905–0.909 |
+| balneological B | unreadable | unreadable | 0 / 24 | 0.915–0.918 |
+| mixed B | inconclusive | inconclusive | 24 / 24 | 0.855–0.864 |
+
+Nothing was accepted. The keys need 652–815 units against a median 356 on Naibbe controls, so
+pair-swap refinement hit the frozen work limit in all 72 fits of the 3,400-token blocks; coverage
+was below every control (lowest control 0.961). Descriptively, the best-fitting prior is Occitan
+for 11 of 12 inputs, including the shuffles; the manuscript's transfer excess (1.46–1.81) sits in
+the negative band. Post hoc: each manuscript passage scores within 0.12 (fit) and 0.10 (transfer)
+bits per letter of its own shuffle and frequency copy, whereas a real cipher passage beats its
+shuffle under the true prior by a median 1.18 and 2.17. Under a Naibbe-class cipher of these eight
+languages, token order on these pages carries no structure the screen can use. This says nothing
+about other mechanisms, other languages, heavier pairing, or meaning.
+[Protocol](../experiments/voynich-language-screen/PROTOCOL.md),
+[report](../experiments/voynich-language-screen/REPORT.md).
+
+### What this week changed in the rules
+
+- Copy-mutate negatives are retired: they cannot conclude under the frozen work limit.
+- Two outcome classes were added for manuscript text, **unreadable** (coverage below 0.95) and
+  **inconclusive** (cap), so a mechanical failure is never counted as a linguistic rejection.
+- Ninety-two works are now released for hidden evaluation (see each round's
+  `released-source-ids.json`). Licensed medieval sources are finite; a third fresh confirmation
+  needs a method that has clearly earned it on released data first.
+
+---
+
+## 9. What it all means
 
 1. **No Voynich meaning has been recovered, and none is claimed.**
 2. **The decoding method works under known conditions.** For a Naibbe-class cipher of Italian, about
    98% of letters and 73% of words come back from 20,800 letters of ciphertext alone. With perfect
-   letters, word error on historical text is still 17–20%.
+   letters, word error on historical text is still 17–20%. The language screen, confirmed twice on
+   fresh sources, names the true language of a 5,200-letter Naibbe passage 16 times in 24 at the
+   published setting and 13 in 24 at the Voynich-like setting, with no false acceptance in about
+   250 control decisions.
 3. **Naibbe as a Voynich mechanism is constrained, not confirmed.** It needs about 75% letter pairing to
    match the near-duplicate rate, it still undershoots the v101 figure and the share of one-off forms,
-   and it is the regime where the decoder is weakest.
-4. **The language is open.** Latin is at least as plausible as Italian for an early 15th-century
-   scholarly manuscript. Any Voynich run must rank candidate languages with the control's score, and
-   must be willing to answer "none of these".
+   and it is the regime where the decoder is weakest. On the non-reserved pages the confirmed screen
+   cannot conclude: the text needs twice the key units of real Naibbe ciphertext, reads at 86–92%
+   coverage, and is indistinguishable from its own shuffle under every prior.
+4. **The language is open, and no ranking should be read as a candidate.** Occitan fits the
+   manuscript best under this cipher family, and fits the shuffled manuscript best too. Any run must
+   rank candidate languages with the control's score and be willing to answer "none of these";
+   here the answer is "cannot say".
+5. **What would move this.** A higher work limit and a coverage-tolerant rule, each re-confirmed on
+   controls, would let the screen conclude on manuscript text; longer passages would lower the
+   decoding cost that still fails Latin and Old French; and a different mechanism or unmodelled
+   language is untested. None of these is planned.
 
 ---
 
-## 9. What remains open
+## 10. What remains open
 
 | Item | Why | Cost |
 |---|---|---|
@@ -351,7 +530,7 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 
 ---
 
-## 10. Reproducing
+## 11. Reproducing
 
 Commands for each experiment are in [REPRODUCE.md](REPRODUCE.md), and the code layout is in
 [REPO_MAP.md](REPO_MAP.md). Recovery rounds keep a `PROTOCOL.md`, a `freeze.json` with hashes, and a
