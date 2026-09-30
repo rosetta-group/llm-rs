@@ -1,0 +1,3812 @@
+{
+  "at": 1790755227.330189,
+  "challenge": {
+    "at": 1790749822.7176309,
+    "blocks": [
+      {
+        "boundary_pages": [
+          "f11r",
+          "f11v",
+          "f13r",
+          "f13v",
+          "f14r",
+          "f14v",
+          "f15r",
+          "f15v",
+          "f16r",
+          "f16v",
+          "f17r",
+          "f17v",
+          "f18r",
+          "f18v",
+          "f19r",
+          "f19v",
+          "f1v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22r",
+          "f22v",
+          "f23r",
+          "f23v",
+          "f24r",
+          "f24v",
+          "f25r",
+          "f25v",
+          "f28r",
+          "f28v",
+          "f29r",
+          "f29v",
+          "f2r",
+          "f2v",
+          "f30r",
+          "f30v",
+          "f32r",
+          "f32v",
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f3r",
+          "f3v",
+          "f42r",
+          "f42v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f47r",
+          "f47v",
+          "f49r",
+          "f49v",
+          "f51r",
+          "f51v",
+          "f52r",
+          "f52v",
+          "f53r",
+          "f53v",
+          "f54r",
+          "f54v",
+          "f56r",
+          "f56v",
+          "f6r",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f87r",
+          "f87v",
+          "f8r",
+          "f8v",
+          "f90r1",
+          "f90r2",
+          "f90v1",
+          "f90v2",
+          "f93r",
+          "f93v",
+          "f96r",
+          "f96v",
+          "f9r",
+          "f9v"
+        ],
+        "fit": [
+          {
+            "currier": "A",
+            "pages": [
+              "f1v",
+              "f2r",
+              "f2v",
+              "f3r",
+              "f3v",
+              "f6r",
+              "f6v",
+              "f7r",
+              "f7v",
+              "f8r",
+              "f8v",
+              "f9r",
+              "f9v",
+              "f11r",
+              "f11v",
+              "f13r",
+              "f13v",
+              "f14r",
+              "f14v",
+              "f15r",
+              "f15v",
+              "f16r",
+              "f16v",
+              "f17r",
+              "f17v",
+              "f18r",
+              "f18v",
+              "f19r",
+              "f19v",
+              "f20r",
+              "f20v",
+              "f21r",
+              "f21v",
+              "f22r",
+              "f22v",
+              "f23r",
+              "f23v",
+              "f24r",
+              "f24v",
+              "f25r",
+              "f25v",
+              "f28r",
+              "f28v",
+              "f29r",
+              "f29v",
+              "f30r",
+              "f30v",
+              "f32r",
+              "f32v",
+              "f35r",
+              "f35v",
+              "f36r",
+              "f36v",
+              "f37r",
+              "f37v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v",
+              "f47r",
+              "f47v",
+              "f49r",
+              "f49v",
+              "f51r",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f53r",
+              "f53v",
+              "f54r",
+              "f54v",
+              "f56r",
+              "f56v",
+              "f87r",
+              "f87v",
+              "f90r1",
+              "f90r2",
+              "f90v2",
+              "f90v1",
+              "f93r",
+              "f93v",
+              "f96r",
+              "f96v"
+            ],
+            "section": "herbal",
+            "start": 0,
+            "stop": 3400,
+            "tokens": 3400
+          }
+        ],
+        "fit_hapax_share": 0.7133706965572458,
+        "fit_tokens": 3400,
+        "fit_types": 1249,
+        "ids": {
+          "frequency_copy": "11220d4ccec2c61b7590",
+          "shuffle": "c7158957c60ee483f514",
+          "voynich": "7aca6cc7ccbfc5131fe0"
+        },
+        "name": "herbal_A",
+        "readability": 0.93,
+        "seeds": [
+          6598920277678036247,
+          7371280040139462340,
+          6756621161992550435,
+          4184485837024737770
+        ],
+        "transfer": [
+          {
+            "currier": "A",
+            "pages": [
+              "f1v",
+              "f2r",
+              "f2v",
+              "f3r",
+              "f3v",
+              "f6r",
+              "f6v",
+              "f7r",
+              "f7v",
+              "f8r",
+              "f8v",
+              "f9r",
+              "f9v",
+              "f11r",
+              "f11v",
+              "f13r",
+              "f13v",
+              "f14r",
+              "f14v",
+              "f15r",
+              "f15v",
+              "f16r",
+              "f16v",
+              "f17r",
+              "f17v",
+              "f18r",
+              "f18v",
+              "f19r",
+              "f19v",
+              "f20r",
+              "f20v",
+              "f21r",
+              "f21v",
+              "f22r",
+              "f22v",
+              "f23r",
+              "f23v",
+              "f24r",
+              "f24v",
+              "f25r",
+              "f25v",
+              "f28r",
+              "f28v",
+              "f29r",
+              "f29v",
+              "f30r",
+              "f30v",
+              "f32r",
+              "f32v",
+              "f35r",
+              "f35v",
+              "f36r",
+              "f36v",
+              "f37r",
+              "f37v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v",
+              "f47r",
+              "f47v",
+              "f49r",
+              "f49v",
+              "f51r",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f53r",
+              "f53v",
+              "f54r",
+              "f54v",
+              "f56r",
+              "f56v",
+              "f87r",
+              "f87v",
+              "f90r1",
+              "f90r2",
+              "f90v2",
+              "f90v1",
+              "f93r",
+              "f93v",
+              "f96r",
+              "f96v"
+            ],
+            "section": "herbal",
+            "start": 3400,
+            "stop": 6800,
+            "tokens": 3400
+          }
+        ],
+        "transfer_tokens": 3400
+      },
+      {
+        "boundary_pages": [
+          "f103r",
+          "f103v",
+          "f104r",
+          "f104v",
+          "f105r",
+          "f105v",
+          "f106r",
+          "f106v",
+          "f111r",
+          "f111v",
+          "f112r",
+          "f112v",
+          "f113r",
+          "f113v",
+          "f115r",
+          "f115v",
+          "f116r"
+        ],
+        "fit": [
+          {
+            "currier": "B",
+            "pages": [
+              "f103r",
+              "f103v",
+              "f104r",
+              "f104v",
+              "f105r",
+              "f105v",
+              "f106r",
+              "f106v",
+              "f111r",
+              "f111v",
+              "f112r",
+              "f112v",
+              "f113r",
+              "f113v",
+              "f115r",
+              "f115v",
+              "f116r"
+            ],
+            "section": "stars",
+            "start": 0,
+            "stop": 3400,
+            "tokens": 3400
+          }
+        ],
+        "fit_hapax_share": 0.7169540229885057,
+        "fit_tokens": 3400,
+        "fit_types": 1392,
+        "ids": {
+          "frequency_copy": "b4ec4b0b48794201ec42",
+          "shuffle": "84c6d5347f6622bfe085",
+          "voynich": "41b8ae31ea99da8f27b6"
+        },
+        "name": "stars_B",
+        "readability": 0.9514705882352941,
+        "seeds": [
+          2605617297178986424,
+          129462075705995982,
+          8556127060815749336,
+          1089688571637168546
+        ],
+        "transfer": [
+          {
+            "currier": "B",
+            "pages": [
+              "f103r",
+              "f103v",
+              "f104r",
+              "f104v",
+              "f105r",
+              "f105v",
+              "f106r",
+              "f106v",
+              "f111r",
+              "f111v",
+              "f112r",
+              "f112v",
+              "f113r",
+              "f113v",
+              "f115r",
+              "f115v",
+              "f116r"
+            ],
+            "section": "stars",
+            "start": 3400,
+            "stop": 6800,
+            "tokens": 3400
+          }
+        ],
+        "transfer_tokens": 3400
+      },
+      {
+        "boundary_pages": [
+          "f75r",
+          "f75v",
+          "f77r",
+          "f77v",
+          "f79r",
+          "f79v",
+          "f80r",
+          "f80v",
+          "f81r",
+          "f81v",
+          "f82r",
+          "f82v",
+          "f83r",
+          "f83v",
+          "f84r",
+          "f84v"
+        ],
+        "fit": [
+          {
+            "currier": "B",
+            "pages": [
+              "f75r",
+              "f75v",
+              "f77r",
+              "f77v",
+              "f79r",
+              "f79v",
+              "f80r",
+              "f80v",
+              "f81r",
+              "f81v",
+              "f82r",
+              "f82v",
+              "f83r",
+              "f83v",
+              "f84r",
+              "f84v"
+            ],
+            "section": "balneological",
+            "start": 0,
+            "stop": 2600,
+            "tokens": 2600
+          }
+        ],
+        "fit_hapax_share": 0.6441798941798942,
+        "fit_tokens": 2600,
+        "fit_types": 756,
+        "ids": {
+          "frequency_copy": "8c51a7cc2fe5172932f3",
+          "shuffle": "f5c449b8a0f2bf791420",
+          "voynich": "3cc737f976d37dad2954"
+        },
+        "name": "balneological_B",
+        "readability": 0.9515384615384616,
+        "seeds": [
+          6999254099269952945,
+          2117422972006197637,
+          1737352312992752211,
+          1829746979800143383
+        ],
+        "transfer": [
+          {
+            "currier": "B",
+            "pages": [
+              "f75r",
+              "f75v",
+              "f77r",
+              "f77v",
+              "f79r",
+              "f79v",
+              "f80r",
+              "f80v",
+              "f81r",
+              "f81v",
+              "f82r",
+              "f82v",
+              "f83r",
+              "f83v",
+              "f84r",
+              "f84v"
+            ],
+            "section": "balneological",
+            "start": 2600,
+            "stop": 5200,
+            "tokens": 2600
+          }
+        ],
+        "transfer_tokens": 2600
+      },
+      {
+        "boundary_pages": [],
+        "fit": [
+          {
+            "currier": "B",
+            "pages": [
+              "f26r",
+              "f26v",
+              "f31r",
+              "f31v",
+              "f33r",
+              "f33v",
+              "f39r",
+              "f39v",
+              "f40r",
+              "f40v",
+              "f41r",
+              "f41v",
+              "f43r",
+              "f43v",
+              "f46r",
+              "f46v",
+              "f50r",
+              "f50v",
+              "f55r",
+              "f55v",
+              "f57r",
+              "f66v",
+              "f94r",
+              "f94v",
+              "f95r1",
+              "f95r2",
+              "f95v2",
+              "f95v1"
+            ],
+            "section": "herbal",
+            "start": 0,
+            "stop": null,
+            "tokens": 2877
+          }
+        ],
+        "fit_hapax_share": 0.7086684539767649,
+        "fit_tokens": 2877,
+        "fit_types": 1119,
+        "ids": {
+          "frequency_copy": "a9ad2e5d7a0f142cf221",
+          "shuffle": "2b43f020612b5c026fae",
+          "voynich": "436d309c0b63588eab92"
+        },
+        "name": "mixed_B",
+        "readability": 0.9143235196824346,
+        "seeds": [
+          8353705293949935034,
+          2468421741358297145,
+          2003185174407176942,
+          3492851243008037033
+        ],
+        "transfer": [
+          {
+            "currier": "B",
+            "pages": [
+              "f66r",
+              "f85r1",
+              "f86v6",
+              "f86v5"
+            ],
+            "section": "text",
+            "start": 0,
+            "stop": null,
+            "tokens": 1499
+          },
+          {
+            "currier": "B",
+            "pages": [
+              "f85r2",
+              "fRos",
+              "f86v4",
+              "f86v3"
+            ],
+            "section": "cosmological",
+            "start": 0,
+            "stop": null,
+            "tokens": 455
+          },
+          {
+            "currier": "B",
+            "pages": [
+              "f103r",
+              "f103v",
+              "f104r",
+              "f104v",
+              "f105r",
+              "f105v",
+              "f106r",
+              "f106v",
+              "f111r",
+              "f111v",
+              "f112r",
+              "f112v",
+              "f113r",
+              "f113v",
+              "f115r",
+              "f115v",
+              "f116r"
+            ],
+            "section": "stars",
+            "start": 6800,
+            "stop": null,
+            "tokens": 1069
+          }
+        ],
+        "transfer_tokens": 3023
+      }
+    ],
+    "commit": "ec029adc562a74ca149f271001cade58e0d4e9ac",
+    "data_sha256": "e36386b0bb9a827a8b11abaaa5e58bb01beea1d9451224e06d277ec4c141cf47",
+    "dropped_share": 0.027054423433185315,
+    "inputs": {
+      "artifacts/voynich-language-screen/public/11220d4ccec2c61b7590-fit.json": "8c7c105bd149ad067b43538766c5a1786a7650525f626568b41873bf6fd445de",
+      "artifacts/voynich-language-screen/public/11220d4ccec2c61b7590-transfer.json": "7ee93c40e4d93c94d2b684db41b6ba4da08af8c5784b23944e13ef007b70882f",
+      "artifacts/voynich-language-screen/public/2b43f020612b5c026fae-fit.json": "4493a1836d10ebb212eaa312640c6ccc1f07cef3a16a76686481b98bcb3d726d",
+      "artifacts/voynich-language-screen/public/2b43f020612b5c026fae-transfer.json": "9df31d50f8257251b5fa7578f0f8bf959318ce05686a1b5e52f3db2989885a79",
+      "artifacts/voynich-language-screen/public/3cc737f976d37dad2954-fit.json": "c225a7f1e5e37e0e2274682c38b34478dbb2160403a73f4be3c6c0c66dc933b3",
+      "artifacts/voynich-language-screen/public/3cc737f976d37dad2954-transfer.json": "e8ef7e0f3e8b4ff78f1c437716ea94a7aafdcdf9a775b23aaa1fd336f08e6b50",
+      "artifacts/voynich-language-screen/public/41b8ae31ea99da8f27b6-fit.json": "128aa70f23c751aff0a60df3d730e2a96622738e72cd99e0897dea5494c01488",
+      "artifacts/voynich-language-screen/public/41b8ae31ea99da8f27b6-transfer.json": "606184abeb19d2d48532650269105484c032d18975d1d1023956290572815269",
+      "artifacts/voynich-language-screen/public/436d309c0b63588eab92-fit.json": "4be1359d690f916153c98862810c1e92517cc21aaf5f59be491cd0f493e798ef",
+      "artifacts/voynich-language-screen/public/436d309c0b63588eab92-transfer.json": "bfab42e326a210de2af3c9e01d81513e0faca00271d4d9c17d823e9fb1f285c0",
+      "artifacts/voynich-language-screen/public/7aca6cc7ccbfc5131fe0-fit.json": "618f82d356c21af2a65a32a36d5076b14488f75072f59841603f521ce92a3058",
+      "artifacts/voynich-language-screen/public/7aca6cc7ccbfc5131fe0-transfer.json": "feb8b4daa8866295ea6ad691385f60da5266f8195f0b70ab9a0b8bf076d14b31",
+      "artifacts/voynich-language-screen/public/84c6d5347f6622bfe085-fit.json": "07d57af1c2f6266ecff7a601add9cc1699a83db14fe8e0d11ac60ab21e82e4e7",
+      "artifacts/voynich-language-screen/public/84c6d5347f6622bfe085-transfer.json": "a7413479de938bd1225da8991f641d2a8c1ab9b80f937cc2e5ba41e5656bba76",
+      "artifacts/voynich-language-screen/public/8c51a7cc2fe5172932f3-fit.json": "b2094bf998f65657665e3a368dce80f08c9c388734629a13d5c0eef6edcd46f0",
+      "artifacts/voynich-language-screen/public/8c51a7cc2fe5172932f3-transfer.json": "a411ead3a217caafcf84642f39e410af21b825b04237ce4fadfd37f0dd9a07f0",
+      "artifacts/voynich-language-screen/public/a9ad2e5d7a0f142cf221-fit.json": "0127d8f69018804a9e1ed2f3594fd4fef68875717e0971e47db595d19490e168",
+      "artifacts/voynich-language-screen/public/a9ad2e5d7a0f142cf221-transfer.json": "2a54ec9673126f21c641067792369277fc792b1f4fea85d805c9851d4799ac80",
+      "artifacts/voynich-language-screen/public/b4ec4b0b48794201ec42-fit.json": "aab69ec59a0772af0fdee9c0199878fe149557424412161b94b73771ccf48735",
+      "artifacts/voynich-language-screen/public/b4ec4b0b48794201ec42-transfer.json": "68fb51723c26157484b1d515d108981102876c57583619e6a718f4e2f0e64d55",
+      "artifacts/voynich-language-screen/public/c7158957c60ee483f514-fit.json": "b2698e5487a169ed89b9b083d1a67580c7e5cc161976cd4f5741f72727fa2185",
+      "artifacts/voynich-language-screen/public/c7158957c60ee483f514-transfer.json": "dd591986c354c304cb81ece05407718788fcad1fa0390aa96e5867375d40dfc8",
+      "artifacts/voynich-language-screen/public/f5c449b8a0f2bf791420-fit.json": "ebf987d29b00c9d4669437a159becea23deed43f40786a6a34a1fa3dfc31d781",
+      "artifacts/voynich-language-screen/public/f5c449b8a0f2bf791420-transfer.json": "8b140685cc3fe7c9c0b679fa0af9ee1c48353ef54d9d4d9204d7b7dbed3d20ee"
+    },
+    "kept_tokens": 27835,
+    "kinds": [
+      "voynich",
+      "shuffle",
+      "frequency_copy"
+    ],
+    "pages": 177,
+    "prior_freeze_sha256": "2aac5a3ce7f1cd7eeb9ae4c57ec3332917a5953c687e6d904444b1051c3bb047",
+    "protocol_sha256": "fb871f662750bcbbabdda951882f125ffe911ee275787a78e7d4e9230cfda706",
+    "raw_tokens": 28609
+  },
+  "decoder": "A",
+  "reference": {
+    "respacing17_confirmation": {
+      "negative_best_model": {
+        "fit_excess": {
+          "max": 1.0400921595900892,
+          "median": 0.8650878957556025,
+          "min": 0.3226571921490011
+        },
+        "transfer_excess": {
+          "max": 2.3723377736540243,
+          "median": 1.9844910391355608,
+          "min": 1.0471134196750587
+        }
+      },
+      "positive_true_model": {
+        "fit_excess": {
+          "max": 0.3784811811431177,
+          "median": 0.047150446216808195,
+          "min": -0.40195699119390094
+        },
+        "transfer_excess": {
+          "max": 1.1278534953755481,
+          "median": 0.26826064583559006,
+          "min": -0.21621042112145128
+        }
+      }
+    }
+  },
+  "reserved_pages_used": false,
+  "rows": [
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.48597552413533895,
+            "margin": 0.02232327881940588,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1593982469726196,
+            "margin": 0.1797267839540182,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.48597552413533895,
+            "margin": 0.02232327881940588,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.567454289004143,
+            "margin": 0.18510913106672744,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8820588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9773862780188027,
+            "recovered_letters": 4502,
+            "transfer_excess": 2.1755776131840454,
+            "transfer_excess_one_code": 1.759540296435934
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8835294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7102771962785006,
+            "recovered_letters": 4510,
+            "transfer_excess": 1.8240730347219953,
+            "transfer_excess_one_code": 1.4098823473605764
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8879411764705882,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2819946189241387,
+            "recovered_letters": 4496,
+            "transfer_excess": 2.645956562632051,
+            "transfer_excess_one_code": 2.233367594660521
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8870588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5082988029547448,
+            "recovered_letters": 4568,
+            "transfer_excess": 1.567454289004143,
+            "transfer_excess_one_code": 1.1593982469726196
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8844117647058823,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1655917840528334,
+            "recovered_letters": 4539,
+            "transfer_excess": 2.3481460087848376,
+            "transfer_excess_one_code": 1.9308734817965139
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8838235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1639376481939867,
+            "recovered_letters": 4565,
+            "transfer_excess": 2.315134212099841,
+            "transfer_excess_one_code": 1.9019907290768399
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8858823529411765,
+            "fit_cap_hits": null,
+            "fit_excess": 0.48597552413533895,
+            "recovered_letters": 4531,
+            "transfer_excess": 1.828457205067037,
+            "transfer_excess_one_code": 1.4179517978721576
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8861764705882353,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6364047711147078,
+            "recovered_letters": 4569,
+            "transfer_excess": 1.7525634200708704,
+            "transfer_excess_one_code": 1.3391250309266378
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 1.133576872131663,
+            "margin": 0.029074471380533318,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.14743828061202,
+            "margin": 0.23991054998495986,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 1.133576872131663,
+            "margin": 0.029074471380533318,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5486423227534951,
+            "margin": 0.2461139152508922,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8847058823529412,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4985287814602728,
+            "recovered_letters": 4573,
+            "transfer_excess": 2.2115008218366734,
+            "transfer_excess_one_code": 1.8062963608701308
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8841176470588236,
+            "fit_cap_hits": null,
+            "fit_excess": 1.199011186648466,
+            "recovered_letters": 4590,
+            "transfer_excess": 1.7947562380043873,
+            "transfer_excess_one_code": 1.3873488305969799
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8885294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 1.885494958038966,
+            "recovered_letters": 4597,
+            "transfer_excess": 2.678039931314421,
+            "transfer_excess_one_code": 2.274515893898716
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8870588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1820643283028671,
+            "recovered_letters": 4651,
+            "transfer_excess": 1.5486423227534951,
+            "transfer_excess_one_code": 1.14743828061202
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8844117647058823,
+            "fit_cap_hits": null,
+            "fit_excess": 2.05332160461304,
+            "recovered_letters": 4620,
+            "transfer_excess": 2.3223955591607144,
+            "transfer_excess_one_code": 1.9111401479053027
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8838235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.753855499161673,
+            "recovered_letters": 4633,
+            "transfer_excess": 2.264777459842916,
+            "transfer_excess_one_code": 1.85597107089407
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8858823529411765,
+            "fit_cap_hits": null,
+            "fit_excess": 1.133576872131663,
+            "recovered_letters": 4634,
+            "transfer_excess": 1.8577130453745112,
+            "transfer_excess_one_code": 1.4524476159398971
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8861764705882353,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1626513435121963,
+            "recovered_letters": 4618,
+            "transfer_excess": 1.8338244732446731,
+            "transfer_excess_one_code": 1.4226074961983328
+          }
+        }
+      },
+      "block": "herbal_A",
+      "id": "11220d4ccec2c61b7590",
+      "kind": "frequency_copy"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.37598105947589877,
+            "margin": 0.07844635165817593,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.182734093103449,
+            "margin": 0.017995134682669,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.37598105947589877,
+            "margin": 0.07844635165817593,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7103497195066821,
+            "margin": 0.007446233670318936,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8864705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 0.805371094041186,
+            "recovered_letters": 4451,
+            "transfer_excess": 2.167108693933419,
+            "transfer_excess_one_code": 1.6420581434953156
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.888235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5808628755823011,
+            "recovered_letters": 4470,
+            "transfer_excess": 1.9231592024122017,
+            "transfer_excess_one_code": 1.4048146833965411
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.885,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3076071768108601,
+            "recovered_letters": 4490,
+            "transfer_excess": 2.645069542597464,
+            "transfer_excess_one_code": 2.1225751105261947
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8861764705882353,
+            "fit_cap_hits": null,
+            "fit_excess": 0.4544274111340747,
+            "recovered_letters": 4541,
+            "transfer_excess": 1.717795953177001,
+            "transfer_excess_one_code": 1.200729227786118
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8855882352941177,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9463531738631215,
+            "recovered_letters": 4457,
+            "transfer_excess": 2.4286898588232573,
+            "transfer_excess_one_code": 1.8987369757180295
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8864705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9511126365098508,
+            "recovered_letters": 4463,
+            "transfer_excess": 2.1638800845366624,
+            "transfer_excess_one_code": 1.6362081150094387
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8855882352941177,
+            "fit_cap_hits": null,
+            "fit_excess": 0.37598105947589877,
+            "recovered_letters": 4454,
+            "transfer_excess": 1.7103497195066821,
+            "transfer_excess_one_code": 1.182734093103449
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8811764705882353,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5054378049403052,
+            "recovered_letters": 4467,
+            "transfer_excess": 1.8334020152465222,
+            "transfer_excess_one_code": 1.291651399620823
+          }
+        }
+      },
+      "B": {
+        "best_fit": "german",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9237071566822816,
+            "margin": 0.024539453425369562,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.2052827152830905,
+            "margin": 0.012856824625644858,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9237071566822816,
+            "margin": 0.024539453425369562,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7245049866043458,
+            "margin": 0.008693479537475124,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8867647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2907995921533502,
+            "recovered_letters": 4528,
+            "transfer_excess": 2.1398517286396075,
+            "transfer_excess_one_code": 1.6213004918904907
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8891176470588236,
+            "fit_cap_hits": null,
+            "fit_excess": 1.073461277303311,
+            "recovered_letters": 4541,
+            "transfer_excess": 1.8709284078387016,
+            "transfer_excess_one_code": 1.358706430300714
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8855882352941177,
+            "fit_cap_hits": null,
+            "fit_excess": 1.9782041414834817,
+            "recovered_letters": 4587,
+            "transfer_excess": 2.596998558219987,
+            "transfer_excess_one_code": 2.0787949392969436
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8861764705882353,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9237071566822816,
+            "recovered_letters": 4582,
+            "transfer_excess": 1.733198466141821,
+            "transfer_excess_one_code": 1.2181395399087354
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8864705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 1.6103051442319405,
+            "recovered_letters": 4568,
+            "transfer_excess": 2.4540273205545926,
+            "transfer_excess_one_code": 1.9343250438470623
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8870588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4094690226267264,
+            "recovered_letters": 4494,
+            "transfer_excess": 2.1822557666482587,
+            "transfer_excess_one_code": 1.658668761752843
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8870588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9482466101076512,
+            "recovered_letters": 4526,
+            "transfer_excess": 1.7245049866043458,
+            "transfer_excess_one_code": 1.2052827152830905
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8814705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9667119618515909,
+            "recovered_letters": 4521,
+            "transfer_excess": 1.8011622113234993,
+            "transfer_excess_one_code": 1.2643340759552184
+          }
+        }
+      },
+      "block": "herbal_A",
+      "id": "c7158957c60ee483f514",
+      "kind": "shuffle"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.3633144726536712,
+            "margin": 0.04657865445948062,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1078623217121684,
+            "margin": 0.07520145602797434,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.3633144726536712,
+            "margin": 0.04657865445948062,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.6059370668990316,
+            "margin": 0.06564910887988962,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8858823529411765,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8459589858564018,
+            "recovered_letters": 4415,
+            "transfer_excess": 2.1023967353537625,
+            "transfer_excess_one_code": 1.6238010388645217
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8841176470588236,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6612355564325991,
+            "recovered_letters": 4413,
+            "transfer_excess": 1.9640957589783072,
+            "transfer_excess_one_code": 1.4821107147906796
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8817647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2827272816601543,
+            "recovered_letters": 4457,
+            "transfer_excess": 2.5482693963327474,
+            "transfer_excess_one_code": 2.0611704508537256
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8873529411764706,
+            "fit_cap_hits": null,
+            "fit_excess": 0.45221558884120894,
+            "recovered_letters": 4481,
+            "transfer_excess": 1.7084419115804064,
+            "transfer_excess_one_code": 1.2380112041490294
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8838235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8025269494093448,
+            "recovered_letters": 4479,
+            "transfer_excess": 2.1343171070775284,
+            "transfer_excess_one_code": 1.652066604733255
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8808823529411764,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9933687366526844,
+            "recovered_letters": 4457,
+            "transfer_excess": 2.2779187699558894,
+            "transfer_excess_one_code": 1.786556867330805
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8817647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 0.3633144726536712,
+            "recovered_letters": 4415,
+            "transfer_excess": 1.6059370668990316,
+            "transfer_excess_one_code": 1.1078623217121684
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8817647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 0.40989312711315185,
+            "recovered_letters": 4487,
+            "transfer_excess": 1.6715861757789212,
+            "transfer_excess_one_code": 1.1830637777401427
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9140693425722826,
+            "margin": 0.01703750735026288,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.20161762590701,
+            "margin": 0.018794324847270616,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9140693425722826,
+            "margin": 0.01703750735026288,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.690476805942661,
+            "margin": 0.014330749207223548,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8870588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 1.352547164864827,
+            "recovered_letters": 4478,
+            "transfer_excess": 2.1187723159276812,
+            "transfer_excess_one_code": 1.6469098773390254
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8841176470588236,
+            "fit_cap_hits": null,
+            "fit_excess": 1.182680186039411,
+            "recovered_letters": 4498,
+            "transfer_excess": 1.9789164156919021,
+            "transfer_excess_one_code": 1.5047056553539742
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8826470588235295,
+            "fit_cap_hits": null,
+            "fit_excess": 1.818507136608508,
+            "recovered_letters": 4496,
+            "transfer_excess": 2.6670123452036467,
+            "transfer_excess_one_code": 2.1852507793673475
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8888235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9311068499225454,
+            "recovered_letters": 4552,
+            "transfer_excess": 1.7049873242783988,
+            "transfer_excess_one_code": 1.2443106986193477
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8838235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4832470106114215,
+            "recovered_letters": 4541,
+            "transfer_excess": 2.2393259382009436,
+            "transfer_excess_one_code": 1.7623384905021995
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8814705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 1.5427624569108747,
+            "recovered_letters": 4555,
+            "transfer_excess": 2.1939470469757416,
+            "transfer_excess_one_code": 1.7092050052633376
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8826470588235295,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9140693425722826,
+            "recovered_letters": 4488,
+            "transfer_excess": 1.690476805942661,
+            "transfer_excess_one_code": 1.20161762590701
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8817647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9810452318718101,
+            "recovered_letters": 4550,
+            "transfer_excess": 1.7048075551498845,
+            "transfer_excess_one_code": 1.2204119507542806
+          }
+        }
+      },
+      "block": "herbal_A",
+      "id": "7aca6cc7ccbfc5131fe0",
+      "kind": "voynich"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.30672382142949406,
+            "margin": 0.12295751729464,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1473108878577687,
+            "margin": 0.015354623034188553,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.30672382142949406,
+            "margin": 0.12295751729464,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.5206784750981885,
+            "margin": 0.011308819017938898,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9085294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7666746632261261,
+            "recovered_letters": 4766,
+            "transfer_excess": 1.8773743281584183,
+            "transfer_excess_one_code": 1.5087213697026902
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.9047058823529411,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6242759599296588,
+            "recovered_letters": 4593,
+            "transfer_excess": 1.717014942520657,
+            "transfer_excess_one_code": 1.341443420639533
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9052941176470588,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9359280316880327,
+            "recovered_letters": 4620,
+            "transfer_excess": 2.385963146974759,
+            "transfer_excess_one_code": 2.0106384716500836
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.903235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.42968133872413405,
+            "recovered_letters": 4671,
+            "transfer_excess": 1.5206784750981885,
+            "transfer_excess_one_code": 1.1473108878577687
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0105076641912705,
+            "recovered_letters": 4678,
+            "transfer_excess": 2.2803417388163405,
+            "transfer_excess_one_code": 1.9068915464264302
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8988235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9619758151825422,
+            "recovered_letters": 4694,
+            "transfer_excess": 2.073181740645414,
+            "transfer_excess_one_code": 1.6922699383446047
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.9094117647058824,
+            "fit_cap_hits": null,
+            "fit_excess": 0.30672382142949406,
+            "recovered_letters": 4733,
+            "transfer_excess": 1.5319872941161274,
+            "transfer_excess_one_code": 1.1626655108919572
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.9097058823529411,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6192483541164608,
+            "recovered_letters": 4710,
+            "transfer_excess": 1.8658727679143383,
+            "transfer_excess_one_code": 1.4964460163219813
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9444472582080237,
+            "margin": 0.04281586426587802,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1102372098240068,
+            "margin": 0.16202975594647562,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9444472582080237,
+            "margin": 0.04281586426587802,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4806859820509333,
+            "margin": 0.1615809837195492,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9088235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2995307785569814,
+            "recovered_letters": 4774,
+            "transfer_excess": 1.92003821077562,
+            "transfer_excess_one_code": 1.5526314240139945
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.9047058823529411,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1585806518730761,
+            "recovered_letters": 4700,
+            "transfer_excess": 1.6422669657704825,
+            "transfer_excess_one_code": 1.2722669657704824
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9052941176470588,
+            "fit_cap_hits": null,
+            "fit_excess": 1.7408062197367453,
+            "recovered_letters": 4759,
+            "transfer_excess": 2.5273829618174606,
+            "transfer_excess_one_code": 2.1579776245617346
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.903235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9872631224739017,
+            "recovered_letters": 4724,
+            "transfer_excess": 1.4806859820509333,
+            "transfer_excess_one_code": 1.1102372098240068
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 1.8291855024620585,
+            "recovered_letters": 4769,
+            "transfer_excess": 2.305949426659593,
+            "transfer_excess_one_code": 1.9375283740280143
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8988235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.6176187811989018,
+            "recovered_letters": 4737,
+            "transfer_excess": 2.112862847256505,
+            "transfer_excess_one_code": 1.7349865542440503
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.91,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9444472582080237,
+            "recovered_letters": 4778,
+            "transfer_excess": 1.6587986332555134,
+            "transfer_excess_one_code": 1.2919087211584022
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.9114705882352941,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1096241042788892,
+            "recovered_letters": 4740,
+            "transfer_excess": 1.816106198051409,
+            "transfer_excess_one_code": 1.4498614723130125
+          }
+        }
+      },
+      "block": "stars_B",
+      "id": "b4ec4b0b48794201ec42",
+      "kind": "frequency_copy"
+    },
+    {
+      "A": {
+        "best_fit": "german",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.28174891984332673,
+            "margin": 0.040855000621734305,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.0387602090463641,
+            "margin": 0.03644295719636714,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.28174891984332673,
+            "margin": 0.040855000621734305,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4799684075361164,
+            "margin": 0.038113579430655076,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9073529411764706,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6132585520420175,
+            "recovered_letters": 4637,
+            "transfer_excess": 1.921813869667215,
+            "transfer_excess_one_code": 1.4807959701632258
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.908235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5042924413156116,
+            "recovered_letters": 4650,
+            "transfer_excess": 1.8057141018003868,
+            "transfer_excess_one_code": 1.3717356071767313
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9076470588235294,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1010851521389275,
+            "recovered_letters": 4613,
+            "transfer_excess": 2.40597637307936,
+            "transfer_excess_one_code": 1.9615801016724665
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.9067647058823529,
+            "fit_cap_hits": null,
+            "fit_excess": 0.28174891984332673,
+            "recovered_letters": 4635,
+            "transfer_excess": 1.4799684075361164,
+            "transfer_excess_one_code": 1.0387602090463641
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9091176470588235,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7432171624295063,
+            "recovered_letters": 4694,
+            "transfer_excess": 2.05963245166003,
+            "transfer_excess_one_code": 1.6275915483792458
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.9047058823529411,
+            "fit_cap_hits": null,
+            "fit_excess": 0.795643385547423,
+            "recovered_letters": 4626,
+            "transfer_excess": 2.089054116814918,
+            "transfer_excess_one_code": 1.646987536616042
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.905,
+            "fit_cap_hits": null,
+            "fit_excess": 0.32260392046506103,
+            "recovered_letters": 4613,
+            "transfer_excess": 1.5180819869667714,
+            "transfer_excess_one_code": 1.0752031662427313
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.9085294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 0.34965428799260945,
+            "recovered_letters": 4663,
+            "transfer_excess": 1.6106883073375564,
+            "transfer_excess_one_code": 1.1783486118625404
+          }
+        }
+      },
+      "B": {
+        "best_fit": "old_french",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7543103892205636,
+            "margin": 0.025334750020081565,
+            "winner": "old_french"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1128375434718203,
+            "margin": 0.002677324167680073,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7543103892205636,
+            "margin": 0.025334750020081565,
+            "winner": "old_french"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.551773676095618,
+            "margin": 0.0006856980594851514,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9076470588235294,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1271155378794173,
+            "recovered_letters": 4675,
+            "transfer_excess": 1.8960058789590208,
+            "transfer_excess_one_code": 1.4583588201354916
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.908235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9834971389162099,
+            "recovered_letters": 4706,
+            "transfer_excess": 1.7252266719662561,
+            "transfer_excess_one_code": 1.295137424197451
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9088235294117647,
+            "fit_cap_hits": null,
+            "fit_excess": 1.7404790539370936,
+            "recovered_letters": 4706,
+            "transfer_excess": 2.4484295755854593,
+            "transfer_excess_one_code": 2.010265529686606
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.9070588235294118,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7796451392406452,
+            "recovered_letters": 4654,
+            "transfer_excess": 1.5524593741551032,
+            "transfer_excess_one_code": 1.1128375434718203
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9091176470588235,
+            "fit_cap_hits": null,
+            "fit_excess": 1.331989834527806,
+            "recovered_letters": 4727,
+            "transfer_excess": 2.1056830488122777,
+            "transfer_excess_one_code": 1.673696588054927
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.9047058823529411,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3073565722321239,
+            "recovered_letters": 4678,
+            "transfer_excess": 2.092201707464851,
+            "transfer_excess_one_code": 1.6529114124669886
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8444120407538986,
+            "recovered_letters": 4683,
+            "transfer_excess": 1.551773676095618,
+            "transfer_excess_one_code": 1.1155148676395004
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.9085294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7543103892205636,
+            "recovered_letters": 4681,
+            "transfer_excess": 1.6138990951040815,
+            "transfer_excess_one_code": 1.182367371113481
+          }
+        }
+      },
+      "block": "stars_B",
+      "id": "84c6d5347f6622bfe085",
+      "kind": "shuffle"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.1984182933304508,
+            "margin": 0.12647696410748965,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.068618559036373,
+            "margin": 0.07480067943762991,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.1984182933304508,
+            "margin": 0.12647696410748965,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4995745529665698,
+            "margin": 0.07354591573590463,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9055882352941177,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6062264707763689,
+            "recovered_letters": 4569,
+            "transfer_excess": 1.9415060008315272,
+            "transfer_excess_one_code": 1.5059621181438496
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.905,
+            "fit_cap_hits": null,
+            "fit_excess": 0.491317915281531,
+            "recovered_letters": 4562,
+            "transfer_excess": 1.6963426972890954,
+            "transfer_excess_one_code": 1.2557464675652898
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9058823529411765,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0143883822727071,
+            "recovered_letters": 4611,
+            "transfer_excess": 2.265730250212684,
+            "transfer_excess_one_code": 1.8222255874497257
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.9073529411764706,
+            "fit_cap_hits": null,
+            "fit_excess": 0.3352760497219842,
+            "recovered_letters": 4552,
+            "transfer_excess": 1.5731204687024745,
+            "transfer_excess_one_code": 1.143419238474003
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9085294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7691611654439114,
+            "recovered_letters": 4635,
+            "transfer_excess": 2.160588878128162,
+            "transfer_excess_one_code": 1.7342674110299958
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.9073529411764706,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8047883169377683,
+            "recovered_letters": 4622,
+            "transfer_excess": 2.027577725239182,
+            "transfer_excess_one_code": 1.5961627533655336
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 0.1984182933304508,
+            "recovered_letters": 4613,
+            "transfer_excess": 1.4995745529665698,
+            "transfer_excess_one_code": 1.068618559036373
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.905,
+            "fit_cap_hits": null,
+            "fit_excess": 0.32489525743794045,
+            "recovered_letters": 4615,
+            "transfer_excess": 1.6328840343500146,
+            "transfer_excess_one_code": 1.1925806757367972
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.686362749616229,
+            "margin": 0.05669149667733908,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.0564463039959437,
+            "margin": 0.10732532694109631,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.686362749616229,
+            "margin": 0.05669149667733908,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.485048316412985,
+            "margin": 0.10549428366790581,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.9055882352941177,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9931058013255178,
+            "recovered_letters": 4603,
+            "transfer_excess": 1.9510689268583148,
+            "transfer_excess_one_code": 1.5152661895131052
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.905,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9620288469065734,
+            "recovered_letters": 4642,
+            "transfer_excess": 1.6958403041029273,
+            "transfer_excess_one_code": 1.2593904979848753
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.9058823529411765,
+            "fit_cap_hits": null,
+            "fit_excess": 1.6477283145889228,
+            "recovered_letters": 4680,
+            "transfer_excess": 2.2354563061567685,
+            "transfer_excess_one_code": 1.7980631437636063
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.9073529411764706,
+            "fit_cap_hits": null,
+            "fit_excess": 0.774818253996818,
+            "recovered_letters": 4602,
+            "transfer_excess": 1.5905426000808909,
+            "transfer_excess_one_code": 1.16377163093704
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.9085294117647059,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3613625754792587,
+            "recovered_letters": 4679,
+            "transfer_excess": 2.2330579043238794,
+            "transfer_excess_one_code": 1.8086082355912438
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.9091176470588235,
+            "fit_cap_hits": null,
+            "fit_excess": 1.281701925108497,
+            "recovered_letters": 4680,
+            "transfer_excess": 2.046380643096653,
+            "transfer_excess_one_code": 1.6224490191650296
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 0.686362749616229,
+            "recovered_letters": 4671,
+            "transfer_excess": 1.485048316412985,
+            "transfer_excess_one_code": 1.0564463039959437
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.9061764705882352,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7430542462935681,
+            "recovered_letters": 4677,
+            "transfer_excess": 1.6007848482409028,
+            "transfer_excess_one_code": 1.170166930772441
+          }
+        }
+      },
+      "block": "stars_B",
+      "id": "41b8ae31ea99da8f27b6",
+      "kind": "voynich"
+    },
+    {
+      "A": {
+        "best_fit": "german",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.41675952689617857,
+            "margin": 0.01570861777411947,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.0904372914817468,
+            "margin": 0.12069217873511606,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.41675952689617857,
+            "margin": 0.01570861777411947,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4297864039077828,
+            "margin": 0.12598750419636273,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9196153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8524652129814188,
+            "recovered_letters": 3374,
+            "transfer_excess": 2.07886475528021,
+            "transfer_excess_one_code": 1.7400977131936655
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.9176923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7638116661771748,
+            "recovered_letters": 3304,
+            "transfer_excess": 1.782902076146435,
+            "transfer_excess_one_code": 1.429391180262658
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.915,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1512535075667483,
+            "recovered_letters": 3276,
+            "transfer_excess": 2.4874249098800876,
+            "transfer_excess_one_code": 2.1269242993794766
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9184615384615384,
+            "fit_cap_hits": null,
+            "fit_excess": 0.41675952689617857,
+            "recovered_letters": 3380,
+            "transfer_excess": 1.4297864039077828,
+            "transfer_excess_one_code": 1.0904372914817468
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1159707677711523,
+            "recovered_letters": 3370,
+            "transfer_excess": 2.1395242815529674,
+            "transfer_excess_one_code": 1.7947171598912472
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9173076923076923,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9483893568978976,
+            "recovered_letters": 3414,
+            "transfer_excess": 1.984831200490469,
+            "transfer_excess_one_code": 1.643296344017124
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.9153846153846154,
+            "fit_cap_hits": null,
+            "fit_excess": 0.43246814467029804,
+            "recovered_letters": 3389,
+            "transfer_excess": 1.5557739081041455,
+            "transfer_excess_one_code": 1.211129470216863
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5112013031278,
+            "recovered_letters": 3359,
+            "transfer_excess": 1.5755870931535036,
+            "transfer_excess_one_code": 1.2228035266158437
+          }
+        }
+      },
+      "B": {
+        "best_fit": "german",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 1.0934115310287735,
+            "margin": 0.1289390414902809,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.2242791147338234,
+            "margin": 0.010713678522714876,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 1.0934115310287735,
+            "margin": 0.1289390414902809,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.561124300569352,
+            "margin": 0.016825623045891636,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9196153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 1.5703706643478617,
+            "recovered_letters": 3419,
+            "transfer_excess": 2.163509874136408,
+            "transfer_excess_one_code": 1.8256917986757477
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.9176923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 1.277933912564868,
+            "recovered_letters": 3356,
+            "transfer_excess": 1.8787342987856368,
+            "transfer_excess_one_code": 1.5277211879393917
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.9173076923076923,
+            "fit_cap_hits": null,
+            "fit_excess": 1.776548674987147,
+            "recovered_letters": 3398,
+            "transfer_excess": 2.4420213502840245,
+            "transfer_excess_one_code": 2.0988783249750194
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9184615384615384,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0934115310287735,
+            "recovered_letters": 3417,
+            "transfer_excess": 1.561124300569352,
+            "transfer_excess_one_code": 1.2242791147338234
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 2.029995287423164,
+            "recovered_letters": 3471,
+            "transfer_excess": 2.1719715911661828,
+            "transfer_excess_one_code": 1.8360453451275776
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9173076923076923,
+            "fit_cap_hits": null,
+            "fit_excess": 1.9291516165238307,
+            "recovered_letters": 3524,
+            "transfer_excess": 2.0826913365797073,
+            "transfer_excess_one_code": 1.7478445715399809
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.9153846153846154,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2223505725190544,
+            "recovered_letters": 3429,
+            "transfer_excess": 1.5779499236152437,
+            "transfer_excess_one_code": 1.2349927932565383
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2796575612229595,
+            "recovered_letters": 3383,
+            "transfer_excess": 1.6332221812860204,
+            "transfer_excess_one_code": 1.2805766004406167
+          }
+        }
+      },
+      "block": "balneological_B",
+      "id": "8c51a7cc2fe5172932f3",
+      "kind": "frequency_copy"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.2885260501297955,
+            "margin": 0.16525584651268588,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.9188338171288781,
+            "margin": 0.19870884511984999,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.2885260501297955,
+            "margin": 0.16525584651268588,
+            "winner": "occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.3588693516269532,
+            "margin": 0.21895721276614255,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9173076923076923,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7253557535881647,
+            "recovered_letters": 3379,
+            "transfer_excess": 1.8717469730664753,
+            "transfer_excess_one_code": 1.4367070204177628
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.9146153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6056634762256285,
+            "recovered_letters": 3291,
+            "transfer_excess": 1.8268311527873848,
+            "transfer_excess_one_code": 1.3780313958745927
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.9146153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2818899978964664,
+            "recovered_letters": 3303,
+            "transfer_excess": 2.4550051313095986,
+            "transfer_excess_one_code": 1.9963311985212249
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9115384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.45378189664248136,
+            "recovered_letters": 3311,
+            "transfer_excess": 1.5778265643930958,
+            "transfer_excess_one_code": 1.1175426622487281
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7825851950470772,
+            "recovered_letters": 3364,
+            "transfer_excess": 2.0516986575008884,
+            "transfer_excess_one_code": 1.6120434850870957
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9134615384615384,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8298750799104955,
+            "recovered_letters": 3365,
+            "transfer_excess": 1.979205659503029,
+            "transfer_excess_one_code": 1.5266053623262086
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.2885260501297955,
+            "recovered_letters": 3377,
+            "transfer_excess": 1.3588693516269532,
+            "transfer_excess_one_code": 0.9188338171288781
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.9134615384615384,
+            "fit_cap_hits": null,
+            "fit_excess": 0.46414756093030496,
+            "recovered_letters": 3393,
+            "transfer_excess": 1.676249103809679,
+            "transfer_excess_one_code": 1.226204895144781
+          }
+        }
+      },
+      "B": {
+        "best_fit": "german",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.8765850159569641,
+            "margin": 0.11404796570140308,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.9836384772585709,
+            "margin": 0.06517893872429026,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.8765850159569641,
+            "margin": 0.11404796570140308,
+            "winner": "german"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4178910171714878,
+            "margin": 0.08474285262782688,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9176923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 1.346505452888115,
+            "recovered_letters": 3423,
+            "transfer_excess": 1.9381961112502992,
+            "transfer_excess_one_code": 1.5078718343002553
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.9146153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0098923698149402,
+            "recovered_letters": 3337,
+            "transfer_excess": 1.8583559312845024,
+            "transfer_excess_one_code": 1.4109480799210035
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.9146153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 1.8548144516693101,
+            "recovered_letters": 3392,
+            "transfer_excess": 2.4176111483671168,
+            "transfer_excess_one_code": 1.9650757710086264
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9115384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8765850159569641,
+            "recovered_letters": 3367,
+            "transfer_excess": 1.5026338697993147,
+            "transfer_excess_one_code": 1.0488174159828612
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 1.5753770232926447,
+            "recovered_letters": 3448,
+            "transfer_excess": 1.9209034621967893,
+            "transfer_excess_one_code": 1.4913791002478334
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4752307412230707,
+            "recovered_letters": 3388,
+            "transfer_excess": 1.994075804013018,
+            "transfer_excess_one_code": 1.5404158276257687
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9906329816583672,
+            "recovered_letters": 3445,
+            "transfer_excess": 1.4178910171714878,
+            "transfer_excess_one_code": 0.9836384772585709
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1077939320261225,
+            "recovered_letters": 3455,
+            "transfer_excess": 1.6227727145317448,
+            "transfer_excess_one_code": 1.1770418896402837
+          }
+        }
+      },
+      "block": "balneological_B",
+      "id": "f5c449b8a0f2bf791420",
+      "kind": "shuffle"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.33360883910903416,
+            "margin": 0.042196647101708784,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.0457480690702803,
+            "margin": 0.056269488043169336,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.33360883910903416,
+            "margin": 0.042196647101708784,
+            "winner": "occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.4606707260311533,
+            "margin": 0.06970048961888109,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9134615384615384,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6025840046282167,
+            "recovered_letters": 3320,
+            "transfer_excess": 1.780078833619493,
+            "transfer_excess_one_code": 1.3541752191616618
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.916923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5091484127861547,
+            "recovered_letters": 3312,
+            "transfer_excess": 1.7508694638121147,
+            "transfer_excess_one_code": 1.335410526614047
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.9165384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1150482694039505,
+            "recovered_letters": 3322,
+            "transfer_excess": 2.3853284533432415,
+            "transfer_excess_one_code": 1.9687119572565468
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9142307692307692,
+            "fit_cap_hits": null,
+            "fit_excess": 0.37580548621074295,
+            "recovered_letters": 3280,
+            "transfer_excess": 1.5303712156500344,
+            "transfer_excess_one_code": 1.1020175571134496
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9126923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7763325612547125,
+            "recovered_letters": 3335,
+            "transfer_excess": 2.0196200123682697,
+            "transfer_excess_one_code": 1.6016290078705184
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8892460412576195,
+            "recovered_letters": 3285,
+            "transfer_excess": 2.105307733180894,
+            "transfer_excess_one_code": 1.676083988888656
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.916923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.33360883910903416,
+            "recovered_letters": 3297,
+            "transfer_excess": 1.4606707260311533,
+            "transfer_excess_one_code": 1.0457480690702803
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.9115384615384615,
+            "fit_cap_hits": null,
+            "fit_excess": 0.4600710458018682,
+            "recovered_letters": 3270,
+            "transfer_excess": 1.6657037454783254,
+            "transfer_excess_one_code": 1.2320646017474393
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7620665905170569,
+            "margin": 0.07990037544678819,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 0.9543565198077766,
+            "margin": 0.1587570522800985,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "unreadable",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7620665905170569,
+            "margin": 0.07990037544678819,
+            "winner": "occitan"
+          },
+          "inconclusive": false,
+          "reasons": [
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.3648264781658965,
+            "margin": 0.1676419326316565,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "unreadable",
+        "scores": {
+          "catalan": {
+            "cap_hit": false,
+            "coverage": 0.9138461538461539,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1616006584490775,
+            "recovered_letters": 3388,
+            "transfer_excess": 1.7242901934766968,
+            "transfer_excess_one_code": 1.3022122713987745
+          },
+          "czech": {
+            "cap_hit": false,
+            "coverage": 0.916923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 1.04203972987061,
+            "recovered_letters": 3343,
+            "transfer_excess": 1.817752906152565,
+            "transfer_excess_one_code": 1.4061465645432323
+          },
+          "english": {
+            "cap_hit": false,
+            "coverage": 0.9173076923076923,
+            "fit_cap_hits": null,
+            "fit_excess": 1.7493610937007178,
+            "recovered_letters": 3395,
+            "transfer_excess": 2.4657689526703717,
+            "transfer_excess_one_code": 2.054281471079798
+          },
+          "german": {
+            "cap_hit": false,
+            "coverage": 0.9146153846153846,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8419669659638451,
+            "recovered_letters": 3348,
+            "transfer_excess": 1.532468410797553,
+            "transfer_excess_one_code": 1.113113572087875
+          },
+          "italian": {
+            "cap_hit": false,
+            "coverage": 0.9126923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4246557369494983,
+            "recovered_letters": 3360,
+            "transfer_excess": 2.018670049985661,
+            "transfer_excess_one_code": 1.5972414785570894
+          },
+          "latin": {
+            "cap_hit": false,
+            "coverage": 0.9142307692307692,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3333235547693323,
+            "recovered_letters": 3283,
+            "transfer_excess": 2.0934870489290556,
+            "transfer_excess_one_code": 1.6673524159713948
+          },
+          "occitan": {
+            "cap_hit": false,
+            "coverage": 0.916923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7620665905170569,
+            "recovered_letters": 3362,
+            "transfer_excess": 1.3648264781658965,
+            "transfer_excess_one_code": 0.9543565198077766
+          },
+          "old_french": {
+            "cap_hit": false,
+            "coverage": 0.911923076923077,
+            "fit_cap_hits": null,
+            "fit_excess": 0.991796891148145,
+            "recovered_letters": 3296,
+            "transfer_excess": 1.7344279530302873,
+            "transfer_excess_one_code": 1.304512904486598
+          }
+        }
+      },
+      "block": "balneological_B",
+      "id": "3cc737f976d37dad2954",
+      "kind": "voynich"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.42076262733039815,
+            "margin": 0.12127947975495035,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.2442283698957892,
+            "margin": 0.0094335453236849,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.42076262733039815,
+            "margin": 0.12127947975495035,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7014350183701135,
+            "margin": 0.003783559364926692,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8630499503804168,
+            "fit_cap_hits": null,
+            "fit_excess": 0.804530455229687,
+            "recovered_letters": 4008,
+            "transfer_excess": 2.3197659185007957,
+            "transfer_excess_one_code": 1.8711631240896187
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8527952365200132,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6500223209628198,
+            "recovered_letters": 4037,
+            "transfer_excess": 1.9274173233944394,
+            "transfer_excess_one_code": 1.4718810340706847
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8498180615282832,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9377089650099046,
+            "recovered_letters": 3934,
+            "transfer_excess": 2.509501353244418,
+            "transfer_excess_one_code": 2.036191744703493
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8564340059543499,
+            "fit_cap_hits": null,
+            "fit_excess": 0.5420421070853485,
+            "recovered_letters": 4031,
+            "transfer_excess": 1.7014350183701135,
+            "transfer_excess_one_code": 1.2442283698957892
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8617267614952034,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0279610443508336,
+            "recovered_letters": 4070,
+            "transfer_excess": 2.442616616375415,
+            "transfer_excess_one_code": 2.0052701790289778
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8498180615282832,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0675499986837713,
+            "recovered_letters": 3980,
+            "transfer_excess": 2.3029639971804303,
+            "transfer_excess_one_code": 1.8439187710497769
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.85544161429044,
+            "fit_cap_hits": null,
+            "fit_excess": 0.42076262733039815,
+            "recovered_letters": 4015,
+            "transfer_excess": 1.7052185777350402,
+            "transfer_excess_one_code": 1.2536619152194741
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8604035726099901,
+            "fit_cap_hits": null,
+            "fit_excess": 0.617433752088683,
+            "recovered_letters": 4008,
+            "transfer_excess": 1.9730222763732512,
+            "transfer_excess_one_code": 1.5189304600059859
+          }
+        }
+      },
+      "B": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9606691972669119,
+            "margin": 0.12194266556812083,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.314887023922998,
+            "margin": 0.02759288881015065,
+            "winner": "catalan_occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.9606691972669119,
+            "margin": 0.12194266556812083,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.761524450823582,
+            "margin": 0.03827403509529814,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8630499503804168,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2811816246917305,
+            "recovered_letters": 4092,
+            "transfer_excess": 2.229829183382641,
+            "transfer_excess_one_code": 1.7855476584559549
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8537876281839233,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1137074663716886,
+            "recovered_letters": 4065,
+            "transfer_excess": 1.7997984859188803,
+            "transfer_excess_one_code": 1.3424799127331486
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8508104531921932,
+            "fit_cap_hits": null,
+            "fit_excess": 1.4626638210461245,
+            "recovered_letters": 4059,
+            "transfer_excess": 2.582753260166272,
+            "transfer_excess_one_code": 2.1198313582199795
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8570956003969566,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0826118628350327,
+            "recovered_letters": 4100,
+            "transfer_excess": 1.8116106090537265,
+            "transfer_excess_one_code": 1.3620984139317747
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8620575587165068,
+            "fit_cap_hits": null,
+            "fit_excess": 1.900440873380508,
+            "recovered_letters": 4158,
+            "transfer_excess": 2.559915469497403,
+            "transfer_excess_one_code": 2.1260530356349685
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8498180615282832,
+            "fit_cap_hits": null,
+            "fit_excess": 1.6826100144535014,
+            "recovered_letters": 4061,
+            "transfer_excess": 2.3095621650408265,
+            "transfer_excess_one_code": 1.8562255484439292
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8557724115117433,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9606691972669119,
+            "recovered_letters": 4104,
+            "transfer_excess": 1.761524450823582,
+            "transfer_excess_one_code": 1.314887023922998
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8604035726099901,
+            "fit_cap_hits": null,
+            "fit_excess": 1.1835700823827335,
+            "recovered_letters": 4126,
+            "transfer_excess": 1.9383030626875075,
+            "transfer_excess_one_code": 1.4928352972972987
+          }
+        }
+      },
+      "block": "mixed_B",
+      "id": "a9ad2e5d7a0f142cf221",
+      "kind": "frequency_copy"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "occitan",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.24948097918699164,
+            "margin": 0.09517355676687744,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1903495809264832,
+            "margin": 0.002575398806231366,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.24948097918699164,
+            "margin": 0.09517355676687744,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7487544103464692,
+            "margin": 0.011519982610089574,
+            "winner": "occitan"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8567648031756533,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6907517765279838,
+            "recovered_letters": 3952,
+            "transfer_excess": 2.122019714444761,
+            "transfer_excess_one_code": 1.54130109096298
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.85742639761826,
+            "fit_cap_hits": null,
+            "fit_excess": 0.48408194008005134,
+            "recovered_letters": 3927,
+            "transfer_excess": 2.0355590461944946,
+            "transfer_excess_one_code": 1.4394296853592516
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8527952365200132,
+            "fit_cap_hits": null,
+            "fit_excess": 1.28848133372877,
+            "recovered_letters": 3918,
+            "transfer_excess": 2.7820749518745265,
+            "transfer_excess_one_code": 2.1886599442175587
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8613959642739001,
+            "fit_cap_hits": null,
+            "fit_excess": 0.3446545359538691,
+            "recovered_letters": 3990,
+            "transfer_excess": 1.7602743929565587,
+            "transfer_excess_one_code": 1.1903495809264832
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8557724115117433,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7913859769048419,
+            "recovered_letters": 3991,
+            "transfer_excess": 2.3473420464832326,
+            "transfer_excess_one_code": 1.7615239557791487
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8577571948395634,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8199344326489904,
+            "recovered_letters": 3988,
+            "transfer_excess": 2.3445242456834507,
+            "transfer_excess_one_code": 1.7682955596252765
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8640423420443268,
+            "fit_cap_hits": null,
+            "fit_excess": 0.24948097918699164,
+            "recovered_letters": 4057,
+            "transfer_excess": 1.7487544103464692,
+            "transfer_excess_one_code": 1.1929249797327146
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8524644392987099,
+            "fit_cap_hits": null,
+            "fit_excess": 0.3978101407879113,
+            "recovered_letters": 3872,
+            "transfer_excess": 1.9311097907769814,
+            "transfer_excess_one_code": 1.3208308651571472
+          }
+        }
+      },
+      "B": {
+        "best_fit": "german",
+        "best_transfer": "german",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.6923304276704787,
+            "margin": 0.12175920671636131,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1874927075991257,
+            "margin": 0.02725400709383985,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.6923304276704787,
+            "margin": 0.12175920671636131,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7527639486196849,
+            "margin": 0.012598856916480106,
+            "winner": "german"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8570956003969566,
+            "fit_cap_hits": null,
+            "fit_excess": 1.086663676355787,
+            "recovered_letters": 4008,
+            "transfer_excess": 2.1598359398599625,
+            "transfer_excess_one_code": 1.5829896324747326
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8580879920608667,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9250340857398758,
+            "recovered_letters": 4003,
+            "transfer_excess": 2.021273436924301,
+            "transfer_excess_one_code": 1.4347133569842558
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8541184254052266,
+            "fit_cap_hits": null,
+            "fit_excess": 1.8384356471198373,
+            "recovered_letters": 3987,
+            "transfer_excess": 2.8288846844191653,
+            "transfer_excess_one_code": 2.244485386701583
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8623883559378102,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6923304276704787,
+            "recovered_letters": 4037,
+            "transfer_excess": 1.7527639486196849,
+            "transfer_excess_one_code": 1.1874927075991257
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8557724115117433,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3932902874798314,
+            "recovered_letters": 4044,
+            "transfer_excess": 2.480335953968308,
+            "transfer_excess_one_code": 1.8992281399228084
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8577571948395634,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2942186619986145,
+            "recovered_letters": 4025,
+            "transfer_excess": 2.337745294324311,
+            "transfer_excess_one_code": 1.7643291452559882
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8640423420443268,
+            "fit_cap_hits": null,
+            "fit_excess": 0.9061359656488066,
+            "recovered_letters": 4139,
+            "transfer_excess": 1.765362805536165,
+            "transfer_excess_one_code": 1.2147467146929656
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8524644392987099,
+            "fit_cap_hits": null,
+            "fit_excess": 0.81408963438684,
+            "recovered_letters": 3978,
+            "transfer_excess": 1.9163421022690605,
+            "transfer_excess_one_code": 1.3183028865827855
+          }
+        }
+      },
+      "block": "mixed_B",
+      "id": "2b43f020612b5c026fae",
+      "kind": "shuffle"
+    },
+    {
+      "A": {
+        "best_fit": "occitan",
+        "best_transfer": "old_french",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.2874336814598273,
+            "margin": 0.04682699295972448,
+            "winner": "catalan_occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1379605991695656,
+            "margin": 0.032332485954655876,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.2874336814598273,
+            "margin": 0.04682699295972448,
+            "winner": "occitan"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.6910457852799827,
+            "margin": 0.0295092105451622,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8541184254052266,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6288398122150918,
+            "recovered_letters": 3923,
+            "transfer_excess": 2.0373251666129493,
+            "transfer_excess_one_code": 1.477294577777874
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8584187892821701,
+            "fit_cap_hits": null,
+            "fit_excess": 0.6162648084380518,
+            "recovered_letters": 4011,
+            "transfer_excess": 1.9118795488476295,
+            "transfer_excess_one_code": 1.3618920145669007
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8484948726430698,
+            "fit_cap_hits": null,
+            "fit_excess": 1.2627341486287458,
+            "recovered_letters": 3906,
+            "transfer_excess": 2.6118739344043744,
+            "transfer_excess_one_code": 2.030716740343954
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8587495865034733,
+            "fit_cap_hits": null,
+            "fit_excess": 0.33426067441955176,
+            "recovered_letters": 4009,
+            "transfer_excess": 1.720554995825145,
+            "transfer_excess_one_code": 1.1702930851242215
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8567648031756533,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7263578121183274,
+            "recovered_letters": 3948,
+            "transfer_excess": 2.293182379330906,
+            "transfer_excess_one_code": 1.7346717410330337
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8547800198478333,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7881749191777478,
+            "recovered_letters": 3938,
+            "transfer_excess": 2.2438167754814367,
+            "transfer_excess_one_code": 1.6790630934093191
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8564340059543499,
+            "fit_cap_hits": null,
+            "fit_excess": 0.2874336814598273,
+            "recovered_letters": 3953,
+            "transfer_excess": 1.8073303803241454,
+            "transfer_excess_one_code": 1.24977915340788
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8547800198478333,
+            "fit_cap_hits": null,
+            "fit_excess": 0.361558660480775,
+            "recovered_letters": 4003,
+            "transfer_excess": 1.6910457852799827,
+            "transfer_excess_one_code": 1.1379605991695656
+          }
+        }
+      },
+      "B": {
+        "best_fit": "german",
+        "best_transfer": "old_french",
+        "candidate": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7457243342490356,
+            "margin": 0.004063374962476107,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.1755438947712666,
+            "margin": 0.081859423340219,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "candidate_outcome": "inconclusive",
+        "primary": {
+          "accepted": null,
+          "fit": {
+            "excess": 0.7457243342490356,
+            "margin": 0.004063374962476107,
+            "winner": "german"
+          },
+          "inconclusive": true,
+          "reasons": [
+            "compute_cap",
+            "fit_margin",
+            "transfer_margin",
+            "winner_changed",
+            "coverage",
+            "transfer_excess"
+          ],
+          "transfer": {
+            "excess": 1.7188993356948727,
+            "margin": 0.08978285006001974,
+            "winner": "old_french"
+          },
+          "transfer_ceiling": 0.5,
+          "variant": "transfer_centered"
+        },
+        "primary_outcome": "inconclusive",
+        "scores": {
+          "catalan": {
+            "cap_hit": true,
+            "coverage": 0.8541184254052266,
+            "fit_cap_hits": null,
+            "fit_excess": 1.065464570964453,
+            "recovered_letters": 4000,
+            "transfer_excess": 2.050375363655796,
+            "transfer_excess_one_code": 1.4986253636557958
+          },
+          "czech": {
+            "cap_hit": true,
+            "coverage": 0.8584187892821701,
+            "fit_cap_hits": null,
+            "fit_excess": 1.0386933220504062,
+            "recovered_letters": 4070,
+            "transfer_excess": 1.9580391466099476,
+            "transfer_excess_one_code": 1.4120932006640023
+          },
+          "english": {
+            "cap_hit": true,
+            "coverage": 0.8494872643069799,
+            "fit_cap_hits": null,
+            "fit_excess": 1.7435103578120357,
+            "recovered_letters": 4003,
+            "transfer_excess": 2.5846498135981175,
+            "transfer_excess_one_code": 2.0125788668082096
+          },
+          "german": {
+            "cap_hit": true,
+            "coverage": 0.8587495865034733,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7457243342490356,
+            "recovered_letters": 4027,
+            "transfer_excess": 1.8086821857548925,
+            "transfer_excess_one_code": 1.2574033181114856
+          },
+          "italian": {
+            "cap_hit": true,
+            "coverage": 0.8567648031756533,
+            "fit_cap_hits": null,
+            "fit_excess": 1.3748751763726599,
+            "recovered_letters": 4030,
+            "transfer_excess": 2.3574980031098622,
+            "transfer_excess_one_code": 1.8053888219684229
+          },
+          "latin": {
+            "cap_hit": true,
+            "coverage": 0.8547800198478333,
+            "fit_cap_hits": null,
+            "fit_excess": 1.266727683528972,
+            "recovered_letters": 4028,
+            "transfer_excess": 2.191903837164101,
+            "transfer_excess_one_code": 1.6338104905901187
+          },
+          "occitan": {
+            "cap_hit": true,
+            "coverage": 0.8564340059543499,
+            "fit_cap_hits": null,
+            "fit_excess": 0.7497877092115117,
+            "recovered_letters": 4036,
+            "transfer_excess": 1.832614233592985,
+            "transfer_excess_one_code": 1.2820691394403592
+          },
+          "old_french": {
+            "cap_hit": true,
+            "coverage": 0.8561032087330467,
+            "fit_cap_hits": null,
+            "fit_excess": 0.8705845115609843,
+            "recovered_letters": 4071,
+            "transfer_excess": 1.7188993356948727,
+            "transfer_excess_one_code": 1.1755438947712666
+          }
+        }
+      },
+      "block": "mixed_B",
+      "id": "436d309c0b63588eab92",
+      "kind": "voynich"
+    }
+  ],
+  "summary": {
+    "frequency_copy": {
+      "candidate": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      },
+      "primary": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      }
+    },
+    "shuffle": {
+      "candidate": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      },
+      "primary": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      }
+    },
+    "voynich": {
+      "candidate": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      },
+      "primary": {
+        "accepted": 0,
+        "inconclusive": 3,
+        "rejected": 0,
+        "unreadable": 1
+      }
+    }
+  }
+}

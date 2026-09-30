@@ -340,13 +340,14 @@ more between v101 and EVA. These form an exclusion set for robustness checks.
 
 | Item | Why | Cost |
 |---|---|---|
-| Plan fresh rejection confirmation | the three development follow-ups passed their comparisons, but share only three source/key blocks | source audit and representative work-budget checks before a new freeze |
-| Admit missing true pieces without false ones | the letter bottleneck (33–38 missing at RESPACING 17, 52–56 at 9) | about 2 h CPU per development run |
-| Develop and test at RESPACING 9 | the only Naibbe regime that matches the manuscript | same |
+| Fresh rejection confirmation | done twice: 13/24 with narrow priors, then 16/24 with rebuilt Latin, German and Catalan priors, 0 false acceptances ([round two](../experiments/key-recovery-confirmation-v2/REPORT.md)) | closed |
+| Admit missing true pieces without false ones | whole-token admission adopted and confirmed; half pieces and split-point moves gave no gain; the residual split-point error may not be determined by 5,200 letters ([attempts](../experiments/lexicon-admission-development/REPORT.md)) | closed for now |
+| Develop and test at RESPACING 9 | confirmed rule 13/24, candidate rule 19/24 with no false acceptance, five negatives at the work limit ([report](../experiments/respacing9-development/REPORT.md)) | a higher work limit, re-confirmed, before any freeze |
+| Transfer scoring bug | one length code per gap inflated transfer excess by about 0.13 bits per letter; fixed in `voynich/rejection_v3.py`, frozen files untouched, not yet confirmed on fresh text ([rescore](../experiments/transfer-length-rescore/REPORT.md)) | part of any next freeze |
 | Historical spelling model, retry | v4 missed by 0.05 points; needs a new author and its own protocol | minutes |
-| Historical-language key recovery and replication | Eight candidates now include Czech and Occitan; the new controls rank correctly 2/2 but accept only Czech. Improve recovery on released cases, confirm on new works; medical Latin and a second Catalan author remain gaps | bounded development, then a new source audit/freeze |
 | Human review of the 50 suspect loci and the image pilot | needs a human eye | reviewer time |
-| Voynich scoring run | still gated: no sealed case has met 1% / 10% | a deliberate decision |
+| Language screen on non-reserved pages | run once, 2026-09-30: no decision; three blocks over the work limit, one unreadable; the manuscript scores like its own shuffle ([report](../experiments/voynich-language-screen/REPORT.md)) | a second run needs a higher work limit and a coverage-tolerant rule, both re-confirmed first; not planned |
+| Voynich mechanism test on the reserved pages | still gated: no sealed case has met 1% / 10% | a deliberate decision |
 
 ---
 

@@ -8,7 +8,7 @@
 > Sections: overall goal · evidence required · current work (newest first) · image studies ·
 > archived matched-context suite · what we tried and found · what we know · recovery evidence · resources.
 
-Updated: 2026-09-23. This is the current project overview and research record.
+Updated: 2026-09-30. This is the current project overview and research record.
 Older reports preserve earlier experiments and may contain superseded next steps.
 
 ## Overall goal
@@ -53,6 +53,46 @@ rules, account for repeated forms, and make checkable predictions beyond the mat
 used to invent it. We must also record contradictions and competing readings.
 
 ## Current work: benchmark, not another prediction sweep
+
+### 2026-09-30: language screen on the non-reserved Voynich pages, one shot
+
+Pre-registered ([protocol](experiments/voynich-language-screen/PROTOCOL.md)), run once, no tuning.
+Four blocks of ZL Eva text from the train and validation folios (herbal A, stars B, balneological B,
+mixed B), each with a fit and a transfer passage plus token-shuffle and frequency-copy negatives;
+decoder A, the eight confirmed priors, the confirmed rule. The 30 reserved pages were not read.
+
+- **No decision reached.** Three blocks are inconclusive: their keys need 652–815 units against
+  356 on Naibbe controls, so refinement hit the frozen 20,000,000-proposal limit in all 72 fits.
+  The fourth block is unreadable: coverage 0.917 against the 0.95 gate. Coverage was 0.855–0.918
+  in every block; no control was below 0.961. Nothing was accepted, manuscript or negative.
+- **Descriptive:** best-fitting prior Occitan in 11 of 12 inputs, including the shuffles; transfer
+  excess 1.46–1.81 for the manuscript, inside the negative band (1.05–2.37).
+- **Post-hoc:** every manuscript passage scores within 0.12 (fit) and 0.10 (transfer) bits per
+  letter of its own shuffle and frequency copy; a real cipher passage beats its shuffle by a
+  median 1.18 and 2.17. Under a Naibbe-class cipher of these eight languages, token order on
+  these pages carries no usable structure. Not a test of other mechanisms, languages or pairing.
+- The recovery gate is unmet, the mechanism test stays closed, no reading is claimed.
+  [Report](experiments/voynich-language-screen/REPORT.md).
+
+### 2026-09-26 to 2026-09-30: key-recovery confirmations for the language screen
+
+Whole-token admission (`voynich/whole_admission.py`) fixed the missing-piece bottleneck on released
+cases; the first fresh confirmation failed on sensitivity, 13/24, because the Latin, German and
+Catalan priors were too narrow for other genres ([round one](experiments/key-recovery-confirmation/REPORT.md)).
+Rebuilt priors from 46 pinned works reached 19/24 on the released round and passed a second fresh
+confirmation at exactly the threshold, 16/24 with 0 false acceptances in 72 wrong-language, omitted
+and negative decisions ([round two](experiments/key-recovery-confirmation-v2/REPORT.md)). An
+independent code review then found that the transfer score charged one length code per unreadable
+gap, about 0.13 bits per letter; the fix (`voynich/rejection_v3.py`) leaves the frozen files
+untouched and, rescored post hoc, gives 20/24 but one Catalan block accepted as Occitan when
+Catalan is omitted ([rescore](experiments/transfer-length-rescore/REPORT.md)). Four attempts to
+lower decoding cost further (joint half-piece admission, EM on the unpruned lexicon, split-point
+moves by description length, successor variety) gave no gain; the residual error is a systematic
+split point that the ciphertext may not determine at 5,200 letters
+([oracles](experiments/recovery-oracles/REPORT.md), [attempts](experiments/lexicon-admission-development/REPORT.md)).
+At Voynich-like pairing (RESPACING 9) the confirmed rule accepts 13/24 and a candidate rule
+(one length code, Catalan–Occitan grouped) 19/24 with no false acceptance, but five negatives
+hit the work limit, so nothing was frozen ([RESPACING 9](experiments/respacing9-development/REPORT.md)).
 
 ### 2026-09-25: preserve and integrate the complete Etruscan branch
 

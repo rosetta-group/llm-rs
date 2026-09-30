@@ -160,3 +160,4 @@ unchanged; all 66 exposed monuments are development material.
 | Cloud compute | pod and volumes deleted 2026-09-21; $8.89 balance at check | [audit](../experiments/cloud-cleanup.json) |
 | Voynich final test pages | never scored | all reports |
 | Reserved Voynich mechanism test | closed until a recovery gate is met | [protocol](../experiments/joint-development/PROTOCOL.md) |
+| Language screen, non-reserved pages (2026-09-30) | no decision: 3 blocks inconclusive (work limit), 1 unreadable (coverage 0.917); 0 accepted; manuscript within 0.12 / 0.10 bits of its own shuffle on fit / transfer, where cipher passages separate by 1.18 / 2.17 | [report](../experiments/voynich-language-screen/REPORT.md) |
